@@ -1,0 +1,27 @@
+---
+import Section from '../Section.astro'
+import Icon from '../Icon.astro'
+const faqs = [
+  ['Are you accepting new patients?', 'Yes. You can request a visit online or call either office. We will find the next open time for you.'],
+  ['What should I bring to my first visit?', 'Your insurance card, a photo ID, a list of current medicines, and any records you have. For children, vaccine records help.'],
+  ['Do you see newborns and teenagers?', 'Yes. Our pediatrician sees newborns through teens, and our family physician sees adults.'],
+  ['What if my child is sick today?', 'Call the office. We hold room for same-day sick visits. In an emergency, call 911.'],
+  ['Can I ask for a visit without calling?', 'Yes. The request form asks for your name, phone number and a preferred time. Please do not write medical details in it.'],
+]
+---
+<Section id="faq" tone="lavender">
+  <div class="md:grid md:grid-cols-[1fr_1.7fr] md:gap-16">
+    <div>
+      <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
+      <h2 class="text-[1.9rem] md:text-4xl">Questions, answered</h2>
+    </div>
+    <div class="mt-6 divide-y divide-line border-y border-line md:mt-2">
+      {faqs.map(([q, a]) => (
+        <details class="group py-1">
+          <summary class="flex min-h-14 cursor-pointer items-center justify-between gap-4 py-2 text-[1.02rem] font-semibold text-indigo md:text-lg">{q}<Icon name="plus" size={20} class="shrink-0 text-teal-deep transition-transform duration-200 group-open:rotate-45" /></summary>
+          <p class="pb-4 pr-8 text-[0.97rem] md:text-base">{a}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</Section>
