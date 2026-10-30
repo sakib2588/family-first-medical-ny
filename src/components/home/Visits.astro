@@ -1,0 +1,22 @@
+---
+import Section from '../Section.astro'
+import Icon from '../Icon.astro'
+const picks = [
+  { icon: 'calendar', label: 'Check-up or physical', value: 'checkup' },
+  { icon: 'sun', label: 'Sick visit', value: 'sick' },
+  { icon: 'baby', label: 'New baby', value: 'newborn' },
+  { icon: 'shield', label: 'Vaccines', value: 'vaccines' },
+] as const
+---
+<Section id="new-patients">
+  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
+  <h2 class="text-[1.9rem] md:text-4xl">What brings you in?</h2>
+  <p class="mt-3 md:text-lg">Pick one. It takes about 30 seconds and asks nothing medical.</p>
+  <ul class="mt-6 grid grid-cols-2 gap-3 md:mt-10 md:grid-cols-4 md:gap-5">
+    {picks.map(p => (
+      <li><a href="#request" data-visit={p.value} class="btn flex min-h-28 flex-col items-start justify-between rounded-2xl border border-line bg-white p-4 text-indigo hover:border-teal-deep md:min-h-40 md:p-6">
+        <Icon name={p.icon} size={26} class="text-teal-deep" /><span class="text-[1.02rem] font-semibold leading-snug md:text-lg">{p.label}</span>
+      </a></li>
+    ))}
+  </ul>
+</Section>

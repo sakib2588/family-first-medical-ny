@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+!.env.example
+# notes, logs, research and captures live outside the repo (../workspace); belt and braces:
+notes/
+logs/
+research/
+workspace/
+captures/
+*.log
+.DS_Store

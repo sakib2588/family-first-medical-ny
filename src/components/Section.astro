@@ -1,0 +1,9 @@
+---
+// Shared section frame: tone sets the ground; the inner container sets the max width.
+interface Props { id?: string; tone?: 'cream' | 'lavender' | 'indigo'; class?: string; label?: string }
+const { id, tone = 'cream', class: cls = '', label } = Astro.props
+const tones = { cream: 'bg-cream', lavender: 'bg-lavender', indigo: 'on-dark bg-indigo text-[#e6e2f5]' }
+---
+<section id={id} aria-label={label} class={`px-5 py-14 md:px-8 md:py-20 ${tones[tone]} ${cls}`}>
+  <div class="mx-auto max-w-[1160px]"><slot /></div>
+</section>
