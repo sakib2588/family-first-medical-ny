@@ -1,0 +1,17 @@
+---
+// Shared page shell: header, main, footer, sticky bar and the call dialog. Every page uses this.
+import Base from './Base.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/home/Footer.astro'
+import StickyBar from '../components/StickyBar.astro'
+import CallDialog from '../components/CallDialog.astro'
+interface Props { title: string; description?: string }
+const { title, description } = Astro.props
+---
+<Base title={title} description={description}>
+  <Header />
+  <main id="main"><slot /></main>
+  <Footer />
+  <StickyBar />
+  <CallDialog />
+</Base>

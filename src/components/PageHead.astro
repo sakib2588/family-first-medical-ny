@@ -1,0 +1,14 @@
+---
+// Inner-page heading: gold rule, H1, optional lead. Breadcrumb is a real <nav> for screen readers.
+interface Props { title: string; lead?: string; crumbs?: readonly (readonly [label: string, href: string])[] }
+const { title, lead, crumbs = [] } = Astro.props
+---
+<div class="px-5 pb-6 pt-10 md:px-8 md:pb-10 md:pt-16"><div class="mx-auto max-w-[1160px]">
+  {crumbs.length > 0 && (<nav aria-label="Breadcrumb" class="mb-5 text-sm text-muted"><ol class="flex flex-wrap gap-x-2">
+    <li><a class="inline-flex min-h-11 items-center underline underline-offset-4" href="/">Home</a></li>
+    {crumbs.map(([label, href]) => (<li class="flex items-center gap-2"><span aria-hidden="true">/</span><a class="inline-flex min-h-11 items-center underline underline-offset-4" href={href}>{label}</a></li>))}
+  </ol></nav>)}
+  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
+  <h1 class="text-[2.1rem] md:text-5xl">{title}</h1>
+  {lead && <p class="mt-4 max-w-2xl md:text-lg">{lead}</p>}
+</div></div>
