@@ -1,6 +1,6 @@
 ---
 // Small line-icon set, one stroke weight. Decorative by default (aria-hidden).
-interface Props { name: 'check' | 'phone' | 'pin' | 'clock' | 'plus' | 'baby' | 'heart' | 'sun' | 'shield' | 'calendar' | 'arrow'; size?: number; class?: string }
+interface Props { name: 'check' | 'phone' | 'pin' | 'clock' | 'plus' | 'baby' | 'heart' | 'sun' | 'shield' | 'calendar' | 'arrow' | 'star'; size?: number; class?: string }
 const { name, size = 22, class: cls = '' } = Astro.props
 const paths: Record<string, string> = {
   check: 'M20 6 9 17l-5-5',
@@ -14,6 +14,7 @@ const paths: Record<string, string> = {
   shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z',
   calendar: 'M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z',
   arrow: 'M5 12h14M13 6l6 6-6 6',
+  star: 'M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.3l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z',
 }
 ---
 <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class={cls}><path d={paths[name]} /></svg>

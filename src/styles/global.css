@@ -41,6 +41,9 @@ img { outline: 1px solid rgb(0 0 0 / 0.08); outline-offset: -1px; }
 }
 
 .arch { border-radius: 999px 999px 1.25rem 1.25rem; overflow: hidden; }
+/* One grade for every stand-in photo so the set reads as one shoot. Replace with real, graded photos. */
+.arch img { filter: saturate(0.92) sepia(0.05) contrast(1.03); }
+::selection { background: var(--color-gold); color: var(--color-indigo); }
 .btn { transition-property: transform, background-color, color, border-color; transition-duration: 150ms; transition-timing-function: ease-out; }
 .btn:active { transform: scale(0.97); }
 details > summary { list-style: none; }

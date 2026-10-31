@@ -2,8 +2,8 @@
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 const offices = [
-  { name: 'Elmhurst office', addr: '123 Sample Street, Elmhurst, NY 11373', phone: '(718) 555-0142', today: 'Open today, 9 AM to 6 PM' },
-  { name: 'Hicksville office', addr: '456 Example Avenue, Hicksville, NY 11801', phone: '(516) 555-0188', today: 'Open today, 10 AM to 5 PM' },
+  { name: 'Elmhurst office', addr: '123 Sample Street, Elmhurst, NY 11373', phone: '(718) 555-0142', today: 'Open today, 9 AM to 6 PM', week: [['Monday to Friday', '9 AM to 6 PM'], ['Saturday', '9 AM to 4 PM'], ['Sunday', 'Closed']] },
+  { name: 'Hicksville office', addr: '456 Example Avenue, Hicksville, NY 11801', phone: '(516) 555-0188', today: 'Open today, 10 AM to 5 PM', week: [['Monday to Friday', '10 AM to 5 PM'], ['Saturday', 'Closed'], ['Sunday', 'Closed']] },
 ]
 ---
 <Section id="locations" tone="lavender">
@@ -15,9 +15,12 @@ const offices = [
         <h3 class="text-xl md:text-2xl">{o.name}</h3>
         <p class="mt-3 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="pin" size={18} class="mt-1 shrink-0 text-teal-deep" />{o.addr}</p>
         <p class="tabular mt-2 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="clock" size={18} class="mt-1 shrink-0 text-teal-deep" />{o.today}</p>
+        <dl class="tabular mt-5 divide-y divide-line rounded-2xl border border-line text-[0.95rem]">
+          {o.week.map(([day, hours]) => (<div class="flex justify-between gap-4 px-4 py-2.5"><dt class="text-muted">{day}</dt><dd class="font-semibold text-indigo">{hours}</dd></div>))}
+        </dl>
         <div class="mt-5 grid grid-cols-2 gap-3 md:max-w-sm">
-          <a href={`tel:+1${o.phone.replace(/\D/g, '')}`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal-deep font-semibold text-teal-deep hover:bg-teal-deep hover:text-white">Call</a>
-          <a href="#locations" class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-line font-semibold text-indigo hover:border-indigo">Directions</a>
+          <a href={`tel:+1${o.phone.replace(/\D/g, '')}`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker">Call</a>
+          <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(o.addr)}`} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-line font-semibold text-indigo hover:border-indigo">Directions<Icon name="arrow" size={18} /></a>
         </div>
       </li>
     ))}
