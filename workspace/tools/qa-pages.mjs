@@ -30,7 +30,7 @@ for (const [w, h] of [[390, 844], [1280, 800]]) {
   }
   // call dialog
   await p.goto(BASE + '/doctors', { waitUntil: 'networkidle' })
-  await p.click('header [data-call]'); const open1 = await p.evaluate(() => document.getElementById('call-dialog').open)
+  await p.locator('[data-call]:visible').first().click(); const open1 = await p.evaluate(() => document.getElementById('call-dialog').open)
   await p.keyboard.press('Escape'); const open2 = await p.evaluate(() => document.getElementById('call-dialog').open)
   out.push(`${w} dialog opens=${open1} afterEscape=${open2} errors=${JSON.stringify(errs)}`)
   await ctx.close()

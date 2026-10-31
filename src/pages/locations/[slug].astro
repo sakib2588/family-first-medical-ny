@@ -16,7 +16,7 @@ const team = doctors.filter(d => o.doctors.includes(d.slug))
       <p class="tabular flex items-start gap-2 text-lg font-semibold text-indigo"><Icon name="clock" size={20} class="mt-1 shrink-0 text-teal-deep" /><OpenNow office={o} /></p>
       <div class="mt-5 flex flex-wrap gap-3">
         <a href={telHref(o.phone)} class="btn inline-flex min-h-12 items-center justify-center rounded-full bg-teal-deep px-6 font-semibold text-white hover:bg-teal-darker">Call {o.phone}</a>
-        <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-line px-6 font-semibold text-indigo hover:border-indigo">Get directions</a>
+        <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Get directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-line px-6 font-semibold text-indigo hover:border-indigo">Get directions</a>
         <a href="/contact" class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-teal-deep px-6 font-semibold text-teal-deep hover:bg-teal-deep hover:text-white">Request a visit</a>
       </div>
       <h2 class="mt-10 text-2xl">Hours</h2>
