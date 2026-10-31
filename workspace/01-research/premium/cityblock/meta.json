@@ -1,0 +1,589 @@
+{
+  "url": "https://www.cityblock.com/",
+  "slug": "cityblock",
+  "capturedAt": "2026-10-30T18:41:38.374Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 11801,
+      "consoleErrors": [
+        "Connecting to 'https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=562695197.1793385705&dt=Cityblock%20%7C%20Home&en=page_view&dl=https%3A%2F%2Fwww.cityblock.com%2F&scrsrc=www.googletagma",
+        "Fetch API cannot load https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=562695197.1793385705&dt=Cityblock%20%7C%20Home&en=page_view&dl=https%3A%2F%2Fwww.cityblock.com%2F&scrsrc=www.goog",
+        "Connecting to 'https://ad.doubleclick.net/ccm/s/collect?auid=562695197.1793385705&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=8' violates the following Content Security Policy directive: \"connect",
+        "Fetch API cannot load https://ad.doubleclick.net/ccm/s/collect?auid=562695197.1793385705&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=8. Refused to connect because it violates the document's Conte",
+        "Loading the image 'https://ad.doubleclick.net/ccm/s/collect?auid=562695197.1793385705&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=3' violates the following Content Security Policy directive: \"img",
+        "Connecting to 'https://analytics.google.com/g/collect?v=2&tid=G-FQTTTXTR21&gtm=45je6at0h2v883214314za20oxf1&_p=1793385701517&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIACAC&_geo=1&_rdi=1&cid=13690866",
+        "Fetch API cannot load https://analytics.google.com/g/collect?v=2&tid=G-FQTTTXTR21&gtm=45je6at0h2v883214314za20oxf1&_p=1793385701517&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIACAC&_geo=1&_rdi=1&cid=1",
+        "Loading the image 'https://www.google.com.bd/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-FQTTTXTR21&cid=1369086649.1793385705&gtm=45je6at0h2v883214314za20oxf1&rcb=0&aip=1&dma=0&gcd=13l3l",
+        "Connecting to 'https://www.google.com/g/collect?v=2&tid=G-FQTTTXTR21&gtm=45je6at0h2v883214314za20oxf1&_p=1793385701517&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIACAC&_geo=1&_rdi=1&cid=1369086649.179",
+        "Fetch API cannot load https://www.google.com/g/collect?v=2&tid=G-FQTTTXTR21&gtm=45je6at0h2v883214314za20oxf1&_p=1793385701517&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIACAC&_geo=1&_rdi=1&cid=1369086"
+      ],
+      "title": "Cityblock | Home",
+      "h1": [
+        "Care that is high touch, high trust, and high tech."
+      ],
+      "h2": [
+        "Together, we make real change.",
+        "Learn more about Cityblock"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://www.cityblock.com/#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.cityblock.com/",
+          "inFooter": false
+        },
+        {
+          "text": "What We Do",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": false
+        },
+        {
+          "text": "What We Do",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Care Overview",
+          "href": "https://www.cityblock.com/member-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.cityblock.com/urgentcare",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital to Home",
+          "href": "https://www.cityblock.com/hospital-home",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://www.cityblock.com/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://www.cityblock.com/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Social Care",
+          "href": "https://www.cityblock.com/social-care",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": false
+        },
+        {
+          "text": "For Partners",
+          "href": "https://www.cityblock.com/partners",
+          "inFooter": false
+        },
+        {
+          "text": "For Providers",
+          "href": "https://www.cityblock.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "Provider Careers",
+          "href": "https://www.cityblock.com/provider-careers",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Call now",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "833-904-2273",
+          "href": "tel:+18339042273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Get support",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Call us",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Read more",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Apply here",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.cityblock.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Our Approach",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": true
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://www.cityblock.com/testimonials",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Records Request",
+          "href": "https://app.chartrequest.com/m/cityblock",
+          "inFooter": true
+        },
+        {
+          "text": "For Payers",
+          "href": "https://www.cityblock.com/partners",
+          "inFooter": true
+        },
+        {
+          "text": "For Providers",
+          "href": "https://www.cityblock.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "AI Report",
+          "href": "https://www.cityblock.com/ai-report",
+          "inFooter": true
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Provider Careers",
+          "href": "https://www.cityblock.com/provider-careers",
+          "inFooter": true
+        },
+        {
+          "text": "Press Room",
+          "href": "https://www.cityblock.com/media",
+          "inFooter": true
+        },
+        {
+          "text": "Non-discrimination notice",
+          "href": "https://www.cityblock.com/non-discrimination",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://www.cityblock.com/privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of use",
+          "href": "https://www.cityblock.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.cityblock.com/hipaa",
+          "inFooter": true
+        },
+        {
+          "text": "Compliance Reporting",
+          "href": "https://www.cityblock.com/compliance-reporting",
+          "inFooter": true
+        }
+      ],
+      "footerText": "For Members Our Approach Locations Coverage Testimonials Medical Records Request For Partners For Payers For Providers AI Report About Us Our Story Careers Provider Careers Press Room High touch, high trust, and high tech. 495 Flatbush Ave, Brooklyn, NY 11225 © Cityblock Health 2026 There is no change to your health plan benefits when you join Cityblock Health. All medical services are provided by licensed physicians and health care practitioners employed by Cityblock Medical Practice, P.A.. Cityblock Health, Inc. provides management and administrative services to Cityblock Medical Practices. Non-discrimination notice Privacy policy Terms of use Notice of Privacy Practices Compliance Reporting",
+      "telLinks": [
+        {
+          "text": "Call now",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "833-904-2273",
+          "href": "tel:+18339042273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Get support",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Call us",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 5,
+      "scrollHeight": 5865,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.sc-f03ddc02-10 dcTNUZ nav ",
+        "DIV.sc-f03ddc02-3 jOCLSt   hidden",
+        "DIV.sc-86905296-0 dBlZCv hidden"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 8836,
+      "consoleErrors": [
+        "Connecting to 'https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1239512012.1793385714&dt=Cityblock%20%7C%20Home&en=page_view&dl=https%3A%2F%2Fwww.cityblock.com%2F&scrsrc=www.googletagm",
+        "Fetch API cannot load https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1239512012.1793385714&dt=Cityblock%20%7C%20Home&en=page_view&dl=https%3A%2F%2Fwww.cityblock.com%2F&scrsrc=www.goo",
+        "Connecting to 'https://ad.doubleclick.net/ccm/s/collect?auid=1239512012.1793385714&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=8' violates the following Content Security Policy directive: \"connec",
+        "Fetch API cannot load https://ad.doubleclick.net/ccm/s/collect?auid=1239512012.1793385714&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=8. Refused to connect because it violates the document's Cont",
+        "Loading the image 'https://ad.doubleclick.net/ccm/s/collect?auid=1239512012.1793385714&gtm=45He6as1v867229317za200zd867229317xeaxf1&fmt=3' violates the following Content Security Policy directive: \"im",
+        "Connecting to 'https://www.googleadservices.com/pagead/conversion/10926956936/?random=1793385714984&cv=11&fst=1793385714984&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1v9138112198z886722",
+        "Fetch API cannot load https://www.googleadservices.com/pagead/conversion/10926956936/?random=1793385714984&cv=11&fst=1793385714984&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1v9138112198",
+        "Loading the image 'https://www.googleadservices.com/ccm/conversion/10926956936/?random=1793385714984&cv=11&fst=1793385714984&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1v9138112198z88672",
+        "Connecting to 'https://www.google.com/pagead/1p-conversion/10926956936/?random=1793385714984&cv=11&fst=1793385714984&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1v9138112198z8867229317za2",
+        "Fetch API cannot load https://www.google.com/pagead/1p-conversion/10926956936/?random=1793385714984&cv=11&fst=1793385714984&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6as1v9138112198z886722"
+      ],
+      "title": "Cityblock | Home",
+      "h1": [
+        "Care that is high touch, high trust, and high tech."
+      ],
+      "h2": [
+        "Together, we make real change.",
+        "Learn more about Cityblock"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://www.cityblock.com/#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.cityblock.com/",
+          "inFooter": false
+        },
+        {
+          "text": "What We Do",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": false
+        },
+        {
+          "text": "What We Do",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Care Overview",
+          "href": "https://www.cityblock.com/member-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.cityblock.com/urgentcare",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital to Home",
+          "href": "https://www.cityblock.com/hospital-home",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://www.cityblock.com/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://www.cityblock.com/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Social Care",
+          "href": "https://www.cityblock.com/social-care",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": false
+        },
+        {
+          "text": "For Partners",
+          "href": "https://www.cityblock.com/partners",
+          "inFooter": false
+        },
+        {
+          "text": "For Providers",
+          "href": "https://www.cityblock.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "Provider Careers",
+          "href": "https://www.cityblock.com/provider-careers",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Call now",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "833-904-2273",
+          "href": "tel:+18339042273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Get support",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": false
+        },
+        {
+          "text": "Call us",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Read more",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Apply here",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.cityblock.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Our Approach",
+          "href": "https://www.cityblock.com/approach",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.cityblock.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Coverage",
+          "href": "https://www.cityblock.com/coverage",
+          "inFooter": true
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://www.cityblock.com/testimonials",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Records Request",
+          "href": "https://app.chartrequest.com/m/cityblock",
+          "inFooter": true
+        },
+        {
+          "text": "For Payers",
+          "href": "https://www.cityblock.com/partners",
+          "inFooter": true
+        },
+        {
+          "text": "For Providers",
+          "href": "https://www.cityblock.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "AI Report",
+          "href": "https://www.cityblock.com/ai-report",
+          "inFooter": true
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.cityblock.com/about",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.cityblock.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Provider Careers",
+          "href": "https://www.cityblock.com/provider-careers",
+          "inFooter": true
+        },
+        {
+          "text": "Press Room",
+          "href": "https://www.cityblock.com/media",
+          "inFooter": true
+        },
+        {
+          "text": "Non-discrimination notice",
+          "href": "https://www.cityblock.com/non-discrimination",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://www.cityblock.com/privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of use",
+          "href": "https://www.cityblock.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.cityblock.com/hipaa",
+          "inFooter": true
+        },
+        {
+          "text": "Compliance Reporting",
+          "href": "https://www.cityblock.com/compliance-reporting",
+          "inFooter": true
+        }
+      ],
+      "footerText": "For Members Our Approach Locations Coverage Testimonials Medical Records Request For Partners For Payers For Providers AI Report About Us Our Story Careers Provider Careers Press Room High touch, high trust, and high tech. 495 Flatbush Ave, Brooklyn, NY 11225 © Cityblock Health 2026 There is no change to your health plan benefits when you join Cityblock Health. All medical services are provided by licensed physicians and health care practitioners employed by Cityblock Medical Practice, P.A.. Cityblock Health, Inc. provides management and administrative services to Cityblock Medical Practices. Non-discrimination noticePrivacy policyTerms of useNotice of Privacy PracticesCompliance Reporting",
+      "telLinks": [
+        {
+          "text": "Call now",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "833-904-2273",
+          "href": "tel:+18339042273",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Get support",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        },
+        {
+          "text": "Call us",
+          "href": "tel:833-904-2273",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 5,
+      "scrollHeight": 4660,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.sc-f03ddc02-10 dcTNUZ nav ",
+        "DIV.sc-f03ddc02-3 jOCLSt   hidden",
+        "DIV.sc-86905296-0 dBlZCv hidden"
+      ]
+    }
+  }
+}

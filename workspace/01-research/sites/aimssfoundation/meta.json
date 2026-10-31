@@ -1,0 +1,605 @@
+{
+  "url": "https://aimssfoundation.org/",
+  "slug": "aimssfoundation",
+  "capturedAt": "2026-10-30T19:30:14.191Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 6687,
+      "consoleErrors": [],
+      "title": "AIMSS",
+      "h1": [
+        "Health Equity. Population Health. Innovation. For All."
+      ],
+      "h2": [
+        "Communities carrying the heaviest burden often face the biggest barriers to care.",
+        "A·I·M·S·S — Advocacy, Innovation, Medicine & Support Systems.",
+        "Six programs, one goal: closing the gap in care.",
+        "People too often left to navigate alone.",
+        "Philanthropic support is an investment in a healthier, more equitable future.",
+        "Two co-founders, one unfashionable belief about care.",
+        "Clinicians and advocates guiding our work.",
+        "Five ways to help build a healthier, more equitable future.",
+        "Fund the everyday work of health equity.",
+        "The boring page, done honestly."
+      ],
+      "links": [
+        {
+          "text": "AIMSS HEALTH EQUITY CENTER",
+          "href": "https://aimssfoundation.org/#top",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": false
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": false
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Board",
+          "href": "https://aimssfoundation.org/#board",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": false
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": false
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Board",
+          "href": "https://aimssfoundation.org/#board",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Give today",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Register interest",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Start a conversation",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Request the outline",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "See leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Read the policy",
+          "href": "https://aimssfoundation.org/#privacy",
+          "inFooter": false
+        },
+        {
+          "text": "AIMSS HEALTH EQUITY CENTER",
+          "href": "https://aimssfoundation.org/#top",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": true
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": true
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": true
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        },
+        {
+          "text": "Trust & Transparency",
+          "href": "https://aimssfoundation.org/#transparency",
+          "inFooter": true
+        },
+        {
+          "text": "info@aimssfoundation.org",
+          "href": "mailto:info@aimssfoundation.org",
+          "inFooter": true
+        },
+        {
+          "text": "646-623-1099",
+          "href": "tel:+16466231099",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://aimssfoundation.org/#privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Transparency",
+          "href": "https://aimssfoundation.org/#transparency",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        }
+      ],
+      "footerText": "AIMSS HEALTH EQUITY CENTER Advocacy, Innovation, Medicine & Support Systems — a 501(c)(3) nonprofit serving Nassau County, NY. Donate EXPLORE About Programs Who We Serve Leadership Get Involved Donate Trust & Transparency CONTACT info@aimssfoundation.org 646-623-1099 1575 Hillside Ave, Units LL3/LL4 New Hyde Park, NY 11040 SOCIAL ACCOUNTS LAUNCHING SOON. NEWSLETTER Rare, short updates — mostly when something actually happens. Email address Together, we build a healthier, more equitable future for all. AIMSS Center for Health Equity, Population Health & Innovation, Inc. is a 501(c)(3) nonprofit serving Nassau County, NY, with independent Board oversight and a formal Conflict of Interest Policy. EIN and determination letter are available to donors and partners on request. © 2026 AIMSS Center for Health Equity, Population Health & Innovation, Inc. All rights reserved. Privacy policy Transparency Donate",
+      "telLinks": [
+        {
+          "text": "646-623-1099",
+          "href": "tel:+16466231099",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://aimssfoundation.org/",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://aimssfoundation.org/",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 1,
+      "images": 6,
+      "scrollHeight": 22609,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "SPAN.fl-topline",
+        "HEADER.fl-nav",
+        "DIV.fl-menu"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 6298,
+      "consoleErrors": [],
+      "title": "AIMSS",
+      "h1": [
+        "Health Equity. Population Health. Innovation. For All."
+      ],
+      "h2": [
+        "Communities carrying the heaviest burden often face the biggest barriers to care.",
+        "A·I·M·S·S — Advocacy, Innovation, Medicine & Support Systems.",
+        "Six programs, one goal: closing the gap in care.",
+        "People too often left to navigate alone.",
+        "Philanthropic support is an investment in a healthier, more equitable future.",
+        "Two co-founders, one unfashionable belief about care.",
+        "Clinicians and advocates guiding our work.",
+        "Five ways to help build a healthier, more equitable future.",
+        "Fund the everyday work of health equity.",
+        "The boring page, done honestly."
+      ],
+      "links": [
+        {
+          "text": "AIMSS HEALTH EQUITY CENTER",
+          "href": "https://aimssfoundation.org/#top",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": false
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": false
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Board",
+          "href": "https://aimssfoundation.org/#board",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": false
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": false
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Board",
+          "href": "https://aimssfoundation.org/#board",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Support this program",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": false
+        },
+        {
+          "text": "Give today",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": false
+        },
+        {
+          "text": "Register interest",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Start a conversation",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "Request the outline",
+          "href": "https://aimssfoundation.org/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "See leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": false
+        },
+        {
+          "text": "Read the policy",
+          "href": "https://aimssfoundation.org/#privacy",
+          "inFooter": false
+        },
+        {
+          "text": "AIMSS HEALTH EQUITY CENTER",
+          "href": "https://aimssfoundation.org/#top",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        },
+        {
+          "text": "About",
+          "href": "https://aimssfoundation.org/#about",
+          "inFooter": true
+        },
+        {
+          "text": "Programs",
+          "href": "https://aimssfoundation.org/#initiatives",
+          "inFooter": true
+        },
+        {
+          "text": "Who We Serve",
+          "href": "https://aimssfoundation.org/#who-we-serve",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership",
+          "href": "https://aimssfoundation.org/#leadership",
+          "inFooter": true
+        },
+        {
+          "text": "Get Involved",
+          "href": "https://aimssfoundation.org/#get-involved",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        },
+        {
+          "text": "Trust & Transparency",
+          "href": "https://aimssfoundation.org/#transparency",
+          "inFooter": true
+        },
+        {
+          "text": "info@aimssfoundation.org",
+          "href": "mailto:info@aimssfoundation.org",
+          "inFooter": true
+        },
+        {
+          "text": "646-623-1099",
+          "href": "tel:+16466231099",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://aimssfoundation.org/#",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://aimssfoundation.org/#privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Transparency",
+          "href": "https://aimssfoundation.org/#transparency",
+          "inFooter": true
+        },
+        {
+          "text": "Donate",
+          "href": "https://aimssfoundation.org/#donate",
+          "inFooter": true
+        }
+      ],
+      "footerText": "AIMSS HEALTH EQUITY CENTER Advocacy, Innovation, Medicine & Support Systems — a 501(c)(3) nonprofit serving Nassau County, NY. Donate EXPLORE About Programs Who We Serve Leadership Get Involved Donate Trust & Transparency CONTACT info@aimssfoundation.org 646-623-1099 1575 Hillside Ave, Units LL3/LL4 New Hyde Park, NY 11040 SOCIAL ACCOUNTS LAUNCHING SOON. NEWSLETTER Rare, short updates — mostly when something actually happens. Email address Together, we build a healthier, more equitable future for all. AIMSS Center for Health Equity, Population Health & Innovation, Inc. is a 501(c)(3) nonprofit serving Nassau County, NY, with independent Board oversight and a formal Conflict of Interest Policy. EIN and determination letter are available to donors and partners on request. © 2026 AIMSS Center for Health Equity, Population Health & Innovation, Inc. All rights reserved. Privacy policy Transparency Donate",
+      "telLinks": [
+        {
+          "text": "646-623-1099",
+          "href": "tel:+16466231099",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://aimssfoundation.org/",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://aimssfoundation.org/",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 1,
+      "images": 6,
+      "scrollHeight": 13652,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "SPAN.fl-topline",
+        "HEADER.fl-nav",
+        "DIV.fl-menu",
+        "DIV.fl-about__head",
+        "DIV.fl-widget fl-rise"
+      ]
+    }
+  }
+}

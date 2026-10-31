@@ -1,0 +1,83 @@
+{
+  "url": "https://www.nationalpediatric.com",
+  "slug": "national-pediatrics",
+  "capturedAt": "2026-10-30T17:52:36.130Z",
+  "views": {
+    "phone": {
+      "status": 403,
+      "loadMs": 2572,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Just a moment...",
+      "h1": [
+        "www.nationalpediatric.com"
+      ],
+      "h2": [
+        "Performing security verification",
+        "Verification successful. Waiting for www.nationalpediatric.com to respond"
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy",
+          "href": "https://www.cloudflare.com/privacypolicy/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 1,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en-us",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 3135,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Just a moment...",
+      "h1": [
+        "www.nationalpediatric.com"
+      ],
+      "h2": [
+        "Performing security verification",
+        "Verification successful. Waiting for www.nationalpediatric.com to respond"
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy",
+          "href": "https://www.cloudflare.com/privacypolicy/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 1,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en-us",
+      "fixedEls": []
+    }
+  }
+}

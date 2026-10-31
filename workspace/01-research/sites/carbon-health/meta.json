@@ -1,0 +1,73 @@
+{
+  "url": "https://carbonhealth.com",
+  "slug": "carbon-health",
+  "capturedAt": "2026-10-30T17:47:11.964Z",
+  "views": {
+    "phone": {
+      "status": 403,
+      "loadMs": 5351,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Attention Required! | Cloudflare",
+      "h1": [
+        "Sorry, you have been blocked"
+      ],
+      "h2": [
+        "You are unable to access carbonhealth.com",
+        "Why have I been blocked?",
+        "What can I do to resolve this?"
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/5xx-error-landing",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 1126,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 3772,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Attention Required! | Cloudflare",
+      "h1": [
+        "Sorry, you have been blocked"
+      ],
+      "h2": [
+        "You are unable to access carbonhealth.com",
+        "Why have I been blocked?",
+        "What can I do to resolve this?"
+      ],
+      "links": [
+        {
+          "text": "Cloudflare",
+          "href": "https://www.cloudflare.com/5xx-error-landing",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 1021,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": []
+    }
+  }
+}

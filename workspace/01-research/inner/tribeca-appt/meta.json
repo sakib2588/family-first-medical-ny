@@ -1,0 +1,196 @@
+{
+  "url": "https://www.tribecapediatrics.com/register-now/",
+  "slug": "tribeca-appt",
+  "capturedAt": "2026-10-30T18:33:42.815Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 22199,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "title": "Register Now - Tribeca Pediatrics",
+      "h1": [
+        "Welcome to Tribeca Pediatrics!"
+      ],
+      "h2": [
+        "Expecting",
+        "Transferring",
+        "Existing Patient"
+      ],
+      "links": [
+        {
+          "text": "← Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Login",
+          "href": "https://portal.tribecapediatrics.com/s/login/",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 4,
+      "images": 5,
+      "scrollHeight": 844,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\",\"name\":\"Register Now - Tribeca Pediatrics\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"datePublished\":\"2023-09-12T21:01:45+00:00\",\"dateModified\":\"2023-09-12T21:03:28+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.tribecapediatrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Register Now\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\",\"name\":\"Tr"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 18697,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied."
+      ],
+      "title": "Register Now - Tribeca Pediatrics",
+      "h1": [
+        "Welcome to Tribeca Pediatrics!"
+      ],
+      "h2": [
+        "Expecting",
+        "Transferring",
+        "Existing Patient"
+      ],
+      "links": [
+        {
+          "text": "← Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Login",
+          "href": "https://portal.tribecapediatrics.com/s/login/",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "Back",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "Register Now",
+          "href": "https://portal.tribecapediatrics.com/s/login/SelfRegister",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 4,
+      "images": 5,
+      "scrollHeight": 819,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\",\"name\":\"Register Now - Tribeca Pediatrics\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"datePublished\":\"2023-09-12T21:01:45+00:00\",\"dateModified\":\"2023-09-12T21:03:28+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/register-now\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.tribecapediatrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Register Now\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\",\"name\":\"Tr"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

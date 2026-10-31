@@ -1,0 +1,647 @@
+{
+  "url": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+  "slug": "nao-appt",
+  "capturedAt": "2026-10-30T18:34:27.370Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 12478,
+      "consoleErrors": [],
+      "title": "Urgent care at Astoria, Queens | Nao Medical",
+      "h1": [
+        "Urgent care at Astoria, Queens"
+      ],
+      "h2": [
+        "Book the right care in under two minutes.",
+        "Book the visit you came for.",
+        "Came in for something specific?",
+        "11 clinics across NYC & Long Island.",
+        "Plan your urgent care"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://book.naomedical.com/#locations",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": false
+        },
+        {
+          "text": "Book appointment",
+          "href": "https://book.naomedical.com/appointment/quick",
+          "inFooter": false
+        },
+        {
+          "text": "Book a quick appointment",
+          "href": "https://book.naomedical.com/appointment/quick",
+          "inFooter": false
+        },
+        {
+          "text": "See specialized services",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page#specialties",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care Coughs, sprains, rapid testing, UTI, allergies, stitches. Walk in or",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care Routine visits, annual exams, follow-ups, medication questions, and",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit Virtual visit by video for non-emergencies. Available the same day, no",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialty visits Nutrition, mental health, immigration exams, CDL physicals, STD",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "NutritionCounseling & weight care plans",
+          "href": "https://book.naomedical.com/appointment/specialty/nutrition",
+          "inFooter": false
+        },
+        {
+          "text": "STD testingFast, confidential testing",
+          "href": "https://book.naomedical.com/appointment/specialty/std-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Drug testingClinic testing appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/drug-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Flu testingSame-day flu testing",
+          "href": "https://book.naomedical.com/appointment/specialty/flu-testing",
+          "inFooter": false
+        },
+        {
+          "text": "PCR testingConvenient PCR visits",
+          "href": "https://book.naomedical.com/appointment/specialty/pcr-testing",
+          "inFooter": false
+        },
+        {
+          "text": "RSV testingRSV testing visits",
+          "href": "https://book.naomedical.com/appointment/specialty/rsv-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Respiratory testingRespiratory care testing",
+          "href": "https://book.naomedical.com/appointment/specialty/respiratory-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency careSame-day emergency care",
+          "href": "https://book.naomedical.com/appointment/specialty/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Weight LossProvider-supervised weight-loss visits",
+          "href": "https://book.naomedical.com/appointment/specialty/medical-weight-loss",
+          "inFooter": false
+        },
+        {
+          "text": "SemaglutideSemaglutide visits",
+          "href": "https://book.naomedical.com/appointment/specialty/semaglutide",
+          "inFooter": false
+        },
+        {
+          "text": "TherapyBehavioral health sessions",
+          "href": "https://book.naomedical.com/appointment/specialty/therapy",
+          "inFooter": false
+        },
+        {
+          "text": "PsychiatryConsults & medication support",
+          "href": "https://book.naomedical.com/appointment/specialty/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "CDL / DOT examMedical card appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/cdl-exams",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration examI-693 physicals & vaccines",
+          "href": "https://book.naomedical.com/appointment/specialty/immigration-medical-exams",
+          "inFooter": false
+        },
+        {
+          "text": "Women's healthWell-woman & preventive",
+          "href": "https://book.naomedical.com/appointment/specialty/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer screeningPreventive screening visits",
+          "href": "https://book.naomedical.com/appointment/specialty/cancer-screening",
+          "inFooter": false
+        },
+        {
+          "text": "Lab testsLab testing appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/lab-tests",
+          "inFooter": false
+        },
+        {
+          "text": "Mono testingMono testing visits",
+          "href": "https://book.naomedical.com/appointment/specialty/mono-testing",
+          "inFooter": false
+        },
+        {
+          "text": "VaccinesVaccine appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/vaccines",
+          "inFooter": false
+        },
+        {
+          "text": "SpravatoSpravato appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/spravato",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://book.naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Back to Urgent care locations",
+          "href": "https://book.naomedical.com/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Browse specialty appointments",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "contact Nao Medical",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": true
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": true
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": true
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": true
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": true
+        },
+        {
+          "text": "service@naomedical.com",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Urgent care, televisit, mental health, nutrition, paperwork exams, and testing across NYC and Long Island. BOOK Urgent care Primary care Televisit Specialties COMPANY Locations Insurance & billing Patient portal CONTACT (917) 310-3371 service@naomedical.com © Nao Medical. Same-day care across NYC and Long Island.",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 28,
+      "images": 30,
+      "scrollHeight": 4269,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"MedicalOrganization\",\"@id\":\"https://book.naomedical.com/#org\",\"name\":\"Nao Medical\",\"alternateName\":[\"NaoMed\",\"Nao Medical Urgent Care\"],\"url\":\"https://book.naomedical.com/\",\"logo\":\"https://naomedical.com/main-page-assets/images/web.svg\",\"image\":\"https://book.naomedical.com/app/assets/nao-web/locations-map.png\",\"description\":\"Nao Medical is a network of urgent care, televisit, and specialty clinics across New York City and Long Island.\",\"telephone\":\"+1-917-310-3371\",\"areaServed\":[{\"@type\":\"City\",\"name\":\"New York\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Long Island, NY\"}],\"medicalSpecialty\":[\"https://schema.org/PrimaryCare\",\"https://schema.org/Psychiatric\",\"https://schema.org/DietNutrition\"],\"hasOfferCatalog\":{\"@type\":\"OfferCatalog\",\"name\":\"Nao Medical services\",\"itemListElement\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Urgent care visit\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Televisit (telehealth video visit)\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"STD testing\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Medical weight loss visit\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Immigration medical exam (I-693)\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"CDL / DOT physical\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Nutrition counseling\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Psychiatr",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-page\",\"url\":\"https://book.naomedical.com/urgent-care/astoria-queens\",\"name\":\"Urgent care at Astoria, Queens\",\"description\":\"Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.\",\"inLanguage\":\"en-US\",\"about\":{\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-service\"}},{\"@type\":\"Service\",\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-service\",\"url\":\"https://book.naomedical.com/urgent-care/astoria-queens\",\"name\":\"Urgent care\",\"serviceType\":\"Urgent care\",\"description\":\"Choose a clinic for an in-person visit about a non-emergency health concern.\",\"provider\":{\"@id\":\"https://book.naomedical.com/#org\"}}]}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.site-header",
+        "DIV.mobile-reserve-bar"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12608,
+      "consoleErrors": [],
+      "title": "Urgent care at Astoria, Queens | Nao Medical",
+      "h1": [
+        "Urgent care at Astoria, Queens"
+      ],
+      "h2": [
+        "Book the right care in under two minutes.",
+        "Book the visit you came for.",
+        "Came in for something specific?",
+        "11 clinics across NYC & Long Island.",
+        "Plan your urgent care"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://book.naomedical.com/#locations",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": false
+        },
+        {
+          "text": "Book appointment",
+          "href": "https://book.naomedical.com/appointment/quick",
+          "inFooter": false
+        },
+        {
+          "text": "Book a quick appointment",
+          "href": "https://book.naomedical.com/appointment/quick",
+          "inFooter": false
+        },
+        {
+          "text": "See specialized services",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page#specialties",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care Coughs, sprains, rapid testing, UTI, allergies, stitches. Walk in or",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care Routine visits, annual exams, follow-ups, medication questions, and",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit Virtual visit by video for non-emergencies. Available the same day, no",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialty visits Nutrition, mental health, immigration exams, CDL physicals, STD",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "NutritionCounseling & weight care plans",
+          "href": "https://book.naomedical.com/appointment/specialty/nutrition",
+          "inFooter": false
+        },
+        {
+          "text": "STD testingFast, confidential testing",
+          "href": "https://book.naomedical.com/appointment/specialty/std-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Drug testingClinic testing appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/drug-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Flu testingSame-day flu testing",
+          "href": "https://book.naomedical.com/appointment/specialty/flu-testing",
+          "inFooter": false
+        },
+        {
+          "text": "PCR testingConvenient PCR visits",
+          "href": "https://book.naomedical.com/appointment/specialty/pcr-testing",
+          "inFooter": false
+        },
+        {
+          "text": "RSV testingRSV testing visits",
+          "href": "https://book.naomedical.com/appointment/specialty/rsv-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Respiratory testingRespiratory care testing",
+          "href": "https://book.naomedical.com/appointment/specialty/respiratory-testing",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency careSame-day emergency care",
+          "href": "https://book.naomedical.com/appointment/specialty/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Weight LossProvider-supervised weight-loss visits",
+          "href": "https://book.naomedical.com/appointment/specialty/medical-weight-loss",
+          "inFooter": false
+        },
+        {
+          "text": "SemaglutideSemaglutide visits",
+          "href": "https://book.naomedical.com/appointment/specialty/semaglutide",
+          "inFooter": false
+        },
+        {
+          "text": "TherapyBehavioral health sessions",
+          "href": "https://book.naomedical.com/appointment/specialty/therapy",
+          "inFooter": false
+        },
+        {
+          "text": "PsychiatryConsults & medication support",
+          "href": "https://book.naomedical.com/appointment/specialty/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "CDL / DOT examMedical card appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/cdl-exams",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration examI-693 physicals & vaccines",
+          "href": "https://book.naomedical.com/appointment/specialty/immigration-medical-exams",
+          "inFooter": false
+        },
+        {
+          "text": "Women's healthWell-woman & preventive",
+          "href": "https://book.naomedical.com/appointment/specialty/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer screeningPreventive screening visits",
+          "href": "https://book.naomedical.com/appointment/specialty/cancer-screening",
+          "inFooter": false
+        },
+        {
+          "text": "Lab testsLab testing appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/lab-tests",
+          "inFooter": false
+        },
+        {
+          "text": "Mono testingMono testing visits",
+          "href": "https://book.naomedical.com/appointment/specialty/mono-testing",
+          "inFooter": false
+        },
+        {
+          "text": "VaccinesVaccine appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/vaccines",
+          "inFooter": false
+        },
+        {
+          "text": "SpravatoSpravato appointments",
+          "href": "https://book.naomedical.com/appointment/specialty/spravato",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://book.naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "Back to Urgent care locations",
+          "href": "https://book.naomedical.com/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Browse specialty appointments",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": false
+        },
+        {
+          "text": "contact Nao Medical",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Primary care",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": true
+        },
+        {
+          "text": "Televisit",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": true
+        },
+        {
+          "text": "Specialties",
+          "href": "https://book.naomedical.com/appointment/specialty",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": true
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": true
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": true
+        },
+        {
+          "text": "service@naomedical.com",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Urgent care, televisit, mental health, nutrition, paperwork exams, and testing across NYC and Long Island. BOOK Urgent care Primary care Televisit Specialties COMPANY Locations Insurance & billing Patient portal CONTACT (917) 310-3371 service@naomedical.com © Nao Medical. Same-day care across NYC and Long Island.",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:+19173103371",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 28,
+      "images": 30,
+      "scrollHeight": 2632,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"MedicalOrganization\",\"@id\":\"https://book.naomedical.com/#org\",\"name\":\"Nao Medical\",\"alternateName\":[\"NaoMed\",\"Nao Medical Urgent Care\"],\"url\":\"https://book.naomedical.com/\",\"logo\":\"https://naomedical.com/main-page-assets/images/web.svg\",\"image\":\"https://book.naomedical.com/app/assets/nao-web/locations-map.png\",\"description\":\"Nao Medical is a network of urgent care, televisit, and specialty clinics across New York City and Long Island.\",\"telephone\":\"+1-917-310-3371\",\"areaServed\":[{\"@type\":\"City\",\"name\":\"New York\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Long Island, NY\"}],\"medicalSpecialty\":[\"https://schema.org/PrimaryCare\",\"https://schema.org/Psychiatric\",\"https://schema.org/DietNutrition\"],\"hasOfferCatalog\":{\"@type\":\"OfferCatalog\",\"name\":\"Nao Medical services\",\"itemListElement\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Urgent care visit\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Televisit (telehealth video visit)\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"STD testing\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Medical weight loss visit\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Immigration medical exam (I-693)\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"CDL / DOT physical\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Nutrition counseling\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Psychiatr",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-page\",\"url\":\"https://book.naomedical.com/urgent-care/astoria-queens\",\"name\":\"Urgent care at Astoria, Queens\",\"description\":\"Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.\",\"inLanguage\":\"en-US\",\"about\":{\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-service\"}},{\"@type\":\"Service\",\"@id\":\"https://book.naomedical.com/urgent-care/astoria-queens#booking-service\",\"url\":\"https://book.naomedical.com/urgent-care/astoria-queens\",\"name\":\"Urgent care\",\"serviceType\":\"Urgent care\",\"description\":\"Choose a clinic for an in-person visit about a non-emergency health concern.\",\"provider\":{\"@id\":\"https://book.naomedical.com/#org\"}}]}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.site-header",
+        "ASIDE.detail-booking"
+      ]
+    }
+  }
+}

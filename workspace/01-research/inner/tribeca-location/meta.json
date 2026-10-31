@@ -1,0 +1,3426 @@
+{
+  "url": "https://www.tribecapediatrics.com/my-office/",
+  "slug": "tribeca-location",
+  "capturedAt": "2026-10-30T18:33:41.030Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 19053,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "title": "My Office - Tribeca Pediatrics",
+      "h1": [],
+      "h2": [
+        "Find Your Office"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "PORTAL",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "JOIN TODAY",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patients",
+          "href": "https://www.tribecapediatrics.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": false
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": false
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.tribecapediatrics.com/a-z-baby-childcare/",
+          "inFooter": false
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Parenting Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": false
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "MANHATTAN",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8666",
+          "href": "tel:6466668666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/chelsea/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//364+8th+Avenue%2C+New+York%2C%2C+NY%2C+10001",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 445-2700",
+          "href": "tel:9294452700",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-village/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//205+1st+Avenue%2C+New+York%2C%2C+NY%2C+10003",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 239-4665",
+          "href": "tel:9292394665",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hamilton-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//3647+Broadway%2C+New+York%2C%2C+NY%2C+10031",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8248",
+          "href": "tel:6466668248",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/harlem/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2111+Frederick+Douglass+Boulevard%2C+New+York%2C%2C+NY%2C+10026",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 606-5932",
+          "href": "tel:6466065932",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/lower-east-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//409+Grand+Street%2C+New+York%2C%2C+NY%2C+10002",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 434-0868",
+          "href": "tel:6464340868",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/upper-east-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//304+East+62nd+Street%2C+New+York%2C%2C+NY%2C+10065",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 936-5440",
+          "href": "tel:9179365440",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/upper-west-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//610+Columbus+Avenue%2C+New+York%2C%2C+NY%2C+10024",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/warren-street/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//15+Warren+Street%2C+New+York%2C%2C+NY%2C+10007",
+          "inFooter": false
+        },
+        {
+          "text": "BROOKLYN",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 947-7790",
+          "href": "tel:3479477790",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bay-ridge/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//6927+3rd+Avenue+Brooklyn%2C+Brooklyn%2C%2C+NY%2C+11209",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 741-7200",
+          "href": "tel:6467417200",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bedstuy/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//322+Malcolm+X+Boulevard%2C+Brooklyn%2C%2C+NY%2C+11233",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-3125",
+          "href": "tel:3474803125",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bedford-lafayette/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1019+Bedford+Ave%2C+Brooklyn%2C%2C+NY%2C+11205",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 855-0580",
+          "href": "tel:7188550580",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/boerum-hill/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//250+Dean+Street%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6006",
+          "href": "tel:3475696006",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bushwick/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1323+Greene+Avenue%2C+Brooklyn%2C%2C+NY%2C+11237",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 756-4340",
+          "href": "tel:3477564340",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/carroll-gardens/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//325+Court+Street%2C+Brooklyn%2C%2C+NY%2C+11231",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 384-6555",
+          "href": "tel:3473846555",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/crown-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//702+Nostrand+Avenue%2C+Brooklyn%2C%2C+NY%2C+11216",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 213-4738",
+          "href": "tel:7182134738",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ditmas-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1322+Cortelyou+Road%2C+Brooklyn%2C%2C+NY%2C+11226",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5007",
+          "href": "tel:9292995007",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/dumbo/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//141+Plymouth+Street%2C+Brooklyn%2C%2C+NY%2C+11201",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 818-2367",
+          "href": "tel:9178182367",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//682+Sutter+Avenue%2C+Brooklyn%2C%2C+NY%2C+11207",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5006",
+          "href": "tel:9292995006",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-williamsburg/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//622+Grand+Street%2C+Brooklyn%2C%2C+NY%2C+11211",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 477-0921",
+          "href": "tel:3474770921",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/flatlands/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2080+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11234",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 618-9599",
+          "href": "tel:7186189599",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/fort-greene/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//771+Fulton+Street%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 352-7553.",
+          "href": "tel:3473527553.",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/fort-hamilton/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//8902+3rd+Ave.%2C+Brooklyn%2C%2C+New+York%2C+11209",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 671-6002",
+          "href": "tel:3476716002",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/gowanus/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//458+Carroll+St%2C+Brooklyn%2C%2C+NY%2C+11215",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5719",
+          "href": "tel:7185775719",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/greenpoint/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//288+Driggs+Avenue%2C+Brooklyn%2C%2C+NY%2C+11222",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 941-3611",
+          "href": "tel:3479413611",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/greenwood-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//732+5th+Avenue%2C+Brooklyn%2C%2C+NY%2C+11232",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 318-8602",
+          "href": "tel:3473188602",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/prospect-lefferts-gardens/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//703+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11225",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 315-3471",
+          "href": "tel:3473153471",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/north-greenpoint/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//881+Manhattan+Ave.%2C+Brooklyn%2C%2C+NY%2C+11222",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 568-9220",
+          "href": "tel:7185689220",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/park-slope/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//425+5th+Avenue%2C+Brooklyn%2C%2C+NY%2C+11215",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 838-9445",
+          "href": "tel:7188389445",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/prospect-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//257+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 789-8592",
+          "href": "tel:9177898592",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/sheepshead-bay/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1901+Avenue+U%2C+Brooklyn%2C%2C+NY%2C+11229",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 943-1950",
+          "href": "tel:3479431950",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/weeksville/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//239+Utica+Avenue%2C+Brooklyn%2C%2C+NY%2C+11213",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 599-1202",
+          "href": "tel:7185991202",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/williamsburg/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//212+Berry+Street%2C+Brooklyn%2C%2C+NY%2C+11249",
+          "inFooter": false
+        },
+        {
+          "text": "QUEENS",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_queens",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6005",
+          "href": "tel:3475696005",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/astoria/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//31-57+31st+Street%2C+Astoria%2C%2C+NY%2C+11106",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/bayside/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//45-64+Francis+Lewis%2C+Boulevard+Flushing%2C%2C+NY%2C+11358",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-1918",
+          "href": "tel:3474801918",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/glendale-2/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//80-28+Cooper+Avenue%2C+Glendale%2C%2C+NY%2C+11385",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 935-0432",
+          "href": "tel:9179350432",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/jackson-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//84-28+37th+Avenue%2C+Jackson+Heights%2C%2C+NY%2C+11372",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5229",
+          "href": "tel:7185775229",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/long-island-city/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//47-27+Vernon+Boulevard%2C+Long+Island+City%2C%2C+NY%2C+11101",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 354-3690",
+          "href": "tel:3473543690",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ridgewood/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//66-13+Fresh+Pond+Road%2C+Ridgewood%2C%2C+NY%2C+11385",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 345-1508",
+          "href": "tel:3473451508",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/sunnyside/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//43-12+43rd+Street%2C+Sunnyside%2C%2C+NY%2C+11104",
+          "inFooter": false
+        },
+        {
+          "text": "BRONX",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_bronx",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 219-3494",
+          "href": "tel:9292193494",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/morris-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2055+Williamsbridge+Road%2C+Bronx%2C%2C+NY%2C+10461",
+          "inFooter": false
+        },
+        {
+          "text": "NEW JERSEY",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/edgewater/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//725+River+Road%2C+Edgewater%2C%2C+NJ%2C+07020",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/englewood/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//5+N+Dean+Street%2C+Englewood%2C%2C+NJ%2C+07631",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/glen-rock/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//210+Rock+Road%2C+Glen+Rock%2C%2C+NJ%2C+07452",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 292-5445",
+          "href": "tel:2012925445",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hoboken/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//74+Washington+Street%2C+Hoboken%2C%2C+NJ%2C+07030",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 706-7175",
+          "href": "tel:2017067175",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/jersey-city/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//9+McWilliams+Place%2C+Jersey+City%2C%2C+NJ%2C+07302",
+          "inFooter": false
+        },
+        {
+          "text": "(862) 213-0769",
+          "href": "tel:8622130769",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/montclair/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//314-316+Orange+Rd%2C+Montclair%2C%2C+New+Jersey%2C+07042",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 454-7107",
+          "href": "tel:7324547107",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/rahway/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1501+Main+Street%2C+Rahway%2C%2C+NJ%2C+07065",
+          "inFooter": false
+        },
+        {
+          "text": "(908) 206-7074",
+          "href": "tel:9082067074",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/union/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2376+Morris+Avenue%2C+Union%2C%2C+NJ%2C+07083",
+          "inFooter": false
+        },
+        {
+          "text": "WESTCHESTER",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_westchester",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 228-1020",
+          "href": "tel:9142281020",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ardsley/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//686+Saw+Mill+River+Road%2C+Ardsley%2C%2C+NY%2C+10502",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 963-1663",
+          "href": "tel:9149631663",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hastings-on-hudson/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//615+Broadway%2C+Hastings+on+Hudson%2C%2C+NY%2C+10706",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 215-1103",
+          "href": "tel:9142151103",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/mt-kisco/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//195+North+Bedford+Road%2C+Mount+Kisco%2C%2C+NY%2C+10549",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 372-6005",
+          "href": "tel:9143726005",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/white-plains/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1150+Knollwood+Road%2C+White+Plains%2C%2C+NY%2C+10610",
+          "inFooter": false
+        },
+        {
+          "text": "STATEN ISLAND",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 367-3471",
+          "href": "tel:9293673471",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/midland-beach/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//262+Midland+Avenue%2C+Staten+Island%2C%2C+NY%2C+10306",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 349-5007",
+          "href": "tel:3473495007",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/willowbrook-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1735+Richmond+Avenue%2C+Staten+Island%2C%2C+NY%2C+10314",
+          "inFooter": false
+        },
+        {
+          "text": "LONG ISLAND",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_long-island",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/glen-cove/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1+Sea+Cliff+Ave%2C+Glen+Cove%2C%2C+NY%2C+11542",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": true
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": true
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": true
+        },
+        {
+          "text": "Affiliated Hospitals",
+          "href": "https://www.tribecapediatrics.com/hospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": true
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": true
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.thenewbasics.com/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": true
+        },
+        {
+          "text": "Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Release Form",
+          "href": "https://tribecapediatrics.com/pdf/TP-Medical-Release-Form.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-Discrimination and Code of Conduct",
+          "href": "https://www.tribecapediatrics.com/patient-and-staff-code-of-conduct/",
+          "inFooter": true
+        },
+        {
+          "text": "Sliding Scale Policy",
+          "href": "https://www.tribecapediatrics.com/sliding-scale-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.tribecapediatrics.com/podcast/",
+          "inFooter": true
+        },
+        {
+          "text": "Community Giving",
+          "href": "https://www.tribecapediatrics.com/about-us/community-giving/",
+          "inFooter": true
+        },
+        {
+          "text": "Media Inquiries",
+          "href": "https://www.tribecapediatrics.com/media-inquiries/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.tribecapediatrics.com/about-us/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.tribecapediatrics.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        },
+        {
+          "text": "info@tribecapediatrics.com",
+          "href": "mailto:info@tribecapediatrics.com",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/TribecaPediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/tribecapediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "Tribeca Pediatrics",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Our Story The Team FAQs Locations Info Sessions Affiliated Hospitals Insurance Pediatric Visit Schedule Vaccine Schedule Adolescent Resources Mental Health Support A-Z Health Guide Medication Dosage Breastfeeding Support Classes Medical Release Form Non-Discrimination and Code of Conduct Sliding Scale Policy Newsletter Podcast Community Giving Media Inquiries Careers Contact Us 212-226-7666 info@tribecapediatrics.com © Tribeca Pediatrics 2026",
+      "telLinks": [
+        {
+          "text": "(646) 666-8666",
+          "href": "tel:6466668666",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 445-2700",
+          "href": "tel:9294452700",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 239-4665",
+          "href": "tel:9292394665",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8248",
+          "href": "tel:6466668248",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 606-5932",
+          "href": "tel:6466065932",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 434-0868",
+          "href": "tel:6464340868",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 936-5440",
+          "href": "tel:9179365440",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 947-7790",
+          "href": "tel:3479477790",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 741-7200",
+          "href": "tel:6467417200",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-3125",
+          "href": "tel:3474803125",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 855-0580",
+          "href": "tel:7188550580",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6006",
+          "href": "tel:3475696006",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 756-4340",
+          "href": "tel:3477564340",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 384-6555",
+          "href": "tel:3473846555",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 213-4738",
+          "href": "tel:7182134738",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5007",
+          "href": "tel:9292995007",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 818-2367",
+          "href": "tel:9178182367",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5006",
+          "href": "tel:9292995006",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 477-0921",
+          "href": "tel:3474770921",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 618-9599",
+          "href": "tel:7186189599",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 352-7553.",
+          "href": "tel:3473527553.",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 671-6002",
+          "href": "tel:3476716002",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5719",
+          "href": "tel:7185775719",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 941-3611",
+          "href": "tel:3479413611",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 318-8602",
+          "href": "tel:3473188602",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 315-3471",
+          "href": "tel:3473153471",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 568-9220",
+          "href": "tel:7185689220",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 838-9445",
+          "href": "tel:7188389445",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 789-8592",
+          "href": "tel:9177898592",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 943-1950",
+          "href": "tel:3479431950",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 599-1202",
+          "href": "tel:7185991202",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6005",
+          "href": "tel:3475696005",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-1918",
+          "href": "tel:3474801918",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 935-0432",
+          "href": "tel:9179350432",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5229",
+          "href": "tel:7185775229",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 354-3690",
+          "href": "tel:3473543690",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 345-1508",
+          "href": "tel:3473451508",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 219-3494",
+          "href": "tel:9292193494",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 292-5445",
+          "href": "tel:2012925445",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 706-7175",
+          "href": "tel:2017067175",
+          "inFooter": false
+        },
+        {
+          "text": "(862) 213-0769",
+          "href": "tel:8622130769",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 454-7107",
+          "href": "tel:7324547107",
+          "inFooter": false
+        },
+        {
+          "text": "(908) 206-7074",
+          "href": "tel:9082067074",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 228-1020",
+          "href": "tel:9142281020",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 963-1663",
+          "href": "tel:9149631663",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 215-1103",
+          "href": "tel:9142151103",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 372-6005",
+          "href": "tel:9143726005",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 367-3471",
+          "href": "tel:9293673471",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 349-5007",
+          "href": "tel:3473495007",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.tribecapediatrics.com/my-office/",
+          "fields": [
+            "input:text:wpsl-search-input",
+            "button:submit:",
+            "input:submit:",
+            "input:submit:wpsl-search-btn"
+          ]
+        }
+      ],
+      "imgNoAlt": 2,
+      "images": 4,
+      "scrollHeight": 1077,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\",\"name\":\"My Office - Tribeca Pediatrics\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"datePublished\":\"2015-10-07T17:44:28+00:00\",\"dateModified\":\"2025-12-16T19:22:14+00:00\",\"description\":\"With pediatric offices across NYC & NJ, and Long Island, Tribeca Pediatrics is located in a neighborhood near you! Click to find your office!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.tribecapediatrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"My Office\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"s"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 21095,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+        "requestStorageAccess: Permission denied."
+      ],
+      "title": "My Office - Tribeca Pediatrics",
+      "h1": [],
+      "h2": [
+        "Find Your Office"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "PORTAL",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "JOIN TODAY",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patients",
+          "href": "https://www.tribecapediatrics.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": false
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": false
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.tribecapediatrics.com/a-z-baby-childcare/",
+          "inFooter": false
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Parenting Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": false
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "MANHATTAN",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8666",
+          "href": "tel:6466668666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/chelsea/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//364+8th+Avenue%2C+New+York%2C%2C+NY%2C+10001",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 445-2700",
+          "href": "tel:9294452700",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-village/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//205+1st+Avenue%2C+New+York%2C%2C+NY%2C+10003",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 239-4665",
+          "href": "tel:9292394665",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hamilton-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//3647+Broadway%2C+New+York%2C%2C+NY%2C+10031",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8248",
+          "href": "tel:6466668248",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/harlem/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2111+Frederick+Douglass+Boulevard%2C+New+York%2C%2C+NY%2C+10026",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 606-5932",
+          "href": "tel:6466065932",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/lower-east-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//409+Grand+Street%2C+New+York%2C%2C+NY%2C+10002",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 434-0868",
+          "href": "tel:6464340868",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/upper-east-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//304+East+62nd+Street%2C+New+York%2C%2C+NY%2C+10065",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 936-5440",
+          "href": "tel:9179365440",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/upper-west-side/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//610+Columbus+Avenue%2C+New+York%2C%2C+NY%2C+10024",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/warren-street/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//15+Warren+Street%2C+New+York%2C%2C+NY%2C+10007",
+          "inFooter": false
+        },
+        {
+          "text": "BROOKLYN",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 947-7790",
+          "href": "tel:3479477790",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bay-ridge/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//6927+3rd+Avenue+Brooklyn%2C+Brooklyn%2C%2C+NY%2C+11209",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 741-7200",
+          "href": "tel:6467417200",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bedstuy/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//322+Malcolm+X+Boulevard%2C+Brooklyn%2C%2C+NY%2C+11233",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-3125",
+          "href": "tel:3474803125",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bedford-lafayette/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1019+Bedford+Ave%2C+Brooklyn%2C%2C+NY%2C+11205",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 855-0580",
+          "href": "tel:7188550580",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/boerum-hill/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//250+Dean+Street%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6006",
+          "href": "tel:3475696006",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/bushwick/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1323+Greene+Avenue%2C+Brooklyn%2C%2C+NY%2C+11237",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 756-4340",
+          "href": "tel:3477564340",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/carroll-gardens/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//325+Court+Street%2C+Brooklyn%2C%2C+NY%2C+11231",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 384-6555",
+          "href": "tel:3473846555",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/crown-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//702+Nostrand+Avenue%2C+Brooklyn%2C%2C+NY%2C+11216",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 213-4738",
+          "href": "tel:7182134738",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ditmas-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1322+Cortelyou+Road%2C+Brooklyn%2C%2C+NY%2C+11226",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5007",
+          "href": "tel:9292995007",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/dumbo/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//141+Plymouth+Street%2C+Brooklyn%2C%2C+NY%2C+11201",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 818-2367",
+          "href": "tel:9178182367",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//682+Sutter+Avenue%2C+Brooklyn%2C%2C+NY%2C+11207",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5006",
+          "href": "tel:9292995006",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/east-williamsburg/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//622+Grand+Street%2C+Brooklyn%2C%2C+NY%2C+11211",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 477-0921",
+          "href": "tel:3474770921",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/flatlands/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2080+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11234",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 618-9599",
+          "href": "tel:7186189599",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/fort-greene/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//771+Fulton+Street%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 352-7553.",
+          "href": "tel:3473527553.",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/fort-hamilton/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//8902+3rd+Ave.%2C+Brooklyn%2C%2C+New+York%2C+11209",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 671-6002",
+          "href": "tel:3476716002",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/gowanus/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//458+Carroll+St%2C+Brooklyn%2C%2C+NY%2C+11215",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5719",
+          "href": "tel:7185775719",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/greenpoint/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//288+Driggs+Avenue%2C+Brooklyn%2C%2C+NY%2C+11222",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 941-3611",
+          "href": "tel:3479413611",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/greenwood-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//732+5th+Avenue%2C+Brooklyn%2C%2C+NY%2C+11232",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 318-8602",
+          "href": "tel:3473188602",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/prospect-lefferts-gardens/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//703+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11225",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 315-3471",
+          "href": "tel:3473153471",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/north-greenpoint/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//881+Manhattan+Ave.%2C+Brooklyn%2C%2C+NY%2C+11222",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 568-9220",
+          "href": "tel:7185689220",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/park-slope/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//425+5th+Avenue%2C+Brooklyn%2C%2C+NY%2C+11215",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 838-9445",
+          "href": "tel:7188389445",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/prospect-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//257+Flatbush+Avenue%2C+Brooklyn%2C%2C+NY%2C+11217",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 789-8592",
+          "href": "tel:9177898592",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/sheepshead-bay/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1901+Avenue+U%2C+Brooklyn%2C%2C+NY%2C+11229",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 943-1950",
+          "href": "tel:3479431950",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/weeksville/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//239+Utica+Avenue%2C+Brooklyn%2C%2C+NY%2C+11213",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 599-1202",
+          "href": "tel:7185991202",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/williamsburg/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//212+Berry+Street%2C+Brooklyn%2C%2C+NY%2C+11249",
+          "inFooter": false
+        },
+        {
+          "text": "QUEENS",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_queens",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6005",
+          "href": "tel:3475696005",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/astoria/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//31-57+31st+Street%2C+Astoria%2C%2C+NY%2C+11106",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/bayside/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//45-64+Francis+Lewis%2C+Boulevard+Flushing%2C%2C+NY%2C+11358",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-1918",
+          "href": "tel:3474801918",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/glendale-2/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//80-28+Cooper+Avenue%2C+Glendale%2C%2C+NY%2C+11385",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 935-0432",
+          "href": "tel:9179350432",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/jackson-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//84-28+37th+Avenue%2C+Jackson+Heights%2C%2C+NY%2C+11372",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5229",
+          "href": "tel:7185775229",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/long-island-city/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//47-27+Vernon+Boulevard%2C+Long+Island+City%2C%2C+NY%2C+11101",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 354-3690",
+          "href": "tel:3473543690",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ridgewood/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//66-13+Fresh+Pond+Road%2C+Ridgewood%2C%2C+NY%2C+11385",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 345-1508",
+          "href": "tel:3473451508",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/sunnyside/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//43-12+43rd+Street%2C+Sunnyside%2C%2C+NY%2C+11104",
+          "inFooter": false
+        },
+        {
+          "text": "BRONX",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_bronx",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 219-3494",
+          "href": "tel:9292193494",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/morris-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2055+Williamsbridge+Road%2C+Bronx%2C%2C+NY%2C+10461",
+          "inFooter": false
+        },
+        {
+          "text": "NEW JERSEY",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/edgewater/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//725+River+Road%2C+Edgewater%2C%2C+NJ%2C+07020",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/englewood/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//5+N+Dean+Street%2C+Englewood%2C%2C+NJ%2C+07631",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://www.tribecapediatrics.com/your-office/glen-rock/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//210+Rock+Road%2C+Glen+Rock%2C%2C+NJ%2C+07452",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 292-5445",
+          "href": "tel:2012925445",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hoboken/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//74+Washington+Street%2C+Hoboken%2C%2C+NJ%2C+07030",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 706-7175",
+          "href": "tel:2017067175",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/jersey-city/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//9+McWilliams+Place%2C+Jersey+City%2C%2C+NJ%2C+07302",
+          "inFooter": false
+        },
+        {
+          "text": "(862) 213-0769",
+          "href": "tel:8622130769",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/montclair/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//314-316+Orange+Rd%2C+Montclair%2C%2C+New+Jersey%2C+07042",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 454-7107",
+          "href": "tel:7324547107",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/rahway/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1501+Main+Street%2C+Rahway%2C%2C+NJ%2C+07065",
+          "inFooter": false
+        },
+        {
+          "text": "(908) 206-7074",
+          "href": "tel:9082067074",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/union/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//2376+Morris+Avenue%2C+Union%2C%2C+NJ%2C+07083",
+          "inFooter": false
+        },
+        {
+          "text": "WESTCHESTER",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_westchester",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 228-1020",
+          "href": "tel:9142281020",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/ardsley/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//686+Saw+Mill+River+Road%2C+Ardsley%2C%2C+NY%2C+10502",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 963-1663",
+          "href": "tel:9149631663",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/hastings-on-hudson/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//615+Broadway%2C+Hastings+on+Hudson%2C%2C+NY%2C+10706",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 215-1103",
+          "href": "tel:9142151103",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/mt-kisco/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//195+North+Bedford+Road%2C+Mount+Kisco%2C%2C+NY%2C+10549",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 372-6005",
+          "href": "tel:9143726005",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/white-plains/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1150+Knollwood+Road%2C+White+Plains%2C%2C+NY%2C+10610",
+          "inFooter": false
+        },
+        {
+          "text": "STATEN ISLAND",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 367-3471",
+          "href": "tel:9293673471",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/midland-beach/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//262+Midland+Avenue%2C+Staten+Island%2C%2C+NY%2C+10306",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 349-5007",
+          "href": "tel:3473495007",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/willowbrook-park/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1735+Richmond+Avenue%2C+Staten+Island%2C%2C+NY%2C+10314",
+          "inFooter": false
+        },
+        {
+          "text": "LONG ISLAND",
+          "href": "https://www.tribecapediatrics.com/my-office/#region_long-island",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours",
+          "href": "https://www.tribecapediatrics.com/my-office/#",
+          "inFooter": false
+        },
+        {
+          "text": "Location details",
+          "href": "https://tribecapediatrics.com/your-office/glen-cove/",
+          "inFooter": false
+        },
+        {
+          "text": "Directions",
+          "href": "https://www.google.com/maps/dir//1+Sea+Cliff+Ave%2C+Glen+Cove%2C%2C+NY%2C+11542",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://maps.google.com/maps?ll=40.897936,-73.952969&z=10&t=m&hl=en&gl=US&mapclient=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "Terms",
+          "href": "https://www.google.com/intl/en_US/help/terms_maps.html",
+          "inFooter": false
+        },
+        {
+          "text": "Report a map error",
+          "href": "https://www.google.com/maps/@40.8979363,-73.952969,10z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": true
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": true
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": true
+        },
+        {
+          "text": "Affiliated Hospitals",
+          "href": "https://www.tribecapediatrics.com/hospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": true
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": true
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.thenewbasics.com/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": true
+        },
+        {
+          "text": "Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Release Form",
+          "href": "https://tribecapediatrics.com/pdf/TP-Medical-Release-Form.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-Discrimination and Code of Conduct",
+          "href": "https://www.tribecapediatrics.com/patient-and-staff-code-of-conduct/",
+          "inFooter": true
+        },
+        {
+          "text": "Sliding Scale Policy",
+          "href": "https://www.tribecapediatrics.com/sliding-scale-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.tribecapediatrics.com/podcast/",
+          "inFooter": true
+        },
+        {
+          "text": "Community Giving",
+          "href": "https://www.tribecapediatrics.com/about-us/community-giving/",
+          "inFooter": true
+        },
+        {
+          "text": "Media Inquiries",
+          "href": "https://www.tribecapediatrics.com/media-inquiries/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.tribecapediatrics.com/about-us/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.tribecapediatrics.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        },
+        {
+          "text": "info@tribecapediatrics.com",
+          "href": "mailto:info@tribecapediatrics.com",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/TribecaPediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/tribecapediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "Tribeca Pediatrics",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Our Story The Team FAQs Locations Info Sessions Affiliated Hospitals Insurance Pediatric Visit Schedule Vaccine Schedule Adolescent Resources Mental Health Support A-Z Health Guide Medication Dosage Breastfeeding Support Classes Medical Release Form Non-Discrimination and Code of Conduct Sliding Scale Policy Newsletter Podcast Community Giving Media Inquiries Careers Contact Us 212-226-7666 info@tribecapediatrics.com © Tribeca Pediatrics 2026",
+      "telLinks": [
+        {
+          "text": "(646) 666-8666",
+          "href": "tel:6466668666",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 445-2700",
+          "href": "tel:9294452700",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 239-4665",
+          "href": "tel:9292394665",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 666-8248",
+          "href": "tel:6466668248",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 606-5932",
+          "href": "tel:6466065932",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 434-0868",
+          "href": "tel:6464340868",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 936-5440",
+          "href": "tel:9179365440",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 947-7790",
+          "href": "tel:3479477790",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 741-7200",
+          "href": "tel:6467417200",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-3125",
+          "href": "tel:3474803125",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 855-0580",
+          "href": "tel:7188550580",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6006",
+          "href": "tel:3475696006",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 756-4340",
+          "href": "tel:3477564340",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 384-6555",
+          "href": "tel:3473846555",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 213-4738",
+          "href": "tel:7182134738",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5007",
+          "href": "tel:9292995007",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 818-2367",
+          "href": "tel:9178182367",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 299-5006",
+          "href": "tel:9292995006",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 477-0921",
+          "href": "tel:3474770921",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 618-9599",
+          "href": "tel:7186189599",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 352-7553.",
+          "href": "tel:3473527553.",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 671-6002",
+          "href": "tel:3476716002",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5719",
+          "href": "tel:7185775719",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 941-3611",
+          "href": "tel:3479413611",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 318-8602",
+          "href": "tel:3473188602",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 315-3471",
+          "href": "tel:3473153471",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 568-9220",
+          "href": "tel:7185689220",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 838-9445",
+          "href": "tel:7188389445",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 789-8592",
+          "href": "tel:9177898592",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 943-1950",
+          "href": "tel:3479431950",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 599-1202",
+          "href": "tel:7185991202",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 569-6005",
+          "href": "tel:3475696005",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 480-1918",
+          "href": "tel:3474801918",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 935-0432",
+          "href": "tel:9179350432",
+          "inFooter": false
+        },
+        {
+          "text": "(718) 577-5229",
+          "href": "tel:7185775229",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 354-3690",
+          "href": "tel:3473543690",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 345-1508",
+          "href": "tel:3473451508",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 219-3494",
+          "href": "tel:9292193494",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "(551) 313-7865",
+          "href": "tel:5513137865",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 292-5445",
+          "href": "tel:2012925445",
+          "inFooter": false
+        },
+        {
+          "text": "(201) 706-7175",
+          "href": "tel:2017067175",
+          "inFooter": false
+        },
+        {
+          "text": "(862) 213-0769",
+          "href": "tel:8622130769",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 454-7107",
+          "href": "tel:7324547107",
+          "inFooter": false
+        },
+        {
+          "text": "(908) 206-7074",
+          "href": "tel:9082067074",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 228-1020",
+          "href": "tel:9142281020",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 963-1663",
+          "href": "tel:9149631663",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 215-1103",
+          "href": "tel:9142151103",
+          "inFooter": false
+        },
+        {
+          "text": "(914) 372-6005",
+          "href": "tel:9143726005",
+          "inFooter": false
+        },
+        {
+          "text": "(929) 367-3471",
+          "href": "tel:9293673471",
+          "inFooter": false
+        },
+        {
+          "text": "(347) 349-5007",
+          "href": "tel:3473495007",
+          "inFooter": false
+        },
+        {
+          "text": "(212) 226-7666",
+          "href": "tel:2122267666",
+          "inFooter": false
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.tribecapediatrics.com/my-office/",
+          "fields": [
+            "input:text:wpsl-search-input",
+            "button:submit:",
+            "input:submit:",
+            "input:submit:wpsl-search-btn"
+          ]
+        }
+      ],
+      "imgNoAlt": 179,
+      "images": 182,
+      "scrollHeight": 1393,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\",\"name\":\"My Office - Tribeca Pediatrics\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"datePublished\":\"2015-10-07T17:44:28+00:00\",\"dateModified\":\"2025-12-16T19:22:14+00:00\",\"description\":\"With pediatric offices across NYC & NJ, and Long Island, Tribeca Pediatrics is located in a neighborhood near you! Click to find your office!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/my-office\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/www.tribecapediatrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"My Office\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"s"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

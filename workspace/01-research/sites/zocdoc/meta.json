@@ -1,0 +1,49 @@
+{
+  "url": "https://www.zocdoc.com",
+  "slug": "zocdoc",
+  "capturedAt": "2026-10-30T17:47:21.400Z",
+  "views": {
+    "phone": {
+      "status": 403,
+      "loadMs": 16409,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "zocdoc.com",
+      "h1": [],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 16019,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "zocdoc.com",
+      "h1": [],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": []
+    }
+  }
+}

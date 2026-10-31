@@ -1,0 +1,1401 @@
+{
+  "url": "https://www.littleotterhealth.com/",
+  "slug": "littleotter",
+  "capturedAt": "2026-10-30T18:36:53.730Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 11391,
+      "consoleErrors": [],
+      "title": "Little Otter | Mental Health Services for the Whole Family",
+      "h1": [
+        "Mental health care for your whole family"
+      ],
+      "h2": [
+        "Take control of your family's mental health",
+        "Take control of your family's mental health",
+        "ACCEPTED INSURANCE PLANS",
+        "WHO WE SERVE",
+        "WHAT WE TREAT",
+        "TESTIMONIALS",
+        "OUR RESULTS",
+        "HOW IT WORKS",
+        "Tell us what’s going on",
+        "Begin care immediately",
+        "Track progress, see results",
+        "OUR SERVICES",
+        "WHY LITTLE OTTER",
+        "The leader in child mental health",
+        "Don’t wait to get the care your family needs",
+        "Take control of your family's mental health"
+      ],
+      "links": [
+        {
+          "text": "Learn more here",
+          "href": "https://www.littleotterhealth.com/blog/our-next-chapter-hazel-health-and-little-otter-merge",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Children 0-2",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": false
+        },
+        {
+          "text": "Children 3-7",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": false
+        },
+        {
+          "text": "Children 8-12",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": false
+        },
+        {
+          "text": "Teenagers 13-18",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": false
+        },
+        {
+          "text": "Parents",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": false
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": false
+        },
+        {
+          "text": "How it Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-services",
+          "inFooter": false
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#what-we-treat",
+          "inFooter": false
+        },
+        {
+          "text": "Our Care Team",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-care-team",
+          "inFooter": false
+        },
+        {
+          "text": "Why Virtual Therapy Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/why-virtual-care-works",
+          "inFooter": false
+        },
+        {
+          "text": "Family Mental Health Checkup",
+          "href": "https://www.littleotterhealth.com/how-care-works/fmhc",
+          "inFooter": false
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatricians & Clinicians",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/pediatricians-clinicians",
+          "inFooter": false
+        },
+        {
+          "text": "Health Plans",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-plans",
+          "inFooter": false
+        },
+        {
+          "text": "Health Systems",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-systems",
+          "inFooter": false
+        },
+        {
+          "text": "Strategic Partners",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/strategic-partners",
+          "inFooter": false
+        },
+        {
+          "text": "Refer to Little Otter",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/refer",
+          "inFooter": false
+        },
+        {
+          "text": "RAFT Program: Autism Spectrum Disorder",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/raft-program-autism-spectrum-disorder",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.littleotterhealth.com/resources/blog",
+          "inFooter": false
+        },
+        {
+          "text": "Resource Hub",
+          "href": "https://www.littleotterhealth.com/resources/family-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Toolkits",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#toolkits",
+          "inFooter": false
+        },
+        {
+          "text": "Screening Tools",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#screening",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Webinars",
+          "href": "https://www.littleotterhealth.com/resources/events-webinars",
+          "inFooter": false
+        },
+        {
+          "text": "Reports & Whitepapers",
+          "href": "https://www.littleotterhealth.com/resources/publications",
+          "inFooter": false
+        },
+        {
+          "text": "Press & News",
+          "href": "https://www.littleotterhealth.com/resources/press-news",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "Shop",
+          "href": "https://shop.littleotterhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.littleotterhealth.com/about-us/careers",
+          "inFooter": false
+        },
+        {
+          "text": "For Families",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": false
+        },
+        {
+          "text": "For Partners",
+          "href": "https://www.littleotterhealth.com/contact/for-partners",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://app.littleotterhealth.com/login",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup?utm_source=marketing_website&utm_medium=popup&utm_campaign=checkup&utm_content=",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/onboarding/start/checkup?utm_source=marketing_site&utm_medium=button&utm_campaign=onboarding_checkup&utm_content=take_our_assessment",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Children 0–2 Feel confident caring for your baby or toddler. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": false
+        },
+        {
+          "text": "Children 3–7 Give your children what they need to thrive. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": false
+        },
+        {
+          "text": "Children 8–12 Help your children live their happiest and healthiest lives. Learn",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": false
+        },
+        {
+          "text": "Teenagers Support your teenager’s mental health. No matter what they’re dealing ",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": false
+        },
+        {
+          "text": "Parents Supporting your mental health, not just as a parent and a partner—but as",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": false
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum Helping you grow a healthy family. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "click here",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "See more",
+          "href": "https://www.littleotterhealth.com/faqs",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup?utm_source=marketing_site&utm_medium=button&utm_campaign=take_our_assessment",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/littleotterhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/little-otter/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/littleotterhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "Children 0-2",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": true
+        },
+        {
+          "text": "Children 3-7",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": true
+        },
+        {
+          "text": "Children 8-12",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": true
+        },
+        {
+          "text": "Teenagers 13-18",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": true
+        },
+        {
+          "text": "Parents",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": true
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": true
+        },
+        {
+          "text": "How it Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-services",
+          "inFooter": true
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#what-we-treat",
+          "inFooter": true
+        },
+        {
+          "text": "Our Care Team",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-care-team",
+          "inFooter": true
+        },
+        {
+          "text": "Why Virtual Therapy Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/why-virtual-care-works",
+          "inFooter": true
+        },
+        {
+          "text": "Family Mental Health Checkup",
+          "href": "https://www.littleotterhealth.com/how-care-works/fmhc",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatricians & Clinicians",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/pediatricians-clinicians",
+          "inFooter": true
+        },
+        {
+          "text": "Health Plans",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-plans",
+          "inFooter": true
+        },
+        {
+          "text": "Health Systems",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-systems",
+          "inFooter": true
+        },
+        {
+          "text": "Refer to Little Otter",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/refer",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.littleotterhealth.com/resources/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Resource Hub",
+          "href": "https://www.littleotterhealth.com/resources/family-resources",
+          "inFooter": true
+        },
+        {
+          "text": "Toolkits",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#toolkits",
+          "inFooter": true
+        },
+        {
+          "text": "Screening Tools",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#screening",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Webinars",
+          "href": "https://www.littleotterhealth.com/resources/events-webinars",
+          "inFooter": true
+        },
+        {
+          "text": "Reports & Whitepapers",
+          "href": "https://www.littleotterhealth.com/resources/publications",
+          "inFooter": true
+        },
+        {
+          "text": "Press & News",
+          "href": "https://www.littleotterhealth.com/resources/press-news",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": true
+        },
+        {
+          "text": "Shop",
+          "href": "https://shop.littleotterhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.littleotterhealth.com/about-us/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us (Families)",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us (Partners)",
+          "href": "https://www.littleotterhealth.com/contact/for-partners",
+          "inFooter": true
+        },
+        {
+          "text": "Arizona",
+          "href": "https://www.littleotterhealth.com/states/arizona",
+          "inFooter": true
+        },
+        {
+          "text": "California",
+          "href": "https://www.littleotterhealth.com/states/california",
+          "inFooter": true
+        },
+        {
+          "text": "Colorado",
+          "href": "https://www.littleotterhealth.com/states/colorado",
+          "inFooter": true
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://www.littleotterhealth.com/states/connecticut",
+          "inFooter": true
+        },
+        {
+          "text": "Florida",
+          "href": "https://www.littleotterhealth.com/states/florida",
+          "inFooter": true
+        },
+        {
+          "text": "Georgia",
+          "href": "https://www.littleotterhealth.com/states/georgia",
+          "inFooter": true
+        },
+        {
+          "text": "Illinois",
+          "href": "https://www.littleotterhealth.com/states/illinois",
+          "inFooter": true
+        },
+        {
+          "text": "Maryland",
+          "href": "https://www.littleotterhealth.com/states/maryland",
+          "inFooter": true
+        },
+        {
+          "text": "Massachusetts",
+          "href": "https://www.littleotterhealth.com/states/massachusetts",
+          "inFooter": true
+        },
+        {
+          "text": "Minnesota",
+          "href": "https://www.littleotterhealth.com/states/minnesota",
+          "inFooter": true
+        },
+        {
+          "text": "Missouri",
+          "href": "https://www.littleotterhealth.com/states/missouri",
+          "inFooter": true
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://www.littleotterhealth.com/states/new-jersey",
+          "inFooter": true
+        },
+        {
+          "text": "New York",
+          "href": "https://www.littleotterhealth.com/states/new-york",
+          "inFooter": true
+        },
+        {
+          "text": "North Carolina",
+          "href": "https://www.littleotterhealth.com/states/north-carolina",
+          "inFooter": true
+        },
+        {
+          "text": "Ohio",
+          "href": "https://www.littleotterhealth.com/states/ohio",
+          "inFooter": true
+        },
+        {
+          "text": "Pennsylvania",
+          "href": "https://www.littleotterhealth.com/states/pennsylvania",
+          "inFooter": true
+        },
+        {
+          "text": "South Carolina",
+          "href": "https://www.littleotterhealth.com/states/south-carolina",
+          "inFooter": true
+        },
+        {
+          "text": "Tennessee",
+          "href": "https://www.littleotterhealth.com/states/tennessee",
+          "inFooter": true
+        },
+        {
+          "text": "Texas",
+          "href": "https://www.littleotterhealth.com/states/texas",
+          "inFooter": true
+        },
+        {
+          "text": "Utah",
+          "href": "https://www.littleotterhealth.com/states/utah",
+          "inFooter": true
+        },
+        {
+          "text": "Virginia",
+          "href": "https://www.littleotterhealth.com/states/virginia",
+          "inFooter": true
+        },
+        {
+          "text": "Washington",
+          "href": "https://www.littleotterhealth.com/states/washington",
+          "inFooter": true
+        },
+        {
+          "text": "Washington, D.C.",
+          "href": "https://www.littleotterhealth.com/states/washington-dc",
+          "inFooter": true
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": true
+        },
+        {
+          "text": "415-449-2813",
+          "href": "tel:415-449-2813",
+          "inFooter": true
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.littleotterhealth.com/faqs",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://www.littleotterhealth.com/terms-of-service",
+          "inFooter": true
+        },
+        {
+          "text": "Cookie Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy#cookie-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.littleotterhealth.com/notice-of-privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice to California Consumers",
+          "href": "https://www.littleotterhealth.com/notice-to-california-consumers",
+          "inFooter": true
+        },
+        {
+          "text": "Sitemap",
+          "href": "https://www.littleotterhealth.com/sitemap",
+          "inFooter": true
+        },
+        {
+          "text": "click here",
+          "href": "https://www.littleotterhealth.com/medical-practices",
+          "inFooter": true
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy#Cookie-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Decline",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Accept All",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Stay in the loop Get free resources and toolkits and stay up to date with the latest news from Little Otter. For Families Children 0-2 Children 3-7 Children 8-12 Teenagers 13-18 Parents Trying, Expecting, & Postpartum How Care Works How it Works Our Services What We Treat Our Care Team Why Virtual Therapy Works Family Mental Health Checkup Pricing Pricing & Insurance For Providers & Partners Pediatricians & Clinicians Health Plans Health Systems Refer to Little Otter Resources Blog Resource Hub Toolkits Screening Tools Events & Webinars Reports & Whitepapers Press & News About Us About Us Shop Careers Contact Us (Families) Contact Us (Partners) Locations Arizona California Colorado Connecticut Florida Georgia Illinois Maryland Massachusetts Minnesota Missouri New Jersey New York North Carolina Ohio Pennsylvania South Carolina Tennessee Texas Utah Virginia Washington Washington, D.C. Contact us 415-449-2813 If you, your child, or someone you know is in crisis, call 911, go to the nearest emergency room, or reach out to the following national resources. You’re never alone. 24-Hour Crisis Center Call 1-800-273-TALK (8255) Crisis Text Line Text 741741 FAQ Terms of Service Cookie Policy Privacy Policy Notice of Privacy Practices Notice to California Consumers Sitemap Little Otter-affiliated medical practices are independently owned and operated by licensed physicians who provide services using the Little Otter telehealth platform. For more information about the relationship between Little Otter and the medical practices click here.",
+      "telLinks": [
+        {
+          "text": "415-449-2813",
+          "href": "tel:415-449-2813",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.littleotterhealth.com/",
+          "fields": [
+            "input:email:Email",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 28,
+      "images": 28,
+      "scrollHeight": 13732,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.navbar",
+        "DIV.popup",
+        "DIV.popup",
+        "DIV.popup",
+        "DIV.cookie-container",
+        "IFRAME.",
+        "IFRAME.",
+        "IFRAME."
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12676,
+      "consoleErrors": [],
+      "title": "Little Otter | Mental Health Services for the Whole Family",
+      "h1": [
+        "Mental health care for your whole family"
+      ],
+      "h2": [
+        "Take control of your family's mental health",
+        "Take control of your family's mental health",
+        "ACCEPTED INSURANCE PLANS",
+        "WHO WE SERVE",
+        "WHAT WE TREAT",
+        "TESTIMONIALS",
+        "OUR RESULTS",
+        "HOW IT WORKS",
+        "Tell us what’s going on",
+        "Begin care immediately",
+        "Track progress, see results",
+        "OUR SERVICES",
+        "WHY LITTLE OTTER",
+        "The leader in child mental health",
+        "Don’t wait to get the care your family needs",
+        "Take control of your family's mental health"
+      ],
+      "links": [
+        {
+          "text": "Learn more here",
+          "href": "https://www.littleotterhealth.com/blog/our-next-chapter-hazel-health-and-little-otter-merge",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Children 0-2",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": false
+        },
+        {
+          "text": "Children 3-7",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": false
+        },
+        {
+          "text": "Children 8-12",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": false
+        },
+        {
+          "text": "Teenagers 13-18",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": false
+        },
+        {
+          "text": "Parents",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": false
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": false
+        },
+        {
+          "text": "How it Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-services",
+          "inFooter": false
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#what-we-treat",
+          "inFooter": false
+        },
+        {
+          "text": "Our Care Team",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-care-team",
+          "inFooter": false
+        },
+        {
+          "text": "Why Virtual Therapy Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/why-virtual-care-works",
+          "inFooter": false
+        },
+        {
+          "text": "Family Mental Health Checkup",
+          "href": "https://www.littleotterhealth.com/how-care-works/fmhc",
+          "inFooter": false
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatricians & Clinicians",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/pediatricians-clinicians",
+          "inFooter": false
+        },
+        {
+          "text": "Health Plans",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-plans",
+          "inFooter": false
+        },
+        {
+          "text": "Health Systems",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-systems",
+          "inFooter": false
+        },
+        {
+          "text": "Strategic Partners",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/strategic-partners",
+          "inFooter": false
+        },
+        {
+          "text": "Refer to Little Otter",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/refer",
+          "inFooter": false
+        },
+        {
+          "text": "RAFT Program: Autism Spectrum Disorder",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/raft-program-autism-spectrum-disorder",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.littleotterhealth.com/resources/blog",
+          "inFooter": false
+        },
+        {
+          "text": "Resource Hub",
+          "href": "https://www.littleotterhealth.com/resources/family-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Toolkits",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#toolkits",
+          "inFooter": false
+        },
+        {
+          "text": "Screening Tools",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#screening",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Webinars",
+          "href": "https://www.littleotterhealth.com/resources/events-webinars",
+          "inFooter": false
+        },
+        {
+          "text": "Reports & Whitepapers",
+          "href": "https://www.littleotterhealth.com/resources/publications",
+          "inFooter": false
+        },
+        {
+          "text": "Press & News",
+          "href": "https://www.littleotterhealth.com/resources/press-news",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "Shop",
+          "href": "https://shop.littleotterhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.littleotterhealth.com/about-us/careers",
+          "inFooter": false
+        },
+        {
+          "text": "For Families",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": false
+        },
+        {
+          "text": "For Partners",
+          "href": "https://www.littleotterhealth.com/contact/for-partners",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://app.littleotterhealth.com/login",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup?utm_source=marketing_website&utm_medium=popup&utm_campaign=checkup&utm_content=",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/onboarding/start/checkup?utm_source=marketing_site&utm_medium=button&utm_campaign=onboarding_checkup&utm_content=take_our_assessment",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Children 0–2 Feel confident caring for your baby or toddler. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": false
+        },
+        {
+          "text": "Children 3–7 Give your children what they need to thrive. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": false
+        },
+        {
+          "text": "Children 8–12 Help your children live their happiest and healthiest lives. Learn",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": false
+        },
+        {
+          "text": "Teenagers Support your teenager’s mental health. No matter what they’re dealing ",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": false
+        },
+        {
+          "text": "Parents Supporting your mental health, not just as a parent and a partner—but as",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": false
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum Helping you grow a healthy family. Learn more",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "click here",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "See more",
+          "href": "https://www.littleotterhealth.com/faqs",
+          "inFooter": false
+        },
+        {
+          "text": "Get support now",
+          "href": "https://app.littleotterhealth.com/get-started/kickoff?utm_source=marketing_site&utm_medium=button&utm_campaign=get_support_now",
+          "inFooter": false
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup?utm_source=marketing_site&utm_medium=button&utm_campaign=take_our_assessment",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/littleotterhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/little-otter/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/littleotterhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "Children 0-2",
+          "href": "https://www.littleotterhealth.com/for-families/children-0-2",
+          "inFooter": true
+        },
+        {
+          "text": "Children 3-7",
+          "href": "https://www.littleotterhealth.com/for-families/children-3-7",
+          "inFooter": true
+        },
+        {
+          "text": "Children 8-12",
+          "href": "https://www.littleotterhealth.com/for-families/children-8-12",
+          "inFooter": true
+        },
+        {
+          "text": "Teenagers 13-18",
+          "href": "https://www.littleotterhealth.com/for-families/teenagers",
+          "inFooter": true
+        },
+        {
+          "text": "Parents",
+          "href": "https://www.littleotterhealth.com/for-families/parents",
+          "inFooter": true
+        },
+        {
+          "text": "Trying, Expecting, & Postpartum",
+          "href": "https://www.littleotterhealth.com/for-families/trying-expecting",
+          "inFooter": true
+        },
+        {
+          "text": "How it Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-services",
+          "inFooter": true
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#what-we-treat",
+          "inFooter": true
+        },
+        {
+          "text": "Our Care Team",
+          "href": "https://www.littleotterhealth.com/how-care-works/how-care-works#our-care-team",
+          "inFooter": true
+        },
+        {
+          "text": "Why Virtual Therapy Works",
+          "href": "https://www.littleotterhealth.com/how-care-works/why-virtual-care-works",
+          "inFooter": true
+        },
+        {
+          "text": "Family Mental Health Checkup",
+          "href": "https://www.littleotterhealth.com/how-care-works/fmhc",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.littleotterhealth.com/pricing-insurance",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatricians & Clinicians",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/pediatricians-clinicians",
+          "inFooter": true
+        },
+        {
+          "text": "Health Plans",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-plans",
+          "inFooter": true
+        },
+        {
+          "text": "Health Systems",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/health-systems",
+          "inFooter": true
+        },
+        {
+          "text": "Refer to Little Otter",
+          "href": "https://www.littleotterhealth.com/for-providers-and-partners/refer",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.littleotterhealth.com/resources/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Resource Hub",
+          "href": "https://www.littleotterhealth.com/resources/family-resources",
+          "inFooter": true
+        },
+        {
+          "text": "Toolkits",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#toolkits",
+          "inFooter": true
+        },
+        {
+          "text": "Screening Tools",
+          "href": "https://www.littleotterhealth.com/resources/family-resources#screening",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Webinars",
+          "href": "https://www.littleotterhealth.com/resources/events-webinars",
+          "inFooter": true
+        },
+        {
+          "text": "Reports & Whitepapers",
+          "href": "https://www.littleotterhealth.com/resources/publications",
+          "inFooter": true
+        },
+        {
+          "text": "Press & News",
+          "href": "https://www.littleotterhealth.com/resources/press-news",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.littleotterhealth.com/about-us/about-us",
+          "inFooter": true
+        },
+        {
+          "text": "Shop",
+          "href": "https://shop.littleotterhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.littleotterhealth.com/about-us/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us (Families)",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us (Partners)",
+          "href": "https://www.littleotterhealth.com/contact/for-partners",
+          "inFooter": true
+        },
+        {
+          "text": "Arizona",
+          "href": "https://www.littleotterhealth.com/states/arizona",
+          "inFooter": true
+        },
+        {
+          "text": "California",
+          "href": "https://www.littleotterhealth.com/states/california",
+          "inFooter": true
+        },
+        {
+          "text": "Colorado",
+          "href": "https://www.littleotterhealth.com/states/colorado",
+          "inFooter": true
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://www.littleotterhealth.com/states/connecticut",
+          "inFooter": true
+        },
+        {
+          "text": "Florida",
+          "href": "https://www.littleotterhealth.com/states/florida",
+          "inFooter": true
+        },
+        {
+          "text": "Georgia",
+          "href": "https://www.littleotterhealth.com/states/georgia",
+          "inFooter": true
+        },
+        {
+          "text": "Illinois",
+          "href": "https://www.littleotterhealth.com/states/illinois",
+          "inFooter": true
+        },
+        {
+          "text": "Maryland",
+          "href": "https://www.littleotterhealth.com/states/maryland",
+          "inFooter": true
+        },
+        {
+          "text": "Massachusetts",
+          "href": "https://www.littleotterhealth.com/states/massachusetts",
+          "inFooter": true
+        },
+        {
+          "text": "Minnesota",
+          "href": "https://www.littleotterhealth.com/states/minnesota",
+          "inFooter": true
+        },
+        {
+          "text": "Missouri",
+          "href": "https://www.littleotterhealth.com/states/missouri",
+          "inFooter": true
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://www.littleotterhealth.com/states/new-jersey",
+          "inFooter": true
+        },
+        {
+          "text": "New York",
+          "href": "https://www.littleotterhealth.com/states/new-york",
+          "inFooter": true
+        },
+        {
+          "text": "North Carolina",
+          "href": "https://www.littleotterhealth.com/states/north-carolina",
+          "inFooter": true
+        },
+        {
+          "text": "Ohio",
+          "href": "https://www.littleotterhealth.com/states/ohio",
+          "inFooter": true
+        },
+        {
+          "text": "Pennsylvania",
+          "href": "https://www.littleotterhealth.com/states/pennsylvania",
+          "inFooter": true
+        },
+        {
+          "text": "South Carolina",
+          "href": "https://www.littleotterhealth.com/states/south-carolina",
+          "inFooter": true
+        },
+        {
+          "text": "Tennessee",
+          "href": "https://www.littleotterhealth.com/states/tennessee",
+          "inFooter": true
+        },
+        {
+          "text": "Texas",
+          "href": "https://www.littleotterhealth.com/states/texas",
+          "inFooter": true
+        },
+        {
+          "text": "Utah",
+          "href": "https://www.littleotterhealth.com/states/utah",
+          "inFooter": true
+        },
+        {
+          "text": "Virginia",
+          "href": "https://www.littleotterhealth.com/states/virginia",
+          "inFooter": true
+        },
+        {
+          "text": "Washington",
+          "href": "https://www.littleotterhealth.com/states/washington",
+          "inFooter": true
+        },
+        {
+          "text": "Washington, D.C.",
+          "href": "https://www.littleotterhealth.com/states/washington-dc",
+          "inFooter": true
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.littleotterhealth.com/contact/for-families",
+          "inFooter": true
+        },
+        {
+          "text": "415-449-2813",
+          "href": "tel:415-449-2813",
+          "inFooter": true
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.littleotterhealth.com/faqs",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of Service",
+          "href": "https://www.littleotterhealth.com/terms-of-service",
+          "inFooter": true
+        },
+        {
+          "text": "Cookie Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy#cookie-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.littleotterhealth.com/notice-of-privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice to California Consumers",
+          "href": "https://www.littleotterhealth.com/notice-to-california-consumers",
+          "inFooter": true
+        },
+        {
+          "text": "Sitemap",
+          "href": "https://www.littleotterhealth.com/sitemap",
+          "inFooter": true
+        },
+        {
+          "text": "click here",
+          "href": "https://www.littleotterhealth.com/medical-practices",
+          "inFooter": true
+        },
+        {
+          "text": "Take our assessment",
+          "href": "https://app.littleotterhealth.com/get-started/checkup",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.littleotterhealth.com/privacy-policy#Cookie-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Decline",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Accept All",
+          "href": "https://www.littleotterhealth.com/#",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Stay in the loop Get free resources and toolkits and stay up to date with the latest news from Little Otter. For Families Children 0-2 Children 3-7 Children 8-12 Teenagers 13-18 Parents Trying, Expecting, & Postpartum How Care Works How it Works Our Services What We Treat Our Care Team Why Virtual Therapy Works Family Mental Health Checkup Pricing Pricing & Insurance For Providers & Partners Pediatricians & Clinicians Health Plans Health Systems Refer to Little Otter Resources Blog Resource Hub Toolkits Screening Tools Events & Webinars Reports & Whitepapers Press & News About Us About Us Shop Careers Contact Us (Families) Contact Us (Partners) Locations Arizona California Colorado Connecticut Florida Georgia Illinois Maryland Massachusetts Minnesota Missouri New Jersey New York North Carolina Ohio Pennsylvania South Carolina Tennessee Texas Utah Virginia Washington Washington, D.C. Contact us 415-449-2813 If you, your child, or someone you know is in crisis, call 911, go to the nearest emergency room, or reach out to the following national resources. You’re never alone. 24-Hour Crisis Center Call 1-800-273-TALK (8255) Crisis Text Line Text 741741 FAQ Terms of Service Cookie Policy Privacy Policy Notice of Privacy Practices Notice to California Consumers Sitemap Little Otter-affiliated medical practices are independently owned and operated by licensed physicians who provide services using the Little Otter telehealth platform. For more information about the relationship between Little Otter and the medical practices click here.",
+      "telLinks": [
+        {
+          "text": "415-449-2813",
+          "href": "tel:415-449-2813",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.littleotterhealth.com/",
+          "fields": [
+            "input:email:Email",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 28,
+      "images": 28,
+      "scrollHeight": 8375,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.navbar",
+        "DIV.popup",
+        "DIV.popup",
+        "DIV.popup",
+        "DIV.cookie-container",
+        "IFRAME.",
+        "IFRAME.",
+        "IFRAME."
+      ]
+    }
+  }
+}

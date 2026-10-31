@@ -1,0 +1,1376 @@
+{
+  "url": "https://www.agavepediatrics.com/",
+  "slug": "agavepeds",
+  "capturedAt": "2026-10-30T18:39:36.793Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 16635,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 429 ()",
+        "TypeError: $w(...).show is not a function\n    at eval (https://bundler-velo.parastorage.com/v3_metaSiteId_581ce4c1-17d2-468c-ae7e-23f776202b6e/gridAppId_d2689ba2-116d-43e7-9bd7-54641b9e631e/filePath_p"
+      ],
+      "title": "Pediatricians in Arizona | Trusted Pediatric Care",
+      "h1": [
+        "Trusted Pediatrician in Arizona for newborns, children & teens"
+      ],
+      "h2": [
+        "Why Parents Choose Agave Pediatrics",
+        "Your Journey Begins with the Best Pediatric Care in Arizona",
+        "Explore Our Range of Pediatric Services",
+        "Meet Our Experienced Pediatric Providers",
+        "Parent Chronicles: Navigating Parenthood with Agave Pediatrics - Your Trusted Pediatric Doctor in Every Chapter!",
+        "Brandy Orona",
+        "Frequently Asked Questions",
+        "What our Clients Say !",
+        "Pediatric Care Across Arizona",
+        "Schedule Your Child's Wellness Journey Today"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "480-585-5200",
+          "href": "tel:4805855200",
+          "inFooter": false
+        },
+        {
+          "text": "TONGUE TIE SITE",
+          "href": "https://www.tonguetiekids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.agavepediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.agavepediatrics.com/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "Agave Journey",
+          "href": "https://www.agavepediatrics.com/agave-journey",
+          "inFooter": false
+        },
+        {
+          "text": "Our Awards",
+          "href": "https://www.agavepediatrics.com/our-awards",
+          "inFooter": false
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://www.agavepediatrics.com/testimonials",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Tours",
+          "href": "https://www.agavepediatrics.com/virtual-tours",
+          "inFooter": false
+        },
+        {
+          "text": "Photo Gallery",
+          "href": "https://www.agavepediatrics.com/photo-gallery",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.agavepediatrics.com/our-services",
+          "inFooter": false
+        },
+        {
+          "text": "Well Child Checks",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Same Day Sick Visits",
+          "href": "https://www.agavepediatrics.com/sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Osteopathic Manual Medicine",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Lactation Services",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Tongue Tie Program",
+          "href": "https://www.agavepediatrics.com/tongue-tie",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy Testing",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "Procedures",
+          "href": "https://www.agavepediatrics.com/procedures",
+          "inFooter": false
+        },
+        {
+          "text": "Sports Physicals",
+          "href": "https://www.agavepediatrics.com/sports-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "Meet & Greet",
+          "href": "https://www.agavepediatrics.com/meet-and-greet",
+          "inFooter": false
+        },
+        {
+          "text": "Televisits",
+          "href": "https://www.agavepediatrics.com/televisits",
+          "inFooter": false
+        },
+        {
+          "text": "After Hours Triage",
+          "href": "https://www.agavepediatrics.com/after-hours-triage",
+          "inFooter": false
+        },
+        {
+          "text": "Occupational & Physical Therapy",
+          "href": "https://www.agavepediatrics.com/occupational-and-physical-therapy",
+          "inFooter": false
+        },
+        {
+          "text": "Providers",
+          "href": "https://www.agavepediatrics.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Resources",
+          "href": "https://www.agavepediatrics.com/resources",
+          "inFooter": false
+        },
+        {
+          "text": "What to Bring to Your Appointment",
+          "href": "https://www.agavepediatrics.com/what-to-bring-to-your-appointment",
+          "inFooter": false
+        },
+        {
+          "text": "Billing Policies",
+          "href": "https://www.agavepediatrics.com/billing-policies",
+          "inFooter": false
+        },
+        {
+          "text": "Miscellaneous Patient Education",
+          "href": "https://www.agavepediatrics.com/miscellaneous-patient-education",
+          "inFooter": false
+        },
+        {
+          "text": "Blog & News",
+          "href": "https://www.agavepediatrics.com/blogandnews",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Guide",
+          "href": "https://www.agavepediatrics.com/newbornguide",
+          "inFooter": false
+        },
+        {
+          "text": "Symptom Checker",
+          "href": "https://www.healthychildren.org/English/tips-tools/Symptom-Checker/Pages/default.aspx",
+          "inFooter": false
+        },
+        {
+          "text": "Measles Update",
+          "href": "https://www.agavepediatrics.com/measles-update",
+          "inFooter": false
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.agavepediatrics.com/podcast",
+          "inFooter": false
+        },
+        {
+          "text": "Specialist Referrals",
+          "href": "https://www.agavepediatrics.com/referrals",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.agavepediatrics.com/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Glendale",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "Goodyear",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "Phoenix",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "Scottsdale",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "Chandler",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "Leave a Review",
+          "href": "https://www.agavepediatrics.com/leave-a-review",
+          "inFooter": false
+        },
+        {
+          "text": "HIPAA Disclaimer",
+          "href": "https://www.agavepediatrics.com/hipaa-disclaimer",
+          "inFooter": false
+        },
+        {
+          "text": "Links",
+          "href": "https://www.agavepediatrics.com/links",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.agavepediatrics.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://www.agavepediatrics.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "How To Use The Patient Portal Website",
+          "href": "https://www.agavepediatrics.com/how-to-use-the-patient-portal-website",
+          "inFooter": false
+        },
+        {
+          "text": "How To Use The Patient Portal App",
+          "href": "https://www.agavepediatrics.com/how-to-use-the-patient-portal-app",
+          "inFooter": false
+        },
+        {
+          "text": "Santovia",
+          "href": "https://www.agavepediatrics.com/santovia",
+          "inFooter": false
+        },
+        {
+          "text": "Visit Patient Portal",
+          "href": "https://mycw13.eclinicalweb.com/portal607/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "Tongue Tie Kids Website",
+          "href": "https://www.tonguetiekids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Payments",
+          "href": "https://payv3.xpress-pay.com/org/6713D2FF27DD401",
+          "inFooter": false
+        },
+        {
+          "text": "https://payv3.xpress-pay.com/org/6713D2FF27DD401",
+          "href": "https://payv3.xpress-pay.com/org/6713D2FF27DD401",
+          "inFooter": false
+        },
+        {
+          "text": "Book Appointment",
+          "href": "https://www.agavepediatrics.com/selfbook",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment →",
+          "href": "https://www.agavepediatrics.com/selfbook",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Guide",
+          "href": "https://www.agavepediatrics.com/newbornguide",
+          "inFooter": false
+        },
+        {
+          "text": "Symptom Checker",
+          "href": "https://www.healthychildren.org/English/tips-tools/Symptom-Checker/Pages/default.aspx",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More About Agave Pediatrics →",
+          "href": "https://www.agavepediatrics.com/agave-journey",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://www.agavepediatrics.com/our-services",
+          "inFooter": false
+        },
+        {
+          "text": "Well Child Checks",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Same Day Sick Visits",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Osteopathic Manual Medicine",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Lactation Services",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy Testing",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "View All Providers",
+          "href": "https://www.agavepediatrics.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Lydia Powers, DO, CLC",
+          "href": "https://www.agavepediatrics.com/lydia-powers",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/lydia-powers",
+          "inFooter": false
+        },
+        {
+          "text": "Shook Yap, MD",
+          "href": "https://www.agavepediatrics.com/shook-yap",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/shook-yap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Nichole Thomas, DO, FAAP",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Rajeev Agarwal, MD, FAAP",
+          "href": "https://www.agavepediatrics.com/rajeev-agarwal",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/rajeev-agarwal",
+          "inFooter": false
+        },
+        {
+          "text": "View All Reviews",
+          "href": "https://www.agavepediatrics.com/video-reviews",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjc1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjc7",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcc1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjci",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcm",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjct",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcy4",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjd3",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdg",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdl",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdr",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdv1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpje0",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpje61",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjec",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjeh1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjen",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "GLENDALE",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "GOODYEAR",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "SCOTTSDALE",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "PHOENIX",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "CHANDLER",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment with Agave Pediatrics!",
+          "href": "https://www.agavepediatrics.com/contact",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/AgavePediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/channel/UCTjnzOi5XyGHheTYzPgvgSw",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/agavepediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@agave_pediatrics",
+          "inFooter": true
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:+1-480-585-5200",
+          "inFooter": true
+        },
+        {
+          "text": "(480) 585-5233",
+          "href": "tel:(480) 585-5233",
+          "inFooter": true
+        },
+        {
+          "text": "Our Policies",
+          "href": "https://www.agavepediatrics.com/our-policies",
+          "inFooter": true
+        },
+        {
+          "text": "Phone",
+          "href": "tel:",
+          "inFooter": false
+        },
+        {
+          "text": "Email",
+          "href": "mailto:",
+          "inFooter": false
+        }
+      ],
+      "footerText": "T: (480) 585-5200 F: (480) 585-5233 © 2026 Agave Pediatrics | Our Policies",
+      "telLinks": [
+        {
+          "text": "480-585-5200",
+          "href": "tel:4805855200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:(480) 585-5200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:+1-480-585-5200",
+          "inFooter": true
+        },
+        {
+          "text": "(480) 585-5233",
+          "href": "tel:(480) 585-5233",
+          "inFooter": true
+        },
+        {
+          "text": "Phone",
+          "href": "tel:",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 10,
+      "images": 29,
+      "scrollHeight": 14355,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org/\",\"@type\":\"WebSite\",\"url\":\"https://www.agavepediatrics.com/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.agavepediatrics.com/search?q={search_term}\"},\"query-input\":\"required name=search_term\"}}",
+        "{\"@context\":\"https://schema.org/\",\"@type\":\"WebSite\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com\"}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/UGFX5aL7hD0/mqdefault.jpg\",\"name\":\"Sarah Langenhuizen\",\"description\":\"Description\",\"uploadDate\":\"2023-11-28T07:26:12.155Z\",\"duration\":\"PT6M36S\",\"embedUrl\":\"https://www.youtube.com/embed/UGFX5aL7hD0\",\"position\":1},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/6WqZ036UFbs/mqdefault.jpg\",\"name\":\"Meleika Wadley\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.587Z\",\"duration\":\"PT10M13S\",\"embedUrl\":\"https://www.youtube.com/embed/6WqZ036UFbs\",\"position\":2},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/45WYjhnO7Co/mqdefault.jpg\",\"name\":\"Taffery Lowry\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.587Z\",\"duration\":\"PT7M11S\",\"embedUrl\":\"https://www.youtube.com/embed/45WYjhnO7Co\",\"position\":3},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/DUHAAW5vwSw/mqdefault.jpg\",\"name\":\"Sara Millett\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.588Z\",\"duration\":\"PT4M4S\",\"embedUrl\":\"https://www.youtube.com/embed/DUHAAW5vwSw\",\"position\":4}]}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com\",\"logo\":\"https://www.agavepediatrics.com/logo.png\",\"description\":\"Agave Pediatrics is a pediatric medical practice providing comprehensive care for infants, children, and adolescents across Arizona.\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"AZ\",\"addressCountry\":\"US\"}}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"MedicalBusiness\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com/\",\"image\":\"https://www.agavepediatrics.com/logo.png\",\"medicalSpecialty\":\"Pediatrics\",\"description\":\"Agave Pediatrics provides comprehensive pediatric care for infants, children, and adolescents, including well-child visits, sick care, and lactation support.\",\"telephone\":\"(480) 585-5200\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"AZ\",\"addressCountry\":\"US\"},\"areaServed\":{\"@type\":\"State\",\"name\":\"Arizona\"}}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.SOND7z SITE_HEADER wixui-header",
+        "DIV.Uym66v MENU_AS_CONTAINER wixui-mobile-me",
+        "DIV.bKMmNw",
+        "DIV.PzP3Ka BACK_TO_TOP_BUTTON",
+        "DIV.QUICK_ACTION_BAR gQ0EM5 wixui-quick-acti",
+        "DIV.oyINaW"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 15220,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 429 ()"
+      ],
+      "title": "Pediatricians in Arizona | Trusted Pediatric Care",
+      "h1": [
+        "Trusted Pediatrician in Arizona for newborns, children & teens"
+      ],
+      "h2": [
+        "Why Parents Choose Agave Pediatrics",
+        "Your Journey Begins with the Best Pediatric Care in Arizona",
+        "Explore Our Range of Pediatric Services",
+        "Meet Our Experienced Pediatric Providers",
+        "What our Clients Say !",
+        "Parent Chronicles: Navigating Parenthood with Agave Pediatrics - Your Trusted Pediatric Doctor in Every Chapter!",
+        "",
+        "Brandy Orona",
+        "Frequently Asked Questions",
+        "Pediatric Care Across Arizona",
+        "Schedule Your Child's Wellness Journey Today"
+      ],
+      "links": [
+        {
+          "text": "480-585-5200",
+          "href": "tel:4805855200",
+          "inFooter": false
+        },
+        {
+          "text": "Payments",
+          "href": "https://payv3.xpress-pay.com/org/6713D2FF27DD401",
+          "inFooter": false
+        },
+        {
+          "text": "Tongue Tie Site",
+          "href": "http://www.tonguetiekids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book Appointment",
+          "href": "https://www.agavepediatrics.com/selfbook",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/agavepediatrics/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/AgavePediatrics/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/channel/UCTjnzOi5XyGHheTYzPgvgSw",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@agave_pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.agavepediatrics.com/about-us",
+          "inFooter": false
+        },
+        {
+          "text": "Agave Journey",
+          "href": "https://www.agavepediatrics.com/agave-journey",
+          "inFooter": false
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://www.agavepediatrics.com/testimonials",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Tours",
+          "href": "https://www.agavepediatrics.com/virtual-tours",
+          "inFooter": false
+        },
+        {
+          "text": "Photo Gallery",
+          "href": "https://www.agavepediatrics.com/photo-gallery",
+          "inFooter": false
+        },
+        {
+          "text": "Our Awards",
+          "href": "https://www.agavepediatrics.com/our-awards",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.agavepediatrics.com/our-services",
+          "inFooter": false
+        },
+        {
+          "text": "Well Child Checks",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Same Day Sick Visits",
+          "href": "https://www.agavepediatrics.com/sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Osteopathic Manual Medicine",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Lactation Services",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Tongue Tie Program",
+          "href": "https://www.agavepediatrics.com/tongue-tie",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy Testing",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "Procedures",
+          "href": "https://www.agavepediatrics.com/procedures",
+          "inFooter": false
+        },
+        {
+          "text": "Sports Physicals",
+          "href": "https://www.agavepediatrics.com/sports-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "Meet & Greet",
+          "href": "https://www.agavepediatrics.com/meet-and-greet",
+          "inFooter": false
+        },
+        {
+          "text": "Televisits",
+          "href": "https://www.agavepediatrics.com/televisits",
+          "inFooter": false
+        },
+        {
+          "text": "After Hours Triage",
+          "href": "https://www.agavepediatrics.com/after-hours-triage",
+          "inFooter": false
+        },
+        {
+          "text": "Occupational & Physical Therapy",
+          "href": "https://www.agavepediatrics.com/occupational-and-physical-therapy",
+          "inFooter": false
+        },
+        {
+          "text": "Providers",
+          "href": "https://www.agavepediatrics.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://www.agavepediatrics.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Visit Patient Portal Website",
+          "href": "https://mycw13.eclinicalweb.com/portal607/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "How To Use The Patient Portal Website",
+          "href": "https://www.agavepediatrics.com/how-to-use-the-patient-portal-website",
+          "inFooter": false
+        },
+        {
+          "text": "How To Use The Patient Portal App",
+          "href": "https://www.agavepediatrics.com/how-to-use-the-patient-portal-app",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Resources",
+          "href": "https://www.agavepediatrics.com/resources",
+          "inFooter": false
+        },
+        {
+          "text": "What to Bring to Your Appointment",
+          "href": "https://www.agavepediatrics.com/what-to-bring-to-your-appointment",
+          "inFooter": false
+        },
+        {
+          "text": "Billing Policies",
+          "href": "https://www.agavepediatrics.com/billing-policies",
+          "inFooter": false
+        },
+        {
+          "text": "Miscellaneous Patient Education",
+          "href": "https://www.agavepediatrics.com/miscellaneous-patient-education",
+          "inFooter": false
+        },
+        {
+          "text": "Blog & News",
+          "href": "https://www.agavepediatrics.com/blogandnews",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Guide",
+          "href": "https://www.agavepediatrics.com/newbornguide",
+          "inFooter": false
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.agavepediatrics.com/podcast",
+          "inFooter": false
+        },
+        {
+          "text": "Specialist Referrals",
+          "href": "https://www.agavepediatrics.com/referrals",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.agavepediatrics.com/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Leave a Review",
+          "href": "https://www.agavepediatrics.com/leave-a-review",
+          "inFooter": false
+        },
+        {
+          "text": "Links",
+          "href": "https://www.agavepediatrics.com/links",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.agavepediatrics.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment →",
+          "href": "https://www.agavepediatrics.com/selfbook",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Guide",
+          "href": "https://www.agavepediatrics.com/newbornguide",
+          "inFooter": false
+        },
+        {
+          "text": "Symptom Checker",
+          "href": "https://www.healthychildren.org/English/tips-tools/Symptom-Checker/Pages/default.aspx",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More About Agave Pediatrics →",
+          "href": "https://www.agavepediatrics.com/agave-journey",
+          "inFooter": false
+        },
+        {
+          "text": "Well Child Checks",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Same Day Sick Visits",
+          "href": "https://www.agavepediatrics.com/well-child-checks",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Lactation Services",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/lactation",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/immunizations",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://www.agavepediatrics.com/our-services",
+          "inFooter": false
+        },
+        {
+          "text": "Osteopathic Manual Medicine",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/omm",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy Testing",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.agavepediatrics.com/allergies",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Lydia Powers, DO, CLC",
+          "href": "https://www.agavepediatrics.com/lydia-powers",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/lydia-powers",
+          "inFooter": false
+        },
+        {
+          "text": "Shook Yap, MD",
+          "href": "https://www.agavepediatrics.com/shook-yap",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/shook-yap",
+          "inFooter": false
+        },
+        {
+          "text": "View All Providers",
+          "href": "https://www.agavepediatrics.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Nichole Thomas, DO, FAAP",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/nichole-thomas",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/rajeev-agarwal",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Rajeev Agarwal, MD, FAAP",
+          "href": "https://www.agavepediatrics.com/rajeev-agarwal",
+          "inFooter": false
+        },
+        {
+          "text": "View Bio",
+          "href": "https://www.agavepediatrics.com/rajeev-agarwal",
+          "inFooter": false
+        },
+        {
+          "text": "View All Reviews",
+          "href": "https://www.agavepediatrics.com/video-reviews",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjc1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjc7",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcc1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjci",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcm",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjct",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjcy4",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjd3",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdg",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdl",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdr",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjdv1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpje0",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpje61",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjec",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjeh1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/#comp-mudnpjen",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "GLENDALE",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/glendale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "GOODYEAR",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/goodyear",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "SCOTTSDALE",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/scottsdale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "PHOENIX",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/phoenix",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "CHANDLER",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "View Location",
+          "href": "https://www.agavepediatrics.com/chandler",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment with Agave Pediatrics!",
+          "href": "https://www.agavepediatrics.com/contact",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/AgavePediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/channel/UCTjnzOi5XyGHheTYzPgvgSw",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/agavepediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@agave_pediatrics",
+          "inFooter": true
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:+1-480-585-5200",
+          "inFooter": true
+        },
+        {
+          "text": "Our Policies",
+          "href": "https://www.agavepediatrics.com/our-policies",
+          "inFooter": true
+        }
+      ],
+      "footerText": "T: (480) 585-5200 F: (480) 585-5233 © 2026 Agave Pediatrics | Our Policies",
+      "telLinks": [
+        {
+          "text": "480-585-5200",
+          "href": "tel:4805855200",
+          "inFooter": false
+        },
+        {
+          "text": "(480) 585-5200",
+          "href": "tel:+1-480-585-5200",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 7,
+      "images": 37,
+      "scrollHeight": 9659,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org/\",\"@type\":\"WebSite\",\"url\":\"https://www.agavepediatrics.com/\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://www.agavepediatrics.com/search?q={search_term}\"},\"query-input\":\"required name=search_term\"}}",
+        "{\"@context\":\"https://schema.org/\",\"@type\":\"WebSite\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com\"}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/UGFX5aL7hD0/mqdefault.jpg\",\"name\":\"Sarah Langenhuizen\",\"description\":\"Description\",\"uploadDate\":\"2023-11-28T07:26:12.155Z\",\"duration\":\"PT6M36S\",\"embedUrl\":\"https://www.youtube.com/embed/UGFX5aL7hD0\",\"position\":1},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/6WqZ036UFbs/mqdefault.jpg\",\"name\":\"Meleika Wadley\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.587Z\",\"duration\":\"PT10M13S\",\"embedUrl\":\"https://www.youtube.com/embed/6WqZ036UFbs\",\"position\":2},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/45WYjhnO7Co/mqdefault.jpg\",\"name\":\"Taffery Lowry\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.587Z\",\"duration\":\"PT7M11S\",\"embedUrl\":\"https://www.youtube.com/embed/45WYjhnO7Co\",\"position\":3},{\"@type\":\"VideoObject\",\"thumbnailUrl\":\"https://i.ytimg.com/vi/DUHAAW5vwSw/mqdefault.jpg\",\"name\":\"Sara Millett\",\"description\":\"Description\",\"uploadDate\":\"2021-02-28T19:07:57.588Z\",\"duration\":\"PT4M4S\",\"embedUrl\":\"https://www.youtube.com/embed/DUHAAW5vwSw\",\"position\":4}]}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com\",\"logo\":\"https://www.agavepediatrics.com/logo.png\",\"description\":\"Agave Pediatrics is a pediatric medical practice providing comprehensive care for infants, children, and adolescents across Arizona.\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"AZ\",\"addressCountry\":\"US\"}}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"MedicalBusiness\",\"name\":\"Agave Pediatrics\",\"url\":\"https://www.agavepediatrics.com/\",\"image\":\"https://www.agavepediatrics.com/logo.png\",\"medicalSpecialty\":\"Pediatrics\",\"description\":\"Agave Pediatrics provides comprehensive pediatric care for infants, children, and adolescents, including well-child visits, sick care, and lactation support.\",\"telephone\":\"(480) 585-5200\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"AZ\",\"addressCountry\":\"US\"},\"areaServed\":{\"@type\":\"State\",\"name\":\"Arizona\"}}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.SOND7z SITE_HEADER wixui-header",
+        "DIV.",
+        "DIV.",
+        "DIV.",
+        "DIV.o2HYMd EWjvBx hsuzbd"
+      ]
+    }
+  }
+}

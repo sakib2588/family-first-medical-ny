@@ -1,0 +1,1098 @@
+{
+  "url": "https://rockpediatricdentistry.com/",
+  "slug": "rockpeds-dental",
+  "capturedAt": "2026-10-30T18:37:48.298Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 12848,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 401 ()",
+        "Failed to load resource: the server responded with a status of 400 ()",
+        "Failed to load resource: the server responded with a status of 400 ()",
+        "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.",
+        "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.",
+        "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%o font-size:0;color:transparent {}"
+      ],
+      "title": "Pediatric Dentist in Boulder, CO - Boulder Pediatric Dentistry",
+      "h1": [
+        "Pediatric Dentist in Boulder, CO"
+      ],
+      "h2": [
+        "pediatric dentistry that rocks",
+        "FIRST VISIT",
+        "MEET THE DOCTOR",
+        "OUR APPROACH",
+        "DON'T MISS OUT check out these promotions",
+        "CONTACT US",
+        "OUR REVIEWS what our patients say",
+        "Contact Us"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.instagram.com/rockpediatricdentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/rockpediatricdentistry",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-970-650-6489",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "1200 Yarmouth Ave, Unit C-1C, Boulder, CO 80304",
+          "href": "https://goo.gl/maps/16qrf32fJGKryhZD9",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Menu",
+          "href": "https://rockpediatricdentistry.com/#mainNav",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://rockpediatricdentistry.com/contact-us/#c_form",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/#contInfo",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Same-Day Pediatric Dental Crowns",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation-Free Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomy/Tongue-Tie Surgeries",
+          "href": "https://rockpediatricdentistry.com/our-services/frenectomy/",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Root Canals",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": false
+        },
+        {
+          "text": "We Accept Medicaid / Child Health Plan Plus (CHP+)",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-insurance-financing/",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN ABOUT YOUR FIRST VISIT",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Cleanings",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Comprehensive Exams",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "BPA-Free Sealants",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Silver Diamine Flouride",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Laughing Gas",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Emergencies",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "MEET DR. JENNIFER RUBIN",
+          "href": "https://rockpediatricdentistry.com/about-us/meet-our-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "1200 Yarmouth Ave, Unit C-1C Boulder, CO 80304",
+          "href": "https://maps.app.goo.gl/qFyDroouBgXspdtb9",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://rockpediatricdentistry.com/contact-us/#c_form",
+          "inFooter": false
+        },
+        {
+          "text": "WE PUT KIDS FIRST",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN MORE",
+          "href": "https://rockpediatricdentistry.com/new-patients/special-offers/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-savings-plan/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.google.com/search?q=Rock+Pediatric+Dentistry+Boulder%2C+CO&rlz=1C1VDKB_enUS976US976&oq=Rock+Pediatric+Dentistry+Boulder%2C+CO&aqs=chrome..69i57j69i60l2.4616j0j7&sourceid=chrome&ie=UTF-8#lrd=0x876bef6d5b5753bf:0xa3f6f08bee2b5fed,1,,,",
+          "inFooter": false
+        },
+        {
+          "text": "Follow on Instagram",
+          "href": "https://www.instagram.com/3871778196252956/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://goo.gl/maps/16qrf32fJGKryhZD9",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/rockpediatricdentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/rockpediatricdentistry",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/terms-conditions/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/accessibility-commitment/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/sitemap_index.xml",
+          "inFooter": true
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/rockpediatricdentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/rockpediatricdentistry",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Doctor",
+          "href": "https://rockpediatricdentistry.com/about-us/meet-our-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://rockpediatricdentistry.com/about-us/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://rockpediatricdentistry.com/our-services/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomies",
+          "href": "https://rockpediatricdentistry.com/our-services/frenectomy/",
+          "inFooter": false
+        },
+        {
+          "text": "Restorative Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Preventive Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Root Canals",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": false
+        },
+        {
+          "text": "Invisalign®",
+          "href": "https://rockpediatricdentistry.com/our-services/invisalign/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patients",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Financing",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-insurance-financing/",
+          "inFooter": false
+        },
+        {
+          "text": "Special Offers",
+          "href": "https://rockpediatricdentistry.com/new-patients/special-offers/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Savings Plan",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-savings-plan/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patient Forms",
+          "href": "https://form.dental/dace4da11e/0",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Reviews",
+          "href": "https://rockpediatricdentistry.com/new-patients/patient-reviews/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet The Rock Kids",
+          "href": "https://rockpediatricdentistry.com/meet-the-rock-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "",
+          "href": "tel:+1-970-650-6489",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": true
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://rockpediatricdentistry.com/#wpcf7-f15340-p441-o1",
+          "fields": [
+            "fieldset:fieldset:",
+            "input:hidden:_wpcf7",
+            "input:hidden:_wpcf7_version",
+            "input:hidden:_wpcf7_locale",
+            "input:hidden:_wpcf7_unit_tag",
+            "input:hidden:_wpcf7_container_post",
+            "input:hidden:_wpcf7_posted_data_hash",
+            "input:hidden:_wpcf7_recaptcha_response",
+            "fieldset:fieldset:",
+            "input:radio:new_patient",
+            "input:radio:new_patient",
+            "input:text:website",
+            "input:text:your-name",
+            "input:email:your-email",
+            "input:text:email-3",
+            "input:tel:Phone",
+            "textarea:textarea:your-message",
+            "input:checkbox:checkbox-596[]",
+            "input:submit:",
+            "textarea:textarea:_wpcf7_ak_hp_textarea",
+            "input:hidden:_wpcf7_ak_js"
+          ]
+        }
+      ],
+      "imgNoAlt": 15,
+      "images": 19,
+      "scrollHeight": 9867,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"url\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"name\":\"Pediatric Dentist in Boulder, CO - Boulder Pediatric Dentistry\",\"isPartOf\":{\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#website\"},\"datePublished\":\"2016-06-09T13:22:27+00:00\",\"dateModified\":\"2023-10-25T15:36:52+00:00\",\"description\":\"Rock Pediatric Dentistry is dedicated to providing a fun and comfortable dental experience for your kids. Schedule their appointment today!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/rockpediatricdentistry.com\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#website\",\"url\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"name\":\"Rock Pediatric Dentistry\",\"description\":\"Pediatric Dentist in Boulder, CO\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/rockpediatricdentistry.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}",
+        "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"WebSite\",\n    \"url\": \"https://rockpediatricdentistry.com/\",\n    \"name\": \"Rock Pediatric Dentistry\",\n    \"alternateName\": null\n}",
+        "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Dentist\",\n    \"@id\": \"https://rockpediatricdentistry.com\",\n    \"image\": null,\n    \"priceRange\": \"$$\",\n    \"telephone\": \"720-927-7625\",\n    \"additionalType\": \"https://schema.org/review\",\n    \"name\": \"Rock Pediatric Dentistry\",\n    \"logo\": null,\n    \"description\": \"Rock Pediatric Dentistry is dedicated to providing a fun and comfortable dental experience for your kids. Schedule their appointment today!\",\n    \"openingHours\": [\n        \"Mo-Tu 08:00-17:00\",\n        \"We 08:00-15:00\",\n        \"Th 08:00-17:00\"\n    ],\n    \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": \"40.0296124\",\n        \"longitude\": \"-105.2462783\"\n    },\n    \"url\": \"https://rockpediatricdentistry.com/\",\n    \"contactPoint\": {\n        \"@type\": \"ContactPoint\",\n        \"telephone\": \"720-927-7625\",\n        \"contactType\": \"customer service\",\n        \"email\": \"\",\n        \"contactOption\": \"\",\n        \"areaServed\": \"\",\n        \"availableLanguage\": null\n    },\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"United States\",\n        \"addressLocality\": \"Boulder\",\n        \"addressRegion\": \"CO\",\n        \"postalCode\": \"80301\",\n        \"streetAddress\": \"3000 Center Green Dr Ste 215\"\n    }\n}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.uwy umb userway_p5",
+        "DIV.userway_buttons_wrapper",
+        "IFRAME.uwif userway_p5",
+        "DIV.mobile-show moreInfo",
+        "DIV.mm-ocd mm-ocd--left",
+        "UL.mm-spn--open",
+        "UL.sub-menu",
+        "UL.sub-menu",
+        "UL.sub-menu",
+        "DIV.grecaptcha-badge"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12430,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 400 ()",
+        "Failed to load resource: the server responded with a status of 400 ()",
+        "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.",
+        "Connecting to 'data:,' violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.",
+        "Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%d font-size:0;color:transparent NaN",
+        "%c%o font-size:0;color:transparent {}",
+        "%c%o font-size:0;color:transparent {}"
+      ],
+      "title": "Pediatric Dentist in Boulder, CO - Boulder Pediatric Dentistry",
+      "h1": [
+        "Pediatric Dentist in Boulder, CO"
+      ],
+      "h2": [
+        "pediatric dentistry that rocks",
+        "FIRST VISIT",
+        "MEET THE DOCTOR",
+        "OUR APPROACH",
+        "DON'T MISS OUT check out these promotions",
+        "CONTACT US",
+        "OUR REVIEWS what our patients say",
+        "Contact Us"
+      ],
+      "links": [
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "1200 Yarmouth Ave, Unit C-1C, Boulder, CO 80304",
+          "href": "https://goo.gl/maps/16qrf32fJGKryhZD9",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Menu",
+          "href": "https://rockpediatricdentistry.com/#mainNav",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://rockpediatricdentistry.com/contact-us/#c_form",
+          "inFooter": false
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Doctor",
+          "href": "https://rockpediatricdentistry.com/about-us/meet-our-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://rockpediatricdentistry.com/about-us/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "OUR SERVICES",
+          "href": "https://rockpediatricdentistry.com/our-services/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomies",
+          "href": "https://rockpediatricdentistry.com/our-services/frenectomy/",
+          "inFooter": false
+        },
+        {
+          "text": "Restorative Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Preventive Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Root Canals",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": false
+        },
+        {
+          "text": "Invisalign®",
+          "href": "https://rockpediatricdentistry.com/our-services/invisalign/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "NEW PATIENTS",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Financing",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-insurance-financing/",
+          "inFooter": false
+        },
+        {
+          "text": "Special Offers",
+          "href": "https://rockpediatricdentistry.com/new-patients/special-offers/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Savings Plan",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-savings-plan/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patient Forms",
+          "href": "https://form.dental/dace4da11e/0",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Reviews",
+          "href": "https://rockpediatricdentistry.com/new-patients/patient-reviews/",
+          "inFooter": false
+        },
+        {
+          "text": "MEET THE ROCK KIDS",
+          "href": "https://rockpediatricdentistry.com/meet-the-rock-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/#contInfo",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Same-Day Pediatric Dental Crowns",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation-Free Dentistry",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomy/Tongue-Tie Surgeries",
+          "href": "https://rockpediatricdentistry.com/our-services/frenectomy/",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Root Canals",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": false
+        },
+        {
+          "text": "We Accept Medicaid / Child Health Plan Plus (CHP+)",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-insurance-financing/",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN ABOUT YOUR FIRST VISIT",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Cleanings",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Comprehensive Exams",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "BPA-Free Sealants",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Silver Diamine Flouride",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Laughing Gas",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Emergencies",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "MEET DR. JENNIFER RUBIN",
+          "href": "https://rockpediatricdentistry.com/about-us/meet-our-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "1200 Yarmouth Ave, Unit C-1C Boulder, CO 80304",
+          "href": "https://maps.app.goo.gl/qFyDroouBgXspdtb9",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://rockpediatricdentistry.com/contact-us/#c_form",
+          "inFooter": false
+        },
+        {
+          "text": "WE PUT KIDS FIRST",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN MORE",
+          "href": "https://rockpediatricdentistry.com/new-patients/special-offers/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/dental-savings-plan/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.google.com/search?q=Rock+Pediatric+Dentistry+Boulder%2C+CO&rlz=1C1VDKB_enUS976US976&oq=Rock+Pediatric+Dentistry+Boulder%2C+CO&aqs=chrome..69i57j69i60l2.4616j0j7&sourceid=chrome&ie=UTF-8#lrd=0x876bef6d5b5753bf:0xa3f6f08bee2b5fed,1,,,",
+          "inFooter": false
+        },
+        {
+          "text": "Follow on Instagram",
+          "href": "https://www.instagram.com/3871778196252956/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/about-us/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/new-patients/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/emergency-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/pediatric-root-canals/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/preventive-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/restorative-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/our-services/sedation-dentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://goo.gl/maps/16qrf32fJGKryhZD9",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/rockpediatricdentistry/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/rockpediatricdentistry",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/#formPop",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/terms-conditions/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/accessibility-commitment/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://rockpediatricdentistry.com/sitemap_index.xml",
+          "inFooter": true
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/rockpediatricdentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/rockpediatricdentistry",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": true
+        },
+        {
+          "text": "720-927-7625 (ROCK)",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        },
+        {
+          "text": "720-927-7625",
+          "href": "tel:+1-720-927-7625",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://rockpediatricdentistry.com/#wpcf7-f15340-p441-o1",
+          "fields": [
+            "fieldset:fieldset:",
+            "input:hidden:_wpcf7",
+            "input:hidden:_wpcf7_version",
+            "input:hidden:_wpcf7_locale",
+            "input:hidden:_wpcf7_unit_tag",
+            "input:hidden:_wpcf7_container_post",
+            "input:hidden:_wpcf7_posted_data_hash",
+            "input:hidden:_wpcf7_recaptcha_response",
+            "fieldset:fieldset:",
+            "input:radio:new_patient",
+            "input:radio:new_patient",
+            "input:text:website",
+            "input:text:your-name",
+            "input:email:your-email",
+            "input:text:email-3",
+            "input:tel:Phone",
+            "textarea:textarea:your-message",
+            "input:checkbox:checkbox-596[]",
+            "input:submit:",
+            "textarea:textarea:_wpcf7_ak_hp_textarea",
+            "input:hidden:_wpcf7_ak_js"
+          ]
+        }
+      ],
+      "imgNoAlt": 14,
+      "images": 16,
+      "scrollHeight": 8280,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"url\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"name\":\"Pediatric Dentist in Boulder, CO - Boulder Pediatric Dentistry\",\"isPartOf\":{\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#website\"},\"datePublished\":\"2016-06-09T13:22:27+00:00\",\"dateModified\":\"2023-10-25T15:36:52+00:00\",\"description\":\"Rock Pediatric Dentistry is dedicated to providing a fun and comfortable dental experience for your kids. Schedule their appointment today!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/rockpediatricdentistry.com\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/rockpediatricdentistry.com\\/#website\",\"url\":\"https:\\/\\/rockpediatricdentistry.com\\/\",\"name\":\"Rock Pediatric Dentistry\",\"description\":\"Pediatric Dentist in Boulder, CO\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/rockpediatricdentistry.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}",
+        "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"WebSite\",\n    \"url\": \"https://rockpediatricdentistry.com/\",\n    \"name\": \"Rock Pediatric Dentistry\",\n    \"alternateName\": null\n}",
+        "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Dentist\",\n    \"@id\": \"https://rockpediatricdentistry.com\",\n    \"image\": null,\n    \"priceRange\": \"$$\",\n    \"telephone\": \"720-927-7625\",\n    \"additionalType\": \"https://schema.org/review\",\n    \"name\": \"Rock Pediatric Dentistry\",\n    \"logo\": null,\n    \"description\": \"Rock Pediatric Dentistry is dedicated to providing a fun and comfortable dental experience for your kids. Schedule their appointment today!\",\n    \"openingHours\": [\n        \"Mo-Tu 08:00-17:00\",\n        \"We 08:00-15:00\",\n        \"Th 08:00-17:00\"\n    ],\n    \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": \"40.0296124\",\n        \"longitude\": \"-105.2462783\"\n    },\n    \"url\": \"https://rockpediatricdentistry.com/\",\n    \"contactPoint\": {\n        \"@type\": \"ContactPoint\",\n        \"telephone\": \"720-927-7625\",\n        \"contactType\": \"customer service\",\n        \"email\": \"\",\n        \"contactOption\": \"\",\n        \"areaServed\": \"\",\n        \"availableLanguage\": null\n    },\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"United States\",\n        \"addressLocality\": \"Boulder\",\n        \"addressRegion\": \"CO\",\n        \"postalCode\": \"80301\",\n        \"streetAddress\": \"3000 Center Green Dr Ste 215\"\n    }\n}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

@@ -1,0 +1,724 @@
+
+Website Privacy Statement | Pediatric Associates
+                            Website Privacy Statement                        
+Purpose:
+This Website Privacy Statement, a part of our terms of use, for Pediatric Associates Family of Companies (“Company,” “we,” “us,” or “our”), describes for individuals how, what, and why we might collect, store, use, and/or share (“process”) your information when you use our services (collectively, “Services”), such as when you:
+Visit and interact our websites and other digital platforms we own or operate that links to this Website Privacy Statement
+Download and use our application(s), such as our mobile application, our social media pages, or any other application of ours that links to this Website Privacy Statement
+Engage with us in other related ways including any sales, marketing, or events
+This Website Privacy Statement will help you understand your privacy rights and choices. If you do not agree with our Website Privacy Statement and practice, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@pediatricassociates.com.
+Summary of key points:
+This summary highlights key points from our Website Privacy Statement. For more information on any of these topics, please refer to the table of contents below to locate the relevant section in our full notice.
+What personal information do we process?
+When you visit, use, or navigate our Services, we may process personal information depending on how you interact our Company and our Services, the choices you make, and the products and features you use.
+Do we process any sensitive personal information?
+We may process sensitive personal information, when necessary, with your consent or as otherwise permitted by applicable law.
+Do you receive any information from third parties?
+We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+How do you process my information?
+We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with the law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
+In what situations and with which types of parties do we share personal information?
+We may share information in specific situations and with specific categories of third parties.
+How do we keep your information safe?
+We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+What are your rights?
+Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
+How do I exercise my rights?
+The easiest way to exercise your rights is by contacting us by email at privacy@pediatricassociates.com. We will consider and act upon any request in accordance with applicable data protection laws.
+Do you want to learn more about what our Company does with any information collected?
+Carefully read our Website Privacy Statement in full for detailed information
+Links to navigate our Website Privacy Statement
+What information do we collect?
+How do we process your information?
+What legal bases do we rely on to process your personal information?
+When and with whom do we share your personal information?
+What is our stance on third party websites?
+Do we use cookies and other tracking technologies?
+Is your information transferred internationally?
+How long do we keep your information?
+How do we keep your information safe?
+Do we collect information from minors?
+What are your rights?
+For California residents only, what are your privacy rights?
+Information on controls for do-not-track features
+Do we make updates to this Notice?
+How can you contact us about this notice?
+Full details of our company’s website privacy statement
+1. WHAT INFORMATION DO WE COLLECT?
+We collect personal information that you voluntarily provide to us when you register on our Services, express an interest in obtaining information about us or our Services, when you participate in activities on our Services, or otherwise when you contact us.
+Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
+Identifiers (e.g., name, contact information including email address, username, password, online and device IDs);
+Employment-related information;
+Demographic information (e.g., date of birth and gender);
+Geographic information;
+Other information such as billing information and religious affiliation); and
+Inferences regarding preferences or other characteristics.
+Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information to include personal and/or health information (e.g., personal or family medical history and insurance information, insurance provider, and type of insurance).
+Protected Health Information. We may collect Protected Health Information (PHI) when you schedule appointments, access the Company portal, pay bills online, or receive medical care. PHI is handled according to our Notice of Privacy Practices. If we ever combine your personal or usage data with PHI, we will treat all that information as PHI going forward. If you have questions about how we manage your PHI, please refer to the PAFC Notice of Patient Privacy or contact us directly at privacy@pediatricassociates.com.
+Information automatically collected. We automatically collect certain information when you visit, use, or navigate our Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes. Like many businesses, we also collect information through cookies and similar technologies. The information we collect includes:
+Log and Usage Data. 
+Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called “crash dumps”), and hardware settings).
+Device Data. 
+We collect device data such as information about your computer, phone, tablet, or other device you use to access our Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, internet service provider and/or mobile carrier, operating system, and system configuration information.
+Location Data. We collect location data such as information about your device’s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+Information collected from other sources. In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion. If you interact with us on a social media platform using your social media account (e.g., Facebook or Twitter), we receive personal information about you such as your name, email address, and gender. Any personal information that we collect from your social media account depends on your social media account’s privacy settings.
+2. HOW DO WE PROCESS YOUR INFORMATION?
+We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
+Provided by You. When you voluntarily share your information with us or your content, we will collect personal information that you voluntarily provide, including when you:
+Register for a user account or create a user profile we may collect your name, contact information, username, password, and additional information you share on your account, profile, or registration form;
+Send us an email, communicate with us through our interactive services such as during a chat session, or otherwise contact us, we may collect your name, contact information, and any other Personal Information you share in the communications you send;
+Sign up to receive newsletters and other updates, or subscribe to our podcasts or news feeds, we may collect your email address and other information about your device or operating system;
+Register for an event we may collect your contact and other information necessary to reserve your space at specific events;
+Apply for a job using our online application we may collect your name, contact information and employment information included in your application;
+Complete a health questionnaire or request a consultation or appointment we may collect your name, contact information, date of birth, gender, geographic location, personal or family medical history, insurance information, and other health information;
+Request to verify your insurance coverage we may collect your name, contact information, insurance provider, type of insurance, and additional information to verify your information;
+Request information about a Pediatric Associates Family of Companies location or about clinical trials we may collect your contact information, general geographic location, and information about your inquiry;
+Donate we may collect some information about your donation, name, contact information, and billing information;
+Request an appointment;
+Request materials or information;
+Subscribe to email communications services;
+Provide information on surveys or feedback forms; and
+Use email links to Pediatric Associates Family of Companies departments, its employees, or representatives
+When you post information publicly. Certain features of the Services allow you to publicly share with or communicate Your Content to Pediatric Associates Family of Companies user. For instance, you may post comments, share images, or start a discussion on several of our Services, which will be displayed publicly once submitted. We cannot control the actions of other users of our Services with whom you choose to share Your Content. We recommend that you carefully consider whether to disclose your Personal Information in any public posting or forum.
+When you use our Services to share information with others. We may collect Personal Information when you share Your Content or communicate with others using our Services. For example, when you send a message to other Pediatric Associates Family of Companies through your profile, we may collect some information about you or the individual you are sending to such as your name, your email address, and the recipient’s email address. Any communications with you via phone may be recorded, transcribed, and analyzed by third parties
+Passively Collect Information. We collect information from you automatically when you use our Services. When you navigate the Services, we and our vendors may collect usage information through a variety of technical methods, including Cookies and other technologies.
+For more information about how we use data collected and other technologies, read sections titled “What information we collect?”, “How do we process your information?”, and “Do we use cookies and other tracking technologies?”. To learn how to exercise your choices about data collected and the other technologies, read the sections title “What are your rights?”. For California residents only, read the section titled “For California residents only, what are your privacy rights?”.
+Use of Cookies. Pediatric Associates Family of Companies may use cookies on occasion to track the number of people who visit our site from certain other websites and how they utilize our website. The cookies we use do not personally identify individuals by their name, email address, health status, or any other personal attribute.
+What Are Cookies? Cookies are small text files that websites place on your device to improve your Browse experience. They store information, such as your preferences, and help us understand how you use our site.
+How We Use Cookies? 
+We use cookies to remember your preferences and settings, analyze website usage and performance, provide personalized content and advertisements, and enable specific website features.
+Third-Party Cookies. 
+Some cookies on our site may be placed by third-party services, like Google Maps, to provide enhanced functionality. These third parties may collect information about your Browse activity, and we do not control their cookies.
+Your Choices. 
+You have the ability to control or disable cookies through your browser settings. Please note that disabling cookies may affect your experience and the functionality of our website. If you have questions or need assistance on how to manage your cookie preferences, please contact us at privacy@pediatricassociates.com.
+From third parties. We may collect your information from sources other than you, such as from your friends and family and certain service providers. For example, a friend or family member may contact us on your behalf for information about our Services or refer you to our Services. If you provide Pediatric Associates Family of Companies with Personal Information pertaining to someone other than yourself, you must have that person’s consent to share his or her Personal Information with us or otherwise contact us on that person’s behalf.
+Through social media. If you connect to us through social media may collect your personal information and/or usage information. The personal and usage information we collect will depend on your privacy settings for that social media. When you share your content publicly, you share it at your own risk. If you choose not to provide us with your personal information, you may still be able to access and use some of our Services. Note, however, that certain features of our Services that require your information may not be accessible to you.
+3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
+We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.
+4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+We may share information on specific situations described in this section and/or with the following categories of third parties.
+Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (“third parties”) who perform services for us or on our behalf and require access to such information to do that work. We have contracts in place with our third parties, which are designed to help safeguard your personal information. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will also not share your personal information with any organization apart from us. They also commit to protect the data they hold on to our behalf and to retain it for the period we instruct. The categories of third parties we may share personal information with are as follows:
+Ad Networks
+Affiliate Marketing Programs
+Authentication Services
+Cloud Computing Services
+Communication & Collaboration Tools
+Data Analytics Services
+Data Storage Service Providers
+Finance & Accounting Tools
+Government Entities
+Order Fulfillment Service Providers
+Payment Processors
+Performance Monitoring Tools
+Product Engineering & Design Tool
+Retargeting Platforms
+Sales & Marketing Tools
+Social Networks
+Testing Tools
+User Account Registration
+Website Hosting Service Providers
+Others
+We also may need to share your personal information in the following situations:
+Business Transfers.
+We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+Business Partners.
+We may share your information with our business partners to offer you certain products, services, or promotions.
+Other Users. 
+When you share personal information (for example, by posting comments, contributions, or other content to the Services)] or otherwise interact with public areas of the Services, such personal information may be viewed by all users and may be publicly made available outside the Services in perpetuity. If you interact with other users of our Services and register for our Services through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our Services, and view your profile.
+Offer Wall. 
+Our application(s) may display a third-party hosted “offer wall.” Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward. 
+We will not share your text message opt-in records or the consent you gave us to receive texts with any third parties. 
+5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
+Our Services may link to third-party websites, online services, or mobile applications and/or contain advertisements from third parties that are not affiliated with us, and which may link to other websites, services, or applications. Accordingly, we do not make any guarantee regarding any such third parties, and we will not be liable for any loss or damage caused by the use of such third-party websites, services, or applications. The inclusion of a link to a third-party website, service, or application does not imply an endorsement by us. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this Website Privacy Statement. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services, or applications that may be linked to or from our Services. You should review the policies of such third parties and contact them directly to respond to your questions.
+6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+Our Services are intended for individuals located in the United States. If you are outside of the United States and access the Services or submit your personal information to us, please be advised that United States’ law may not offer the same privacy protections as the law of your jurisdiction. If you visit our Services or contact us from outside of the United States, please be advised that (1) any information you provide to us or that we automatically collect will be received in the United States and may be transferred to other jurisdictions; and (2) that by using our Services or submitting information, you explicitly authorize its processing in the United States and subsequent transfers outside the United States in accordance with this Website Privacy Statement. You agree that you will not access our Services from the European Union or the European Economic Area.
+8. HOW LONG DO WE KEEP YOUR INFORMATION?
+We keep your information for as long as necessary to fulfill the purposes outlined in this Website Privacy Statement unless otherwise required by law. We will only keep your personal information for as long as it is necessary for the purposes set out in this Website Privacy Statement, unless a longer retention period is required or permitted by law (For example, for tax, accounting, or other legal requirements).
+9. HOW DO WE KEEP YOUR INFORMATION SAFE?
+The security of personal information is important to us. We use reasonable safeguards aimed to protect against unauthorized use, disclosure, alteration, or destruction of the personal information we collect and maintain. You should keep in mind, however, that no data transmitted over the internet is 100% secure and any information disclosed online can potentially be collected and used by parties other than the intended recipient. As a result, while we strive to protect your information, we cannot guarantee or warrant the security of any information you transmit to or from our Services. If you are concerned about providing sensitive information, you may wish to do so via phone, regular mail or during a personal consultation, rather than electronically.
+10. DO WE COLLECT INFORMATION FROM MINORS?
+We do not knowingly solicit data from our market to children under 18 years of age. By using our Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data, we may have collected from children under age 18, please contact us by email at privacy@pediatricassociates.com.
+11. WHAT ARE YOUR RIGHTS?
+Your preferences about how we use your information are important to us and, when possible, we aim to honor them. We offer the following rights that you can exercise with regard to your Personal Information.
+Access and modify your Personal Information. You may contact us using the information below to request access to or modification of the Personal Information we maintain about you.
+Opt-out of marketing and other communications. You can request to manage marketing and certain other communications such as our newsletters and certain other notifications by calling us using the information below or the “Unsubscribe” link in our emails.
+Managing Cookies and Other Data Collection Technologies. You have a number of options to manage or limit how we and our vendors use Cookies and other Data Collection Technologies including for advertising:
+To prevent your data from being used by Google Analytics, you can install Google’s opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
+For information about your options for opting out of receiving ads based on your web browsing history from our advertising partners, where possible, please visit http://optout.aboutads.info/. You may also opt out of interest-based advertising through the NAI by visiting http://optout.networkadvertising.org/#!/ and following NAI’s on-screen instructions. Note that if you opt out through the NAI, you will still receive advertising, but the advertising will not be tailored to your interests. In addition, if you opt out through NAI and later delete your Cookies, use a different browser, or buy a new device, you will need to opt out of interest-based advertising again.
+Check your mobile device for settings that control ads based on your interactions with the applications on your device. For example, on your iOS device, enable the “Limit Ad Tracking” setting, and on your Android device, enable the “Opt out of Ads Personalization” setting.
+You may be able to disable cookies or choose the types of cookies you wish to allow. Please refer to your browser settings.
+12. FOR CALIFORNIA RESIDENTS ONLY - WHAT ARE YOUR PRIVACY RIGHTS?
+The California Consumer Privacy Act, effective January 1, 2020, provides California residents with additional rights and disclosures. In addition, California’s long-standing “California Shine the Light” law provides that California residents may request certain details about how their personal information is shared with third parties for their direct marketing purposes. The California rights do not apply to Protected Health Information we maintain but you may have other rights in relation to such information. If you are a California resident and have used our Services, you can request a list of the personal information we have shared with third parties for their marketing purposes, if any. We will also give you a list of the third parties that have received your information. You can make a request once each year. To make a request, please contact us via email at privacy@pedatricassociates.com. In your email, let us know that you are a California resident, who is submitting a California “Shine the Light” inquiry. We will respond to you within 30 days.
+The California Consumer Privacy Act provides California residents with the following privacy rights:
+As a California resident, you have a right to request us to disclose to you, no more than twice in a 12-month period, the personal information about you that we collect, use, disclose, and sell during the preceding 12 months. Such disclosure includes:
+The categories of personal information that we have collected and sold about you, or shared for a business purpose with our service providers;
+The sources from which we collected such information;
+The third parties with whom we have shared that personal information and to whom we have sold that personal information;
+The business or commercial purpose for collecting or selling that personal information; and
+The specific pieces of personal information we have collected about you.
+As a California resident, you have the right to request the deletion of personal information that we have collected from you. We have the right, however, to deny your deletion request when the information is necessary for us or a service provider to do any of the following:
+Complete your transaction;
+Provide you a good or service;
+Perform a contract between us and you;
+Protect your security and prosecute those responsible for breaching it;
+Fix our system in the case of a bug;
+Engage in public or peer-reviewed scientific, historical, or statistical research in the public interests that adheres to all other applicable ethics and privacy laws;
+Comply with a legal obligation; or
+Make other internal and lawful uses of the information that are compatible with the context in which you provided it.
+The right to opt out of sales.
+As a California resident, you have a right to direct us not to sell your personal information. We do not, however, sell your personal information to third parties. We have not sold your personal information in the preceding 12 months. We do, however, reserve the right to share aggregate information and other de-identified information to third parties for their own internal purposes as described in the “When and with whom do we share your personal information?” section of this Website Privacy Statement.
+13. INFORMATION ON CONTROLS FOR DO-NOT-TRACK FEATURES
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Website Privacy Statement.
+14. DO WE MAKE UPDATES TO THIS WEBSITE PRIVACY STATEMENT?
+Yes, we will update this Website Privacy Statement as necessary to stay compliant with relevant laws. We may periodically update this Website Privacy Statement, and the revised version will be indicated by an “Updated” date and it will be published and effective as soon as it is accessible. If we make material changes to this Website Privacy Statement, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Website Privacy Statement frequently to be informed of how we are protecting your information.
+15. HOW CAN YOU CONTACT US ABOUT THIS WEBSITE PRIVACY STATEMENT?
+If you have any questions, requests in connection with this Website Privacy Statement, and/or any other privacy-related matters, please contact us send a written notice and/or email to:
+Pediatric Associates Family of Companies
+Attn: The Office of Compliance and Privacy
+900 South Pine Island Road Suite 800 Plantation, FL 33324
+Email privacy@pediatricassociates.com | Phone (954) 967-6400
+UPDATED MAY 28, 2026 
+                        Ready when you are                    
+        Book an appointment            
+                            Website Privacy Statement                        
+Purpose:
+This Website Privacy Statement, a part of our terms of use, for Pediatric Associates Family of Companies (“Company,” “we,” “us,” or “our”), describes for individuals how, what, and why we might collect, store, use, and/or share (“process”) your information when you use our services (collectively, “Services”), such as when you:
+Visit and interact our websites and other digital platforms we own or operate that links to this Website Privacy Statement
+Download and use our application(s), such as our mobile application, our social media pages, or any other application of ours that links to this Website Privacy Statement
+Engage with us in other related ways including any sales, marketing, or events
+This Website Privacy Statement will help you understand your privacy rights and choices. If you do not agree with our Website Privacy Statement and practice, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@pediatricassociates.com.
+Summary of key points:
+This summary highlights key points from our Website Privacy Statement. For more information on any of these topics, please refer to the table of contents below to locate the relevant section in our full notice.
+What personal information do we process?
+When you visit, use, or navigate our Services, we may process personal information depending on how you interact our Company and our Services, the choices you make, and the products and features you use.
+Do we process any sensitive personal information?
+We may process sensitive personal information, when necessary, with your consent or as otherwise permitted by applicable law.
+Do you receive any information from third parties?
+We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+How do you process my information?
+We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with the law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
+In what situations and with which types of parties do we share personal information?
+We may share information in specific situations and with specific categories of third parties.
+How do we keep your information safe?
+We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+What are your rights?
+Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
+How do I exercise my rights?
+The easiest way to exercise your rights is by contacting us by email at privacy@pediatricassociates.com. We will consider and act upon any request in accordance with applicable data protection laws.
+Do you want to learn more about what our Company does with any information collected?
+Carefully read our Website Privacy Statement in full for detailed information
+Links to navigate our Website Privacy Statement
+What information do we collect?
+How do we process your information?
+What legal bases do we rely on to process your personal information?
+When and with whom do we share your personal information?
+What is our stance on third party websites?
+Do we use cookies and other tracking technologies?
+Is your information transferred internationally?
+How long do we keep your information?
+How do we keep your information safe?
+Do we collect information from minors?
+What are your rights?
+For California residents only, what are your privacy rights?
+Information on controls for do-not-track features
+Do we make updates to this Notice?
+How can you contact us about this notice?
+Full details of our company’s website privacy statement
+1. WHAT INFORMATION DO WE COLLECT?
+We collect personal information that you voluntarily provide to us when you register on our Services, express an interest in obtaining information about us or our Services, when you participate in activities on our Services, or otherwise when you contact us.
+Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
+Identifiers (e.g., name, contact information including email address, username, password, online and device IDs);
+Employment-related information;
+Demographic information (e.g., date of birth and gender);
+Geographic information;
+Other information such as billing information and religious affiliation); and
+Inferences regarding preferences or other characteristics.
+Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information to include personal and/or health information (e.g., personal or family medical history and insurance information, insurance provider, and type of insurance).
+Protected Health Information. We may collect Protected Health Information (PHI) when you schedule appointments, access the Company portal, pay bills online, or receive medical care. PHI is handled according to our Notice of Privacy Practices. If we ever combine your personal or usage data with PHI, we will treat all that information as PHI going forward. If you have questions about how we manage your PHI, please refer to the PAFC Notice of Patient Privacy or contact us directly at privacy@pediatricassociates.com.
+Information automatically collected. We automatically collect certain information when you visit, use, or navigate our Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes. Like many businesses, we also collect information through cookies and similar technologies. The information we collect includes:
+Log and Usage Data. 
+Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called “crash dumps”), and hardware settings).
+Device Data. 
+We collect device data such as information about your computer, phone, tablet, or other device you use to access our Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, internet service provider and/or mobile carrier, operating system, and system configuration information.
+Location Data. We collect location data such as information about your device’s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+Information collected from other sources. In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion. If you interact with us on a social media platform using your social media account (e.g., Facebook or Twitter), we receive personal information about you such as your name, email address, and gender. Any personal information that we collect from your social media account depends on your social media account’s privacy settings.
+2. HOW DO WE PROCESS YOUR INFORMATION?
+We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
+Provided by You. When you voluntarily share your information with us or your content, we will collect personal information that you voluntarily provide, including when you:
+Register for a user account or create a user profile we may collect your name, contact information, username, password, and additional information you share on your account, profile, or registration form;
+Send us an email, communicate with us through our interactive services such as during a chat session, or otherwise contact us, we may collect your name, contact information, and any other Personal Information you share in the communications you send;
+Sign up to receive newsletters and other updates, or subscribe to our podcasts or news feeds, we may collect your email address and other information about your device or operating system;
+Register for an event we may collect your contact and other information necessary to reserve your space at specific events;
+Apply for a job using our online application we may collect your name, contact information and employment information included in your application;
+Complete a health questionnaire or request a consultation or appointment we may collect your name, contact information, date of birth, gender, geographic location, personal or family medical history, insurance information, and other health information;
+Request to verify your insurance coverage we may collect your name, contact information, insurance provider, type of insurance, and additional information to verify your information;
+Request information about a Pediatric Associates Family of Companies location or about clinical trials we may collect your contact information, general geographic location, and information about your inquiry;
+Donate we may collect some information about your donation, name, contact information, and billing information;
+Request an appointment;
+Request materials or information;
+Subscribe to email communications services;
+Provide information on surveys or feedback forms; and
+Use email links to Pediatric Associates Family of Companies departments, its employees, or representatives
+When you post information publicly. Certain features of the Services allow you to publicly share with or communicate Your Content to Pediatric Associates Family of Companies user. For instance, you may post comments, share images, or start a discussion on several of our Services, which will be displayed publicly once submitted. We cannot control the actions of other users of our Services with whom you choose to share Your Content. We recommend that you carefully consider whether to disclose your Personal Information in any public posting or forum.
+When you use our Services to share information with others. We may collect Personal Information when you share Your Content or communicate with others using our Services. For example, when you send a message to other Pediatric Associates Family of Companies through your profile, we may collect some information about you or the individual you are sending to such as your name, your email address, and the recipient’s email address.
+Passively Collect Information. We collect information from you automatically when you use our Services. When you navigate the Services, we and our vendors may collect usage information through a variety of technical methods, including Cookies and other technologies.
+For more information about how we use data collected and other technologies, read sections titled “What information we collect?”, “How do we process your information?”, and “Do we use cookies and other tracking technologies?”. To learn how to exercise your choices about data collected and the other technologies, read the sections title “What are your rights?”. For California residents only, read the section titled “For California residents only, what are your privacy rights?”.
+Use of Cookies. Pediatric Associates Family of Companies may use cookies on occasion to track the number of people who visit our site from certain other websites and how they utilize our website. The cookies we use do not personally identify individuals by their name, email address, health status, or any other personal attribute.
+What Are Cookies? Cookies are small text files that websites place on your device to improve your Browse experience. They store information, such as your preferences, and help us understand how you use our site.
+How We Use Cookies? 
+We use cookies to remember your preferences and settings, analyze website usage and performance, provide personalized content and advertisements, and enable specific website features.
+Third-Party Cookies. 
+Some cookies on our site may be placed by third-party services, like Google Maps, to provide enhanced functionality. These third parties may collect information about your Browse activity, and we do not control their cookies.
+Your Choices. 
+You have the ability to control or disable cookies through your browser settings. Please note that disabling cookies may affect your experience and the functionality of our website. If you have questions or need assistance on how to manage your cookie preferences, please contact us at privacy@pediatricassociates.com.
+From third parties. We may collect your information from sources other than you, such as from your friends and family and certain service providers. For example, a friend or family member may contact us on your behalf for information about our Services or refer you to our Services. If you provide Pediatric Associates Family of Companies with Personal Information pertaining to someone other than yourself, you must have that person’s consent to share his or her Personal Information with us or otherwise contact us on that person’s behalf.
+Through social media. If you connect to us through social media may collect your personal information and/or usage information. The personal and usage information we collect will depend on your privacy settings for that social media. When you share your content publicly, you share it at your own risk. If you choose not to provide us with your personal information, you may still be able to access and use some of our Services. Note, however, that certain features of our Services that require your information may not be accessible to you.
+3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
+We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.
+4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+We may share information on specific situations described in this section and/or with the following categories of third parties.
+Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (“third parties”) who perform services for us or on our behalf and require access to such information to do that work. We have contracts in place with our third parties, which are designed to help safeguard your personal information. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will also not share your personal information with any organization apart from us. They also commit to protect the data they hold on to our behalf and to retain it for the period we instruct. The categories of third parties we may share personal information with are as follows:
+Ad Networks
+Affiliate Marketing Programs
+Authentication Services
+Cloud Computing Services
+Communication & Collaboration Tools
+Data Analytics Services
+Data Storage Service Providers
+Finance & Accounting Tools
+Government Entities
+Order Fulfillment Service Providers
+Payment Processors
+Performance Monitoring Tools
+Product Engineering & Design Tool
+Retargeting Platforms
+Sales & Marketing Tools
+Social Networks
+Testing Tools
+User Account Registration
+Website Hosting Service Providers
+Others
+We also may need to share your personal information in the following situations:
+Business Transfers.
+We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+Business Partners.
+We may share your information with our business partners to offer you certain products, services, or promotions.
+Other Users. 
+When you share personal information (for example, by posting comments, contributions, or other content to the Services)] or otherwise interact with public areas of the Services, such personal information may be viewed by all users and may be publicly made available outside the Services in perpetuity. If you interact with other users of our Services and register for our Services through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our Services, and view your profile.
+Offer Wall. 
+Our application(s) may display a third-party hosted “offer wall.” Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
+5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
+Our Services may link to third-party websites, online services, or mobile applications and/or contain advertisements from third parties that are not affiliated with us, and which may link to other websites, services, or applications. Accordingly, we do not make any guarantee regarding any such third parties, and we will not be liable for any loss or damage caused by the use of such third-party websites, services, or applications. The inclusion of a link to a third-party website, service, or application does not imply an endorsement by us. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this Website Privacy Statement. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services, or applications that may be linked to or from our Services. You should review the policies of such third parties and contact them directly to respond to your questions.
+6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+Our Services are intended for individuals located in the United States. If you are outside of the United States and access the Services or submit your personal information to us, please be advised that United States’ law may not offer the same privacy protections as the law of your jurisdiction. If you visit our Services or contact us from outside of the United States, please be advised that (1) any information you provide to us or that we automatically collect will be received in the United States and may be transferred to other jurisdictions; and (2) that by using our Services or submitting information, you explicitly authorize its processing in the United States and subsequent transfers outside the United States in accordance with this Website Privacy Statement. You agree that you will not access our Services from the European Union or the European Economic Area.
+8. HOW LONG DO WE KEEP YOUR INFORMATION?
+We keep your information for as long as necessary to fulfill the purposes outlined in this Website Privacy Statement unless otherwise required by law. We will only keep your personal information for as long as it is necessary for the purposes set out in this Website Privacy Statement, unless a longer retention period is required or permitted by law (For example, for tax, accounting, or other legal requirements).
+9. HOW DO WE KEEP YOUR INFORMATION SAFE?
+The security of personal information is important to us. We use reasonable safeguards aimed to protect against unauthorized use, disclosure, alteration, or destruction of the personal information we collect and maintain. You should keep in mind, however, that no data transmitted over the internet is 100% secure and any information disclosed online can potentially be collected and used by parties other than the intended recipient. As a result, while we strive to protect your information, we cannot guarantee or warrant the security of any information you transmit to or from our Services. If you are concerned about providing sensitive information, you may wish to do so via phone, regular mail or during a personal consultation, rather than electronically.
+10. DO WE COLLECT INFORMATION FROM MINORS?
+We do not knowingly solicit data from our market to children under 18 years of age. By using our Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data, we may have collected from children under age 18, please contact us by email at privacy@pediatricassociates.com.
+11. WHAT ARE YOUR RIGHTS?
+Your preferences about how we use your information are important to us and, when possible, we aim to honor them. We offer the following rights that you can exercise with regard to your Personal Information.
+Access and modify your Personal Information. You may contact us using the information below to request access to or modification of the Personal Information we maintain about you.
+Opt-out of marketing and other communications. You can request to manage marketing and certain other communications such as our newsletters and certain other notifications by calling us using the information below or the “Unsubscribe” link in our emails.
+Managing Cookies and Other Data Collection Technologies. You have a number of options to manage or limit how we and our vendors use Cookies and other Data Collection Technologies including for advertising:
+To prevent your data from being used by Google Analytics, you can install Google’s opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
+For information about your options for opting out of receiving ads based on your web browsing history from our advertising partners, where possible, please visit http://optout.aboutads.info/. You may also opt out of interest-based advertising through the NAI by visiting http://optout.networkadvertising.org/#!/ and following NAI’s on-screen instructions. Note that if you opt out through the NAI, you will still receive advertising, but the advertising will not be tailored to your interests. In addition, if you opt out through NAI and later delete your Cookies, use a different browser, or buy a new device, you will need to opt out of interest-based advertising again.
+Check your mobile device for settings that control ads based on your interactions with the applications on your device. For example, on your iOS device, enable the “Limit Ad Tracking” setting, and on your Android device, enable the “Opt out of Ads Personalization” setting.
+You may be able to disable cookies or choose the types of cookies you wish to allow. Please refer to your browser settings.
+12. FOR CALIFORNIA RESIDENTS ONLY - WHAT ARE YOUR PRIVACY RIGHTS?
+The California Consumer Privacy Act, effective January 1, 2020, provides California residents with additional rights and disclosures. In addition, California’s long-standing “California Shine the Light” law provides that California residents may request certain details about how their personal information is shared with third parties for their direct marketing purposes. The California rights do not apply to Protected Health Information we maintain but you may have other rights in relation to such information. If you are a California resident and have used our Services, you can request a list of the personal information we have shared with third parties for their marketing purposes, if any. We will also give you a list of the third parties that have received your information. You can make a request once each year. To make a request, please contact us via email at privacy@pedatricassociates.com. In your email, let us know that you are a California resident, who is submitting a California “Shine the Light” inquiry. We will respond to you within 30 days.
+The California Consumer Privacy Act provides California residents with the following privacy rights:
+As a California resident, you have a right to request us to disclose to you, no more than twice in a 12-month period, the personal information about you that we collect, use, disclose, and sell during the preceding 12 months. Such disclosure includes:
+The categories of personal information that we have collected and sold about you, or shared for a business purpose with our service providers;
+The sources from which we collected such information;
+The third parties with whom we have shared that personal information and to whom we have sold that personal information;
+The business or commercial purpose for collecting or selling that personal information; and
+The specific pieces of personal information we have collected about you.
+As a California resident, you have the right to request the deletion of personal information that we have collected from you. We have the right, however, to deny your deletion request when the information is necessary for us or a service provider to do any of the following:
+Complete your transaction;
+Provide you a good or service;
+Perform a contract between us and you;
+Protect your security and prosecute those responsible for breaching it;
+Fix our system in the case of a bug;
+Engage in public or peer-reviewed scientific, historical, or statistical research in the public interests that adheres to all other applicable ethics and privacy laws;
+Comply with a legal obligation; or
+Make other internal and lawful uses of the information that are compatible with the context in which you provided it.
+The right to opt out of sales.
+As a California resident, you have a right to direct us not to sell your personal information. We do not, however, sell your personal information to third parties. We have not sold your personal information in the preceding 12 months. We do, however, reserve the right to share aggregate information and other de-identified information to third parties for their own internal purposes as described in the “When and with whom do we share your personal information?” section of this Website Privacy Statement.
+13. INFORMATION ON CONTROLS FOR DO-NOT-TRACK FEATURES
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Website Privacy Statement.
+14. DO WE MAKE UPDATES TO THIS WEBSITE PRIVACY STATEMENT?
+Yes, we will update this Website Privacy Statement as necessary to stay compliant with relevant laws. We may periodically update this Website Privacy Statement, and the revised version will be indicated by an “Updated” date and it will be published and effective as soon as it is accessible. If we make material changes to this Website Privacy Statement, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Website Privacy Statement frequently to be informed of how we are protecting your information.
+15. HOW CAN YOU CONTACT US ABOUT THIS WEBSITE PRIVACY STATEMENT?
+If you have any questions, requests in connection with this Website Privacy Statement, and/or any other privacy-related matters, please contact us send a written notice and/or email to:
+Pediatric Associates Family of Companies
+Attn: The Office of Compliance and Privacy
+900 South Pine Island Road Suite 800 Plantation, FL 33324
+Email privacy@pediatricassociates.com | Phone (954) 967-6400
+                        Ready when you are                    
+        Book an appointment            
+                            Website Privacy Statement                        
+Purpose:
+This Website Privacy Statement, a part of our terms of use, for Pediatric Associates Family of Companies (“Company,” “we,” “us,” or “our”), describes for individuals how, what, and why we might collect, store, use, and/or share (“process”) your information when you use our services (collectively, “Services”), such as when you:
+Visit and interact our websites and other digital platforms we own or operate that links to this Website Privacy Statement
+Download and use our application(s), such as our mobile application, our social media pages, or any other application of ours that links to this Website Privacy Statement
+Engage with us in other related ways including any sales, marketing, or events
+This Website Privacy Statement will help you understand your privacy rights and choices. If you do not agree with our Website Privacy Statement and practice, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@pediatricassociates.com.
+Summary of key points:
+This summary highlights key points from our Website Privacy Statement. For more information on any of these topics, please refer to the table of contents below to locate the relevant section in our full notice.
+What personal information do we process?
+When you visit, use, or navigate our Services, we may process personal information depending on how you interact our Company and our Services, the choices you make, and the products and features you use.
+Do we process any sensitive personal information?
+We may process sensitive personal information, when necessary, with your consent or as otherwise permitted by applicable law.
+Do you receive any information from third parties?
+We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+How do you process my information?
+We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with the law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
+In what situations and with which types of parties do we share personal information?
+We may share information in specific situations and with specific categories of third parties.
+How do we keep your information safe?
+We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+What are your rights?
+Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
+How do I exercise my rights?
+The easiest way to exercise your rights is by contacting us by email at privacy@pediatricassociates.com. We will consider and act upon any request in accordance with applicable data protection laws.
+Do you want to learn more about what our Company does with any information collected?
+Carefully read our Website Privacy Statement in full for detailed information
+Links to navigate our Website Privacy Statement
+What information do we collect?
+How do we process your information?
+What legal bases do we rely on to process your personal information?
+When and with whom do we share your personal information?
+What is our stance on third party websites?
+Do we use cookies and other tracking technologies?
+Is your information transferred internationally?
+How long do we keep your information?
+How do we keep your information safe?
+Do we collect information from minors?
+What are your rights?
+For California residents only, what are your privacy rights?
+Information on controls for do-not-track features
+Do we make updates to this Notice?
+How can you contact us about this notice?
+Full details of our company’s website privacy statement
+1. WHAT INFORMATION DO WE COLLECT?
+We collect personal information that you voluntarily provide to us when you register on our Services, express an interest in obtaining information about us or our Services, when you participate in activities on our Services, or otherwise when you contact us.
+Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
+Identifiers (e.g., name, contact information including email address, username, password, online and device IDs);
+Employment-related information;
+Demographic information (e.g., date of birth and gender);
+Geographic information;
+Other information such as billing information and religious affiliation); and
+Inferences regarding preferences or other characteristics.
+Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information to include personal and/or health information (e.g., personal or family medical history and insurance information, insurance provider, and type of insurance).
+Protected Health Information. We may collect Protected Health Information (PHI) when you schedule appointments, access the Company portal, pay bills online, or receive medical care. PHI is handled according to our Notice of Privacy Practices. If we ever combine your personal or usage data with PHI, we will treat all that information as PHI going forward. If you have questions about how we manage your PHI, please refer to the PAFC Notice of Patient Privacy or contact us directly at privacy@pediatricassociates.com.
+Information automatically collected. We automatically collect certain information when you visit, use, or navigate our Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes. Like many businesses, we also collect information through cookies and similar technologies. The information we collect includes:
+Log and Usage Data. 
+Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called “crash dumps”), and hardware settings).
+Device Data. 
+We collect device data such as information about your computer, phone, tablet, or other device you use to access our Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, internet service provider and/or mobile carrier, operating system, and system configuration information.
+Location Data. We collect location data such as information about your device’s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+Information collected from other sources. In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion. If you interact with us on a social media platform using your social media account (e.g., Facebook or Twitter), we receive personal information about you such as your name, email address, and gender. Any personal information that we collect from your social media account depends on your social media account’s privacy settings.
+2. HOW DO WE PROCESS YOUR INFORMATION?
+We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
+Provided by You. When you voluntarily share your information with us or your content, we will collect personal information that you voluntarily provide, including when you:
+Register for a user account or create a user profile we may collect your name, contact information, username, password, and additional information you share on your account, profile, or registration form;
+Send us an email, communicate with us through our interactive services such as during a chat session, or otherwise contact us, we may collect your name, contact information, and any other Personal Information you share in the communications you send;
+Sign up to receive newsletters and other updates, or subscribe to our podcasts or news feeds, we may collect your email address and other information about your device or operating system;
+Register for an event we may collect your contact and other information necessary to reserve your space at specific events;
+Apply for a job using our online application we may collect your name, contact information and employment information included in your application;
+Complete a health questionnaire or request a consultation or appointment we may collect your name, contact information, date of birth, gender, geographic location, personal or family medical history, insurance information, and other health information;
+Request to verify your insurance coverage we may collect your name, contact information, insurance provider, type of insurance, and additional information to verify your information;
+Request information about a Pediatric Associates Family of Companies location or about clinical trials we may collect your contact information, general geographic location, and information about your inquiry;
+Donate we may collect some information about your donation, name, contact information, and billing information;
+Request an appointment;
+Request materials or information;
+Subscribe to email communications services;
+Provide information on surveys or feedback forms; and
+Use email links to Pediatric Associates Family of Companies departments, its employees, or representatives
+When you post information publicly. Certain features of the Services allow you to publicly share with or communicate Your Content to Pediatric Associates Family of Companies user. For instance, you may post comments, share images, or start a discussion on several of our Services, which will be displayed publicly once submitted. We cannot control the actions of other users of our Services with whom you choose to share Your Content. We recommend that you carefully consider whether to disclose your Personal Information in any public posting or forum.
+When you use our Services to share information with others. We may collect Personal Information when you share Your Content or communicate with others using our Services. For example, when you send a message to other Pediatric Associates Family of Companies through your profile, we may collect some information about you or the individual you are sending to such as your name, your email address, and the recipient’s email address.
+Passively Collect Information. We collect information from you automatically when you use our Services. When you navigate the Services, we and our vendors may collect usage information through a variety of technical methods, including Cookies and other technologies.
+For more information about how we use data collected and other technologies, read sections titled “What information we collect?”, “How do we process your information?”, and “Do we use cookies and other tracking technologies?”. To learn how to exercise your choices about data collected and the other technologies, read the sections title “What are your rights?”. For California residents only, read the section titled “For California residents only, what are your privacy rights?”.
+Use of Cookies. Pediatric Associates Family of Companies may use cookies on occasion to track the number of people who visit our site from certain other websites and how they utilize our website. The cookies we use do not personally identify individuals by their name, email address, health status, or any other personal attribute.
+What Are Cookies? Cookies are small text files that websites place on your device to improve your Browse experience. They store information, such as your preferences, and help us understand how you use our site.
+How We Use Cookies? 
+We use cookies to remember your preferences and settings, analyze website usage and performance, provide personalized content and advertisements, and enable specific website features.
+Third-Party Cookies. 
+Some cookies on our site may be placed by third-party services, like Google Maps, to provide enhanced functionality. These third parties may collect information about your Browse activity, and we do not control their cookies.
+Your Choices. 
+You have the ability to control or disable cookies through your browser settings. Please note that disabling cookies may affect your experience and the functionality of our website. If you have questions or need assistance on how to manage your cookie preferences, please contact us at privacy@pediatricassociates.com.
+From third parties. We may collect your information from sources other than you, such as from your friends and family and certain service providers. For example, a friend or family member may contact us on your behalf for information about our Services or refer you to our Services. If you provide Pediatric Associates Family of Companies with Personal Information pertaining to someone other than yourself, you must have that person’s consent to share his or her Personal Information with us or otherwise contact us on that person’s behalf.
+Through social media. If you connect to us through social media may collect your personal information and/or usage information. The personal and usage information we collect will depend on your privacy settings for that social media. When you share your content publicly, you share it at your own risk. If you choose not to provide us with your personal information, you may still be able to access and use some of our Services. Note, however, that certain features of our Services that require your information may not be accessible to you.
+3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
+We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.
+4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+We may share information on specific situations described in this section and/or with the following categories of third parties.
+Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (“third parties”) who perform services for us or on our behalf and require access to such information to do that work. We have contracts in place with our third parties, which are designed to help safeguard your personal information. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will also not share your personal information with any organization apart from us. They also commit to protect the data they hold on to our behalf and to retain it for the period we instruct. The categories of third parties we may share personal information with are as follows:
+Ad Networks
+Affiliate Marketing Programs
+Authentication Services
+Cloud Computing Services
+Communication & Collaboration Tools
+Data Analytics Services
+Data Storage Service Providers
+Finance & Accounting Tools
+Government Entities
+Order Fulfillment Service Providers
+Payment Processors
+Performance Monitoring Tools
+Product Engineering & Design Tool
+Retargeting Platforms
+Sales & Marketing Tools
+Social Networks
+Testing Tools
+User Account Registration
+Website Hosting Service Providers
+Others
+We also may need to share your personal information in the following situations:
+Business Transfers.
+We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+Business Partners.
+We may share your information with our business partners to offer you certain products, services, or promotions.
+Other Users. 
+When you share personal information (for example, by posting comments, contributions, or other content to the Services)] or otherwise interact with public areas of the Services, such personal information may be viewed by all users and may be publicly made available outside the Services in perpetuity. If you interact with other users of our Services and register for our Services through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our Services, and view your profile.
+Offer Wall. 
+Our application(s) may display a third-party hosted “offer wall.” Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
+5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
+Our Services may link to third-party websites, online services, or mobile applications and/or contain advertisements from third parties that are not affiliated with us, and which may link to other websites, services, or applications. Accordingly, we do not make any guarantee regarding any such third parties, and we will not be liable for any loss or damage caused by the use of such third-party websites, services, or applications. The inclusion of a link to a third-party website, service, or application does not imply an endorsement by us. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this Website Privacy Statement. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services, or applications that may be linked to or from our Services. You should review the policies of such third parties and contact them directly to respond to your questions.
+6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+Our Services are intended for individuals located in the United States. If you are outside of the United States and access the Services or submit your personal information to us, please be advised that United States’ law may not offer the same privacy protections as the law of your jurisdiction. If you visit our Services or contact us from outside of the United States, please be advised that (1) any information you provide to us or that we automatically collect will be received in the United States and may be transferred to other jurisdictions; and (2) that by using our Services or submitting information, you explicitly authorize its processing in the United States and subsequent transfers outside the United States in accordance with this Website Privacy Statement. You agree that you will not access our Services from the European Union or the European Economic Area.
+8. HOW LONG DO WE KEEP YOUR INFORMATION?
+We keep your information for as long as necessary to fulfill the purposes outlined in this Website Privacy Statement unless otherwise required by law. We will only keep your personal information for as long as it is necessary for the purposes set out in this Website Privacy Statement, unless a longer retention period is required or permitted by law (For example, for tax, accounting, or other legal requirements).
+9. HOW DO WE KEEP YOUR INFORMATION SAFE?
+The security of personal information is important to us. We use reasonable safeguards aimed to protect against unauthorized use, disclosure, alteration, or destruction of the personal information we collect and maintain. You should keep in mind, however, that no data transmitted over the internet is 100% secure and any information disclosed online can potentially be collected and used by parties other than the intended recipient. As a result, while we strive to protect your information, we cannot guarantee or warrant the security of any information you transmit to or from our Services. If you are concerned about providing sensitive information, you may wish to do so via phone, regular mail or during a personal consultation, rather than electronically.
+10. DO WE COLLECT INFORMATION FROM MINORS?
+We do not knowingly solicit data from our market to children under 18 years of age. By using our Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data, we may have collected from children under age 18, please contact us by email at privacy@pediatricassociates.com.
+11. WHAT ARE YOUR RIGHTS?
+Your preferences about how we use your information are important to us and, when possible, we aim to honor them. We offer the following rights that you can exercise with regard to your Personal Information.
+Access and modify your Personal Information. You may contact us using the information below to request access to or modification of the Personal Information we maintain about you.
+Opt-out of marketing and other communications. You can request to manage marketing and certain other communications such as our newsletters and certain other notifications by calling us using the information below or the “Unsubscribe” link in our emails.
+Managing Cookies and Other Data Collection Technologies. You have a number of options to manage or limit how we and our vendors use Cookies and other Data Collection Technologies including for advertising:
+To prevent your data from being used by Google Analytics, you can install Google’s opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
+For information about your options for opting out of receiving ads based on your web browsing history from our advertising partners, where possible, please visit http://optout.aboutads.info/. You may also opt out of interest-based advertising through the NAI by visiting http://optout.networkadvertising.org/#!/ and following NAI’s on-screen instructions. Note that if you opt out through the NAI, you will still receive advertising, but the advertising will not be tailored to your interests. In addition, if you opt out through NAI and later delete your Cookies, use a different browser, or buy a new device, you will need to opt out of interest-based advertising again.
+Check your mobile device for settings that control ads based on your interactions with the applications on your device. For example, on your iOS device, enable the “Limit Ad Tracking” setting, and on your Android device, enable the “Opt out of Ads Personalization” setting.
+You may be able to disable cookies or choose the types of cookies you wish to allow. Please refer to your browser settings.
+12. FOR CALIFORNIA RESIDENTS ONLY - WHAT ARE YOUR PRIVACY RIGHTS?
+The California Consumer Privacy Act, effective January 1, 2020, provides California residents with additional rights and disclosures. In addition, California’s long-standing “California Shine the Light” law provides that California residents may request certain details about how their personal information is shared with third parties for their direct marketing purposes. The California rights do not apply to Protected Health Information we maintain but you may have other rights in relation to such information. If you are a California resident and have used our Services, you can request a list of the personal information we have shared with third parties for their marketing purposes, if any. We will also give you a list of the third parties that have received your information. You can make a request once each year. To make a request, please contact us via email at privacy@pedatricassociates.com. In your email, let us know that you are a California resident, who is submitting a California “Shine the Light” inquiry. We will respond to you within 30 days.
+The California Consumer Privacy Act provides California residents with the following privacy rights:
+As a California resident, you have a right to request us to disclose to you, no more than twice in a 12-month period, the personal information about you that we collect, use, disclose, and sell during the preceding 12 months. Such disclosure includes:
+The categories of personal information that we have collected and sold about you, or shared for a business purpose with our service providers;
+The sources from which we collected such information;
+The third parties with whom we have shared that personal information and to whom we have sold that personal information;
+The business or commercial purpose for collecting or selling that personal information; and
+The specific pieces of personal information we have collected about you.
+As a California resident, you have the right to request the deletion of personal information that we have collected from you. We have the right, however, to deny your deletion request when the information is necessary for us or a service provider to do any of the following:
+Complete your transaction;
+Provide you a good or service;
+Perform a contract between us and you;
+Protect your security and prosecute those responsible for breaching it;
+Fix our system in the case of a bug;
+Engage in public or peer-reviewed scientific, historical, or statistical research in the public interests that adheres to all other applicable ethics and privacy laws;
+Comply with a legal obligation; or
+Make other internal and lawful uses of the information that are compatible with the context in which you provided it.
+The right to opt out of sales.
+As a California resident, you have a right to direct us not to sell your personal information. We do not, however, sell your personal information to third parties. We have not sold your personal information in the preceding 12 months. We do, however, reserve the right to share aggregate information and other de-identified information to third parties for their own internal purposes as described in the “When and with whom do we share your personal information?” section of this Website Privacy Statement.
+13. INFORMATION ON CONTROLS FOR DO-NOT-TRACK FEATURES
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Website Privacy Statement.
+14. DO WE MAKE UPDATES TO THIS WEBSITE PRIVACY STATEMENT?
+Yes, we will update this Website Privacy Statement as necessary to stay compliant with relevant laws. We may periodically update this Website Privacy Statement, and the revised version will be indicated by an “Updated” date and it will be published and effective as soon as it is accessible. If we make material changes to this Website Privacy Statement, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Website Privacy Statement frequently to be informed of how we are protecting your information.
+15. HOW CAN YOU CONTACT US ABOUT THIS WEBSITE PRIVACY STATEMENT?
+If you have any questions, requests in connection with this Website Privacy Statement, and/or any other privacy-related matters, please contact us send a written notice and/or email to:
+Pediatric Associates Family of Companies
+Attn: The Office of Compliance and Privacy
+900 South Pine Island Road Suite 800 Plantation, FL 33324
+Email privacy@pediatricassociates.com | Phone (954) 967-6400
+                        Ready when you are                    
+        Book an appointment            
+                            Website Privacy Statement                        
+Purpose:
+This Website Privacy Statement, a part of our terms of use, for Pediatric Associates Family of Companies (“Company,” “we,” “us,” or “our”), describes for individuals how, what, and why we might collect, store, use, and/or share (“process”) your information when you use our services (collectively, “Services”), such as when you:
+Visit and interact our websites and other digital platforms we own or operate that links to this Website Privacy Statement
+Download and use our application(s), such as our mobile application, our social media pages, or any other application of ours that links to this Website Privacy Statement
+Engage with us in other related ways including any sales, marketing, or events
+This Website Privacy Statement will help you understand your privacy rights and choices. If you do not agree with our Website Privacy Statement and practice, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@pediatricassociates.com.
+Summary of key points:
+This summary highlights key points from our Website Privacy Statement. For more information on any of these topics, please refer to the table of contents below to locate the relevant section in our full notice.
+What personal information do we process?
+When you visit, use, or navigate our Services, we may process personal information depending on how you interact our Company and our Services, the choices you make, and the products and features you use.
+Do we process any sensitive personal information?
+We may process sensitive personal information, when necessary, with your consent or as otherwise permitted by applicable law.
+Do you receive any information from third parties?
+We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+How do you process my information?
+We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with the law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
+In what situations and with which types of parties do we share personal information?
+We may share information in specific situations and with specific categories of third parties.
+How do we keep your information safe?
+We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+What are your rights?
+Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.
+How do I exercise my rights?
+The easiest way to exercise your rights is by contacting us by email at privacy@pediatricassociates.com. We will consider and act upon any request in accordance with applicable data protection laws.
+Do you want to learn more about what our Company does with any information collected?
+Carefully read our Website Privacy Statement in full for detailed information
+Links to navigate our Website Privacy Statement
+What information do we collect?
+How do we process your information?
+What legal bases do we rely on to process your personal information?
+When and with whom do we share your personal information?
+What is our stance on third party websites?
+Do we use cookies and other tracking technologies?
+Is your information transferred internationally?
+How long do we keep your information?
+How do we keep your information safe?
+Do we collect information from minors?
+What are your rights?
+For California residents only, what are your privacy rights?
+Information on controls for do-not-track features
+Do we make updates to this Notice?
+How can you contact us about this notice?
+Full details of our company’s website privacy statement
+1. WHAT INFORMATION DO WE COLLECT?
+We collect personal information that you voluntarily provide to us when you register on our Services, express an interest in obtaining information about us or our Services, when you participate in activities on our Services, or otherwise when you contact us.
+Personal Information Provided by You. The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
+Identifiers (e.g., name, contact information including email address, username, password, online and device IDs);
+Employment-related information;
+Demographic information (e.g., date of birth and gender);
+Geographic information;
+Other information such as billing information and religious affiliation); and
+Inferences regarding preferences or other characteristics.
+Sensitive Information. When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information to include personal and/or health information (e.g., personal or family medical history and insurance information, insurance provider, and type of insurance).
+Protected Health Information. We may collect Protected Health Information (PHI) when you schedule appointments, access the Company portal, pay bills online, or receive medical care. PHI is handled according to our Notice of Privacy Practices. If we ever combine your personal or usage data with PHI, we will treat all that information as PHI going forward. If you have questions about how we manage your PHI, please refer to the PAFC Notice of Patient Privacy or contact us directly at privacy@pediatricassociates.com.
+Information automatically collected. We automatically collect certain information when you visit, use, or navigate our Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes. Like many businesses, we also collect information through cookies and similar technologies. The information we collect includes:
+Log and Usage Data. 
+Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called “crash dumps”), and hardware settings).
+Device Data. 
+We collect device data such as information about your computer, phone, tablet, or other device you use to access our Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, internet service provider and/or mobile carrier, operating system, and system configuration information.
+Location Data. We collect location data such as information about your device’s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+Information collected from other sources. In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion. If you interact with us on a social media platform using your social media account (e.g., Facebook or Twitter), we receive personal information about you such as your name, email address, and gender. Any personal information that we collect from your social media account depends on your social media account’s privacy settings.
+2. HOW DO WE PROCESS YOUR INFORMATION?
+We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
+Provided by You. When you voluntarily share your information with us or your content, we will collect personal information that you voluntarily provide, including when you:
+Register for a user account or create a user profile we may collect your name, contact information, username, password, and additional information you share on your account, profile, or registration form;
+Send us an email, communicate with us through our interactive services such as during a chat session, or otherwise contact us, we may collect your name, contact information, and any other Personal Information you share in the communications you send;
+Sign up to receive newsletters and other updates, or subscribe to our podcasts or news feeds, we may collect your email address and other information about your device or operating system;
+Register for an event we may collect your contact and other information necessary to reserve your space at specific events;
+Apply for a job using our online application we may collect your name, contact information and employment information included in your application;
+Complete a health questionnaire or request a consultation or appointment we may collect your name, contact information, date of birth, gender, geographic location, personal or family medical history, insurance information, and other health information;
+Request to verify your insurance coverage we may collect your name, contact information, insurance provider, type of insurance, and additional information to verify your information;
+Request information about a Pediatric Associates Family of Companies location or about clinical trials we may collect your contact information, general geographic location, and information about your inquiry;
+Donate we may collect some information about your donation, name, contact information, and billing information;
+Request an appointment;
+Request materials or information;
+Subscribe to email communications services;
+Provide information on surveys or feedback forms; and
+Use email links to Pediatric Associates Family of Companies departments, its employees, or representatives
+When you post information publicly. Certain features of the Services allow you to publicly share with or communicate Your Content to Pediatric Associates Family of Companies user. For instance, you may post comments, share images, or start a discussion on several of our Services, which will be displayed publicly once submitted. We cannot control the actions of other users of our Services with whom you choose to share Your Content. We recommend that you carefully consider whether to disclose your Personal Information in any public posting or forum.
+When you use our Services to share information with others. We may collect Personal Information when you share Your Content or communicate with others using our Services. For example, when you send a message to other Pediatric Associates Family of Companies through your profile, we may collect some information about you or the individual you are sending to such as your name, your email address, and the recipient’s email address.
+Passively Collect Information. We collect information from you automatically when you use our Services. When you navigate the Services, we and our vendors may collect usage information through a variety of technical methods, including Cookies and other technologies.
+For more information about how we use data collected and other technologies, read sections titled “What information we collect?”, “How do we process your information?”, and “Do we use cookies and other tracking technologies?”. To learn how to exercise your choices about data collected and the other technologies, read the sections title “What are your rights?”. For California residents only, read the section titled “For California residents only, what are your privacy rights?”.
+Use of Cookies. Pediatric Associates Family of Companies may use cookies on occasion to track the number of people who visit our site from certain other websites and how they utilize our website. The cookies we use do not personally identify individuals by their name, email address, health status, or any other personal attribute.
+What Are Cookies? Cookies are small text files that websites place on your device to improve your Browse experience. They store information, such as your preferences, and help us understand how you use our site.
+How We Use Cookies? 
+We use cookies to remember your preferences and settings, analyze website usage and performance, provide personalized content and advertisements, and enable specific website features.
+Third-Party Cookies. 
+Some cookies on our site may be placed by third-party services, like Google Maps, to provide enhanced functionality. These third parties may collect information about your Browse activity, and we do not control their cookies.
+Your Choices. 
+You have the ability to control or disable cookies through your browser settings. Please note that disabling cookies may affect your experience and the functionality of our website. If you have questions or need assistance on how to manage your cookie preferences, please contact us at privacy@pediatricassociates.com.
+From third parties. We may collect your information from sources other than you, such as from your friends and family and certain service providers. For example, a friend or family member may contact us on your behalf for information about our Services or refer you to our Services. If you provide Pediatric Associates Family of Companies with Personal Information pertaining to someone other than yourself, you must have that person’s consent to share his or her Personal Information with us or otherwise contact us on that person’s behalf.
+Through social media. If you connect to us through social media may collect your personal information and/or usage information. The personal and usage information we collect will depend on your privacy settings for that social media. When you share your content publicly, you share it at your own risk. If you choose not to provide us with your personal information, you may still be able to access and use some of our Services. Note, however, that certain features of our Services that require your information may not be accessible to you.
+3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
+We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved. We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party, such as situations involving potential threats to the safety of any person.
+4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+We may share information on specific situations described in this section and/or with the following categories of third parties.
+Vendors, Consultants, and Other Third-Party Service Providers. We may share your data with third-party vendors, service providers, contractors, or agents (“third parties”) who perform services for us or on our behalf and require access to such information to do that work. We have contracts in place with our third parties, which are designed to help safeguard your personal information. This means that they cannot do anything with your personal information unless we have instructed them to do it. They will also not share your personal information with any organization apart from us. They also commit to protect the data they hold on to our behalf and to retain it for the period we instruct. The categories of third parties we may share personal information with are as follows:
+Ad Networks
+Affiliate Marketing Programs
+Authentication Services
+Cloud Computing Services
+Communication & Collaboration Tools
+Data Analytics Services
+Data Storage Service Providers
+Finance & Accounting Tools
+Government Entities
+Order Fulfillment Service Providers
+Payment Processors
+Performance Monitoring Tools
+Product Engineering & Design Tool
+Retargeting Platforms
+Sales & Marketing Tools
+Social Networks
+Testing Tools
+User Account Registration
+Website Hosting Service Providers
+Others
+We also may need to share your personal information in the following situations:
+Business Transfers.
+We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+Business Partners.
+We may share your information with our business partners to offer you certain products, services, or promotions.
+Other Users. 
+When you share personal information (for example, by posting comments, contributions, or other content to the Services)] or otherwise interact with public areas of the Services, such personal information may be viewed by all users and may be publicly made available outside the Services in perpetuity. If you interact with other users of our Services and register for our Services through a social network (such as Facebook), your contacts on the social network will see your name, profile photo, and descriptions of your activity. Similarly, other users will be able to view descriptions of your activity, communicate with you within our Services, and view your profile.
+Offer Wall. 
+Our application(s) may display a third-party hosted “offer wall.” Such an offer wall allows third-party advertisers to offer virtual currency, gifts, or other items to users in return for the acceptance and completion of an advertisement offer. Such an offer wall may appear in our application(s) and be displayed to you based on certain data, such as your geographic area or demographic information. When you click on an offer wall, you will be brought to an external website belonging to other persons and will leave our application(s). A unique identifier, such as your user ID, will be shared with the offer wall provider in order to prevent fraud and properly credit your account with the relevant reward.
+5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
+Our Services may link to third-party websites, online services, or mobile applications and/or contain advertisements from third parties that are not affiliated with us, and which may link to other websites, services, or applications. Accordingly, we do not make any guarantee regarding any such third parties, and we will not be liable for any loss or damage caused by the use of such third-party websites, services, or applications. The inclusion of a link to a third-party website, service, or application does not imply an endorsement by us. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this Website Privacy Statement. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services, or applications that may be linked to or from our Services. You should review the policies of such third parties and contact them directly to respond to your questions.
+6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+Our Services are intended for individuals located in the United States. If you are outside of the United States and access the Services or submit your personal information to us, please be advised that United States’ law may not offer the same privacy protections as the law of your jurisdiction. If you visit our Services or contact us from outside of the United States, please be advised that (1) any information you provide to us or that we automatically collect will be received in the United States and may be transferred to other jurisdictions; and (2) that by using our Services or submitting information, you explicitly authorize its processing in the United States and subsequent transfers outside the United States in accordance with this Website Privacy Statement. You agree that you will not access our Services from the European Union or the European Economic Area.
+8. HOW LONG DO WE KEEP YOUR INFORMATION?
+We keep your information for as long as necessary to fulfill the purposes outlined in this Website Privacy Statement unless otherwise required by law. We will only keep your personal information for as long as it is necessary for the purposes set out in this Website Privacy Statement, unless a longer retention period is required or permitted by law (For example, for tax, accounting, or other legal requirements).
+9. HOW DO WE KEEP YOUR INFORMATION SAFE?
+The security of personal information is important to us. We use reasonable safeguards aimed to protect against unauthorized use, disclosure, alteration, or destruction of the personal information we collect and maintain. You should keep in mind, however, that no data transmitted over the internet is 100% secure and any information disclosed online can potentially be collected and used by parties other than the intended recipient. As a result, while we strive to protect your information, we cannot guarantee or warrant the security of any information you transmit to or from our Services. If you are concerned about providing sensitive information, you may wish to do so via phone, regular mail or during a personal consultation, rather than electronically.
+10. DO WE COLLECT INFORMATION FROM MINORS?
+We do not knowingly solicit data from our market to children under 18 years of age. By using our Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data, we may have collected from children under age 18, please contact us by email at privacy@pediatricassociates.com.
+11. WHAT ARE YOUR RIGHTS?
+Your preferences about how we use your information are important to us and, when possible, we aim to honor them. We offer the following rights that you can exercise with regard to your Personal Information.
+Access and modify your Personal Information. You may contact us using the information below to request access to or modification of the Personal Information we maintain about you.
+Opt-out of marketing and other communications. You can request to manage marketing and certain other communications such as our newsletters and certain other notifications by calling us using the information below or the “Unsubscribe” link in our emails.
+Managing Cookies and Other Data Collection Technologies. You have a number of options to manage or limit how we and our vendors use Cookies and other Data Collection Technologies including for advertising:
+To prevent your data from being used by Google Analytics, you can install Google’s opt-out browser add-on, available at https://tools.google.com/dlpage/gaoptout.
+For information about your options for opting out of receiving ads based on your web browsing history from our advertising partners, where possible, please visit http://optout.aboutads.info/. You may also opt out of interest-based advertising through the NAI by visiting http://optout.networkadvertising.org/#!/ and following NAI’s on-screen instructions. Note that if you opt out through the NAI, you will still receive advertising, but the advertising will not be tailored to your interests. In addition, if you opt out through NAI and later delete your Cookies, use a different browser, or buy a new device, you will need to opt out of interest-based advertising again.
+Check your mobile device for settings that control ads based on your interactions with the applications on your device. For example, on your iOS device, enable the “Limit Ad Tracking” setting, and on your Android device, enable the “Opt out of Ads Personalization” setting.
+You may be able to disable cookies or choose the types of cookies you wish to allow. Please refer to your browser settings.
+12. FOR CALIFORNIA RESIDENTS ONLY - WHAT ARE YOUR PRIVACY RIGHTS?
+The California Consumer Privacy Act, effective January 1, 2020, provides California residents with additional rights and disclosures. In addition, California’s long-standing “California Shine the Light” law provides that California residents may request certain details about how their personal information is shared with third parties for their direct marketing purposes. The California rights do not apply to Protected Health Information we maintain but you may have other rights in relation to such information. If you are a California resident and have used our Services, you can request a list of the personal information we have shared with third parties for their marketing purposes, if any. We will also give you a list of the third parties that have received your information. You can make a request once each year. To make a request, please contact us via email at privacy@pedatricassociates.com. In your email, let us know that you are a California resident, who is submitting a California “Shine the Light” inquiry. We will respond to you within 30 days.
+The California Consumer Privacy Act provides California residents with the following privacy rights:
+As a California resident, you have a right to request us to disclose to you, no more than twice in a 12-month period, the personal information about you that we collect, use, disclose, and sell during the preceding 12 months. Such disclosure includes:
+The categories of personal information that we have collected and sold about you, or shared for a business purpose with our service providers;
+The sources from which we collected such information;
+The third parties with whom we have shared that personal information and to whom we have sold that personal information;
+The business or commercial purpose for collecting or selling that personal information; and
+The specific pieces of personal information we have collected about you.
+As a California resident, you have the right to request the deletion of personal information that we have collected from you. We have the right, however, to deny your deletion request when the information is necessary for us or a service provider to do any of the following:
+Complete your transaction;
+Provide you a good or service;
+Perform a contract between us and you;
+Protect your security and prosecute those responsible for breaching it;
+Fix our system in the case of a bug;
+Engage in public or peer-reviewed scientific, historical, or statistical research in the public interests that adheres to all other applicable ethics and privacy laws;
+Comply with a legal obligation; or
+Make other internal and lawful uses of the information that are compatible with the context in which you provided it.
+The right to opt out of sales.
+As a California resident, you have a right to direct us not to sell your personal information. We do not, however, sell your personal information to third parties. We have not sold your personal information in the preceding 12 months. We do, however, reserve the right to share aggregate information and other de-identified information to third parties for their own internal purposes as described in the “When and with whom do we share your personal information?” section of this Website Privacy Statement.
+13. INFORMATION ON CONTROLS FOR DO-NOT-TRACK FEATURES
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Website Privacy Statement.
+14. DO WE MAKE UPDATES TO THIS WEBSITE PRIVACY STATEMENT?
+Yes, we will update this Website Privacy Statement as necessary to stay compliant with relevant laws. We may periodically update this Website Privacy Statement, and the revised version will be indicated by an “Updated” date and it will be published and effective as soon as it is accessible. If we make material changes to this Website Privacy Statement, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this Website Privacy Statement frequently to be informed of how we are protecting your information.
+15. HOW CAN YOU CONTACT US ABOUT THIS WEBSITE PRIVACY STATEMENT?
+If you have any questions, requests in connection with this Website Privacy Statement, and/or any other privacy-related matters, please contact us send a written notice and/or email to:
+Pediatric Associates Family of Companies
+Attn: The Office of Compliance and Privacy
+900 South Pine Island Road Suite 800 Plantation, FL 33324
+Email privacy@pediatricassociates.com | Phone (954) 967-6400
+                        Ready when you are                    
+        Book an appointment            

@@ -1,0 +1,2848 @@
+{
+  "url": "https://nyp.org/medicalgroups/queens/pediatrics",
+  "slug": "nyp-queens-peds",
+  "capturedAt": "2026-10-30T17:41:32.780Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 23029,
+      "consoleErrors": [],
+      "title": "Pediatrics | NewYork-Presbyterian Queens",
+      "h1": [
+        "Pediatric Care in Queens"
+      ],
+      "h2": [
+        "Superior pediatric care, right here in Queens",
+        "Our approach to care",
+        "Featured specialties",
+        "Theresa Lang Children’s Ambulatory Center",
+        "Our locations",
+        "Pediatric news & related stories",
+        "Find Pediatric Care in Queens"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#nyp-main-content",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": ".cls-1{fill:#fff;}.cls-2{fill:#e2231a;} NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor Opens in a new tab",
+          "href": "https://doctors.nyp.org/?pk_vid=e5179203410cda7e169032000719fd84",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://www.nyp.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "Digestive Diseases",
+          "href": "https://www.nyp.org/digestive",
+          "inFooter": false
+        },
+        {
+          "text": "Heart",
+          "href": "https://www.nyp.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology & Neurosurgery",
+          "href": "https://www.nyp.org/neuro",
+          "inFooter": false
+        },
+        {
+          "text": "Organ Transplantation",
+          "href": "https://www.nyp.org/transplant",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://www.nyp.org/orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://www.nyp.org/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Rehabilitation Medicine",
+          "href": "https://www.nyp.org/rehabmed",
+          "inFooter": false
+        },
+        {
+          "text": "Vascular Medicine",
+          "href": "https://www.nyp.org/vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Health",
+          "href": "https://www.nyp.org/womens",
+          "inFooter": false
+        },
+        {
+          "text": "View all specialties",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Digital Health",
+          "href": "https://www.nyp.org/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Och Spine",
+          "href": "https://www.nyp.org/ochspine",
+          "inFooter": false
+        },
+        {
+          "text": "International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Find an NYP Location",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Hudson Valley Hospital",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health",
+          "href": "https://www.nyp.org/locations/westchester-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Information",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://www.nyp.org/patients-visitors/medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Paying For Your Care",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "For International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Visitation Guidelines",
+          "href": "https://www.nyp.org/visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Visitation Guidelines",
+          "href": "https://www.nyp.org/virtual-visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Connect Patient Portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "Health Library",
+          "href": "https://www.nyp.org/healthlibrary",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "NYP Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Continuing Medical Education",
+          "href": "https://www.nyp.org/for-professionals/continuing-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Medicine Education",
+          "href": "https://www.nyp.org/professionals/emergency-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Failure Research Institute",
+          "href": "https://www.nyp.org/heart-failure-research-institute",
+          "inFooter": false
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": false
+        },
+        {
+          "text": "Pharmacy",
+          "href": "https://www.nyp.org/professionals/pharmacy",
+          "inFooter": false
+        },
+        {
+          "text": "Transfer a Patient",
+          "href": "https://www.nyp.org/for-professionals/transferring-patients",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals home",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian NewYork-Presbyterian Homepage",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://www.nyp.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "Digestive Diseases",
+          "href": "https://www.nyp.org/digestive",
+          "inFooter": false
+        },
+        {
+          "text": "Heart",
+          "href": "https://www.nyp.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology & Neurosurgery",
+          "href": "https://www.nyp.org/neuro",
+          "inFooter": false
+        },
+        {
+          "text": "Organ Transplantation",
+          "href": "https://www.nyp.org/transplant",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://www.nyp.org/orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://www.nyp.org/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Rehabilitation Medicine",
+          "href": "https://www.nyp.org/rehabmed",
+          "inFooter": false
+        },
+        {
+          "text": "Vascular Medicine",
+          "href": "https://www.nyp.org/vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Health",
+          "href": "https://www.nyp.org/womens",
+          "inFooter": false
+        },
+        {
+          "text": "View All Specialties",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Digital Health",
+          "href": "https://www.nyp.org/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Och Spine",
+          "href": "https://www.nyp.org/ochspine",
+          "inFooter": false
+        },
+        {
+          "text": "International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find an NYP Location",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Hudson Valley Hospital",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://www.nyp.org/locations/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health Center",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/westchester-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Information",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://www.nyp.org/patients-visitors/medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Paying For Your Care",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "For International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Visitation Guidelines",
+          "href": "https://www.nyp.org/visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Connect Patient Portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Library",
+          "href": "https://www.nyp.org/healthlibrary",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "NYP Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Continuing Medical Education",
+          "href": "https://www.nyp.org/for-professionals/continuing-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Medicine Education",
+          "href": "https://www.nyp.org/professionals/emergency-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Failure Research Institute",
+          "href": "https://www.nyp.org/heart-failure-research-institute",
+          "inFooter": false
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": false
+        },
+        {
+          "text": "Pharmacy",
+          "href": "https://www.nyp.org/professionals/pharmacy",
+          "inFooter": false
+        },
+        {
+          "text": "Transfer a Patient",
+          "href": "https://www.nyp.org/for-professionals/transferring-patients",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals home",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Cardiology and Cardiothoracic Surgery",
+          "href": "https://www.nyp.org/search-results?search=Cardiology%20and%20Cardiothoracic%20Surgery",
+          "inFooter": false
+        },
+        {
+          "text": "COVID",
+          "href": "https://www.nyp.org/search-results?search=COVID",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/search-results?search=Pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian in Queens",
+          "href": "https://www.nyp.org/locations/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Services in Queens",
+          "href": "https://www.nyp.org/locations/queens/services",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Overview",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics?subnav=Overview#",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Manhattan",
+          "href": "https://www.nyp.org/locations/manhattan?subnav=NYP+in+Manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center?subnav=NYP+%2F+Columbia+University+Irving+Medical+Center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center?subnav=NYP+%2F+Weill+Cornell+Medical+Center",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital?subnav=Lower+Manhattan+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital?subnav=Allen+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Morgan Stanley Children's Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-morgan-stanley-childrens-hospital?subnav=Morgan+Stanley+Children%27s+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Komansky Children's Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-komansky-childrens-hospital?subnav=Komansky+Children%27s+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Alexandra Cohen Hospital for Women and Newborns",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-alexandra-cohen-hospital?subnav=Alexandra+Cohen+Hospital+for+Women+and+Newborns",
+          "inFooter": false
+        },
+        {
+          "text": "Sloane Hospital for Women",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-sloane-hospital-for-women?subnav=Sloane+Hospital+for+Women",
+          "inFooter": false
+        },
+        {
+          "text": "David H. Koch Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-david-h-koch-center?subnav=David+H.+Koch+Center",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian/The Spiral",
+          "href": "https://www.nyp.org/locations/manhattan/the-spiral?subnav=NewYork-Presbyterian%2FThe+Spiral",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn?subnav=Ambulatory+Care+Network",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn?subnav=NYP+in+Brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital?subnav=Brooklyn+Methodist+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Center for Community Health",
+          "href": "https://www.nyp.org/brooklyn/locations/center-for-community-health?subnav=Center+for+Community+Health",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Diagnostic Center",
+          "href": "https://www.nyp.org/locations/brooklyn/services/womens-health/womens-diagnostic-center?subnav=Women%27s+Diagnostic+Center",
+          "inFooter": false
+        },
+        {
+          "text": "Center for Sleep Disorders",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital/center-for-sleep-disorders?subnav=Center+for+Sleep+Disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group?subnav=Medical+Group+Brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Queens",
+          "href": "https://www.nyp.org/locations/queens?subnav=NYP+in+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens?subnav=NewYork-Presbyterian+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "Centers in the Community",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community?subnav=Centers+in+the+Community",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group?subnav=Medical+Group+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Westchester & Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley?subnav=NYP+in+Westchester+%26+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester?subnav=NewYork-Presbyterian+Westchester",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital?subnav=NewYork-Presbyterian+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester?subnav=Medical+Group+Westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley?subnav=Medical+Group+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/westchester-behavioral-health?subnav=Westchester+Behavioral+Health",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian The One",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/theone?subnav=NewYork-Presbyterian+The+One",
+          "inFooter": false
+        },
+        {
+          "text": "Map of Locations",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services in Queens",
+          "href": "https://www.nyp.org/locations/queens/services",
+          "inFooter": false
+        },
+        {
+          "text": "Find a doctor",
+          "href": "https://doctors.nyp.org/?qp=Queens%2C+New+York%2C+United+States&lat=40.7135&lng=-73.8283&r=25&sp=Pediatrics&aff=false",
+          "inFooter": false
+        },
+        {
+          "text": "Find a location",
+          "href": "https://locations.nyp.org/?sp=Pediatrics&qp=Queens%2C+New+York%2C+United+States&location_type=location&lat=40.7135&lng=-73.8283&r=25&q=40.7135%2C-73.8283",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Cardiology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-cardiology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Emergency Care",
+          "href": "https://www.nyp.org/pediatrics/emergency-care-and-trauma",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Gastroenterology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "Neonatal Intensive Care Unit (NICU)",
+          "href": "https://www.nyp.org/pediatrics/neonatal-intensive-care-units",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Neurology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-neurology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Orthopedics",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Surgery",
+          "href": "https://www.nyp.org/pediatrics/surgery",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Urology",
+          "href": "https://www.nyp.org/pediatrics/urology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Allergy and Asthma",
+          "href": "https://www.nyp.org/pediatrics/pulmonology",
+          "inFooter": false
+        },
+        {
+          "text": "Theresa Lang Children’s Ambulatory Center",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community/theresa-lang-childrens-ambulatory-center",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at NewYork-Presbyterian Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens",
+          "inFooter": false
+        },
+        {
+          "text": "56-45 Main Street Flushing, NY 11355 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=56-45%20Main%20Street%20Flushing,%20NY%2011355",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1800",
+          "href": "tel:+718-670-1800",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at NewYork-Presbyterian Queens Theresa Lang Chil",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community/theresa-lang-childrens-ambulatory-center",
+          "inFooter": false
+        },
+        {
+          "text": "198-15 Horace Harding Expressway, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=198-15%20Horace%20Harding%20Expressway,%20Fresh%20Meadows,%20NY%2011365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at Medical Group Queens - 198-15 Horace Harding ",
+          "href": "https://www.nyp.org/locations/queens/medical-group/198-15-horace-harding-expressway",
+          "inFooter": false
+        },
+        {
+          "text": "198-15 Horace Harding Expressway, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=198-15%20Horace%20Harding%20Expressway,%20Fresh%20Meadows,%20NY%2011365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Ambulatory Care Network- Pediatric Allergy and Asthma Cente",
+          "href": "https://maps.app.goo.gl/REHzVLPc4sEjbmdY9",
+          "inFooter": false
+        },
+        {
+          "text": "59-16 174th Street, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=59-16%20174th%20Street,%20Fresh%20Meadows,%E2%80%AFNY%E2%80%AF11365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1920",
+          "href": "tel:+718-670-1920",
+          "inFooter": false
+        },
+        {
+          "text": "View all Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "What Does Too Much Screen Time Do to Children’s Brains?",
+          "href": "https://healthmatters.nyp.org/what-does-too-much-screen-time-do-to-childrens-brains/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding: How Do You Know You’re Doing It Right?",
+          "href": "https://healthmatters.nyp.org/breastfeeding-how-do-you-know-youre-doing-it-right/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a doctor",
+          "href": "https://doctors.nyp.org/?qp=Queens%2C+New+York%2C+United+States&lat=40.7135&lng=-73.8283&r=25&sp=Pediatrics&aff=false",
+          "inFooter": false
+        },
+        {
+          "text": "Terms and Conditions",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.nyp.org/about",
+          "inFooter": true
+        },
+        {
+          "text": "Community",
+          "href": "https://www.nyp.org/about/community",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": true
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": true
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://www.nyp.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Donate Blood",
+          "href": "https://www.nyp.org/donateblood",
+          "inFooter": true
+        },
+        {
+          "text": "For Professionals",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": true
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing Jobs",
+          "href": "https://careers.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "For vendors",
+          "href": "https://www.nyp.org/vendors",
+          "inFooter": true
+        },
+        {
+          "text": "NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram Instagram Open in a new tab",
+          "href": "https://www.instagram.com/nyphospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook Facebook Open in a new tab",
+          "href": "https://www.facebook.com/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn LinkedIn Open in a new tab",
+          "href": "https://www.linkedin.com/company/new-york-presbyterian-hospital",
+          "inFooter": true
+        },
+        {
+          "text": "Youtube Youtube Open in a new tab",
+          "href": "https://www.youtube.com/user/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "Disclaimer",
+          "href": "https://www.nyp.org/disclaimer",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "Price Transparency",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care/hospital-price-transparency",
+          "inFooter": true
+        },
+        {
+          "text": "Website Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Employees",
+          "href": "https://www.nyp.org/employees",
+          "inFooter": true
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#/",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Footer Subscribe to our health and wellness newsletter today. Email Submit Email I accept NewYork-Presbyterian's Terms and Conditions and confirm I would like to receive more information about your care services, news, and events. About NYP About Us Community Contact Us The Latest Health Matters Newsroom Events & Classes Ways to Help Give to NYP Volunteer Donate Blood Professionals & Students For Professionals Graduate Medical Education Nursing Job Seekers Careers Nursing Jobs For vendors NewYork-Presbyterian Instagram Instagram Open in a new tab Facebook Facebook Open in a new tab LinkedIn LinkedIn Open in a new tab Youtube Youtube Open in a new tab Disclaimer Privacy Notice Price Transparency Website Privacy Policy Employees © 2026 NewYork-Presbyterian Hospital",
+      "telLinks": [
+        {
+          "text": "718-670-1800",
+          "href": "tel:+718-670-1800",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1920",
+          "href": "tel:+718-670-1920",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.nyp.org/search-results",
+          "fields": [
+            "input:text:search",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "fields": [
+            "input:email:Email",
+            "input:text:b_0073c237ebb676b907c772cee_492d0c3b63",
+            "input:text:botCheck",
+            "button:button:subscribe",
+            "input:checkbox:Form_Check"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 14,
+      "scrollHeight": 9401,
+      "jsonld": [
+        "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\",\"name\":\"Home\"}]},{\"@type\":\"ListItem\",\"position\":2,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\",\"name\":\"Locations\"}]},{\"@type\":\"ListItem\",\"position\":3,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\",\"name\":\"NewYork-Presbyterian in Queens\"}]},{\"@type\":\"ListItem\",\"position\":4,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\\/services\",\"name\":\"Services in Queens\"}]},{\"@type\":\"ListItem\",\"position\":5,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\\/services\\/pediatrics\",\"name\":\"Pediatrics\"}]}]}",
+        "[\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"MedicalWebPage\",\n    \"url\": \"https://www.nyp.org/locations/queens/services/pediatrics\",\n    \"name\": \"Pediatric Care in Queens\",\n    \"about\": {\n      \"@type\": \"Service\",\n      \"name\": \"Pediatric Services\",\n      \"category\": [\n        {\n          \"@type\": \"MedicalSpecialty\",\n          \"name\": \"Pediatrics\"\n        }\n      ],\n      \"provider\": {\n        \"@type\": \"MedicalOrganization\",\n        \"name\": \"NewYork-Presbyterian Queens\",\n        \"url\": \"https://www.nyp.org/locations/queens\",\n        \"parentOrganization\": {\n          \"@type\": \"Organization\",\n          \"name\": \"NewYork-Presbyterian\",\n          \"url\": \"https://www.nyp.org/\"\n        }\n      }\n    }\n  },\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 1,\n        \"name\": \"Home\",\n        \"item\": \"https://www.nyp.org\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 2,\n        \"name\": \"Locations\",\n        \"item\": \"https://www.nyp.org/locations\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 3,\n        \"name\": \"NewYork-Presbyterian in Queens\",\n        \"item\": \"https://www.nyp.org/locations/queens\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 4,\n        \"name\": \"Services in Queens\",\n        \"item\": \"https://www.nyp.org/locations/queens/services\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 5"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.coh-inline-element ssa-component coh-com",
+        "DIV.coh-container c-mobile-nav",
+        "NAV.coh-container ssa-component coh-componen",
+        "DIV.c-side-sheet-overlay",
+        "DIV.js-side-sheet-root-container",
+        "DIV.coh-container c-side-sheet c-side-sheet-",
+        "DIV.coh-container c-side-sheet__header u-d-f",
+        "DIV.coh-container c-side-sheet c-side-sheet-",
+        "DIV.coh-container c-side-sheet__header u-d-f",
+        "DIV.coh-container c-side-sheet c-side-sheet-"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 22406,
+      "consoleErrors": [],
+      "title": "Pediatrics | NewYork-Presbyterian Queens",
+      "h1": [
+        "Pediatric Care in Queens"
+      ],
+      "h2": [
+        "Superior pediatric care, right here in Queens",
+        "Our approach to care",
+        "Featured specialties",
+        "Theresa Lang Children’s Ambulatory Center",
+        "Our locations",
+        "Pediatric news & related stories",
+        "Find Pediatric Care in Queens"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#nyp-main-content",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor Opens in a new tab",
+          "href": "https://doctors.nyp.org/?pk_vid=e5179203410cda7e169032000719fd84",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://www.nyp.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "Digestive Diseases",
+          "href": "https://www.nyp.org/digestive",
+          "inFooter": false
+        },
+        {
+          "text": "Heart",
+          "href": "https://www.nyp.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology & Neurosurgery",
+          "href": "https://www.nyp.org/neuro",
+          "inFooter": false
+        },
+        {
+          "text": "Organ Transplantation",
+          "href": "https://www.nyp.org/transplant",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://www.nyp.org/orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://www.nyp.org/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Rehabilitation Medicine",
+          "href": "https://www.nyp.org/rehabmed",
+          "inFooter": false
+        },
+        {
+          "text": "Vascular Medicine",
+          "href": "https://www.nyp.org/vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Health",
+          "href": "https://www.nyp.org/womens",
+          "inFooter": false
+        },
+        {
+          "text": "View all specialties",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Digital Health",
+          "href": "https://www.nyp.org/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Och Spine",
+          "href": "https://www.nyp.org/ochspine",
+          "inFooter": false
+        },
+        {
+          "text": "International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Find an NYP Location",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Hudson Valley Hospital",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health",
+          "href": "https://www.nyp.org/locations/westchester-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Information",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://www.nyp.org/patients-visitors/medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Paying For Your Care",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "For International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Visitation Guidelines",
+          "href": "https://www.nyp.org/visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Visitation Guidelines",
+          "href": "https://www.nyp.org/virtual-visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Connect Patient Portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "Health Library",
+          "href": "https://www.nyp.org/healthlibrary",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "NYP Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Continuing Medical Education",
+          "href": "https://www.nyp.org/for-professionals/continuing-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Medicine Education",
+          "href": "https://www.nyp.org/professionals/emergency-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Failure Research Institute",
+          "href": "https://www.nyp.org/heart-failure-research-institute",
+          "inFooter": false
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": false
+        },
+        {
+          "text": "Pharmacy",
+          "href": "https://www.nyp.org/professionals/pharmacy",
+          "inFooter": false
+        },
+        {
+          "text": "Transfer a Patient",
+          "href": "https://www.nyp.org/for-professionals/transferring-patients",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals home",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": ".cls-1{fill:#fff;}.cls-2{fill:#e2231a;} NewYork-Presbyterian NewYork-Presbyteria",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://www.nyp.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "Digestive Diseases",
+          "href": "https://www.nyp.org/digestive",
+          "inFooter": false
+        },
+        {
+          "text": "Heart",
+          "href": "https://www.nyp.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology & Neurosurgery",
+          "href": "https://www.nyp.org/neuro",
+          "inFooter": false
+        },
+        {
+          "text": "Organ Transplantation",
+          "href": "https://www.nyp.org/transplant",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://www.nyp.org/orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://www.nyp.org/psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Rehabilitation Medicine",
+          "href": "https://www.nyp.org/rehabmed",
+          "inFooter": false
+        },
+        {
+          "text": "Vascular Medicine",
+          "href": "https://www.nyp.org/vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Health",
+          "href": "https://www.nyp.org/womens",
+          "inFooter": false
+        },
+        {
+          "text": "View All Specialties",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Digital Health",
+          "href": "https://www.nyp.org/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Och Spine",
+          "href": "https://www.nyp.org/ochspine",
+          "inFooter": false
+        },
+        {
+          "text": "International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Find an NYP Location",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Hudson Valley Hospital",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://www.nyp.org/locations/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health Center",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/westchester-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Information",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://www.nyp.org/patients-visitors/medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Paying For Your Care",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://www.nyp.org/telehealth/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Video Visits",
+          "href": "https://www.nyp.org/telehealth/video-visit",
+          "inFooter": false
+        },
+        {
+          "text": "For International Patients",
+          "href": "https://www.nyp.org/globalservices",
+          "inFooter": false
+        },
+        {
+          "text": "Visitation Guidelines",
+          "href": "https://www.nyp.org/visitation-guidelines",
+          "inFooter": false
+        },
+        {
+          "text": "Connect Patient Portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Library",
+          "href": "https://www.nyp.org/healthlibrary",
+          "inFooter": false
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Trials",
+          "href": "https://www.nyp.org/clinical-trials",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "NYP Advances",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Continuing Medical Education",
+          "href": "https://www.nyp.org/for-professionals/continuing-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Medicine Education",
+          "href": "https://www.nyp.org/professionals/emergency-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Failure Research Institute",
+          "href": "https://www.nyp.org/heart-failure-research-institute",
+          "inFooter": false
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": false
+        },
+        {
+          "text": "Pharmacy",
+          "href": "https://www.nyp.org/professionals/pharmacy",
+          "inFooter": false
+        },
+        {
+          "text": "Transfer a Patient",
+          "href": "https://www.nyp.org/for-professionals/transferring-patients",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Professionals home",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyp.org/about",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": false
+        },
+        {
+          "text": "News",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": false
+        },
+        {
+          "text": "Research",
+          "href": "https://www.nyp.org/advances",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Login",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Cardiology and Cardiothoracic Surgery",
+          "href": "https://www.nyp.org/search-results?search=Cardiology%20and%20Cardiothoracic%20Surgery",
+          "inFooter": false
+        },
+        {
+          "text": "COVID",
+          "href": "https://www.nyp.org/search-results?search=COVID",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://www.nyp.org/search-results?search=Pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian in Queens",
+          "href": "https://www.nyp.org/locations/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Services in Queens",
+          "href": "https://www.nyp.org/locations/queens/services",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Manhattan",
+          "href": "https://www.nyp.org/locations/manhattan?subnav=NYP+in+Manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Columbia University Irving Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-columbia-university-irving-medical-center?subnav=NYP+%2F+Columbia+University+Irving+Medical+Center",
+          "inFooter": false
+        },
+        {
+          "text": "NYP / Weill Cornell Medical Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-weill-cornell-medical-center?subnav=NYP+%2F+Weill+Cornell+Medical+Center",
+          "inFooter": false
+        },
+        {
+          "text": "Lower Manhattan Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-lower-manhattan-hospital?subnav=Lower+Manhattan+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Allen Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-allen-hospital?subnav=Allen+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Morgan Stanley Children's Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-morgan-stanley-childrens-hospital?subnav=Morgan+Stanley+Children%27s+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Komansky Children's Hospital",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-komansky-childrens-hospital?subnav=Komansky+Children%27s+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Alexandra Cohen Hospital for Women and Newborns",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-alexandra-cohen-hospital?subnav=Alexandra+Cohen+Hospital+for+Women+and+Newborns",
+          "inFooter": false
+        },
+        {
+          "text": "Sloane Hospital for Women",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-sloane-hospital-for-women?subnav=Sloane+Hospital+for+Women",
+          "inFooter": false
+        },
+        {
+          "text": "David H. Koch Center",
+          "href": "https://www.nyp.org/locations/manhattan/nyp-david-h-koch-center?subnav=David+H.+Koch+Center",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian/The Spiral",
+          "href": "https://www.nyp.org/locations/manhattan/the-spiral?subnav=NewYork-Presbyterian%2FThe+Spiral",
+          "inFooter": false
+        },
+        {
+          "text": "Ambulatory Care Network",
+          "href": "https://www.nyp.org/acn?subnav=Ambulatory+Care+Network",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn?subnav=NYP+in+Brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn Methodist Hospital",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital?subnav=Brooklyn+Methodist+Hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Center for Community Health",
+          "href": "https://www.nyp.org/brooklyn/locations/center-for-community-health?subnav=Center+for+Community+Health",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Diagnostic Center",
+          "href": "https://www.nyp.org/locations/brooklyn/services/womens-health/womens-diagnostic-center?subnav=Women%27s+Diagnostic+Center",
+          "inFooter": false
+        },
+        {
+          "text": "Center for Sleep Disorders",
+          "href": "https://www.nyp.org/locations/brooklyn/nyp-brooklyn-methodist-hospital/center-for-sleep-disorders?subnav=Center+for+Sleep+Disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Brooklyn",
+          "href": "https://www.nyp.org/locations/brooklyn/medical-group?subnav=Medical+Group+Brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Queens",
+          "href": "https://www.nyp.org/locations/queens?subnav=NYP+in+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens?subnav=NewYork-Presbyterian+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "Centers in the Community",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community?subnav=Centers+in+the+Community",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Queens",
+          "href": "https://www.nyp.org/locations/queens/medical-group?subnav=Medical+Group+Queens",
+          "inFooter": false
+        },
+        {
+          "text": "NYP in Westchester & Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley?subnav=NYP+in+Westchester+%26+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-westchester?subnav=NewYork-Presbyterian+Westchester",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/nyp-hudson-valley-hospital?subnav=NewYork-Presbyterian+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Westchester",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-westchester?subnav=Medical+Group+Westchester",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Group Hudson Valley",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/medical-group-hudson-valley?subnav=Medical+Group+Hudson+Valley",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester Behavioral Health",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/westchester-behavioral-health?subnav=Westchester+Behavioral+Health",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian The One",
+          "href": "https://www.nyp.org/locations/westchester-hudson-valley/theone?subnav=NewYork-Presbyterian+The+One",
+          "inFooter": false
+        },
+        {
+          "text": "Map of Locations",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services in Queens",
+          "href": "https://www.nyp.org/locations/queens/services",
+          "inFooter": false
+        },
+        {
+          "text": "Find a doctor",
+          "href": "https://doctors.nyp.org/?qp=Queens%2C+New+York%2C+United+States&lat=40.7135&lng=-73.8283&r=25&sp=Pediatrics&aff=false",
+          "inFooter": false
+        },
+        {
+          "text": "Find a location",
+          "href": "https://locations.nyp.org/?sp=Pediatrics&qp=Queens%2C+New+York%2C+United+States&location_type=location&lat=40.7135&lng=-73.8283&r=25&q=40.7135%2C-73.8283",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Cardiology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-cardiology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Emergency Care",
+          "href": "https://www.nyp.org/pediatrics/emergency-care-and-trauma",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Gastroenterology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "Neonatal Intensive Care Unit (NICU)",
+          "href": "https://www.nyp.org/pediatrics/neonatal-intensive-care-units",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Neurology",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-neurology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Orthopedics",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics/pediatric-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Surgery",
+          "href": "https://www.nyp.org/pediatrics/surgery",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Urology",
+          "href": "https://www.nyp.org/pediatrics/urology",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Allergy and Asthma",
+          "href": "https://www.nyp.org/pediatrics/pulmonology",
+          "inFooter": false
+        },
+        {
+          "text": "Theresa Lang Children’s Ambulatory Center",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community/theresa-lang-childrens-ambulatory-center",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at NewYork-Presbyterian Queens",
+          "href": "https://www.nyp.org/locations/queens/nyp-queens",
+          "inFooter": false
+        },
+        {
+          "text": "56-45 Main Street Flushing, NY 11355 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=56-45%20Main%20Street%20Flushing,%20NY%2011355",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1800",
+          "href": "tel:+718-670-1800",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at NewYork-Presbyterian Queens Theresa Lang Chil",
+          "href": "https://www.nyp.org/locations/queens/centers-in-the-community/theresa-lang-childrens-ambulatory-center",
+          "inFooter": false
+        },
+        {
+          "text": "198-15 Horace Harding Expressway, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=198-15%20Horace%20Harding%20Expressway,%20Fresh%20Meadows,%20NY%2011365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "Children's Hospital of New York at Medical Group Queens - 198-15 Horace Harding ",
+          "href": "https://www.nyp.org/locations/queens/medical-group/198-15-horace-harding-expressway",
+          "inFooter": false
+        },
+        {
+          "text": "198-15 Horace Harding Expressway, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=198-15%20Horace%20Harding%20Expressway,%20Fresh%20Meadows,%20NY%2011365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "NewYork-Presbyterian Ambulatory Care Network- Pediatric Allergy and Asthma Cente",
+          "href": "https://maps.app.goo.gl/REHzVLPc4sEjbmdY9",
+          "inFooter": false
+        },
+        {
+          "text": "59-16 174th Street, Fresh Meadows, NY 11365 Opens in Google Maps",
+          "href": "https://www.google.com/maps/search/?api=1&query=59-16%20174th%20Street,%20Fresh%20Meadows,%E2%80%AFNY%E2%80%AF11365",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1920",
+          "href": "tel:+718-670-1920",
+          "inFooter": false
+        },
+        {
+          "text": "View all Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "What Does Too Much Screen Time Do to Children’s Brains?",
+          "href": "https://healthmatters.nyp.org/what-does-too-much-screen-time-do-to-childrens-brains/",
+          "inFooter": false
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding: How Do You Know You’re Doing It Right?",
+          "href": "https://healthmatters.nyp.org/breastfeeding-how-do-you-know-youre-doing-it-right/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a doctor",
+          "href": "https://doctors.nyp.org/?qp=Queens%2C+New+York%2C+United+States&lat=40.7135&lng=-73.8283&r=25&sp=Pediatrics&aff=false",
+          "inFooter": false
+        },
+        {
+          "text": "Terms and Conditions",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.nyp.org/about",
+          "inFooter": true
+        },
+        {
+          "text": "Community",
+          "href": "https://www.nyp.org/about/community",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": true
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://www.nyp.org/healthmatters",
+          "inFooter": true
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://www.nyp.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Donate Blood",
+          "href": "https://www.nyp.org/donateblood",
+          "inFooter": true
+        },
+        {
+          "text": "For Professionals",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": true
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing Jobs",
+          "href": "https://careers.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "For vendors",
+          "href": "https://www.nyp.org/vendors",
+          "inFooter": true
+        },
+        {
+          "text": "NewYork-Presbyterian",
+          "href": "https://www.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram Instagram Open in a new tab",
+          "href": "https://www.instagram.com/nyphospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook Facebook Open in a new tab",
+          "href": "https://www.facebook.com/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn LinkedIn Open in a new tab",
+          "href": "https://www.linkedin.com/company/new-york-presbyterian-hospital",
+          "inFooter": true
+        },
+        {
+          "text": "Youtube Youtube Open in a new tab",
+          "href": "https://www.youtube.com/user/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "Disclaimer",
+          "href": "https://www.nyp.org/disclaimer",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "Price Transparency",
+          "href": "https://www.nyp.org/patients-visitors/paying-for-care/hospital-price-transparency",
+          "inFooter": true
+        },
+        {
+          "text": "Website Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Employees",
+          "href": "https://www.nyp.org/employees",
+          "inFooter": true
+        },
+        {
+          "text": "Learn More",
+          "href": "https://www.nyp.org/locations/queens/services/pediatrics#/",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Footer Subscribe to our health and wellness newsletter today. Email Submit Email I accept NewYork-Presbyterian's Terms and Conditions and confirm I would like to receive more information about your care services, news, and events. About NYP About Us Community Contact Us The Latest Health Matters Newsroom Events & Classes Ways to Help Give to NYP Volunteer Donate Blood Professionals & Students For Professionals Graduate Medical Education Nursing Job Seekers Careers Nursing Jobs For vendors NewYork-Presbyterian Instagram Instagram Open in a new tab Facebook Facebook Open in a new tab LinkedIn LinkedIn Open in a new tab Youtube Youtube Open in a new tab Disclaimer Privacy Notice Price Transparency Website Privacy Policy Employees © 2026 NewYork-Presbyterian Hospital",
+      "telLinks": [
+        {
+          "text": "718-670-1800",
+          "href": "tel:+718-670-1800",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-2468",
+          "href": "tel:+718-670-2468",
+          "inFooter": false
+        },
+        {
+          "text": "718-670-1920",
+          "href": "tel:+718-670-1920",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.nyp.org/search-results",
+          "fields": [
+            "input:text:search",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://www.nyp.org/locations/queens/services/pediatrics",
+          "fields": [
+            "input:email:Email",
+            "input:text:b_0073c237ebb676b907c772cee_492d0c3b63",
+            "input:text:botCheck",
+            "button:button:subscribe",
+            "input:checkbox:Form_Check"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 14,
+      "scrollHeight": 6309,
+      "jsonld": [
+        "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\",\"name\":\"Home\"}]},{\"@type\":\"ListItem\",\"position\":2,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\",\"name\":\"Locations\"}]},{\"@type\":\"ListItem\",\"position\":3,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\",\"name\":\"NewYork-Presbyterian in Queens\"}]},{\"@type\":\"ListItem\",\"position\":4,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\\/services\",\"name\":\"Services in Queens\"}]},{\"@type\":\"ListItem\",\"position\":5,\"item\":[{\"@id\":\"https:\\/\\/www.nyp.org\\/locations\\/queens\\/services\\/pediatrics\",\"name\":\"Pediatrics\"}]}]}",
+        "[\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"MedicalWebPage\",\n    \"url\": \"https://www.nyp.org/locations/queens/services/pediatrics\",\n    \"name\": \"Pediatric Care in Queens\",\n    \"about\": {\n      \"@type\": \"Service\",\n      \"name\": \"Pediatric Services\",\n      \"category\": [\n        {\n          \"@type\": \"MedicalSpecialty\",\n          \"name\": \"Pediatrics\"\n        }\n      ],\n      \"provider\": {\n        \"@type\": \"MedicalOrganization\",\n        \"name\": \"NewYork-Presbyterian Queens\",\n        \"url\": \"https://www.nyp.org/locations/queens\",\n        \"parentOrganization\": {\n          \"@type\": \"Organization\",\n          \"name\": \"NewYork-Presbyterian\",\n          \"url\": \"https://www.nyp.org/\"\n        }\n      }\n    }\n  },\n  {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 1,\n        \"name\": \"Home\",\n        \"item\": \"https://www.nyp.org\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 2,\n        \"name\": \"Locations\",\n        \"item\": \"https://www.nyp.org/locations\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 3,\n        \"name\": \"NewYork-Presbyterian in Queens\",\n        \"item\": \"https://www.nyp.org/locations/queens\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 4,\n        \"name\": \"Services in Queens\",\n        \"item\": \"https://www.nyp.org/locations/queens/services\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 5"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.coh-inline-element ssa-component coh-com",
+        "DIV.coh-container c-mobile-nav",
+        "NAV.coh-container ssa-component coh-componen",
+        "DIV.c-side-sheet-overlay",
+        "DIV.js-side-sheet-root-container",
+        "DIV.coh-container c-side-sheet c-side-sheet-",
+        "DIV.coh-container c-side-sheet__header u-d-f",
+        "DIV.coh-container c-side-sheet c-side-sheet-",
+        "DIV.coh-container c-side-sheet__header u-d-f",
+        "DIV.coh-container c-side-sheet c-side-sheet-"
+      ]
+    }
+  }
+}

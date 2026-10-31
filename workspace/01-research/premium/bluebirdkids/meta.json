@@ -1,0 +1,2129 @@
+{
+  "url": "https://www.bluebirdkids.com/",
+  "slug": "bluebirdkids",
+  "capturedAt": "2026-10-30T18:41:06.483Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15781,
+      "consoleErrors": [],
+      "title": "Trusted Pediatric Care in Florida | Bluebird Kids Health",
+      "h1": [
+        "Trusted Pediatric Care"
+      ],
+      "h2": [
+        "Most Insurances Accepted",
+        "Excellence in pediatrics",
+        "Meet Our Providers",
+        "Learn More About What We Do",
+        "Real Reviews from Real Parents",
+        "Come Visit Our Practices!",
+        "Ready to book a new patient appointment? It's as easy as scheduling online or calling us.",
+        "Healthcare for every age, stage and phase"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now.",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Bill Pay",
+          "href": "https://payment.patient.athenahealth.com/statement/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.bluebirdkids.com/florida/broward-county",
+          "inFooter": false
+        },
+        {
+          "text": "Tamarac",
+          "href": "https://www.bluebirdkids.com/location/tamarac",
+          "inFooter": false
+        },
+        {
+          "text": "Coconut Creek",
+          "href": "https://www.bluebirdkids.com/location/coconut-creek",
+          "inFooter": false
+        },
+        {
+          "text": "Hollywood",
+          "href": "https://www.bluebirdkids.com/location/hollywood",
+          "inFooter": false
+        },
+        {
+          "text": "Davie",
+          "href": "https://www.bluebirdkids.com/location/davie",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.bluebirdkids.com/florida/palm-beach-county",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton Beach",
+          "href": "https://www.bluebirdkids.com/location/boynton-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Loxahatchee Groves",
+          "href": "https://www.bluebirdkids.com/location/loxahatchee-groves",
+          "inFooter": false
+        },
+        {
+          "text": "West Palm Beach",
+          "href": "https://www.bluebirdkids.com/location/west-palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville",
+          "href": "https://www.bluebirdkids.com/florida/jacksonville",
+          "inFooter": false
+        },
+        {
+          "text": "Northside",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-brentwood",
+          "inFooter": false
+        },
+        {
+          "text": "Westside",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-westside",
+          "inFooter": false
+        },
+        {
+          "text": "Arlington",
+          "href": "https://www.bluebirdkids.com/location/arlington",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando",
+          "href": "https://www.bluebirdkids.com/florida/orlando",
+          "inFooter": false
+        },
+        {
+          "text": "Conway",
+          "href": "https://www.bluebirdkids.com/location/conway",
+          "inFooter": false
+        },
+        {
+          "text": "MetroWest",
+          "href": "https://www.bluebirdkids.com/location/metrowest",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.bluebirdkids.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Care",
+          "href": "https://www.bluebirdkids.com/newborn-care",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Well-checks",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "School Physicals",
+          "href": "https://www.bluebirdkids.com/school-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Sports Physicals",
+          "href": "https://www.bluebirdkids.com/camp-sports-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day Sick Care",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "See All Services",
+          "href": "https://www.bluebirdkids.com/services",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances",
+          "href": "https://www.bluebirdkids.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Registration",
+          "href": "https://www.bluebirdkids.com/newborn-care/pre-register",
+          "inFooter": false
+        },
+        {
+          "text": "Prenatal Meet & Greets",
+          "href": "https://www.bluebirdkids.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Moving From Out-of-State",
+          "href": "https://www.bluebirdkids.com/become-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "Switching Pediatricians",
+          "href": "https://www.bluebirdkids.com/become-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "When to Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": false
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": false
+        },
+        {
+          "text": "See Our Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://www.bluebirdkids.com/forms",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal Guide",
+          "href": "https://www.bluebirdkids.com/patient-portal-guide",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth",
+          "href": "https://www.bluebirdkids.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "When to Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": false
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "In the News",
+          "href": "https://www.bluebirdkids.com/in-the-news",
+          "inFooter": false
+        },
+        {
+          "text": "Policies",
+          "href": "https://www.bluebirdkids.com/policies",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "en",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "es",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "ht",
+          "href": "https://www.bluebirdkids.com/ht",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "en",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "es",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "ht",
+          "href": "https://www.bluebirdkids.com/ht",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://www.bluebirdkids.com/appointment-booking",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:(561)509-5009",
+          "inFooter": false
+        },
+        {
+          "text": "Most Insurances Accepted",
+          "href": "https://www.bluebirdkids.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 786-3048",
+          "href": "tel:(561)509-5009",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/teiarra-swilling-aprn-fnp-c",
+          "inFooter": false
+        },
+        {
+          "text": "Teiarra Swilling, APRN, FNP-C",
+          "href": "https://www.bluebirdkids.com/providers/teiarra-swilling-aprn-fnp-c",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/stacey-stout-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Stacey Stout, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/stacey-stout-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/shannon-fox-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Shannon Fox-Levine, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/shannon-fox-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/iridel-gonzalez-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Iridel Gonzalez, APRN",
+          "href": "https://www.bluebirdkids.com/providers/iridel-gonzalez-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/stephanie-mittauer-fnp-bc-pmhnp-bc",
+          "inFooter": false
+        },
+        {
+          "text": "Stephanie Mittauer, FNP-BC, PMHNP-BC",
+          "href": "https://www.bluebirdkids.com/providers/stephanie-mittauer-fnp-bc-pmhnp-bc",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/virginia-pitts-lilienthal-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Virginia Pitts-Lilienthal, MD",
+          "href": "https://www.bluebirdkids.com/providers/virginia-pitts-lilienthal-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/dionne-skervin-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Dionne Skervin, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/dionne-skervin-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/andrea-stark-aprn-pmhs",
+          "inFooter": false
+        },
+        {
+          "text": "Andrea Stark, APRN, PMHS",
+          "href": "https://www.bluebirdkids.com/providers/andrea-stark-aprn-pmhs",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/allison-kuipers-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Allison Kuipers, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/allison-kuipers-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/nicole-pearson-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Nicole Pearson, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/nicole-pearson-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/amanda-thomas-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Amanda Thomas, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/amanda-thomas-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/tory-twito-do-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Tory Twito, DO, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/tory-twito-do-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/michael-glazier-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Michael Glazier, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/michael-glazier-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/madison-szar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Madison Szar, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/madison-szar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/pamela-lindor-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Pamela Lindor, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/pamela-lindor-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/charmaine-chibar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Charmaine Chibar, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/charmaine-chibar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/laura-steelman-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Laura Steelman, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/laura-steelman-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/shani-a-jones-md-mph-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Shani A. Jones, MD, MPH, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/shani-a-jones-md-mph-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/barbara-christakis-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Barbara Christakis, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/barbara-christakis-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/pilar-delgado-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Pilar Delgado, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/pilar-delgado-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/brittany-miller-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Brittany Miller, APRN",
+          "href": "https://www.bluebirdkids.com/providers/brittany-miller-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/parissa-vizza-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Parissa Vizza, APRN",
+          "href": "https://www.bluebirdkids.com/providers/parissa-vizza-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Meet all providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "FEATURED IN",
+          "href": "https://www.bluebirdkids.com/in-the-news",
+          "inFooter": false
+        },
+        {
+          "text": "Book a Newborn Visit",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "Book Same-day Sick Visit",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "Book a Physical",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "Infant",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-0",
+          "inFooter": false
+        },
+        {
+          "text": "Toddler",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-1",
+          "inFooter": false
+        },
+        {
+          "text": "Elementary",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-2",
+          "inFooter": false
+        },
+        {
+          "text": "Teen",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-3",
+          "inFooter": false
+        },
+        {
+          "text": "Feeding and nutrition support",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "Sleep training guidance",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-sleep",
+          "inFooter": false
+        },
+        {
+          "text": "feeding",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "bathing",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-hygiene",
+          "inFooter": false
+        },
+        {
+          "text": "diapering",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-hygiene",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/newborn-care/development-milestones",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding support",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Annual physicals, including vision, hearing, and dental screenings",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Annual physicals, including vision, hearing and dental screenings",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sports physicals and annual well-visits, including vision and hearing",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/bluebirdkidshealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@bluebirdkidshealth",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/bluebird-kids",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/tamarac",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-brentwood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-westside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/boynton-beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/loxahatchee-groves",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/west-palm-beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/coconut-creek",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/hollywood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/arlington",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Tamarac",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Northside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Westside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Boynton+Beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Loxahatchee+Groves",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=West+Palm+Beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Coconut+Creek",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Hollywood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Arlington",
+          "inFooter": true
+        },
+        {
+          "text": "About Bluebird",
+          "href": "https://www.bluebirdkids.com/about-us",
+          "inFooter": true
+        },
+        {
+          "text": "Team",
+          "href": "https://www.bluebirdkids.com/team",
+          "inFooter": true
+        },
+        {
+          "text": "Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.bluebirdkids.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Policies",
+          "href": "https://www.bluebirdkids.com/policies",
+          "inFooter": true
+        },
+        {
+          "text": "Newborn Registration",
+          "href": "https://www.bluebirdkids.com/newborn-care/pre-register-florida",
+          "inFooter": true
+        },
+        {
+          "text": "Meet & Greets",
+          "href": "https://www.bluebirdkids.com/prenatal-visits",
+          "inFooter": true
+        },
+        {
+          "text": "Newborn Care",
+          "href": "https://www.bluebirdkids.com/newborn-care",
+          "inFooter": true
+        },
+        {
+          "text": "Well-visit Schedule",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Same-day Sick Visits",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": true
+        },
+        {
+          "text": "Physicals",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://www.bluebirdkids.com/forms",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Portal Guide",
+          "href": "https://www.bluebirdkids.com/patient-portal-guide",
+          "inFooter": true
+        },
+        {
+          "text": "Telehealth",
+          "href": "https://www.bluebirdkids.com/telehealth",
+          "inFooter": true
+        },
+        {
+          "text": "When To Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": true
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": true
+        },
+        {
+          "text": "(561) 984-9449",
+          "href": "tel:+5619849449",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of use",
+          "href": "https://www.bluebirdkids.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.bluebirdkids.com/privacy-policy",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Bluebird Kids Health provides exceptional care so that every child can thrive Se habla Español Locations Providers Company About Bluebird Team Providers Careers Locations FAQ Policies Services Newborn Registration Meet & Greets Newborn Care Well-visit Schedule Same-day Sick Visits Physicals Current Family Resources Patient Forms Patient Portal Guide Telehealth When To Call Us Community Resources © 2026 Bluebird Kids Health This website is for informational purposes and does not provide medical advice. Always consult with a licensed and qualified medical provider for medical advice, diagnosis, or treatment. This website is intended for use only by parents, legal guardians and other authorized adults only. Patients and prospective patients, regardless of age, should not use this website. Please call (561) 984-9449 for assistance. Terms of use Privacy Policy",
+      "telLinks": [
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:(561)509-5009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 786-3048",
+          "href": "tel:(561)509-5009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 509-5009",
+          "href": "tel:+15615095009",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 984-9449",
+          "href": "tel:+5619849449",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.bluebirdkids.com/search",
+          "fields": [
+            "input:search:query",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 22,
+      "images": 151,
+      "scrollHeight": 12489,
+      "jsonld": [
+        "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"@id\": \"https://www.bluebirdkids.com/#organization\",\n      \"name\": \"Bluebird Kids Health\",\n      \"alternateName\": \"Bluebird Kids\",\n      \"url\": \"https://www.bluebirdkids.com/\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://cdn.prod.website-files.com/664f268dc81227ff060da839/664f28550b2e9ce12cce6cec_Favicon.jpg\"\n      },\n      \"description\": \"Pediatric primary care for newborns to teens across Palm Beach, Broward, Duval and Orange counties in Florida. Same-day sick visits, newborn care, immunizations, school and sports physicals, and 24/7 on-call support.\",\n      \"medicalSpecialty\": \"Pediatric\",\n      \"telephone\": \"+1-561-509-5009\",\n      \"email\": \"info@bluebirdkids.com\",\n      \"knowsLanguage\": [\n        \"en\",\n        \"es\",\n        \"ht\"\n      ],\n      \"contactPoint\": {\n        \"@type\": \"ContactPoint\",\n        \"contactType\": \"customer service\",\n        \"telephone\": \"+1-561-509-5009\",\n        \"email\": \"info@bluebirdkids.com\",\n        \"areaServed\": \"US\",\n        \"availableLanguage\": [\n          \"English\",\n          \"Spanish\",\n          \"Haitian Creole\"\n        ]\n      },\n      \"areaServed\": [\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Palm Beach County, Florida\"\n        },\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Broward County, Florida\"\n        },\n        {\n          \"@type\": \"AdministrativeArea\","
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.global-styles w-embed",
+        "DIV.navigation w-nav",
+        "DIV.search-modal_component"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 15792,
+      "consoleErrors": [],
+      "title": "Trusted Pediatric Care in Florida | Bluebird Kids Health",
+      "h1": [
+        "Trusted Pediatric Care"
+      ],
+      "h2": [
+        "Most Insurances Accepted",
+        "Excellence in pediatrics",
+        "Meet Our Providers",
+        "Learn More About What We Do",
+        "Real Reviews from Real Parents",
+        "Come Visit Our Practices!",
+        "Ready to book a new patient appointment? It's as easy as scheduling online or calling us.",
+        "Healthcare for every age, stage and phase"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now.",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Bill Pay",
+          "href": "https://payment.patient.athenahealth.com/statement/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.bluebirdkids.com/florida/broward-county",
+          "inFooter": false
+        },
+        {
+          "text": "Tamarac",
+          "href": "https://www.bluebirdkids.com/location/tamarac",
+          "inFooter": false
+        },
+        {
+          "text": "Coconut Creek",
+          "href": "https://www.bluebirdkids.com/location/coconut-creek",
+          "inFooter": false
+        },
+        {
+          "text": "Hollywood",
+          "href": "https://www.bluebirdkids.com/location/hollywood",
+          "inFooter": false
+        },
+        {
+          "text": "Davie",
+          "href": "https://www.bluebirdkids.com/location/davie",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.bluebirdkids.com/florida/palm-beach-county",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton Beach",
+          "href": "https://www.bluebirdkids.com/location/boynton-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Loxahatchee Groves",
+          "href": "https://www.bluebirdkids.com/location/loxahatchee-groves",
+          "inFooter": false
+        },
+        {
+          "text": "West Palm Beach",
+          "href": "https://www.bluebirdkids.com/location/west-palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville",
+          "href": "https://www.bluebirdkids.com/florida/jacksonville",
+          "inFooter": false
+        },
+        {
+          "text": "Northside",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-brentwood",
+          "inFooter": false
+        },
+        {
+          "text": "Westside",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-westside",
+          "inFooter": false
+        },
+        {
+          "text": "Arlington",
+          "href": "https://www.bluebirdkids.com/location/arlington",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando",
+          "href": "https://www.bluebirdkids.com/florida/orlando",
+          "inFooter": false
+        },
+        {
+          "text": "Conway",
+          "href": "https://www.bluebirdkids.com/location/conway",
+          "inFooter": false
+        },
+        {
+          "text": "MetroWest",
+          "href": "https://www.bluebirdkids.com/location/metrowest",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.bluebirdkids.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Care",
+          "href": "https://www.bluebirdkids.com/newborn-care",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Well-checks",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "School Physicals",
+          "href": "https://www.bluebirdkids.com/school-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Sports Physicals",
+          "href": "https://www.bluebirdkids.com/camp-sports-physicals",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day Sick Care",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "See All Services",
+          "href": "https://www.bluebirdkids.com/services",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances",
+          "href": "https://www.bluebirdkids.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn Registration",
+          "href": "https://www.bluebirdkids.com/newborn-care/pre-register",
+          "inFooter": false
+        },
+        {
+          "text": "Prenatal Meet & Greets",
+          "href": "https://www.bluebirdkids.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Moving From Out-of-State",
+          "href": "https://www.bluebirdkids.com/become-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "Switching Pediatricians",
+          "href": "https://www.bluebirdkids.com/become-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "When to Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": false
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": false
+        },
+        {
+          "text": "See Our Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://www.bluebirdkids.com/forms",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal Guide",
+          "href": "https://www.bluebirdkids.com/patient-portal-guide",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth",
+          "href": "https://www.bluebirdkids.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "When to Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": false
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "In the News",
+          "href": "https://www.bluebirdkids.com/in-the-news",
+          "inFooter": false
+        },
+        {
+          "text": "Policies",
+          "href": "https://www.bluebirdkids.com/policies",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://17796-1.portal.athenahealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "en",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "es",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "ht",
+          "href": "https://www.bluebirdkids.com/ht",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "en",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": false
+        },
+        {
+          "text": "es",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": false
+        },
+        {
+          "text": "ht",
+          "href": "https://www.bluebirdkids.com/ht",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://www.bluebirdkids.com/appointment-booking",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:(561)960-3245",
+          "inFooter": false
+        },
+        {
+          "text": "Most Insurances Accepted",
+          "href": "https://www.bluebirdkids.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 786-3048",
+          "href": "tel:(561)960-3245",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/teiarra-swilling-aprn-fnp-c",
+          "inFooter": false
+        },
+        {
+          "text": "Teiarra Swilling, APRN, FNP-C",
+          "href": "https://www.bluebirdkids.com/providers/teiarra-swilling-aprn-fnp-c",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/stacey-stout-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Stacey Stout, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/stacey-stout-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/shannon-fox-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Shannon Fox-Levine, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/shannon-fox-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/iridel-gonzalez-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Iridel Gonzalez, APRN",
+          "href": "https://www.bluebirdkids.com/providers/iridel-gonzalez-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/stephanie-mittauer-fnp-bc-pmhnp-bc",
+          "inFooter": false
+        },
+        {
+          "text": "Stephanie Mittauer, FNP-BC, PMHNP-BC",
+          "href": "https://www.bluebirdkids.com/providers/stephanie-mittauer-fnp-bc-pmhnp-bc",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/virginia-pitts-lilienthal-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Virginia Pitts-Lilienthal, MD",
+          "href": "https://www.bluebirdkids.com/providers/virginia-pitts-lilienthal-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/dionne-skervin-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Dionne Skervin, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/dionne-skervin-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/andrea-stark-aprn-pmhs",
+          "inFooter": false
+        },
+        {
+          "text": "Andrea Stark, APRN, PMHS",
+          "href": "https://www.bluebirdkids.com/providers/andrea-stark-aprn-pmhs",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/allison-kuipers-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Allison Kuipers, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/allison-kuipers-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/nicole-pearson-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Nicole Pearson, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/nicole-pearson-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/amanda-thomas-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Amanda Thomas, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/amanda-thomas-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/tory-twito-do-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Tory Twito, DO, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/tory-twito-do-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/michael-glazier-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Michael Glazier, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/michael-glazier-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/madison-szar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Madison Szar, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/madison-szar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/pamela-lindor-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Pamela Lindor, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/pamela-lindor-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/charmaine-chibar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Charmaine Chibar, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/charmaine-chibar-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/laura-steelman-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Laura Steelman, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/laura-steelman-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/shani-a-jones-md-mph-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Shani A. Jones, MD, MPH, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/shani-a-jones-md-mph-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/barbara-christakis-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Barbara Christakis, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/barbara-christakis-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/pilar-delgado-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "Pilar Delgado, MD, FAAP",
+          "href": "https://www.bluebirdkids.com/providers/pilar-delgado-md-faap",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/brittany-miller-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Brittany Miller, APRN",
+          "href": "https://www.bluebirdkids.com/providers/brittany-miller-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers/parissa-vizza-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Parissa Vizza, APRN",
+          "href": "https://www.bluebirdkids.com/providers/parissa-vizza-aprn",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "Meet all providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": false
+        },
+        {
+          "text": "FEATURED IN",
+          "href": "https://www.bluebirdkids.com/in-the-news",
+          "inFooter": false
+        },
+        {
+          "text": "Book a Newborn Visit",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "Book Same-day Sick Visit",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "Book a Physical",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://app.bluebirdkids.com/onboarding/booking/welcome",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "Infant",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-0",
+          "inFooter": false
+        },
+        {
+          "text": "Toddler",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-1",
+          "inFooter": false
+        },
+        {
+          "text": "Elementary",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-2",
+          "inFooter": false
+        },
+        {
+          "text": "Teen",
+          "href": "https://www.bluebirdkids.com/#w-tabs-0-data-w-pane-3",
+          "inFooter": false
+        },
+        {
+          "text": "Feeding and nutrition support",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "Sleep training guidance",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-sleep",
+          "inFooter": false
+        },
+        {
+          "text": "feeding",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "bathing",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-hygiene",
+          "inFooter": false
+        },
+        {
+          "text": "diapering",
+          "href": "https://www.bluebirdkids.com/newborn-care/infant-hygiene",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/newborn-care/development-milestones",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding support",
+          "href": "https://www.bluebirdkids.com/newborn-care/fed-is-best",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Annual physicals, including vision, hearing, and dental screenings",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Developmental milestone tracking and discussions",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Annual physicals, including vision, hearing and dental screenings",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Immunizations and vaccines",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Sports physicals and annual well-visits, including vision and hearing",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": false
+        },
+        {
+          "text": "Sick visits for rashes, viruses, and other illnesses",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Se habla Español",
+          "href": "https://www.bluebirdkids.com/es",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/bluebirdkidshealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@bluebirdkidshealth",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/bluebird-kids",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/tamarac",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-brentwood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/jacksonville-westside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/boynton-beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/loxahatchee-groves",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/west-palm-beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/coconut-creek",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/hollywood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/location/arlington",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Tamarac",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Northside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Westside",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Boynton+Beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Loxahatchee+Groves",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=West+Palm+Beach",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Coconut+Creek",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Hollywood",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.bluebirdkids.com/providers?location=Arlington",
+          "inFooter": true
+        },
+        {
+          "text": "About Bluebird",
+          "href": "https://www.bluebirdkids.com/about-us",
+          "inFooter": true
+        },
+        {
+          "text": "Team",
+          "href": "https://www.bluebirdkids.com/team",
+          "inFooter": true
+        },
+        {
+          "text": "Providers",
+          "href": "https://www.bluebirdkids.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.bluebirdkids.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.bluebirdkids.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.bluebirdkids.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Policies",
+          "href": "https://www.bluebirdkids.com/policies",
+          "inFooter": true
+        },
+        {
+          "text": "Newborn Registration",
+          "href": "https://www.bluebirdkids.com/newborn-care/pre-register-florida",
+          "inFooter": true
+        },
+        {
+          "text": "Meet & Greets",
+          "href": "https://www.bluebirdkids.com/prenatal-visits",
+          "inFooter": true
+        },
+        {
+          "text": "Newborn Care",
+          "href": "https://www.bluebirdkids.com/newborn-care",
+          "inFooter": true
+        },
+        {
+          "text": "Well-visit Schedule",
+          "href": "https://www.bluebirdkids.com/well-visits-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Same-day Sick Visits",
+          "href": "https://www.bluebirdkids.com/same-day-sick-visits",
+          "inFooter": true
+        },
+        {
+          "text": "Physicals",
+          "href": "https://www.bluebirdkids.com/services/physicals-school-sports-camps",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://www.bluebirdkids.com/forms",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Portal Guide",
+          "href": "https://www.bluebirdkids.com/patient-portal-guide",
+          "inFooter": true
+        },
+        {
+          "text": "Telehealth",
+          "href": "https://www.bluebirdkids.com/telehealth",
+          "inFooter": true
+        },
+        {
+          "text": "When To Call Us",
+          "href": "https://www.bluebirdkids.com/when-to-call-us",
+          "inFooter": true
+        },
+        {
+          "text": "Community Resources",
+          "href": "https://www.bluebirdkids.com/community-assistance",
+          "inFooter": true
+        },
+        {
+          "text": "(561) 984-9449",
+          "href": "tel:+5619849449",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of use",
+          "href": "https://www.bluebirdkids.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.bluebirdkids.com/privacy-policy",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Bluebird Kids Health provides exceptional care so that every child can thrive Se habla Español Locations Providers Company About Bluebird Team Providers Careers Locations FAQ Policies Services Newborn Registration Meet & Greets Newborn Care Well-visit Schedule Same-day Sick Visits Physicals Current Family Resources Patient Forms Patient Portal Guide Telehealth When To Call Us Community Resources © 2026 Bluebird Kids Health This website is for informational purposes and does not provide medical advice. Always consult with a licensed and qualified medical provider for medical advice, diagnosis, or treatment. This website is intended for use only by parents, legal guardians and other authorized adults only. Patients and prospective patients, regardless of age, should not use this website. Please call (561) 984-9449 for assistance. Terms of use / Privacy Policy",
+      "telLinks": [
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:(561)960-3245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 786-3048",
+          "href": "tel:(561)960-3245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:(561)928-0661",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 928-0661",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 960-3245",
+          "href": "tel:+15619603245",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 984-9449",
+          "href": "tel:+5619849449",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.bluebirdkids.com/search",
+          "fields": [
+            "input:search:query",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 22,
+      "images": 151,
+      "scrollHeight": 9582,
+      "jsonld": [
+        "\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"@id\": \"https://www.bluebirdkids.com/#organization\",\n      \"name\": \"Bluebird Kids Health\",\n      \"alternateName\": \"Bluebird Kids\",\n      \"url\": \"https://www.bluebirdkids.com/\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://cdn.prod.website-files.com/664f268dc81227ff060da839/664f28550b2e9ce12cce6cec_Favicon.jpg\"\n      },\n      \"description\": \"Pediatric primary care for newborns to teens across Palm Beach, Broward, Duval and Orange counties in Florida. Same-day sick visits, newborn care, immunizations, school and sports physicals, and 24/7 on-call support.\",\n      \"medicalSpecialty\": \"Pediatric\",\n      \"telephone\": \"+1-561-509-5009\",\n      \"email\": \"info@bluebirdkids.com\",\n      \"knowsLanguage\": [\n        \"en\",\n        \"es\",\n        \"ht\"\n      ],\n      \"contactPoint\": {\n        \"@type\": \"ContactPoint\",\n        \"contactType\": \"customer service\",\n        \"telephone\": \"+1-561-509-5009\",\n        \"email\": \"info@bluebirdkids.com\",\n        \"areaServed\": \"US\",\n        \"availableLanguage\": [\n          \"English\",\n          \"Spanish\",\n          \"Haitian Creole\"\n        ]\n      },\n      \"areaServed\": [\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Palm Beach County, Florida\"\n        },\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Broward County, Florida\"\n        },\n        {\n          \"@type\": \"AdministrativeArea\","
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.global-styles w-embed",
+        "DIV.navigation w-nav",
+        "DIV.search-modal_component"
+      ]
+    }
+  }
+}

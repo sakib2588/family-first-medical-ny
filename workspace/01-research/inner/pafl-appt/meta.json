@@ -1,0 +1,305 @@
+{
+  "url": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+  "slug": "pafl-appt",
+  "capturedAt": "2026-10-30T18:36:30.821Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15905,
+      "consoleErrors": [],
+      "title": "healow - Appointment Search Results",
+      "h1": [
+        "",
+        "No Results at this time",
+        "Something went wrong.",
+        "Accepted Insurances"
+      ],
+      "h2": [
+        "Privacy Preference Center"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "View Your Health Record",
+          "href": "https://healow.com/apps/jsp/webview/signIn.jsp?encApu=o0Qq4yabxzd7wV9E",
+          "inFooter": false
+        },
+        {
+          "text": "Anterior",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "Siguiente",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "31",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://healow.com/apps/jsp/webview/policy.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "More information",
+          "href": "https://healow.com/apps/jsp/webview/policy.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/sendApptRequest.jsp?locale=en",
+          "fields": [
+            "input:hidden:oa_provider_npi",
+            "input:hidden:oa_provider_apuid",
+            "input:hidden:oa_fac_id",
+            "input:hidden:oa_pt_existing",
+            "input:hidden:oa_speciality_id",
+            "input:hidden:oa_visit_reason_id",
+            "input:hidden:oa_visit_reason",
+            "input:hidden:oa_source",
+            "input:hidden:oa_appt_source",
+            "input:hidden:widget_sub_type",
+            "input:hidden:early_pt_validation_source",
+            "input:hidden:rwg_token",
+            "input:hidden:questionnaire_guid",
+            "input:hidden:tracking_journey_id",
+            "input:hidden:_csrf"
+          ]
+        },
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/sendApptBooking.jsp?locale=en",
+          "fields": [
+            "input:hidden:oa_ba_npi",
+            "input:hidden:oa_ba_apuid",
+            "input:hidden:oa_ba_facid",
+            "input:hidden:oa_ba_date",
+            "input:hidden:oa_ba_time",
+            "input:hidden:oa_ba_ecw_provid",
+            "input:hidden:oa_ba_duration",
+            "input:hidden:oa_ba_speciality_id",
+            "input:hidden:oa_ba_pt_existing",
+            "input:hidden:oa_ba_visit_reason_id",
+            "input:hidden:oa_ba_visit_reason",
+            "input:hidden:oa_source",
+            "input:hidden:oa_appt_source",
+            "input:hidden:widget_sub_type",
+            "input:hidden:search_txn_id",
+            "input:hidden:slot_guid",
+            "input:hidden:package_guid",
+            "input:hidden:package_visit_type",
+            "input:hidden:questionnaire_guid",
+            "input:hidden:early_pt_validation_source",
+            "input:hidden:geoLocatorFlag",
+            "input:hidden:rwg_token",
+            "input:hidden:genie_transaction_id",
+            "input:hidden:tracking_journey_id",
+            "input:hidden:_csrf"
+          ]
+        },
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/widgets/questionnaire/oaPracticeQuestionnaireV2.jsp",
+          "fields": [
+            "input:hidden:apu_id",
+            "input:hidden:que_id",
+            "input:hidden:v",
+            "input:hidden:s",
+            "input:hidden:f",
+            "input:hidden:mf",
+            "input:hidden:vr",
+            "input:hidden:t",
+            "input:hidden:source",
+            "input:hidden:rwg_token",
+            "input:hidden:genie_transaction_id",
+            "input:hidden:oa_widget_source",
+            "input:hidden:back",
+            "input:hidden:practice_url",
+            "input:hidden:_csrf"
+          ]
+        }
+      ],
+      "imgNoAlt": 1,
+      "images": 9,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.popover-backdrop d-none",
+        "DIV.modal fade initial-search-gate-active in",
+        "DIV.landing-page-loader-container d-md-none ",
+        "DIV.modal fade facility-search-modal",
+        "DIV.change-location-popover d-none",
+        "DIV.modal-backdrop fade show",
+        "DIV.onetrust-pc-dark-filter ot-hide ot-fade-",
+        "DIV.otFlat bottom ot-wo-title vertical-align",
+        "DIV.otPcTab ot-hide ot-fade-in",
+        "DIV.ot-floating-button ot-hide"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 11970,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "title": "healow - Appointment Search Results",
+      "h1": [
+        "",
+        "No Results at this time",
+        "Something went wrong.",
+        "Accepted Insurances"
+      ],
+      "h2": [
+        "Privacy Preference Center"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "View Your Health Record",
+          "href": "https://healow.com/apps/jsp/webview/signIn.jsp?encApu=o0Qq4yabxzd7wV9E",
+          "inFooter": false
+        },
+        {
+          "text": "Anterior",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "Siguiente",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "31",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates#",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://healow.com/apps/jsp/webview/policy.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "More information",
+          "href": "https://healow.com/apps/jsp/webview/policy.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/sendApptRequest.jsp?locale=en",
+          "fields": [
+            "input:hidden:oa_provider_npi",
+            "input:hidden:oa_provider_apuid",
+            "input:hidden:oa_fac_id",
+            "input:hidden:oa_pt_existing",
+            "input:hidden:oa_speciality_id",
+            "input:hidden:oa_visit_reason_id",
+            "input:hidden:oa_visit_reason",
+            "input:hidden:oa_source",
+            "input:hidden:oa_appt_source",
+            "input:hidden:widget_sub_type",
+            "input:hidden:early_pt_validation_source",
+            "input:hidden:rwg_token",
+            "input:hidden:questionnaire_guid",
+            "input:hidden:tracking_journey_id",
+            "input:hidden:_csrf"
+          ]
+        },
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/sendApptBooking.jsp?locale=en",
+          "fields": [
+            "input:hidden:oa_ba_npi",
+            "input:hidden:oa_ba_apuid",
+            "input:hidden:oa_ba_facid",
+            "input:hidden:oa_ba_date",
+            "input:hidden:oa_ba_time",
+            "input:hidden:oa_ba_ecw_provid",
+            "input:hidden:oa_ba_duration",
+            "input:hidden:oa_ba_speciality_id",
+            "input:hidden:oa_ba_pt_existing",
+            "input:hidden:oa_ba_visit_reason_id",
+            "input:hidden:oa_ba_visit_reason",
+            "input:hidden:oa_source",
+            "input:hidden:oa_appt_source",
+            "input:hidden:widget_sub_type",
+            "input:hidden:search_txn_id",
+            "input:hidden:slot_guid",
+            "input:hidden:package_guid",
+            "input:hidden:package_visit_type",
+            "input:hidden:questionnaire_guid",
+            "input:hidden:early_pt_validation_source",
+            "input:hidden:geoLocatorFlag",
+            "input:hidden:rwg_token",
+            "input:hidden:genie_transaction_id",
+            "input:hidden:tracking_journey_id",
+            "input:hidden:_csrf"
+          ]
+        },
+        {
+          "action": "https://healow.com/apps/jsp/webview/openaccess/widgets/questionnaire/oaPracticeQuestionnaireV2.jsp",
+          "fields": [
+            "input:hidden:apu_id",
+            "input:hidden:que_id",
+            "input:hidden:v",
+            "input:hidden:s",
+            "input:hidden:f",
+            "input:hidden:mf",
+            "input:hidden:vr",
+            "input:hidden:t",
+            "input:hidden:source",
+            "input:hidden:rwg_token",
+            "input:hidden:genie_transaction_id",
+            "input:hidden:oa_widget_source",
+            "input:hidden:back",
+            "input:hidden:practice_url",
+            "input:hidden:_csrf"
+          ]
+        }
+      ],
+      "imgNoAlt": 1,
+      "images": 9,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.modal fade initial-search-gate-active sh",
+        "DIV.landing-page-loader-container d-md-none ",
+        "DIV.modal fade facility-search-modal",
+        "DIV.modal-backdrop fade show",
+        "DIV.onetrust-pc-dark-filter ot-hide ot-fade-",
+        "DIV.otFlat bottom ot-wo-title vertical-align",
+        "DIV.otPcTab ot-hide ot-fade-in",
+        "DIV.ot-floating-button ot-hide"
+      ]
+    }
+  }
+}

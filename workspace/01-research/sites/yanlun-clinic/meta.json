@@ -1,0 +1,169 @@
+{
+  "url": "https://www.yanlunclinic.com",
+  "slug": "yanlun-clinic",
+  "capturedAt": "2026-10-30T17:49:02.042Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 13232,
+      "consoleErrors": [],
+      "title": "Dr Yanlun Li Family Medicine",
+      "h1": [
+        "Better Days Lives Health",
+        "Family Medical Services",
+        "Our Mission",
+        "Patients Are Our Priority"
+      ],
+      "h2": [
+        "Contact Clinic"
+      ],
+      "links": [
+        {
+          "text": "中文版",
+          "href": "https://www.yanlunclinic.com/index.cn.html",
+          "inFooter": false
+        },
+        {
+          "text": "Yanlun Li Medical Practice P.C.",
+          "href": "https://www.yanlunclinic.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Yanlun Li Medical Practice P.C.",
+          "href": "https://www.yanlunclinic.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.yanlunclinic.com/#hero",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.yanlunclinic.com/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.yanlunclinic.com/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://www.yanlunclinic.com/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://goo.gl/maps/rjYjt9oPEBq9v1Yb7",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.yanlunclinic.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "yanlunmed@gmail.com",
+          "href": "mailto:yanlunmed@gmail.com",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Contact Clinic Email: yanlunmed@gmail.com Address: 136-30 Maple Ave, Ste 2H, Flushing, NY 11355 Phone: (718)701-0589 Text: (718)701-0589 Fax: (718)701-0877 Yanlun Li Medical Practice PC since 2021",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 3,
+      "images": 11,
+      "scrollHeight": 4753,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.navbar navbar-expand-lg bg-light fixed-t",
+        "DIV.helper-icon",
+        "DIV.modal fade"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12378,
+      "consoleErrors": [],
+      "title": "Dr Yanlun Li Family Medicine",
+      "h1": [
+        "Better Days Lives Health",
+        "Family Medical Services",
+        "Our Mission",
+        "Patients Are Our Priority"
+      ],
+      "h2": [
+        "Contact Clinic"
+      ],
+      "links": [
+        {
+          "text": "中文版",
+          "href": "https://www.yanlunclinic.com/index.cn.html",
+          "inFooter": false
+        },
+        {
+          "text": "Yanlun Li Medical Practice P.C.",
+          "href": "https://www.yanlunclinic.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Yanlun Li Medical Practice P.C.",
+          "href": "https://www.yanlunclinic.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.yanlunclinic.com/#hero",
+          "inFooter": false
+        },
+        {
+          "text": "About",
+          "href": "https://www.yanlunclinic.com/#about",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://www.yanlunclinic.com/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://www.yanlunclinic.com/#contact",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://goo.gl/maps/rjYjt9oPEBq9v1Yb7",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.yanlunclinic.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "yanlunmed@gmail.com",
+          "href": "mailto:yanlunmed@gmail.com",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Contact Clinic Email: yanlunmed@gmail.com Address: 136-30 Maple Ave, Ste 2H, Flushing, NY 11355 Phone: (718)701-0589 Text: (718)701-0589 Fax: (718)701-0877 Yanlun Li Medical Practice PC since 2021",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 3,
+      "images": 11,
+      "scrollHeight": 3496,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.navbar navbar-expand-lg bg-light fixed-t",
+        "DIV.helper-icon",
+        "DIV.modal fade"
+      ]
+    }
+  }
+}

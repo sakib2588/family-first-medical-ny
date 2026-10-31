@@ -1,0 +1,147 @@
+
+    Privacy Policy – Nao Medical
+Privacy Policy
+Effective Date: January 2026
+You are accessing a digital platform, including a website, mobile application, or other online interface (each a "Digital Platform"), that is owned, operated, or controlled by Nao Medical (referred to in this Privacy Policy as "Nao Medical," "we," "us," or "our").
+This Privacy Policy applies to all Digital Platforms that display or reference this Privacy Policy. It also applies to all related online services, tools, and features that we provide or make available through those Digital Platforms, including but not limited to interactive tools, widgets, plug-ins, downloadable materials, applications, content, and other online functionality (collectively, the "Services").
+This Privacy Policy governs how we collect, use, maintain, disclose, and otherwise process information obtained through the Services when such information is not considered Protected Health Information ("PHI") under applicable healthcare privacy laws. The policy applies regardless of the method used to access the Services, including through desktop computers, mobile devices, tablets, or other electronic means.
+If you submit information through the Services for the purpose of receiving healthcare services from Nao Medical, certain information you provide may qualify as Protected Health Information ("PHI") under the Health Insurance Portability and Accountability Act of 1996 ("HIPAA") and its implementing regulations.
+Our collection, use, and disclosure of PHI are governed by our Notice of Privacy Practices (the "HIPAA Notice"). The HIPAA Notice explains how PHI may be used or disclosed by Nao Medical and outlines your legal rights regarding your PHI under applicable federal and state law. This Privacy Policy applies only to information that is not PHI. In the event of any inconsistency or conflict between this Privacy Policy and the HIPAA Notice with respect to PHI, the HIPAA Notice will control and govern.
+Website tracking update
+Updated October 28, 2026. Nonessential advertising pixels, third-party analytics and session replay are disabled on naomedical.com and its Nao appointment entry pages. You do not need to accept marketing tracking to browse this website or request an appointment.
+Necessary hosting, security, maps and appointment services may process network and device information to provide the feature you use. Visiting this website does not provide authorization to disclose protected health information for marketing.
+How We Collect Personal Information
+Nao Medical may collect personal information through several different channels in connection with the operation of our Services.
+Information Provided Directly by You
+We may collect personal information that you voluntarily provide when interacting with our Services. This may occur when you complete forms, create an account, communicate with our staff, request healthcare services, submit job applications, provide feedback, or otherwise communicate with us.
+Information Collected Automatically Through Devices
+When you access or interact with our Services, certain information may be collected automatically through the devices you use. This may include technical information about your device, network connection, browser activity, and usage patterns. Such data may be collected through cookies and other tracking technologies described in the "Cookies and Similar Technologies" section of this Policy.
+Information Obtained from Third Parties
+We may also obtain personal information from third-party sources, including:
+Social media platforms or social sharing services
+Vendors, contractors, and service providers
+Affiliated healthcare entities
+Business partners and marketing providers
+Background check providers (in connection with employment or professional services)
+Categories of Personal Information We May Collect
+Depending on your interaction with Nao Medical and the Services you use, we may collect various categories of personal information, including but not limited to the following.
+Contact Information
+Information that allows us to identify or communicate with you, including:
+Full name
+Mailing address
+Email address
+Telephone number
+Other similar identifiers
+Health-Related Information
+In connection with certain digital tools, patient portals, or remote monitoring services, you may provide health-related data. This may include information you self-report or data transmitted from remote patient monitoring devices connected to the Services, including but not limited to blood pressure, respiratory rate, height and weight, and other health metrics. Where such information qualifies as Protected Health Information (PHI) under HIPAA, its collection, use, and disclosure are governed by Nao Medical's Notice of Privacy Practices.
+Demographic and Biographical Information
+Date of birth
+Age
+Gender
+Photographs or profile images
+Account Information
+Login credentials such as username and password
+Profile information
+Communications, feedback, or reviews submitted through the Services
+Device and Activity Information
+When you access the Services, we may automatically collect certain technical and usage information including:
+Device type and model
+Operating system
+Browser type
+IP address
+Browsing and search history within the Services
+Location data derived from your IP address
+Interaction with pages and features within the Services
+Inferences and Analytics Data
+We may generate insights or analytics based on the personal information collected in order to understand user preferences, improve Services, or tailor content.
+Additional Information You Provide
+This may include communications with Nao Medical staff, job application information, and any other content voluntarily submitted through the Services.
+Sensitive Personal Information
+In certain limited circumstances, we may collect sensitive personal information, including:
+Government-issued identification numbers
+Driver's license information
+Biometric identifiers where required for authentication
+Precise geolocation information where you grant permission (for example, to locate nearby clinics)
+Such information is processed only where necessary and permitted by law.
+Professional and Employment Information
+For individuals applying for employment or professional collaboration, we may collect:
+Job title and role
+Employer information
+Professional affiliations
+Employment history
+Background check information where permitted by law
+How Nao Medical Uses Personal Information
+Nao Medical may use personal information for various legitimate business and operational purposes consistent with applicable law, including the following:
+Providing the healthcare services or digital services you request
+Responding to inquiries and communicating with you regarding Services
+Sending administrative communications such as appointment notifications, service updates, and security alerts
+Providing marketing communications where permitted by law and consistent with your communication preferences
+Improving the performance, functionality, and user experience of our Services
+Conducting analytics, testing, research, and quality assurance activities
+Protecting the security and integrity of our digital platforms and networks
+Detecting, investigating, and preventing fraud or unauthorized activity
+Complying with applicable legal and regulatory obligations
+Responding to legal claims, disputes, subpoenas, or governmental inquiries
+Conducting internal administrative activities such as audits, compliance reviews, and data analysis
+We may also aggregate or de-identify personal information so that it no longer identifies an individual. Such information may be used for research, analytics, or service development purposes.
+Disclosure of Personal Information
+Nao Medical may disclose personal information to third parties under certain circumstances consistent with this Policy and applicable law.
+Service Providers and Vendors
+We may disclose information to vendors, contractors, and service providers who assist in operating our business, including technology providers, analytics companies, marketing partners, and payment processors.
+Advertising and Marketing Partners
+Certain information may be shared with advertising partners for the purpose of delivering relevant advertisements or measuring marketing effectiveness.
+Government Authorities and Legal Compliance
+Nao Medical may disclose personal information when required to comply with applicable laws, regulations, court orders, subpoenas, or lawful requests from governmental authorities. We may also disclose information where necessary to:
+Protect the rights, safety, or property of Nao Medical or others
+Investigate fraud or illegal activity
+Enforce contractual agreements or policies
+Corporate Transactions
+In the event of a merger, acquisition, reorganization, bankruptcy, or sale of assets, personal information may be transferred as part of that transaction.
+Affiliates and Related Entities
+Information may be shared with affiliated entities for operational, administrative, or service delivery purposes.
+With Your Consent
+We may disclose personal information where you provide explicit consent or direction.
+Aggregated or De-Identified Data
+Nao Medical may share information that has been aggregated or de-identified in a manner that does not reasonably identify an individual.
+Promotions, Contests, and Sweepstakes
+From time to time, Nao Medical may offer promotional programs such as contests, sweepstakes, or special promotions. Participation may require registration and submission of personal information.
+Participation in such promotions is governed by the official rules associated with the promotion. These rules may allow the promotion sponsor to use your name, likeness, or other information for marketing or promotional purposes as permitted by law.
+Data Retention
+Nao Medical retains personal information only for as long as reasonably necessary to fulfill the purposes described in this Policy, unless a longer retention period is required or permitted by law.
+In the case of patient information, retention may also be required under federal and New York healthcare record retention laws.
+Third-party tracking
+We have disabled Google Analytics, Microsoft Clarity, Microsoft Advertising UET, Meta Pixel and TikTok Pixel on this website and its Nao appointment entry pages. These controls apply before you enter or submit a form. Necessary clinical, security and operational records remain subject to applicable privacy requirements.
+Necessary browser storage
+Necessary features may use cookies or browser storage for security, appointment state or preferences. Nonessential advertising and replay technologies are disabled. Your browser may let you clear or restrict storage; doing so may affect appointment or security features.
+Browser privacy signals
+Nonessential tracking is disabled for visitors whether or not their browser sends a privacy signal. You may contact us using the details below to ask about your privacy rights.
+Privacy Rights for Residents of Certain U.S. States
+Residents of certain states, including Connecticut, New Jersey, Oregon, and other jurisdictions with similar privacy laws, may have certain rights regarding personal information, including:
+The right to access personal information we maintain about you
+The right to request correction of inaccurate information
+The right to request deletion of certain personal information
+The right to opt out of targeted advertising
+To exercise these rights, you may contact Nao Medical using the contact information provided below.
+Nao Medical will not discriminate against individuals who exercise their privacy rights under applicable law.
+Authorized Agents
+Where permitted by law, you may designate an authorized agent to submit privacy rights requests on your behalf. The authorized agent must provide appropriate documentation verifying their authority to act on your behalf.
+Information Security
+Nao Medical maintains administrative, technical, and physical safeguards designed to protect personal information against unauthorized access, disclosure, alteration, or destruction.
+Despite these efforts, no system can guarantee absolute security. Transmission of information over the internet occurs at your own risk.
+Links to Third-Party Websites
+Our Services may contain links to external websites or services that are not operated or controlled by Nao Medical. We are not responsible for the privacy practices or content of those third-party sites.
+Users are encouraged to review the privacy policies of any external websites they visit.
+Children's Privacy
+Nao Medical does not knowingly collect personal information from individuals under the age of eighteen (18) without appropriate parental consent.
+If we become aware that personal information has been collected from a minor without proper authorization, we will take reasonable steps to delete such information in accordance with applicable law.
+Parents or guardians who believe their child has provided personal information should contact us using the information below.
+Changes to This Privacy Policy
+Nao Medical reserves the right to update or modify this Privacy Policy at any time. Updates will be posted on this page with a revised effective date.
+Your continued use of the Services following the posting of changes constitutes acceptance of the updated Policy.
+Contact Information
+If you have questions regarding this Privacy Policy or Nao Medical's privacy practices, you may contact us at:
+Email: service@naomedical.com
+Disclaimer
+Pursuant to the Electronic Communications Privacy Act (18 U.S.C. §§ 2701-2711), communications transmitted through online systems may not be completely secure.
+Nao Medical does not guarantee the confidentiality of any communications or information transmitted through the Services or through linked networks. By using the Services, you acknowledge and accept the inherent risks associated with internet communications.
+Nao Medical shall not be responsible for unauthorized access to information transmitted through networks beyond its control.

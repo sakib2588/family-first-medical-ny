@@ -1,0 +1,1616 @@
+{
+  "url": "https://naomedical.com/urgent-care/locations/astoria.html",
+  "slug": "nao-location",
+  "capturedAt": "2026-10-30T18:34:24.019Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 16661,
+      "consoleErrors": [],
+      "title": "Astoria Urgent Care & Walk-In Clinic | Nao Medical",
+      "h1": [
+        "Astoria Urgent Care & Walk-In Clinic"
+      ],
+      "h2": [
+        "37-15 23rd Ave, Astoria, NY 11105",
+        "Coverage depends on your exact plan, clinician, location and service. Check participation and expected charges with the clinic and your insurer before booking.",
+        "Insurance & Transparent Pricing",
+        "Patient reviews",
+        "Services available at this clinic",
+        "Questions about your care",
+        "Medical sources",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Urgent care information by location"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://naomedical.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD Testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication-assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights, Brooklyn",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg, Brooklyn",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "174th Street, Bronx",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall, Bronx",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown, East 15th Street",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola, NY",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville, NY",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Sexual Health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Heart Health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Preventive Care & Screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Mental Health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Sexual Health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Heart Health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Preventive Care & Screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Mental Health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate Health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Priti Jain",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Sandeep Jain",
+          "href": "https://naomedical.com/primary-care/provider/sandeep-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:9173103371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Exams",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Other Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://secure7.saashr.com/ta/6214087.careers?CareersSearch",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://www.google.com/maps/dir/?api=1&destination=37-15+23rd+Ave%2C+Astoria%2C+NY+11105",
+          "inFooter": false
+        },
+        {
+          "text": "917-310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Call",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "Reserve Your Spot →",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions →",
+          "href": "https://maps.google.com/maps/dir//37-15+23rd+Ave+Astoria,+NY+11105/@40.7719013,-73.9089274,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c25f68fce21f6b:0x5627a988f26c44ff",
+          "inFooter": false
+        },
+        {
+          "text": "Read reviews for this clinic on Google",
+          "href": "https://www.google.com/maps/place/Nao+Medical+-+Astoria+Urgent+Care/data=!4m7!3m6!1s0x89c25f68fd75a897:0xfcbcef722ee8f4e!8m2!3d40.7718767!4d-73.908936!16s%2Fg%2F1wfcq1kk!19sChIJl6h1_WhfwokRTo_uIvfOyw8",
+          "inFooter": false
+        },
+        {
+          "text": "PPD & TB Testing Review skin-test placement, return-reading timing, and TB blood",
+          "href": "https://naomedical.com/ppd-tb-testing/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Vitamin B12 Injections Review the $40 total B12 injection visit, who may be eval",
+          "href": "https://naomedical.com/services/b12-injections.html",
+          "inFooter": false
+        },
+        {
+          "text": "Walk-In GYN & Women's Health Find care for Pap smears, pelvic exams, birth contr",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Ear Wax Removal Learn when an ear exam and in-office earwax removal may help wit",
+          "href": "https://naomedical.com/ear-wax/",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccines & Immunizations Plan routine, school, work, travel, and seasonal vaccin",
+          "href": "https://naomedical.com/vaccine",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Physicals & Primary Care Book annual physicals, preventive visits, same-d",
+          "href": "https://naomedical.com/services/primary-care/primary-care-near-me-trusted-clinics-across-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Pre-Op Medical Clearance Bring the surgeon's orders and procedure date, then con",
+          "href": "https://naomedical.com/services/pre-op-clearance-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Lab Tests & Blood Work Review blood work, screening, and lab-test options. Bring",
+          "href": "https://naomedical.com/lab-tests/",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physicals & CDL Medical Cards Prepare for a certified DOT physical, CDL medi",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Medical Exams Review the self-pay I-693 medical exam process, the $3",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "FMCSA: DOT medical exam and certification",
+          "href": "https://www.fmcsa.dot.gov/medical/driver-medical-requirements/dot-medical-exam-and-commercial-motor-vehicle-certification?printer=true",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Recognizing medical emergencies",
+          "href": "https://medlineplus.gov/ency/article/001927.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fasting for a blood test",
+          "href": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Cuts and puncture wounds",
+          "href": "https://www.medlineplus.gov/ency/article/000043.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fever in babies and children",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000319.htm",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF A and B recommendations",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+          "inFooter": false
+        },
+        {
+          "text": "CDC: Testing for respiratory viruses",
+          "href": "https://www.cdc.gov/respiratory-viruses/prevention/testing.html",
+          "inFooter": false
+        },
+        {
+          "text": "NYSED current health examination guidance and memos",
+          "href": "https://www.nysed.gov/student-support-services/guidelines-and-related-memos",
+          "inFooter": false
+        },
+        {
+          "text": "HHS: Before a telehealth visit",
+          "href": "https://telehealth.hhs.gov/patients/what-should-i-know-before-my-telehealth-visit",
+          "inFooter": false
+        },
+        {
+          "text": "NIDDK: Bladder infection in adults",
+          "href": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Urinalysis",
+          "href": "https://medlineplus.gov/urinalysis.html",
+          "inFooter": false
+        },
+        {
+          "text": "NYSED counsel: Athletics health examinations rule",
+          "href": "https://www.counsel.nysed.gov/rules/indices-fulltext/2024/05",
+          "inFooter": false
+        },
+        {
+          "text": "When to use the emergency room - adult: MedlinePlus Medical Encyclopedia",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000593.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Understanding lab results",
+          "href": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-917-310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.google.com/maps/search/?api=1&query=37-15%2023rd%20Ave%2C%20Astoria%2C%20NY%2011105",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/services/women-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/primary-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/televisit?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/get-care/after-hours-urgent-care-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/care-directory/clinic-information.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": false
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical",
+          "inFooter": false
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": false
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://naomedical.com/privacy-policy.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "service@naomedical.com",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 633-1548",
+          "href": "tel:(917) 633-1548",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:9173103371",
+          "inFooter": false
+        },
+        {
+          "text": "917-310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Call",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-917-310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 633-1548",
+          "href": "tel:(917) 633-1548",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 33,
+      "images": 47,
+      "scrollHeight": 8971,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalClinic\",\n      \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#medicalclinic\",\n      \"name\": \"Nao Medical Astoria Urgent Care\",\n      \"url\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"mainEntityOfPage\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"description\": \"Walk in or book urgent care at 37-15 23rd Ave in Astoria, Queens. View today's hours, directions, insurance information, and available services.\",\n      \"image\": \"https://naomedical.com/urgent-care/images/Astoria-3.webp\",\n      \"telephone\": \"+1-917-310-3371\",\n      \"medicalSpecialty\": \"UrgentCare\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"37-15 23rd Ave\",\n        \"addressLocality\": \"Astoria\",\n        \"addressRegion\": \"NY\",\n        \"postalCode\": \"11105\",\n        \"addressCountry\": \"US\"\n      },\n      \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": \"40.7718767\",\n        \"longitude\": \"-73.908936\"\n      },\n      \"hasMap\": \"https://www.google.com/maps/dir/?api=1&destination=37-15+23rd+Ave%2C+Astoria%2C+NY+11105\",\n      \"openingHoursSpecification\": [\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": \"https://schema.org/Monday\",\n          \"opens\": \"08:00\",\n          \"closes\": \"19:00\"\n        },\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": \"https://schema.org/Tues",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalWebPage\",\n      \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#webpage\",\n      \"url\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"name\": \"Astoria Urgent Care & Walk-In Clinic\",\n      \"isPartOf\": {\n        \"@id\": \"https://naomedical.com/#website\"\n      },\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#breadcrumbs\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#medicalclinic\"\n      },\n      \"description\": \"Urgent care evaluates a new illness or minor injury that needs attention before a routine appointment. A persistent sore throat, painful urination, a small cut or a painful sprain may fit this setting.\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"@id\": \"https://naomedical.com/#organization\",\n      \"name\": \"Nao Medical\",\n      \"url\": \"https://naomedical.com/\"\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://naomedical.com/#website\",\n      \"url\": \"https://naomedical.com/\",\n      \"name\": \"Nao Medical\",\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      }\n    }\n  ]\n}",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#nao-completion-faq\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is this a walk-in clinic in Astoria or do I need an appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Confirm today's appointment or walk-in availability with the selected clinic before traveling. Name the exact service, patient age and any form deadline so the team can check whether that visit can meet the need. An open clinic does not guarantee the required test, procedure or a same-day completed form. Ask Astoria about the required service before arrival.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are your wait times today in Astoria?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ask Astoria for the current queue and booking guidance. Waits change with demand and clinical urgency; a fixed number or immediate rooming cannot be promised. Tests and procedures can take additional time after assessment. Severe symptoms need emergency assessment rather than waiting in a routine queue.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What conditions do you treat at your Astoria urgent care?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Urgent care assesses stable illnesses and minor injuries that need prompt attention, such as a sore throat, u"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.menu-dropdown",
+        "A.book-appointment-menu-btn nao-action-but"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 15433,
+      "consoleErrors": [],
+      "title": "Astoria Urgent Care & Walk-In Clinic | Nao Medical",
+      "h1": [
+        "Astoria Urgent Care & Walk-In Clinic"
+      ],
+      "h2": [
+        "37-15 23rd Ave, Astoria, NY 11105",
+        "Coverage depends on your exact plan, clinician, location and service. Check participation and expected charges with the clinic and your insurer before booking.",
+        "Insurance & Transparent Pricing",
+        "Patient reviews",
+        "Services available at this clinic",
+        "Questions about your care",
+        "Medical sources",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Urgent care information by location"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://naomedical.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD Testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication-assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica, Queens",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights, Brooklyn",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg, Brooklyn",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "174th Street, Bronx",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall, Bronx",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown, East 15th Street",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola, NY",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville, NY",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & Wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Sexual Health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Heart Health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Preventive Care & Screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's Mental Health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Sexual Health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Heart Health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Preventive Care & Screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's Mental Health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate Health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Priti Jain",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Sandeep Jain",
+          "href": "https://naomedical.com/primary-care/provider/sandeep-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:9173103371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/index.html",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Exams",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Other Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://secure7.saashr.com/ta/6214087.careers?CareersSearch",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://www.google.com/maps/dir/?api=1&destination=37-15+23rd+Ave%2C+Astoria%2C+NY+11105",
+          "inFooter": false
+        },
+        {
+          "text": "917-310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Call",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/about-us.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "Reserve Your Spot →",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions →",
+          "href": "https://maps.google.com/maps/dir//37-15+23rd+Ave+Astoria,+NY+11105/@40.7719013,-73.9089274,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c25f68fce21f6b:0x5627a988f26c44ff",
+          "inFooter": false
+        },
+        {
+          "text": "Read reviews for this clinic on Google",
+          "href": "https://www.google.com/maps/place/Nao+Medical+-+Astoria+Urgent+Care/data=!4m7!3m6!1s0x89c25f68fd75a897:0xfcbcef722ee8f4e!8m2!3d40.7718767!4d-73.908936!16s%2Fg%2F1wfcq1kk!19sChIJl6h1_WhfwokRTo_uIvfOyw8",
+          "inFooter": false
+        },
+        {
+          "text": "PPD & TB Testing Review skin-test placement, return-reading timing, and TB blood",
+          "href": "https://naomedical.com/ppd-tb-testing/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Vitamin B12 Injections Review the $40 total B12 injection visit, who may be eval",
+          "href": "https://naomedical.com/services/b12-injections.html",
+          "inFooter": false
+        },
+        {
+          "text": "Walk-In GYN & Women's Health Find care for Pap smears, pelvic exams, birth contr",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Ear Wax Removal Learn when an ear exam and in-office earwax removal may help wit",
+          "href": "https://naomedical.com/ear-wax/",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccines & Immunizations Plan routine, school, work, travel, and seasonal vaccin",
+          "href": "https://naomedical.com/vaccine",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Physicals & Primary Care Book annual physicals, preventive visits, same-d",
+          "href": "https://naomedical.com/services/primary-care/primary-care-near-me-trusted-clinics-across-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Pre-Op Medical Clearance Bring the surgeon's orders and procedure date, then con",
+          "href": "https://naomedical.com/services/pre-op-clearance-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Lab Tests & Blood Work Review blood work, screening, and lab-test options. Bring",
+          "href": "https://naomedical.com/lab-tests/",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physicals & CDL Medical Cards Prepare for a certified DOT physical, CDL medi",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Medical Exams Review the self-pay I-693 medical exam process, the $3",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "FMCSA: DOT medical exam and certification",
+          "href": "https://www.fmcsa.dot.gov/medical/driver-medical-requirements/dot-medical-exam-and-commercial-motor-vehicle-certification?printer=true",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Recognizing medical emergencies",
+          "href": "https://medlineplus.gov/ency/article/001927.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fasting for a blood test",
+          "href": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Cuts and puncture wounds",
+          "href": "https://www.medlineplus.gov/ency/article/000043.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fever in babies and children",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000319.htm",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF A and B recommendations",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+          "inFooter": false
+        },
+        {
+          "text": "CDC: Testing for respiratory viruses",
+          "href": "https://www.cdc.gov/respiratory-viruses/prevention/testing.html",
+          "inFooter": false
+        },
+        {
+          "text": "NYSED current health examination guidance and memos",
+          "href": "https://www.nysed.gov/student-support-services/guidelines-and-related-memos",
+          "inFooter": false
+        },
+        {
+          "text": "HHS: Before a telehealth visit",
+          "href": "https://telehealth.hhs.gov/patients/what-should-i-know-before-my-telehealth-visit",
+          "inFooter": false
+        },
+        {
+          "text": "NIDDK: Bladder infection in adults",
+          "href": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Urinalysis",
+          "href": "https://medlineplus.gov/urinalysis.html",
+          "inFooter": false
+        },
+        {
+          "text": "NYSED counsel: Athletics health examinations rule",
+          "href": "https://www.counsel.nysed.gov/rules/indices-fulltext/2024/05",
+          "inFooter": false
+        },
+        {
+          "text": "When to use the emergency room - adult: MedlinePlus Medical Encyclopedia",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000593.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Understanding lab results",
+          "href": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-917-310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.google.com/maps/search/?api=1&query=37-15%2023rd%20Ave%2C%20Astoria%2C%20NY%2011105",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/services/women-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/primary-care?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://book.naomedical.com/appointment/televisit?facility=Astoria&source=marketing-page",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/get-care/after-hours-urgent-care-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/care-directory/clinic-information.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": false
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical",
+          "inFooter": false
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": false
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://naomedical.com/privacy-policy.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "service@naomedical.com",
+          "href": "mailto:service@naomedical.com",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 633-1548",
+          "href": "tel:(917) 633-1548",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:9173103371",
+          "inFooter": false
+        },
+        {
+          "text": "917-310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Call",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:+1-917-310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 633-1548",
+          "href": "tel:(917) 633-1548",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 33,
+      "images": 47,
+      "scrollHeight": 6000,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalClinic\",\n      \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#medicalclinic\",\n      \"name\": \"Nao Medical Astoria Urgent Care\",\n      \"url\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"mainEntityOfPage\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"description\": \"Walk in or book urgent care at 37-15 23rd Ave in Astoria, Queens. View today's hours, directions, insurance information, and available services.\",\n      \"image\": \"https://naomedical.com/urgent-care/images/Astoria-3.webp\",\n      \"telephone\": \"+1-917-310-3371\",\n      \"medicalSpecialty\": \"UrgentCare\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"37-15 23rd Ave\",\n        \"addressLocality\": \"Astoria\",\n        \"addressRegion\": \"NY\",\n        \"postalCode\": \"11105\",\n        \"addressCountry\": \"US\"\n      },\n      \"geo\": {\n        \"@type\": \"GeoCoordinates\",\n        \"latitude\": \"40.7718767\",\n        \"longitude\": \"-73.908936\"\n      },\n      \"hasMap\": \"https://www.google.com/maps/dir/?api=1&destination=37-15+23rd+Ave%2C+Astoria%2C+NY+11105\",\n      \"openingHoursSpecification\": [\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": \"https://schema.org/Monday\",\n          \"opens\": \"08:00\",\n          \"closes\": \"19:00\"\n        },\n        {\n          \"@type\": \"OpeningHoursSpecification\",\n          \"dayOfWeek\": \"https://schema.org/Tues",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalWebPage\",\n      \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#webpage\",\n      \"url\": \"https://naomedical.com/urgent-care/locations/astoria.html\",\n      \"name\": \"Astoria Urgent Care & Walk-In Clinic\",\n      \"isPartOf\": {\n        \"@id\": \"https://naomedical.com/#website\"\n      },\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#breadcrumbs\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#medicalclinic\"\n      },\n      \"description\": \"Urgent care evaluates a new illness or minor injury that needs attention before a routine appointment. A persistent sore throat, painful urination, a small cut or a painful sprain may fit this setting.\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"@id\": \"https://naomedical.com/#organization\",\n      \"name\": \"Nao Medical\",\n      \"url\": \"https://naomedical.com/\"\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://naomedical.com/#website\",\n      \"url\": \"https://naomedical.com/\",\n      \"name\": \"Nao Medical\",\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      }\n    }\n  ]\n}",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"@id\": \"https://naomedical.com/urgent-care/locations/astoria.html#nao-completion-faq\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is this a walk-in clinic in Astoria or do I need an appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Confirm today's appointment or walk-in availability with the selected clinic before traveling. Name the exact service, patient age and any form deadline so the team can check whether that visit can meet the need. An open clinic does not guarantee the required test, procedure or a same-day completed form. Ask Astoria about the required service before arrival.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are your wait times today in Astoria?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ask Astoria for the current queue and booking guidance. Waits change with demand and clinical urgency; a fixed number or immediate rooming cannot be promised. Tests and procedures can take additional time after assessment. Severe symptoms need emergency assessment rather than waiting in a routine queue.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What conditions do you treat at your Astoria urgent care?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Urgent care assesses stable illnesses and minor injuries that need prompt attention, such as a sore throat, u"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.menu-dropdown"
+      ]
+    }
+  }
+}

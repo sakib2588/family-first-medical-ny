@@ -1,0 +1,96 @@
+# Family First Medical NY — https://www.familyfirstmedicalny.com/
+Captured 2026-10-30 (phone 390x844 @2x, desktop 1280x800) · BASE SITE · raw: phone/ desktop/ (1-fold, 2-full, sections/NN-*.png), html/, meta.json
+Status: full review done 2026-10-30 (sections, technical, conversion). Multi-language is OUT OF SCOPE; only noted. Everything marked (U) is unverified against an outside source.
+Tooling: tools/sections.mjs (section shots), tools/tech.mjs (network/a11y/perf), tools/inter.mjs + inter2.mjs (sticky bar, callsheet, menu). Lighthouse 13.6.0 ran OK (headless, default throttling). Note: element screenshots in sections/ include the sticky header and sticky CTA bar where they overlap (capture artefact, not a site bug).
+
+## Snapshot
+Family medicine + pediatrics, 2 physicians (Dr. Qikai Yao, peds, founder; Dr. Liyan Yao, family), 2 offices (Elmhurst Queens, open 7 days; Hicksville LI, closed Wed/Thu). One long single page (about 16,260 css px on phone), anchors #doctors #services #ages #wellness #locations #office #reviews #faq #insurance #visit. EN/中文/ES toggle swaps text client-side on the same URL (no per-language URLs; zh and x-default hreflang in the sitemap point to the same URL). Static site behind Cloudflare, no CMS signs, no forms (0 forms, 0 inputs), no analytics/pixels/chat found. PRIMARY ACTION = phone call. Taps to book on phone: 2 in-page (Call to Make an Appt -> pick office in bottom sheet), then the OS dial prompt = 3. No online booking.
+
+## Phone (390x844) section by section
+Order: intro splash > util bar > sticky header > hero > trust strip > welcome > doctors > interlude > services > ages > IV wellness > locations > office gallery > reviews > FAQ > insurance > visit/hours > footer. A sticky bottom bar ("Call to Make an Appt" + "Visit") is visible from first paint and at every scroll position.
+
+| # | Section | Purpose / copy pattern | CTA | Layout | Flaws | Strengths |
+|---|---|---|---|---|---|---|
+| 00 | Intro splash (#intro) | Brand splash overlay at load, fades by about 1.5 s; has a skip link | none | full-screen fixed | delays first paint of content; contributes to slow LCP; (U) whether it respects reduced-motion | quick, skippable |
+| 01-02 | Util bar + header | "Open 7 Days" pill, EN/中文 toggle (Español only in footer on phone); logo + hamburger | sticky header holds no call button on phone (bar does) | 2 stacked bars, header sticky 84px | "Open 7 Days" is untrue for Hicksville (closed Wed/Thu). Language buttons 34px tall (<44). Logo tagline 2.96:1 contrast (Lighthouse) | clean, brand logo readable |
+| 03 | Hero | Value prop H1 "Family medicine & pediatrics, all in one place" + both doctors cut-out photos with credential cards + 6 chips | Call to Make an Appointment (red, 4.9:1) ; "Visit Our Locations" ghost | photo bg, headline top, doctor cards, chips, 2 buttons | H1 sits on a ceiling-light detail (legibility). Hero is about 1,120px tall, so buttons are below the fold, the sticky bar compensates. Hero bg JPG is the LCP element (11.1 s Lighthouse mobile) | answers who/what/where at once, real faces and credentials, "Accepting new patients" chip, strong serif/sans pairing |
+| 04 | Trust strip | 4 glass cards: 25+ years (since 1998), board-certified, three languages, newborns to seniors | none | 2x2 on a darkened photo | blurred photo behind cards is low value and heavy; "25+ years / since 1998" (U) | compact proof |
+| 05 | Welcome | Short story + 5 benefit cards (personal, multilingual, open 7 days, insurance, in-house blood draws) + photo mosaic | sticky bar only | masonry photos, 2-col cards | photos look like generated or stock imagery, not the actual team (U, authenticity risk for a base we reuse); "Open 7 Days" repeated again | in-house blood draws is a real differentiator |
+| 06 | Doctors | One card per doctor: degree, residency, board, hospitals, languages, tags | none (sticky bar) | tall coloured card + detail list | very tall (2,490px) on phone; credentials are claims (U); no NPI/license number; no link to profile or booking per doctor | strong E-E-A-T, residency years and hospitals named |
+| 07 | Interlude | Pull quote "cared for like family" | none | photo band | pure decoration, 600px of scroll | brand voice |
+| 08 | Services | 10 cards, filter tabs All/Pediatrics/Family Medicine | cards link to #visit (not to a service page) | 1-col list on phone | no per-service detail or URL; cards are dead ends | clear benefit-first one-liners; filter is a nice touch |
+| 09 | Ages | 5 life-stage cards (0-12m ... seniors) | none | stacked cards | duplicates services content | good mental model; "confidential teen visits" is a trust point |
+| 10 | IV therapy (#wellness) | Accordion of 5 drips (Myers', Tri-Immune Boost, Quench, Snow Bright, NAD+) with ingredient lists, "Elective, not billed to insurance" note, photo carousel with a "DRIP MD wellness and aesthetics" branded graphic | none | accordion + 3-slide carousel | graphic carries a different brand (DRIP MD) and "Doctor-led. Safe. Effective." claims (U source, possible third-party/AI asset and an efficacy claim); "maximum absorption", "anti-aging", "accelerate recovery" are efficacy claims with no citation; no risks, contraindications, pricing or consent info; "Aesthetic Treatment Suite" appears but no aesthetic service is listed; section sits between core services and locations, diluting the pediatric message | honest "elective, not billed to insurance" disclosure; "physician-directed" framing |
+| 11 | Locations | 2 cards: address, phone, hours, transit/parking, Call This Office + Directions | Call This Office (opens that office's tel directly), Directions | 2 stacked cards | Elmhurst storefront sign reads "Pediatrics" only (family medicine not signed, (U) whether the sign is current) | best conversion block: per-office call + directions, transit info |
+| 12 | Office gallery | Photos per office (6 each) | none | grid | many unlabelled decorative images; heavy (about 300 KB each) | helps new patients know the entrance |
+| 13 | Reviews | "5.0 from 5 verified Google reviews", 3 reviews carousel, link "Read more on Google" | link to GBP (35px tall) | horizontal carousel | only 5 reviews; "verified" is a claim (U); first names/handles only; text of link 2.96:1 contrast; carousel hides 2 of 3 on phone | real quotes, named doctors |
+| 14 | FAQ | 7 Q&As (JSON-LD FAQPage matches) | none | accordion | no question on booking, cancellations, records, telehealth, after-hours, urgent care | schema-aligned |
+| 15 | Insurance | Plan name chips (Aetna, Empire BCBS, UHC, Cigna, 1199SEIU, Healthfirst, Fidelis, Emblem/GHI, Oxford) + "Verify coverage" + disclaimer | "Verify coverage ->" (call) | chip cloud | plan list is a claim (U) and no plan-level detail; disclaimer 2.96:1 contrast | names the plans patients search for |
+| 16 | Visit / hours | 4 info cards, hours tables for both offices, "Call to Book" | Call to Book (opens sheet) | dark band, white hours card | 12 tel links total on page; Hicksville "Closed Wed & Thu" is shown only here and in locations | complete hours for both offices, highlighted weekday |
+| 17 | Footer | tagline, 2 addresses/phones, 4 anchor links, language buttons, (c) line, board-certified/insurance line | phones | 1-col | NO legal links at all (see Footer/legal); footer links 22px tall | tidy, NAP present |
+| ov | Callsheet (bottom sheet, tapped from any Call button) | "Call which office?" two 52px tel buttons + Cancel | tel:+17187792248 / tel:+15166810681 | modal sheet | Escape key does not close it (tested); (U) focus trap | solves the two-number problem, large targets |
+| ov | Mobile menu | 7 anchors incl. "IV & Wellness", EN/中文, both phones, Visit | tel links | full-screen | EN/中文 34px | includes phones in the menu |
+
+## Desktop (1280x800)
+Same content in a 3-part layout: util bar, sticky header with nav (Our Doctors, Services, All Ages, Locations, Insurance, FAQ) + "Call to Make an Appt" + "Visit" visible at all times; hero is two-column (copy+CTAs left, doctor cut-outs right) with both CTAs above the fold; services 4-col grid (last row of 2 centred), doctors as horizontal cards, locations 2 cards, hours + 4 info tiles side by side, 4-col dark footer. Desktop "Call to Make an Appt" does not dial; it opens the same callsheet (tel: on a desktop browser has no handler, so a desktop user must read the numbers); (U) desktop behaviour with a real softphone. No mobile-cta bar on desktop (header button replaces it). Nav omits IV & Wellness and Reviews. Desktop nav tap targets 41px tall. Desktop is the better-composed view; Lighthouse desktop 77 perf.
+
+## Strengths (verified on captures)
+- S1 First screen answers who/what/where; real doctor photos with credentials, "Accepting new patients" chip.
+- S2 One dominant primary action (red call button) repeated in sticky bar, hero, locations, visit, menu; callsheet resolves the two-office choice in one tap.
+- S3 Per-office cards with direct Call This Office and Directions, transit and parking notes.
+- S4 Premium look: serif display + clean sans, navy/red palette, consistent cards.
+- S5 Complete hours for both offices, closed days stated.
+- S6 Rich, valid JSON-LD (MedicalClinic with Hicksville subOrganization, FAQPage, MedicalWebPage, WebSite), NAP in schema matches visible NAP (checked: phones, addresses, hours incl. Hicksville Wed/Thu closed).
+- S7 Clean: 0 console errors, 0 third-party trackers, 0 cookies set, no cookie banner needed, HTTPS with HTTP and apex 301 to www, skip link, lang attr, alt attribute present on all 62 images (13 empty, 3 of them informative photos), Lighthouse a11y 94 / best-practices 96 / SEO 100.
+- S8 Honest "Elective wellness service, not billed to insurance" note; insurance "please call to confirm" disclaimer.
+- S9 Doctor bios with school, residency years, hospital affiliations.
+
+## Flaws (severity, proposed fix for our build)
+- F1 HIGH: no Privacy Policy, Notice of Privacy Practices, Terms, accessibility statement, nondiscrimination/language-assistance notice, medical disclaimer. Fix: add /privacy, /notice-of-privacy-practices, /terms, /accessibility, /nondiscrimination as real pages linked in footer; text approved by counsel (see ../../legal/familyfirstmedicalny/analysis.md).
+- F2 HIGH: phone is the only way to act; no appointment-request form, no text, no after-hours path, none for deaf/HoH. Fix: compliant request-callback form (name, phone, preferred office, reason category only, no clinical detail) with a consent line, plus click-to-text if the practice has a HIPAA-safe messaging tool. Needs counsel and a BAA with any form vendor.
+- F3 HIGH (performance on phone): Lighthouse mobile perf 59, LCP 11.1 s, Speed Index 17.1 s, CLS 0.10 (my own run measured CLS 0.38 during scroll, intro overlay and lazy images), 3.8 MB (Lighthouse) to 6.8 MB (full scroll, my run) over 62 images; hero JPG is LCP; doctor cut-outs 450 KB and 370 KB PNG; several images are served 3 to 7x larger than displayed. Fix: AVIF/WebP, responsive srcset, preload the hero, width/height on every image, drop the splash, lazy-load below the fold, target phone LCP under 2.5 s.
+- F4 MED: "Open 7 Days" in the util bar, hero chip, trust strip and welcome card is true for Elmhurst only (Hicksville closed Wed/Thu). Fix: say "Open 7 days at Elmhurst" or show per-office hours in the header.
+- F5 MED: single page only, so no URLs per service, doctor or location; service cards link to #visit. Fix: real pages (/services/..., /doctors/..., /locations/elmhurst, /locations/hicksville), each with its own schema and Maps link.
+- F6 MED: contrast failures, Lighthouse color-contrast: #8b97a6 on white = 2.96:1 on the logo tagline, review note, "Read more on Google" link and insurance note (small text, fails AA 4.5:1). Fix: darken to at least #5b6675.
+- F7 MED: tap targets under 44px: EN/中文 buttons 46x34 and 54x34; inline phone numbers 20-22px tall in locations and footer; footer links 22px; "Read more on Google" 35px; desktop nav 41px. Fix: 44px min with padding.
+- F8 MED: heading outline skips levels (H2 -> H4 for cards, 24 or so instances, Lighthouse heading-order fails; H5 in footer). Fix: H3 for cards, H2 for footer columns or no heading.
+- F9 MED: callsheet does not close on Escape, (U) no focus trap, no aria-modal check done. Fix: proper dialog semantics.
+- F10 MED: NAP/brand inconsistency in Maps links: Elmhurst Directions use "Qikai Yao Pediatrics" as the destination name, Hicksville uses "Family First Medical", and the only review/GBP link is the place "Family First Medical - Liyan Yao, MD", also used as hasMap for Hicksville and sameAs for the clinic. Elmhurst storefront sign says Pediatrics. Fix: one GBP per location with an identical name, address, phone; use each office's own place URL and CID.
+- F11 MED: IV therapy section: efficacy language ("maximum absorption", "anti-aging", "accelerate recovery", graphic claiming "Safe. Effective."), third-party-branded DRIP MD graphic, no risk/consent/pricing info, an "Aesthetic Treatment Suite" not described. Fix: neutral descriptive copy, no outcome claims, add "consult a physician", remove the foreign brand graphic, counsel review under NY and FTC advertising rules (see legal analysis).
+- F12 MED: AggregateRating + Review JSON-LD on the clinic's own site for 5 Google reviews. Self-serving reviews markup is generally not eligible for review rich results and can attract a manual action (U, check current Google policy); also dates and "verified" are asserted (U). Fix: drop review markup or only use if reviews are first-party and verifiable; link to GBP instead.
+- F13 LOW-MED: photography looks generated or stock for the welcome mosaic and IV lounge, while the doctors and building photos look real (U, no image provenance found). Fix: use only real photos or label, because patients and Google (E-E-A-T) value authenticity.
+- F14 LOW: sticky "Visit" label is vague (jumps to the visit/hours section). Fix: "Hours & Directions".
+- F15 LOW: sitemap lists one URL; hreflang zh/x-default all point to the same URL (invalid pattern for separate languages); lastmod 2026-07-10 stale. Out of scope for languages, but fix for our build.
+- F16 LOW: no HSTS, no CSP, no cookie/consent (none needed today); X-Frame-Options SAMEORIGIN, nosniff, Referrer-Policy and Permissions-Policy are present. `access-control-allow-origin: *` on the HTML. Fix: add HSTS and a CSP in our build.
+- F17 LOW: robots.txt explicitly allows 20-odd AI crawlers and advertises /llms.txt (exists, 200) and /agents.json (not checked); fine for visibility, but llms.txt repeats "open 7 days" claims (U) and any claim there must also be verified.
+- F18 LOW: hero headline over a photo detail on phone (ceiling light fixture behind the type).
+
+## Footer / legal
+Footer: logo, tagline, language buttons, 2 addresses + phones, 4 anchor links (Our Doctors, Services, Locations, Visit), (c) 2026, "Board-Certified Family Medicine & Pediatrics · Medicaid, Medicare & most insurances accepted". No legal links. Probed 11 URLs (privacy, privacy-policy, terms, terms-of-service, notice-of-privacy-practices, npp, hipaa, accessibility, disclaimer, sitemap_index.xml, security.txt) plus a nonsense URL: all true 404s (not SPA fallbacks). Full checklist and Maps/GBP findings: ../../legal/familyfirstmedicalny/analysis.md.
+
+## Technical summary
+- Lighthouse 13.6.0 (headless Chromium 1248 from Playwright, default throttling, one run each, so noisy): mobile Perf 59 / A11y 94 / BP 96 / SEO 100; desktop Perf 77 / A11y 94 / BP 96 / SEO 100. Mobile FCP 2.5 s, LCP 11.1 s, TBT 0, CLS 0.10. Desktop FCP 0.9 s, LCP 2.3 s, CLS 0.001.
+- Requests: 71, all first-party except Google Fonts (CSS + 8 woff2 from fonts.gstatic.com, a privacy/IP disclosure to Google, self-hosting avoids it). Inline scripts only (7), no external JS, no GA/GTM/Meta pixel/chat widget/booking widget/recaptcha, no iframes (no embedded map). No cookies set, localStorage/sessionStorage empty.
+- Images: 62 (61 requested), 45 lazy, 13 have empty alt: 10 decorative badges/icons (fine) and 3 informative photos (reception-name-wall, elm-front, li-reception-grand) that need real alt text.
+- Headings: one H1, 11 H2, H3 for doctors and locations, H4 for cards, H5 in footer; level skips (F8).
+- JSON-LD (4 blocks): MedicalClinic (Elmhurst, with physician[], openingHoursSpecification, geo, aggregateRating 5.0/5, 5 Review entries, Hicksville as subOrganization with its own geo, hours, phone), FAQPage (7 Q), MedicalWebPage (lastReviewed 2026-07-09, reviewedBy Dr. Qikai Yao), WebSite. NAP matches the visible page.
+- robots.txt: Allow all, many AI bots allowed, Sitemap declared. sitemap.xml: 1 URL with 5 image entries.
+- Security headers present: X-Content-Type-Options, X-Frame-Options SAMEORIGIN, Referrer-Policy strict-origin-when-cross-origin, Permissions-Policy (camera, mic, geolocation off). Absent: HSTS, CSP.
+- HIPAA tracker risk today: none detected (no pixels, no forms, no chat). Keep it that way; any form, scheduling widget, analytics or call-tracking added later needs a BAA/counsel review.
+
+## Conversion analysis
+Single primary action: call (the whole page funnels to "Call to Make an Appt"). Phone: sticky bar Call -> callsheet office pick -> OS dial = 3 taps from anywhere on the page, 2 in-page taps. Desktop: 2 clicks and the user must dial manually.
+Elements (placement; did well / poorly):
+- Sticky bottom bar Call + Visit (all phone scroll positions; strong, but "Visit" vague).
+- Header Call button (desktop sticky; phone has none, relies on bar).
+- Hero Call button and Visit Our Locations (above the fold on desktop only; below it on phone).
+- Locations cards: Call This Office + Directions (best placed, per-office, specific).
+- Visit section: Call to Book, Directions links, hours (complete; directions links use inconsistent destination names).
+- Insurance section: plan chips + "Verify coverage" (names plans, no plan check tool).
+- Trust signals: 25+ years, board-certified, languages, "accepting new patients", doctor credentials (strong but unverified (U) and repeated 4+ times).
+- Social proof: 3 Google reviews, 5.0/5 (thin sample of 5; link to GBP only).
+- FAQ: 7 items, no booking/records/cancellation answers.
+- Missing: online request form, text/chat, patient portal link, new-patient forms or paperwork, telehealth, urgent/after-hours instructions, price transparency, "what to bring".
+
+## Unverified claims on the site (do not reuse without proof)
+"Board-Certified" for both doctors (check ABP / ABFM via ABMS; Dr. Liyan Yao's residency ended 2025, so certification timing is worth checking), Dr. Qikai Yao "25+ years" and "since 1998" (residency 1998-2001), "Open 7 Days" (Elmhurst only), "Accepting new patients", hospital affiliations (NewYork-Presbyterian Queens, NYU Langone Long Island, Catholic Health Long Island), insurance plan list (participation per plan), "5.0 from 5 verified Google reviews" (check live GBP count and rating), "Former Chief Resident", "In-house blood draws" (CLIA certificate), IV therapy "physician-supervised" and who administers, "free parking", "1 block from M and R trains", image authenticity (generated vs real). State sources to check: NY OPMC physician profile, NPPES/NPI, ABMS, CMS Medicare enrollment, NY Medicaid enrollment, insurer directories, CLIA lookup.

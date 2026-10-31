@@ -1,0 +1,2235 @@
+{
+  "url": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+  "slug": "nao-services",
+  "capturedAt": "2026-10-30T18:34:43.296Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15633,
+      "consoleErrors": [],
+      "title": "Primary care clinics in NYC and Long Island | Nao Medical",
+      "h1": [
+        "Primary care clinics in NYC and Long Island"
+      ],
+      "h2": [
+        "Primary care is a place to establish a continuing plan for your health. Visits can address preventive care, a new concern and ongoing conditions such as high blood pressure or diabetes.",
+        "Primary care",
+        "How primary care works",
+        "Eligibility: Primary care",
+        "What to expect: Primary care",
+        "Preparing for your appointment",
+        "Risks and when to seek help",
+        "Follow-up and treatment review",
+        "Appointments, costs and coverage",
+        "Questions about your care",
+        "Medical sources",
+        "Find the Nearest Primary care",
+        "Primary care clinics across NYC and Long Island",
+        "Save Your Spot",
+        "Book a Nao Medical primary care clinic visit",
+        "Primary care information by location",
+        "More care information"
+      ],
+      "links": [
+        {
+          "text": "English",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://naomedical.com/clinica-de-atencion-primaria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health & Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's sexual health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's heart health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's preventive care & screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's mental health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's sexual health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's heart health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's preventive care & screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Our services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health & Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "Our locations",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria, Queens",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City, Queens",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights, Queens",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica, Queens",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights, Brooklyn",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg, Brooklyn",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "174th Street, Bronx",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall, Bronx",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown, East 15th Street",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola, NY",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville, NY",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's sexual health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's heart health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's preventive care & screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's mental health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's sexual health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's heart health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's preventive care & screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's mental health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Priti Jain",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Sandeep Jain",
+          "href": "https://naomedical.com/primary-care/provider/sandeep-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Exams",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Other Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Career Opportunities",
+          "href": "https://secure7.saashr.com/ta/6214087.careers?CareersSearch",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "See locations and hours",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#location-section",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Recognizing medical emergencies",
+          "href": "https://medlineplus.gov/ency/article/001927.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Understanding lab results",
+          "href": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fever in babies and children",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000319.htm",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF A and B recommendations",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+          "inFooter": false
+        },
+        {
+          "text": "HHS: Before a telehealth visit",
+          "href": "https://telehealth.hhs.gov/patients/what-should-i-know-before-my-telehealth-visit",
+          "inFooter": false
+        },
+        {
+          "text": "What can be treated through telehealth? | Telehealth.HHS.gov",
+          "href": "https://telehealth.hhs.gov/patients/what-can-be-treated-through-telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF hypertension screening",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF prediabetes and type 2 diabetes screening",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "inFooter": false
+        },
+        {
+          "text": "NYSDOH: School immunization requirements",
+          "href": "https://www.health.ny.gov/prevention/immunization/schools",
+          "inFooter": false
+        },
+        {
+          "text": "HRSA affordable healthcare",
+          "href": "https://www.hrsa.gov/get-health-care/affordable",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fasting for a blood test",
+          "href": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical: Sliding Fee Discount Program",
+          "href": "https://naomedical.com/sliding-fee-discount-program/",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Meet our providers",
+          "href": "https://naomedical.com/clinics/providers.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "diabetes",
+          "href": "https://naomedical.com/services/diabetes-medication-management-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Review primary care insurance options",
+          "href": "https://naomedical.com/primary-care/primary-care-insurance.html",
+          "inFooter": false
+        },
+        {
+          "text": "Healthfirst",
+          "href": "https://naomedical.com/primary-care/healthfirst-primary-care-doctors-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medicaid",
+          "href": "https://naomedical.com/services/primary-care/medicaid.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#",
+          "inFooter": false
+        },
+        {
+          "text": "Next: Book Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": true
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/primary-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Take charge of your wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Elevating Men's Health Comprehensive Care",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medicaid primary care in NYC and Long Island",
+          "href": "https://naomedical.com/services/primary-care/medicaid.html",
+          "inFooter": false
+        }
+      ],
+      "footerText": "LinkedIn Facebook Twitter Instagram If you are vision-impaired or have another impairment covered by the Americans with Disabilities Act or a similar law, and you want to discuss accommodations related to using this website, please contact Sharad Suri at service@naomedical.com or by phone at 917-633-1548 , Extension 288 . To answer questions as quickly as possible, we may use the assistance of a large language model where appropriate. If there are any errors or concerns, please bring them to our attention by email.",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 7,
+      "images": 81,
+      "scrollHeight": 22506,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalWebPage\",\n      \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#webpage\",\n      \"url\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html\",\n      \"name\": \"Primary care clinics in NYC and Long Island\",\n      \"description\": \"Primary care is a place to establish a continuing plan for your health. Visits can address preventive care, a new concern and ongoing conditions such as high blood pressure or diabetes.\",\n      \"inLanguage\": \"en\",\n      \"mainEntity\": {\n        \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#service\"\n      },\n      \"isPartOf\": {\n        \"@id\": \"https://naomedical.com/#website\"\n      },\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#breadcrumb\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#service\",\n      \"name\": \"Primary Care Clinic in NYC and Long Island\",\n      \"serviceType\": \"Primary care\",\n      \"description\": \"Book a Nao Medical primary care clinic in NYC and Long Island. New-patient PCP visits, annual physicals, same-day sick visits, chronic care, labs, vaccines, Medicaid, Medicare, and major insurance accepted.\",\n      \"provider\": {\n        \"@type\": \"MedicalOrganizati",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://naomedical.com/#website\",\n      \"url\": \"https://naomedical.com/\",\n      \"name\": \"Nao Medical\",\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      }\n    }\n  ]\n}",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#nao-completion-faq\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What can I use Nao Medical primary care for?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Primary care provides continuing care: preventive screening, assessment of new symptoms, medication review and monitoring of conditions such as high blood pressure or diabetes. The clinician agrees on priorities, selects necessary tests and sets a follow-up plan. A specialist may be needed for a complex or uncertain problem. Confirm the clinic's age range and service availability when booking.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer same-day or walk-in primary care? Can I book an annual physical or preventive visit here? Can I come in for a same-day primary care visit if I am sick?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Confirm today's appointment or walk-in availability with the selected clinic before traveling. Name the exact service, patient age and any form deadline so the team can check whether that visit can meet the need. An open clinic does not guarantee the required test, procedure or a same-day completed form. Ask the selected clinic about the required service before arrival.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you accept Medicai"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.nao-v2-header nao-v2-header--patient",
+        "DIALOG.nao-v2-drawer",
+        "DIV.booking-book-apt-popup-container"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 11526,
+      "consoleErrors": [],
+      "title": "Primary care clinics in NYC and Long Island | Nao Medical",
+      "h1": [
+        "Primary care clinics in NYC and Long Island"
+      ],
+      "h2": [
+        "Primary care is a place to establish a continuing plan for your health. Visits can address preventive care, a new concern and ongoing conditions such as high blood pressure or diabetes.",
+        "Primary care",
+        "How primary care works",
+        "Eligibility: Primary care",
+        "What to expect: Primary care",
+        "Preparing for your appointment",
+        "Risks and when to seek help",
+        "Follow-up and treatment review",
+        "Appointments, costs and coverage",
+        "Questions about your care",
+        "Medical sources",
+        "Find the Nearest Primary care",
+        "Primary care clinics across NYC and Long Island",
+        "Save Your Spot",
+        "Book a Nao Medical primary care clinic visit",
+        "Primary care information by location",
+        "More care information"
+      ],
+      "links": [
+        {
+          "text": "English",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://naomedical.com/clinica-de-atencion-primaria.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health & Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's sexual health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's heart health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's preventive care & screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's mental health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's sexual health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's heart health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's preventive care & screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Our services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://naomedical.com/services/urgent-care/near-you-urgent-care-walk-in-clinic-new-york-locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "STD testing",
+          "href": "https://naomedical.com/services/std-testing/std-testing-near-me-fast-confidential-testing-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition counseling",
+          "href": "https://naomedical.com/services/nutritionist/nutritionist-near-me-tailored-nutrition-counseling-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Physical",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual care",
+          "href": "https://naomedical.com/services/tele-medicine.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health & Psychiatry",
+          "href": "https://naomedical.com/services/mental-health/psychiatrist-near-me-virtual-psychiatry-sessions-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Esketamine Treatment",
+          "href": "https://naomedical.com/services/spravato.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medication assisted weight loss",
+          "href": "https://naomedical.com/services/Tirzepatide.html",
+          "inFooter": false
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "Our locations",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#nm-service-locations",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria, Queens",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City, Queens",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights, Queens",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica, Queens",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights, Brooklyn",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg, Brooklyn",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "174th Street, Bronx",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall, Bronx",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown, East 15th Street",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola, NY",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville, NY",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's sexual health",
+          "href": "https://naomedical.com/services/sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's heart health",
+          "href": "https://naomedical.com/services/heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's preventive care & screening",
+          "href": "https://naomedical.com/services/preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Men's mental health",
+          "href": "https://naomedical.com/services/mens-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's wellness",
+          "href": "https://naomedical.com/services/women-Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's sexual health",
+          "href": "https://naomedical.com/services/women-sexual-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's heart health",
+          "href": "https://naomedical.com/services/women-heart-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's preventive care & screening",
+          "href": "https://naomedical.com/services/women-preventive-care-and-screenings.html",
+          "inFooter": false
+        },
+        {
+          "text": "Women's mental health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "About us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Priti Jain",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Sandeep Jain",
+          "href": "https://naomedical.com/primary-care/provider/sandeep-practice.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp",
+          "inFooter": false
+        },
+        {
+          "text": "Women’s Exams",
+          "href": "https://naomedical.com/services/womens-health/womens-health-clinic-near-me-expert-women-wellness-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/campaigns/mental-health/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Billing",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "DOT Physical",
+          "href": "https://naomedical.com/services/dot-physicals/dot-physical-near-me-certified-cdl-exams-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Immigration Exams",
+          "href": "https://naomedical.com/services/immigration/immigration-medical-exam-near-me-uscis-certified-clinics.html",
+          "inFooter": false
+        },
+        {
+          "text": "Other Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Career Opportunities",
+          "href": "https://secure7.saashr.com/ta/6214087.careers?CareersSearch",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "See locations and hours",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#location-section",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Recognizing medical emergencies",
+          "href": "https://medlineplus.gov/ency/article/001927.htm",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Understanding lab results",
+          "href": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fever in babies and children",
+          "href": "https://medlineplus.gov/ency/patientinstructions/000319.htm",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF A and B recommendations",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation-topics/uspstf-a-and-b-recommendations",
+          "inFooter": false
+        },
+        {
+          "text": "HHS: Before a telehealth visit",
+          "href": "https://telehealth.hhs.gov/patients/what-should-i-know-before-my-telehealth-visit",
+          "inFooter": false
+        },
+        {
+          "text": "What can be treated through telehealth? | Telehealth.HHS.gov",
+          "href": "https://telehealth.hhs.gov/patients/what-can-be-treated-through-telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF hypertension screening",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening",
+          "inFooter": false
+        },
+        {
+          "text": "USPSTF prediabetes and type 2 diabetes screening",
+          "href": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+          "inFooter": false
+        },
+        {
+          "text": "NYSDOH: School immunization requirements",
+          "href": "https://www.health.ny.gov/prevention/immunization/schools",
+          "inFooter": false
+        },
+        {
+          "text": "HRSA affordable healthcare",
+          "href": "https://www.hrsa.gov/get-health-care/affordable",
+          "inFooter": false
+        },
+        {
+          "text": "MedlinePlus: Fasting for a blood test",
+          "href": "https://medlineplus.gov/lab-tests/fasting-for-a-blood-test/",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical: Sliding Fee Discount Program",
+          "href": "https://naomedical.com/sliding-fee-discount-program/",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Clinic details and hours",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Meet our providers",
+          "href": "https://naomedical.com/clinics/providers.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "View location details",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "diabetes",
+          "href": "https://naomedical.com/services/diabetes-medication-management-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Review primary care insurance options",
+          "href": "https://naomedical.com/primary-care/primary-care-insurance.html",
+          "inFooter": false
+        },
+        {
+          "text": "Healthfirst",
+          "href": "https://naomedical.com/primary-care/healthfirst-primary-care-doctors-nyc.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medicaid",
+          "href": "https://naomedical.com/services/primary-care/medicaid.html",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://naomedical.com/services/primary-care/primary-care-clinic.html#",
+          "inFooter": false
+        },
+        {
+          "text": "Next: Book Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book Now",
+          "href": "https://book.naomedical.com/appointment/televisit",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/primary-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/primary-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/primary-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/primary-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/primary-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/primary-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/primary-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/primary-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/primary-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/primary-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/primary-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": true
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/primary-care.html",
+          "inFooter": false
+        },
+        {
+          "text": "Take charge of your wellness",
+          "href": "https://naomedical.com/services/Wellness.html",
+          "inFooter": false
+        },
+        {
+          "text": "Elevating Men's Health Comprehensive Care",
+          "href": "https://naomedical.com/services/mens-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Medicaid primary care in NYC and Long Island",
+          "href": "https://naomedical.com/services/primary-care/medicaid.html",
+          "inFooter": false
+        }
+      ],
+      "footerText": "LinkedIn Facebook Twitter Instagram If you are vision-impaired or have another impairment covered by the Americans with Disabilities Act or a similar law, and you want to discuss accommodations related to using this website, please contact Sharad Suri at service@naomedical.com or by phone at 917-633-1548 , Extension 288 . To answer questions as quickly as possible, we may use the assistance of a large language model where appropriate. If there are any errors or concerns, please bring them to our attention by email.",
+      "telLinks": [
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 310-3371",
+          "href": "tel:(917) 310-3371",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 7,
+      "images": 81,
+      "scrollHeight": 11015,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"MedicalWebPage\",\n      \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#webpage\",\n      \"url\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html\",\n      \"name\": \"Primary care clinics in NYC and Long Island\",\n      \"description\": \"Primary care is a place to establish a continuing plan for your health. Visits can address preventive care, a new concern and ongoing conditions such as high blood pressure or diabetes.\",\n      \"inLanguage\": \"en\",\n      \"mainEntity\": {\n        \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#service\"\n      },\n      \"isPartOf\": {\n        \"@id\": \"https://naomedical.com/#website\"\n      },\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#breadcrumb\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#service\",\n      \"name\": \"Primary Care Clinic in NYC and Long Island\",\n      \"serviceType\": \"Primary care\",\n      \"description\": \"Book a Nao Medical primary care clinic in NYC and Long Island. New-patient PCP visits, annual physicals, same-day sick visits, chronic care, labs, vaccines, Medicaid, Medicare, and major insurance accepted.\",\n      \"provider\": {\n        \"@type\": \"MedicalOrganizati",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://naomedical.com/#website\",\n      \"url\": \"https://naomedical.com/\",\n      \"name\": \"Nao Medical\",\n      \"publisher\": {\n        \"@id\": \"https://naomedical.com/#organization\"\n      }\n    }\n  ]\n}",
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"@id\": \"https://naomedical.com/services/primary-care/primary-care-clinic.html#nao-completion-faq\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What can I use Nao Medical primary care for?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Primary care provides continuing care: preventive screening, assessment of new symptoms, medication review and monitoring of conditions such as high blood pressure or diabetes. The clinician agrees on priorities, selects necessary tests and sets a follow-up plan. A specialist may be needed for a complex or uncertain problem. Confirm the clinic's age range and service availability when booking.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer same-day or walk-in primary care? Can I book an annual physical or preventive visit here? Can I come in for a same-day primary care visit if I am sick?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Confirm today's appointment or walk-in availability with the selected clinic before traveling. Name the exact service, patient age and any form deadline so the team can check whether that visit can meet the need. An open clinic does not guarantee the required test, procedure or a same-day completed form. Ask the selected clinic about the required service before arrival.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you accept Medicai"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.nao-v2-header nao-v2-header--patient",
+        "DIALOG.nao-v2-drawer",
+        "DIV.booking-book-apt-popup-container"
+      ]
+    }
+  }
+}
