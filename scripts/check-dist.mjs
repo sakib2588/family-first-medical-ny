@@ -16,11 +16,21 @@ for (const page of pages) {
     if (/<link\b[^>]*rel="(?:canonical|alternate)"/.test(tag)) continue
     problems.push(`${page.replace(dist, '')}: external resource from ${m[2]}`)
   }
+  // public/_headers sends a strict CSP (script-src 'self', style-src 'self'): inline code would be blocked.
+  const rel = page.replace(dist, '')
+  for (const m of html.matchAll(/<script\b([^>]*)>/g)) {
+    if (!/\bsrc=/.test(m[1]) && !/\btype="application\/(?:ld\+)?json"/.test(m[1])) problems.push(`${rel}: inline <script> (blocked by the CSP)`)
+  }
+  if (/<style\b/.test(html)) problems.push(`${rel}: inline <style> (blocked by the CSP)`)
+  if (/<[a-z][^>]*\sstyle="/.test(html)) problems.push(`${rel}: style="" attribute (blocked by the CSP)`)
+  if (/<[a-z][^>]*\son[a-z]+="/.test(html)) problems.push(`${rel}: inline event handler (blocked by the CSP)`)
   for (const m of html.matchAll(/<a\b[^>]*\bhref="(\/[^"#?]*)(?:[#?][^"]*)?"/g)) {
     const path = m[1]
     const target = path === '/' ? join(dist, 'index.html') : existsSync(join(dist, path, 'index.html')) ? join(dist, path, 'index.html') : join(dist, path)
     if (!existsSync(target)) problems.push(`${page.replace(dist, '')}: dead link ${path}`)
   }
 }
+const headers = join(dist, '_headers')
+if (!existsSync(headers) || !/^\s+Content-Security-Policy:/m.test(readFileSync(headers, 'utf8'))) problems.push('_headers: missing, or no Content-Security-Policy')
 if (problems.length) { console.error([...new Set(problems)].join('\n')); process.exit(1) }
-console.log(`check-dist: ${pages.length} pages, no external resources, no dead internal links`)
+console.log(`check-dist: ${pages.length} pages, no external resources, no dead internal links, no inline code, CSP present`)
