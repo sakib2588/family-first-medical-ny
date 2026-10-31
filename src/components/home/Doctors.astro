@@ -1,22 +1,31 @@
 ---
+// The two doctors, and why one practice for every age matters (folds in the old dark About band).
+// Every fact in the intro comes from practice.ts: who sees which ages, and whether both work at every office.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-import { doctors } from '../../data/practice'
+import { doctors, offices } from '../../data/practice'
+const shortName = (name: string) => `${name.split(' ')[0]} ${name.split(' ').at(-1)}` // "Dr. Arjun Mehta" -> "Dr. Mehta"
+const whoSeesWhom = doctors.map(d => `${d.name} sees ${d.ages.charAt(0).toLowerCase()}${d.ages.slice(1)}.`).join(' ')
+const sharedOffices = offices.length > 1 && doctors.every(d => offices.every(o => o.doctors.includes(d.slug)))
 ---
 <Section id="doctors">
-  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-  <h2 class="text-[1.9rem] md:text-4xl">Two doctors. One standard of care.</h2>
-  <ul class="mt-8 space-y-10 md:mt-12 md:grid md:grid-cols-2 md:gap-14 md:space-y-0">
-    {doctors.map(d => (
-      <li class="grid grid-cols-[7.5rem_1fr] items-center gap-5 md:grid-cols-[11rem_1fr] md:gap-8">
-        <div class="arch aspect-[3/4.2] bg-lavender"><img src={d.img} alt={d.alt} width="240" height="336" loading="lazy" class="size-full object-cover object-top"/></div>
-        <div>
-          <h3 class="text-xl md:text-2xl"><a href={`/doctors/${d.slug}`} class="underline-offset-4 hover:underline">{d.name}</a></h3>
-          <p class="mt-1 text-sm font-semibold text-teal-deep md:text-base">{d.role}</p>
-          <p class="mt-2 text-[0.97rem] md:text-base">{d.blurb}</p>
-        </div>
-      </li>
-    ))}
-  </ul>
-  <a href="/doctors" class="btn mt-8 inline-flex min-h-12 items-center gap-2 font-semibold text-teal-deep underline underline-offset-4">Read more about our doctors <Icon name="arrow" size={18} /></a>
+  <div class="md:grid md:grid-cols-[1fr_1.6fr] md:gap-16">
+    <div>
+      <h2 class="text-[1.9rem] md:text-4xl">Meet the doctors</h2>
+      <p class="mt-3 max-w-[38ch] md:text-lg">{whoSeesWhom}{sharedOffices && ' Both work at every one of our offices, so your family can stay with one practice as the children grow up.'}</p>
+    </div>
+    <ul class="mt-8 divide-y divide-line border-y border-line md:mt-0">
+      {doctors.map(d => (
+        <li class="grid grid-cols-[6.5rem_1fr] items-center gap-5 py-6 md:grid-cols-[9rem_1fr] md:gap-8">
+          <div class="arch aspect-[3/4] bg-lavender"><img src={d.img} alt={d.alt} width="240" height="320" loading="lazy" class="size-full object-cover object-top"/></div>
+          <div>
+            <h3 class="text-xl md:text-2xl">{d.name}</h3>
+            <p class="mt-1 text-[0.95rem] font-semibold text-teal-deep md:text-base">{d.role}</p>
+            <p class="mt-1 text-sm text-muted">{d.ages}</p>
+            <a href={`/doctors/${d.slug}`} class="mt-2 inline-flex min-h-11 items-center gap-1.5 font-semibold text-indigo underline decoration-gold decoration-2 underline-offset-4 hover:text-teal-deep">About {shortName(d.name)}<Icon name="arrow" size={16} /></a>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
 </Section>

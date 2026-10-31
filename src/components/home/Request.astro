@@ -1,21 +1,25 @@
 ---
+// The request block. "What happens next" replaces the old sample rating and quote: no unverified proof (U05.3),
+// and no response-time promise until the client confirms one (decision #2).
 import Icon from '../Icon.astro'
 import RequestForm from '../RequestForm.astro'
+const steps = [
+  'Send your name and phone number. Nothing medical.',
+  'The office calls you back during office hours.',
+  'Together you pick a time at the office you chose.',
+]
 ---
-<section id="request" class="px-5 py-14 md:px-8 md:py-20">
- <div class="mx-auto max-w-[1160px] md:grid md:grid-cols-2 md:gap-16">
- <div>
-  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-  <h2 class="text-[1.9rem] md:text-4xl">Request a visit</h2>
-  <p class="mt-3 md:text-lg">Tell us how to reach you. We will call you back within one business day to find a time.</p>
-  <figure class="mt-8 rounded-3xl bg-white p-6">
-    <div class="flex gap-1 text-gold" role="img" aria-label="Rated 5 out of 5 (sample rating)">
-      {[0, 1, 2, 3, 4].map(() => (<Icon name="star" size={20} class="fill-current" />))}
+<section id="request" class="bg-lavender px-5 py-14 md:px-8 md:py-20">
+  <div class="mx-auto max-w-[1160px] md:grid md:grid-cols-2 md:gap-16">
+    <div>
+      <h2 class="text-[1.9rem] md:text-4xl">Request a visit</h2>
+      <ol class="mt-6 space-y-4">
+        {steps.map((s, i) => (
+          <li class="flex gap-4"><span class="tabular grid size-8 shrink-0 place-items-center rounded-full bg-white font-display font-semibold text-indigo">{i + 1}</span><span class="pt-0.5 md:text-lg">{s}</span></li>
+        ))}
+      </ol>
+      <p class="mt-6 text-[0.97rem]">Need care today? <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a></p>
     </div>
-    <blockquote class="mt-3 text-[1.02rem] text-indigo">"Sample review text for layout only. Replace with an approved patient quote."</blockquote>
-    <figcaption class="mt-3 text-sm text-muted">Sample patient · 5.0 average from sample reviews</figcaption>
-  </figure>
- </div>
-  <div class="mt-7 md:mt-0"><RequestForm /></div>
- </div>
+    <div class="mt-8 rounded-[2rem] bg-white p-5 md:mt-0 md:p-8"><RequestForm /></div>
+  </div>
 </section>
