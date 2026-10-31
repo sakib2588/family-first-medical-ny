@@ -1,24 +1,14 @@
 ---
+// Owner decision #8: no plan list until the client sends one with a date. Until then: call to check.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-const plans = ['Medicaid', 'Medicare', 'Major commercial plans', 'Self-pay']
 ---
-<Section id="insurance">
-  <div class="md:grid md:grid-cols-[1fr_1.2fr] md:items-start md:gap-16">
-    <div>
-      <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-      <h2 class="text-[1.9rem] md:text-4xl">Coverage made simple</h2>
-      <p class="mt-3 md:text-lg">We accept most plans. Bring your card to your first visit and we will confirm your coverage with you.</p>
-    </div>
-    <div class="mt-6 md:mt-10">
-      <div class="rounded-3xl bg-teal-deep p-6 text-white md:p-8">
-        <p class="font-display text-[1.35rem] font-semibold leading-snug md:text-2xl">Most plans accepted, including Medicaid and Medicare.</p>
-        <a href="#request" class="btn mt-5 inline-flex min-h-12 items-center gap-2 rounded-full bg-white px-6 font-semibold text-teal-deep hover:bg-cream">Check your plan with us <Icon name="arrow" size={18} /></a>
-      </div>
-      <ul class="mt-5 flex flex-wrap gap-2 md:gap-3">
-        {plans.map(p => (<li class="rounded-full border border-line bg-white px-4 py-2 text-[0.97rem] font-medium text-indigo md:px-5 md:py-3 md:text-lg">{p}</li>))}
-      </ul>
-      <p class="mt-4 text-sm text-muted">Sample list for the design demo. The real list will show the date it was last confirmed.</p>
+<Section id="insurance" tone="white">
+  <div class="md:grid md:grid-cols-[1fr_1.2fr] md:items-center md:gap-16">
+    <h2 class="text-[1.9rem] md:text-4xl">Insurance</h2>
+    <div class="mt-3 md:mt-0">
+      <p class="max-w-[40ch] md:text-lg">To check whether we take your plan, call your office before your first visit. Bring your insurance card and a photo ID when you come in.</p>
+      <a href="/locations" data-call class="btn mt-5 inline-flex min-h-12 items-center gap-2 rounded-full border-2 border-teal-deep px-6 font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><Icon name="phone" size={18} />Call to check your plan</a>
     </div>
   </div>
 </Section>
