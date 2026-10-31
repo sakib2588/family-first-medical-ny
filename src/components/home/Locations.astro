@@ -1,23 +1,24 @@
 ---
+// The one dark band: white office cards on indigo. Everything comes from practice.ts.
+// Call is outlined here: a repeated per-item action never outranks the page's one filled action (U08.2).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import { offices, telHref, mapsHref } from '../../data/practice'
 import OpenNow from '../OpenNow.astro'
 ---
-<Section id="locations" tone="lavender">
-  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-  <h2 class="text-[1.9rem] md:text-4xl">Two offices, one team</h2>
+<Section id="locations" tone="indigo">
+  <h2 class="text-[1.9rem] md:text-4xl">Where to find us</h2>
   <ul class="mt-8 space-y-4 md:mt-12 md:grid md:grid-cols-2 md:gap-6 md:space-y-0">
     {offices.map(o => (
-      <li class="rounded-3xl bg-white p-5 md:p-8">
-        <h3 class="text-xl md:text-2xl"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
+      <li class="rounded-3xl bg-white p-5 text-text md:p-8">
+        <h3 class="text-xl text-indigo md:text-2xl"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
         <p class="mt-3 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="pin" size={18} class="mt-1 shrink-0 text-teal-deep" />{o.addr}</p>
-        <p class="tabular mt-2 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="clock" size={18} class="mt-1 shrink-0 text-teal-deep" /><OpenNow office={o} /></p>
-        <dl class="tabular mt-5 divide-y divide-line rounded-2xl border border-line text-[0.95rem]">
-          {o.week.map(([day, hours]) => (<div class="flex justify-between gap-4 px-4 py-2.5"><dt class="text-muted">{day}</dt><dd class="font-semibold text-indigo">{hours}</dd></div>))}
+        <p class="tabular mt-2 flex items-start gap-2 text-[0.97rem] font-medium text-indigo md:text-base"><Icon name="clock" size={18} class="mt-1 shrink-0 text-teal-deep" /><OpenNow office={o} /></p>
+        <dl class="tabular mt-5 divide-y divide-line border-y border-line text-[0.95rem]">
+          {o.week.map(([day, hours]) => (<div class="flex justify-between gap-4 py-2.5"><dt class="text-muted">{day}</dt><dd class="shrink-0 whitespace-nowrap text-right font-semibold text-indigo">{hours}</dd></div>))}
         </dl>
         <div class="mt-5 grid grid-cols-2 gap-3 md:max-w-sm">
-          <a href={telHref(o.phone)} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker">Call</a>
+          <a href={telHref(o.phone)} aria-label={`Call the ${o.name}`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal-deep font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><Icon name="phone" size={18} />Call</a>
           <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-line font-semibold text-indigo hover:border-indigo">Directions<Icon name="arrow" size={18} /></a>
         </div>
       </li>
