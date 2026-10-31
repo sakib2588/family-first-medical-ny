@@ -1,6 +1,6 @@
-# Site2 workspace (local only, never in git)
+# Site2 workspace (tracked in git)
 
-Everything that is not shipping code lives here. The git repo is `../family-first-medical-ny/` and holds code only.
+Everything that is not shipping code lives here. As of 2026-10-31 the owner decided to keep `workspace/` in git (about 500 MB of captures, logs and screenshots). Do not rewrite history or force-push to shrink it. `tools/node_modules` stays ignored.
 
 | Folder | Holds |
 |---|---|
@@ -15,4 +15,4 @@ Everything that is not shipping code lives here. The git repo is `../family-firs
 | `tools/` | Capture scripts + node_modules. Throwaway, rebuildable. |
 | `_digests-site1/` | Distilled rules from Site1 (A vault, B universal, C overlays, D research/edge cases, E build). |
 
-Rules: dates are absolute (YYYY-MM-DD). Every research step is logged in `04-logs/LOG.md` with tool, parameters, and result. Claims from sites are unverified until checked. Raw captures stay local; analysis notes never copy competitor text.
+Rules: dates are absolute (YYYY-MM-DD). Every research step is logged in `04-logs/LOG.md` with tool, parameters, and result. Claims from sites are unverified until checked. Analysis notes never copy competitor text.
