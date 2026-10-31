@@ -5,11 +5,11 @@ dist/
 .env
 .env.*
 !.env.example
-# notes, logs, research and captures live outside the repo (../workspace); belt and braces:
+# notes, logs and raw research stay out of the repo; curated text lives in workspace/ (see README):
 notes/
 logs/
 research/
-workspace/
 captures/
 *.log
+!workspace/**/*.log
 .DS_Store
