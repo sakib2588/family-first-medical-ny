@@ -20,7 +20,8 @@ Question: will a cloud Claude session have what we built up locally? Answer: **n
 | 12 | Plugins (savvy-progress, blast-radius, replay-theater, reflect-mod, cache-tax, token-weather) | local plugins | No | Not needed for this project. Skipped | Skipped |
 | 13 | MCP connectors (Notion, Google Drive/Docs, Canva, n8n, Cloudflare, Supabase...) | claude.ai account | Probably, if enabled for the account | Owner to confirm in the cloud session settings | OWNER CHECK |
 | 14 | `impeccable` design-critique tool (used for the 25/36 critique) | was run on the laptop; not installed on this PC, package name unconfirmed | No | Critique result is saved in `02-analysis/design-critique-mobile-home-2026-10-31.md`. Re-run only if the owner supplies the package | Known gap |
-| 15 | ngrok, dev server, auth token | local | No | Not needed in the cloud (use its own preview). The token must never be committed; rotate it | OWNER ACTION |
+| 15 | ngrok, dev server, auth token | local | No | Replaced by a public Cloudflare Pages deploy (owner decision 2026-10-31, see handoff "Sharing the site"). ngrok is optional and local only. The token must never be committed; rotate it | OWNER ACTION |
+| 15b | Live share link for other people | none yet | No | Cloud agent sets up Cloudflare Pages per the handoff; owner connects the repo once in the Cloudflare dashboard | OPEN |
 | 16 | Site1 vault (source of the digests) | `Website creation/Site1/vault` and repo `sakib2588/site1-lead-sites` | No | Distilled digests A to E already in `workspace/_digests-site1/` | Done |
 | 17 | Client facts, photos, questionnaire | client (not received) | n/a | Listed in the handoff. Questionnaire is in `06-handoffs/` and still unsent | Open |
 | 18 | Git identity | repo config here | No | `CLAUDE.md` states it. Cloud must set `user.email` to the noreply address | Done |
