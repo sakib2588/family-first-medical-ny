@@ -1,0 +1,14 @@
+---
+// The hero's proof row: facts a parent checks first, in plain text (no icons, no numbers we cannot verify).
+// Unconfirmed facts show as labelled slots on the demo (decision 2026-10-31-home-layout-round3.md #1).
+import FactSlot from '../FactSlot.astro'
+import OpenNow from '../OpenNow.astro'
+import { practice, offices, isShown } from '../../data/practice'
+---
+<dl class="mt-10 grid grid-cols-2 gap-x-5 gap-y-5 border-t border-white/15 pt-6 md:mt-14 md:grid-cols-4">
+  {offices.map(o => (
+    <div><dt class="text-sm text-on-dark/80">{o.neighborhood.split(',')[0]} today</dt><dd class="tabular mt-1 font-medium text-white"><OpenNow office={o} fallback="See hours below" /></dd></div>
+  ))}
+  {isShown(practice.languages) && <div><dt class="text-sm text-on-dark/80">Languages</dt><dd class="mt-1 font-medium text-white"><FactSlot fact={practice.languages} tone="dark" /></dd></div>}
+  {isShown(practice.acceptingNew) && <div><dt class="text-sm text-on-dark/80">New patients</dt><dd class="mt-1 font-medium text-white"><FactSlot fact={practice.acceptingNew} tone="dark" dated /></dd></div>}
+</dl>

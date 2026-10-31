@@ -1,0 +1,13 @@
+---
+// One fact the client must confirm (Fact<T> in practice.ts). Confirmed: the value. Not confirmed: on the demo a
+// quiet labelled slot "[need]"; on the live site nothing (rulebook U00.10, tell 8). Never a plausible sample value.
+import { practice, type Fact } from '../data/practice'
+// dated: the fact must carry checkedOn (e.g. new patients: a CLAUDE.md red line); without it, it stays a slot.
+interface Props { fact: Fact<string>; class?: string; tone?: 'light' | 'dark'; dated?: boolean }
+const { fact, class: cls = '', tone = 'light', dated = false } = Astro.props
+const confirmed = fact.value !== null && (!dated || Boolean(fact.checkedOn))
+const slotColour = tone === 'dark' ? 'text-on-dark' : 'text-muted' // both pass AA on their ground
+---
+{confirmed
+  ? <span class={cls}>{fact.value}{dated && ` (as of ${fact.checkedOn})`}</span>
+  : practice.demo && <span class={`font-normal italic ${slotColour} ${cls}`}>[{fact.need}]</span>}

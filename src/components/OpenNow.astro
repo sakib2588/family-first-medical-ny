@@ -2,10 +2,11 @@
 // "Open now" chip. The server renders the plain weekly line (works with no JS, never wrong).
 // A tiny script upgrades it to "Open now until 6 PM" / "Closed, opens Mon 9 AM" in the visitor's clock,
 // using New York time because both offices are there.
-import type { Office } from '../data/practice'
-interface Props { office: Office }
-const { office } = Astro.props
-const line = office.week.map(([d, h]) => `${d}: ${h}`).join(' · ')
+import { weekSummary, type Office } from '../data/practice'
+// fallback: the no-JS text. Default is the week summary; office cards that show the full week pass a short one.
+interface Props { office: Office; fallback?: string }
+const { office, fallback } = Astro.props
+const line = fallback ?? weekSummary(office).map(([d, h]) => `${d}: ${h}`).join('; ')
 ---
 <span data-open-now={JSON.stringify(office.open)}>{line}</span>
 <script>

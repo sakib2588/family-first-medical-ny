@@ -1,0 +1,34 @@
+---
+// Doctor detail cards: the reference site's credential grid, made ours. Small arch portrait (the large faces are in
+// the hero), name, role, ages, then each credential as a fact slot: nothing shows until it is checked against the
+// public lookups named in practice.ts (no "board-certified", no years, no "accepting" pill: CLAUDE.md red lines).
+import Section from '../Section.astro'
+import Icon from '../Icon.astro'
+import FactSlot from '../FactSlot.astro'
+import { doctors, practice, isShown } from '../../data/practice'
+---
+<Section id="doctors">
+  <h2 class="text-[1.9rem] md:text-4xl">About the doctors</h2>
+  <ul class="mt-8 space-y-5 md:mt-12 md:grid md:grid-cols-2 md:gap-6 md:space-y-0">
+    {doctors.map(d => (
+      <li class="rounded-3xl border border-line bg-white p-5 md:p-7">
+        <div class="flex items-center gap-4">
+          <div class="arch aspect-[3/4] w-[4.5rem] shrink-0 bg-lavender"><img src={d.img} alt="" width="144" height="192" loading="lazy" class="size-full object-cover object-top" /></div>
+          <div>
+            <h3 class="text-xl md:text-2xl">{d.name}</h3>
+            <p class="mt-0.5 text-[0.95rem] font-semibold text-text">{d.role}</p>
+            <p class="text-sm text-muted">{d.ages}</p>
+            {practice.demo && <p class="text-xs italic text-muted">Sample name and photo</p>}
+          </div>
+        </div>
+        <dl class="mt-5 divide-y divide-line border-y border-line text-[0.93rem]">
+          {[...d.credentials, { label: 'Languages', fact: d.languages }].filter(c => isShown(c.fact)).map(c => (
+            <div class="grid grid-cols-[8.5rem_1fr] gap-3 py-2"><dt class="text-muted">{c.label}</dt><dd class="font-medium text-indigo"><FactSlot fact={c.fact} /></dd></div>
+          ))}
+        </dl>
+        <p class="mt-4 text-[0.93rem]"><span class="text-muted">Cares for:</span> {new Intl.ListFormat('en', { type: 'conjunction' }).format(d.careAreas)}.</p>
+        <a href={`/doctors/${d.slug}`} class="mt-3 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Full profile of {d.name}<Icon name="arrow" size={18} /></a>
+      </li>
+    ))}
+  </ul>
+</Section>
