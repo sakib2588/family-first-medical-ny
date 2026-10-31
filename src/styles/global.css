@@ -25,13 +25,30 @@
   --color-muted: #5b5878;        /* secondary text, 6.3:1 on cream (minimum allowed) */
   --color-line: #e3ddf0;
   --color-aqua: #5fc4c4;         /* bright accent: words and icons on indigo only (8.6:1). Never on light grounds */
-  --color-on-dark: #c9c4e3;      /* body text on indigo, 10.5:1 */
+  --color-on-dark: #c9c4e3;      /* body text on indigo, 10.5:1; 5.92:1 on hero-teal (gradient end) */
+  /* Home spec rev. 2 (02-analysis/home-design-spec-2026-10-31.md 1.1) + palette D hybrid (03-decisions/2026-10-31-palette-d-hybrid.md) */
+  --color-hero-teal: #0c4a50;    /* hero gradient end only. white 9.95, on-dark 5.92, aqua 4.82, state-open-dark 6.15 */
+  --color-mist: #e6f2f1;         /* light tint of the action role: today row, status pill. indigo 15.49, teal-deep 5.21, state-open 5.69 */
+  --color-slot: #fff4dc;         /* fact-slot ground. slot-ink 4.97, muted 6.18, indigo 16.24 */
+  --color-slot-ink: #9a5b00;     /* fact-slot label */
+  --color-state-open: #1d6b3c;   /* "Open now" on light: cream 6.09, white 6.52, mist 5.69. Never a fill */
+  --color-state-open-dark: #8fdcaa; /* "Open now" on indigo 10.97, indigo-soft 9.55 */
+  --color-state-error: #b3261e;  /* form errors, with icon and words. white 6.54 */
+  --radius-card: 1.25rem;        /* r-card 20px */
+  --radius-field: 0.75rem;       /* r-field 12px */
+  --shadow-lift: 0 1px 2px rgb(23 18 58 / .06), 0 12px 32px -18px rgb(23 18 58 / .28);
+  --shadow-dialog: 0 24px 64px -24px rgb(23 18 58 / .45);
+  --ease-state: cubic-bezier(.2, .8, .2, 1);
+  --ease-sheet: cubic-bezier(.32, .72, 0, 1);
+  --ease-signature: cubic-bezier(.65, 0, .35, 1);
 
   --font-display: 'Fraunces Variable', Georgia, serif;
   --font-sans: 'Figtree Variable', system-ui, sans-serif;
 }
 
 @layer base {
+/* Motion tokens (spec 1.6): durations; transform and opacity only */
+:root { --m-press: 150ms; --m-state: 220ms; --m-enter: 260ms; --m-exit: 150ms; --m-sheet: 300ms; --m-signature: 480ms; }
 html { background: var(--color-cream); color: var(--color-text); font-family: var(--font-sans); font-size: 17px; line-height: 1.6; }
 h1, h2, h3 { font-family: var(--font-display); color: var(--color-indigo); font-weight: 560; line-height: 1.15; }
 :focus-visible { outline: 3px solid var(--color-indigo); outline-offset: 3px; border-radius: 4px; }
