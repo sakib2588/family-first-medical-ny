@@ -20,3 +20,17 @@ Note: the preview puts the accent on one headline word only to show the colour. 
 ## Form and footer fixes (from the owner's phone screenshots)
 - Form: selected office and time chips are filled teal, so they compete with the one filled "Send request". Fix: a selected chip becomes white with a 2 px action-colour border and a check mark. The field border becomes darker for 3:1 against the panel. Helper text uses the body colour. Touching the form goes through the HIPAA skills first; fields stay contact-only.
 - Footer: long single column on phone, with Explore links as tall rows and the policy grid wrapping. Fix: the two offices side by side at 390 as compact blocks (name, number, status), Explore and Policies as two-column link lists at about 44 px rows, the 911 band kept, and the footer about 40% shorter.
+
+## Option D: AIMSS foundation style (owner likes aimssfoundation.org)
+Taken from our capture `01-research/sites/aimssfoundation/` (desktop and phone fold, saved HTML colours). The site uses our exact five colours: indigo #17123a, teal #0e8a8a, gold #d9a02c, cream #faf7ef, lavender #f2eefc. Its look comes from how they are used:
+- Hero: a vertical indigo-to-deep-teal gradient washed over a real photo of people.
+- Headline: a bold geometric sans, one line in teal and one in gold, with a gold underline.
+- Buttons: pill-shaped, teal-to-indigo gradient; secondary buttons outlined white.
+- Motif: a thin pulse/heartbeat line (the logo mark) behind the content.
+Preview: `04-logs/home-demo/palette-option-D.png` (next to option B).
+
+Conflicts to decide (owner's own rulebook, Gate 9):
+- Item 10 bans gradient washes. A hero background gradient taken from the parent brand can be "brief-pinned" (the owner's choice for brand consistency), but text gradients and glows stay banned.
+- Item 9: coloured headline words (teal and gold) are accent on non-actions. Recommended: keep one gold underline only, as the brand mark.
+- Item 11: the tracked-caps "501(C)(3) NONPROFIT" pill is an eyebrow. Do not copy it.
+- In the preview, a gradient button on a gradient hero blends in. Recommended: keep the gold "Request a visit" on the hero, and use teal gradient pills on light grounds only.
