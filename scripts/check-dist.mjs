@@ -31,6 +31,9 @@ for (const page of pages) {
   }
 }
 const headers = join(dist, '_headers')
-if (!existsSync(headers) || !/^\s+Content-Security-Policy:/m.test(readFileSync(headers, 'utf8'))) problems.push('_headers: missing, or no Content-Security-Policy')
+const csp = existsSync(headers) ? readFileSync(headers, 'utf8').match(/^\s+Content-Security-Policy:(.*)$/m)?.[1] : undefined
+if (!csp) problems.push('_headers: missing, or no Content-Security-Policy')
+// The CSP must stay self-only: no 'unsafe-*' keywords, no other hosts, no wildcard, no data:/blob: sources.
+else if (/unsafe-|https?:|\*|\bdata:|\bblob:/.test(csp)) problems.push(`_headers: CSP is no longer self-only:${csp}`)
 if (problems.length) { console.error([...new Set(problems)].join('\n')); process.exit(1) }
 console.log(`check-dist: ${pages.length} pages, no external resources, no dead internal links, no inline code, CSP present`)
