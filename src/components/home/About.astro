@@ -1,13 +1,9 @@
----
-import Section from '../Section.astro'
----
-<Section id="about" tone="lavender">
-  <div class="md:grid md:grid-cols-2 md:items-center md:gap-16">
-    <div>
-      <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-      <h2 class="text-[1.9rem] md:text-4xl">A practice built around your family</h2>
-      <p class="mt-4 md:text-lg">One practice for every age means one team that knows your history, your questions and your schedule. Parents, kids and grandparents can book the same week, at the same office.</p>
-    </div>
-    <div class="arch mx-auto mt-8 aspect-[4/3] w-full max-w-md bg-white md:mt-0 md:aspect-[4/4.4]"><img src="/demo/hands.webp" alt="Two people holding hands in a moment of comfort (stand-in photo)" width="640" height="700" loading="lazy" class="size-full object-cover"/></div>
+<section id="about" class="relative isolate overflow-hidden px-5 py-20 text-white md:px-8 md:py-28">
+  <img src="/demo/hands.webp" alt="" width="640" height="700" loading="lazy" class="absolute inset-0 -z-20 size-full object-cover"/>
+  <div class="absolute inset-0 -z-10 bg-indigo/80" aria-hidden="true"></div>
+  <div class="mx-auto max-w-[1160px] md:max-w-2xl">
+    <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
+    <h2 class="text-[1.9rem] text-white md:text-4xl">Every family deserves one team that knows its name.</h2>
+    <p class="mt-4 text-white/90 md:text-lg">One practice for every age means one team that knows your history, your questions and your schedule. Parents, kids and grandparents can book the same week, at the same office.</p>
   </div>
-</Section>
+</section>
