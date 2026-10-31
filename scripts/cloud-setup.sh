@@ -9,7 +9,8 @@ echo "[2/3] QA tool dependencies + Chromium"; (cd workspace/tools && npm ci)
 if compgen -G "/opt/pw-browsers/chromium-*/chrome-linux*/chrome" >/dev/null; then
   echo "  using the pre-installed Chromium in /opt/pw-browsers (no download)"
 else
-  (cd workspace/tools && npx playwright install chromium)
+  # Non-fatal: the site check in step 3 needs no browser; only qa-pages.mjs does.
+  (cd workspace/tools && npx playwright install chromium) || echo "  WARNING: no Chromium; qa-pages.mjs will not run"
 fi
 echo "[3/3] verify"; npm run check
 echo "Ready. Read CLAUDE.md, then workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md"
