@@ -13,6 +13,7 @@ Everything that is not shipping code lives here. As of 2026-10-31 the owner deci
 | `05-assets/` | Client-supplied logos, photos, copy. |
 | `06-handoffs/` | Resume notes when a session ends. |
 | `tools/` | Capture scripts + node_modules. Throwaway, rebuildable. |
+| `_site1-rulebook/` | Read-only copy of the useful parts of the owner's Site1 playbook and vault (question kits, modules, overlays, red lines, design gates). Start at its README. |
 | `_digests-site1/` | Distilled rules from Site1 (A vault, B universal, C overlays, D research/edge cases, E build). |
 
 Rules: dates are absolute (YYYY-MM-DD). Every research step is logged in `04-logs/LOG.md` with tool, parameters, and result. Claims from sites are unverified until checked. Analysis notes never copy competitor text.
