@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ci)",
+      "Bash(npm install)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run check)",
+      "Bash(npx astro *)",
+      "Bash(node scripts/*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git fetch*)",
+      "Bash(gh pr list*)",
+      "Bash(gh pr view*)"
+    ]
+  }
+}
