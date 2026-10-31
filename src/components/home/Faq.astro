@@ -16,7 +16,7 @@ const faqs = [
     <div class="mt-6 divide-y divide-line border-y border-line md:mt-2">
       {faqs.map(([q, a]) => (
         <details class="group py-1">
-          <summary class="flex min-h-14 cursor-pointer items-center justify-between gap-4 py-2 text-[1.02rem] font-semibold text-indigo md:text-lg">{q}<Icon name="plus" size={20} class="shrink-0 text-teal-deep transition-transform duration-200 group-open:rotate-45" /></summary>
+          <summary class="flex min-h-14 cursor-pointer items-center justify-between gap-4 py-2 text-[1.02rem] font-semibold text-indigo md:text-lg">{q}<Icon name="plus" size={20} class="shrink-0 text-muted transition-transform duration-200 group-open:rotate-45" /></summary>
           <p class="pb-4 pr-8 text-[0.97rem] md:text-base">{a}</p>
         </details>
       ))}

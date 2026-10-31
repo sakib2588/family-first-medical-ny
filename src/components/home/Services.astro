@@ -14,19 +14,14 @@ import { serviceGroups, doctorBySlug } from '../../data/practice'
       return (
         <div>
           <h3 class="text-xl md:text-2xl">{g.title}</h3>
-          {doc && <p class="mt-1 text-[0.95rem] text-muted">With {doc.name} · {doc.ages}</p>}
+          {doc && <p class="mt-1 text-[0.95rem] text-muted">With {doc.name}, {doc.ages.charAt(0).toLowerCase()}{doc.ages.slice(1)}</p>}
           <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-line pt-4">
             {g.items.map(([name]) => (
-              <li class="flex items-start gap-2 text-[0.97rem] font-medium leading-snug text-indigo"><Icon name="check" size={18} class="mt-0.5 shrink-0 text-teal-deep" />{name}</li>
+              <li class="flex items-start gap-2 text-[0.97rem] font-medium leading-snug text-indigo"><Icon name="check" size={18} class="mt-0.5 shrink-0 text-muted" />{name}</li>
             ))}
           </ul>
         </div>
       )
     })}
   </div>
-  <p class="mt-10 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.97rem] md:mt-14 md:text-base">
-    <strong class="text-indigo">Feeling unwell?</strong>
-    <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a>
-    <span>In an emergency, call 911.</span>
-  </p>
 </Section>
