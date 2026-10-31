@@ -1,23 +1,20 @@
 ---
-// Route by need right after the hero: two honest paths. A planned visit goes to the callback request;
-// a sick visit goes to the call dialog, because a callback is too slow for someone who is sick today.
+// Route by need right after the hero, ranked (Gate 9 item 7: no row of equal cards). Planned visits are the
+// main path, to the callback request; a sick visit is a call, because a callback is too slow.
 // The request form stays contact-only, so the visit reason is not carried into it (CLAUDE.md red line).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-const tile = 'btn flex h-full min-h-32 flex-col items-start gap-2 rounded-2xl border bg-white p-5 md:p-7'
 ---
 <Section id="visits">
   <h2 class="text-[1.9rem] md:text-4xl">What brings you in?</h2>
-  <ul class="mt-6 grid gap-3 sm:grid-cols-2 md:mt-10 md:gap-5">
-    <li><a href="#request" class={`${tile} border-line hover:border-teal-deep`}>
-      <Icon name="calendar" size={24} class="text-teal-deep" />
-      <span class="mt-1 font-display text-xl font-semibold text-indigo md:text-2xl">Planning a visit</span>
-      <span class="text-[0.97rem] text-muted">Checkups, physicals, a new baby or vaccines. Send a short request and the office calls you back.</span>
-    </a></li>
-    <li><a href="/locations" data-call class={`${tile} border-teal-deep hover:bg-cream`}>
-      <Icon name="phone" size={24} class="text-teal-deep" />
-      <span class="mt-1 font-display text-xl font-semibold text-indigo md:text-2xl">Sick today</span>
-      <span class="text-[0.97rem] text-muted">Call your office instead of sending a request. In an emergency, call 911.</span>
-    </a></li>
-  </ul>
+  <div class="mt-6 md:mt-10 md:grid md:grid-cols-[1.4fr_1fr] md:items-end md:gap-12">
+    <div class="rounded-[1.75rem] border border-line bg-white p-6 md:p-8">
+      <h3 class="text-2xl md:text-3xl">Planning a visit</h3>
+      <p class="mt-2 max-w-[38ch] md:text-lg">Checkups, physicals, a new baby or vaccines. Send a short request with your name and number, and the office calls you back.</p>
+      <a href="#request" class="mt-4 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
+    </div>
+    <p class="mt-6 border-l-2 border-indigo pl-4 md:mt-0 md:pb-2 md:text-lg"><strong class="font-display text-xl font-semibold text-indigo md:text-2xl">Sick today?</strong><br />
+      Don't wait for a callback. <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a><br />
+      In an emergency, call 911.</p>
+  </div>
 </Section>

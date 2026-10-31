@@ -4,7 +4,7 @@
 import { practice, offices, legalPages, telHref, mapsHref } from '../../data/practice'
 import OpenNow from '../OpenNow.astro'
 const explore = [['Doctors', '/doctors'], ['Locations', '/locations'], ['Insurance', '/#insurance'], ['Contact', '/contact']] as const
-const label = 'font-sans text-[0.8rem] font-semibold uppercase tracking-[0.14em] text-gold'
+const label = 'font-sans text-[0.95rem] font-semibold text-white'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline'
 ---
 <footer id="site-footer" class="on-dark bg-indigo pb-28 text-[0.97rem] text-[#e6e2f5] md:pb-12">
@@ -12,7 +12,6 @@ const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underli
     <!-- Closing call to action -->
     <div class="flex flex-col gap-6 border-b border-[#3a3370] py-12 md:flex-row md:items-center md:justify-between md:py-16">
       <div>
-        <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
         <p class="font-display text-[1.9rem] font-medium leading-tight text-white md:text-4xl">Your family's doctors,<br class="hidden md:block" /> close to home.</p>
       </div>
       <div class="flex flex-wrap gap-3">
