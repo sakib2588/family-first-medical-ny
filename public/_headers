@@ -1,0 +1,9 @@
+# Security headers for every response. Cloudflare Workers static assets reads this file from dist/.
+# CSP: everything (scripts, styles, fonts, images) is self-hosted and nothing is inlined, so 'self' is enough.
+# Never add a third-party host here; that would break the zero-third-party rule in CLAUDE.md.
+# HSTS: one year, this host only (no includeSubDomains, no preload) until the client's real domain is known.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
