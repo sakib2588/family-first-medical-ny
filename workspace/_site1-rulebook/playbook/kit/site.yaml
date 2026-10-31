@@ -1,0 +1,291 @@
+# site.yaml: the generalized client record (playbook kit; read by U00, filled by U02).
+# Status: draft | Owner task: T9 | Updated: 2026-10-30 | Scope: universal
+#
+# How to use this file:
+# - Copy it into the client repo at intake. One record per client. Version it.
+# - Every fact the site shows comes from this file. A fact that is not here is not on the site.
+# - Two placeholder values, with different meanings:
+#     <fill in>  = not asked yet. A build must not pass while any <fill in> remains.
+#     null       = asked, and there is no answer or no proof. The site omits it: no block, no hedge.
+#   An empty list ([]) means the same as null for that block: the block is not rendered.
+# - Never replace a placeholder with a guess. Leave it null rather than invent it.
+# - Every filled fact needs an entry under provenance: (source, who said or showed it,
+#   who verified it, date). No provenance, no render.
+# - This file holds no secrets (no passwords, keys, tokens) and no prices or estimates.
+#   Prices and payment terms live in the agreement (U01).
+# - contacts: holds client staff details. Keep the client repo private. Only contacts.public
+#   may appear on the site.
+# - Overlay-only keys go under overlay: at the end, named by overlay slug.
+
+version: 1
+status: draft                 # draft | in-review | approved | locked (locked at sign-off S4)
+is_sample: false              # true only for fixtures; a production build refuses a sample record
+updated: <fill in>            # YYYY-MM-DD
+
+# Router keys: the U00 decision tree reads these three to pick the overlays.
+archetype: <fill in>          # one vertical overlay slug: local-trades | restaurants | legal-accounting |
+                              # medical-wellness | real-estate | ecommerce | saas-b2b | portfolios-creatives |
+                              # nonprofits | education-courses | events-venues | coaches-personal-brands |
+                              # manufacturers-industrial | local-retail-salons-fitness | regulated-finance.
+                              # Exactly one slug. A hybrid or unknown client stops the builder, which
+                              # asks the owner (owner decision; U00.4, U00.7). No "none" value.
+model: [<fill in>]            # one or more model overlay slugs: lead-gen | microsite | ecommerce |
+                              # subscription | booking | donations | ticketing. The key is `model`
+                              # (singular), a list. microsite with archetype local-trades is allowed:
+                              # the microsite drops win (U00 step 4(f)). A `planned` model or
+                              # jurisdiction slug is valid: the build proceeds and launch (S6) waits
+                              # for counsel or an owner waiver (U00.7).
+jurisdictions: [<fill in>]    # where the business operates AND where visitors or buyers are:
+                              # us-federal | new-york | nyc | california | eu-eea | uk
+engagement_size: <fill in>    # short | full (sets intake depth; see intake-questionnaire.md)
+
+project:                      # U01, intake Q10
+  type: <fill in>             # new | redesign | migration (microsite is a model value only)
+  appetite: <fill in>         # short | full; a size only, never a figure
+  launch_target: null         # YYYY-MM-DD
+  launch_driver: null         # opening, season, event, campaign
+  blocked_dates: []
+  scope_cut_order: []         # what goes first if scope must shrink
+  approval_steps: []          # internal approvals the client needs before publishing
+  later: []                   # features or pages set aside for a later phase
+
+business:                     # U02, intake Q1
+  legal_name: <fill in>
+  display_name: <fill in>     # exactly as on signs and listings
+  summary: <fill in>          # one sentence a customer would understand
+  founded_year: null          # null = no "years in business" claim anywhere
+  presence: <fill in>         # storefront | service-area | online | hybrid
+  locations: []               # each: name, address, publish_address (true only if real and shown), hours, phone,
+                              # geo (lat, lng, source)
+  service_areas: []           # each: name, proof ids (an area page needs unique local proof)
+  hours: null                 # only hours when a person actually responds
+  how_customers_buy: []
+  parent_brand: null
+  seasonality: null
+  never_do: []
+  languages: [<fill in>]
+
+contacts:                     # U01, intake Q11; private, never rendered except public
+  approver: { name: <fill in>, role: <fill in>, channel: <fill in> }
+  signatory: { name: <fill in>, role: <fill in> }
+  tie_break: { name: <fill in>, role: <fill in> }
+  day_to_day: { name: <fill in>, role: <fill in>, channel: <fill in> }
+  backup: { name: null, role: null }
+  billing: { name: null, role: null }
+  counsel: { name: null, firm: null, scope: null }   # required for regulated archetypes; counsel review needed
+  contributors: []            # each: name, role, what they review
+  response_expectation: null
+  public:                     # the only contact block the site may show
+    phone: null               # e164 and display format, exactly as on the listings
+    email: null
+    address: { publish: false }
+
+goals:                        # U03, intake Q2
+  primary: <fill in>          # one action: call | quote | book | buy | donate | subscribe | apply | register |
+                              # visit | demo | save (save a search or listing); reserve = book; an online
+                              # order = buy (the conversion is the completed order, see U03.9, U19.2)
+  secondary: []
+  after_action: null          # who responds, in which tool, promised response time
+  destinations: []            # two, always (for example inbox and log)
+  kpis: []                    # each: metric, baseline, baseline_is_guess, target, target_date, source (U03.4)
+  success_definition: null
+  failure_definition: null
+  channels: []
+
+audience:                     # U04, intake Q3
+  primary: <fill in>
+  example_customer: null      # no personal data
+  decision_roles: []          # user, decider, payer
+  top_tasks: []
+  questions: []
+  objections: []
+  not_for: []
+  customer_words: []
+  where_they_look: []
+  devices: null
+  access_needs: []
+
+positioning:                  # U04, intake Q5
+  alternatives: []
+  differentiators: []         # each: claim, proof id (no proof id, no claim)
+  competitors: []
+  best_fit: null
+  category: null
+  admired_not_copied: null
+
+offer:                        # U02, U07, U08, intake Q4
+  items: []                   # each: slug, name, summary, for_whom, offered_confirmed (true only when the
+                              # client said yes), revenue_rank, page (own | grouped),
+                              # price_display (none | on-request | from | range | exact),
+                              # price_source (the client's own price list; never our estimate)
+  guarantees: []              # written terms only: name, document link
+  promotions: []              # wording approved by: name, date; counsel review needed
+  financing: null             # counsel review needed
+  turnaround: null            # only a time the client can keep every time
+  transaction_rules: null     # capacity, lead time, deposits, cancellations, no-shows
+  downplay: []
+
+brand:                        # U04, U07, U09, U11, U12, U13, intake Q6
+  guide: null
+  logo: { vector: null, png: null, rights_id: null }
+  colors: { fixed: [], moving_away_from: [] }
+  fonts: []                   # each: family, license, web_embedding (true | false),
+                              # self_hosting (true | false), licensee (U11.10)
+  personality: null
+  voice:
+    we_are: []
+    we_are_not: []
+    use_words: []
+    avoid_words: []
+    register: null            # formal | plain | warm | playful | technical
+  values: []
+  story: { origin: null, why_now: null }
+  founder_led: null
+  references:
+    liked: []                 # each: url, reason
+    disliked: []              # each: url, reason
+  imagery_policy: null        # real first; follow U13.5 and U20.17: no stock or AI people shown as
+                              # staff, customers or authors; any AI image credited and IPTC-tagged
+  tokens: {}                  # filled at sign-off S3
+
+assets:                       # U05, U13, asset-and-proof-request.md
+  photos: []                  # each: file, subject, date_taken, rights_id, consent_ids
+  video: []                   # each: file, subject, rights_id, music_license, captions
+  illustrations: []
+  documents: []               # editable source files: product data, menus, schedules, price lists
+  rights_log: docs/rights-log.md   # file, creator, owner, license, permission (who, when, scope),
+                                   # consent forms, where used, expiry
+
+proof:                        # U05; an empty list means the block is not rendered
+  reviews: []                 # each: text (exact), reviewer_as_shown, platform, url, date,
+                              # permission { by, date }, relationship (none | staff | family | partner |
+                              # incentive), verified { by, date }
+  testimonials: []            # each: text (as approved), name_as_approved, permission { by, date },
+                              # verified { by, date } (U05.1)
+  cases: []                   # each: client, client_signoff { by, date }, metric, source_doc, period,
+                              # baseline, typical (true | false), verified { by, date } (U05.1)
+  licenses: []                # each: type, number, holder, issuer, registry_url, expires, verified { by, date }
+  insurance: { certificate_seen: false, publish_policy_number: false }
+  credentials: []             # each: holder, title, issuer, year, evidence_url
+  awards: []                  # each: name, issuer, year, earned_or_paid, evidence_url
+  memberships: []             # each: body, status, directory_url, logo_permission
+  press: []                   # each: outlet, url, date, earned (true | false)
+  team: []                    # each: name, role, credentials, photo, consent { by, date, scope }
+  data: []                    # each: claim, value, source_doc, period, measured_by
+  client_logos: []            # each: client, permission { by, date }
+
+pages: []                     # U06; each: slug, type, job, primary_action, template, overlay_source,
+                              # writer, approver, status (requested | draft | edited | client review |
+                              # approved | published)
+
+content:                      # U07, content-request.md
+  matrix: docs/content-matrix.md
+  inventory: null             # redesigns: existing pages with keep | rewrite | drop
+  writers: []                 # each: page, writer (client | us | specialist)
+  review_rounds: null         # from the agreement
+  client_review_capacity: null
+  human_edit: { required: true, editor_recorded_per_page: true }
+  banned_phrases: []          # seed list in vault/wiki/knowledge/content-and-ai-quality.md, plus client additions
+  claims:
+    forbidden: []             # words that stay off the site unless a proof key supports them
+    allowed_if_key_present: {}
+  restrictions: []            # confidential clients, non-disclosure terms
+  translator: null            # required before any second language is added (U22)
+
+features: []                  # U08, U21; each: name (booking | checkout | donations | member area |
+                              # cms | crm | newsletter | chat | maps), vendor, account_owner, admin
+
+legal:                        # U20; nothing here states that the site meets a legal requirement
+  triggers: []                # regulated profession, health data, children, payments, subscriptions,
+                              # EU or UK or California visitors, claims, AI chatbot
+  counsel_items: []           # each: item, overlay row, owner, status, note: counsel review needed
+  pages: []                   # each: page, owner, reviewed_by, next_review
+  consent_posture: null       # per jurisdiction; counsel review needed
+  accessibility_target: null  # see U16; any contract or legal duty noted for counsel
+  ai_disclosure: null         # AI features: chatbot, voice agent, generated images, drafted copy;
+                              # counsel review needed
+  data_collected: []          # each: field, where (form or page), purpose, retention, shared_with; read by
+                              # U20 for the privacy policy and consent posture; counsel review needed
+  audience_min_age: null      # youngest visitor the site is meant for, as a number; a child audience is a
+                              # legal trigger (U20); null = adults only, asked and confirmed
+  nonprofit_status: null      # nonprofits only: status as shown on the issuer's record, with evidence_url
+                              # (feeds Organization schema nonprofitStatus); counsel review needed
+  tax_id: null                # nonprofits and others that publish one: { value, issuer, evidence_url,
+                              # publish (true | false) } (feeds schema taxID); counsel review needed
+  counsel_waivers: []         # launch only (U00.7): each: overlay, questions waived, owner (the agency owner,
+                              # U00.20; never the client or builder), date, reason;
+                              # also recorded in the handoff pack; counsel review needed
+
+analytics:                    # U19
+  tools: []                   # the tracker inventory: each: name, owner, purpose, consent_required,
+                              # sets_cookies (true | false), loads_on (pages), register_name (U19.7)
+  tracking_numbers: []        # call tracking (lead-gen.3): each: display, forwards_to (the real
+                              # contacts.public.phone), campaign, provider, account_owner; never in
+                              # schema, HTML source, footer or listings
+  property_owner: null        # the client
+  events: []                  # each: name, trigger, conversion (primary | secondary)
+  baseline_export: null       # file and date of the export taken before any change
+  report: { readers: [], cadence: null }
+
+hosting:                      # U21, U24; roles and owners only, never secrets
+  domain: { name: null, registrar: null, account_owner: null, renewal: null }
+  dns: { provider: null, account_owner: null }
+  host: { provider: null, account_owner: null }
+  email_on_domain: { provider: null, account_owner: null }
+  repo: { location: null, owner: null }
+  accounts: []                # listings, review profiles, social: platform, owner, our_role
+  third_party_control: []     # each: asset, holder, transfer_request_date, status
+  requirements: null          # client security or data-location policy
+  access_matrix: docs/access-matrix.md
+  backups: null
+
+maintenance:                  # U24
+  editor: null                # client | us | shared
+  cadence: null
+  care_plan: null             # option name from handoff-pack.md; terms in the agreement
+  incident_contact: null
+
+records:                      # paths in the client repo
+  signoffs: docs/signoff-log.md
+  decisions: docs/decisions.md
+  risks: docs/risk-register.md
+  open_questions: docs/open-questions.md
+  interview_notes: docs/interview-notes/
+
+overlay: {}                   # overlay-only keys, named by overlay slug; empty list or null = block not
+                              # rendered (U00.10). Shapes the overlays read:
+                              # local-trades: { license_block: null, service_call_fee: null (amount,
+                              #   waived_when, lsa_wording, source), gas_smell_first_step: null,
+                              #   co_alarm_first_step: null, emergency_number: null (number,
+                              #   jurisdiction, source_url; local-trades.16, .17, .27; never another
+                              #   jurisdiction's number), gas_utility_emergency: [] (utility, territory,
+                              #   phone, source_url), reviews_summary: null (rating, count, platform,
+                              #   url, date) }
+                              # events-venues: { events: [] }   # each: name, start (ISO 8601 with offset),
+                              #   end, timezone, place (name, address), status (scheduled | cancelled |
+                              #   postponed | rescheduled), offers [] (name, total_price, currency,
+                              #   url, valid_from), accessibility_info, organizer
+                              # restaurants: { cuisine: [], menus: [], holiday_hours: [], price_range: null }
+                              #   (acceptsReservations comes from features[] booking)
+                              #   menus: each: name, url, file, updated, items [] (name, description,
+                              #   price, allergens [], dietary []), source (the client's own menu)
+                              #   holiday_hours: each: date, opens, closes, closed (true | false)
+                              # manufacturers-industrial: { products: [] }   # each: name, sku, mpn, gtin,
+                              #   brand, datasheet_url, cad_url, sds_url, certifications []
+                              #   (name, issuer, evidence_url); company naics and iso6523_code
+                              #   go in { naics: null, iso6523_code: null }
+                              # medical-wellness: { insurance_plans: { as_of: null, plans: [] } }
+                              #   plans: each: payer, plan, network_status, verified { by, date }
+                              # nonprofits: { funding: [] }   # each: funder, program, year,
+                              #   evidence_url, publish_permission { by, date }
+                              # Vertical ecommerce rows are ecommerce.101+, model ecommerce rows
+                              # ecommerce.1-100; write overlay:vertical/ecommerce or
+                              # overlay:model/ecommerce where both could be meant.
+
+provenance:
+  # Every fact in this record needs a source. Without an entry here, the fact is not rendered.
+  # null means omit it from the site: no placeholder, no hedge, no sentence that implies it.
+  note: every fact needs a source; null means omit it from the site
+  entries: {}                 # field path -> { source, said_or_shown_by, verified_by, date }
+                              # example shape: business.display_name: { source: <fill in>,
+                              #   said_or_shown_by: <fill in>, verified_by: <fill in>, date: <fill in> }
