@@ -21,7 +21,7 @@ export const practice = {
   acceptingNew: toConfirm<string>('to confirm, with date'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
-    publicPlans: toConfirm<string>('Medicaid and Child Health Plus taken? with date'),
+    publicPlans: toConfirm<string>('taken? with date'),
     plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
     notTaken: toConfirm<string>('plans not taken, with date'),
     selfPay: toConfirm<string>('self-pay option and how to ask'),
@@ -56,7 +56,7 @@ const officeExtras = (place: string, transitLabel: string) => ({
   photo: toConfirm<Photo>(`Photo: ${place} entrance from the street`),
   gallery: [toConfirm<Photo>('Photo: reception'), toConfirm<Photo>('Photo: waiting area'), toConfirm<Photo>('Photo: an exam room')],
   googleProfile: toConfirm<string>("Google profile link: to confirm"),
-  googleRating: toConfirm<string>(`${place} Google rating and review count, with date checked`),
+  googleRating: toConfirm<string>('rating, count, date'),
 })
 
 export const offices: readonly Office[] = [
