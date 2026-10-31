@@ -1,63 +1,72 @@
 ---
-// Offices, photo-led like the reference site but our own: entrance photo (named slot until real), the number as
-// visible text, the full week from practice.ts with today's row marked, getting-here facts and the doctors there.
-// White cards on the one dark band. Call is outlined: a repeated per-item action never outranks the page's
-// one filled action (U08.2). Every fact comes from practice.ts (CLAUDE.md).
+// Offices (spec 4.7): cream ground, two white cards of equal height. Arch photo slot, caption-style neighbourhood
+// (no text on the photo), status pill, address + Directions, the number as text, GROUPED hours with today's group
+// marked (mist row + the word "Today", JS only), dated access slots, the doctors there, an outlined Call and a
+// link to the full week. Every fact comes from practice.ts.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import OpenNow from '../OpenNow.astro'
 import FactSlot from '../FactSlot.astro'
 import PhotoSlot from '../PhotoSlot.astro'
-import { offices, doctorBySlug, telHref, mapsHref, fullWeek, isShown } from '../../data/practice'
+import { offices, doctorBySlug, telHref, mapsHref, fullWeek, isShown, type Office } from '../../data/practice'
+// Same grouping as weekSummary, but keeps the day numbers so the script can mark today's group.
+const groups = (o: Office) => fullWeek(o).reduce<{ from: string; to: string; hours: string; days: number[] }[]>((acc, d) => {
+  const last = acc.at(-1)
+  if (last && last.hours === d.hours) return [...acc.slice(0, -1), { ...last, to: d.name, days: [...last.days, d.day] }]
+  return [...acc, { from: d.name, to: d.name, hours: d.hours, days: [d.day] }]
+}, [])
+const short = (n: string) => n.slice(0, 3)
 ---
-<Section id="offices" tone="indigo">
-  <h2 class="text-[1.9rem] md:text-4xl">Our two offices</h2>
-  <ul class="mt-8 space-y-6 md:mt-12 md:grid md:grid-cols-2 md:gap-6 md:space-y-0">
-    {offices.map(o => (
-      <li class="overflow-hidden rounded-3xl bg-white text-text">
-        <div class="relative px-3 pt-3">
-          <PhotoSlot fact={o.photo} class="aspect-[16/10] w-full" />
-          <span class="absolute -bottom-4 left-6 rounded-full border border-line bg-white px-4 py-1.5 text-sm font-semibold text-indigo">{o.neighborhood}</span>
+<Section id="offices">
+  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our two offices</h2>
+  <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
+    {offices.map(o => {
+      const place = o.neighborhood.split(',')[0]
+      const docs = o.doctors.map(doctorBySlug).filter(d => d !== undefined)
+      return (
+      <li class="flex flex-col rounded-[1.25rem] border border-line bg-white p-5 lg:p-5">
+        <PhotoSlot fact={o.photo} shape="arch" class="h-[10rem] w-full lg:h-[12rem]" width={1056} height={520} />
+        <div class="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+          <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
+          <p class="rounded-full bg-mist px-3 py-1 text-[0.82rem] font-medium text-text"><OpenNow office={o} fallback="Hours below" /></p>
         </div>
-        <div class="p-5 pt-8 md:p-8 md:pt-9">
-          <h3 class="text-xl text-indigo md:text-2xl"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
-          <p class="mt-3 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="pin" size={18} class="mt-1 shrink-0 text-muted" />{o.addr}</p>
-          <p class="mt-1.5 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="phone" size={18} class="mt-1 shrink-0 text-muted" /><a href={telHref(o.phone)} class="tabular inline-flex min-h-11 items-center font-semibold text-teal-deep underline underline-offset-4 -my-2.5">{o.phone}</a></p>
-          <p class="tabular mt-1.5 flex items-start gap-2 text-[0.97rem] font-medium text-indigo md:text-base"><Icon name="clock" size={18} class="mt-1 shrink-0 text-muted" /><OpenNow office={o} fallback="See the hours below" /></p>
-
-          <h4 class="mt-6 text-sm font-semibold text-indigo">Hours</h4>
-          <dl class="tabular mt-2 divide-y divide-line border-y border-line text-[0.93rem]" data-week>
-            {fullWeek(o).map(w => (
-              <div data-weekday={w.day} class="flex justify-between gap-4 px-2 py-1.5"><dt class="text-muted">{w.name}</dt><dd class="shrink-0 whitespace-nowrap text-right font-semibold text-indigo">{w.hours}</dd></div>
-            ))}
-          </dl>
-
-          {o.access.some(a => isShown(a.fact)) && (<>
-            <h4 class="mt-6 text-sm font-semibold text-indigo">Getting here</h4>
-            <ul class="mt-2 space-y-1 text-[0.95rem] text-indigo">
-              {o.access.filter(a => isShown(a.fact)).map(a => (<li><span class="text-muted">{a.label}:</span> <FactSlot fact={a.fact} /></li>))}
-            </ul>
-          </>)}
-
-          <h4 class="mt-6 text-sm font-semibold text-indigo">Doctors here</h4>
-          <p class="mt-1 text-[0.95rem]">
-            {o.doctors.map(doctorBySlug).filter(Boolean).map((d, i, all) => (<>{i > 0 && (i === all.length - 1 ? ' and ' : ', ')}<a href={`/doctors/${d!.slug}`} class="inline-flex min-h-11 items-center font-medium text-indigo underline underline-offset-4 -my-2.5">{d!.name}</a></>))}
-          </p>
-
-          <div class="mt-6 grid grid-cols-2 gap-3 md:max-w-sm">
-            <a href={telHref(o.phone)} aria-label={`Call the ${o.name}`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal-deep font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><Icon name="phone" size={18} />Call</a>
-            <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-line font-semibold text-indigo hover:border-indigo">Directions<Icon name="arrow" size={18} /></a>
+        <div class="mt-4 lg:grid lg:grid-cols-[15rem_1fr] lg:gap-x-6">
+          <div>
+            <address class="not-italic">{o.addr.split(', ').slice(0, 1)}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
+            <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Directions<Icon name="arrow" size={18} /></a>
+            <a href={`/locations/${o.slug}`} class="arrow-link ml-5 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4 lg:ml-0">Full week and details<Icon name="arrow" size={18} /></a>
+          </div>
+          <div class="mt-3 lg:mt-0">
+            <dl aria-label="Hours" class="tabular divide-y divide-line border-y border-line" data-week>
+              {groups(o).map(g => (
+                <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
+                  <dt>{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
+                  <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
+                </div>
+              ))}
+            </dl>
+            {o.access.some(a => isShown(a.fact)) && (
+              <dl class="mt-3 text-[0.88rem]">
+                {o.access.filter(a => isShown(a.fact)).map(a => (<div class="flex min-h-8 flex-wrap items-center gap-x-2"><dt class="text-muted">{a.label}</dt><dd><FactSlot fact={a.fact} /></dd></div>))}
+              </dl>
+            )}
           </div>
         </div>
+        <p class="mt-2 flex flex-wrap items-center gap-x-2 text-[0.82rem]"><span class="text-muted">Doctors here:</span>{docs.map(d => (<a href={`/doctors/${d.slug}`} class="inline-flex min-h-11 items-center font-medium text-indigo underline underline-offset-4">{d.name.replace('Dr. ', 'Dr. ')}</a>))}</p>
+        <div class="mt-auto pt-2">
+          <a href={telHref(o.phone)} class="btn flex min-h-12 items-center justify-center gap-2 rounded-full border-[1.5px] border-muted font-semibold text-teal-deep hover:border-teal-deep"><Icon name="phone" size={18} />Call {place}<span class="tabular">{o.phone}</span></a>
+        </div>
       </li>
-    ))}
+    )})}
   </ul>
 </Section>
 <script>
-  // Mark today's row in each week, in New York time (both offices are there). Without JS no row is marked.
+  // Mark today's group in New York time (both offices are there). Without JS no row is marked.
   const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short' }).format(new Date()))
-  document.querySelectorAll<HTMLElement>(`[data-week] [data-weekday="${day}"]`).forEach(row => {
-    row.classList.add('rounded-lg', 'bg-cream', 'font-bold')
+  document.querySelectorAll<HTMLElement>('[data-week] [data-days]').forEach(row => {
+    if (!row.dataset.days?.split(',').includes(String(day))) return
+    row.classList.add('bg-mist', 'font-semibold', 'text-indigo')
     row.setAttribute('aria-current', 'date')
+    row.querySelector('[data-today-label]')?.classList.remove('hidden')
   })
 </script>
