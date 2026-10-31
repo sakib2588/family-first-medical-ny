@@ -1,5 +1,14 @@
 # Session handoff: 2026-10-31
 
+## Start here on the PC
+1. Get the code. Fetch, then check out the findings branch: `git fetch origin` and `git checkout worktree-workspace-findings-2026-10-31` (draft PR #5). After PR #5 is merged, use `git checkout main` and `git pull` instead.
+2. Set up the site. Use Node 24 (see `.nvmrc`), then run `npm install`, `npm run dev` (http://localhost:4321) and `npm run build`. The laptop built cleanly on Node 26 too.
+3. Set the git identity for this repo on the PC. The repo config on the laptop has the AIUB address, which the global rules forbid for commits. Check `git config user.email`, then set `sakib2588` and `153538974+sakib2588@users.noreply.github.com`.
+4. Read the notes in this order: this file, then `02-analysis/design-critique-mobile-home-2026-10-31.md`, then `03-decisions/`.
+5. Memory: the laptop's Claude memory folder for this project was empty. The site notes are in `06-handoffs/memory/`. The other-projects notes (`claude-memory.zip`) exist only on the laptop, not in git.
+6. If the PC already has its own copy of `workspace/`, keep it. Do not overwrite it from git.
+7. Do not rewrite history or force-push. The open decisions are below.
+
 ## Repo state
 - Repo: sakib2588/family-first-medical-ny (private on GitHub).
 - `main` was at 923877d (PR #4 merged) when this branch was cut. The local checkout was fast-forwarded to match.
