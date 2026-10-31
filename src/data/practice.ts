@@ -19,7 +19,13 @@ export const practice = {
   demo: true,
   languages: toConfirm<string>('to confirm'),
   acceptingNew: toConfirm<string>('to confirm, with date'),
-  insurance: toConfirm<readonly string[]>('Accepted plans: list from the front desk, with the date checked'),
+  /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
+  insurance: {
+    publicPlans: toConfirm<string>('Medicaid and Child Health Plus taken? with date'),
+    plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
+    notTaken: toConfirm<string>('plans not taken, with date'),
+    selfPay: toConfirm<string>('self-pay option and how to ask'),
+  },
 } as const
 
 export type DayHours = readonly [day: string, hours: string]
@@ -36,6 +42,8 @@ export interface Office {
   photo: Fact<Photo>
   gallery: readonly Fact<Photo>[]
   googleProfile: Fact<string>
+  /** Shown as text once confirmed: "4.9 on Google, 128 reviews, checked 2026-11-02". No stars, no AggregateRating. */
+  googleRating: Fact<string>
   doctors: readonly string[]
 }
 
@@ -48,6 +56,7 @@ const officeExtras = (place: string, transitLabel: string) => ({
   photo: toConfirm<Photo>(`Photo: ${place} entrance from the street`),
   gallery: [toConfirm<Photo>('Photo: reception'), toConfirm<Photo>('Photo: waiting area'), toConfirm<Photo>('Photo: an exam room')],
   googleProfile: toConfirm<string>("Google profile link: to confirm"),
+  googleRating: toConfirm<string>(`${place} Google rating and review count, with date checked`),
 })
 
 export const offices: readonly Office[] = [
@@ -102,12 +111,16 @@ export const serviceGroups: readonly ServiceGroup[] = [
 
 const careAreasOf = (slug: string) => serviceGroups.filter(g => g.doctor === slug).flatMap(g => g.items.map(([name]) => name))
 
+const scheduleSlots = () => (['elmhurst', 'hicksville'] as const).map(office => ({ office, days: toConfirm<string>('days at this office') }))
+
 export interface Doctor {
   slug: string
   name: string
   role: string
   ages: string
   languages: Fact<string>
+  /** Days at each office (spec 4.9). The client confirms them (owner answer 3). */
+  schedule: readonly { office: Office['slug']; days: Fact<string> }[]
   /** Credential grid. Each value is checked before it shows: NY licence via NYSED Office of the Professions and
    *  the NY Physician Profile, board via ABMS or the specialty board, NPI via NPPES (medical-wellness overlay). */
   credentials: readonly { label: string; fact: Fact<string> }[]
@@ -122,6 +135,7 @@ export const doctors: readonly Doctor[] = [
   {
     slug: 'arjun-mehta', name: 'Dr. Arjun Mehta', role: 'Pediatrics and adolescent care', ages: 'Newborns to age 21',
     languages: toConfirm<string>('to confirm'),
+    schedule: scheduleSlots(),
     credentials: [
       { label: 'Medical school', fact: toConfirm<string>('to confirm') },
       { label: 'Residency', fact: toConfirm<string>('to confirm') },
@@ -137,6 +151,7 @@ export const doctors: readonly Doctor[] = [
   {
     slug: 'elena-park', name: 'Dr. Elena Park', role: 'Family medicine', ages: 'Teens and adults',
     languages: toConfirm<string>('to confirm'),
+    schedule: scheduleSlots(),
     credentials: [
       { label: 'Medical school', fact: toConfirm<string>('to confirm') },
       { label: 'Residency', fact: toConfirm<string>('to confirm') },
