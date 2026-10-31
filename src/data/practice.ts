@@ -42,6 +42,41 @@ export const offices: readonly Office[] = [
   },
 ]
 
+// Services by group: the ONE list of services. Home shows it; each doctor page shows its group's names
+// (careAreas below is derived from it). Sample list: the client confirms which services each office offers,
+// and the doctors review every line before launch (rulebook medical-wellness.5).
+export interface ServiceGroup {
+  id: 'children' | 'adults'
+  title: string
+  doctor: string
+  items: readonly (readonly [name: string, line: string])[]
+}
+
+export const serviceGroups: readonly ServiceGroup[] = [
+  {
+    id: 'children', title: 'Babies, children and teens', doctor: 'arjun-mehta',
+    items: [
+      ['Newborn care', 'The first weeks at home: feeding, weight and sleep.'],
+      ['Well-child visits', 'Regular visits that follow growth and development.'],
+      ['Vaccines', 'Shots on the recommended schedule.'],
+      ['Developmental screening', 'Milestone checks for speech, movement and learning.'],
+      ['School and sports physicals', 'The exam and the form in one visit.'],
+      ['Teen health', 'Checkups and health questions for teenagers.'],
+    ],
+  },
+  {
+    id: 'adults', title: 'Teens and adults', doctor: 'elena-park',
+    items: [
+      ['Annual physicals', 'A once-a-year visit to review your health.'],
+      ['Chronic condition care', 'Ongoing care and follow-up, visit to visit.'],
+      ["Women's health", 'Routine and preventive care.'],
+      ['Preventive screenings', 'Matched to your age and history, and tracked over time.'],
+    ],
+  },
+]
+
+const careAreasOf = (slug: string) => serviceGroups.filter(g => g.doctor === slug).flatMap(g => g.items.map(([name]) => name))
+
 export interface Doctor {
   slug: string
   name: string
@@ -61,7 +96,7 @@ export const doctors: readonly Doctor[] = [
     languages: 'English (others to be confirmed)',
     blurb: 'Well-child visits, vaccines, school and sports physicals, and calm answers for worried parents.',
     bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
-    careAreas: ['Well-child visits', 'Newborn care', 'Vaccines', 'School and sports physicals', 'Teen health'],
+    careAreas: careAreasOf('arjun-mehta'),
     img: '/demo/doctor-male.webp', alt: 'Dr. Arjun Mehta, pediatrician (stand-in photo)',
   },
   {
@@ -69,7 +104,7 @@ export const doctors: readonly Doctor[] = [
     languages: 'English (others to be confirmed)',
     blurb: "Annual physicals, chronic condition care, women's health and preventive screenings for adults.",
     bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
-    careAreas: ['Annual physicals', 'Chronic condition care', "Women's health", 'Preventive screenings'],
+    careAreas: careAreasOf('elena-park'),
     img: '/demo/doctor-female.webp', alt: 'Dr. Elena Park, family physician (stand-in photo)',
   },
 ]

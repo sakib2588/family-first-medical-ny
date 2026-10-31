@@ -1,50 +1,32 @@
 ---
+// Services in two groups, each led by its doctor (data: serviceGroups in practice.ts). A compact two-column
+// checklist on phones; the one-line descriptions stay in the data for a future Services page. No JS.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-const services = [
-  { title: 'Well-child visits', group: 'pediatrics', icon: 'calendar', text: 'Growth, development and routine checks at every stage.' },
-  { title: 'Newborn care', group: 'pediatrics', icon: 'baby', text: 'Feeding, weight and first-year guidance for new parents.' },
-  { title: 'Vaccinations', group: 'pediatrics', icon: 'shield', text: 'On-schedule immunizations with a clear plan for each visit.' },
-  { title: 'School and sports physicals', group: 'pediatrics', icon: 'check', text: 'Quick, thorough forms completed before the season starts.' },
-  { title: 'Developmental screening', group: 'pediatrics', icon: 'heart', text: 'Early checks for speech, motor and behavioral milestones.' },
-  { title: 'Annual physicals', group: 'family', icon: 'calendar', text: 'A yearly check-in, booked around your week.' },
-  { title: 'Chronic condition care', group: 'family', icon: 'heart', text: 'Steady follow-up for long-term conditions.' },
-  { title: "Women's health", group: 'family', icon: 'shield', text: 'Preventive and routine care for adult women.' },
-  { title: 'Preventive screenings', group: 'family', icon: 'check', text: 'Age-appropriate screenings, tracked over time.' },
-]
-const filters = [
-  { id: 'all', label: 'All services' },
-  { id: 'pediatrics', label: 'Pediatrics' },
-  { id: 'family', label: 'Family medicine' },
-]
+import { serviceGroups, doctorBySlug } from '../../data/practice'
 ---
-<Section id="services" tone="lavender">
-  <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
-  <h2 class="text-[1.9rem] md:text-4xl">Comprehensive care, every visit</h2>
-  <div class="mt-6 flex flex-wrap gap-2" role="group" aria-label="Filter services">
-    {filters.map((f, i) => (
-      <button type="button" data-filter={f.id} aria-pressed={i === 0 ? 'true' : 'false'} class="btn min-h-11 rounded-full border-2 border-line bg-white px-4 font-semibold text-indigo hover:border-indigo aria-pressed:border-teal-deep aria-pressed:bg-teal-deep aria-pressed:text-white">{f.label}</button>
-    ))}
+<Section id="services" tone="white">
+  <h2 class="text-[1.9rem] md:text-4xl">Visits and services</h2>
+  <p class="mt-2 text-sm text-muted">Sample list for the design demo. The doctors confirm every line before launch.</p>
+  <div class="mt-8 space-y-10 md:mt-12 md:grid md:grid-cols-2 md:gap-14 md:space-y-0">
+    {serviceGroups.map(g => {
+      const doc = doctorBySlug(g.doctor)
+      return (
+        <div>
+          <h3 class="text-xl md:text-2xl">{g.title}</h3>
+          {doc && <p class="mt-1 text-[0.95rem] text-muted">With {doc.name} · {doc.ages}</p>}
+          <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-line pt-4">
+            {g.items.map(([name]) => (
+              <li class="flex items-start gap-2 text-[0.97rem] font-medium leading-snug text-indigo"><Icon name="check" size={18} class="mt-0.5 shrink-0 text-teal-deep" />{name}</li>
+            ))}
+          </ul>
+        </div>
+      )
+    })}
   </div>
-  <ul class="mt-6 md:mt-8 md:grid md:grid-cols-2 md:gap-x-10">
-    {services.map(s => (
-      <li data-group={s.group} class="flex gap-4 border-b border-line py-4">
-        <span class="grid size-11 shrink-0 place-items-center rounded-xl bg-white text-teal-deep"><Icon name={s.icon} size={22} /></span>
-        <span>
-          <span class="block font-display text-[1.1rem] font-semibold leading-snug text-indigo">{s.title}</span>
-          <span class="mt-1 block text-[0.95rem] text-muted">{s.text}</span>
-        </span>
-      </li>
-    ))}
-  </ul>
-  <p class="mt-8 rounded-2xl bg-white p-5 text-[0.97rem] md:mt-12 md:max-w-xl md:text-base"><strong class="text-indigo">Feeling unwell?</strong> We hold room for same-day sick visits. Call the office and we will find a time.</p>
+  <p class="mt-10 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.97rem] md:mt-14 md:text-base">
+    <strong class="text-indigo">Feeling unwell?</strong>
+    <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a>
+    <span>In an emergency, call 911.</span>
+  </p>
 </Section>
-<script>
-  const pills = document.querySelectorAll<HTMLButtonElement>('[data-filter]')
-  const items = document.querySelectorAll<HTMLElement>('[data-group]')
-  pills.forEach(pill => pill.addEventListener('click', () => {
-    const choice = pill.dataset.filter
-    pills.forEach(p => p.setAttribute('aria-pressed', String(p === pill)))
-    items.forEach(item => { item.hidden = choice !== 'all' && item.dataset.group !== choice })
-  }))
-</script>
