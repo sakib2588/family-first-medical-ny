@@ -1,0 +1,4 @@
+# Design demo with placeholder content: keep every crawler out of every page.
+# Pages also carry <meta name="robots" content="noindex, nofollow">. Remove both only at launch.
+User-agent: *
+Disallow: /
