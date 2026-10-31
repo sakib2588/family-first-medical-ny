@@ -15,7 +15,7 @@ import OpenNow from '../OpenNow.astro'
         <p class="mt-3 flex items-start gap-2 text-[0.97rem] md:text-base"><Icon name="pin" size={18} class="mt-1 shrink-0 text-teal-deep" />{o.addr}</p>
         <p class="tabular mt-2 flex items-start gap-2 text-[0.97rem] font-medium text-indigo md:text-base"><Icon name="clock" size={18} class="mt-1 shrink-0 text-teal-deep" /><OpenNow office={o} /></p>
         <dl class="tabular mt-5 divide-y divide-line border-y border-line text-[0.95rem]">
-          {o.week.map(([day, hours]) => (<div class="flex justify-between gap-4 py-2.5"><dt class="text-muted">{day}</dt><dd class="font-semibold text-indigo">{hours}</dd></div>))}
+          {o.week.map(([day, hours]) => (<div class="flex justify-between gap-4 py-2.5"><dt class="text-muted">{day}</dt><dd class="shrink-0 whitespace-nowrap text-right font-semibold text-indigo">{hours}</dd></div>))}
         </dl>
         <div class="mt-5 grid grid-cols-2 gap-3 md:max-w-sm">
           <a href={telHref(o.phone)} aria-label={`Call the ${o.name}`} class="btn inline-flex min-h-12 items-center justify-center gap-2 rounded-full border-2 border-teal-deep font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><Icon name="phone" size={18} />Call</a>

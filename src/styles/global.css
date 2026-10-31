@@ -7,19 +7,25 @@
    Every text/background pair was contrast-checked 2026-10-31:
    - brand teal #0e8a8a with white text is only 4.18:1 (fails AA), so buttons use --color-teal-deep (5.97:1);
      brand teal is decoration or large display text on indigo only.
-   - gold #d9a02c is decoration, or text on indigo (7.61:1); never gold text on cream. */
+   - gold #d9a02c is decoration, or text on indigo (7.61:1); never gold text on cream.
+   Three colours, one job each (workspace/03-decisions/2026-10-31-home-colour-and-hero.md):
+   dark base = indigo; bright accent = aqua (on indigo only); action = gold button with indigo text on
+   indigo grounds, teal-deep button with white text on light grounds. Cream and white are the neutrals. */
 @theme {
   --color-indigo: #17123a;       /* headings, dark sections. 16.6:1 on cream */
   --color-indigo-soft: #231c52;
   --color-teal: #0e8a8a;         /* brand teal: decoration, large text on indigo */
   --color-teal-deep: #0b6f6f;    /* THE filled primary action. white on it 5.97:1 */
   --color-teal-darker: #0a5656;  /* hover / pressed */
-  --color-gold: #d9a02c;         /* accent line, highlights on indigo */
+  --color-gold: #d9a02c;         /* accent line, highlights on indigo; the action colour on indigo grounds */
+  --color-gold-light: #e8b54a;   /* hover / pressed for the gold action */
   --color-cream: #faf7ef;        /* page ground */
   --color-lavender: #f2eefc;     /* alternate section ground */
   --color-text: #3d3a58;         /* body, 10.1:1 on cream */
   --color-muted: #5b5878;        /* secondary text, 6.3:1 on cream (minimum allowed) */
   --color-line: #e3ddf0;
+  --color-aqua: #5fc4c4;         /* bright accent: words and icons on indigo only (8.6:1). Never on light grounds */
+  --color-on-dark: #c9c4e3;      /* body text on indigo, 10.5:1 */
 
   --font-display: 'Fraunces Variable', Georgia, serif;
   --font-sans: 'Figtree Variable', system-ui, sans-serif;
@@ -29,6 +35,8 @@
 html { background: var(--color-cream); color: var(--color-text); font-family: var(--font-sans); font-size: 17px; line-height: 1.6; }
 h1, h2, h3 { font-family: var(--font-display); color: var(--color-indigo); font-weight: 560; line-height: 1.15; }
 :focus-visible { outline: 3px solid var(--color-indigo); outline-offset: 3px; border-radius: 4px; }
+.on-dark :focus-visible { outline-color: var(--color-aqua); } /* an indigo ring is invisible on indigo */
+.on-dark .bg-white :focus-visible { outline-color: var(--color-indigo); } /* white cards inside dark bands: aqua is 2.06:1 on white */
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 /* Polish (skill: make-interfaces-feel-better) */
 html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; scroll-behavior: smooth; }

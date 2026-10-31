@@ -9,17 +9,17 @@ const steps = [
   'Together you pick a time at the office you chose.',
 ]
 ---
-<section id="request" class="bg-lavender px-5 py-14 md:px-8 md:py-20">
+<section id="request" class="bg-white px-5 py-14 md:px-8 md:py-20">
   <div class="mx-auto max-w-[1160px] md:grid md:grid-cols-2 md:gap-16">
     <div>
       <h2 class="text-[1.9rem] md:text-4xl">Request a visit</h2>
       <ol class="mt-6 space-y-4">
         {steps.map((s, i) => (
-          <li class="flex gap-4"><span class="tabular grid size-8 shrink-0 place-items-center rounded-full bg-white font-display font-semibold text-indigo">{i + 1}</span><span class="pt-0.5 md:text-lg">{s}</span></li>
+          <li class="flex gap-4"><span class="tabular grid size-8 shrink-0 place-items-center rounded-full bg-indigo font-display font-semibold text-white">{i + 1}</span><span class="pt-0.5 md:text-lg">{s}</span></li>
         ))}
       </ol>
       <p class="mt-6 text-[0.97rem]">Need care today? <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a></p>
     </div>
-    <div class="mt-8 rounded-[2rem] bg-white p-5 md:mt-0 md:p-8"><RequestForm /></div>
+    <div class="mt-8 rounded-[2rem] bg-cream p-5 md:mt-0 md:p-8"><RequestForm /></div>
   </div>
 </section>

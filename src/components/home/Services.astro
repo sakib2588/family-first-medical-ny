@@ -1,11 +1,11 @@
 ---
-// Services in two groups, each led by its doctor (data: serviceGroups in practice.ts). Plain list, no JS,
-// no icon per row: the grouping does the work. Sick visits route to a call, not to a claim.
+// Services in two groups, each led by its doctor (data: serviceGroups in practice.ts). A compact two-column
+// checklist on phones; the one-line descriptions stay in the data for a future Services page. No JS.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import { serviceGroups, doctorBySlug } from '../../data/practice'
 ---
-<Section id="services" tone="lavender">
+<Section id="services" tone="white">
   <h2 class="text-[1.9rem] md:text-4xl">Visits and services</h2>
   <p class="mt-2 text-sm text-muted">Sample list for the design demo. The doctors confirm every line before launch.</p>
   <div class="mt-8 space-y-10 md:mt-12 md:grid md:grid-cols-2 md:gap-14 md:space-y-0">
@@ -15,12 +15,9 @@ import { serviceGroups, doctorBySlug } from '../../data/practice'
         <div>
           <h3 class="text-xl md:text-2xl">{g.title}</h3>
           {doc && <p class="mt-1 text-[0.95rem] text-muted">With {doc.name} · {doc.ages}</p>}
-          <ul class="mt-4 divide-y divide-line border-y border-line">
-            {g.items.map(([name, line]) => (
-              <li class="py-3.5">
-                <span class="block font-semibold text-indigo">{name}</span>
-                <span class="mt-0.5 block text-[0.95rem] text-muted">{line}</span>
-              </li>
+          <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-line pt-4">
+            {g.items.map(([name]) => (
+              <li class="flex items-start gap-2 text-[0.97rem] font-medium leading-snug text-indigo"><Icon name="check" size={18} class="mt-0.5 shrink-0 text-teal-deep" />{name}</li>
             ))}
           </ul>
         </div>
