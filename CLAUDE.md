@@ -7,6 +7,10 @@ Paid-client website: a family medicine and pediatrics practice site for AIMSS (a
 2. `workspace/06-handoffs/cloud-readiness-plan.md` (what the cloud lacks and how we replaced it).
 3. `workspace/04-logs/LOG.md` (append-only history), `workspace/03-decisions/` (owner decisions, home-demo-direction), `workspace/02-analysis/improvement-plan.md` (ranked work).
 4. Notes carried over from the laptop's memory: `workspace/06-handoffs/memory/`.
+5. **Rulebook:** `workspace/_site1-rulebook/README.md` (read-only copy of the owner's Site1 playbook: question kits, U00-U24 modules, medical and nonprofit overlays, compliance red lines, design gates). It is the source for the questions you ask the owner.
+
+## How the owner works (follow this)
+One page at a time, mobile first (390 px) then desktop, small tasks, a phone screenshot after each. Before building a page, ask the owner questions drawn from the rulebook (`playbook/kit/intake-questionnaire.md`, the U-modules, `overlays/vertical/medical-wellness.md`), wait for answers, then build and screenshot. AI never deploys and never handles secrets: the owner connects Cloudflare, tokens and any form endpoint.
 
 ## Commands
 `npm install` · `npm run dev` (:4321) · `npm run check` (build + fail on any external resource or dead link; MUST pass before every PR) · `cd workspace/tools && npm install && node qa-pages.mjs` (phone + desktop QA, dev server must run).
