@@ -94,3 +94,12 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 /* Arrow nudge (motion #3) */
 .arrow-link svg { transition: transform var(--m-state) var(--ease-state); }
 .arrow-link:hover svg, .arrow-link:focus-visible svg { transform: translateX(3px); }
+/* Signature (motion #7): the care-by-age line draws as it scrolls into view. Transform only; static when unsupported or reduced. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .age-line__rule { transform-origin: top; animation: age-line-y linear both; animation-timeline: view(); animation-range: entry 10% cover 50%; }
+    @media (min-width: 64rem) { .age-line__rule { transform-origin: left; animation-name: age-line-x; } }
+  }
+}
+@keyframes age-line-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes age-line-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }

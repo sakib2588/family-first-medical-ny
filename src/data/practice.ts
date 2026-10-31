@@ -168,10 +168,10 @@ export const doctors: readonly Doctor[] = [
 
 // Care by age: life stages in order, each with the doctor who leads it (sample: each doctor confirms the ranges).
 export const ageBands = [
-  { range: 'Birth to 12 months', title: 'Newborns and babies', line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
-  { range: '1 to 12 years', title: 'Children', line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
-  { range: '13 to 21 years', title: 'Teens', line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
-  { range: '22 and up', title: 'Adults and seniors', line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
+  { range: 'Birth to 12 months', title: 'Newborns and babies', photo: toConfirm<Photo>('Photo: baby'), line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
+  { range: '1 to 12 years', title: 'Children', photo: toConfirm<Photo>('Photo: child'), line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
+  { range: '13 to 21 years', title: 'Teens', photo: toConfirm<Photo>('Photo: teen'), line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
+  { range: '22 and up', title: 'Adults and seniors', photo: toConfirm<Photo>('Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
 ] as const
 
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
