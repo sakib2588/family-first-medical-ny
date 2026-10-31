@@ -1,5 +1,6 @@
 ---
 import Section from '../Section.astro'
+import Icon from '../Icon.astro'
 const plans = ['Medicaid', 'Medicare', 'Major commercial plans', 'Self-pay']
 ---
 <Section id="insurance">
@@ -14,6 +15,7 @@ const plans = ['Medicaid', 'Medicare', 'Major commercial plans', 'Self-pay']
         {plans.map(p => (<li class="rounded-full border border-line bg-white px-4 py-2 text-[0.97rem] font-medium text-indigo md:px-5 md:py-3 md:text-lg">{p}</li>))}
       </ul>
       <p class="mt-4 text-sm text-muted">Sample list for the design demo. The real list will show the date it was last confirmed.</p>
+      <a href="#request" class="btn mt-6 inline-flex min-h-12 items-center gap-2 font-semibold text-teal-deep underline underline-offset-4">Check your plan with us <Icon name="arrow" size={18} /></a>
     </div>
   </div>
 </Section>
