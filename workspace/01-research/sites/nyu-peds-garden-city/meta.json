@@ -1,0 +1,2552 @@
+{
+  "url": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+  "slug": "nyu-peds-garden-city",
+  "capturedAt": "2026-10-30T17:40:16.588Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 36756,
+      "consoleErrors": [
+        "Failed to initialize window.PulseInsightsObject",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "title": "NYU Langone Pediatric Associates—Garden City | NYU Langone Health",
+      "h1": [
+        "NYU Langone Pediatric Associates —Garden City"
+      ],
+      "h2": [
+        "Our Team of Doctors",
+        "Our Location",
+        "For Our Patients",
+        "Explore NYU Langone"
+      ],
+      "links": [
+        {
+          "text": "Websites Privacy Policy",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Websites Privacy Policy",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "If you need help accessing our website, call 855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "Accessibility Menu not currently available on this page. If you need help, call ",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "Skip to main content",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Care",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman School of Medicine",
+          "href": "https://med.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login . Opens in a new tab",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://nyulangone.org/patient-forms",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Care",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman School of Medicine",
+          "href": "https://med.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/ai-assistant?iid=int_shared_ai_assistant_global_nav",
+          "inFooter": false
+        },
+        {
+          "text": "Back to Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://nyulangone.org/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Care & Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Our Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Brain Care",
+          "href": "https://nyulangone.org/brain",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://nyulangone.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Heart",
+          "href": "https://nyulangone.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedics",
+          "href": "https://nyulangone.org/care-services/nyu-langone-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics & Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://nyulangone.org/care-services/primary-care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Womenâ€™s Health",
+          "href": "https://nyulangone.org/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Brain Care",
+          "href": "https://nyulangone.org/brain",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://nyulangone.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Heart",
+          "href": "https://nyulangone.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedics",
+          "href": "https://nyulangone.org/care-services/nyu-langone-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics & Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://nyulangone.org/care-services/primary-care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Womenâ€™s Health",
+          "href": "https://nyulangone.org/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://nyulangone.org/care-services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care on Demand (Primary Care)",
+          "href": "https://nyulangone.org/care-services/care-on-demand",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedic Immediate Care",
+          "href": "https://nyulangone.org/locations/samuels-orthopedic-immediate-care-center",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Same-Day Care",
+          "href": "https://nyulangone.org/care-services/same-day-care-at-nyu-langone",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://nyulangone.org/care-services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care on Demand (Primary Care)",
+          "href": "https://nyulangone.org/care-services/care-on-demand",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedic Immediate Care",
+          "href": "https://nyulangone.org/locations/samuels-orthopedic-immediate-care-center",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Same-Day Care",
+          "href": "https://nyulangone.org/care-services/same-day-care-at-nyu-langone",
+          "inFooter": false
+        },
+        {
+          "text": "View Imaging Services",
+          "href": "https://nyulangone.org/care-services/imaging-radiology",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app?cid=ocp_org_hp_fw_banner_right_vuc&_branch_match_id=933446481085886260&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz6sszUnMS8%2FPS9VLLCjQy8nMy9bPLXIMLXL1SM%2BMAgBLYe0OJgAAAA%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "Video Doctor Visits",
+          "href": "https://nyulangone.org/care-services/video-doctor-visits",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app?cid=ocp_org_hp_fw_banner_right_vuc&_branch_match_id=933446481085886260&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz6sszUnMS8%2FPS9VLLCjQy8nMy9bPLXIMLXL1SM%2BMAgBLYe0OJgAAAA%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "Video Doctor Visits",
+          "href": "https://nyulangone.org/care-services/video-doctor-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://nyulangone.org/locations/directory",
+          "inFooter": false
+        },
+        {
+          "text": "Manhattan",
+          "href": "https://nyulangone.org/locations/directory/manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn",
+          "href": "https://nyulangone.org/locations/directory/brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://nyulangone.org/locations/directory/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Staten Island",
+          "href": "https://nyulangone.org/locations/directory/staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "Nassau",
+          "href": "https://nyulangone.org/locations/directory/nassau-county",
+          "inFooter": false
+        },
+        {
+          "text": "Suffolk County & East End",
+          "href": "https://nyulangone.org/locations/directory/suffolk-county-east-end",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester & Hudson Valley",
+          "href": "https://nyulangone.org/locations/directory/westchester-county-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://nyulangone.org/locations/directory/connecticut",
+          "inFooter": false
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://nyulangone.org/locations/directory/new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "Florida",
+          "href": "https://nyulangone.org/locations/directory/florida",
+          "inFooter": false
+        },
+        {
+          "text": "Manhattan",
+          "href": "https://nyulangone.org/locations/directory/manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn",
+          "href": "https://nyulangone.org/locations/directory/brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://nyulangone.org/locations/directory/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Staten Island",
+          "href": "https://nyulangone.org/locations/directory/staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "Nassau",
+          "href": "https://nyulangone.org/locations/directory/nassau-county",
+          "inFooter": false
+        },
+        {
+          "text": "Suffolk County & East End",
+          "href": "https://nyulangone.org/locations/directory/suffolk-county-east-end",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester & Hudson Valley",
+          "href": "https://nyulangone.org/locations/directory/westchester-county-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://nyulangone.org/locations/directory/connecticut",
+          "inFooter": false
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://nyulangone.org/locations/directory/new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "Florida",
+          "href": "https://nyulangone.org/locations/directory/florida",
+          "inFooter": false
+        },
+        {
+          "text": "Tisch Hospital",
+          "href": "https://nyulangone.org/locations/tisch-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Kimmel Pavilion",
+          "href": "https://nyulangone.org/locations/kimmel-pavilion",
+          "inFooter": false
+        },
+        {
+          "text": "Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedic Hospital",
+          "href": "https://nyulangone.org/locations/nyu-langone-orthopedic-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Brooklyn",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Long Island",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Suffolk",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-suffolk",
+          "inFooter": false
+        },
+        {
+          "text": "Tisch Hospital",
+          "href": "https://nyulangone.org/locations/tisch-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Kimmel Pavilion",
+          "href": "https://nyulangone.org/locations/kimmel-pavilion",
+          "inFooter": false
+        },
+        {
+          "text": "Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedic Hospital",
+          "href": "https://nyulangone.org/locations/nyu-langone-orthopedic-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Brooklyn",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Long Island",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Suffolk",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-suffolk",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions We Treat",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": false
+        },
+        {
+          "text": "View All Conditions",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Airway, Breathing & Lung Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/airway-breathing-lung",
+          "inFooter": false
+        },
+        {
+          "text": "Bone, Joint & Muscle Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/bone-joint-muscle",
+          "inFooter": false
+        },
+        {
+          "text": "Brain & Nervous System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/brain-nervous-system",
+          "inFooter": false
+        },
+        {
+          "text": "Cancers, Tumors & Blood Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/cancers-tumors-blood-disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Diabetes & Other Endocrine Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/diabetes-other-endocrine",
+          "inFooter": false
+        },
+        {
+          "text": "Ear, Nose, Throat & Mouth Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/ear-nose-throat-mouth",
+          "inFooter": false
+        },
+        {
+          "text": "Eye Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/eye-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Gastrointestinal & Liver Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/gastrointestinal-liver",
+          "inFooter": false
+        },
+        {
+          "text": "Genetic & Chromosomal Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/genetic-chromosomal",
+          "inFooter": false
+        },
+        {
+          "text": "Heart & Vascular Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/heart-vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Immune System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/immune-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Infectious Diseases",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/infectious-diseases",
+          "inFooter": false
+        },
+        {
+          "text": "Kidney, Bladder & Urinary Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/kidney-bladder-urinary",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Behavioral Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/mental-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & Weight Management",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/nutrition-weight-management",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/pediatric-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Reproductive & Sexual Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/reproductive-sexual-health",
+          "inFooter": false
+        },
+        {
+          "text": "Skin & Cosmetic Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/skin-cosmetic",
+          "inFooter": false
+        },
+        {
+          "text": "Airway, Breathing & Lung Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/airway-breathing-lung",
+          "inFooter": false
+        },
+        {
+          "text": "Bone, Joint & Muscle Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/bone-joint-muscle",
+          "inFooter": false
+        },
+        {
+          "text": "Brain & Nervous System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/brain-nervous-system",
+          "inFooter": false
+        },
+        {
+          "text": "Cancers, Tumors & Blood Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/cancers-tumors-blood-disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Diabetes & Other Endocrine Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/diabetes-other-endocrine",
+          "inFooter": false
+        },
+        {
+          "text": "Ear, Nose, Throat & Mouth Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/ear-nose-throat-mouth",
+          "inFooter": false
+        },
+        {
+          "text": "Eye Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/eye-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Gastrointestinal & Liver Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/gastrointestinal-liver",
+          "inFooter": false
+        },
+        {
+          "text": "Genetic & Chromosomal Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/genetic-chromosomal",
+          "inFooter": false
+        },
+        {
+          "text": "Heart & Vascular Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/heart-vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Immune System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/immune-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Infectious Diseases",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/infectious-diseases",
+          "inFooter": false
+        },
+        {
+          "text": "Kidney, Bladder & Urinary Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/kidney-bladder-urinary",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Behavioral Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/mental-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & Weight Management",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/nutrition-weight-management",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/pediatric-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Reproductive & Sexual Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/reproductive-sexual-health",
+          "inFooter": false
+        },
+        {
+          "text": "Skin & Cosmetic Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/skin-cosmetic",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Support",
+          "href": "https://nyulangone.org/patient-family-support",
+          "inFooter": false
+        },
+        {
+          "text": "View All Support",
+          "href": "https://nyulangone.org/patient-family-support",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/patient-family-support/what-to-bring-for-your-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctor's Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://nyulangone.org/patient-family-support/request-your-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Access",
+          "href": "https://nyulangone.org/patient-family-support/sharing-requesting-access-to-nyu-langone-health-mychart",
+          "inFooter": false
+        },
+        {
+          "text": "For New & Expecting Parents",
+          "href": "https://nyulangone.org/patient-family-support/for-new-expecting-parents",
+          "inFooter": false
+        },
+        {
+          "text": "Billing, Insurance & Financial Assistance",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/patient-family-support/what-to-bring-for-your-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctor's Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://nyulangone.org/patient-family-support/request-your-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Access",
+          "href": "https://nyulangone.org/patient-family-support/sharing-requesting-access-to-nyu-langone-health-mychart",
+          "inFooter": false
+        },
+        {
+          "text": "For New & Expecting Parents",
+          "href": "https://nyulangone.org/patient-family-support/for-new-expecting-parents",
+          "inFooter": false
+        },
+        {
+          "text": "Billing, Insurance & Financial Assistance",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctorâ€™s Office Visit",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-doctors-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Child Life Services",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/child-life-services",
+          "inFooter": false
+        },
+        {
+          "text": "Social Work & Care Management",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/social-work-care-management-services-for-children",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctorâ€™s Office Visit",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-doctors-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Child Life Services",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/child-life-services",
+          "inFooter": false
+        },
+        {
+          "text": "Social Work & Care Management",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/social-work-care-management-services-for-children",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours & Policies",
+          "href": "https://nyulangone.org/patient-family-support/visitor-information",
+          "inFooter": false
+        },
+        {
+          "text": "Language & Disability Services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Caring for the LGBTQ+ Community",
+          "href": "https://nyulangone.org/patient-family-support/caring-for-the-lgbtq-community",
+          "inFooter": false
+        },
+        {
+          "text": "Veterans & Military Families",
+          "href": "https://nyulangone.org/patient-family-support/for-veterans-military-families",
+          "inFooter": false
+        },
+        {
+          "text": "International Services",
+          "href": "https://nyulangone.org/patient-family-support/international-patient-services",
+          "inFooter": false
+        },
+        {
+          "text": "Language & Disability Services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Caring for the LGBTQ+ Community",
+          "href": "https://nyulangone.org/patient-family-support/caring-for-the-lgbtq-community",
+          "inFooter": false
+        },
+        {
+          "text": "Veterans & Military Families",
+          "href": "https://nyulangone.org/patient-family-support/for-veterans-military-families",
+          "inFooter": false
+        },
+        {
+          "text": "International Services",
+          "href": "https://nyulangone.org/patient-family-support/international-patient-services",
+          "inFooter": false
+        },
+        {
+          "text": "Ask AI",
+          "href": "https://nyulangone.org/ai-assistant?iid=int_shared_ai_assistant_global_nav",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login . Opens in a new tab",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://nyulangone.org/patient-forms",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "1000 Franklin Avenue, Suite 100 Garden City, NY 11530",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue+Garden+City%2C+NY+11530",
+          "inFooter": false
+        },
+        {
+          "text": "View Location Details",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city#visit",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Associates—Garden City",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "interpretation services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "Leilani Balagot Chingcuangco, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1942269378/leilani-balagot-chingcuangco",
+          "inFooter": false
+        },
+        {
+          "text": "Douglas A. Dougherty, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1962406538/douglas-a-dougherty",
+          "inFooter": false
+        },
+        {
+          "text": "Arianna Lanzetta, NP Pediatrician",
+          "href": "https://nyulangone.org/doctors/1073854709/arianna-lanzetta",
+          "inFooter": false
+        },
+        {
+          "text": "Jeffrey W. Lieberman, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1508869207/jeffrey-w-lieberman",
+          "inFooter": false
+        },
+        {
+          "text": "Clara E. Mayoral, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1093774432/clara-e-mayoral",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "Leilani Balagot Chingcuangco, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1942269378/leilani-balagot-chingcuangco",
+          "inFooter": false
+        },
+        {
+          "text": "Douglas A. Dougherty, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1962406538/douglas-a-dougherty",
+          "inFooter": false
+        },
+        {
+          "text": "Arianna Lanzetta, NP Pediatrician",
+          "href": "https://nyulangone.org/doctors/1073854709/arianna-lanzetta",
+          "inFooter": false
+        },
+        {
+          "text": "Jeffrey W. Lieberman, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1508869207/jeffrey-w-lieberman",
+          "inFooter": false
+        },
+        {
+          "text": "Clara E. Mayoral, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1093774432/clara-e-mayoral",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "View All 6 Doctors & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "View Information About Your Doctor’s Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Associates—Garden City",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "646-929-7800",
+          "href": "tel:646-929-7800",
+          "inFooter": false
+        },
+        {
+          "text": "browse our specialists",
+          "href": "https://nyulangone.org/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions We Treat",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": true
+        },
+        {
+          "text": "Our Story",
+          "href": "https://nyulangone.org/our-story",
+          "inFooter": true
+        },
+        {
+          "text": "Jobs . Opens in a new tab",
+          "href": "https://jobs.nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Vendor & Supplier Information",
+          "href": "https://nyulangone.org/vendor-supplier-information",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": true
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://nyulangone.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Blood Donation",
+          "href": "https://nyulangone.org/blood-donation",
+          "inFooter": true
+        },
+        {
+          "text": "Organ & Tissue Donation",
+          "href": "https://nyulangone.org/organ-tissue-donation",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app",
+          "inFooter": true
+        },
+        {
+          "text": "NewsHub . Opens in a new tab",
+          "href": "https://nyulangone.org/news",
+          "inFooter": true
+        },
+        {
+          "text": "Press Releases . Opens in a new tab",
+          "href": "https://nyulangone.org/news/press-releases",
+          "inFooter": true
+        },
+        {
+          "text": "Media Resources . Opens in a new tab",
+          "href": "https://nyulangone.org/news/media-resources",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Grossman School of Medicine . Opens in a new tab",
+          "href": "https://med.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine . Opens in a new tab",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Health Sciences Library . Opens in a new tab",
+          "href": "https://hsl.med.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "New York University . Opens in a new tab",
+          "href": "https://www.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on Facebook. Opens in a new window.",
+          "href": "https://www.facebook.com/NYULangone",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on X. Opens in a new window.",
+          "href": "https://x.com/nyulangone",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on Instagram. Opens in a new window.",
+          "href": "https://www.instagram.com/nyulangone/",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on YouTube. Opens in a new window.",
+          "href": "https://www.youtube.com/c/NYULangoneHealth",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on LinkedIn. Opens in a new window.",
+          "href": "https://www.linkedin.com/company/nyulangonehealth",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Price Transparency",
+          "href": "https://med.nyu.edu/standard-charges/",
+          "inFooter": true
+        },
+        {
+          "text": "Policies & Disclaimers",
+          "href": "https://nyulangone.org/policies-disclaimers",
+          "inFooter": true
+        },
+        {
+          "text": "Public Notices",
+          "href": "https://nyulangone.org/public-notices",
+          "inFooter": true
+        },
+        {
+          "text": "Websites Privacy Practices",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://nyulangone.org/policies-disclaimers/accessibility",
+          "inFooter": true
+        },
+        {
+          "text": "855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Explore NYU Langone Patient Care Expand menu About Us Expand menu How to Help Expand menu Stay Connected Expand menu Education & Research Expand menu Follow Us Follow us on Facebook. Opens in a new window. Follow us on X. Opens in a new window. Follow us on Instagram. Opens in a new window. Follow us on YouTube. Opens in a new window. Follow us on LinkedIn. Opens in a new window. © 2026 NYU Langone Hospitals Price Transparency Policies & Disclaimers Public Notices Websites Privacy Practices Accessibility Accessibility Help Line: 855-698-9991",
+      "telLinks": [
+        {
+          "text": "If you need help accessing our website, call 855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "Accessibility Menu not currently available on this page. If you need help, call ",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "646-929-7800",
+          "href": "tel:646-929-7800",
+          "inFooter": false
+        },
+        {
+          "text": "855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://nyulangone.org/search",
+          "fields": [
+            "input:search:q",
+            "button:submit:",
+            "button:reset:"
+          ]
+        },
+        {
+          "action": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "fields": [
+            "input:file:file",
+            "input:hidden:filename"
+          ]
+        }
+      ],
+      "imgNoAlt": 17,
+      "images": 22,
+      "scrollHeight": 3590,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.uwy umb userway_p3 utb",
+        "DIV.userway_buttons_wrapper",
+        "IFRAME.uwif userway_p3",
+        "DIV.embeddedServiceHelpButton embeddedServic",
+        "DIV.helpButton"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 39129,
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "title": "NYU Langone Pediatric Associates—Garden City | NYU Langone Health",
+      "h1": [
+        "NYU Langone Pediatric Associates —Garden City"
+      ],
+      "h2": [
+        "Our Team of Doctors",
+        "Our Location",
+        "For Our Patients",
+        "Explore NYU Langone"
+      ],
+      "links": [
+        {
+          "text": "Websites Privacy Policy",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Websites Privacy Policy",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "If you need help accessing our website, call 855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "Skip to main content",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Care",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman School of Medicine",
+          "href": "https://med.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login . Opens in a new tab",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://nyulangone.org/patient-forms",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Care",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman School of Medicine",
+          "href": "https://med.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Ask AI",
+          "href": "https://nyulangone.org/ai-assistant?iid=int_shared_ai_assistant_global_nav",
+          "inFooter": false
+        },
+        {
+          "text": "Back to Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://nyulangone.org/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Care & Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Our Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Brain Care",
+          "href": "https://nyulangone.org/brain",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://nyulangone.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Heart",
+          "href": "https://nyulangone.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedics",
+          "href": "https://nyulangone.org/care-services/nyu-langone-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics & Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://nyulangone.org/care-services/primary-care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Womenâ€™s Health",
+          "href": "https://nyulangone.org/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Brain Care",
+          "href": "https://nyulangone.org/brain",
+          "inFooter": false
+        },
+        {
+          "text": "Cancer Care",
+          "href": "https://nyulangone.org/cancer",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Heart",
+          "href": "https://nyulangone.org/heart",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedics",
+          "href": "https://nyulangone.org/care-services/nyu-langone-orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics & Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://nyulangone.org/care-services/primary-care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Womenâ€™s Health",
+          "href": "https://nyulangone.org/womens-health",
+          "inFooter": false
+        },
+        {
+          "text": "View All Services",
+          "href": "https://nyulangone.org/care-services",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://nyulangone.org/care-services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care on Demand (Primary Care)",
+          "href": "https://nyulangone.org/care-services/care-on-demand",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedic Immediate Care",
+          "href": "https://nyulangone.org/locations/samuels-orthopedic-immediate-care-center",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Same-Day Care",
+          "href": "https://nyulangone.org/care-services/same-day-care-at-nyu-langone",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://nyulangone.org/care-services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care on Demand (Primary Care)",
+          "href": "https://nyulangone.org/care-services/care-on-demand",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedic Immediate Care",
+          "href": "https://nyulangone.org/locations/samuels-orthopedic-immediate-care-center",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Same-Day Care",
+          "href": "https://nyulangone.org/care-services/same-day-care-at-nyu-langone",
+          "inFooter": false
+        },
+        {
+          "text": "View Imaging Services",
+          "href": "https://nyulangone.org/care-services/imaging-radiology",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app?cid=ocp_org_hp_fw_banner_right_vuc&_branch_match_id=933446481085886260&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz6sszUnMS8%2FPS9VLLCjQy8nMy9bPLXIMLXL1SM%2BMAgBLYe0OJgAAAA%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "Video Doctor Visits",
+          "href": "https://nyulangone.org/care-services/video-doctor-visits",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app?cid=ocp_org_hp_fw_banner_right_vuc&_branch_match_id=933446481085886260&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz6sszUnMS8%2FPS9VLLCjQy8nMy9bPLXIMLXL1SM%2BMAgBLYe0OJgAAAA%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "Video Doctor Visits",
+          "href": "https://nyulangone.org/care-services/video-doctor-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://nyulangone.org/locations/directory",
+          "inFooter": false
+        },
+        {
+          "text": "Manhattan",
+          "href": "https://nyulangone.org/locations/directory/manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn",
+          "href": "https://nyulangone.org/locations/directory/brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://nyulangone.org/locations/directory/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Staten Island",
+          "href": "https://nyulangone.org/locations/directory/staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "Nassau",
+          "href": "https://nyulangone.org/locations/directory/nassau-county",
+          "inFooter": false
+        },
+        {
+          "text": "Suffolk County & East End",
+          "href": "https://nyulangone.org/locations/directory/suffolk-county-east-end",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester & Hudson Valley",
+          "href": "https://nyulangone.org/locations/directory/westchester-county-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://nyulangone.org/locations/directory/connecticut",
+          "inFooter": false
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://nyulangone.org/locations/directory/new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "Florida",
+          "href": "https://nyulangone.org/locations/directory/florida",
+          "inFooter": false
+        },
+        {
+          "text": "Manhattan",
+          "href": "https://nyulangone.org/locations/directory/manhattan",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn",
+          "href": "https://nyulangone.org/locations/directory/brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "Queens",
+          "href": "https://nyulangone.org/locations/directory/queens",
+          "inFooter": false
+        },
+        {
+          "text": "Staten Island",
+          "href": "https://nyulangone.org/locations/directory/staten-island",
+          "inFooter": false
+        },
+        {
+          "text": "Nassau",
+          "href": "https://nyulangone.org/locations/directory/nassau-county",
+          "inFooter": false
+        },
+        {
+          "text": "Suffolk County & East End",
+          "href": "https://nyulangone.org/locations/directory/suffolk-county-east-end",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester & Hudson Valley",
+          "href": "https://nyulangone.org/locations/directory/westchester-county-hudson-valley",
+          "inFooter": false
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://nyulangone.org/locations/directory/connecticut",
+          "inFooter": false
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://nyulangone.org/locations/directory/new-jersey",
+          "inFooter": false
+        },
+        {
+          "text": "Florida",
+          "href": "https://nyulangone.org/locations/directory/florida",
+          "inFooter": false
+        },
+        {
+          "text": "Tisch Hospital",
+          "href": "https://nyulangone.org/locations/tisch-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Kimmel Pavilion",
+          "href": "https://nyulangone.org/locations/kimmel-pavilion",
+          "inFooter": false
+        },
+        {
+          "text": "Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedic Hospital",
+          "href": "https://nyulangone.org/locations/nyu-langone-orthopedic-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Brooklyn",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Long Island",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Suffolk",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-suffolk",
+          "inFooter": false
+        },
+        {
+          "text": "Tisch Hospital",
+          "href": "https://nyulangone.org/locations/tisch-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "Kimmel Pavilion",
+          "href": "https://nyulangone.org/locations/kimmel-pavilion",
+          "inFooter": false
+        },
+        {
+          "text": "Hassenfeld Children's Hospital",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Orthopedic Hospital",
+          "href": "https://nyulangone.org/locations/nyu-langone-orthopedic-hospital",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Brooklyn",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-brooklyn",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Long Island",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "NYU Langone Hospitalâ€”Suffolk",
+          "href": "https://nyulangone.org/locations/nyu-langone-hospital-suffolk",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions We Treat",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": false
+        },
+        {
+          "text": "View All Conditions",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Airway, Breathing & Lung Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/airway-breathing-lung",
+          "inFooter": false
+        },
+        {
+          "text": "Bone, Joint & Muscle Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/bone-joint-muscle",
+          "inFooter": false
+        },
+        {
+          "text": "Brain & Nervous System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/brain-nervous-system",
+          "inFooter": false
+        },
+        {
+          "text": "Cancers, Tumors & Blood Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/cancers-tumors-blood-disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Diabetes & Other Endocrine Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/diabetes-other-endocrine",
+          "inFooter": false
+        },
+        {
+          "text": "Ear, Nose, Throat & Mouth Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/ear-nose-throat-mouth",
+          "inFooter": false
+        },
+        {
+          "text": "Eye Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/eye-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Gastrointestinal & Liver Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/gastrointestinal-liver",
+          "inFooter": false
+        },
+        {
+          "text": "Genetic & Chromosomal Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/genetic-chromosomal",
+          "inFooter": false
+        },
+        {
+          "text": "Heart & Vascular Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/heart-vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Immune System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/immune-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Infectious Diseases",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/infectious-diseases",
+          "inFooter": false
+        },
+        {
+          "text": "Kidney, Bladder & Urinary Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/kidney-bladder-urinary",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Behavioral Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/mental-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & Weight Management",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/nutrition-weight-management",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/pediatric-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Reproductive & Sexual Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/reproductive-sexual-health",
+          "inFooter": false
+        },
+        {
+          "text": "Skin & Cosmetic Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/skin-cosmetic",
+          "inFooter": false
+        },
+        {
+          "text": "Airway, Breathing & Lung Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/airway-breathing-lung",
+          "inFooter": false
+        },
+        {
+          "text": "Bone, Joint & Muscle Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/bone-joint-muscle",
+          "inFooter": false
+        },
+        {
+          "text": "Brain & Nervous System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/brain-nervous-system",
+          "inFooter": false
+        },
+        {
+          "text": "Cancers, Tumors & Blood Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/cancers-tumors-blood-disorders",
+          "inFooter": false
+        },
+        {
+          "text": "Diabetes & Other Endocrine Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/diabetes-other-endocrine",
+          "inFooter": false
+        },
+        {
+          "text": "Ear, Nose, Throat & Mouth Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/ear-nose-throat-mouth",
+          "inFooter": false
+        },
+        {
+          "text": "Eye Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/eye-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Gastrointestinal & Liver Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/gastrointestinal-liver",
+          "inFooter": false
+        },
+        {
+          "text": "Genetic & Chromosomal Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/genetic-chromosomal",
+          "inFooter": false
+        },
+        {
+          "text": "Heart & Vascular Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/heart-vascular",
+          "inFooter": false
+        },
+        {
+          "text": "Immune System Disorders",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/immune-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Infectious Diseases",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/infectious-diseases",
+          "inFooter": false
+        },
+        {
+          "text": "Kidney, Bladder & Urinary Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/kidney-bladder-urinary",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Behavioral Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/mental-behavioral-health",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & Weight Management",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/nutrition-weight-management",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/pediatric-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Reproductive & Sexual Health",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/reproductive-sexual-health",
+          "inFooter": false
+        },
+        {
+          "text": "Skin & Cosmetic Conditions",
+          "href": "https://nyulangone.org/conditions/areas-of-expertise/skin-cosmetic",
+          "inFooter": false
+        },
+        {
+          "text": "Patient & Visitor Support",
+          "href": "https://nyulangone.org/patient-family-support",
+          "inFooter": false
+        },
+        {
+          "text": "View All Support",
+          "href": "https://nyulangone.org/patient-family-support",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/patient-family-support/what-to-bring-for-your-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctor's Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://nyulangone.org/patient-family-support/request-your-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Access",
+          "href": "https://nyulangone.org/patient-family-support/sharing-requesting-access-to-nyu-langone-health-mychart",
+          "inFooter": false
+        },
+        {
+          "text": "For New & Expecting Parents",
+          "href": "https://nyulangone.org/patient-family-support/for-new-expecting-parents",
+          "inFooter": false
+        },
+        {
+          "text": "Billing, Insurance & Financial Assistance",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/patient-family-support/what-to-bring-for-your-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctor's Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://nyulangone.org/patient-family-support/request-your-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Access",
+          "href": "https://nyulangone.org/patient-family-support/sharing-requesting-access-to-nyu-langone-health-mychart",
+          "inFooter": false
+        },
+        {
+          "text": "For New & Expecting Parents",
+          "href": "https://nyulangone.org/patient-family-support/for-new-expecting-parents",
+          "inFooter": false
+        },
+        {
+          "text": "Billing, Insurance & Financial Assistance",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctorâ€™s Office Visit",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-doctors-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Child Life Services",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/child-life-services",
+          "inFooter": false
+        },
+        {
+          "text": "Social Work & Care Management",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/social-work-care-management-services-for-children",
+          "inFooter": false
+        },
+        {
+          "text": "Hospital Stay",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-hospital-stay",
+          "inFooter": false
+        },
+        {
+          "text": "Doctorâ€™s Office Visit",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/your-childs-visit/prepare-for-your-childs-doctors-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Child Life Services",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/child-life-services",
+          "inFooter": false
+        },
+        {
+          "text": "Social Work & Care Management",
+          "href": "https://nyulangone.org/locations/hassenfeld-childrens-hospital/sala-child-family-support/social-work-care-management-services-for-children",
+          "inFooter": false
+        },
+        {
+          "text": "View Hours & Policies",
+          "href": "https://nyulangone.org/patient-family-support/visitor-information",
+          "inFooter": false
+        },
+        {
+          "text": "Language & Disability Services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Caring for the LGBTQ+ Community",
+          "href": "https://nyulangone.org/patient-family-support/caring-for-the-lgbtq-community",
+          "inFooter": false
+        },
+        {
+          "text": "Veterans & Military Families",
+          "href": "https://nyulangone.org/patient-family-support/for-veterans-military-families",
+          "inFooter": false
+        },
+        {
+          "text": "International Services",
+          "href": "https://nyulangone.org/patient-family-support/international-patient-services",
+          "inFooter": false
+        },
+        {
+          "text": "Language & Disability Services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Caring for the LGBTQ+ Community",
+          "href": "https://nyulangone.org/patient-family-support/caring-for-the-lgbtq-community",
+          "inFooter": false
+        },
+        {
+          "text": "Veterans & Military Families",
+          "href": "https://nyulangone.org/patient-family-support/for-veterans-military-families",
+          "inFooter": false
+        },
+        {
+          "text": "International Services",
+          "href": "https://nyulangone.org/patient-family-support/international-patient-services",
+          "inFooter": false
+        },
+        {
+          "text": "Ask AI",
+          "href": "https://nyulangone.org/ai-assistant?iid=int_shared_ai_assistant_global_nav",
+          "inFooter": false
+        },
+        {
+          "text": "MyChart Patient Login . Opens in a new tab",
+          "href": "https://nyulangone.app/mZtyRaRMVIb",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://nyulangone.org/patient-forms",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "1000 Franklin Avenue, Suite 100 Garden City, NY 11530",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue+Garden+City%2C+NY+11530",
+          "inFooter": false
+        },
+        {
+          "text": "View Location Details",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city#visit",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Associates—Garden City",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "interpretation services",
+          "href": "https://nyulangone.org/patient-family-support/language-disability-services",
+          "inFooter": false
+        },
+        {
+          "text": "Jeffrey W. Lieberman, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1508869207/jeffrey-w-lieberman",
+          "inFooter": false
+        },
+        {
+          "text": "Clara E. Mayoral, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1093774432/clara-e-mayoral",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "Leilani Balagot Chingcuangco, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1942269378/leilani-balagot-chingcuangco",
+          "inFooter": false
+        },
+        {
+          "text": "Douglas A. Dougherty, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1962406538/douglas-a-dougherty",
+          "inFooter": false
+        },
+        {
+          "text": "Arianna Lanzetta, NP Pediatrician",
+          "href": "https://nyulangone.org/doctors/1073854709/arianna-lanzetta",
+          "inFooter": false
+        },
+        {
+          "text": "Jeffrey W. Lieberman, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1508869207/jeffrey-w-lieberman",
+          "inFooter": false
+        },
+        {
+          "text": "Clara E. Mayoral, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1093774432/clara-e-mayoral",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "Leilani Balagot Chingcuangco, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1942269378/leilani-balagot-chingcuangco",
+          "inFooter": false
+        },
+        {
+          "text": "Douglas A. Dougherty, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1962406538/douglas-a-dougherty",
+          "inFooter": false
+        },
+        {
+          "text": "Arianna Lanzetta, NP Pediatrician",
+          "href": "https://nyulangone.org/doctors/1073854709/arianna-lanzetta",
+          "inFooter": false
+        },
+        {
+          "text": "Jeffrey W. Lieberman, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1508869207/jeffrey-w-lieberman",
+          "inFooter": false
+        },
+        {
+          "text": "Clara E. Mayoral, MD Pediatrician",
+          "href": "https://nyulangone.org/doctors/1093774432/clara-e-mayoral",
+          "inFooter": false
+        },
+        {
+          "text": "Peter M. O'Keefe, DO Pediatrician",
+          "href": "https://nyulangone.org/doctors/1629072368/peter-m-o-keefe",
+          "inFooter": false
+        },
+        {
+          "text": "View All 6 Doctors & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "http://maps.google.com/maps?q=1000+Franklin+Avenue%2C+Garden+City%2C+NY%2C+11530",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "View Information About Your Doctor’s Office Visit",
+          "href": "https://nyulangone.org/patient-family-support/information-about-your-doctors-office-visit",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Associates—Garden City",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor & Schedule",
+          "href": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "646-929-7800",
+          "href": "tel:646-929-7800",
+          "inFooter": false
+        },
+        {
+          "text": "browse our specialists",
+          "href": "https://nyulangone.org/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions We Treat",
+          "href": "https://nyulangone.org/conditions",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://nyulangone.org/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Emergency Care",
+          "href": "https://nyulangone.org/care-services/emergency-care",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual Urgent Care",
+          "href": "https://nyulangone.org/care-services/virtual-urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & Billing",
+          "href": "https://nyulangone.org/insurance-billing-financial-assistance",
+          "inFooter": true
+        },
+        {
+          "text": "Our Story",
+          "href": "https://nyulangone.org/our-story",
+          "inFooter": true
+        },
+        {
+          "text": "Jobs . Opens in a new tab",
+          "href": "https://jobs.nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Vendor & Supplier Information",
+          "href": "https://nyulangone.org/vendor-supplier-information",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://nyulangone.org/contact-us",
+          "inFooter": true
+        },
+        {
+          "text": "Give . Opens in a new tab",
+          "href": "https://give.nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://nyulangone.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Blood Donation",
+          "href": "https://nyulangone.org/blood-donation",
+          "inFooter": true
+        },
+        {
+          "text": "Organ & Tissue Donation",
+          "href": "https://nyulangone.org/organ-tissue-donation",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Langone Health App",
+          "href": "https://nyulangone.org/apps/nyu-langone-health-app",
+          "inFooter": true
+        },
+        {
+          "text": "NewsHub . Opens in a new tab",
+          "href": "https://nyulangone.org/news",
+          "inFooter": true
+        },
+        {
+          "text": "Press Releases . Opens in a new tab",
+          "href": "https://nyulangone.org/news/press-releases",
+          "inFooter": true
+        },
+        {
+          "text": "Media Resources . Opens in a new tab",
+          "href": "https://nyulangone.org/news/media-resources",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Grossman School of Medicine . Opens in a new tab",
+          "href": "https://med.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Grossman Long Island School of Medicine . Opens in a new tab",
+          "href": "https://medli.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "NYU Health Sciences Library . Opens in a new tab",
+          "href": "https://hsl.med.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "New York University . Opens in a new tab",
+          "href": "https://www.nyu.edu/",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on Facebook. Opens in a new window.",
+          "href": "https://www.facebook.com/NYULangone",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on X. Opens in a new window.",
+          "href": "https://x.com/nyulangone",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on Instagram. Opens in a new window.",
+          "href": "https://www.instagram.com/nyulangone/",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on YouTube. Opens in a new window.",
+          "href": "https://www.youtube.com/c/NYULangoneHealth",
+          "inFooter": true
+        },
+        {
+          "text": "Follow us on LinkedIn. Opens in a new window.",
+          "href": "https://www.linkedin.com/company/nyulangonehealth",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://nyulangone.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Price Transparency",
+          "href": "https://med.nyu.edu/standard-charges/",
+          "inFooter": true
+        },
+        {
+          "text": "Policies & Disclaimers",
+          "href": "https://nyulangone.org/policies-disclaimers",
+          "inFooter": true
+        },
+        {
+          "text": "Public Notices",
+          "href": "https://nyulangone.org/public-notices",
+          "inFooter": true
+        },
+        {
+          "text": "Websites Privacy Practices",
+          "href": "https://nyulangone.org/policies-disclaimers/websites-privacy-policy",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://nyulangone.org/policies-disclaimers/accessibility",
+          "inFooter": true
+        },
+        {
+          "text": "855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Explore NYU Langone Patient Care Conditions We Treat Locations Emergency Care Virtual Urgent Care Insurance & Billing About Us Our Story Jobs . Opens in a new tab Vendor & Supplier Information Contact Us How to Help Give . Opens in a new tab Volunteer Blood Donation Organ & Tissue Donation Stay Connected NYU Langone Health App NewsHub . Opens in a new tab Press Releases . Opens in a new tab Media Resources . Opens in a new tab Education & Research NYU Grossman School of Medicine . Opens in a new tab NYU Grossman Long Island School of Medicine . Opens in a new tab NYU Health Sciences Library . Opens in a new tab New York University . Opens in a new tab Follow Us Follow us on Facebook. Opens in a new window. Follow us on X. Opens in a new window. Follow us on Instagram. Opens in a new window. Follow us on YouTube. Opens in a new window. Follow us on LinkedIn. Opens in a new window. © 2026 NYU Langone Hospitals Price Transparency Policies & Disclaimers Public Notices Websites Privacy Practices Accessibility Accessibility Help Line: 855-698-9991",
+      "telLinks": [
+        {
+          "text": "If you need help accessing our website, call 855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "tel:855-698-9991",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "516-248-8334",
+          "href": "tel:516-248-8334",
+          "inFooter": false
+        },
+        {
+          "text": "646-929-7800",
+          "href": "tel:646-929-7800",
+          "inFooter": false
+        },
+        {
+          "text": "855-698-9991",
+          "href": "tel:855-698-9991",
+          "inFooter": true
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://nyulangone.org/search",
+          "fields": [
+            "input:search:q",
+            "button:submit:",
+            "button:reset:"
+          ]
+        },
+        {
+          "action": "https://nyulangone.org/locations/nyu-langone-pediatric-associates-garden-city",
+          "fields": [
+            "input:file:file",
+            "input:hidden:filename"
+          ]
+        }
+      ],
+      "imgNoAlt": 19,
+      "images": 24,
+      "scrollHeight": 3083,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.uwy userway_p2 utb",
+        "DIV.userway_buttons_wrapper",
+        "IFRAME.uwif userway_p2",
+        "DIV.embeddedServiceHelpButton",
+        "DIV.helpButton"
+      ]
+    }
+  }
+}

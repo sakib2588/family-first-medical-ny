@@ -1,0 +1,122 @@
+<!DOCTYPE html><html><head><meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"><title>Patient Portal</title><link rel="icon" href="/content/favicon.ico" type="image/x-icon"><script defer="defer" src="https://shell-prod2610292253.patient.athenahealth.com/shell-prod2610292253/content/main.b8abd9db8f7fd85d080e.js"></script><link rel="stylesheet" type="text/css" href="https://shell-prod2610292253.patient.athenahealth.com/shell-prod2610292253/content/4826.a616d7efb36b702b0bb3.css"><script charset="utf-8" data-webpack="shell:paymentModules" src="https://ppm-modules.cf.px.athena.io/remoteEntry.js"></script><link rel="stylesheet" type="text/css" href="https://shell-prod2610292253.patient.athenahealth.com/shell-prod2610292253/content/7387.aa20159d4b794838d5c7.css"></head><body><div id="root"><style>/* Match Spark's AnimatedSpinner before its React bundle and stylesheet load. */
+	#entry-loader {
+		position: fixed;
+		inset: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: white;
+	}
+	#entry-loader .entry-loader-label {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+	@keyframes entry-container-rotate {
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	@keyframes entry-fill-unfill-rotate {
+		12.5% {
+			transform: rotate(135deg);
+		}
+		25% {
+			transform: rotate(270deg);
+		}
+		37.5% {
+			transform: rotate(405deg);
+		}
+		50% {
+			transform: rotate(540deg);
+		}
+		62.5% {
+			transform: rotate(675deg);
+		}
+		75% {
+			transform: rotate(810deg);
+		}
+		87.5% {
+			transform: rotate(945deg);
+		}
+		100% {
+			transform: rotate(1080deg);
+		}
+	}
+	@keyframes entry-left-spin {
+		0%,
+		100% {
+			transform: rotate(130deg);
+		}
+		50% {
+			transform: rotate(-5deg);
+		}
+	}
+	@keyframes entry-right-spin {
+		0%,
+		100% {
+			transform: rotate(-130deg);
+		}
+		50% {
+			transform: rotate(5deg);
+		}
+	}
+	#entry-loader .fe_c_animated-spinner {
+		display: inline-block;
+		height: 45px;
+		position: relative;
+		width: 45px;
+	}
+	#entry-loader .fe_c_animated-spinner__spinner-container {
+		animation: entry-container-rotate 1568ms linear infinite;
+		height: 100%;
+		width: 100%;
+	}
+	#entry-loader .fe_c_animated-spinner__spinner-layer {
+		animation: entry-fill-unfill-rotate 5332ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+		color: rgb(17, 134, 71);
+		font-size: 0;
+		height: 100%;
+		position: absolute;
+		white-space: nowrap;
+		width: 100%;
+	}
+	#entry-loader .fe_c_animated-spinner__circle-clipper {
+		display: inline-block;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+		width: 50%;
+	}
+	#entry-loader .fe_c_animated-spinner__circle-clipper::after {
+		border-bottom-color: transparent;
+		border-style: solid;
+		bottom: 0;
+		width: 200%;
+	}
+	#entry-loader .fe_c_animated-spinner__circle-clipper--left::after {
+		animation: entry-left-spin 1333ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+		border-right-color: transparent;
+		left: 0;
+		transform: rotate(129deg);
+	}
+	#entry-loader .fe_c_animated-spinner__circle-clipper--right::after {
+		animation: entry-right-spin 1333ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+		border-left-color: transparent;
+		left: -100%;
+		transform: rotate(-129deg);
+	}
+	#entry-loader .fe_c_animated-spinner__circle-clipper::after {
+		border-width: 4px;
+		border-radius: 50%;
+		box-sizing: border-box;
+		content: '';
+		position: absolute;
+		top: 0;
+	}</style><div id="entry-loader" role="status"><span class="entry-loader-label">Loading...</span><div class="fe_c_animated-spinner" aria-hidden="true"><div class="fe_c_animated-spinner__spinner-container"><div class="fe_c_animated-spinner__spinner-layer"><div class="fe_c_animated-spinner__circle-clipper fe_c_animated-spinner__circle-clipper--left"></div><div class="fe_c_animated-spinner__circle-clipper fe_c_animated-spinner__circle-clipper--right"></div></div></div></div></div></div></body></html>

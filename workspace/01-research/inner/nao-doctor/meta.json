@@ -1,0 +1,784 @@
+{
+  "url": "https://naomedical.com/primary-care/provider/dr-priti-practice.html",
+  "slug": "nao-doctor",
+  "capturedAt": "2026-10-30T18:34:21.515Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 12759,
+      "consoleErrors": [],
+      "title": "Dr. Priti Jain, MD | Internist | Nao Medical",
+      "h1": [
+        "Dr. Priti Jain’s Practice"
+      ],
+      "h2": [
+        "About Dr. Priti",
+        "List of Conditions Treated by Provider",
+        "In-Network Insurances",
+        "Locations Served by Dr. Priti",
+        "Education and background",
+        "FAQs",
+        "More care information"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/services/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Service",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/services/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/urgent-care-near-you-in-nyc-and-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate Health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/insurance-fees/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://naomedical.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#condition-section",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#location-section",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ’s",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#faq-section",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Astoria",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Long Island City",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Williamsburg",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Crown Heights",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Jackson Heights",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Jamaica",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical StuyTown",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Bartow Mall",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Hicksville",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Mineola",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical 174th Street",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical/",
+          "inFooter": true
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": true
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/clinicians.html",
+          "inFooter": false
+        }
+      ],
+      "footerText": "LinkedIn Facebook Twitter Instagram If you are vision-impaired or have some other impairment covered by the Americans with Disabilities Act or a similar law, and you wish to discuss potential accommodations related to using this website, please contact Sharad Suri at service@naomedical.com or by phone at ‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪(917) 633-1548‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬ Extension 288. In our goal to answer your questions as quick as possible, we use the assistance of a large language model wherever applicable. If there are any errors or concerns, please bring it to our attention by emailing us.",
+      "telLinks": [
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 10,
+      "images": 55,
+      "scrollHeight": 8960,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\n    \"IndividualPhysician\",\n    \"Person\"\n  ],\n  \"name\": \"Dr. Priti Jain, MD\",\n  \"gender\": \"Female\",\n  \"description\": \"Dr. Priti Jain specializes in internal medicine, focusing on chronic care, preventive healthcare, and women's health. Book an appointment at Nao Medical in Hicksville.\",\n  \"image\": \"https://naomedical.com/campaigns/images/thumbnail.png\",\n  \"medicalSpecialty\": \"Internal Medicine\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"232 W Old Country Rd\",\n    \"addressLocality\": \"Hicksville\",\n    \"addressRegion\": \"NY\",\n    \"postalCode\": \"11801\",\n    \"addressCountry\": \"US\"\n  },\n  \"telephone\": \"(917) 985-9186\",\n  \"areaServed\": \"Hicksville, NY\",\n  \"url\": \"https://naomedical.com/\"\n}",
+        "\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is Priti Jain accepting new patients?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, She is currently accepting new patients. You can easily book an appointment\\n          online through our website.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What types of appointments does Priti Jain offer?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can choose between in-person and virtual appointments to suit your needs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How can I book an appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can easily book an appointment through our website by selecting your\\n          preferred date and time.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What insurance plans do you accept?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We accept most major insurance plans, including Health First, Aetna, Medicare,\\n          Medicaid, and United Healthcare, and offer self-pay options for added flexibility\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I have a family member or friend join me for my appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely! We encourage you to bring someone who can help",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"MedicalWebPage\",\"@id\":\"https://naomedical.com/primary-care/provider/dr-priti-practice.html#webpage\",\"url\":\"https://naomedical.com/primary-care/provider/dr-priti-practice.html\",\"name\":\"Dr. Priti Jain’s Practice\",\"isPartOf\":{\"@id\":\"https://naomedical.com/#website\"},\"publisher\":{\"@id\":\"https://naomedical.com/#organization\"}},{\"@type\":\"MedicalOrganization\",\"@id\":\"https://naomedical.com/#organization\",\"name\":\"Nao Medical\",\"url\":\"https://naomedical.com/\"},{\"@type\":\"WebSite\",\"@id\":\"https://naomedical.com/#website\",\"url\":\"https://naomedical.com/\",\"name\":\"Nao Medical\",\"publisher\":{\"@id\":\"https://naomedical.com/#organization\"}}]}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.nao-v2-header nao-v2-header--patient",
+        "DIALOG.nao-v2-drawer"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12477,
+      "consoleErrors": [],
+      "title": "Dr. Priti Jain, MD | Internist | Nao Medical",
+      "h1": [
+        "Dr. Priti Jain’s Practice"
+      ],
+      "h2": [
+        "About Dr. Priti",
+        "List of Conditions Treated by Provider",
+        "In-Network Insurances",
+        "Locations Served by Dr. Priti",
+        "Education and background",
+        "FAQs",
+        "More care information"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://naomedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/services/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/clinics/locations.html",
+          "inFooter": false
+        },
+        {
+          "text": "Astoria",
+          "href": "https://naomedical.com/urgent-care/locations/astoria.html",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island City",
+          "href": "https://naomedical.com/urgent-care/locations/long-island-city.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jackson Heights",
+          "href": "https://naomedical.com/urgent-care/locations/jackson-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Jamaica",
+          "href": "https://naomedical.com/urgent-care/locations/jamaica.html",
+          "inFooter": false
+        },
+        {
+          "text": "Crown Heights",
+          "href": "https://naomedical.com/urgent-care/locations/crown-heights.html",
+          "inFooter": false
+        },
+        {
+          "text": "Williamsburg",
+          "href": "https://naomedical.com/urgent-care/locations/williamsburg.html",
+          "inFooter": false
+        },
+        {
+          "text": "East 174th Street",
+          "href": "https://naomedical.com/urgent-care/locations/174th-street.html",
+          "inFooter": false
+        },
+        {
+          "text": "Bartow Mall",
+          "href": "https://naomedical.com/urgent-care/locations/bartow-mall.html",
+          "inFooter": false
+        },
+        {
+          "text": "StuyTown",
+          "href": "https://naomedical.com/urgent-care/locations/stuytown.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mineola",
+          "href": "https://naomedical.com/urgent-care/locations/mineola.html",
+          "inFooter": false
+        },
+        {
+          "text": "Hicksville",
+          "href": "https://naomedical.com/urgent-care/locations/hicksville.html",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/services/bills/billing.html",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Service",
+          "href": "https://naomedical.com/services/our-services.html",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://naomedical.com/services/mental-health.html",
+          "inFooter": false
+        },
+        {
+          "text": "Our Locations",
+          "href": "https://naomedical.com/urgent-care-near-you-in-nyc-and-long-island",
+          "inFooter": false
+        },
+        {
+          "text": "Corporate Health",
+          "href": "https://naomedical.com/corporate-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://naomedical.com/insurance-fees/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://naomedical.com/about-us.html",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://naomedical.com/careers",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "Conditions",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#condition-section",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#insurance-section",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#location-section",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ’s",
+          "href": "https://naomedical.com/primary-care/provider/dr-priti-practice.html#faq-section",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Astoria",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Long Island City",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Williamsburg",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Crown Heights",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Jackson Heights",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Jamaica",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical StuyTown",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Bartow Mall",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Hicksville",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical Mineola",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "Nao Medical 174th Street",
+          "href": "https://book.naomedical.com/appointment/primary-care",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/naomedical",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/naomedical/",
+          "inFooter": true
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/NaoMedical",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/naomedical_/",
+          "inFooter": true
+        },
+        {
+          "text": "Care directory",
+          "href": "https://naomedical.com/care-directory/clinicians.html",
+          "inFooter": false
+        }
+      ],
+      "footerText": "LinkedIn Facebook Twitter Instagram If you are vision-impaired or have some other impairment covered by the Americans with Disabilities Act or a similar law, and you wish to discuss potential accommodations related to using this website, please contact Sharad Suri at service@naomedical.com or by phone at ‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪‪(917) 633-1548‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬‬ Extension 288. In our goal to answer your questions as quick as possible, we use the assistance of a large language model wherever applicable. If there are any errors or concerns, please bring it to our attention by emailing us.",
+      "telLinks": [
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        },
+        {
+          "text": "(917) 985-9186",
+          "href": "tel:(917) 985-9186",
+          "inFooter": false
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 38,
+      "images": 83,
+      "scrollHeight": 4637,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\n    \"IndividualPhysician\",\n    \"Person\"\n  ],\n  \"name\": \"Dr. Priti Jain, MD\",\n  \"gender\": \"Female\",\n  \"description\": \"Dr. Priti Jain specializes in internal medicine, focusing on chronic care, preventive healthcare, and women's health. Book an appointment at Nao Medical in Hicksville.\",\n  \"image\": \"https://naomedical.com/campaigns/images/thumbnail.png\",\n  \"medicalSpecialty\": \"Internal Medicine\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"232 W Old Country Rd\",\n    \"addressLocality\": \"Hicksville\",\n    \"addressRegion\": \"NY\",\n    \"postalCode\": \"11801\",\n    \"addressCountry\": \"US\"\n  },\n  \"telephone\": \"(917) 985-9186\",\n  \"areaServed\": \"Hicksville, NY\",\n  \"url\": \"https://naomedical.com/\"\n}",
+        "\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is Priti Jain accepting new patients?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, She is currently accepting new patients. You can easily book an appointment\\n          online through our website.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What types of appointments does Priti Jain offer?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can choose between in-person and virtual appointments to suit your needs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How can I book an appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can easily book an appointment through our website by selecting your\\n          preferred date and time.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What insurance plans do you accept?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We accept most major insurance plans, including Health First, Aetna, Medicare,\\n          Medicaid, and United Healthcare, and offer self-pay options for added flexibility\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I have a family member or friend join me for my appointment?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely! We encourage you to bring someone who can help",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"MedicalWebPage\",\"@id\":\"https://naomedical.com/primary-care/provider/dr-priti-practice.html#webpage\",\"url\":\"https://naomedical.com/primary-care/provider/dr-priti-practice.html\",\"name\":\"Dr. Priti Jain’s Practice\",\"isPartOf\":{\"@id\":\"https://naomedical.com/#website\"},\"publisher\":{\"@id\":\"https://naomedical.com/#organization\"}},{\"@type\":\"MedicalOrganization\",\"@id\":\"https://naomedical.com/#organization\",\"name\":\"Nao Medical\",\"url\":\"https://naomedical.com/\"},{\"@type\":\"WebSite\",\"@id\":\"https://naomedical.com/#website\",\"url\":\"https://naomedical.com/\",\"name\":\"Nao Medical\",\"publisher\":{\"@id\":\"https://naomedical.com/#organization\"}}]}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "HEADER.nao-v2-header nao-v2-header--patient",
+        "DIALOG.nao-v2-drawer",
+        "SPAN."
+      ]
+    }
+  }
+}

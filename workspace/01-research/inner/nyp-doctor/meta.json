@@ -1,0 +1,581 @@
+{
+  "url": "https://doctors.nyp.org/",
+  "slug": "nyp-doctor",
+  "capturedAt": "2026-10-30T18:33:27.028Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 12600,
+      "consoleErrors": [
+        "The Content-Security-Policy directive name '*.nyp.org' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name '*.pagescdn.com' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name '*.prod.acquia-sites.com' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name 'https://localhost:*' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "Unrecognized Content-Security-Policy directive 'self'."
+      ],
+      "title": "Find a Doctor Near Me & Schedule Appointment | NewYork-Presbyterian",
+      "h1": [
+        "Find a Doctor"
+      ],
+      "h2": [],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Login to your patient portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Need Further Help? Call 1-877-697-9355",
+          "href": "tel:+18776979355",
+          "inFooter": false
+        },
+        {
+          "text": "Obstetrics and Gynecology",
+          "href": "https://doctors.nyp.org/?hc=Obstetrics+and+Gynecology",
+          "inFooter": false
+        },
+        {
+          "text": "Oncology",
+          "href": "https://doctors.nyp.org/?hc=Oncology",
+          "inFooter": false
+        },
+        {
+          "text": "Spine Surgery",
+          "href": "https://doctors.nyp.org/?hc=Spine+Surgery",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://doctors.nyp.org/?hc=Psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://doctors.nyp.org/?hc=Primary+Care",
+          "inFooter": false
+        },
+        {
+          "text": "Cardiology",
+          "href": "https://doctors.nyp.org/?hc=cardiology",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology",
+          "href": "https://doctors.nyp.org/?hc=Neurology",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://doctors.nyp.org/?hc=Orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Gastroenterology",
+          "href": "https://doctors.nyp.org/?hc=Gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "Maternal Medicine",
+          "href": "https://doctors.nyp.org/?hc=Maternal+Medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Hip & Knee Reconstruction",
+          "href": "https://doctors.nyp.org/?hc=Hip+%26+Knee+Reconstruction",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://doctors.nyp.org/?hc=Pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "See all locations",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Terms and Conditions",
+          "href": "https://nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.nyp.org/about",
+          "inFooter": true
+        },
+        {
+          "text": "Governance & Leadership",
+          "href": "https://www.nyp.org/governance-leadership",
+          "inFooter": true
+        },
+        {
+          "text": "Community",
+          "href": "https://www.nyp.org/about/community",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": true
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://www.nyp.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Donate Blood",
+          "href": "https://www.nyp.org/donateblood",
+          "inFooter": true
+        },
+        {
+          "text": "For Professionals",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": true
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing Jobs",
+          "href": "https://careers.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://instagram.com/nyphospital",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/new-york-presbyterian-hospital",
+          "inFooter": true
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/user/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "Disclaimer",
+          "href": "https://www.nyp.org/disclaimer",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "Employees",
+          "href": "https://www.nyp.org/employees",
+          "inFooter": true
+        },
+        {
+          "text": "For Vendors",
+          "href": "https://www.nyp.org/vendors",
+          "inFooter": true
+        },
+        {
+          "text": "Website Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Subscribe to our health and wellness newsletter today. Enter email address Bot check, no input needed here Submit Form I accept NewYork-Presbyterian's Terms and Conditions and confirm I would like to receive more information about your care services, news, and events. About NYP About Us Governance & Leadership Community Contact Us The Latest Health Matters Newsroom Events & Classes Ways to Help Give to NYP Volunteer Donate Blood Professionals & Students For Professionals Graduate Medical Education Nursing Job Seekers Careers Nursing Jobs Instagram Facebook LinkedIn YouTube Disclaimer Privacy Notice Employees For Vendors Website Privacy Policy © 2025 NewYork-Presbyterian Hospital",
+      "telLinks": [
+        {
+          "text": "Need Further Help? Call 1-877-697-9355",
+          "href": "tel:+18776979355",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://cloud.care.nyp.org/nyp-footer-form-ty",
+          "fields": [
+            "input:email:Email",
+            "input:text:botCheck",
+            "button:submit:",
+            "input:checkbox:Form_Check"
+          ]
+        }
+      ],
+      "imgNoAlt": 3,
+      "images": 14,
+      "scrollHeight": 3766,
+      "jsonld": [
+        "\n  {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"name\":\"Find a Doctor at NewYork-Presbyterian\",\"url\":\"https://doctors.nyp.org/\",\"description\":\"Use this page to search for and find a qualified physician affiliated with NewYork-Presbyterian.\",\"about\":{\"@type\":\"MedicalOrganization\",\"@id\":\"https://www.nyp.org/#organization\",\"url\":\"https://www.nyp.org/\",\"name\":\"NewYork-Presbyterian\"}}]}\n  "
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 11889,
+      "consoleErrors": [
+        "The Content-Security-Policy directive name '*.nyp.org' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name '*.pagescdn.com' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name '*.prod.acquia-sites.com' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "The Content-Security-Policy directive name 'https://localhost:*' contains one or more invalid characters. Only ASCII alphanumeric characters or dashes '-' are allowed in directive names.",
+        "Unrecognized Content-Security-Policy directive 'self'."
+      ],
+      "title": "Find a Doctor Near Me & Schedule Appointment | NewYork-Presbyterian",
+      "h1": [
+        "Find a Doctor"
+      ],
+      "h2": [],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Login to your patient portal",
+          "href": "https://www.nyp.org/patientportal",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.nyp.org/services",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.nyp.org/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Patients & Visitors",
+          "href": "https://www.nyp.org/patients-visitors",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Doctor",
+          "href": "https://doctors.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Need Further Help? Call 1-877-697-9355",
+          "href": "tel:+18776979355",
+          "inFooter": false
+        },
+        {
+          "text": "Obstetrics and Gynecology",
+          "href": "https://doctors.nyp.org/?hc=Obstetrics+and+Gynecology",
+          "inFooter": false
+        },
+        {
+          "text": "Oncology",
+          "href": "https://doctors.nyp.org/?hc=Oncology",
+          "inFooter": false
+        },
+        {
+          "text": "Spine Surgery",
+          "href": "https://doctors.nyp.org/?hc=Spine+Surgery",
+          "inFooter": false
+        },
+        {
+          "text": "Psychiatry & Behavioral Health",
+          "href": "https://doctors.nyp.org/?hc=Psychiatry",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://doctors.nyp.org/?hc=Primary+Care",
+          "inFooter": false
+        },
+        {
+          "text": "Cardiology",
+          "href": "https://doctors.nyp.org/?hc=cardiology",
+          "inFooter": false
+        },
+        {
+          "text": "Neurology",
+          "href": "https://doctors.nyp.org/?hc=Neurology",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics",
+          "href": "https://doctors.nyp.org/?hc=Orthopedics",
+          "inFooter": false
+        },
+        {
+          "text": "Gastroenterology",
+          "href": "https://doctors.nyp.org/?hc=Gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "Maternal Medicine",
+          "href": "https://doctors.nyp.org/?hc=Maternal+Medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Hip & Knee Reconstruction",
+          "href": "https://doctors.nyp.org/?hc=Hip+%26+Knee+Reconstruction",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatrics",
+          "href": "https://doctors.nyp.org/?hc=Pediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "See all locations",
+          "href": "https://locations.nyp.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Terms and Conditions",
+          "href": "https://nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.nyp.org/about",
+          "inFooter": true
+        },
+        {
+          "text": "Governance & Leadership",
+          "href": "https://www.nyp.org/governance-leadership",
+          "inFooter": true
+        },
+        {
+          "text": "Community",
+          "href": "https://www.nyp.org/about/community",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.nyp.org/contact",
+          "inFooter": true
+        },
+        {
+          "text": "Health Matters",
+          "href": "https://healthmatters.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.nyp.org/newsroom",
+          "inFooter": true
+        },
+        {
+          "text": "Events & Classes",
+          "href": "https://events.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Give to NYP",
+          "href": "https://www.nyp.org/giving",
+          "inFooter": true
+        },
+        {
+          "text": "Volunteer",
+          "href": "https://www.nyp.org/volunteer",
+          "inFooter": true
+        },
+        {
+          "text": "Donate Blood",
+          "href": "https://www.nyp.org/donateblood",
+          "inFooter": true
+        },
+        {
+          "text": "For Professionals",
+          "href": "https://www.nyp.org/professionals",
+          "inFooter": true
+        },
+        {
+          "text": "Graduate Medical Education",
+          "href": "https://www.nyp.org/professionals/graduate-medical-education",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing",
+          "href": "https://www.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.nyp.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Nursing Jobs",
+          "href": "https://careers.nyp.org/nursing",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://instagram.com/nyphospital",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/new-york-presbyterian-hospital",
+          "inFooter": true
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/user/newyorkpresbyterian",
+          "inFooter": true
+        },
+        {
+          "text": "Disclaimer",
+          "href": "https://www.nyp.org/disclaimer",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "https://www.nyp.org/privacy-notice",
+          "inFooter": true
+        },
+        {
+          "text": "Employees",
+          "href": "https://www.nyp.org/employees",
+          "inFooter": true
+        },
+        {
+          "text": "For Vendors",
+          "href": "https://www.nyp.org/vendors",
+          "inFooter": true
+        },
+        {
+          "text": "Website Privacy Policy",
+          "href": "https://www.nyp.org/privacy-policy",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Subscribe to our health and wellness newsletter today. Enter email address Bot check, no input needed here Submit Form I accept NewYork-Presbyterian's Terms and Conditions and confirm I would like to receive more information about your care services, news, and events. About NYP About Us Governance & Leadership Community Contact Us The Latest Health Matters Newsroom Events & Classes Ways to Help Give to NYP Volunteer Donate Blood Professionals & Students For Professionals Graduate Medical Education Nursing Job Seekers Careers Nursing Jobs Instagram Facebook LinkedIn YouTube Disclaimer Privacy Notice Employees For Vendors Website Privacy Policy © 2025 NewYork-Presbyterian Hospital",
+      "telLinks": [
+        {
+          "text": "Need Further Help? Call 1-877-697-9355",
+          "href": "tel:+18776979355",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://cloud.care.nyp.org/nyp-footer-form-ty",
+          "fields": [
+            "input:email:Email",
+            "input:text:botCheck",
+            "button:submit:",
+            "input:checkbox:Form_Check"
+          ]
+        }
+      ],
+      "imgNoAlt": 3,
+      "images": 14,
+      "scrollHeight": 2786,
+      "jsonld": [
+        "\n  {\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"name\":\"Find a Doctor at NewYork-Presbyterian\",\"url\":\"https://doctors.nyp.org/\",\"description\":\"Use this page to search for and find a qualified physician affiliated with NewYork-Presbyterian.\",\"about\":{\"@type\":\"MedicalOrganization\",\"@id\":\"https://www.nyp.org/#organization\",\"url\":\"https://www.nyp.org/\",\"name\":\"NewYork-Presbyterian\"}}]}\n  "
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.hidden invisible md:flex md:visible item"
+      ]
+    }
+  }
+}

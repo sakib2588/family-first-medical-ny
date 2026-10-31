@@ -1,0 +1,118 @@
+{
+  "url": "https://www.parsleyhealth.com/join/care",
+  "slug": "parsley-appt",
+  "capturedAt": "2026-10-30T18:35:47.979Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 10511,
+      "consoleErrors": [],
+      "title": "Join Parsley Health",
+      "h1": [
+        "Parsley Health",
+        "Functional medicine, covered by insurance"
+      ],
+      "h2": [
+        "Your Cart"
+      ],
+      "links": [
+        {
+          "text": "Parsley Health Terms",
+          "href": "https://www.parsleyhealth.com/terms-of-use",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.parsleyhealth.com/privacy",
+          "inFooter": false
+        },
+        {
+          "text": "HIPAA Notice of Privacy Practices",
+          "href": "https://www.parsleyhealth.com/notice-of-privacy-practices",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.parsleyhealth.com/join/care/location",
+          "fields": [
+            "input:email:email",
+            "input:text:addressPostalCode",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 886,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.sticky top-0 left-0 right-0 z-10",
+        "DIV.fixed inset-0 z-[60] bg-black/40 transit",
+        "DIV.fixed top-0 right-0 z-[60] h-full w-full",
+        "IFRAME."
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 9897,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied."
+      ],
+      "title": "Join Parsley Health",
+      "h1": [
+        "Parsley Health",
+        "Let’s get your care plan started."
+      ],
+      "h2": [
+        "Your Cart"
+      ],
+      "links": [
+        {
+          "text": "Parsley Health Terms",
+          "href": "https://www.parsleyhealth.com/terms-of-use",
+          "inFooter": false
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.parsleyhealth.com/privacy",
+          "inFooter": false
+        },
+        {
+          "text": "HIPAA Notice of Privacy Practices",
+          "href": "https://www.parsleyhealth.com/notice-of-privacy-practices",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.parsleyhealth.com/join/care/location",
+          "fields": [
+            "input:email:email",
+            "input:text:addressPostalCode",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 907,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.sticky top-0 left-0 right-0 z-10",
+        "DIV.fixed inset-0 z-[60] bg-black/40 transit",
+        "DIV.fixed top-0 right-0 z-[60] h-full w-full",
+        "IFRAME.",
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

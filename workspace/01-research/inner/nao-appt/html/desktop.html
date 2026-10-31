@@ -1,0 +1,494 @@
+<!DOCTYPE html><html lang="en" data-brand="nao" data-initial-surface="booking" data-app-shell-ready="true"><head>
+<script src="/runtime-config.js"></script>
+<script src="/static/booking/suboxone-brand.a8a350c3de8361b4c469ca55c39e6738d6233104f86d442f78b2a41d9e2a4dd1.min.js"></script>
+    
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1e3565">
+    <meta name="color-scheme" content="light">
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Core SEO -->
+    <title>Urgent care at Astoria, Queens | Nao Medical</title>
+    <meta name="description" content="Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.">
+    <meta name="keywords" content="book urgent care appointment, urgent care near me, medical weight loss appointment, MAWL appointment, GLP-1 weight loss visit, televisit appointment, online doctor appointment NYC, walk-in clinic Manhattan, women's health near me, women's healthcare appointment, STD testing near me, free STD testing NYC, immigration medical exam, I-693 exam, CDL physical near me, DOT physical NYC, nutrition counseling, psychiatry near me, mental health televisit, Brooklyn urgent care, Queens urgent care, Bronx urgent care, Long Island walk-in clinic, same day doctor appointment, Nao Medical, NaoMed, Nao Medical booking, online appointment scheduling, Spanish-speaking doctor NYC">
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large">
+    <meta name="author" content="Nao Medical">
+    <meta name="geo.region" content="US-NY">
+    <meta name="geo.placename" content="New York, NY">
+    <meta name="rating" content="general">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://book.naomedical.com/urgent-care/astoria-queens">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Nao Medical">
+    <meta property="og:url" content="https://book.naomedical.com/urgent-care/astoria-queens">
+    <meta property="og:title" content="Urgent care at Astoria, Queens | Nao Medical">
+    <meta property="og:description" content="Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.">
+    <meta property="og:image" content="https://book.naomedical.com/app/assets/nao-web/locations-map.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Nao Medical clinic network across NYC and Long Island">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@naomedical">
+    <meta name="twitter:title" content="Urgent care at Astoria, Queens | Nao Medical">
+    <meta name="twitter:description" content="Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.">
+    <meta name="twitter:image" content="https://book.naomedical.com/app/assets/nao-web/locations-map.png">
+
+    <link id="site-favicon" rel="icon" type="image/png" href="/favicon.png?v=20260820a">
+
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin="">
+    <link rel="dns-prefetch" href="https://tile.openstreetmap.org">
+    <link rel="stylesheet" href="/static/booking/leaflet.f2645f211b24e904095f4a83ce1b3f3b7d46e8b26d6432472edf839517e1db46.css">
+    <script src="/static/booking/booking-initial-surface.dc05021b972c56b3cb7469c40236d2aa703f54d8f32c732325ef1b085eb62c63.js"></script>
+    <link rel="stylesheet" href="/static/booking/styles.195771a8224c9bce38173c2f27f21d8cae110431975ddee62ce9c8cc6212827f.min.css">
+    
+    <script defer="" src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Structured data: medical organization, clinic locations, and service catalog. -->
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MedicalOrganization","@id":"https://book.naomedical.com/#org","name":"Nao Medical","alternateName":["NaoMed","Nao Medical Urgent Care"],"url":"https://book.naomedical.com/","logo":"https://naomedical.com/main-page-assets/images/web.svg","image":"https://book.naomedical.com/app/assets/nao-web/locations-map.png","description":"Nao Medical is a network of urgent care, televisit, and specialty clinics across New York City and Long Island.","telephone":"+1-917-310-3371","areaServed":[{"@type":"City","name":"New York"},{"@type":"AdministrativeArea","name":"Long Island, NY"}],"medicalSpecialty":["https://schema.org/PrimaryCare","https://schema.org/Psychiatric","https://schema.org/DietNutrition"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Nao Medical services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Urgent care visit"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Televisit (telehealth video visit)"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"STD testing"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Medical weight loss visit"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Immigration medical exam (I-693)"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"CDL / DOT physical"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Nutrition counseling"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Psychiatry consultation"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Therapy session"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Women's health exam"}}]}},{"@type":"WebSite","@id":"https://book.naomedical.com/#website","url":"https://book.naomedical.com/","name":"Nao Medical Booking","publisher":{"@id":"https://book.naomedical.com/#org"},"inLanguage":"en-US","potentialAction":{"@type":"ReserveAction","target":"https://book.naomedical.com/appointment/urgent-care","result":{"@type":"Reservation","name":"Same-day urgent care appointment"}}},{"@type":"ItemList","name":"Nao Medical clinic locations","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"MedicalClinic","name":"Nao Medical StuyTown, Manhattan","address":{"@type":"PostalAddress","streetAddress":"259 1st Ave","addressLocality":"New York","addressRegion":"NY","postalCode":"10003","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7307,"longitude":-73.9826},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":2,"item":{"@type":"MedicalClinic","name":"Nao Medical Williamsburg, Brooklyn","address":{"@type":"PostalAddress","streetAddress":"308 Graham Ave","addressLocality":"Brooklyn","addressRegion":"NY","postalCode":"11211","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7139,"longitude":-73.9444},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":3,"item":{"@type":"MedicalClinic","name":"Nao Medical Crown Heights, Brooklyn","address":{"@type":"PostalAddress","streetAddress":"341 Eastern Pkwy","addressLocality":"Brooklyn","addressRegion":"NY","postalCode":"11216","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.6717,"longitude":-73.9565},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":4,"item":{"@type":"MedicalClinic","name":"Nao Medical Astoria, Queens","address":{"@type":"PostalAddress","streetAddress":"37-15 23rd Ave","addressLocality":"Astoria","addressRegion":"NY","postalCode":"11105","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7727,"longitude":-73.9127},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":5,"item":{"@type":"MedicalClinic","name":"Nao Medical Long Island City, Queens","address":{"@type":"PostalAddress","streetAddress":"30-07 36th Ave","addressLocality":"Long Island City","addressRegion":"NY","postalCode":"11106","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7568,"longitude":-73.9252},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":6,"item":{"@type":"MedicalClinic","name":"Nao Medical Jackson Heights, Queens","address":{"@type":"PostalAddress","streetAddress":"80-10 Northern Blvd","addressLocality":"Jackson Heights","addressRegion":"NY","postalCode":"11372","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7559,"longitude":-73.8858},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":7,"item":{"@type":"MedicalClinic","name":"Nao Medical Jamaica, Queens","address":{"@type":"PostalAddress","streetAddress":"90-18 Sutphin Blvd","addressLocality":"Jamaica","addressRegion":"NY","postalCode":"11435","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7035,"longitude":-73.8092},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":8,"item":{"@type":"MedicalClinic","name":"Nao Medical Co-Op City, Bronx","address":{"@type":"PostalAddress","streetAddress":"2063A Bartow Ave","addressLocality":"Bronx","addressRegion":"NY","postalCode":"10475","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.8701,"longitude":-73.8297},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":9,"item":{"@type":"MedicalClinic","name":"Nao Medical 174th Street, Bronx","address":{"@type":"PostalAddress","streetAddress":"932 E 174th St","addressLocality":"Bronx","addressRegion":"NY","postalCode":"10460","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.8378,"longitude":-73.8918},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":10,"item":{"@type":"MedicalClinic","name":"Nao Medical Hicksville, NY","address":{"@type":"PostalAddress","streetAddress":"232 W Old Country Rd","addressLocality":"Hicksville","addressRegion":"NY","postalCode":"11801","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7677,"longitude":-73.5274},"telephone":"+1-917-310-3371"}},{"@type":"ListItem","position":11,"item":{"@type":"MedicalClinic","name":"Nao Medical Mineola, NY","address":{"@type":"PostalAddress","streetAddress":"135 Mineola Blvd","addressLocality":"Mineola","addressRegion":"NY","postalCode":"11501","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":40.7447,"longitude":-73.6405},"telephone":"+1-917-310-3371"}}]}]}</script>
+  <link rel="stylesheet" href="/static/booking/suboxone.b6bd78b4e7419b1a5f3eaab20e8800597073a4aaccc4453b139de62e2f522f9d.min.css">
+<link rel="stylesheet" href="/static/booking/alert-width.dec3ba55a34ac5960919135584a02b95d9da8f792925215097183a1b5c97589e.min.css">
+<link rel="stylesheet" href="/static/booking/booking-guidance.dccfadcb8388ea712ebd34cacc86b11dbcfed035252c5c426b62b27a789c01c4.min.css">
+<script type="application/ld+json" data-booking-content-schema="">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://book.naomedical.com/urgent-care/astoria-queens#booking-page","url":"https://book.naomedical.com/urgent-care/astoria-queens","name":"Urgent care at Astoria, Queens","description":"Book an urgent care appointment at Astoria, Queens. Choose a clinic for an in-person visit about a non-emergency health concern.","inLanguage":"en-US","about":{"@id":"https://book.naomedical.com/urgent-care/astoria-queens#booking-service"}},{"@type":"Service","@id":"https://book.naomedical.com/urgent-care/astoria-queens#booking-service","url":"https://book.naomedical.com/urgent-care/astoria-queens","name":"Urgent care","serviceType":"Urgent care","description":"Choose a clinic for an in-person visit about a non-emergency health concern.","provider":{"@id":"https://book.naomedical.com/#org"}}]}</script>
+<link rel="stylesheet" href="/static/booking/booking-calendar-mobile.949703051cd0e0492247435573b5c91b3d03d035871db64ba7d0fe6bbc17b09d.css">
+</head>
+  <body data-brand="nao" data-page="booking">
+    
+    
+    
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Nao Medical appointment booking">
+        <img src="/app/assets/nao-web/nao-logo.svg" alt="Nao Medical">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="/appointment/urgent-care">Urgent care</a>
+        <a href="/appointment/primary-care">Primary care</a>
+        <a href="/appointment/televisit">Televisit</a>
+        <a href="/appointment/specialty">Specialties</a>
+        <a href="/#locations">Locations</a>
+      </nav>
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+19173103371">(917) 310-3371</a>
+        <a class="btn-primary" href="/appointment/quick">Book appointment</a>
+      </div>
+    </header>
+
+    <main>
+      <noscript>
+        <section class="section section-light" aria-label="Online booking help">
+          <p>Online appointment booking requires JavaScript. Enable JavaScript in your browser and reload this page to choose a visit and check appointment availability.</p>
+        </section>
+      </noscript>
+      <!-- ---------------- HERO ---------------- -->
+      <section class="hero" data-landing-section="" hidden="">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Same-day care · NYC &amp; Long Island</p>
+            <h2>Book the <span class="brand-green-text">right care</span> in <em><span class="hero-underline">under two</span> minutes.</em></h2>
+            <p class="hero-sub">Start with one tap, or jump straight to the visit type you need. Same-day urgent care, primary care, televisit, and specialty appointments across 11 clinics in NYC and Long Island.</p>
+
+            <div class="hero-cta-row">
+              <a class="btn-primary btn-lg" href="/appointment/quick">
+                Book a quick appointment
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+              <a class="btn-secondary btn-lg hero-secondary-cta" href="#specialties">
+                See specialized services
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </a>
+            </div>
+
+            <div class="hero-paths" aria-label="Popular appointment paths">
+              <span class="hero-paths-label">Or jump straight to:</span>
+              <a class="hero-path" href="/appointment/urgent-care">Urgent care</a>
+              <a class="hero-path" href="/appointment/primary-care">Primary care</a>
+              <a class="hero-path" href="/appointment/televisit">Televisit</a>
+              <a class="hero-path" href="/appointment/specialty">Specialties</a>
+            </div>
+          </div>
+
+          <aside class="hero-map-card" aria-label="Nao Medical clinics">
+            <div id="hero-map" class="hero-map"></div>
+            <div class="hero-map-overlay">
+              <div>
+                <strong>11 clinics nearby</strong>
+                <span>Click a pin to view appointments</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ---------------- QUICK PATHS ---------------- -->
+      <section class="section section-tint" data-landing-section="" hidden="" aria-label="Same-day appointments">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Same-day care</p>
+            <h2>Book the visit <span class="brand-green-text">you came for.</span></h2>
+          </div>
+          <p>Same-day urgent care, primary care, virtual televisit, and specialty visits at Nao Medical clinics across NYC and Long Island. Choose what brings you in and we'll show you the next available times.</p>
+        </div>
+        <div class="paths-grid">
+          <a class="path-card" href="/appointment/urgent-care">
+            <div class="path-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+            </div>
+            <h3>Urgent care</h3>
+            <p>Coughs, sprains, rapid testing, UTI, allergies, stitches. Walk in or reserve a same-day slot.</p>
+            <span class="path-meta">Book urgent care</span>
+          </a>
+          <a class="path-card" href="/appointment/primary-care">
+            <div class="path-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21v-8M12 3v6M5 12h14M7 7h10M7 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+            </div>
+            <h3>Primary care</h3>
+            <p>Routine visits, annual exams, follow-ups, medication questions, and ongoing care.</p>
+            <span class="path-meta">Book primary care</span>
+          </a>
+          <a class="path-card" href="/appointment/televisit">
+            <div class="path-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Zm15 3 3-1.5v9L19 15V9Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path></svg>
+            </div>
+            <h3>Televisit</h3>
+            <p>Virtual visit by video for non-emergencies. Available the same day, no commute.</p>
+            <span class="path-meta">Book televisit</span>
+          </a>
+          <a class="path-card" href="/appointment/specialty">
+            <div class="path-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+            </div>
+            <h3>Specialty visits</h3>
+            <p>Nutrition, mental health, immigration exams, CDL physicals, STD testing, women's health.</p>
+            <span class="path-meta">Browse specialties</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ---------------- SPECIALTIES ---------------- -->
+      <section class="section section-light" id="specialties" data-landing-section="" hidden="" aria-label="Specialized services">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Specialized services</p>
+            <h2>Came in for something specific?</h2>
+          </div>
+          <p>If you already know the service you need, start here. Each one takes you straight to a list of clinics and same-day appointment times.</p>
+        </div>
+        <div class="specialty-grid">
+          <a class="specialty-card" href="/appointment/specialty/nutrition" data-service-shortcut="nutrition">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-nutrition.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Nutrition</strong><span>Counseling &amp; weight care plans</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/std-testing" data-service-shortcut="std">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>STD testing</strong><span>Fast, confidential testing</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/drug-testing" data-service-shortcut="drug-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Drug testing</strong><span>Clinic testing appointments</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/flu-testing" data-service-shortcut="flu-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Flu testing</strong><span>Same-day flu testing</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/pcr-testing" data-service-shortcut="pcr-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>PCR testing</strong><span>Convenient PCR visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/rsv-testing" data-service-shortcut="rsv-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>RSV testing</strong><span>RSV testing visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/respiratory-testing" data-service-shortcut="respiratory-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Respiratory testing</strong><span>Respiratory care testing</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/emergency-care" data-service-shortcut="emergency-care">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Emergency care</strong><span>Same-day emergency care</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/medical-weight-loss" data-service-shortcut="mawl">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-nutrition.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Medical Weight Loss</strong><span>Provider-supervised weight-loss visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/semaglutide" data-service-shortcut="semaglutide">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-nutrition.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Semaglutide</strong><span>Semaglutide visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/therapy" data-service-shortcut="therapy">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-therapy.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Therapy</strong><span>Behavioral health sessions</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/psychiatry" data-service-shortcut="psychiatry">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-psychiatry.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Psychiatry</strong><span>Consults &amp; medication support</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/cdl-exams" data-service-shortcut="cdl">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-cdl.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>CDL / DOT exam</strong><span>Medical card appointments</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/immigration-medical-exams" data-service-shortcut="immigration">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-immigration.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Immigration exam</strong><span>I-693 physicals &amp; vaccines</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/womens-health" data-service-shortcut="women">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-women-health.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Women's health</strong><span>Well-woman &amp; preventive</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/cancer-screening" data-service-shortcut="cancer-screening">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-women-health.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Cancer screening</strong><span>Preventive screening visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/lab-tests" data-service-shortcut="lab-tests">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Lab tests</strong><span>Lab testing appointments</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/mono-testing" data-service-shortcut="mono-testing">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-std.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Mono testing</strong><span>Mono testing visits</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/vaccines" data-service-shortcut="vaccines">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-immigration.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Vaccines</strong><span>Vaccine appointments</span></span>
+          </a>
+          <a class="specialty-card" href="/appointment/specialty/spravato" data-service-shortcut="spravato">
+            <span class="specialty-card-icon"><img src="/app/assets/nao-web/icon-spravato.svg" alt=""></span>
+            <span class="specialty-card-copy"><strong>Spravato</strong><span>Spravato appointments</span></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ---------------- LOCATIONS ---------------- -->
+      <section class="section section-tint" id="locations" data-landing-section="" hidden="" aria-label="Our locations">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Locations</p>
+            <h2>11 clinics across NYC &amp; Long Island.</h2>
+          </div>
+          <p>Pick a marker or a name to start booking. Hours and same-day availability are checked when you open the clinic.</p>
+        </div>
+        <div class="locations-band">
+          <div class="locations-list-wrap">
+            <div class="locations-list" data-locations-list=""></div>
+            <div class="locations-scroll-cue" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 5v14m0 0 6-6m-6 6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <span>Scroll to continue</span>
+            </div>
+          </div>
+          <div class="locations-map-card">
+            <div id="homepage-map" class="locations-map" data-homepage-map=""></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------- BOOKING (SPA) ---------------- -->
+      <section class="booking-page" data-booking-page="" aria-label="Appointment booking">
+        <div class="booking-card" data-booking-app="">
+      <div class="booking-experience stage-facilityDirect">
+        
+        
+      <div class="booking-topbar">
+        <div class="booking-topbar-inner">
+          <nav class="crumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a><span class="sep">/</span>
+            <strong>Astoria, Queens</strong>
+          </nav>
+          <div class="care-switch" role="tablist" aria-label="Switch care type">
+            <a href="/appointment/urgent-care" class="is-active">Urgent care</a><a href="/appointment/primary-care" class="">Primary care</a><a href="/appointment/televisit" class="">Televisit</a><a href="/appointment/specialty" class="">Specialties</a>
+          </div>
+        </div>
+      </div>
+    
+        
+      <div class="booking-progress" aria-label="Booking progress" style="grid-template-columns: repeat(4, minmax(0, 1fr));">
+        <span class="active">1 Location</span><span class="">2 Details</span><span class="">3 Verify phone</span><span class="">4 Review &amp; consent</span>
+      </div>
+      
+    
+        
+      <section class="detail-shell has-mobile-reserve">
+        <div>
+          <a class="detail-back" href="/urgent-care"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 18-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> Back to Urgent care locations</a>
+          
+      <div class="facility-photo facility-photo-hero" aria-label="Astoria, Queens exterior">
+        <div class="facility-photo-track">
+          <img src="/app/assets/nao-web/locations/astoria.jpg" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/lic.webp" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/jackson-heights.webp" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/astoria.jpg" alt="" loading="lazy">
+          <img src="/app/assets/nao-web/locations/astoria.jpg" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/lic.webp" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/jackson-heights.webp" alt="" loading="lazy"><img src="/app/assets/nao-web/locations/astoria.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    
+          <div class="detail-hero facility-detail-hero">
+            <div>
+              <p class="eyebrow">Urgent care appointment</p>
+              <h1>Urgent care at Astoria, Queens</h1>
+              <p class="detail-address-line"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-7 7-12a7 7 0 0 0-14 0c0 5 7 12 7 12Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path><circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.7"></circle></svg><span>37-15 23rd Ave, Astoria, NY 11105</span></p>
+              <div class="status-row">
+                <span class="pill">Fri, Oct 30</span>
+                <span class="muted">Hours unavailable · (917) 310-3371</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-section">
+            <h3>About this appointment</h3>
+            <p>Reserve an appointment for urgent care at this Nao Medical location. Choose a time below to keep the visit tied to the care you selected.</p>
+          </div>
+
+          <div class="detail-section">
+            <h3>Services at this location</h3>
+            <p>DOT/CDL, Nutrition, STD Testing, Therapy, Women Health, Immigration Exams.</p>
+          </div>
+
+          <div class="detail-section">
+            <h3>Hours</h3>
+            <div class="facts-grid">
+              <div class="fact"><strong>Fri, Oct 30</strong><span>Hours unavailable</span></div><div class="fact"><strong>Sat, Oct 31</strong><span>Hours unavailable</span></div><div class="fact"><strong>Sun, Nov 1</strong><span>Hours unavailable</span></div><div class="fact"><strong>Mon, Nov 2</strong><span>Hours unavailable</span></div><div class="fact"><strong>Tue, Nov 3</strong><span>Hours unavailable</span></div><div class="fact"><strong>Wed, Nov 4</strong><span>Hours unavailable</span></div><div class="fact"><strong>Thu, Nov 5</strong><span>Hours unavailable</span></div><div class="fact"><strong>Phone</strong><span>(917) 310-3371</span></div>
+            </div>
+          </div>
+
+          <div class="detail-section">
+            <h3>Insurance</h3>
+            <p>In-network with Aetna, Cigna, EmblemHealth, Healthfirst, MetroPlus, Medicare, UnitedHealthcare, Oxford, and more.</p>
+          </div>
+        </div>
+
+        <aside class="detail-booking">
+          
+      <div>
+        <h3>Astoria, Queens</h3>
+        <p>Reserve a time for free. We confirm by phone if anything needs adjustment.</p>
+      </div>
+      <div class="calendar-bar">
+        <button data-action="shiftDateWindow" data-dir="-1" aria-label="Previous week"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 18-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+        <span class="range">Oct 30 to Nov 5</span>
+        <div class="cal-popover-wrap" style="position:relative;">
+          <button class="open-cal" data-action="toggleCalendar" aria-haspopup="true" aria-expanded="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="1.7"></rect><path d="M4 9h16M8 3v4m8-4v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path></svg> Pick a date
+          </button>
+          
+        </div>
+        <button data-action="shiftDateWindow" data-dir="1" aria-label="Next week"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+      </div>
+      <div class="date-strip">
+        
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Fri</span>
+                <span class="date">Oct 30</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Sat</span>
+                <span class="date">Oct 31</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Sun</span>
+                <span class="date">Nov 1</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Mon</span>
+                <span class="date">Nov 2</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Tue</span>
+                <span class="date">Nov 3</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Wed</span>
+                <span class="date">Nov 4</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+              <button class="slot-pill is-unavailable" disabled="">
+                <span class="day">Thu</span>
+                <span class="date">Nov 5</span>
+                <span class="count">Hours unavailable</span>
+              </button>
+            
+      </div>
+      <div class="day-label">Friday, October 30</div>
+      <div class="slot-area">
+        <div class="empty-state" style="grid-column: 1 / -1;">Hours unavailable <button class="btn-secondary" data-action="retryScheduleHours">Refresh hours</button></div>
+      </div>
+      
+      <div class="stage-actions">
+        <button class="btn-primary" data-action="continueDetails" disabled="">Reserve this time</button>
+      </div>
+    
+        </aside>
+        
+      <div class="mobile-reserve-bar" aria-label="Reserve appointment">
+        <span>
+          <strong>Urgent care</strong>
+          <small>Tap to choose a time</small>
+        </span>
+        <button class="btn-primary is-soft-disabled" data-action="scrollToTimeSelection" data-ready="false">Reserve</button>
+      </div>
+    
+      </section>
+    
+        
+      </div>
+    </div>
+      
+<section class="booking-guidance" data-booking-guidance="" aria-labelledby="booking-guidance-title"><h2 id="booking-guidance-title">Plan your urgent care</h2><h3>About this appointment</h3><p>Choose a clinic for an in-person visit about a non-emergency health concern. This booking link opens Astoria, Queens, at 37-15 23rd Ave, Astoria, NY 11105. Confirm the clinic and address shown in your appointment details before you plan your trip.</p><h3>Prepare for the clinical visit</h3><p>Write down your symptoms, when they started and the questions you want to ask. Bring your medicine list, allergies and relevant records. The clinician decides which assessment, testing, treatment or referral fits the concern.</p><h3>Choose and check a time</h3><p>Review the dates and appointment times shown in the booking app. If no suitable time appears, check another date or use Change Clinic where the booking flow offers it. Confirm the location again after changing clinics.</p><h3>What this booking confirms</h3><p>Urgent care booking is for non-emergency visits. If you need emergency help, call 911. A listed clinic does not guarantee a time, a test or a particular treatment.</p><h3>Before you continue</h3><p>Have your contact details and any requested identification or insurance information ready for the booking steps. Check your name, contact details, date and time before you continue. If you need help with the booking options, contact Nao Medical at (917) 310-3371.</p><nav aria-label="More booking help"><a href="/appointment/specialty">Browse specialty appointments</a> or  <a href="mailto:service@naomedical.com">contact Nao Medical</a></nav></section>
+</section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <img src="/app/assets/nao-web/nao-logo-white.svg" alt="Nao Medical">
+          <p>Urgent care, televisit, mental health, nutrition, paperwork exams, and testing across NYC and Long Island.</p>
+        </div>
+        <div>
+          <h5>Book</h5>
+          <nav>
+            <a href="/appointment/urgent-care">Urgent care</a>
+            <a href="/appointment/primary-care">Primary care</a>
+            <a href="/appointment/televisit">Televisit</a>
+            <a href="/appointment/specialty">Specialties</a>
+          </nav>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <nav>
+            <a href="https://naomedical.com/clinics/locations.html">Locations</a>
+            <a href="https://naomedical.com/services/bills/billing.html">Insurance &amp; billing</a>
+            <a href="https://mycw17.eclinicalweb.com/portal941/jsp/100mp/login_otp.jsp">Patient portal</a>
+          </nav>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <nav>
+            <a href="tel:+19173103371">(917) 310-3371</a>
+            <a href="mailto:service@naomedical.com">service@naomedical.com</a>
+          </nav>
+        </div>
+      </div>
+      <div class="site-footer-bottom">© Nao Medical. Same-day care across NYC and Long Island.</div>
+    </footer>
+
+    <script defer="" src="/static/booking/suboxone-ui.6fbb79f7ced8ed6c5723bcb47e07e3d1f61610578c02f58fb859eb2e78683b25.min.js"></script>
+<script defer="" src="/static/booking/booking-policy.db1e4a1eb41cc2c886b686fc115d5d0aa899e5e9925a95ae5d874e587e17c757.min.js"></script>
+    <script defer="" src="/static/booking/app.1bb73b9cecfe5721260918ba01e5d46253351e9a9c09b74c814600b11d8462eb.js"></script>
+<script defer="" src="/static/booking/booking-calendar-escape.36203b9e0372011b5d6ce3034916f7f3ccb2ef2316ee1ce3a8a96b270f25d71b.js"></script>
+  
+
+</body></html>

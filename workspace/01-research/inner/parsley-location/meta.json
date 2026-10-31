@@ -1,0 +1,1401 @@
+{
+  "url": "https://www.parsleyhealth.com/locations",
+  "slug": "parsley-location",
+  "capturedAt": "2026-10-30T18:35:37.934Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 11988,
+      "consoleErrors": [],
+      "title": "Virtual Functional Medicine Care | Parsley Health Telehealth",
+      "h1": [
+        "Virtual functional medicine care, nationwide"
+      ],
+      "h2": [
+        "Care where you are",
+        "Virtual visits that feel personal",
+        "Advanced labs, coordinated for you",
+        "Virtual member events and education",
+        "Personal supplements, delivered",
+        "Welcome in our centers",
+        "Concierge-level support",
+        "What virtual care looks like at Parsley Health",
+        "Symptoms and conditions we treat at the root",
+        "Symptoms and conditions we treat at the root",
+        "Complete Care membership",
+        "Get more out of medicine than you ever thought possible",
+        "Get more out of medicine than you ever thought possible",
+        "Wherever you're coming from, we're here for you.",
+        "Your Cart"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Complete Care Membership",
+          "href": "https://www.parsleyhealth.com/care?entry=nav-complete-care",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs?entry=nav-lab-review",
+          "inFooter": false
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance?entry=nav-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.parsleyhealth.com/care/conditions?entry=nav-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Supplements",
+          "href": "https://www.parsleyhealth.com/store?entry=nav-store",
+          "inFooter": false
+        },
+        {
+          "text": "Join now",
+          "href": "https://www.parsleyhealth.com/join/care?entry=nav-join-now",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://my.parsleyhealth.com/login?entry=nav-login",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Join now",
+          "href": "https://www.parsleyhealth.com/join/care?entry=nav-join-now",
+          "inFooter": false
+        },
+        {
+          "text": "Explore care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": false
+        },
+        {
+          "text": "Start with labs",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": false
+        },
+        {
+          "text": "online store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": false
+        },
+        {
+          "text": "Choose your clinician",
+          "href": "https://www.parsleyhealth.com/insights/care",
+          "inFooter": false
+        },
+        {
+          "text": "Start feeling well",
+          "href": "https://www.parsleyhealth.com/join/care",
+          "inFooter": false
+        },
+        {
+          "text": "Gut & Digestive Health",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Gut health care",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone Health & Balance",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone health care",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune & Inflammation",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune care",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained Symptoms",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained symptoms care",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Emotional Health",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health care",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Heart health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Healthspan",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity care",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Menopause care",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility, Pregnancy, & Postpartum",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility care",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Detox & Environmental Exposure",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Detox care",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Gut & Digestive Health",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Gut health care",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone Health & Balance",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone health care",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune & Inflammation",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune care",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained Symptoms",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained symptoms care",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Emotional Health",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health care",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Heart health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Healthspan",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity care",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Menopause care",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility, Pregnancy, & Postpartum",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility care",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Detox & Environmental Exposure",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Detox care",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Start feeling well",
+          "href": "https://www.parsleyhealth.com/join/care",
+          "inFooter": false
+        },
+        {
+          "text": "Follow Us",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/parsley-health",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/@parsleyhealth",
+          "inFooter": true
+        },
+        {
+          "text": "Complete Care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Clinicians",
+          "href": "https://www.parsleyhealth.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Nutrition Coaching",
+          "href": "https://www.parsleyhealth.com/nutrition-coaching",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/labs/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "What We Test",
+          "href": "https://www.parsleyhealth.com/labs/what-we-test",
+          "inFooter": true
+        },
+        {
+          "text": "Why Our Providers",
+          "href": "https://www.parsleyhealth.com/labs/why-our-providers",
+          "inFooter": true
+        },
+        {
+          "text": "About Parsley",
+          "href": "https://www.parsleyhealth.com/company",
+          "inFooter": true
+        },
+        {
+          "text": "What We Offer",
+          "href": "https://www.parsleyhealth.com/our-services",
+          "inFooter": true
+        },
+        {
+          "text": "Parsley Symptom Index",
+          "href": "https://www.parsleyhealth.com/quiz",
+          "inFooter": true
+        },
+        {
+          "text": "Dr. Robin Berzin",
+          "href": "https://www.parsleyhealth.com/robin-berzin-md",
+          "inFooter": true
+        },
+        {
+          "text": "Reviews",
+          "href": "https://www.parsleyhealth.com/reviews",
+          "inFooter": true
+        },
+        {
+          "text": "Supplement Store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.parsleyhealth.com/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Press",
+          "href": "https://www.parsleyhealth.com/press",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.parsleyhealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Creators",
+          "href": "https://www.parsleyhealth.com/lp/create",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.parsleyhealth.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.parsleyhealth.com/contact",
+          "inFooter": true
+        },
+        {
+          "text": "NYC",
+          "href": "https://www.parsleyhealth.com/ny",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual",
+          "href": "https://www.parsleyhealth.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Join Parsley",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=join-parsley",
+          "inFooter": true
+        },
+        {
+          "text": "Speak with an advisor",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=speak_with_advisor",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Complete Care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Clinicians",
+          "href": "https://www.parsleyhealth.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Nutrition Coaching",
+          "href": "https://www.parsleyhealth.com/nutrition-coaching",
+          "inFooter": true
+        },
+        {
+          "text": "About Parsley",
+          "href": "https://www.parsleyhealth.com/company",
+          "inFooter": true
+        },
+        {
+          "text": "What We Offer",
+          "href": "https://www.parsleyhealth.com/our-services",
+          "inFooter": true
+        },
+        {
+          "text": "Parsley Symptom Index",
+          "href": "https://www.parsleyhealth.com/quiz",
+          "inFooter": true
+        },
+        {
+          "text": "Dr. Robin Berzin",
+          "href": "https://www.parsleyhealth.com/robin-berzin-md",
+          "inFooter": true
+        },
+        {
+          "text": "Reviews",
+          "href": "https://www.parsleyhealth.com/reviews",
+          "inFooter": true
+        },
+        {
+          "text": "NYC",
+          "href": "https://www.parsleyhealth.com/ny",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual",
+          "href": "https://www.parsleyhealth.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Join Parsley",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=join-parsley",
+          "inFooter": true
+        },
+        {
+          "text": "Speak with an advisor",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=speak_with_advisor",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/labs/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "What We Test",
+          "href": "https://www.parsleyhealth.com/labs/what-we-test",
+          "inFooter": true
+        },
+        {
+          "text": "Why Our Providers",
+          "href": "https://www.parsleyhealth.com/labs/why-our-providers",
+          "inFooter": true
+        },
+        {
+          "text": "Supplement Store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.parsleyhealth.com/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Press",
+          "href": "https://www.parsleyhealth.com/press",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.parsleyhealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Creators",
+          "href": "https://www.parsleyhealth.com/lp/create",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.parsleyhealth.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.parsleyhealth.com/contact",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/parsley-health",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/@parsleyhealth",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Membership",
+          "href": "https://www.parsleyhealth.com/clinical-membership-terms",
+          "inFooter": true
+        },
+        {
+          "text": "Terms & Conditions",
+          "href": "https://www.parsleyhealth.com/membership-terms",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.parsleyhealth.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.parsleyhealth.com/privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.parsleyhealth.com/notice-of-privacy-practices",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility Statement",
+          "href": "https://www.parsleyhealth.com/accessibility-statement",
+          "inFooter": true
+        }
+      ],
+      "footerText": "@parsleyhealth Follow Us Complete Care Complete Care Pricing & Insurance How It Works Our Clinicians Nutrition Coaching About Us About Parsley What We Offer Parsley Symptom Index Dr. Robin Berzin Reviews Centers NYC Virtual Join Parsley Speak with an advisor Clinical Lab Review Clinical Lab Review How It Works What We Test Why Our Providers Resources Supplement Store Blog Press Careers Creators FAQs Contact Us Sign up for our newsletter Sign Up Share Parsley © Parsley Health, all rights reserved 126 5th Ave, Fl 2, New York, NY 10011 Clinical Membership Terms & Conditions Terms of Use Privacy Policy Notice of Privacy Practices Accessibility Statement",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.parsleyhealth.com/locations",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://www.parsleyhealth.com/locations",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 28,
+      "images": 52,
+      "scrollHeight": 13172,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.w-full px-5 nav-desktop:px-[4%] py-4 z-5",
+        "DIV.fixed inset-0 z-[60] bg-black/40 transit",
+        "DIV.fixed top-0 right-0 z-[60] h-full w-full"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 9137,
+      "consoleErrors": [],
+      "title": "Virtual Functional Medicine Care | Parsley Health Telehealth",
+      "h1": [
+        "Virtual functional medicine care, nationwide"
+      ],
+      "h2": [
+        "Care where you are",
+        "Virtual visits that feel personal",
+        "Advanced labs, coordinated for you",
+        "Virtual member events and education",
+        "Personal supplements, delivered",
+        "Welcome in our centers",
+        "Concierge-level support",
+        "What virtual care looks like at Parsley Health",
+        "Symptoms and conditions we treat at the root",
+        "Symptoms and conditions we treat at the root",
+        "Complete Care membership",
+        "Get more out of medicine than you ever thought possible",
+        "Get more out of medicine than you ever thought possible",
+        "Wherever you're coming from, we're here for you.",
+        "Your Cart"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Complete Care Membership",
+          "href": "https://www.parsleyhealth.com/care?entry=nav-complete-care",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs?entry=nav-lab-review",
+          "inFooter": false
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance?entry=nav-insurance",
+          "inFooter": false
+        },
+        {
+          "text": "What We Treat",
+          "href": "https://www.parsleyhealth.com/care/conditions?entry=nav-conditions",
+          "inFooter": false
+        },
+        {
+          "text": "Supplements",
+          "href": "https://www.parsleyhealth.com/store?entry=nav-store",
+          "inFooter": false
+        },
+        {
+          "text": "Join now",
+          "href": "https://www.parsleyhealth.com/join/care?entry=nav-join-now",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://my.parsleyhealth.com/login?entry=nav-login",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Join now",
+          "href": "https://www.parsleyhealth.com/join/care?entry=nav-join-now",
+          "inFooter": false
+        },
+        {
+          "text": "Explore care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": false
+        },
+        {
+          "text": "Start with labs",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": false
+        },
+        {
+          "text": "online store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": false
+        },
+        {
+          "text": "Choose your clinician",
+          "href": "https://www.parsleyhealth.com/insights/care",
+          "inFooter": false
+        },
+        {
+          "text": "Start feeling well",
+          "href": "https://www.parsleyhealth.com/join/care",
+          "inFooter": false
+        },
+        {
+          "text": "Gut & Digestive Health",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Gut health care",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone Health & Balance",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone health care",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune & Inflammation",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune care",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained Symptoms",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained symptoms care",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Emotional Health",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health care",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Heart health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Healthspan",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity care",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Menopause care",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility, Pregnancy, & Postpartum",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility care",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Detox & Environmental Exposure",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Detox care",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Gut & Digestive Health",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Gut health care",
+          "href": "https://www.parsleyhealth.com/care/improve-gut-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone Health & Balance",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone health care",
+          "href": "https://www.parsleyhealth.com/care/hormonal-imbalance-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune & Inflammation",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Autoimmune care",
+          "href": "https://www.parsleyhealth.com/care/autoimmune-disease-treatment",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained Symptoms",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Unexplained symptoms care",
+          "href": "https://www.parsleyhealth.com/care/unexplained-illness",
+          "inFooter": false
+        },
+        {
+          "text": "Mental & Emotional Health",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Mental health care",
+          "href": "https://www.parsleyhealth.com/care/mental-health",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Heart health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-heart-rate",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic health care",
+          "href": "https://www.parsleyhealth.com/care/metabolic-health",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Healthspan",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity care",
+          "href": "https://www.parsleyhealth.com/care/longevity",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Menopause care",
+          "href": "https://www.parsleyhealth.com/care/menopause-peri",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility, Pregnancy, & Postpartum",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Fertility care",
+          "href": "https://www.parsleyhealth.com/care/reproductive-health",
+          "inFooter": false
+        },
+        {
+          "text": "Detox & Environmental Exposure",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Detox care",
+          "href": "https://www.parsleyhealth.com/care/detox",
+          "inFooter": false
+        },
+        {
+          "text": "Start feeling well",
+          "href": "https://www.parsleyhealth.com/join/care",
+          "inFooter": false
+        },
+        {
+          "text": "Follow Us",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/parsley-health",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/@parsleyhealth",
+          "inFooter": true
+        },
+        {
+          "text": "Complete Care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Clinicians",
+          "href": "https://www.parsleyhealth.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Nutrition Coaching",
+          "href": "https://www.parsleyhealth.com/nutrition-coaching",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/labs/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "What We Test",
+          "href": "https://www.parsleyhealth.com/labs/what-we-test",
+          "inFooter": true
+        },
+        {
+          "text": "Why Our Providers",
+          "href": "https://www.parsleyhealth.com/labs/why-our-providers",
+          "inFooter": true
+        },
+        {
+          "text": "About Parsley",
+          "href": "https://www.parsleyhealth.com/company",
+          "inFooter": true
+        },
+        {
+          "text": "What We Offer",
+          "href": "https://www.parsleyhealth.com/our-services",
+          "inFooter": true
+        },
+        {
+          "text": "Parsley Symptom Index",
+          "href": "https://www.parsleyhealth.com/quiz",
+          "inFooter": true
+        },
+        {
+          "text": "Dr. Robin Berzin",
+          "href": "https://www.parsleyhealth.com/robin-berzin-md",
+          "inFooter": true
+        },
+        {
+          "text": "Reviews",
+          "href": "https://www.parsleyhealth.com/reviews",
+          "inFooter": true
+        },
+        {
+          "text": "Supplement Store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.parsleyhealth.com/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Press",
+          "href": "https://www.parsleyhealth.com/press",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.parsleyhealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Creators",
+          "href": "https://www.parsleyhealth.com/lp/create",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.parsleyhealth.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.parsleyhealth.com/contact",
+          "inFooter": true
+        },
+        {
+          "text": "NYC",
+          "href": "https://www.parsleyhealth.com/ny",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual",
+          "href": "https://www.parsleyhealth.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Join Parsley",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=join-parsley",
+          "inFooter": true
+        },
+        {
+          "text": "Speak with an advisor",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=speak_with_advisor",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.parsleyhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Complete Care",
+          "href": "https://www.parsleyhealth.com/care",
+          "inFooter": true
+        },
+        {
+          "text": "Pricing & Insurance",
+          "href": "https://www.parsleyhealth.com/insurance",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "Our Clinicians",
+          "href": "https://www.parsleyhealth.com/providers",
+          "inFooter": true
+        },
+        {
+          "text": "Nutrition Coaching",
+          "href": "https://www.parsleyhealth.com/nutrition-coaching",
+          "inFooter": true
+        },
+        {
+          "text": "About Parsley",
+          "href": "https://www.parsleyhealth.com/company",
+          "inFooter": true
+        },
+        {
+          "text": "What We Offer",
+          "href": "https://www.parsleyhealth.com/our-services",
+          "inFooter": true
+        },
+        {
+          "text": "Parsley Symptom Index",
+          "href": "https://www.parsleyhealth.com/quiz",
+          "inFooter": true
+        },
+        {
+          "text": "Dr. Robin Berzin",
+          "href": "https://www.parsleyhealth.com/robin-berzin-md",
+          "inFooter": true
+        },
+        {
+          "text": "Reviews",
+          "href": "https://www.parsleyhealth.com/reviews",
+          "inFooter": true
+        },
+        {
+          "text": "NYC",
+          "href": "https://www.parsleyhealth.com/ny",
+          "inFooter": true
+        },
+        {
+          "text": "Virtual",
+          "href": "https://www.parsleyhealth.com/locations",
+          "inFooter": true
+        },
+        {
+          "text": "Join Parsley",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=join-parsley",
+          "inFooter": true
+        },
+        {
+          "text": "Speak with an advisor",
+          "href": "https://www.parsleyhealth.com/join/care?utm_source=website&utm_medium=footer&utm_campaign=speak_with_advisor",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Lab Review",
+          "href": "https://www.parsleyhealth.com/labs",
+          "inFooter": true
+        },
+        {
+          "text": "How It Works",
+          "href": "https://www.parsleyhealth.com/labs/how-it-works",
+          "inFooter": true
+        },
+        {
+          "text": "What We Test",
+          "href": "https://www.parsleyhealth.com/labs/what-we-test",
+          "inFooter": true
+        },
+        {
+          "text": "Why Our Providers",
+          "href": "https://www.parsleyhealth.com/labs/why-our-providers",
+          "inFooter": true
+        },
+        {
+          "text": "Supplement Store",
+          "href": "https://www.parsleyhealth.com/store",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.parsleyhealth.com/blog",
+          "inFooter": true
+        },
+        {
+          "text": "Press",
+          "href": "https://www.parsleyhealth.com/press",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.parsleyhealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Creators",
+          "href": "https://www.parsleyhealth.com/lp/create",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.parsleyhealth.com/faq",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.parsleyhealth.com/contact",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/parsleyhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/company/parsley-health",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.youtube.com/@parsleyhealth",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Membership",
+          "href": "https://www.parsleyhealth.com/clinical-membership-terms",
+          "inFooter": true
+        },
+        {
+          "text": "Terms & Conditions",
+          "href": "https://www.parsleyhealth.com/membership-terms",
+          "inFooter": true
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.parsleyhealth.com/terms-of-use",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.parsleyhealth.com/privacy",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.parsleyhealth.com/notice-of-privacy-practices",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility Statement",
+          "href": "https://www.parsleyhealth.com/accessibility-statement",
+          "inFooter": true
+        }
+      ],
+      "footerText": "@parsleyhealth Follow Us Sign up for our newsletter Sign Up Share Parsley Complete Care Complete Care Pricing & Insurance How It Works Our Clinicians Nutrition Coaching Clinical Lab Review Clinical Lab Review How It Works What We Test Why Our Providers About Us About Parsley What We Offer Parsley Symptom Index Dr. Robin Berzin Reviews Resources Supplement Store Blog Press Careers Creators FAQs Contact Us Centers NYC Virtual Join Parsley Speak with an advisor © Parsley Health, all rights reserved 126 5th Ave, Fl 2, New York, NY 10011 Clinical Membership Terms & Conditions Terms of Use Privacy Policy Notice of Privacy Practices Accessibility Statement",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.parsleyhealth.com/locations",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        },
+        {
+          "action": "https://www.parsleyhealth.com/locations",
+          "fields": [
+            "input:email:email",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 28,
+      "images": 52,
+      "scrollHeight": 12561,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "NAV.w-full px-5 nav-desktop:px-[4%] py-4 z-5",
+        "DIV.fixed inset-0 z-[60] bg-black/40 transit",
+        "DIV.fixed top-0 right-0 z-[60] h-full w-full"
+      ]
+    }
+  }
+}

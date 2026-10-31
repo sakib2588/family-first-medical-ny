@@ -1,0 +1,53 @@
+{
+  "url": "https://www.healthykidsqueens.com",
+  "slug": "healthy-kids-queens",
+  "capturedAt": "2026-10-30T17:49:27.961Z",
+  "views": {
+    "phone": {
+      "status": 403,
+      "loadMs": 6403,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Access Denied",
+      "h1": [
+        "Access Restricted"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 3738,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Access Denied",
+      "h1": [
+        "Access Restricted"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": []
+    }
+  }
+}

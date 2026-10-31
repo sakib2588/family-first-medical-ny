@@ -1,0 +1,65 @@
+step0 url=https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page
+  button:submit | Previous week
+  button:submit | Pick a date
+  button:submit | Next week
+  button:submit | FRI Oct 30 10
+  button:submit | SAT Oct 31 28
+  button:submit | SUN Nov 1 Closed
+  button:submit | MON Nov 2 44
+  button:submit | TUE Nov 3 44
+  button:submit | WED Nov 4 44
+  button:submit | THU Nov 5 44
+  button:submit | 3:00 pm
+  button:submit | 3:15 pm
+  button:submit | 3:30 pm
+  button:submit | 3:45 pm
+  button:submit | 4:00 pm
+  button:submit | 4:15 pm
+  button:submit | 4:30 pm
+  button:submit | 4:45 pm
+  button:submit | 5:00 pm
+  button:submit | 5:15 pm
+  button:submit | Reserve this time
+  button:submit | Reserve
+step1 url=https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page
+  button:submit | Previous week
+  button:submit | Pick a date
+  button:submit | Next week
+  button:submit | FRI Oct 30 10
+  button:submit | SAT Oct 31 28
+  button:submit | SUN Nov 1 Closed
+  button:submit | MON Nov 2 44
+  button:submit | TUE Nov 3 44
+  button:submit | WED Nov 4 44
+  button:submit | THU Nov 5 44
+  button:submit | 3:00 pm
+  button:submit | 3:15 pm
+  button:submit | 3:30 pm
+  button:submit | 3:45 pm
+  button:submit | 4:00 pm
+  button:submit | 4:15 pm
+  button:submit | 4:30 pm
+  button:submit | 4:45 pm
+  button:submit | 5:00 pm
+  button:submit | 5:15 pm
+  button:submit | Reserve this time
+  button:submit | Reserve
+step2 url=https://book.naomedical.com/appointment/urgent-care?facility=Astoria&source=marketing-page
+  label | Email
+  input:email | you@example.com
+  label | First name
+  input:text | 
+  label | Last name
+  input:text | 
+  label | Date of birth
+  input:text | mm/dd/yyyy
+  label | Phone number
+  input:text | (917) 999-9999
+  label | Male
+  input:radio | patient-sex
+  label | Female
+  input:radio | patient-sex
+  label | Reason for visit (optional)
+  textarea:textarea | Add anything you want the care team to know
+  button:submit | Back
+  button:submit | Continue to verification

@@ -1,0 +1,25 @@
+step0 url=https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&b
+  button:button | Change facility
+  select:select-one | 1. Routine Wellness Exam - not intended for addressing illness or inju
+  label | Visit Reason
+  button:button | Search
+  button:submit | Cookies Settings
+  button:submit | Accept All Cookies
+  button:submit | Close
+step1 url=https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&b
+  button:button | Change facility
+  select:select-one | 1. Routine Wellness Exam - not intended for addressing illness or inju
+  label | Visit Reason
+  button:button | Search
+  button:button | Open Preferences
+  button:button | Close Preferences
+step2 click failed: TimeoutError: locator.click: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting 
+step2 url=https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&b
+  button:button | Change facility
+  select:select-one | 1. Routine Wellness Exam - not intended for addressing illness or inju
+  label | Visit Reason
+  button:button | Search
+  button:button | Open Preferences
+  button:button | Close Preferences

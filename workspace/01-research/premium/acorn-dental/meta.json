@@ -1,0 +1,1525 @@
+{
+  "url": "https://acornpediatricdental.com/",
+  "slug": "acorn-dental",
+  "capturedAt": "2026-10-30T18:40:41.168Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 32088,
+      "consoleErrors": [
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to track widget analytics event: Network Error",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to track widget analytics event: Network Error",
+        "Failed to load resource: net::ERR_FAILED",
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "title": "Middletown Pediatric Dentist | Acorn Pediatric Dental",
+      "h1": [
+        "Your Trusted Middletown Pediatric Dentist"
+      ],
+      "h2": [
+        "Acorn Pediatric Dental",
+        "Welcome!",
+        "New Patients",
+        "Meet your Pediatric Dentist in Middletown",
+        "What sets us apart?",
+        "Our Approach",
+        "Forms, Insurance & Financing",
+        "Our Services",
+        "Schedule Today!",
+        "Answers to your questions about pediatric dentistry",
+        "Our Office"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://acornpediatricdental.com/testimonials/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Safety",
+          "href": "https://acornpediatricdental.com/patient-safety/",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://acornpediatricdental.com/resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Cavity Prevention",
+          "href": "https://acornpediatricdental.com/resources/cavity-prevention/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Infants",
+          "href": "https://acornpediatricdental.com/dental-care-infants/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Kids",
+          "href": "https://acornpediatricdental.com/dental-care-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Teens",
+          "href": "https://acornpediatricdental.com/dental-care-for-teens/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care During Orthodontics",
+          "href": "https://acornpediatricdental.com/care-during-orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "After Treatment Care",
+          "href": "https://acornpediatricdental.com/after-treatment-care/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ",
+          "href": "https://acornpediatricdental.com/faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Technology",
+          "href": "https://acornpediatricdental.com/dental-technology/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://acornpediatricdental.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "General",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Preventative Care",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "Oral Exams",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "Mouthguards",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "Sealants",
+          "href": "https://acornpediatricdental.com/dental-sealants/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomy",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Dentistry",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "Extractions",
+          "href": "https://acornpediatricdental.com/tooth-extractions/",
+          "inFooter": false
+        },
+        {
+          "text": "Special Needs Dentistry",
+          "href": "https://acornpediatricdental.com/special-needs-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Space Maintainers",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "Restorative",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Fillings",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "SDF Cavity Treatment",
+          "href": "https://acornpediatricdental.com/cavity-treatment/",
+          "inFooter": false
+        },
+        {
+          "text": "Crowns",
+          "href": "https://acornpediatricdental.com/dental-crowns/",
+          "inFooter": false
+        },
+        {
+          "text": "Orthodontics",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "Clear Aligners",
+          "href": "https://acornpediatricdental.com/services/clear-aligners/",
+          "inFooter": false
+        },
+        {
+          "text": "Ceramic Braces",
+          "href": "https://acornpediatricdental.com/services/clear-braces/",
+          "inFooter": false
+        },
+        {
+          "text": "Expanders",
+          "href": "https://acornpediatricdental.com/services/dental-expanders/",
+          "inFooter": false
+        },
+        {
+          "text": "Problems We Treat",
+          "href": "https://acornpediatricdental.com/problems-we-treat/",
+          "inFooter": false
+        },
+        {
+          "text": "Thumb Sucking & Pacifier Use",
+          "href": "https://acornpediatricdental.com/problems-we-treat/thumb-sucking/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Challenges",
+          "href": "https://acornpediatricdental.com/problems-we-treat/breastfeeding-challenges/",
+          "inFooter": false
+        },
+        {
+          "text": "Tooth Decay",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "Chipped/Cracked Tooth",
+          "href": "https://acornpediatricdental.com/problems-we-treat/chipped-tooth/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Emergencies",
+          "href": "https://acornpediatricdental.com/problems-we-treat/emergencies/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Anxiety",
+          "href": "https://acornpediatricdental.com/problems-we-treat/dental-anxiety/",
+          "inFooter": false
+        },
+        {
+          "text": "Toothache",
+          "href": "https://acornpediatricdental.com/problems-we-treat/toothache/",
+          "inFooter": false
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Payment",
+          "href": "https://acornpediatricdental.com/insurance-payment-faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://acornpediatricdental.com/testimonials/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Safety",
+          "href": "https://acornpediatricdental.com/patient-safety/",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://acornpediatricdental.com/resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Cavity Prevention",
+          "href": "https://acornpediatricdental.com/resources/cavity-prevention/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Infants",
+          "href": "https://acornpediatricdental.com/dental-care-infants/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Kids",
+          "href": "https://acornpediatricdental.com/dental-care-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Teens",
+          "href": "https://acornpediatricdental.com/dental-care-for-teens/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care During Orthodontics",
+          "href": "https://acornpediatricdental.com/care-during-orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "After Treatment Care",
+          "href": "https://acornpediatricdental.com/after-treatment-care/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ",
+          "href": "https://acornpediatricdental.com/faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Technology",
+          "href": "https://acornpediatricdental.com/dental-technology/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://acornpediatricdental.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "General",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Preventative Care",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "Oral Exams",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "Mouthguards",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "Sealants",
+          "href": "https://acornpediatricdental.com/dental-sealants/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomy",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Dentistry",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "Extractions",
+          "href": "https://acornpediatricdental.com/tooth-extractions/",
+          "inFooter": false
+        },
+        {
+          "text": "Special Needs Dentistry",
+          "href": "https://acornpediatricdental.com/special-needs-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Space Maintainers",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "Restorative",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Fillings",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "SDF Cavity Treatment",
+          "href": "https://acornpediatricdental.com/cavity-treatment/",
+          "inFooter": false
+        },
+        {
+          "text": "Crowns",
+          "href": "https://acornpediatricdental.com/dental-crowns/",
+          "inFooter": false
+        },
+        {
+          "text": "Orthodontics",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "Clear Aligners",
+          "href": "https://acornpediatricdental.com/services/clear-aligners/",
+          "inFooter": false
+        },
+        {
+          "text": "Ceramic Braces",
+          "href": "https://acornpediatricdental.com/services/clear-braces/",
+          "inFooter": false
+        },
+        {
+          "text": "Expanders",
+          "href": "https://acornpediatricdental.com/services/dental-expanders/",
+          "inFooter": false
+        },
+        {
+          "text": "Problems We Treat",
+          "href": "https://acornpediatricdental.com/problems-we-treat/",
+          "inFooter": false
+        },
+        {
+          "text": "Thumb Sucking & Pacifier Use",
+          "href": "https://acornpediatricdental.com/problems-we-treat/thumb-sucking/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Challenges",
+          "href": "https://acornpediatricdental.com/problems-we-treat/breastfeeding-challenges/",
+          "inFooter": false
+        },
+        {
+          "text": "Tooth Decay",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "Chipped/Cracked Tooth",
+          "href": "https://acornpediatricdental.com/problems-we-treat/chipped-tooth/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Emergencies",
+          "href": "https://acornpediatricdental.com/problems-we-treat/emergencies/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Anxiety",
+          "href": "https://acornpediatricdental.com/problems-we-treat/dental-anxiety/",
+          "inFooter": false
+        },
+        {
+          "text": "Toothache",
+          "href": "https://acornpediatricdental.com/problems-we-treat/toothache/",
+          "inFooter": false
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Payment",
+          "href": "https://acornpediatricdental.com/insurance-payment-faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://goo.gl/maps/eoxwTXiAQRAayPT5A",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "Give us a call",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "shoot us an email",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about our practice!",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "N - Our most popular financing option, offering fast approval, no hard credit ch",
+          "href": "https://withcherry.com/consumers",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "gentle exam",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "professional cleaning",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "cavities",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "tongue and lip tie assessment",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "BPA-free fillings",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "space maintainer",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "custom sports mouthguard",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "emergency dental treatment",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "nitrous oxide (laughing gas) and IV sedation",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "pediatric orthodontic",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://www.google.com/maps/dir//Acorn+Pediatric+Dental,+1161+NJ-35,+Middletown+Township,+NJ+07748/@40.3989356,-74.1108135,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!2m2!1d-74.1108135!2d40.3989356!5m1!1e4?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.ada.org/en",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.aapd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://njapd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.njda.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.abpd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.laserdentistry.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://acornpediatricdental.com/",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": true
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": true
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": true
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://goo.gl/maps/eoxwTXiAQRAayPT5A",
+          "inFooter": true
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": true
+        },
+        {
+          "text": "Google",
+          "href": "https://www.google.com/maps/place/Acorn+Pediatric+Dental/@40.3989355,-74.1152928,17z/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2!3d40.3989356!4d-74.1108135!9m1!1b1",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/acornpedsdental/reviews/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/acornpedsdental",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/acornpediatricdental/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://acornpediatricdental.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility Statement",
+          "href": "https://acornpediatricdental.com/accessibility-statement/",
+          "inFooter": true
+        },
+        {
+          "text": "HIPAA Notice",
+          "href": "https://acornpediatricdental.com/hipaa-notice-of-privacy-practices/",
+          "inFooter": true
+        },
+        {
+          "text": ":Delmain",
+          "href": "https://delmain.co/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://acornpediatricdental.com/privacy-policy/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Practice Home About Us Services First Visit Contact Us Office 1161 State Route 35 Middletown NJ, 07748 Get Directions Call: (732) 837-3338 Review Us Google Facebook Follow Us © Acorn Pediatric Dental 2026 | Privacy Policy | Accessibility Statement | HIPAA Notice Dental Web Design & Marketing by :Delmain",
+      "telLinks": [
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "Give us a call",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 837-3338",
+          "href": "tel:7328373338",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 22,
+      "images": 33,
+      "scrollHeight": 15877,
+      "jsonld": [
+        "\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/acornpediatricdental.com#listItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organization\",\"name\":\"Acorn Pediatric Dental\",\"description\":\"Live. Laugh. Smile.\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"telephone\":\"+17328529200\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.png\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organizationLogo\"},\"image\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organizationLogo\"}},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#webpage\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"name\":\"Middletown Pediatric Dentist | Acorn Pediatric Dental\",\"description\":\"Middletown pediatric dentist. We make kids' smiles even better! Dentistry for children of all ages, done with care and expertise. Book now.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#breadcrumblist\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.jpg\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#mainImage\",\"width\":500,\"height\":250},\"primaryImageOfP",
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Dentist\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#dentist\",\"name\":\"Acorn Pediatric Dental\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"image\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.jpg\",\"logo\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2022\\/04\\/acorn-pediatric-dental-logo-update.svg\",\"telephone\":\"+17328529200\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1161 State Route 35\",\"addressLocality\":\"Middletown\",\"addressRegion\":\"NJ\",\"postalCode\":\"07748\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.3989356,\"longitude\":-74.1108135},\"hasMap\":\"https:\\/\\/www.google.com\\/maps\\/place\\/Acorn+Pediatric+Dental\\/@40.3989355,-74.1152928,17z\\/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2!3d40.3989356!4d-74.1108135!9m1!1b1\",\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Friday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Thursday\",\"opens\":\"12:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"sameAs\":[\"https:\\/\\/www.facebook.com\\/acornpedsdental\",\"https:\\/\\/www.instagram.com\\/acornpediatricdental\\/\",\"https:\\/\\/www.google.com\\/maps\\/place\\/Acorn+Pediatric+Dental\\/@40.3989355,-74.1152928,17z\\/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.floatingEstimator-floatingContainer-1uxG",
+        "DIV.is-visible",
+        "SPAN.et_pb_scroll_top et-pb-icon",
+        "DIV.grecaptcha-badge"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 15574,
+      "consoleErrors": [
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to track widget analytics event: Network Error",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://gql.withcherry.com/' from origin 'https://acornpediatricdental.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requ",
+        "Failed to track widget analytics event: Network Error",
+        "Failed to load resource: net::ERR_FAILED",
+        "requestStorageAccess: Permission denied."
+      ],
+      "title": "Middletown Pediatric Dentist | Acorn Pediatric Dental",
+      "h1": [
+        "Your Trusted Middletown Pediatric Dentist"
+      ],
+      "h2": [
+        "Acorn Pediatric Dental",
+        "Welcome!",
+        "New Patients",
+        "Meet your Pediatric Dentist in Middletown",
+        "What sets us apart?",
+        "Our Approach",
+        "Forms, Insurance & Financing",
+        "Our Services",
+        "Schedule Today!",
+        "Answers to your questions about pediatric dentistry",
+        "Our Office"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/testimonials/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/patient-safety/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/resources/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/resources/cavity-prevention/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-care-infants/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-care-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-care-for-teens/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/care-during-orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/after-treatment-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/faq/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-technology/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-sealants/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/tooth-extractions/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/special-needs-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/cavity-treatment/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/dental-crowns/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/services/clear-aligners/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/services/clear-braces/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/services/dental-expanders/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/thumb-sucking/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/breastfeeding-challenges/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/chipped-tooth/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/emergencies/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/dental-anxiety/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/problems-we-treat/toothache/",
+          "inFooter": false
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://acornpediatricdental.com/insurance-payment-faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "Testimonials",
+          "href": "https://acornpediatricdental.com/testimonials/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Safety",
+          "href": "https://acornpediatricdental.com/patient-safety/",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://acornpediatricdental.com/resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Cavity Prevention",
+          "href": "https://acornpediatricdental.com/resources/cavity-prevention/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Infants",
+          "href": "https://acornpediatricdental.com/dental-care-infants/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Kids",
+          "href": "https://acornpediatricdental.com/dental-care-kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care for Teens",
+          "href": "https://acornpediatricdental.com/dental-care-for-teens/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Care During Orthodontics",
+          "href": "https://acornpediatricdental.com/care-during-orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "After Treatment Care",
+          "href": "https://acornpediatricdental.com/after-treatment-care/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ",
+          "href": "https://acornpediatricdental.com/faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Technology",
+          "href": "https://acornpediatricdental.com/dental-technology/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://acornpediatricdental.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "General",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Preventative Care",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "Oral Exams",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "Mouthguards",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "Sealants",
+          "href": "https://acornpediatricdental.com/dental-sealants/",
+          "inFooter": false
+        },
+        {
+          "text": "Frenectomy",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "Sedation",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Emergency Dentistry",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "Extractions",
+          "href": "https://acornpediatricdental.com/tooth-extractions/",
+          "inFooter": false
+        },
+        {
+          "text": "Special Needs Dentistry",
+          "href": "https://acornpediatricdental.com/special-needs-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "Space Maintainers",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "Restorative",
+          "href": "https://acornpediatricdental.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Fillings",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "SDF Cavity Treatment",
+          "href": "https://acornpediatricdental.com/cavity-treatment/",
+          "inFooter": false
+        },
+        {
+          "text": "Crowns",
+          "href": "https://acornpediatricdental.com/dental-crowns/",
+          "inFooter": false
+        },
+        {
+          "text": "Orthodontics",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "Clear Aligners",
+          "href": "https://acornpediatricdental.com/services/clear-aligners/",
+          "inFooter": false
+        },
+        {
+          "text": "Ceramic Braces",
+          "href": "https://acornpediatricdental.com/services/clear-braces/",
+          "inFooter": false
+        },
+        {
+          "text": "Expanders",
+          "href": "https://acornpediatricdental.com/services/dental-expanders/",
+          "inFooter": false
+        },
+        {
+          "text": "Problems We Treat",
+          "href": "https://acornpediatricdental.com/problems-we-treat/",
+          "inFooter": false
+        },
+        {
+          "text": "Thumb Sucking & Pacifier Use",
+          "href": "https://acornpediatricdental.com/problems-we-treat/thumb-sucking/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Challenges",
+          "href": "https://acornpediatricdental.com/problems-we-treat/breastfeeding-challenges/",
+          "inFooter": false
+        },
+        {
+          "text": "Tooth Decay",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "Chipped/Cracked Tooth",
+          "href": "https://acornpediatricdental.com/problems-we-treat/chipped-tooth/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Emergencies",
+          "href": "https://acornpediatricdental.com/problems-we-treat/emergencies/",
+          "inFooter": false
+        },
+        {
+          "text": "Dental Anxiety",
+          "href": "https://acornpediatricdental.com/problems-we-treat/dental-anxiety/",
+          "inFooter": false
+        },
+        {
+          "text": "Toothache",
+          "href": "https://acornpediatricdental.com/problems-we-treat/toothache/",
+          "inFooter": false
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance & Payment",
+          "href": "https://acornpediatricdental.com/insurance-payment-faq/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://goo.gl/maps/eoxwTXiAQRAayPT5A",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "Give us a call",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "shoot us an email",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about our practice!",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "N - Our most popular financing option, offering fast approval, no hard credit ch",
+          "href": "https://withcherry.com/consumers",
+          "inFooter": false
+        },
+        {
+          "text": "Learn More",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "gentle exam",
+          "href": "https://acornpediatricdental.com/exams/",
+          "inFooter": false
+        },
+        {
+          "text": "professional cleaning",
+          "href": "https://acornpediatricdental.com/cleanings/",
+          "inFooter": false
+        },
+        {
+          "text": "cavities",
+          "href": "https://acornpediatricdental.com/problems-we-treat/tooth-decay/",
+          "inFooter": false
+        },
+        {
+          "text": "tongue and lip tie assessment",
+          "href": "https://acornpediatricdental.com/frenectomy-surgery/",
+          "inFooter": false
+        },
+        {
+          "text": "BPA-free fillings",
+          "href": "https://acornpediatricdental.com/dental-fillings/",
+          "inFooter": false
+        },
+        {
+          "text": "space maintainer",
+          "href": "https://acornpediatricdental.com/space-maintainers/",
+          "inFooter": false
+        },
+        {
+          "text": "custom sports mouthguard",
+          "href": "https://acornpediatricdental.com/sports-mouthguard/",
+          "inFooter": false
+        },
+        {
+          "text": "emergency dental treatment",
+          "href": "https://acornpediatricdental.com/emergency-treatments/",
+          "inFooter": false
+        },
+        {
+          "text": "nitrous oxide (laughing gas) and IV sedation",
+          "href": "https://acornpediatricdental.com/sedation-dentistry/",
+          "inFooter": false
+        },
+        {
+          "text": "pediatric orthodontic",
+          "href": "https://acornpediatricdental.com/services/orthodontics/",
+          "inFooter": false
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://www.google.com/maps/dir//Acorn+Pediatric+Dental,+1161+NJ-35,+Middletown+Township,+NJ+07748/@40.3989356,-74.1108135,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!2m2!1d-74.1108135!2d40.3989356!5m1!1e4?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.ada.org/en",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.aapd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://njapd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.njda.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.abpd.org/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.laserdentistry.org/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://acornpediatricdental.com/",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://acornpediatricdental.com/about/",
+          "inFooter": true
+        },
+        {
+          "text": "Services",
+          "href": "https://acornpediatricdental.com/services/",
+          "inFooter": true
+        },
+        {
+          "text": "First Visit",
+          "href": "https://acornpediatricdental.com/first-visit/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://acornpediatricdental.com/contact/",
+          "inFooter": true
+        },
+        {
+          "text": "Get Directions",
+          "href": "https://goo.gl/maps/eoxwTXiAQRAayPT5A",
+          "inFooter": true
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": true
+        },
+        {
+          "text": "Google",
+          "href": "https://www.google.com/maps/place/Acorn+Pediatric+Dental/@40.3989355,-74.1152928,17z/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2!3d40.3989356!4d-74.1108135!9m1!1b1",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/acornpedsdental/reviews/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/acornpedsdental",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/acornpediatricdental/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://acornpediatricdental.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Accessibility Statement",
+          "href": "https://acornpediatricdental.com/accessibility-statement/",
+          "inFooter": true
+        },
+        {
+          "text": "HIPAA Notice",
+          "href": "https://acornpediatricdental.com/hipaa-notice-of-privacy-practices/",
+          "inFooter": true
+        },
+        {
+          "text": ":Delmain",
+          "href": "https://delmain.co/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://acornpediatricdental.com/privacy-policy/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Practice Home About Us Services First Visit Contact Us Office 1161 State Route 35 Middletown NJ, 07748 Get Directions Call: (732) 852-9200 Review Us Google Facebook Follow Us © Acorn Pediatric Dental 2026 | Privacy Policy | Accessibility Statement | HIPAA Notice Dental Web Design & Marketing by :Delmain",
+      "telLinks": [
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "Give us a call",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": false
+        },
+        {
+          "text": "(732) 852-9200",
+          "href": "tel:7328529200",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 22,
+      "images": 33,
+      "scrollHeight": 10467,
+      "jsonld": [
+        "\n\t\t\t{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#breadcrumblist\",\"itemListElement\":[{\"@type\":\"ListItem\",\"@id\":\"https:\\/\\/acornpediatricdental.com#listItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organization\",\"name\":\"Acorn Pediatric Dental\",\"description\":\"Live. Laugh. Smile.\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"telephone\":\"+17328529200\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.png\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organizationLogo\"},\"image\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#organizationLogo\"}},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#webpage\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"name\":\"Middletown Pediatric Dentist | Acorn Pediatric Dental\",\"description\":\"Middletown pediatric dentist. We make kids' smiles even better! Dentistry for children of all ages, done with care and expertise. Book now.\",\"inLanguage\":\"en-US\",\"isPartOf\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#breadcrumblist\"},\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.jpg\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#mainImage\",\"width\":500,\"height\":250},\"primaryImageOfP",
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Dentist\",\"@id\":\"https:\\/\\/acornpediatricdental.com\\/#dentist\",\"name\":\"Acorn Pediatric Dental\",\"url\":\"https:\\/\\/acornpediatricdental.com\\/\",\"image\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2023\\/02\\/acorn-pediatric-logo-featured-image.jpg\",\"logo\":\"https:\\/\\/acornpediatricdental.com\\/wp-content\\/uploads\\/2022\\/04\\/acorn-pediatric-dental-logo-update.svg\",\"telephone\":\"+17328529200\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"1161 State Route 35\",\"addressLocality\":\"Middletown\",\"addressRegion\":\"NJ\",\"postalCode\":\"07748\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":40.3989356,\"longitude\":-74.1108135},\"hasMap\":\"https:\\/\\/www.google.com\\/maps\\/place\\/Acorn+Pediatric+Dental\\/@40.3989355,-74.1152928,17z\\/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2!3d40.3989356!4d-74.1108135!9m1!1b1\",\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Friday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Thursday\",\"opens\":\"12:00\",\"closes\":\"19:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"08:00\",\"closes\":\"13:00\"}],\"sameAs\":[\"https:\\/\\/www.facebook.com\\/acornpedsdental\",\"https:\\/\\/www.instagram.com\\/acornpediatricdental\\/\",\"https:\\/\\/www.google.com\\/maps\\/place\\/Acorn+Pediatric+Dental\\/@40.3989355,-74.1152928,17z\\/data=!4m7!3m6!1s0x89c231f7717fe8e1:0x4214b39da2f2063d!8m2"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "HEADER.",
+        "DIV.is-visible",
+        "SPAN.et_pb_scroll_top et-pb-icon",
+        "DIV.floatingEstimator-floatingContainer-1uxG",
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

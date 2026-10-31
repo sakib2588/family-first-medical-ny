@@ -1,0 +1,514 @@
+Digital Privacy Policy
+Effective Date: January 2025
+Revised: August 2025
+Welcome!
+You have arrived at a digital service location (i.e., website or application)
+that is owned and operated by Summit Health Management, LLC on
+behalf of itself and its medical practice clients, including Summit Medical
+Group, P.A. dba Summit Health and dba New Jersey Urology, City
+Medical of Upper Eastside PLLC dba CityMD, a Summit Health Company,
+Westchester Medical Group, PLLC dba Summit Health, and Westchester
+Urgent Care, PLLC, (collectively “Summit Health” or “We”).
+This Privacy Policy governs your use of any digital service location that
+posts a link to this Privacy Policy, and also applies to your use of
+interactive features, widgets, plug-ins, applications, content, downloads
+and other services (collectively the “Service”) that Summit Health owns
+and controls and makes available through an online service OR where
+Summit Health posts a link to this Privacy Policy, regardless of how you
+access or use the Service, whether via personal computers, mobile
+devices or other electronic media. If you are providing individually
+identifiable information for the purpose of obtaining medical care
+through the Services (such information is also referred to as “Protected
+Health Information” or “PHI”), our use of your information is governed by
+our Health Insurance Portability and Accountability Act Notice of Privacy
+Practices (the “HIPAA Notice”), available here: Summit-Health_Notice-of-Privacy-
+Practices_February-2026.pdf.
+The HIPAA Notice describes how we can use and share your PHI and also
+describes your rights with respect to your PHI. This Privacy Policy
+governs our use of information that is not PHI. If there is ever any conflict
+between this Privacy Policy and the HIPAA Notice with respect to PHI, the
+HIPAA                  Notice                   will                  apply.
+PLEASE READ THE STATEMENT REGARDING COOKIES AND SIMILAR
+TECHNOLOGIES BELOW CAREFULLY BEFORE USING OR OBTAINING
+ANY MATERIALS, INFORMATION, OR PRODUCTS THROUGH THE
+SERVICES. BY ACCESSING THE SERVICES, YOU AGREE TO ACCEPT,
+                                      -1-
+WITHOUT LIMITATION OR QUALIFICATION, THE COOKIE AND SIMILAR
+TECHNOLOGIES STATEMENT BELOW.
+We reserve the right to change, update or correct the Cookie and Similar
+Technologies Statement, or any information contained in the Services, at
+any time without advance notice by posting an amended statement to
+the Services. Your continued use of the Services means that you accept
+and agree to the revised Cookie and Similar Technologies Statement. If
+you do not accept this Cookie and Similar Technologies Statement (as
+amended from time to time), please exit the Services immediately.
+To the extent we provide you notice on our Service of different or
+additional privacy policies or practices (e.g., at the point of our collection),
+those additional terms shall govern such data collection and use. By
+using our Service, you consent to our Privacy Policy and our collection,
+use and sharing of your information and data, and other activities as
+described                                                                below.
+How Do We Collect Personal Information
+From you. We may collect personal information and other information
+that you provide when you use our Services.
+From devices you use when you interact with us online. This includes
+information collected through our Services and automatically from
+devices you use to connect to our Services. For more information about
+this, please see our “Cookies and Similar Technologies” section below.
+From third parties. This includes personal information we collect from
+websites that enable social sharing, social media sites, and websites from
+our service providers, vendors, our affiliates, or other individuals and
+businesses.
+The Types of Personal Information We Collect
+Depending on how you interact with us and your use of our Services, we
+may collect the following information:
+Contact Information, such as your name, home address, work address,
+email address, telephone number, or other similar identifiers.
+                                      -2-
+Health Information, such as health data that may be collected based on
+your self-report of your health data, or data from a remote patient
+monitoring device(s) (an “RPM Device”) you connected to the Service.
+Some examples of health data that you may self-report or is received
+directly from an RPM Device include, but are not limited to respiratory
+rates, blood pressure, height, and weight.
+Biographic and Demographic Information, such as date of birth, age,
+gender, and photo.
+Account Information, such as a username and password, profile details
+you choose to provide, and feedback and reviews you may leave about
+our Services.
+Activity Information, such as information we collect when you access and
+interact with our Services, including browser or device model and
+settings, operating system, and unique identifiers, clickstream data,
+cookies and localStorage, browsing history, search history, web-based
+location, IP address, browser information, and any other Internet usage
+information our Services may automatically record when you visit. For
+more information about cookies and similar technologies, please refer to
+the “Cookies and Similar Technologies” section below.
+Inferences, such as inferences drawn from any of the personal
+information identified.
+Other Personal Information you provide, such as the content provided
+either in your job application or in your communications with us, including
+interactions with us online, in-person, or on the phone.
+Sensitive Personal Information, such as driver’s license number, other
+government-issued identification number, biometric information, and
+geolocation data (including your precise geolocation) collected with your
+consent for the purpose of locating a clinic near you.
+Professional Information, such as information about your job function and
+role, title, professional affiliations, employer, and employment history
+and any other information that may be obtained from third-party
+background                 checks               and             feedback.
+                                   -3-
+How We Use the Information Collected
+Any personally identifiable information you give us will be used only as
+permitted by law, including to provide the product, service, or
+information you have requested or to support the program(s) for which
+you registered. If you use and continue to use the features on a Service, you
+agree to our collection of information as described above.
+We may use your information for the following reasons, depending on
+your relationship with us:
+  • To provide you the Services requested.
+  • To communicate with you, such as when we respond to your
+    inquiries and send you communications, including information
+    about our Services, or promotions offered, such as sweepstakes,
+    contests, special events, and other events. This may also include
+    when we send you administrative e-mail notifications, such as
+    security or support and maintenance advisories.
+  • To market and provide to you our Services.
+  • To serve you targeted advertising or content.
+  • To provide, market, and develop our Services, including to maintain
+    our websites, troubleshoot, provide customer and technical
+    support, conduct data analysis, and conduct test and research.
+  • To maintain the safety, security, and integrity of our Services, for
+    example, by authenticating users and providing account security
+    and fraud detection. We may also use your information to monitor,
+    detect, and prevent fraud and improper or illegal activity.
+  • To debug our systems, to secure our online services, including our
+    network and websites, and to debug our online services.
+  • To send you news and/or marketing communications (by email,
+    phone, or text) subject to your marketing preferences and choices,
+    including information about us or third-party offerings we think may
+    be of interest to you.
+  • To conduct market research and develop quality assurance,
+    including to study, develop, and improve our Services. This may
+    include measuring and analyzing audience traffic, including
+    tracking user interests, trends, and patterns. We may also
+    aggregate, anonymize, and/or de-identify personal information we
+    collect and use it for any purpose, including development for our
+    Services and improvement activities.
+                                    -4-
+  •   To comply with legal requirements and/or to investigate or address
+      claims or disputes relating to your use of the Services. This would
+      include the use of your information to comply with our legal and
+      regulatory obligations, to defend ourselves in litigation and
+      investigations, and to prosecute litigations.
+  •   To conduct internal business purposes, including for data analysis,
+      audits, and enhancing our Services. We may also use inferences
+      drawn from personal information to create a profile reflecting your
+      preferences, so we can tailor our Services to you.
+  •   To collect analytics in order to understand how our Services are
+      used and to improve them over time.
+How We Disclose Personal Information
+We may disclose some or all of the personal information collected from
+or about you with any of the following entities and for any of the following
+purposes:
+  • Advertising Partners. We may provide personal information to third
+    parties, such as advertising partners or other marketing partners
+    who provide services to us.
+  • Service Providers. We may provide personal information to vendors,
+    payment processors, contractors, business and service partners
+    who provide services to us, including analysis firms and others.
+  • Government, regulatory, or law enforcement agencies. We reserve
+    the right to disclose your information to respond to valid
+    information requests from government authorities and judicial
+    requests, to investigate potential fraud, or where otherwise
+    required by law. We may disclose your personal information where
+    we believe the disclosure is necessary or appropriate to comply
+    with regulatory or legal requirements, or to protect the safety,
+    rights, or property of ourselves and others and to exercise,
+    establish, or defend our legal rights.
+  • In connection with a merger, acquisition, or business transfer. For
+    example, if we sell all or a part of our company, are part of a merger,
+    consolidation, restructuring, bankruptcy, and/or sale of assets or
+    other corporate change, your information may be transferred as
+    part of that transaction.
+  • At your direction. We may disclose your personal information at your
+    direction or with your consent.
+                                    -5-
+  • Affiliates, Subsidiaries, and Divisions. We may disclose your personal
+    information to our affiliates, subsidiaries, and other related divisions,
+    in order to provide our Services.
+  • Collaborators. We may disclose personal information with
+    collaborators with whom we jointly develop or promote our
+    Services, including special offers, sponsorships and co-branded
+    opportunities, and promotions, including health and wellness
+    sponsors.
+  • Aggregate Data. We may disclose your personal information in an
+    aggregated or non-identifying form or otherwise in a form that
+    cannot reasonably be used to identify you.
+To the fullest extent permitted by applicable law, we may also disclose
+your information if we believe in good faith that doing so is necessary or
+appropriate to (1) protect or defend the rights, safety or property of
+Summit Health or third parties (including through the enforcement of this
+Privacy Policy, and other applicable agreements and policies); or (2)
+comply with legal and regulatory obligations (e.g., pursuant to law
+enforcement inquiries, subpoenas or court orders). To the fullest extent
+permitted by applicable law, we have complete discretion, and without
+notice to you, to elect whether or not to make such disclosures, and to
+contest or not contest requests for such disclosures.
+Sweepstakes, Contests, and Promotions
+We may offer sweepstakes, contests, and other promotions (for any, a
+“Promotion”) through the Service that may require registration. By
+participating in a Promotion, you are agreeing to official rules that govern
+that Promotion, which may contain specific requirements of you,
+including allowing the sponsor of the Promotion to use your name, voice
+and/or likeness in advertising or marketing associated with the
+Promotion. If you choose to enter a Promotion, personal information may
+be disclosed to third parties or the public in connection with the
+administration of such Promotion, including in connection with winner
+selection, prize fulfillment and as required by law or permitted by the
+Promotion’s official rules, such as on a winners list.
+                                    -6-
+Data Retention
+Information that you voluntarily provided will be maintained as long as
+Summit Health deems appropriate to fulfill the purpose for which you
+provided the information, until you request us to remove it, or for as long
+as permitted or required under applicable law.
+Third-party Analytics Providers and Ad Servers
+When you use our Services, our third-party advertising partners, social
+media providers, and analytics providers may collect personal
+information about your online activity on our Services and on third party
+websites.
+These providers may set web tracking tools (e.g., cookies and web
+beacons, as discussed further below) to collect information regarding
+your online activity. In addition, our advertising partners may use this
+information to deliver our advertisements to you. If you would like more
+information about this practice, please visit https://youradchoices.com/.
+For more information about advertising industry opt outs, please visit the
+Digital Advertising Alliance’s opt-out page (currently available
+at http://www.aboutads.info/choices/) or the Network Advertising
+Initiative’s      opt-out          page          (currently       available
+at http://www.networkadvertising.org/choices/) on each of your
+devices and browsers and, for mobile devices, you can use the
+AppChoices app at https://youradchoices.com/appchoices. In addition,
+to opt out in mobile apps, you may use your device’s setting to opt out of
+ads personalization or similar settings. Please note that you may continue
+to receive generic ads that are not based on your preferences.
+Cookies and Similar Technologies
+We and our partners use various tools to collect data when you visit our
+sites and apps, including cookies, pixels, localStorage, and other similar
+technologies (“Cookies”). Some of these technologies store data in the
+browser or on your device. Other technologies may use network-related
+or other information to recognize your device (e.g., IP address). Our
+Services use these technologies, for example, when you first request a
+web page and data is then stored on your computer or other device so
+the website or mobile application can access personal information when
+you make subsequent requests for pages from that Service. These
+                                   -7-
+technologies may also be used to collect and store information about
+your usage of the Services, such as pages you have visited, other content
+you viewed, and search history. Additionally, we may use these
+technologies to collect analytics and measure the use of our Services.
+We and our partners may also use these technologies to gather personal
+information about how you view and use our Services and content and to
+connect your activity with other data we store about you. The use of
+these technologies helps us serve you better by understanding what you
+are interested in, tracking trends, measuring the effectiveness of ads,
+saving your preferences, and storing information you may want to
+retrieve on a regular basis. We also allow specific, approved partners to
+collect data from your browser or device for advertising and
+measurement purposes.
+Your web browser can be set to allow you to control these technologies,
+such as whether you will accept cookies, reject cookies, or to notify you
+each time a cookie is sent to your browser. If your browser is set to reject
+cookies, websites that are cookie-enabled will not recognize you when
+you return to the website, and some website functionality may be lost.
+The “Help” section of your browser may tell you how to prevent your
+browser from accepting these technologies, such as cookies. To find out
+more about cookies, visit www.aboutcookies.org. Depending on the
+make and model of your phone, you may be able to use device settings
+to opt out of the use of certain device IDs for targeted advertising. For
+more information about Google Analytics, please review the site “How
+Google uses data when you use our partners’ sites or apps,” located at
+www.google.com/policies/privacy/partners/. To opt out of Google
+Analytics          specifically,         please            go             to
+https://tools.google.com/dlpage/gaoptout.
+Social Media Cookies. These cookies are used when you visit any public
+Summit Health page. A social networking website such as Facebook,
+Twitter or LinkedIn can record that you have visited this page, and could
+use this information to serve you relevant ads that are in compliance with
+platform advertising policies.
+Pixel Tags. We may use pixel tags (also referred to as clear GIFs, web
+beacons or web bugs) on the Service to track the actions of users on
+website. Pixel tags are tiny graphic images with a unique identifier, similar
+in function to cookies, that are used to track online browsing activity of
+                                    -8-
+web users. Pixel tags also allow us to send email messages in a format
+users can read, and they tell us whether emails have been opened, for
+example, to ensure that we are sending messages that are of interest to
+our users. We may use this information to reduce or eliminate messages
+sent to a user.
+“Do Not Track” Signals. Some internet browsers may be configured to
+send “Do Not Track” signals to the online services you visit. We currently
+do not respond to “Do Not Track” signals. To find out more about “Do Not
+Track,” please visit www.allaboutdnt.com.
+“View Disclosures”. From time to time, within “Storage Preferences”, we
+may list a small sample of Cookies used on our site, which you can view
+by selecting the “view disclosures” link immediately below the respective
+Cookie category heading. You can access “Storage Preferences” by
+clicking on “manage preferences” within the Cookie Consent Banner or
+by clicking on the Cookie icon on the lower right corner of your screen.
+Any Cookies listed are intended to provide users with a few examples
+and may not be an exhaustive list. Failure to identify a specific Cookie, or
+any Cookies, within the “view disclosures” link does not mean that Cookie
+or general Cookie category is not in use on the site. Unless you refuse the
+use of the applicable Cookie category, you are consenting to the
+collection, disclosure, processing and use of your information by all
+Cookies in that class on the Services regardless of the specific
+technology used. For more information about managing your
+preferences, please refer to the Consumer Rights section below.
+Additional Information for Consumers of Connecticut, New Jersey,
+Oregon, and other U.S. states with similar privacy laws.
+This Section provides information for consumers in Connecticut, New
+Jersey, Oregon, and other U.S. states with similar privacy laws (“Relevant
+Laws”). Under these Relevant Laws, “Personal Data” and/or “Personal
+Information” generally means information that identifies, relates to, or
+describes a particular consumer in the Relevant States.
+We do not “sell” Personal Information for monetary consideration.
+However, we do engage in targeted advertising, which helps to serve you
+with Summit Health ads when you are not on our site.
+                                    -9-
+In addition, we may process each category of Personal Information in
+order to protect Summit Health and others’ rights, and/or to complete a
+merger, bankruptcy, sale of assets, or other corporate transaction, which
+are not included in the definition of “sale” under Relevant Laws.
+Categories of Personal Information Collected, Disclosed, or Processed for
+Targeted Advertising:
+                          Purposes for               Categories of Parties to Categories of Third
+ Category of Personal
+                          Processing                 Whom Personal            Parties Who Process
+ Information
+                                                     Information Is Disclosed Personal Information for
+ Collected/ Processed
+                                                                              Targeted Advertising
+                          To provide Services,     Service providers and         Ad tech partners,
+                                                   vendors who provide           advertisers
+ Identifiers, such as    To allow service          services on our behalf,
+ name, IP address, email providers to assist us in professional services
+ address, and online     providing the Services, organizations, affiliates,
+ and device identifiers                            and other partners that
+                                                   support our operational
+                         To contact you            business purposes
+                          To provide Services,                                   N/A
+                          To allow service          Service providers,
+ Personal information,    providers to assist us in professional services
+ such as contact          providing the Services, organizations, and other
+                                                    partners that support our
+ information              To share with our         operational business
+                          affiliates,               purposes, affiliates
+                          To contact you
+                          To provide Services,                                   N/A
+                          To allow service          Service providers and
+ Characteristics of       providers to assist us in vendors who provide
+ protected                providing the Services, services on our behalf,
+ classifications under
+                          To share with our         professional services
+ federal and other
+                          affiliates,               organizations, affiliates,
+ similar state privacy
+                                                    and other partners that
+ laws, such as age or
+                          To deliver relevant       support our operational
+ gender
+                          advertisements            business purposes
+                                                 - 10 -
+                           Purposes for               Categories of Parties to Categories of Third
+Category of Personal
+                           Processing                 Whom Personal            Parties Who Process
+Information
+                                                      Information Is Disclosed Personal Information for
+Collected/ Processed
+                                                                               Targeted Advertising
+                           To provide Services,                                   Ad tech partners;
+                                                     Service providers and        advertisers
+Internet or other          To allow service          vendors who provide
+electronic network         providers to assist us in services on our behalf,
+activity information,      providing the Services, professional services
+such as browsing
+                           To share with our         organizations, affiliates,
+history and interactions
+                           affiliates,               and other partners that
+with our websites or
+                                                     support our operational
+apps
+                           To deliver relevant       business purposes
+                           advertisements
+                           To provide Services,      Service providers and        N/A
+                                                     vendors who provide
+Professional or            To allow service          services on our behalf,
+employment-related         providers to assist us in professional services
+information, such as       providing the Services, organizations, affiliates,
+work history and prior
+                           To share with our         and other partners that
+employer
+                           affiliates                support our operational
+                                                     business purposes
+                           To provide Services,                                   Ad tech partners;
+Inferences drawn from                                Service providers and        advertisers
+any of the Personal        To allow service          vendors who provide
+Information listed         providers to assist us in services on our behalf,
+above to create a          providing the Services, professional services
+profile or summary         To share with our         organizations, affiliates,
+about, for example, an     affiliates,               and other partners that
+individual’s preferences                             support our operational
+and characteristics        To deliver relevant       business purposes
+                           advertisements
+                           To provide Services,                                   N/A
+Sensitive Personal
+                           To allow service          Service providers,
+Information, such as
+social security number,    providers to assist us in professional service
+government-issued          providing the Services, organizations, affiliates,
+                                                     and other partners that
+identification number,     To share with our         support our operational
+and account log-in         affiliates                business purposes
+credentials
+                                                  - 11 -
+Sensitive Personal Information. We do not process “sensitive” Personal
+Information for purposes other than as permitted by law (such as to
+provide you with the Services you requested or to prevent, detect, and
+respond to security incidents).
+Consumer Rights
+For non-patient information, you may have the right to access and/or find
+out what information we have about you, to correct such information, and
+to delete such information. We may not be able to accommodate your
+request if we believe it would violate any legal requirement, if we have a
+legal basis or obligation to maintain it, or if it would cause the information
+to be incorrect. Depending on your state of residence, you may also have
+the right to request an appeal if we decline to take action in response to
+your request. To exercise your rights described in this section, please
+email us at compliance@summithealth.com. Note that you have the right
+to be free from unlawful discrimination for exercising your rights under
+the Relevant Laws.
+You can opt out of targeted advertising by clicking on the “Manage
+Preferences” link within the Cookie Consent Banner, and actively select
+the option to “opt out” of data collection or sharing. This will involve either
+clicking a toggle switch or checkbox to disable the desired tracking
+features. We also honor alternative opt-out signals, such as the Global
+Privacy Control.
+If you are a patient, you can access or correct certain patient-related
+information that we maintain about you through our Patient Portal. In our
+mobile app, you can request to deactivate your account. However, we
+are still required to maintain your patient-related information under
+HIPAA and other federal and state laws.
+Authorized Agent
+You may have the right to submit a request through an authorized
+agent. If you are an authorized agent acting on behalf of a consumer, you
+must be able to demonstrate that you have the requisite authorization to
+act on behalf of the consumer.
+                                     - 12 -
+Information Security
+We use commercially reasonable administrative, technical, personnel,
+and physical measures designed to safeguard information in its
+possession against loss, theft, unauthorized use, disclosure, or
+modification. However, the confidentiality of information transmitted over
+the Internet cannot be guaranteed. We urge you to exercise caution
+when transmitting personal information over the internet. WE CANNOT
+GUARANTEE THAT UNAUTHORIZED THIRD PARTIES WILL NOT GAIN
+ACCESS TO YOUR INFORMATION; THEREFORE, WHEN SUBMITTING
+PERSONAL INFORMATION TO US, YOU DO SO AT YOUR OWN RISK.
+Sites We Link To
+If you choose to use any of the links we provide to providers, sponsors,
+and other third-party resources, you will be leaving our Service and
+going to a new website. While we take care in choosing the content and
+links on our website, we accept no liability whatsoever for third-party
+sites. Protection of your privacy at those other sites will be governed by
+the privacy policy at that site. We’ve taken special care selecting the
+companies that are accessible through our website to try to ensure they
+respect your privacy as we do, but please take the time to read the
+privacy policies at their sites.
+What Should Parents Know about Children?
+We understand the importance of protecting children’s privacy in the
+interactive world. We do not use the Service to knowingly collect
+personal information from children under the age of eighteen (18) without
+parental consent.
+In the event that we become aware that we have collected personal
+information from any child, we will dispose of that information in
+accordance with the Children’s Online Privacy Protection Act and other
+applicable laws and regulations. If you are a parent or guardian and you
+believe your child under the age of 18 has provided us with information
+without       your      consent,       please     contact      us     at
+compliance@summithealth.com. It may take up to thirty (30) days to
+ensure that such information is no longer collected and that such
+information is deleted from our files.
+                                   - 13 -
+Changes to this Policy
+The effective date of this Privacy Policy and any revised Privacy Policy
+may be found at the top of this page. If we make any changes to this
+Privacy Policy, we will let you know the effective date of the changes and
+you can contact our Webmaster if you would like to know more about
+what is new.
+Any changes will be effective only after the effective date of the change
+and will not affect any dispute arising prior to the effective date of the
+change.
+If you have any questions or comments or receive any unwanted e-mail
+from this Service, please contact our Webmaster via e-mail
+at compliance@summithealth.com.
+Disclaimer
+ELECTRONIC COMMUNICATIONS PRIVACY ACT NOTICE (18 U.S.C. 2701-
+2711): OWNER MAKES NO GUARANTY OF CONFIDENTIALITY OR
+PRIVACY OF ANY COMMUNICATION OR INFORMATION TRANSMITTED
+ON THE WEBSITE OR ANY OTHER WEBSITE LINKED TO THE WEBSITE.
+SUMMIT HEALTH WILL NOT BE LIABLE FOR THE PRIVACY OF
+INFORMATION,    E-MAIL  ADDRESSES,    REGISTRATION       AND
+IDENTIFICATION INFORMATION, DISK SPACE, COMMUNICATIONS,
+CONFIDENTIAL INFORMATION OR TRADE SECRET INFORMATION, OR
+ANY OTHER CONTENT TRANSMITTED OVER NETWORKS ACCESSED BY
+THE WEBSITE, OR OTHERWISE CONNECTED WITH YOUR USE OF THE
+WEBSITE.
+*For more information about our Summit Health primary and specialty care
+locations, please visit https://www.summithealth.com/locations.
+Contact Us
+For further information on Privacy matters contact our Privacy Officer at
+compliance@summithealth.com.
+                                  - 14 -
+

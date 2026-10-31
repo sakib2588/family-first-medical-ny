@@ -1,0 +1,533 @@
+{
+  "url": "https://cassiaoptimalhealth.com/",
+  "slug": "cassia",
+  "capturedAt": "2026-10-30T18:36:35.438Z",
+  "views": {
+    "phone": {
+      "status": 403,
+      "loadMs": 9118,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Checking your browser...",
+      "h1": [
+        "Confirm you are human"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 8861,
+      "consoleErrors": [],
+      "title": "Primary Care Physician in Atlanta | Cassia Optimal Health",
+      "h1": [
+        "PHYSICIAN-LED PRIMARY CARE IN ATLANTA"
+      ],
+      "h2": [
+        "Better health begins with a better relationship.",
+        "Nationally Recognized Physician Leader in Family and Obesity Medicine",
+        "",
+        "Dr. Zazi Nylander, MD, FAAFP, DABOM",
+        "What Makes Cassia Different From Traditional Primary Care",
+        "",
+        "",
+        "How care actually happens at Cassia.",
+        "",
+        "What Atlanta Patients Say About Cassia Optimal Health",
+        "Follow, Connect and Learn",
+        "Transform Your Health: The Cassia Optimal Health Roots Plan Membership Experience",
+        "The Power of Preventive Care—Why Cassia Optimal Health Memberships Stand Out",
+        "From Nutrition to Balance: Tailored Wellness Solutions for Every Goal",
+        "Healthcare That Finally Feels Personal.",
+        "Our Location"
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://cassiaoptimalhealth.com/#main",
+          "inFooter": false
+        },
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": false
+        },
+        {
+          "text": "HOME",
+          "href": "https://cassiaoptimalhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "MEMBERSHIPS",
+          "href": "https://cassiaoptimalhealth.com/memberships/",
+          "inFooter": false
+        },
+        {
+          "text": "OUR CARE",
+          "href": "https://cassiaoptimalhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/direct-primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/weight-loss-lifestyle-medicine/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/nutrition-optimization/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/hormone-balancing-and-reducing-inflammation/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/employee-wellness-programs/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.designsforhealth.com/u/zazinylander",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "BLOG",
+          "href": "https://cassiaoptimalhealth.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "ABOUT",
+          "href": "https://cassiaoptimalhealth.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "FINANCING",
+          "href": "https://cassiaoptimalhealth.com/financing/",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT",
+          "href": "https://cassiaoptimalhealth.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK NOW",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "Memberships",
+          "href": "https://cassiaoptimalhealth.com/memberships/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Care",
+          "href": "https://cassiaoptimalhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Direct Primary Care",
+          "href": "https://cassiaoptimalhealth.com/direct-primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management & Lifestyle Medicine",
+          "href": "https://cassiaoptimalhealth.com/weight-loss-lifestyle-medicine/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone Balancing & Reducing Inflammation",
+          "href": "https://cassiaoptimalhealth.com/hormone-balancing-and-reducing-inflammation/",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition Optimization",
+          "href": "https://cassiaoptimalhealth.com/nutrition-optimization/",
+          "inFooter": false
+        },
+        {
+          "text": "Employee Wellness Programs",
+          "href": "https://cassiaoptimalhealth.com/employee-wellness-programs/",
+          "inFooter": false
+        },
+        {
+          "text": "Designs for Health Supplements",
+          "href": "https://www.designsforhealth.com/u/zazinylander",
+          "inFooter": false
+        },
+        {
+          "text": "Cassia Supplements",
+          "href": "https://cassiaoptimalhealth.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://cassiaoptimalhealth.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Financing",
+          "href": "https://cassiaoptimalhealth.com/financing/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://cassiaoptimalhealth.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "SCHEDULE YOUR DISCOVERY CALL",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "FIND YOUR MEMBERSHIP",
+          "href": "https://cassiaoptimalhealth.com/#find-your-membership",
+          "inFooter": false
+        },
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": false
+        },
+        {
+          "text": "BMJ Open, 2018",
+          "href": "https://doi.org/10.1136/bmjopen-2017-021161",
+          "inFooter": false
+        },
+        {
+          "text": "EXPLORE YOUR OPTIONS",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "READ DR. NYLANDER’S STORY",
+          "href": "https://cassiaoptimalhealth.com/#meet-dr-nylander",
+          "inFooter": false
+        },
+        {
+          "text": "Medical Care, 2021",
+          "href": "https://doi.org/10.1097/MLR.0000000000001450",
+          "inFooter": false
+        },
+        {
+          "text": "How direct primary care works →",
+          "href": "https://cassiaoptimalhealth.com/direct-primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN ABOUT WEIGHT MANAGEMENT",
+          "href": "https://cassiaoptimalhealth.com/weight-loss-lifestyle-medicine/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about nutrition optimization",
+          "href": "https://cassiaoptimalhealth.com/nutrition-optimization/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about hormone balancing",
+          "href": "https://cassiaoptimalhealth.com/hormone-balancing-and-reducing-inflammation/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore memberships",
+          "href": "https://cassiaoptimalhealth.com/memberships/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "GET STARTED",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "GET STARTED",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "GET STARTED",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "EXPLORE OUR MEMBERSHIP",
+          "href": "https://cassiaoptimalhealth.com/memberships/",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK YOUR DISCOVERY CALL",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "LEARN MORE ABOUT DR. NYLANDER",
+          "href": "https://cassiaoptimalhealth.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.linkedin.com/in/znylander",
+          "inFooter": false
+        },
+        {
+          "text": "EXPLORE OUR YOUTUBE CHANNEL",
+          "href": "https://www.youtube.com/@CassiaOptimalHealth",
+          "inFooter": false
+        },
+        {
+          "text": "<img loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"1067\" src=\"https://cas",
+          "href": "https://cassiaoptimalhealth.com/transform-your-health-the-cassia-optimal-health-roots-plan-membership-experience/",
+          "inFooter": false
+        },
+        {
+          "text": "Transform Your Health: The Cassia Optimal Health Roots Plan Membership Experienc",
+          "href": "https://cassiaoptimalhealth.com/transform-your-health-the-cassia-optimal-health-roots-plan-membership-experience/",
+          "inFooter": false
+        },
+        {
+          "text": "Read More",
+          "href": "https://cassiaoptimalhealth.com/transform-your-health-the-cassia-optimal-health-roots-plan-membership-experience/",
+          "inFooter": false
+        },
+        {
+          "text": "<img loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"1067\" src=\"https://cas",
+          "href": "https://cassiaoptimalhealth.com/the-power-of-preventive-care-why-cassia-optimal-health-memberships-stand-out/",
+          "inFooter": false
+        },
+        {
+          "text": "The Power of Preventive Care—Why Cassia Optimal Health Memberships Stand Out",
+          "href": "https://cassiaoptimalhealth.com/the-power-of-preventive-care-why-cassia-optimal-health-memberships-stand-out/",
+          "inFooter": false
+        },
+        {
+          "text": "Read More",
+          "href": "https://cassiaoptimalhealth.com/the-power-of-preventive-care-why-cassia-optimal-health-memberships-stand-out/",
+          "inFooter": false
+        },
+        {
+          "text": "<img loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"1200\" src=\"https://cas",
+          "href": "https://cassiaoptimalhealth.com/from-nutrition-to-balance-tailored-wellness-solutions-for-every-goal/",
+          "inFooter": false
+        },
+        {
+          "text": "From Nutrition to Balance: Tailored Wellness Solutions for Every Goal",
+          "href": "https://cassiaoptimalhealth.com/from-nutrition-to-balance-tailored-wellness-solutions-for-every-goal/",
+          "inFooter": false
+        },
+        {
+          "text": "Read More",
+          "href": "https://cassiaoptimalhealth.com/from-nutrition-to-balance-tailored-wellness-solutions-for-every-goal/",
+          "inFooter": false
+        },
+        {
+          "text": "@cassiaoptimalhealth",
+          "href": "https://www.instagram.com/cassiaoptimalhealth/",
+          "inFooter": false
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/people/Cassia-Optimal-Health/61565285047825/?_rdr",
+          "inFooter": false
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/cassiaoptimalhealth/",
+          "inFooter": false
+        },
+        {
+          "text": "Linkedin",
+          "href": "https://www.linkedin.com/company/cassia-optimal-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@cassiaoptimalhealth",
+          "inFooter": false
+        },
+        {
+          "text": "Youtube",
+          "href": "https://www.youtube.com/@CassiaOptimalHealth",
+          "inFooter": false
+        },
+        {
+          "text": "SCHEDULE YOUR DISCOVERY CALL",
+          "href": "https://go.cassiaoptimalhealth.com/widget/bookings/cassia-optimal-health-discovery",
+          "inFooter": false
+        },
+        {
+          "text": "GET DIRECTIONS",
+          "href": "https://www.google.com/maps/dir//cassia+optimal+health/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88f51127ce20bd25:0x519b191673c1334e?sa=X&ved=1t:3061&ictx=111",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://cassiaoptimalhealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/people/Cassia-Optimal-Health/61565285047825/?_rdr",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/cassiaoptimalhealth/",
+          "inFooter": true
+        },
+        {
+          "text": "Linkedin",
+          "href": "https://www.linkedin.com/company/cassia-optimal-health/",
+          "inFooter": true
+        },
+        {
+          "text": "Tiktok",
+          "href": "https://www.tiktok.com/@cassiaoptimalhealth",
+          "inFooter": true
+        },
+        {
+          "text": "Youtube",
+          "href": "https://www.youtube.com/@CassiaOptimalHealth",
+          "inFooter": true
+        },
+        {
+          "text": "MEMBERSHIPS",
+          "href": "https://cassiaoptimalhealth.com/memberships/",
+          "inFooter": true
+        },
+        {
+          "text": "WEIGHT MANAGEMENT & LIFESTYLE MEDICINE",
+          "href": "https://cassiaoptimalhealth.com/weight-loss-lifestyle-medicine/",
+          "inFooter": true
+        },
+        {
+          "text": "NUTRITION OPTIMIZATION",
+          "href": "https://cassiaoptimalhealth.com/nutrition-optimization/",
+          "inFooter": true
+        },
+        {
+          "text": "HORMONE BALANCING & REDUCING INFLAMMATION",
+          "href": "https://cassiaoptimalhealth.com/hormone-balancing-and-reducing-inflammation/",
+          "inFooter": true
+        },
+        {
+          "text": "DIRECT PRIMARY CARE",
+          "href": "https://cassiaoptimalhealth.com/direct-primary-care/",
+          "inFooter": true
+        },
+        {
+          "text": "OUR BLOG",
+          "href": "https://cassiaoptimalhealth.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://cassiaoptimalhealth.com/about-us/",
+          "inFooter": true
+        },
+        {
+          "text": "GET IN TOUCH",
+          "href": "https://cassiaoptimalhealth.com/contact/",
+          "inFooter": true
+        },
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": true
+        },
+        {
+          "text": "PRIVACY POLICY",
+          "href": "https://cassiaoptimalhealth.com/privacy/",
+          "inFooter": true
+        },
+        {
+          "text": "TERMS",
+          "href": "https://cassiaoptimalhealth.com/terms/",
+          "inFooter": true
+        },
+        {
+          "text": "ACCESSIBILITY",
+          "href": "https://cassiaoptimalhealth.com/accessibility/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://plastixmarketing.com/",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Facebook Instagram Linkedin Tiktok Youtube Our Services MEMBERSHIPS WEIGHT MANAGEMENT & LIFESTYLE MEDICINE NUTRITION OPTIMIZATION HORMONE BALANCING & REDUCING INFLAMMATION DIRECT PRIMARY CARE Quick Links OUR BLOG ABOUT US GET IN TOUCH (470) 937-6965 Subscribe © 2026 CASSIA OPTIMAL HEALTH. ALL RIGHTS RESERVED. PRIVACY POLICY TERMS ACCESSIBILITY POWERED BY IN CASE YOU’RE EXPERIENCING VISUAL IMPAIRMENT OR ANY OTHER CONDITION THAT IS PROTECTED UNDER THE AMERICANS WITH DISABILITIES ACT OR A LAW AKIN TO IT, AND YOU’RE INTERESTED IN DISCUSSING ACCOMMODATIONS TO ENHANCE YOUR EXPERIENCE WITH THIS WEBSITE, KINDLY GET IN TOUCH WITH OUR ACCESSIBILITY MANAGER AT 1-470-937-6965",
+      "telLinks": [
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": false
+        },
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": false
+        },
+        {
+          "text": "(470) 937-6965",
+          "href": "tel:14709376965",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 12,
+      "images": 27,
+      "scrollHeight": 12830,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/\",\"url\":\"https:\\/\\/cassiaoptimalhealth.com\\/\",\"name\":\"Primary Care Physician in Atlanta | Cassia Optimal Health\",\"isPartOf\":{\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#organization\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/cassiaoptimalhealth.com\\/wp-content\\/uploads\\/2024\\/12\\/Dr-Zazi-1.jpg\",\"datePublished\":\"2024-12-30T23:14:16+00:00\",\"dateModified\":\"2026-10-26T15:27:40+00:00\",\"description\":\"Physician-led, membership-based primary care in Atlanta with Dr. Zazi Nylander. Direct access and a long-term partner in your health.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/cassiaoptimalhealth.com\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#primaryimage\",\"url\":\"https:\\/\\/cassiaoptimalhealth.com\\/wp-content\\/uploads\\/2024\\/12\\/Dr-Zazi-1.jpg\",\"contentUrl\":\"https:\\/\\/cassiaoptimalhealth.com\\/wp-content\\/uploads\\/2024\\/12\\/Dr-Zazi-1.jpg\",\"width\":700,\"height\":1052},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/cassiaoptimalhealth.com\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Person\",\"name\":\"Dr. Zazi Nylander\",\"email\":null,\"gender\":null,\"memberOf\":null,\"nationality\":null,\"jobTitle\":\"Founder & Physician — Family Medicine and Obesity Medicine\",\"telephone\":null,\"url\":\"https://cassiaoptimalhealth.com/about-us/\",\"sameAs\":[\"https://www.linkedin.com/in/znylander\"]}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"MedicalBusiness\",\"name\":\"Cassia Optimal Health\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://cassiaoptimalhealth.com/wp-content/uploads/2023/08/Cassia-prinary-logo.svg\",\"width\":500,\"height\":235},\"telephone\":\"470-937-6965\",\"url\":\"https://cassiaoptimalhealth.com\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"2850 Paces Ferry Rd. SE, Suite 440\",\"addressLocality\":\"Atlanta\",\"postalCode\":\"30339\",\"addressRegion\":\"GA\",\"addressCountry\":\"US\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.9\",\"reviewCount\":\"70\"},\"priceRange\":\"$$\",\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}],\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"33.8663\",\"longitude\":\"-84.4618\"}}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "HEADER.elementor elementor-42 elementor-locatio",
+        "DIV.uael-flyout-overlay elementor-clickable",
+        "DIV.uael-side uael-flyout-left uael-flyout-o"
+      ]
+    }
+  }
+}

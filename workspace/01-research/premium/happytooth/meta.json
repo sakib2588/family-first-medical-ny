@@ -1,0 +1,324 @@
+{
+  "url": "https://www.happytoothslc.com/",
+  "slug": "happytooth",
+  "capturedAt": "2026-10-30T18:40:08.969Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15974,
+      "consoleErrors": [],
+      "title": "Happy Tooth Pediatric Dentistry",
+      "h1": [
+        "MILLCREEK, UT PEDIATRIC DENTIST",
+        "HEADING"
+      ],
+      "h2": [
+        "Start Happy",
+        "Come say hi!",
+        "Hi! I'm Dr. Hanks",
+        "Our Space",
+        "Kids Snoring? Teeth grinding? Mouth Breathing?",
+        "Pay however you like",
+        "Drop a line"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Hanks",
+          "href": "https://www.happytoothslc.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Airway",
+          "href": "https://www.happytoothslc.com/airway",
+          "inFooter": false
+        },
+        {
+          "text": "Our Team",
+          "href": "https://www.happytoothslc.com/our-team",
+          "inFooter": false
+        },
+        {
+          "text": "Products & Socials",
+          "href": "https://www.happytoothslc.com/products",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.happytoothslc.com/far",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "SCHEDULE NOW",
+          "href": "https://www.happytoothslc.com/#name",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://maps.google.com/maps?ll=40.700125,-111.821017&z=15&t=m&hl=en-US&gl=US&mapclient=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "Terms",
+          "href": "https://www.google.com/intl/en-US_US/help/terms_maps.html",
+          "inFooter": false
+        },
+        {
+          "text": "Report a map error",
+          "href": "https://www.google.com/maps/@40.7001246,-111.8210167,15z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "801-410-0165",
+          "href": "tel:18014100165",
+          "inFooter": false
+        },
+        {
+          "text": "info@happytoothslc.com",
+          "href": "mailto:info@happytoothslc.com?subject=%F0%9F%91%8B%20Hey%20Dr.%20Hanks!",
+          "inFooter": false
+        },
+        {
+          "text": "MORE ABOUT ME",
+          "href": "https://www.happytoothslc.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "MORE ABOUT AIRWAY",
+          "href": "https://www.happytoothslc.com/airway",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "801-410-0165",
+          "href": "tel:18014100165",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.happytoothslc.com/",
+          "fields": [
+            "input:text:name",
+            "input:email:email",
+            "input:tel:Phone",
+            "input:text:Provider",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 78,
+      "images": 80,
+      "scrollHeight": 7615,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "",
+      "fixedEls": [
+        "HEADER.sticky-nav",
+        "DIV.nav-links",
+        "SPAN.",
+        "DIV.section-10 video-modal"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 15849,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "title": "Happy Tooth Pediatric Dentistry",
+      "h1": [
+        "MILLCREEK, UT PEDIATRIC DENTIST",
+        "HEADING"
+      ],
+      "h2": [
+        "Start Happy",
+        "Come say hi!",
+        "Hi! I'm Dr. Hanks",
+        "Our Space",
+        "Kids Snoring? Teeth grinding? Mouth Breathing?",
+        "Pay however you like",
+        "Drop a line"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Dr. Hanks",
+          "href": "https://www.happytoothslc.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "Airway",
+          "href": "https://www.happytoothslc.com/airway",
+          "inFooter": false
+        },
+        {
+          "text": "Our Team",
+          "href": "https://www.happytoothslc.com/our-team",
+          "inFooter": false
+        },
+        {
+          "text": "Products & Socials",
+          "href": "https://www.happytoothslc.com/products",
+          "inFooter": false
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.happytoothslc.com/far",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "SCHEDULE NOW",
+          "href": "https://www.happytoothslc.com/#name",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://maps.google.com/maps?ll=40.700125,-111.821017&z=15&t=m&hl=en-US&gl=US&mapclient=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "Terms",
+          "href": "https://www.google.com/intl/en-US_US/help/terms_maps.html",
+          "inFooter": false
+        },
+        {
+          "text": "Report a map error",
+          "href": "https://www.google.com/maps/@40.7001246,-111.8210167,15z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3",
+          "inFooter": false
+        },
+        {
+          "text": "801-410-0165",
+          "href": "tel:18014100165",
+          "inFooter": false
+        },
+        {
+          "text": "info@happytoothslc.com",
+          "href": "mailto:info@happytoothslc.com?subject=%F0%9F%91%8B%20Hey%20Dr.%20Hanks!",
+          "inFooter": false
+        },
+        {
+          "text": "MORE ABOUT ME",
+          "href": "https://www.happytoothslc.com/about",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.happytoothslc.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "MORE ABOUT AIRWAY",
+          "href": "https://www.happytoothslc.com/airway",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "801-410-0165",
+          "href": "tel:18014100165",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.happytoothslc.com/",
+          "fields": [
+            "input:text:name",
+            "input:email:email",
+            "input:tel:Phone",
+            "input:text:Provider",
+            "input:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 90,
+      "images": 92,
+      "scrollHeight": 5083,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "",
+      "fixedEls": [
+        "HEADER.sticky-nav",
+        "SPAN.",
+        "DIV.section-10 video-modal"
+      ]
+    }
+  }
+}

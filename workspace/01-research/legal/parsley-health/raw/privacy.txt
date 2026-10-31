@@ -1,0 +1,153 @@
+Privacy Policy | How Parsley Health Protects Your Information
+Privacy Policy & Cookie Policy
+Parsley Health, Inc.
+At Parsley Health your privacy is important to us. Our Privacy Policy describes how and why we collect, use, share and otherwise process your Personal Information [when you use or access our Platform / Website]. This Privacy Policy also describes the choices you have with the information we collect, including how you can manage, update, or request to delete information.
+Please take a moment to review this Privacy Policy. It is important that you understand this Privacy Policy so that you are fully aware of how and why we are using your Personal Information. By using our Platform, you are agreeing to the terms of this Privacy Policy. If you have any questions or concerns about this Privacy Policy, you may Contact Us at any time.
+About Parsley Health
+Parsley Health is the leading holistic medical practice in the United States designed to help members overcome chronic conditions. We provide access to a dedicated care team, which includes clinicians trained in multiple specialties such as family medicine and internal medicine.
+Parsley Health is not a medical group or a health care provider. Parsley Health provides its users with the ability to obtain a telemedicine consultation provided by independent medical practitioners including, but not limited to, Parsley Medical Group FL, P.A., Parsley Medical PC, Parsley Medical, P.L.L.C., and other affiliated practices (collectively “Medical Group”), an independent medical group with a network of United States based health care providers (each, a “Provider”). Medical Group (or your own medical provider if you do not use a Medical Group Provider) is responsible for providing you with a Notice of Privacy Practices describing its collection and use of your health information, not Parsley Health.
+Identity and Contact Details of the Data Controller and Data Protection Officer (DPO)
+Parsley Health is the data controller responsible for your Personal Information. For any questions regarding this Privacy Policy or your Personal Information, you can contact our Privacy Team using the details set out in the Contact Us section.
+Key Terms & Definitions and Our Privacy Policy
+It is helpful to start by explaining some of our key terms and definitions used in this Privacy Policy:
+“App”: The Parsley Health app. The portal used to communicate with members.
+“Personal Information”: Any information relating to an identified or identifiable individual.
+“Platform”: Our main website.
+“Privacy Policy”: This privacy policy.
+“Products”: Any products available for purchase on our Platform.
+“Services”: Any services provided through our Platform.
+“Software”: Any digital tools used to provide or support Parsley services, communication, and/or manage related information.
+“Devices”: Any tool that is used to measure, collect or transmit health data. Primarily the device used to access the web browser.
+“Terms of Service:” Our terms of service located here.
+“Website(s):” Our websites, including: https://www.parsleyhealth.com and the blog.
+“Parsley Health,” “we,” “us,” or “our:” Parsley Health, Inc.
+When does our Privacy Policy apply?
+This Privacy Policy describes the types of information we may collect from you when:
+You visit or use our Platform, including our Website;
+We communicate in e-mail, text message, and other electronic messages between you and us; and
+We communicate in person, such as on the phone or through a telehealth visit.
+When does our Privacy Policy not apply?
+This Privacy Policy does not apply to information collected by any other website operated either by us or by a third party, unless the website is listed above or links to this Privacy Policy. It also does not apply to any website that we may provide a link to or that is accessible from our Platform.
+US Users Only: This Privacy Policy does not apply to information collected from users who log-in to the password-protected and secure portions of our Platform (“Secure Platform”). The Secure Platform allows users who obtain the Services (“Customers”) to perform certain functions or obtain the Services (such as telehealth visits from Medical Group or Providers). All information collected and stored by us or added by Customers into such Secure Platforms is considered Protected Health Information ("PHI") and/or medical information and is governed by applicable state and federal laws that apply to that information, for example the Health Insurance Portability and Accountability Act (“HIPAA”). How we use and disclose such PHI is in accordance with the applicable Notice of Privacy Practices provided to you by the Medical Group. We will not use or disclose information collected from the Secure Platform or received from Medical Group or your Provider for advertising, marketing, or other use-based data mining purposes. We will not sell any PHI.
+Our Privacy Policy and Terms of Use
+This Privacy Policy is incorporated into our Terms of Use, which also apply when you use our Platform.
+Personal Information
+What is Personal Information?
+Personal information is information from and about you that may be able to personally identify you. We treat any information that may identify you as personal information. For example, your name and e-mail address are personal information.
+What types of Personal Information do we collect?
+We may collect and use the following personal information (hereinafter, collectively referred to as “Personal Information”):
+Personal Identifiers and contact details: a real name, birth date, e-mail address, telephone number billing, home, work or shipping address, or driver’s license or passport.
+Financial information: credit card number, debit card number.
+Health or medical information: physical characteristics or description.
+Characteristics of protected classifications under California or federal law: Race, Sexual Orientation, gender, Color, Age, National origin, or Disability.
+Visual Information: Photos.
+Internet or other electronic network activity information: IP address, device mode, device ID, OS version, device language, operating system, browser type, browsing history, search history, and information regarding a consumer’s interaction with an Internet Web site, application, or advertisement.
+Geolocation data: Physical location or movements, local time, and local time zone.
+How do we collect your Personal Information?
+We collect most of this Personal Information directly from you. For example, when we speak to you by phone, text message, and e-mail. Additionally, we will collect information from you when you visit our Website or App and fill out forms, use our Software, wear one of our Devices, or purchase our Services.
+We may also collect Personal Information in the following ways:
+When You Use A Premium Feature. When you choose to participate in a premium service, we collect additional information from you related to those services. Some premium features are paid services.
+When you make payments through the Platform. We do not collect or store financial account information, though we may receive transaction identifiers and summary information that does not include credit card or bank account numbers.
+When You Contact Us. When you contact Parsley Health directly, such as when you contact our Customer Support team, we will receive the contents of your message or any attachments you may send to us, as well as any additional information you choose to provide.
+We will also collect information automatically as you navigate through our Platform via cookies and other tracking technologies. For more information about our use of cookies and similar tracking technologies, please see our Cookie Policy.
+How do we use your Personal Information?
+We may use your Personal Information for the following purposes:
+Category of Personal Information
+Personal identifiers and contact details
+Health or medical information
+Internet or other electronic network activity information
+Geolocation data
+Purpose of Processing
+To operate, maintain, supervise, administer, and enhance our Platform or the Services (including monitoring and analyzing the effectiveness of content on the Platform, aggregate site usage data, and other usage of the Platform and/or the Services such as assisting you in completing the registration process).
+Legal Basis
+Necessary for our legitimate interests in order to effectively operate our business and provide you with the Services that you request from us.
+How do we share your Personal Information?
+We may share Personal Information with third parties in certain circumstances or for certain purposes, including:
+Our business purposes. We may share your Personal Information with our affiliates, vendors, service providers, and business partners, including our data hosting and data storage partners, analytics and advertising providers, technology services and support, and data security advisors. We may also share your Personal Information with professional advisors, such as auditors, law firms, and accounting firms.
+Your healthcare providers or family. With your consent, we may share your information, including information collected from your use of our Platform, with your health care providers and/or family members (e.g., immediate family or friends) that you designate to receive your information.
+With your consent. We may share your Personal Information if you request or direct us to do so.
+Compliance with law. We may share your Personal Information to comply with applicable law or any obligations thereunder, including cooperation with law enforcement, judicial orders, and regulatory inquiries.
+Business transfer. We may share your Personal Information to a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of our assets, whether as a going concern or as part of a bankruptcy, liquidation, or similar proceeding, in which Personal Information held by us about our users are among the assets transferred.
+To enforce our rights. We may share your Personal Information to enforce any applicable terms and conditions and Terms of Use, and to ensure the safety and security of our Services and our users.
+De-identified information. We may also disclose de-identified information, so that it cannot be reasonably used to identify any individual, with third parties for marketing, advertising, research, or similar purposes.
+To market our products and services. We may share your Personal Information with affiliates and third parties to market our products and services.
+To market third party products and services. We may share your Personal Information with affiliates and third parties to market their products or services to you if you have not opted out of these disclosures. For more information on opting out, see Your Choices about how we share your Personal Information.
+Third Party Analytics. We use Google Analytics and Mixpanel to understand and evaluate how visitors interact with our Platform and/or the Services. For more information on the use of such tools, please see our Cookie Policy.
+Your choices about how we share your Personal Information.
+This section of our Privacy Policy provides details and explains how to exercise your choices in respect of the disclosure of your Personal Information for our advertising to you and other targeted advertising. We do not control the collection and use of your information collected by third parties. These third parties may aggregate the information they collect with information from their other customers for their own purposes. You can opt out of third parties collecting your Personal Information for targeted advertising purposes in the United States by visiting the National Advertising Initiative's (NAI) opt-out page and the Digital Advertising Alliance's (DAA) opt-out page .
+If you do not wish to have your email address used by Parsley Health to promote our own products and services, you can opt-out at any time by clicking the unsubscribe link at the bottom of any e-mail or other marketing communications you receive from us or logging onto your Account Preferences page. This opt out does not apply to information provided to Parsley Health as a result of a product purchase, or your use of our Platform and/or the Services. You may have other options with respect to marketing and communication preferences through our Platform.
+You may also see certain ads on other websites because we participate in advertising networks. Ad networks allow us to target our messaging to users through demographic, interest-based, and contextual means. These networks track your online activities over time by collecting information through automated means, including through the use of cookies, web server logs, and web beacons. The networks use this information to show you advertisements that may be tailored to your individual interests.
+How do I access and correct my Personal Information?
+You can review and change your Personal Information by logging into our Platform and visiting your account. You may also Contact Us to inform us of any changes or errors in any Personal Information we have about you to ensure that it is complete, accurate, and as current as possible or to delete your account. We cannot delete your personal information except by also deleting your account with us. We may also not be able to accommodate your request if we believe it would violate any law or legal requirement or cause the information to be incorrect.
+Who may use the Services?
+Parsley Health operates subject to state and federal regulations, and the Platform and/or the Services may not be available in your state. You represent that you are not a person barred from enrolling for or receiving the Services under the laws of the United States or other applicable jurisdictions in which you may be located. Access to and use of the Platform and/or the Services is limited exclusively to users located in states within the United States where the Platform and/or the Services is available. The Platform and/or the Services are not available to users located outside the United States. Accessing the Platform and/or obtaining the Services from jurisdictions where content is illegal, or where we do not offer the Platform and/or the Services, is prohibited.
+Children’s Privacy
+We do not knowingly collect Personal Information directly from children under the age of 18. If you are between 13 and 18 years of age, you must get permission from your parents or legal guardian before using our Platform. If you are under the age of 18, do not use or provide any information on or to the Platform or through any of its features. If we learn we have collected or received Personal Information from a child under the age of 18 without verification of parental consent, we will delete it. If you are the parent or guardian of a child under 18 years of age whom you believe might have provided us with their Personal Information, you may contact us to request the Personal Information be deleted.
+Does Parsley Health respond to Do Not Track signals?
+Some web browsers have a “Do Not Track” feature. This feature lets you tell websites you visit that you do not want to have your online activity tracked. These features are not yet uniform across browsers. Our Platform is not currently set up to respond to those signals.
+Data Security
+We are committed to ensuring the security of your Personal Information and so have taken steps and implemented administrative, technical, and physical safeguards designed to protect against the risk of accidental, intentional, unlawful, or unauthorized access, alteration, destruction, disclosure, or use of such data.
+While we strive to use best practices and industry standard security measures and tools to protect your data, we cannot guarantee the security of Personal Information transmitted to, on, or through the internet or our Services. Any transmission of Personal Information is at your own risk. We are not responsible for the circumvention of any privacy settings or security measures contained on our Platform, in your operating system, or mobile device. Where you have been given or you have chosen a password, it is your responsibility to keep this password confidential.
+Data Retention
+No personal data related to the website is stored or retained for more than 90 days.
+Automated Decision Making
+We do not carry out automated decision making (including profiling). If so, include detail as to the particular automated decision making activities carried out.
+Rights of Data Subjects
+Where the GDPR is applicable, you have the following rights concerning your Personal Information:
+Right of Access: You can request access to your personal data.
+Right to Rectification: You can request correction of inaccurate personal data.
+Right to Erasure: You can request the deletion of your personal data.
+Right to Restrict Processing: You can request the limitation of processing of your personal data.
+Right to Data Portability: You can request to receive your personal data in a structured, commonly used, and machine-readable format.
+Right to Object: You can object to the processing of your personal data in certain circumstances.
+Right to Withdraw Consent: If processing is based on consent, you have the right to withdraw your consent at any time.
+Right to Lodge a Complaint: You have the right to lodge a complaint with your local supervisory authority if you are not satisfied with how we process your personal data.
+California’s Shine the Light Law
+California Civil Code Section 1798.83 (California’s “Shine the Light” law) permits users of our Platform and/or the Services that are California residents and who provide Personal Information in obtaining products and services for personal, family, or household use to request certain information regarding our disclosure of Personal Information to third parties for their own direct marketing purposes. If applicable, this information would include the categories of Personal Information and the names and addresses of those businesses with which we shared your Personal Information with for the immediately prior calendar year (e.g. requests made in 2021 will receive information regarding such activities in 2020). You may request this information once per calendar year. To make such a request, please Contact Us using the information below.
+Changes to our Privacy Policy
+We may update our Privacy Policy periodically to reflect changes in our privacy practices, laws, and best practices. We will post any changes we make to our Privacy Policy on this page with a notice that the Privacy Policy has been updated on our Website’s homepage or our App’s home screen. If we make material changes to our practices with regards to the Personal Information we collect from you, we will notify you by e-mail to the e-mail address specified in your account and/or through a notice on the Website’s home page. The date this Privacy Policy was last revised is identified at the bottom of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically accessing the App or visiting our Website and reviewing this Privacy Policy and Electronic Communications Consent to check for any changes.
+Cookie Policy
+This Cookie Policy explains what cookies are, how we use them, the types of cookies that we use and how to control your cookie preferences.
+Cookies and other technologies
+Cookies
+“Cookies” are small text files that are stored on your computer or other mobile device when you visit a website. Cookies can be used for many purposes, including to remember an individual user as well as their previous interactions and preferences with respect to a website.
+We use the following cookies on the Parsley Health website (the “Website”):
+Strictly necessary cookies that are essential for you to use the Website and its features. This category only includes cookies that ensure basic functionalities and security features of the Website. These essential cookies are always enabled as without them the Website will not function properly.
+Analytics cookies that are used to understand how users interact with the Website. These cookies help provide information on metrics, the number of visitors, where Website traffic originates and similar matters for this purpose.
+Advertising cookies that are used to provide you with relevant advertisements or promotions based on your previous activity and interactions with the Website. To fulfill this function, these cookies collect information about you and your activities on this and other websites.
+Other technologies
+We use Google Analytics and Mixpanel to understand and evaluate how visitors interact with the Website and the services that we provide through it (the “Services”). These tools help us improve our Website, its performance you’re your experience, together with any services provided through our Website.
+You can opt out of being tracked by Google Analytics across all websites by downloading and installing an opt-out browser plugin provided by Google that is available via this link .
+How do we use cookies?
+Like most other online services, the Website uses first-party and-third party cookies for a number of purposes, details of which are set out in the table in the “What types of cookies do we use” section below.
+First-party cookies are cookies that are set by our Website. Third-party cookies are set by a third-party domain on our Website. The third-party cookies used on our Website are needed to serve a number of functions, including (but not limited to) providing insights on our Website’s performance, providing an understanding of how you interact with our Website, providing advertisements that are relevant to you and so on.
+What types of cookies do we use?
+Only navigational related cookies are used on this site.
+How do I change my cookie settings?
+You can change your cookie preferences for the Website at any time through the cookie settings.
+In addition, each type of web browser provides ways to restrict and delete cookies. Browser manufacturers provide resources to help you with managing cookies. Please see below for more information on some popular browsers:
+Google Chrome
+Internet Explorer
+Mozilla Firefox
+Safari (Desktop)
+Safari (Mobile)
+Android Browser
+Opera
+Opera Mobile
+For other browsers, please consult the documentation that your browser manufacturer provides or visit the browser developer’s website.
+Please note that choosing to restrict cookies via browser settings may, in some cases, impact on your ability to access or use certain parts of our Website and/or the Services.
+Changes to our Cookie Policy
+We may update our Cookie Policy from time to time. Please check the date at the top of this page to see when this Cookie Policy was last revised. Any changes to this Cookie Policy will become effective when Parsley Health makes the revised Cookie Policy available on or through our Website.
+If you have any questions, concerns, complaints or suggestions regarding this Cookie Policy or otherwise need to contact us, you may contact us using the Contact information below.
+Contact Us
+If you have any questions, concerns, complaints or suggestions regarding our Privacy Policy or otherwise need to contact us, you may contact us at the contact information below or through the “Contact Us” page on the Platform.
+How to Contact Us
+  Parsley Health, Inc.
+  126 5th Ave.
+  2nd Floor
+  New York, NY 10011
+  Telephone: 1-833-447-2775
+  privacy@parsleyhealth.com
+Last Updated: August 13, 2024
+ was added to cart.
+Your Cart

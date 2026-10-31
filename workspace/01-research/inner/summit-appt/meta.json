@@ -1,0 +1,53 @@
+{
+  "url": "https://2983-1.portal.athenahealth.com/",
+  "slug": "summit-appt",
+  "capturedAt": "2026-10-30T18:35:15.617Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15770,
+      "consoleErrors": [
+        "Refused to execute script from 'https://patient.athenahealth.com/2983-1/UNSUPPORTED' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "title": "Patient Portal",
+      "h1": [],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 844,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "",
+      "fixedEls": [
+        "DIV."
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 16243,
+      "consoleErrors": [
+        "Refused to execute script from 'https://patient.athenahealth.com/2983-1/UNSUPPORTED' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "title": "Patient Portal",
+      "h1": [],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "",
+      "fixedEls": [
+        "DIV."
+      ]
+    }
+  }
+}

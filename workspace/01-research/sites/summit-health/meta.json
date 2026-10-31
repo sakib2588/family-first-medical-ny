@@ -1,0 +1,1127 @@
+{
+  "url": "https://www.summithealth.com",
+  "slug": "summit-health",
+  "capturedAt": "2026-10-30T17:44:48.027Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 21012,
+      "consoleErrors": [],
+      "title": "Summit Health | New Jersey's Top Ranked Multispecialty Care",
+      "h1": [
+        "A lifetime of care"
+      ],
+      "h2": [
+        "Find primary and specialty care near you",
+        "Award-winning care",
+        "Stay connected to your care anytime, anywhere"
+      ],
+      "links": [
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.summithealth.com/sites/default/files/2025-08/Summit-Health-digital-privacy-policy-Aug-2025.pdf",
+          "inFooter": false
+        },
+        {
+          "text": "Skip to main content",
+          "href": "https://www.summithealth.com/#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "here",
+          "href": "https://www.aestohealth.com/notice-of-data-security-incident-12-18-25/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.summithealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Schedule an appointment",
+          "href": "https://www.summithealth.com/doctors?searching=1",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "View all providers",
+          "href": "https://www.summithealth.com/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Find a doctor",
+          "href": "https://www.summithealth.com/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Find a primary care doctor",
+          "href": "https://www.summithealth.com/doctors/results?query=primary%20care&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "Find an orthopedic doctor",
+          "href": "https://www.summithealth.com/doctors/results?query=orthopedics%20%26%20sports%20medicine&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "Find a gastroenterology doctor",
+          "href": "https://www.summithealth.com/doctors/results?query=gastroenterology&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "Find a women's health doctor",
+          "href": "https://www.summithealth.com/doctors/results?query=women%27s%20health&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "Find an urgent care",
+          "href": "https://www.summithealth.com/locations?service%5B0%5D=3281",
+          "inFooter": false
+        },
+        {
+          "text": "View all providers",
+          "href": "https://www.summithealth.com/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "Find primary care",
+          "href": "https://www.summithealth.com/doctors/results?query=primary%20care&isAcceptingNewPatients=true&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.summithealth.com/services",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care",
+          "href": "https://www.summithealth.com/services/internal-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Orthopedics and sports medicine",
+          "href": "https://www.summithealth.com/services/orthopedics-and-sports-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "Gastroenterology",
+          "href": "https://www.summithealth.com/services/gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "Women's health",
+          "href": "https://www.summithealth.com/services/obstetrics-and-gynecology",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Ear, nose, and throat (ENT)",
+          "href": "https://www.summithealth.com/services/ear-nose-and-throat-ent",
+          "inFooter": false
+        },
+        {
+          "text": "Radiology",
+          "href": "https://www.summithealth.com/services/radiology",
+          "inFooter": false
+        },
+        {
+          "text": "View all services",
+          "href": "https://www.summithealth.com/services",
+          "inFooter": false
+        },
+        {
+          "text": "Request a screening",
+          "href": "https://www.summithealth.com/direct-access-colonoscopy-dac-form",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.summithealth.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "New Jersey",
+          "href": "https://www.summithealth.com/locations?geolocation=40.21794%2C-74.75948&search_location=NJ%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Westchester, NY",
+          "href": "https://www.summithealth.com/locations?geolocation=41.15166%2C-73.75333&search_location=Westchester%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Long Island, NY",
+          "href": "https://www.summithealth.com/locations?geolocation=40.73365%2C-73.68027&search_location=11040%2C%20New%20Hyde%20Park%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Manhattan, NY",
+          "href": "https://www.summithealth.com/locations?geolocation=40.75848%2C-74&search_location=10018%2C%20New%20York%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Queens, NY",
+          "href": "https://www.summithealth.com/locations?geolocation=40.71238%2C-73.8827&search_location=Middle%20Village%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Brooklyn, NY",
+          "href": "https://www.summithealth.com/locations?geolocation=40.69245%2C-73.99036&search_location=Brooklyn%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "Connecticut",
+          "href": "https://www.summithealth.com/locations?geolocation=41.76381%2C-72.67398&search_location=CT%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "View all locations",
+          "href": "https://www.summithealth.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/locations/livingston-hub-39-west-northfield-road",
+          "inFooter": false
+        },
+        {
+          "text": "View patient resources",
+          "href": "https://www.summithealth.com/patient-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Accepted insurances",
+          "href": "https://www.summithealth.com/accepted-insurance-plans",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.summithealth.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Patient referral services",
+          "href": "https://www.summithealth.com/refer",
+          "inFooter": false
+        },
+        {
+          "text": "Educational webinars",
+          "href": "https://www.summithealth.com/educationalwebinars",
+          "inFooter": false
+        },
+        {
+          "text": "Patient relations",
+          "href": "https://www.summithealth.com/patient-relations",
+          "inFooter": false
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://www.summithealth.com/health-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "View patient resources",
+          "href": "https://www.summithealth.com/patient-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Login to portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Schedule an appointment",
+          "href": "https://www.summithealth.com/doctors?searching=1",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal Stay connected through our patient portal. Schedule an appointmen",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care For convenient, fast, reliable medical care with no appointment need",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "For our patients We offer quick and easy ways to communicate with your doctor's ",
+          "href": "https://www.summithealth.com/patient-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#newsweek-asc",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#usnews-ambulatorysurgery",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#castle-connolly-1",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#castle-connolly-3",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#njmtopdoc",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#ehealthcare",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#njmtopdoc-2025",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#target-bp-gold",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#urgent-care-excellence",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#napbc",
+          "inFooter": false
+        },
+        {
+          "text": "View all awards",
+          "href": "https://www.summithealth.com/awards-distinctions",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/summit-health-athenapatienttm-mobile-app-faqs",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://play.google.com/store/apps/details?id=com.athenahealth.athenapatient&hl=en_US",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://apps.apple.com/us/app/athenapatient/id1644169294",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/summithealthhq",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/summithealthhq/",
+          "inFooter": true
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/channel/UCenqWljVJmwI9N_YECap8xQ",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/summithealth",
+          "inFooter": true
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://www.summithealth.com/#",
+          "inFooter": true
+        },
+        {
+          "text": "About Summit Health",
+          "href": "https://www.summithealth.com/about-summit-health",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership team",
+          "href": "https://www.summithealth.com/leadership-team",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.summithealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health news",
+          "href": "https://www.summithealth.com/news",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health cares",
+          "href": "https://www.sh-cares.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://www.summithealth.com/health-wellness",
+          "inFooter": true
+        },
+        {
+          "text": "Code of conduct",
+          "href": "https://www.summithealth.com/sites/default/files/2026-10/C.02.11-VILLAGEMD-CODE-OF-CONDUCT%2810-2026%29.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Compliance manual",
+          "href": "https://www.summithealth.com/sites/default/files/2026-10/C.02.12-VMD-Manual%2810-2026%29.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy & Nondiscrimination",
+          "href": "https://www.summithealth.com/privacy-nondiscrimination",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health Management",
+          "href": "https://www.summithealth.com/summit-health-management",
+          "inFooter": true
+        },
+        {
+          "text": "PATIENT TOOLS & RESOURCES",
+          "href": "https://www.summithealth.com/#",
+          "inFooter": true
+        },
+        {
+          "text": "Request an appointment",
+          "href": "https://2983-1.portal.athenahealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": true
+        },
+        {
+          "text": "Patient relations",
+          "href": "https://www.summithealth.com/patient-relations",
+          "inFooter": true
+        },
+        {
+          "text": "Anonymous hotline",
+          "href": "https://www.summithealth.com/sites/default/files/2025-12/SH0075-0925-Anonymous-Hotline-Poster-Update_12.10.25.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.summithealth.com/request-medical-records",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & pricing",
+          "href": "https://www.summithealth.com/insurance-and-pricing",
+          "inFooter": true
+        },
+        {
+          "text": "Events & lectures",
+          "href": "https://www.summithealth.com/events-and-lectures",
+          "inFooter": true
+        },
+        {
+          "text": "Educational webinars",
+          "href": "https://www.summithealth.com/educationalwebinars",
+          "inFooter": true
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": true
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices NJ",
+          "href": "https://www.summithealth.com/sites/default/files/2026-04/Summit-Health_Notice-of-Privacy-Practices_4-24-26.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices NY",
+          "href": "https://www.summithealth.com/sites/default/files/2026-04/SummitHealth-Notice-of-Privacy-Practices-NY_February-2026.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Digital Privacy Policy",
+          "href": "https://www.summithealth.com/sites/default/files/2026-02/Summit-Health-digital-privacy-policy-Aug-2025v2.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "SMS Terms of Use",
+          "href": "https://www.summithealth.com/sites/default/files/2025-04/Summit-Health-SMS-Terms-of-Use-vF-3.21.25.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "No surprises act",
+          "href": "https://www.summithealth.com/sites/default/files/2022-05/FINAL_No-Surprises-Act-Disclosure-Notice_5.12.2022.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of right to good faith estimate",
+          "href": "https://www.summithealth.com/sites/default/files/2022-06/Notice_of_Right_to_GFE_Final_v4.0_3.1.22.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-discrimination Statement - NY & NJ",
+          "href": "https://www.summithealth.com/sites/default/files/2024-08/summit_health-nondiscrimination-ny-nj.pdf",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Facebook Instagram YouTube LinkedIn ABOUT US PATIENT TOOLS & RESOURCES Notice of Privacy Practices NJ Notice of Privacy Practices NY Digital Privacy Policy SMS Terms of Use No surprises act Notice of right to good faith estimate Non-discrimination Statement - NY & NJ © 2026 - Summit Health",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.summithealth.com/",
+          "fields": [
+            "input:text:keywords",
+            "input:submit:op",
+            "input:hidden:form_build_id",
+            "input:hidden:form_id"
+          ]
+        },
+        {
+          "action": "https://www.summithealth.com/",
+          "fields": [
+            "input:text:keywords",
+            "button:button:",
+            "input:text:address",
+            "button:button:",
+            "input:submit:op",
+            "input:hidden:homepage",
+            "input:hidden:form_build_id",
+            "input:hidden:form_id"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 18,
+      "scrollHeight": 4196,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"MedicalOrganization\",\n  \"name\": \"Summit Health\",\n  \"alternateName\": [\n    \"Summit Medical Group\",\n    \"Summit Health Management\"\n  ],\n  \"description\": \"Summit Health is a multispecialty outpatient system committed to helping patients with their primary care and specialty care needs. Whether its getting annual checkups, raising a family or healthy aging, Summit Health works as a team to deliver care that helps patients make the right choices and stay on top of any issues. Our exceptional doctors are committed to providing the best care and supporting their patients over their lifetime. Committed to serving all patients, Summit Health consistently innovates value-based care, bringing integrated applications, population insights and staffing expertise to its owned and affiliate practices, ensuring high-quality care, better patient outcomes and a reduction in the total cost of care.\",\n  \"url\": \"https://www.summithealth.com/\",\n  \"telephone\": \"+1-908-273-4300\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"1 Diamond Hill Road\",\n    \"addressLocality\": \"Berkeley Heights\",\n    \"addressRegion\": \"NJ\",\n    \"postalCode\": \"07922\",\n    \"addressCountry\": \"US\"\n  },\n  \"areaServed\": [\n    {\n      \"@type\": \"State\",\n      \"name\": \"New Jersey\"\n    },\n    {\n      \"@type\": \"State\",\n      \"name\": \"New York\"\n    },\n    {\n      \"@type\": \"State\",\n      \"name\": \"Connecticut\"\n    }\n  ]\n}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.osano-cm-window__dialog osano-cm-dialog ",
+        "BUTTON. osano-cm-window__widget osano-cm-widget",
+        "DIV. osano-cm-window__info-dialog osano-cm-i",
+        "DIV. osano-cm-info-dialog__info osano-cm-inf",
+        "DIV. osano-cm-info__info-dialog-header osano",
+        "P. osano-cm-info-dialog-header__header osa",
+        "NAV.mega-menu--nav",
+        "DIV.freshpaint-autocomplete-dropdown homepag"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 16402,
+      "consoleErrors": [],
+      "title": "Summit Health | New Jersey's Top Ranked Multispecialty Care",
+      "h1": [
+        "A lifetime of care"
+      ],
+      "h2": [
+        "Find primary and specialty care near you",
+        "Award-winning care",
+        "Stay connected to your care anytime, anywhere"
+      ],
+      "links": [
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.summithealth.com/sites/default/files/2025-08/Summit-Health-digital-privacy-policy-Aug-2025.pdf",
+          "inFooter": false
+        },
+        {
+          "text": "Skip to main content",
+          "href": "https://www.summithealth.com/#main-content",
+          "inFooter": false
+        },
+        {
+          "text": "here",
+          "href": "https://www.aestohealth.com/notice-of-data-security-incident-12-18-25/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.summithealth.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Schedule an appointment",
+          "href": "https://www.summithealth.com/doctors?searching=1",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors/results?query=primary%20care&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors/results?query=orthopedics%20%26%20sports%20medicine&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors/results?query=gastroenterology&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors/results?query=women%27s%20health&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?service%5B0%5D=3281",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/doctors/results?query=primary%20care&isAcceptingNewPatients=true&defaultSort=true",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/internal-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/orthopedics-and-sports-medicine",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/gastroenterology",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/obstetrics-and-gynecology",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/ear-nose-and-throat-ent",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/services/radiology",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/direct-access-colonoscopy-dac-form",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=40.21794%2C-74.75948&search_location=NJ%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=41.15166%2C-73.75333&search_location=Westchester%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=40.73365%2C-73.68027&search_location=11040%2C%20New%20Hyde%20Park%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=40.75848%2C-74&search_location=10018%2C%20New%20York%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=40.71238%2C-73.8827&search_location=Middle%20Village%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=40.69245%2C-73.99036&search_location=Brooklyn%2C%20NY%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations?geolocation=41.76381%2C-72.67398&search_location=CT%2C%20United%20States",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/locations/livingston-hub-39-west-northfield-road",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/patient-resources",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/accepted-insurance-plans",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/refer",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/educationalwebinars",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/patient-relations",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/health-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Schedule an appointment",
+          "href": "https://www.summithealth.com/doctors?searching=1",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal Stay connected through our patient portal. Schedule an appointmen",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Urgent care For convenient, fast, reliable medical care with no appointment need",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": false
+        },
+        {
+          "text": "For our patients We offer quick and easy ways to communicate with your doctor's ",
+          "href": "https://www.summithealth.com/patient-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#newsweek-asc",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#usnews-ambulatorysurgery",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#castle-connolly-1",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#castle-connolly-3",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#njmtopdoc",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#ehealthcare",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#njmtopdoc-2025",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#target-bp-gold",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#urgent-care-excellence",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/awards-distinctions#napbc",
+          "inFooter": false
+        },
+        {
+          "text": "View all awards",
+          "href": "https://www.summithealth.com/awards-distinctions",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.summithealth.com/summit-health-athenapatienttm-mobile-app-faqs",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://play.google.com/store/apps/details?id=com.athenahealth.athenapatient&hl=en_US",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://apps.apple.com/us/app/athenapatient/id1644169294",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.summithealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/summithealthhq",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/summithealthhq/",
+          "inFooter": true
+        },
+        {
+          "text": "YouTube",
+          "href": "https://www.youtube.com/channel/UCenqWljVJmwI9N_YECap8xQ",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/summithealth",
+          "inFooter": true
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://www.summithealth.com/#",
+          "inFooter": true
+        },
+        {
+          "text": "About Summit Health",
+          "href": "https://www.summithealth.com/about-summit-health",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership team",
+          "href": "https://www.summithealth.com/leadership-team",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.summithealth.com/careers",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health news",
+          "href": "https://www.summithealth.com/news",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health cares",
+          "href": "https://www.sh-cares.org/",
+          "inFooter": true
+        },
+        {
+          "text": "Health & wellness",
+          "href": "https://www.summithealth.com/health-wellness",
+          "inFooter": true
+        },
+        {
+          "text": "Code of conduct",
+          "href": "https://www.summithealth.com/sites/default/files/2026-10/C.02.11-VILLAGEMD-CODE-OF-CONDUCT%2810-2026%29.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Compliance manual",
+          "href": "https://www.summithealth.com/sites/default/files/2026-10/C.02.12-VMD-Manual%2810-2026%29.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy & Nondiscrimination",
+          "href": "https://www.summithealth.com/privacy-nondiscrimination",
+          "inFooter": true
+        },
+        {
+          "text": "Summit Health Management",
+          "href": "https://www.summithealth.com/summit-health-management",
+          "inFooter": true
+        },
+        {
+          "text": "PATIENT TOOLS & RESOURCES",
+          "href": "https://www.summithealth.com/#",
+          "inFooter": true
+        },
+        {
+          "text": "Request an appointment",
+          "href": "https://2983-1.portal.athenahealth.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Pay bills",
+          "href": "https://www.summithealth.com/our-patients/pay-bills",
+          "inFooter": true
+        },
+        {
+          "text": "Patient relations",
+          "href": "https://www.summithealth.com/patient-relations",
+          "inFooter": true
+        },
+        {
+          "text": "Anonymous hotline",
+          "href": "https://www.summithealth.com/sites/default/files/2025-12/SH0075-0925-Anonymous-Hotline-Poster-Update_12.10.25.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.summithealth.com/request-medical-records",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance & pricing",
+          "href": "https://www.summithealth.com/insurance-and-pricing",
+          "inFooter": true
+        },
+        {
+          "text": "Events & lectures",
+          "href": "https://www.summithealth.com/events-and-lectures",
+          "inFooter": true
+        },
+        {
+          "text": "Educational webinars",
+          "href": "https://www.summithealth.com/educationalwebinars",
+          "inFooter": true
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.summithealth.com/patient-portal",
+          "inFooter": true
+        },
+        {
+          "text": "Urgent Care",
+          "href": "https://www.summithealth.com/services/urgent-care",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices NJ",
+          "href": "https://www.summithealth.com/sites/default/files/2026-04/Summit-Health_Notice-of-Privacy-Practices_4-24-26.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices NY",
+          "href": "https://www.summithealth.com/sites/default/files/2026-04/SummitHealth-Notice-of-Privacy-Practices-NY_February-2026.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Digital Privacy Policy",
+          "href": "https://www.summithealth.com/sites/default/files/2026-02/Summit-Health-digital-privacy-policy-Aug-2025v2.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "SMS Terms of Use",
+          "href": "https://www.summithealth.com/sites/default/files/2025-04/Summit-Health-SMS-Terms-of-Use-vF-3.21.25.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "No surprises act",
+          "href": "https://www.summithealth.com/sites/default/files/2022-05/FINAL_No-Surprises-Act-Disclosure-Notice_5.12.2022.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of right to good faith estimate",
+          "href": "https://www.summithealth.com/sites/default/files/2022-06/Notice_of_Right_to_GFE_Final_v4.0_3.1.22.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-discrimination Statement - NY & NJ",
+          "href": "https://www.summithealth.com/sites/default/files/2024-08/summit_health-nondiscrimination-ny-nj.pdf",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Facebook Instagram YouTube LinkedIn ABOUT US About Summit Health Leadership team Careers Summit Health news Summit Health cares Health & wellness Code of conduct Compliance manual Privacy & Nondiscrimination Summit Health Management PATIENT TOOLS & RESOURCES Request an appointment Pay bills Patient relations Anonymous hotline Request medical records Insurance & pricing Events & lectures Educational webinars Patient portal Urgent Care Notice of Privacy Practices NJ Notice of Privacy Practices NY Digital Privacy Policy SMS Terms of Use No surprises act Notice of right to good faith estimate Non-discrimination Statement - NY & NJ © 2026 - Summit Health",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.summithealth.com/",
+          "fields": [
+            "input:text:keywords",
+            "input:submit:op",
+            "input:hidden:form_build_id",
+            "input:hidden:form_id"
+          ]
+        },
+        {
+          "action": "https://www.summithealth.com/",
+          "fields": [
+            "input:text:keywords",
+            "button:button:",
+            "input:text:address",
+            "button:button:",
+            "input:submit:op",
+            "input:hidden:homepage",
+            "input:hidden:form_build_id",
+            "input:hidden:form_id"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 18,
+      "scrollHeight": 3505,
+      "jsonld": [
+        "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"MedicalOrganization\",\n  \"name\": \"Summit Health\",\n  \"alternateName\": [\n    \"Summit Medical Group\",\n    \"Summit Health Management\"\n  ],\n  \"description\": \"Summit Health is a multispecialty outpatient system committed to helping patients with their primary care and specialty care needs. Whether its getting annual checkups, raising a family or healthy aging, Summit Health works as a team to deliver care that helps patients make the right choices and stay on top of any issues. Our exceptional doctors are committed to providing the best care and supporting their patients over their lifetime. Committed to serving all patients, Summit Health consistently innovates value-based care, bringing integrated applications, population insights and staffing expertise to its owned and affiliate practices, ensuring high-quality care, better patient outcomes and a reduction in the total cost of care.\",\n  \"url\": \"https://www.summithealth.com/\",\n  \"telephone\": \"+1-908-273-4300\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"1 Diamond Hill Road\",\n    \"addressLocality\": \"Berkeley Heights\",\n    \"addressRegion\": \"NJ\",\n    \"postalCode\": \"07922\",\n    \"addressCountry\": \"US\"\n  },\n  \"areaServed\": [\n    {\n      \"@type\": \"State\",\n      \"name\": \"New Jersey\"\n    },\n    {\n      \"@type\": \"State\",\n      \"name\": \"New York\"\n    },\n    {\n      \"@type\": \"State\",\n      \"name\": \"Connecticut\"\n    }\n  ]\n}"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.osano-cm-window__dialog osano-cm-dialog ",
+        "DIV.osano-cm-dialog__buttons osano-cm-button",
+        "BUTTON. osano-cm-window__widget osano-cm-widget",
+        "DIV. osano-cm-window__info-dialog osano-cm-i",
+        "DIV. osano-cm-info-dialog__info osano-cm-inf",
+        "DIV. osano-cm-info__info-dialog-header osano",
+        "P. osano-cm-info-dialog-header__header osa",
+        "DIV.freshpaint-autocomplete-dropdown homepag"
+      ]
+    }
+  }
+}

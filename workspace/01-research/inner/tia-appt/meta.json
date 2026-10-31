@@ -1,0 +1,109 @@
+{
+  "url": "https://member.asktia.com/signup/",
+  "slug": "tia-appt",
+  "capturedAt": "2026-10-30T18:36:08.734Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 10296,
+      "consoleErrors": [],
+      "title": "Tia | The Tia Women's Health Clinic",
+      "h1": [
+        "Let's get your contact info"
+      ],
+      "h2": [],
+      "links": [
+        {
+          "text": "electronic communications",
+          "href": "https://asktia.com/membership-terms-of-use#electronic-communications",
+          "inFooter": false
+        },
+        {
+          "text": "terms of use",
+          "href": "https://asktia.com/website-terms-of-use",
+          "inFooter": false
+        },
+        {
+          "text": "privacy policy",
+          "href": "https://asktia.com/privacy-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://member.asktia.com/r/login",
+          "inFooter": false
+        },
+        {
+          "text": "(646) 650-5337",
+          "href": "tel:+16466505337",
+          "inFooter": false
+        }
+      ],
+      "footerText": "",
+      "telLinks": [
+        {
+          "text": "(646) 650-5337",
+          "href": "tel:+16466505337",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://member.asktia.com/signup/",
+          "fields": [
+            "input:text:firstName",
+            "fieldset:fieldset:",
+            "input:text:lastName",
+            "fieldset:fieldset:",
+            "input:email:email",
+            "fieldset:fieldset:",
+            "input:text:phoneNum",
+            "fieldset:fieldset:",
+            "input:text:postalCode",
+            "fieldset:fieldset:",
+            "button:button:",
+            "fieldset:fieldset:",
+            "input:text::rc:",
+            "input:checkbox:privacyConsent",
+            "input:checkbox:marketingConsent",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 2,
+      "scrollHeight": 1344,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.MuiBox-root css-1ode9zm",
+        "DIV.MuiBox-root css-1ganye7",
+        "DIV.MuiBox-root css-6d1u7e"
+      ]
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 11458,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "403 Forbidden",
+      "h1": [
+        "403 Forbidden"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": false,
+      "lang": "",
+      "fixedEls": []
+    }
+  }
+}

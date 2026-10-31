@@ -1,0 +1,8 @@
+step0 url=https://www.tribecapediatrics.com/register-now/
+  label | Expecting
+  input:radio | portalLink
+  label | Transferring a child into the practice
+  input:radio | portalLink
+  label | Creating a portal account for an existing patient
+  input:radio | portalLink
+step1 url=https://www.tribecapediatrics.com/register-now/

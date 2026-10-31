@@ -1,0 +1,613 @@
+{
+  "url": "https://avalapediatrics.com/",
+  "slug": "avalapeds",
+  "capturedAt": "2026-10-30T18:39:04.446Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15571,
+      "consoleErrors": [
+        "Refused to apply style from 'https://avalapediatrics.com/wp-content/uploads/elementor/css/global.css?ver=1656487798' because its MIME type ('text/html') is not a supported stylesheet MIME type, and st",
+        "Refused to apply style from 'https://avalapediatrics.com/wp-content/uploads/elementor/css/post-1116.css?ver=1656487798' because its MIME type ('text/html') is not a supported stylesheet MIME type, and",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Refused to execute script from 'https://avalapediatrics.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=6.3.14' because its MIME type ('text/html') is not executable, and stri",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Refused to execute script from 'https://avalapediatrics.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=6.3.14' because its MIME type ('text/html') is not executable, and strict MIME "
+      ],
+      "title": "Home - Avala Pediatrics",
+      "h1": [],
+      "h2": [
+        "",
+        "Why Choose Us",
+        "Meet Our Team",
+        "Recent News",
+        "916-722-4791",
+        "info@avalapediatrics.com"
+      ],
+      "links": [
+        {
+          "text": "HOME",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "SERVICES",
+          "href": "https://avalapediatrics.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://avalapediatrics.com/patient-forms/",
+          "inFooter": false
+        },
+        {
+          "text": "Immunization Schedule",
+          "href": "https://avalapediatrics.com/immunization-schedule/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances Accepted",
+          "href": "https://avalapediatrics.com/insurances-accepted/",
+          "inFooter": false
+        },
+        {
+          "text": "Rocklin",
+          "href": "https://avalapediatrics.com/rocklin/",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Heights",
+          "href": "https://avalapediatrics.com/citrus-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://avalapediatrics.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "BLOG",
+          "href": "https://avalapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT",
+          "href": "https://avalapediatrics.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Yelp",
+          "href": "https://www.yelp.com/biz/avala-pediatrics-citrus-heights",
+          "inFooter": false
+        },
+        {
+          "text": "Google",
+          "href": "https://g.page/avalapeds?we",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "916-782-3786",
+          "href": "tel:9167823786",
+          "inFooter": false
+        },
+        {
+          "text": "FB",
+          "href": "https://www.facebook.com/avalapediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://avalapediatrics.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://avalapediatrics.com/patient-forms/",
+          "inFooter": false
+        },
+        {
+          "text": "Immunization Schedule",
+          "href": "https://avalapediatrics.com/immunization-schedule/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances Accepted",
+          "href": "https://avalapediatrics.com/insurances-accepted/",
+          "inFooter": false
+        },
+        {
+          "text": "Rocklin",
+          "href": "https://avalapediatrics.com/rocklin/",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Heights",
+          "href": "https://avalapediatrics.com/citrus-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "About us",
+          "href": "https://avalapediatrics.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://avalapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://avalapediatrics.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day Appointments Life happens and you can’t afford to wait for a spot to op",
+          "href": "https://avalapediatrics.com/service/same-day-appointments/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/newborn-services/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/infectious-diseases-2/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/allergy-immunology/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/behavioral-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Something About Us",
+          "href": "https://avalapediatrics.com/#collapse-13713546156ae4e44c685bf-0",
+          "inFooter": false
+        },
+        {
+          "text": "Our Vision & Mission",
+          "href": "https://avalapediatrics.com/#collapse-13713546156ae4e44c685bf-1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/team/dr-hagila-sekar/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/team/dr-lakshmi-avala/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "02Sep 2018",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "Flu Season is Approaching. Are You Prepared?",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "No Comments",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/#respond",
+          "inFooter": false
+        },
+        {
+          "text": "6946 Views",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791 MAKE AN APPOINTMENT",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "info@avalapediatrics.com PROVIDE FEEDBACK",
+          "href": "javascript:void(0);",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/#top",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Working Hours MON - FRI 9AM - 5PM CLOSED FOR LUNCH 12PM to 1.00PM SAT - SUN Closed Contact Information PHONE 916-722-4791 Fax: 916-723-3388 EMAIL info@avalapediatrics.com ADDRESS 6341 Auburn Blvd, Suite A, Citrus Heights CA 95621 © 2020 AVALA PEDIATRICS",
+      "telLinks": [
+        {
+          "text": "916-722-4791",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "916-782-3786",
+          "href": "tel:9167823786",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791 MAKE AN APPOINTMENT",
+          "href": "tel:9167224791",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://avalapediatrics.com/",
+          "fields": [
+            "input:text:s",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 4,
+      "images": 5,
+      "scrollHeight": 6134,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://avalapediatrics.com/#organization\",\"name\":\"Avala Pediatrics\",\"url\":\"https://avalapediatrics.com/\",\"sameAs\":[\"https://www.facebook.com/avalapediatrics\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en\",\"@id\":\"https://avalapediatrics.com/#/schema/logo/image/\",\"url\":\"https://avalapediatrics.com/wp-content/uploads/2018/06/avala-logo-withdot.jpg\",\"contentUrl\":\"https://avalapediatrics.com/wp-content/uploads/2018/06/avala-logo-withdot.jpg\",\"width\":1500,\"height\":600,\"caption\":\"Avala Pediatrics\"},\"image\":{\"@id\":\"https://avalapediatrics.com/#/schema/logo/image/\"}},{\"@type\":\"WebSite\",\"@id\":\"https://avalapediatrics.com/#website\",\"url\":\"https://avalapediatrics.com/\",\"name\":\"Avala Pediatrics\",\"description\":\"Pediatric care for Greater Sacramento\",\"publisher\":{\"@id\":\"https://avalapediatrics.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://avalapediatrics.com/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://avalapediatrics.com/#webpage\",\"url\":\"https://avalapediatrics.com/\",\"name\":\"Home - Avala Pediatrics\",\"isPartOf\":{\"@id\":\"https://avalapediatrics.com/#website\"},\"about\":{\"@id\":\"https://avalapediatrics.com/#organization\"},\"datePublished\":\"2016-05-27T02:36:06+00:00\",\"dateModified\":\"2021-01-18T07:16:25+00:00\",\"description\":\"Avala Pediatrics provides compassionate and pe"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.btn-wrapper back-to-top slz-back-to-top",
+        "DIV.modal fade slz_cf7_modal"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 16463,
+      "consoleErrors": [
+        "Refused to apply style from 'https://avalapediatrics.com/wp-content/uploads/elementor/css/global.css?ver=1656487798' because its MIME type ('text/html') is not a supported stylesheet MIME type, and st",
+        "Refused to apply style from 'https://avalapediatrics.com/wp-content/uploads/elementor/css/post-1116.css?ver=1656487798' because its MIME type ('text/html') is not a supported stylesheet MIME type, and",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Failed to load resource: the server responded with a status of 404 ()",
+        "Refused to execute script from 'https://avalapediatrics.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=6.3.14' because its MIME type ('text/html') is not executable, and stri",
+        "Refused to execute script from 'https://avalapediatrics.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=6.3.14' because its MIME type ('text/html') is not executable, and strict MIME "
+      ],
+      "title": "Home - Avala Pediatrics",
+      "h1": [],
+      "h2": [
+        "",
+        "Why Choose Us",
+        "Meet Our Team",
+        "Recent News",
+        "916-722-4791",
+        "info@avalapediatrics.com"
+      ],
+      "links": [
+        {
+          "text": "Home",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://avalapediatrics.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://avalapediatrics.com/patient-forms/",
+          "inFooter": false
+        },
+        {
+          "text": "Immunization Schedule",
+          "href": "https://avalapediatrics.com/immunization-schedule/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances Accepted",
+          "href": "https://avalapediatrics.com/insurances-accepted/",
+          "inFooter": false
+        },
+        {
+          "text": "Rocklin",
+          "href": "https://avalapediatrics.com/rocklin/",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Heights",
+          "href": "https://avalapediatrics.com/citrus-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "About us",
+          "href": "https://avalapediatrics.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://avalapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Contact",
+          "href": "https://avalapediatrics.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "FB",
+          "href": "https://www.facebook.com/avalapediatrics",
+          "inFooter": false
+        },
+        {
+          "text": "Yelp",
+          "href": "https://www.yelp.com/biz/avala-pediatrics-citrus-heights",
+          "inFooter": false
+        },
+        {
+          "text": "Google",
+          "href": "https://g.page/avalapeds?we",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "916-782-3786",
+          "href": "tel:9167823786",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "HOME",
+          "href": "https://avalapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "SERVICES",
+          "href": "https://avalapediatrics.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Forms",
+          "href": "https://avalapediatrics.com/patient-forms/",
+          "inFooter": false
+        },
+        {
+          "text": "Immunization Schedule",
+          "href": "https://avalapediatrics.com/immunization-schedule/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurances Accepted",
+          "href": "https://avalapediatrics.com/insurances-accepted/",
+          "inFooter": false
+        },
+        {
+          "text": "Rocklin",
+          "href": "https://avalapediatrics.com/rocklin/",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Heights",
+          "href": "https://avalapediatrics.com/citrus-heights/",
+          "inFooter": false
+        },
+        {
+          "text": "ABOUT US",
+          "href": "https://avalapediatrics.com/about-us/",
+          "inFooter": false
+        },
+        {
+          "text": "BLOG",
+          "href": "https://avalapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT",
+          "href": "https://avalapediatrics.com/contact/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/same-day-appointments/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/newborn-services/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/infectious-diseases-2/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/allergy-immunology/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/service/behavioral-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Something About Us",
+          "href": "https://avalapediatrics.com/#collapse-4289947216ae4e352514fe-0",
+          "inFooter": false
+        },
+        {
+          "text": "Our Vision & Mission",
+          "href": "https://avalapediatrics.com/#collapse-4289947216ae4e352514fe-1",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/team/dr-hagila-sekar/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/team/dr-lakshmi-avala/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:void(0)",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "02Sep 2018",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "Flu Season is Approaching. Are You Prepared?",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "No Comments",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/#respond",
+          "inFooter": false
+        },
+        {
+          "text": "6946 Views",
+          "href": "https://avalapediatrics.com/flu-season-is-approaching-are-you-prepared/",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791 MAKE AN APPOINTMENT",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "info@avalapediatrics.com PROVIDE FEEDBACK",
+          "href": "javascript:void(0);",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://avalapediatrics.com/#top",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Working Hours MON - FRI 9AM - 5PM CLOSED FOR LUNCH 12PM to 1.00PM SAT - SUN Closed Contact Information PHONE 916-722-4791 Fax: 916-723-3388 EMAIL info@avalapediatrics.com ADDRESS 6341 Auburn Blvd, Suite A, Citrus Heights CA 95621 © 2020 AVALA PEDIATRICS",
+      "telLinks": [
+        {
+          "text": "916-722-4791",
+          "href": "tel:9167224791",
+          "inFooter": false
+        },
+        {
+          "text": "916-782-3786",
+          "href": "tel:9167823786",
+          "inFooter": false
+        },
+        {
+          "text": "916-722-4791 MAKE AN APPOINTMENT",
+          "href": "tel:9167224791",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://avalapediatrics.com/",
+          "fields": [
+            "input:text:s",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 4,
+      "images": 5,
+      "scrollHeight": 4767,
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://avalapediatrics.com/#organization\",\"name\":\"Avala Pediatrics\",\"url\":\"https://avalapediatrics.com/\",\"sameAs\":[\"https://www.facebook.com/avalapediatrics\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en\",\"@id\":\"https://avalapediatrics.com/#/schema/logo/image/\",\"url\":\"https://avalapediatrics.com/wp-content/uploads/2018/06/avala-logo-withdot.jpg\",\"contentUrl\":\"https://avalapediatrics.com/wp-content/uploads/2018/06/avala-logo-withdot.jpg\",\"width\":1500,\"height\":600,\"caption\":\"Avala Pediatrics\"},\"image\":{\"@id\":\"https://avalapediatrics.com/#/schema/logo/image/\"}},{\"@type\":\"WebSite\",\"@id\":\"https://avalapediatrics.com/#website\",\"url\":\"https://avalapediatrics.com/\",\"name\":\"Avala Pediatrics\",\"description\":\"Pediatric care for Greater Sacramento\",\"publisher\":{\"@id\":\"https://avalapediatrics.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://avalapediatrics.com/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en\"},{\"@type\":\"WebPage\",\"@id\":\"https://avalapediatrics.com/#webpage\",\"url\":\"https://avalapediatrics.com/\",\"name\":\"Home - Avala Pediatrics\",\"isPartOf\":{\"@id\":\"https://avalapediatrics.com/#website\"},\"about\":{\"@id\":\"https://avalapediatrics.com/#organization\"},\"datePublished\":\"2016-05-27T02:36:06+00:00\",\"dateModified\":\"2021-01-18T07:16:25+00:00\",\"description\":\"Avala Pediatrics provides compassionate and pe"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.btn-wrapper back-to-top slz-back-to-top",
+        "DIV.modal fade slz_cf7_modal"
+      ]
+    }
+  }
+}

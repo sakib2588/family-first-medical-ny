@@ -1,0 +1,53 @@
+{
+  "url": "https://www.zendentalstudio.com/",
+  "slug": "zendental",
+  "capturedAt": "2026-10-30T18:42:01.596Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 8160,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Access Denied",
+      "h1": [
+        "Access Denied"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 2120,
+      "jsonld": [],
+      "hasViewportMeta": false,
+      "lang": "",
+      "fixedEls": []
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 6412,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "Access Denied",
+      "h1": [
+        "Access Denied"
+      ],
+      "h2": [],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": false,
+      "lang": "",
+      "fixedEls": []
+    }
+  }
+}

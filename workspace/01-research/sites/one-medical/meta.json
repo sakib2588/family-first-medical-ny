@@ -1,0 +1,556 @@
+{
+  "url": "https://www.onemedical.com",
+  "slug": "one-medical",
+  "capturedAt": "2026-10-30T17:46:44.704Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 22013,
+      "consoleErrors": [],
+      "title": "Exceptional Primary Care - Find a Doctor Near You | One Medical",
+      "h1": [
+        "Primary care designed for you"
+      ],
+      "h2": [
+        "Get care today for depression anxiety sleep issues weight issues cancer screening sexual health LGBTQIA+ health heart health allergies coughs & colds asthma high blood pressure diabetes menopause hair loss erectile dysfunction high cholesterol back pain contraception sinus infection fatigue menstrual issues sports injuries ADHD fertility cognitive trouble that weird rash thyroid issues IUDs vaccinations constipation COVID-19 concerns latching issues heartburn IBS knee pain arthritis abdominal pain nutrition dizziness",
+        "Fall in love with your doctor’s office",
+        "With the One Medical app you can:",
+        "See what makes One Medical different",
+        "We're an employee benefit at 11,600+ companies",
+        "Become a One Medical patient"
+      ],
+      "links": [
+        {
+          "text": "Discover Primary Care designed for adults 65 and older at One Medical Seniors Op",
+          "href": "https://www.onemedical.com/sixty-five-plus/",
+          "inFooter": false
+        },
+        {
+          "text": "[Body] One Medical Seniors - Security Event Notification [CTA Text]Learn more Op",
+          "href": "https://www.onemedical.com/security-event-notice",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onemedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Offices",
+          "href": "https://www.onemedical.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://www.onemedical.com/virtual-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Adults under 65",
+          "href": "https://www.onemedical.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Adults 65+",
+          "href": "https://www.onemedical.com/sixty-five-plus/",
+          "inFooter": false
+        },
+        {
+          "text": "Kids",
+          "href": "https://www.onemedical.com/kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Medicare agents",
+          "href": "https://www.onemedical.com/sixty-five-plus/medicare-agents/",
+          "inFooter": false
+        },
+        {
+          "text": "Overview",
+          "href": "https://www.onemedical.com/business/",
+          "inFooter": false
+        },
+        {
+          "text": "Results",
+          "href": "https://www.onemedical.com/business/impact/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://www.onemedical.com/services/mindset/",
+          "inFooter": false
+        },
+        {
+          "text": "Small Business",
+          "href": "https://www.onemedical.com/small-business/",
+          "inFooter": false
+        },
+        {
+          "text": "For Consultants",
+          "href": "https://www.onemedical.com/business/consultants/",
+          "inFooter": false
+        },
+        {
+          "text": "Resource Center",
+          "href": "https://www.onemedical.com/resource-center/",
+          "inFooter": false
+        },
+        {
+          "text": "Get in Touch",
+          "href": "https://go2.onemedical.com/get-in-touch",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://app.onemedical.com/login-web",
+          "inFooter": false
+        },
+        {
+          "text": "Sign up",
+          "href": "https://app.onemedical.com/registration/signup?service_area_id=all&source=omdc-top_nav-signup",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onemedical.com/search/",
+          "inFooter": false
+        },
+        {
+          "text": "Office locations",
+          "href": "https://www.onemedical.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://www.onemedical.com/virtual-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.onemedical.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "Providers",
+          "href": "https://www.onemedical.com/providers/",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.onemedical.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Give a membership",
+          "href": "https://www.onemedical.com/gift/",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.onemedical.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Adults under 65",
+          "href": "https://www.onemedical.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Adults 65+",
+          "href": "https://www.onemedical.com/sixty-five-plus/",
+          "inFooter": false
+        },
+        {
+          "text": "Kids",
+          "href": "https://www.onemedical.com/services/kids/",
+          "inFooter": false
+        },
+        {
+          "text": "Business",
+          "href": "https://www.onemedical.com/business/",
+          "inFooter": false
+        },
+        {
+          "text": "Medicare agents",
+          "href": "https://www.onemedical.com/sixty-five-plus/medicare-agents-old/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onemedical.com/search/",
+          "inFooter": false
+        },
+        {
+          "text": "Log in opens in a new window",
+          "href": "https://app.onemedical.com/login-web",
+          "inFooter": false
+        },
+        {
+          "text": "Sign up opens in a new window",
+          "href": "https://app.onemedical.com/registration/signup?service_area_id=all&source=omdc-top_nav-signup",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment Opens in a new window.",
+          "href": "https://health.amazon.com/onemedical/service-areas/?ref_=omdc_home_hero",
+          "inFooter": false
+        },
+        {
+          "text": "Follow these steps",
+          "href": "https://www.onemedical.com/prime-members/#how-it-works",
+          "inFooter": false
+        },
+        {
+          "text": "Click here.",
+          "href": "https://www.onemedical.com/sponsored-membership",
+          "inFooter": false
+        },
+        {
+          "text": "MENTAL HEALTH Care for your mental health Learn more Clicking here takes you to ",
+          "href": "https://www.onemedical.com/services/mindset/",
+          "inFooter": false
+        },
+        {
+          "text": "ANNUAL WELLNESS The annual physical, reimagined Learn more Clicking here takes y",
+          "href": "https://www.onemedical.com/live-well/",
+          "inFooter": false
+        },
+        {
+          "text": "AMAZON PHARMACY Finally, a pharmacy that really delivers Learn more Clicking her",
+          "href": "https://pharmacy.amazon.com/?ref_=omdc-hp-hero-pharmacy-tile",
+          "inFooter": false
+        },
+        {
+          "text": "See all our services Clicking here takes you to the Services page.",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "See all our services Clicking here takes you to the Services page.",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "See if we're in network with your insurance Clicking here takes you to the Insur",
+          "href": "https://www.onemedical.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "opens in a new window Same/next-day appointments, in person or over video, that ",
+          "href": "https://www.onemedical.com/same-day/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more Opens in a new window.",
+          "href": "https://www.onemedical.com/same-day/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more Clicking here takes you to the Same/next-day care at One Medical page",
+          "href": "https://www.onemedical.com/same-day/",
+          "inFooter": false
+        },
+        {
+          "text": "opens in a new window Longer appointments so you don’t feel rushed",
+          "href": "https://www.onemedical.com/blog/healthy-living/every-minute-matters-case-longer-appointments/",
+          "inFooter": false
+        },
+        {
+          "text": "Discover the difference Opens in a new window.",
+          "href": "https://www.onemedical.com/blog/healthy-living/every-minute-matters-case-longer-appointments/",
+          "inFooter": false
+        },
+        {
+          "text": "Discover the difference Opens in a new window.",
+          "href": "https://www.onemedical.com/blog/healthy-living/every-minute-matters-case-longer-appointments/",
+          "inFooter": false
+        },
+        {
+          "text": "Drop-in lab services at our offices to save you extra trips",
+          "href": "https://www.onemedical.com/services/lab-services/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore lab services Clicking here takes you to the Lab Services page.",
+          "href": "https://www.onemedical.com/services/lab-services/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore lab services Clicking here takes you to the Lab Services page.",
+          "href": "https://www.onemedical.com/services/lab-services/",
+          "inFooter": false
+        },
+        {
+          "text": "Covering everything from physicals and chronic care to mental health",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore care Clicking here takes you to the Services page.",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore care Clicking here takes you to the Services page.",
+          "href": "https://www.onemedical.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Primary care offices in many US cities",
+          "href": "https://www.onemedical.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "Visit us Clicking here takes you to the Locations page.",
+          "href": "https://www.onemedical.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "Visit us Clicking here takes you to the Locations page.",
+          "href": "https://www.onemedical.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "opens in a new window Compassionate providers who are experts at medicine and ca",
+          "href": "https://www.onemedical.com/providers/?is_pediatrics_provider=false&is_adults_provider=false&is_seniors_provider=false&is_full_family_provider=false&is_adolescents_and_adults_provider=false&service_area_filter=all&view_all=false",
+          "inFooter": false
+        },
+        {
+          "text": "Find a provider Opens in a new window.",
+          "href": "https://www.onemedical.com/providers/?is_pediatrics_provider=false&is_adults_provider=false&is_seniors_provider=false&is_full_family_provider=false&is_adolescents_and_adults_provider=false&service_area_filter=all&view_all=false",
+          "inFooter": false
+        },
+        {
+          "text": "Find a provider Opens in a new window.",
+          "href": "https://www.onemedical.com/providers/?is_pediatrics_provider=false&is_adults_provider=false&is_seniors_provider=false&is_full_family_provider=false&is_adolescents_and_adults_provider=false&service_area_filter=all&view_all=false",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about membership",
+          "href": "https://www.onemedical.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Join now Opens in a new window.",
+          "href": "https://app.onemedical.com/registration/signup?service_area_id=all",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about One Medical for Business Clicking here takes you to the For emp",
+          "href": "https://www.onemedical.com/business2/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn more about One Medical for Business Clicking here takes you to the For emp",
+          "href": "https://www.onemedical.com/business2/",
+          "inFooter": false
+        },
+        {
+          "text": "Join now Opens in a new window.",
+          "href": "https://health.amazon.com/onemedical/service-areas/?ref_=omdc_home_callout",
+          "inFooter": false
+        },
+        {
+          "text": "Book an Appointment Opens in a new window.",
+          "href": "https://health.amazon.com/onemedical/service-areas/?ref_=omdc_home_callout",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onemedical.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://www.onemedical.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "Media center",
+          "href": "https://www.onemedical.com/mediacenter/",
+          "inFooter": true
+        },
+        {
+          "text": "About",
+          "href": "https://www.onemedical.com/about-us/",
+          "inFooter": true
+        },
+        {
+          "text": "Sponsored membership",
+          "href": "https://www.onemedical.com/sponsored-membership/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://careers.onemedical.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.onemedical.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQ",
+          "href": "https://www.onemedical.com/faq/",
+          "inFooter": true
+        },
+        {
+          "text": "Give a membership",
+          "href": "https://www.onemedical.com/gift/",
+          "inFooter": true
+        },
+        {
+          "text": "Facebook opens in a new window",
+          "href": "https://www.facebook.com/amazononemedical",
+          "inFooter": true
+        },
+        {
+          "text": "Twitter opens in a new window",
+          "href": "https://twitter.com/onemedical",
+          "inFooter": true
+        },
+        {
+          "text": "YouTube opens in a new window",
+          "href": "https://www.youtube.com/channel/UCVuDmERByiofU8ss3Nz_Odw/featured",
+          "inFooter": true
+        },
+        {
+          "text": "Instagram opens in a new window",
+          "href": "https://www.instagram.com/amazononemedical/",
+          "inFooter": true
+        },
+        {
+          "text": "LinkedIn opens in a new window",
+          "href": "https://www.linkedin.com/company/one-medical-group",
+          "inFooter": true
+        },
+        {
+          "text": "One Medical Terms of Use",
+          "href": "https://www.onemedical.com/terms-of-use/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Terms of Service",
+          "href": "https://www.onemedical.com/medical-terms-service/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "https://www.onemedical.com/amazon-privacy-page/",
+          "inFooter": true
+        },
+        {
+          "text": "SMS Short Code Terms of Service",
+          "href": "https://www.onemedical.com/sms-terms/",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Privacy Practices",
+          "href": "https://www.onemedical.com/hipaa/",
+          "inFooter": true
+        },
+        {
+          "text": "Notice of Non-Discrimination",
+          "href": "https://www.onemedical.com/notice-non-discrimination/",
+          "inFooter": true
+        },
+        {
+          "text": "Employee Privacy Notice",
+          "href": "https://www.onemedical.com/california-employee-privacy-notice/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Records",
+          "href": "https://www.onemedical.com/records/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy and Deletion Requests",
+          "href": "https://www.onemedical.com/privacy/data-rights-requests/",
+          "inFooter": true
+        }
+      ],
+      "footerText": "Locations: All Locations Atlanta Atlanta Seniors Austin Boston Chicago Cleveland Colorado Seniors Columbus Connecticut D.C. Metro Area (DMV) Dallas-Ft. Worth Houston Houston Seniors Los Angeles Miami-Ft. Lauderdale New England Seniors New Jersey New York North Carolina Seniors Orange County Phoenix Phoenix Seniors Portland Raleigh-Durham San Diego Seattle Seniors Seattle-Tacoma SF Bay Area Tucson Seniors Your Location (ALL) Blog Media center About Sponsored membership Careers Contact us FAQ Give a membership Facebook opens in a new window Twitter opens in a new window YouTube opens in a new window Instagram opens in a new window LinkedIn opens in a new window One Medical Terms of Use Medical Terms of Service Privacy Notice SMS Short Code Terms of Service Notice of Privacy Practices Notice of Non-Discrimination Employee Privacy Notice Medical Records Privacy and Deletion Requests One Medical services are only available in the U.S. The information provided on this website is not intended for consumers outside of the U.S. ©2026 1Life Healthcare, Inc. All rights reserved.",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://www.onemedical.com/",
+          "fields": [
+            "fieldset:fieldset:",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area",
+            "input:checkbox:service_area"
+          ]
+        }
+      ],
+      "imgNoAlt": 0,
+      "images": 5,
+      "scrollHeight": 7927,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.navigation__menu js-nav-menu",
+        "DIV.js-location-drawer footer__drawer"
+      ]
+    },
+    "desktop": {
+      "status": 403,
+      "loadMs": 4923,
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "title": "ERROR: The request could not be satisfied",
+      "h1": [
+        "403 ERROR"
+      ],
+      "h2": [
+        "The request could not be satisfied."
+      ],
+      "links": [],
+      "footerText": "",
+      "telLinks": [],
+      "forms": [],
+      "imgNoAlt": 0,
+      "images": 0,
+      "scrollHeight": 800,
+      "jsonld": [],
+      "hasViewportMeta": false,
+      "lang": "",
+      "fixedEls": []
+    }
+  }
+}

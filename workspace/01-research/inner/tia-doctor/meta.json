@@ -1,0 +1,1853 @@
+{
+  "url": "https://asktia.com/care-team/",
+  "slug": "tia-doctor",
+  "capturedAt": "2026-10-30T18:35:56.557Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 10727,
+      "consoleErrors": [
+        "Error getting location:  Error: OneTrust not available\n    at i (https://asktia.com/app-ec6138f6869b4831810c.js:1:1380530)"
+      ],
+      "title": "Meet the Providers | Reinventing Women's Healthcare | Tia",
+      "h1": [
+        "Providers at Tia"
+      ],
+      "h2": [
+        "You’re not one dimensional, neither is our care model",
+        "Who's on your care team?",
+        "Why Tia Members love our Care Team",
+        "Meet our providers",
+        "We're hiring!",
+        "Ready to meet your care team?",
+        "Services",
+        "Locations",
+        "Company",
+        "Resources",
+        "Subscribe to our newsletter",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy."
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://asktia.com/care-team/#maincontent",
+          "inFooter": false
+        },
+        {
+          "text": "our insurance quiz",
+          "href": "https://learn.asktia.com/to/Gsz8viZR?utm_medium=web&utm_source=hp",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Services & symptoms",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Symptoms we can help with",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Vaginal, vulvar or urinary symptoms",
+          "href": "https://asktia.com/help-with/vaginal-yeast-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "Abnormal bleeding",
+          "href": "https://asktia.com/help-with/abnormal-bleeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Cramps or pelvic pain",
+          "href": "https://asktia.com/help-with/cramps-pelvic-pain/",
+          "inFooter": false
+        },
+        {
+          "text": "Cold, cough, flu symptoms",
+          "href": "https://asktia.com/help-with/cold-flu-cough-symptoms/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne, rashes, skin issues",
+          "href": "https://asktia.com/help-with/skin-issues-acne-rash-redness/",
+          "inFooter": false
+        },
+        {
+          "text": "Stomach pain, bloating",
+          "href": "https://asktia.com/help-with/stomach-pain-issues/",
+          "inFooter": false
+        },
+        {
+          "text": "Sleep disturbances",
+          "href": "https://asktia.com/help-with/sleep-disturbances/",
+          "inFooter": false
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Preventative Exam",
+          "href": "https://asktia.com/services/annual-physical-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health Assessment",
+          "href": "https://asktia.com/services/heart-health-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Gynecology & Sexual Health",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "Birth Control",
+          "href": "https://asktia.com/services/birth-control/",
+          "inFooter": false
+        },
+        {
+          "text": "STI/STD Testing",
+          "href": "https://asktia.com/services/sti-std-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Sexual Wellness",
+          "href": "https://asktia.com/services/sexual-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "UTI",
+          "href": "https://asktia.com/services/urinary-tract-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause",
+          "href": "https://asktia.com/services/perimenopause-menopause/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Skin Care",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Yearly Skin Exam",
+          "href": "https://asktia.com/services/annual-skin-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Aesthetic Skin Care Consultation",
+          "href": "https://asktia.com/services/skin-care-consultation/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne Injection",
+          "href": "https://asktia.com/services/acne-injection/",
+          "inFooter": false
+        },
+        {
+          "text": "Chemical Peel",
+          "href": "https://asktia.com/services/chemical-peels/",
+          "inFooter": false
+        },
+        {
+          "text": "Wrinkle Care",
+          "href": "https://asktia.com/services/clinical-wrinkle-care/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormonal Health",
+          "href": "https://asktia.com/services/hormonal-imbalance/",
+          "inFooter": false
+        },
+        {
+          "text": "PMOS (PCOS)",
+          "href": "https://asktia.com/services/pcos/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality Assessment",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Acupuncture",
+          "href": "https://asktia.com/services/acupuncture/",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Prevention",
+          "href": "https://asktia.com/services/longevity/",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://asktia.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": false
+        },
+        {
+          "text": "New York",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "Arizona",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://asktia.com/locations/tia-virtual-clinic/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance Coverage",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "Predictable Payments",
+          "href": "https://asktia.com/predictable-payments/",
+          "inFooter": false
+        },
+        {
+          "text": "Service List Prices",
+          "href": "https://asktia.com/tia-service-list/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles Service List Prices",
+          "href": "https://asktia.com/service-list-los-angeles/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco Service List Prices",
+          "href": "https://asktia.com/service-list-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "New York Service List Prices",
+          "href": "https://asktia.com/service-list-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "Scottsdale Service List Prices",
+          "href": "https://asktia.com/service-list-phoenix/",
+          "inFooter": false
+        },
+        {
+          "text": "membership Plan options",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Signature",
+          "href": "https://asktia.com/membership/tia-signature/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet your Care Team",
+          "href": "https://asktia.com/care-team/",
+          "inFooter": false
+        },
+        {
+          "text": "Care at tia",
+          "href": "https://asktia.com/whole-health-journey/",
+          "inFooter": false
+        },
+        {
+          "text": "Why Tia",
+          "href": "https://asktia.com/why-tia/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Take (Our Blog)",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Research",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Health System Partners",
+          "href": "https://asktia.com/health-partners/",
+          "inFooter": false
+        },
+        {
+          "text": "Podcast",
+          "href": "https://asktia.com/podcast/",
+          "inFooter": false
+        },
+        {
+          "text": "About Tia",
+          "href": "https://asktia.com/company/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://member.asktia.com/signup/?uuid=c4834d97-d187-462e-b870-49c7d26792a7&page=care-team&cta=Book+now",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://member.asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://member.asktia.com/signup/?uuid=c4834d97-d187-462e-b870-49c7d26792a7&page=care-team&cta=Book+now",
+          "inFooter": false
+        },
+        {
+          "text": "Vaginal, vulvar or urinary symptoms",
+          "href": "https://asktia.com/help-with/vaginal-yeast-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "Abnormal bleeding",
+          "href": "https://asktia.com/help-with/abnormal-bleeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Cramps or pelvic pain",
+          "href": "https://asktia.com/help-with/cramps-pelvic-pain/",
+          "inFooter": false
+        },
+        {
+          "text": "Cold, cough, flu symptoms",
+          "href": "https://asktia.com/help-with/cold-flu-cough-symptoms/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne, rashes, skin issues",
+          "href": "https://asktia.com/help-with/skin-issues-acne-rash-redness/",
+          "inFooter": false
+        },
+        {
+          "text": "Stomach pain, bloating",
+          "href": "https://asktia.com/help-with/stomach-pain-issues/",
+          "inFooter": false
+        },
+        {
+          "text": "Sleep disturbances",
+          "href": "https://asktia.com/help-with/sleep-disturbances/",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Preventative Exam",
+          "href": "https://asktia.com/services/annual-physical-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health Assessment",
+          "href": "https://asktia.com/services/heart-health-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Birth Control",
+          "href": "https://asktia.com/services/birth-control/",
+          "inFooter": false
+        },
+        {
+          "text": "STI/STD Testing",
+          "href": "https://asktia.com/services/sti-std-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Sexual Wellness",
+          "href": "https://asktia.com/services/sexual-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "UTI",
+          "href": "https://asktia.com/services/urinary-tract-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Yearly Skin Exam",
+          "href": "https://asktia.com/services/annual-skin-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Aesthetic Skin Care Consultation",
+          "href": "https://asktia.com/services/skin-care-consultation/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne Injection",
+          "href": "https://asktia.com/services/acne-injection/",
+          "inFooter": false
+        },
+        {
+          "text": "Chemical Peel",
+          "href": "https://asktia.com/services/chemical-peels/",
+          "inFooter": false
+        },
+        {
+          "text": "Wrinkle Care",
+          "href": "https://asktia.com/services/clinical-wrinkle-care/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "PMOS (PCOS)",
+          "href": "https://asktia.com/services/pcos/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality Assessment",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Acupuncture",
+          "href": "https://asktia.com/services/acupuncture/",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Prevention",
+          "href": "https://asktia.com/services/longevity/",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": false
+        },
+        {
+          "text": "New York",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "Arizona",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://asktia.com/locations/tia-virtual-clinic/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance Coverage",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "Predictable Payments",
+          "href": "https://asktia.com/predictable-payments/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles Service List Prices",
+          "href": "https://asktia.com/service-list-los-angeles/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco Service List Prices",
+          "href": "https://asktia.com/service-list-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "New York Service List Prices",
+          "href": "https://asktia.com/service-list-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "Scottsdale Service List Prices",
+          "href": "https://asktia.com/service-list-phoenix/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Signature",
+          "href": "https://asktia.com/membership/tia-signature/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet your Care Team",
+          "href": "https://asktia.com/care-team/",
+          "inFooter": false
+        },
+        {
+          "text": "Care at tia",
+          "href": "https://asktia.com/whole-health-journey/",
+          "inFooter": false
+        },
+        {
+          "text": "Why Tia",
+          "href": "https://asktia.com/why-tia/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Take (Our Blog)",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Research",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Health System Partners",
+          "href": "https://asktia.com/health-partners/",
+          "inFooter": false
+        },
+        {
+          "text": "Podcast",
+          "href": "https://asktia.com/podcast/",
+          "inFooter": false
+        },
+        {
+          "text": "About Tia",
+          "href": "https://asktia.com/company/",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://member.asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "See if you're in network",
+          "href": "https://member.asktia.com/signup/?uuid=c4834d97-d187-462e-b870-49c7d26792a7&page=care-team&cta=See+if+you%27re+in+network",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about membership",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Get care",
+          "href": "https://member.asktia.com/signup/?uuid=c4834d97-d187-462e-b870-49c7d26792a7&page=care-team&cta=get+care",
+          "inFooter": false
+        },
+        {
+          "text": "See if you're in network",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alena-thompson/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alexia-komninos/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alexis-griffin/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/allison-harris/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/bobby-mickens/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/christina-dubois-l-ac/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/christine-bonavita/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/jacques-moritz-md/",
+          "inFooter": false
+        },
+        {
+          "text": "See open positions",
+          "href": "https://asktia.com/careers/",
+          "inFooter": false
+        },
+        {
+          "text": "Get Care",
+          "href": "https://member.asktia.com/signup/?uuid=c4834d97-d187-462e-b870-49c7d26792a7&page=care-team&cta=get+care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about membership",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/asktia",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@ask_tia",
+          "inFooter": true
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": true
+        },
+        {
+          "text": "Gynecology",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": true
+        },
+        {
+          "text": "Skin Care",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": true
+        },
+        {
+          "text": "All Services",
+          "href": "https://asktia.com/services/",
+          "inFooter": true
+        },
+        {
+          "text": "Los Angeles",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": true
+        },
+        {
+          "text": "San Francisco",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": true
+        },
+        {
+          "text": "New York",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": true
+        },
+        {
+          "text": "Arizona",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://asktia.com/company/",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership",
+          "href": "https://asktia.com/team/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://asktia.com/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Partners",
+          "href": "https://asktia.com/partners/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://asktia.com/contact/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": true
+        },
+        {
+          "text": "Service List Prices",
+          "href": "https://asktia.com/tia-service-list/",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": true
+        },
+        {
+          "text": "Press Center",
+          "href": "https://asktia.com/press/",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Research",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://intercom.help/ask-tia/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Billing Policy",
+          "href": "https://asktia.com/patient-billing-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "NPP",
+          "href": "https://assets.asktia.com/pdfs/tia-privacy-policy.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Membership Terms",
+          "href": "https://asktia.com/membership-terms-of-use/",
+          "inFooter": true
+        },
+        {
+          "text": "Website Terms",
+          "href": "https://asktia.com/website-terms-of-use/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://asktia.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Whole-person healthcare designed around you. Services Primary Care Gynecology Mental Health Skin Care All Services Locations Los Angeles San Francisco New York Arizona Company About Us Leadership Careers Partners Contact Us Resources Insurance Service List Prices Blog Press Center Clinical Research FAQs Subscribe to our newsletter By checking this box, you agree to receive promotional email and text messages from Tia related to new services, clinics, offerings, and other marketing messages. You can opt out of receiving Automated Messages at any time, including by replying \"STOP\" to an automated text message. Text HELP for more information. Sign Up Patient Billing Policy NPP Membership Terms Website Terms Privacy Policy © Tia 2026",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://asktia.com/care-team/",
+          "fields": [
+            "input:email:email",
+            "input:tel:phone",
+            "input:checkbox:consent",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 8,
+      "images": 28,
+      "scrollHeight": 7751,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "A.fix top left z10 skip",
+        "DIV.header-module--headerContainer--SQ6Jt",
+        "DIV.header-module--mobileMenu--3f9k2 header-",
+        "DIV.header-module--mobileButtons--3zkRQ",
+        "DIV.onetrust-pc-dark-filter ot-hide ot-fade-",
+        "DIV.otPcCenter ot-hide ot-fade-in",
+        "DIV.",
+        "DIV.otPcCenter ot-hide ot-fade-in",
+        "DIV.",
+        "DIV.otPcCenter ot-hide ot-fade-in"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 12245,
+      "consoleErrors": [
+        "Error getting location:  Error: OneTrust not available\n    at i (https://asktia.com/app-ec6138f6869b4831810c.js:1:1380530)"
+      ],
+      "title": "Meet the Providers | Reinventing Women's Healthcare | Tia",
+      "h1": [
+        "Providers at Tia"
+      ],
+      "h2": [
+        "You’re not one dimensional, neither is our care model",
+        "Who's on your care team?",
+        "Why Tia Members love our Care Team",
+        "Meet our providers",
+        "We're hiring!",
+        "Ready to meet your care team?",
+        "Services",
+        "Locations",
+        "Company",
+        "Resources",
+        "Subscribe to our newsletter",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy.",
+        "We value your privacy."
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://asktia.com/care-team/#maincontent",
+          "inFooter": false
+        },
+        {
+          "text": "our insurance quiz",
+          "href": "https://learn.asktia.com/to/Gsz8viZR?utm_medium=web&utm_source=hp",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Services & Symptoms",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/vaginal-yeast-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/abnormal-bleeding/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/cramps-pelvic-pain/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/cold-flu-cough-symptoms/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/skin-issues-acne-rash-redness/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/stomach-pain-issues/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/help-with/sleep-disturbances/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/annual-physical-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/heart-health-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/birth-control/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/sti-std-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/sexual-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/urinary-tract-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/perimenopause-menopause/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/annual-skin-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/skin-care-consultation/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/acne-injection/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/chemical-peels/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/clinical-wrinkle-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/hormonal-imbalance/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/pcos/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/acupuncture/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/longevity/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://asktia.com/locations/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/locations/tia-virtual-clinic/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/predictable-payments/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/tia-service-list/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/service-list-los-angeles/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/service-list-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/service-list-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/service-list-phoenix/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/membership/tia-signature/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/care-team/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/whole-health-journey/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/why-tia/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/health-partners/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/podcast/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/company/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://member.asktia.com/signup/?uuid=3a905966-6e8e-43f3-b02e-56d43e14aec4&page=care-team&cta=Book+now",
+          "inFooter": false
+        },
+        {
+          "text": "Log In",
+          "href": "https://member.asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book now",
+          "href": "https://member.asktia.com/signup/?uuid=3a905966-6e8e-43f3-b02e-56d43e14aec4&page=care-team&cta=Book+now",
+          "inFooter": false
+        },
+        {
+          "text": "Vaginal, vulvar or urinary symptoms",
+          "href": "https://asktia.com/help-with/vaginal-yeast-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "Abnormal bleeding",
+          "href": "https://asktia.com/help-with/abnormal-bleeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Cramps or pelvic pain",
+          "href": "https://asktia.com/help-with/cramps-pelvic-pain/",
+          "inFooter": false
+        },
+        {
+          "text": "Cold, cough, flu symptoms",
+          "href": "https://asktia.com/help-with/cold-flu-cough-symptoms/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne, rashes, skin issues",
+          "href": "https://asktia.com/help-with/skin-issues-acne-rash-redness/",
+          "inFooter": false
+        },
+        {
+          "text": "Stomach pain, bloating",
+          "href": "https://asktia.com/help-with/stomach-pain-issues/",
+          "inFooter": false
+        },
+        {
+          "text": "Sleep disturbances",
+          "href": "https://asktia.com/help-with/sleep-disturbances/",
+          "inFooter": false
+        },
+        {
+          "text": "Annual Preventative Exam",
+          "href": "https://asktia.com/services/annual-physical-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Metabolic Health",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Heart Health Assessment",
+          "href": "https://asktia.com/services/heart-health-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": false
+        },
+        {
+          "text": "Birth Control",
+          "href": "https://asktia.com/services/birth-control/",
+          "inFooter": false
+        },
+        {
+          "text": "STI/STD Testing",
+          "href": "https://asktia.com/services/sti-std-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Sexual Wellness",
+          "href": "https://asktia.com/services/sexual-wellness/",
+          "inFooter": false
+        },
+        {
+          "text": "UTI",
+          "href": "https://asktia.com/services/urinary-tract-infection/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Weight Management",
+          "href": "https://asktia.com/services/metabolic-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": false
+        },
+        {
+          "text": "Yearly Skin Exam",
+          "href": "https://asktia.com/services/annual-skin-exam/",
+          "inFooter": false
+        },
+        {
+          "text": "Aesthetic Skin Care Consultation",
+          "href": "https://asktia.com/services/skin-care-consultation/",
+          "inFooter": false
+        },
+        {
+          "text": "Acne Injection",
+          "href": "https://asktia.com/services/acne-injection/",
+          "inFooter": false
+        },
+        {
+          "text": "Chemical Peel",
+          "href": "https://asktia.com/services/chemical-peels/",
+          "inFooter": false
+        },
+        {
+          "text": "Wrinkle Care",
+          "href": "https://asktia.com/services/clinical-wrinkle-care/",
+          "inFooter": false
+        },
+        {
+          "text": "see more",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": false
+        },
+        {
+          "text": "PMOS (PCOS)",
+          "href": "https://asktia.com/services/pcos/",
+          "inFooter": false
+        },
+        {
+          "text": "Hormone & Vitality Assessment",
+          "href": "https://asktia.com/services/hormone-testing/",
+          "inFooter": false
+        },
+        {
+          "text": "Perimenopause & Menopause Assessment",
+          "href": "https://asktia.com/services/menopause-perimenopause-assessment/",
+          "inFooter": false
+        },
+        {
+          "text": "Acupuncture",
+          "href": "https://asktia.com/services/acupuncture/",
+          "inFooter": false
+        },
+        {
+          "text": "Longevity & Prevention",
+          "href": "https://asktia.com/services/longevity/",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://asktia.com/services/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": false
+        },
+        {
+          "text": "New York",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "Arizona",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": false
+        },
+        {
+          "text": "Virtual Care",
+          "href": "https://asktia.com/locations/tia-virtual-clinic/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance Coverage",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": false
+        },
+        {
+          "text": "Predictable Payments",
+          "href": "https://asktia.com/predictable-payments/",
+          "inFooter": false
+        },
+        {
+          "text": "Los Angeles Service List Prices",
+          "href": "https://asktia.com/service-list-los-angeles/",
+          "inFooter": false
+        },
+        {
+          "text": "San Francisco Service List Prices",
+          "href": "https://asktia.com/service-list-san-francisco/",
+          "inFooter": false
+        },
+        {
+          "text": "New York Service List Prices",
+          "href": "https://asktia.com/service-list-new-york/",
+          "inFooter": false
+        },
+        {
+          "text": "Scottsdale Service List Prices",
+          "href": "https://asktia.com/service-list-phoenix/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Signature",
+          "href": "https://asktia.com/membership/tia-signature/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet your Care Team",
+          "href": "https://asktia.com/care-team/",
+          "inFooter": false
+        },
+        {
+          "text": "Care at tia",
+          "href": "https://asktia.com/whole-health-journey/",
+          "inFooter": false
+        },
+        {
+          "text": "Why Tia",
+          "href": "https://asktia.com/why-tia/",
+          "inFooter": false
+        },
+        {
+          "text": "Tia Take (Our Blog)",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": false
+        },
+        {
+          "text": "Clinical Research",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Health System Partners",
+          "href": "https://asktia.com/health-partners/",
+          "inFooter": false
+        },
+        {
+          "text": "Podcast",
+          "href": "https://asktia.com/podcast/",
+          "inFooter": false
+        },
+        {
+          "text": "About Tia",
+          "href": "https://asktia.com/company/",
+          "inFooter": false
+        },
+        {
+          "text": "Log in",
+          "href": "https://member.asktia.com/",
+          "inFooter": false
+        },
+        {
+          "text": "See if you're in network",
+          "href": "https://member.asktia.com/signup/?uuid=3a905966-6e8e-43f3-b02e-56d43e14aec4&page=care-team&cta=See+if+you%27re+in+network",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about membership",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "Get care",
+          "href": "https://member.asktia.com/signup/?uuid=3a905966-6e8e-43f3-b02e-56d43e14aec4&page=care-team&cta=get+care",
+          "inFooter": false
+        },
+        {
+          "text": "See if you're in network",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alena-thompson/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alexia-komninos/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/alexis-griffin/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/allison-harris/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/bobby-mickens/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/christina-dubois-l-ac/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/christine-bonavita/",
+          "inFooter": false
+        },
+        {
+          "text": "View profile",
+          "href": "https://asktia.com/team/jacques-moritz-md/",
+          "inFooter": false
+        },
+        {
+          "text": "See open positions",
+          "href": "https://asktia.com/careers/",
+          "inFooter": false
+        },
+        {
+          "text": "Get Care",
+          "href": "https://member.asktia.com/signup/?uuid=3a905966-6e8e-43f3-b02e-56d43e14aec4&page=care-team&cta=get+care",
+          "inFooter": false
+        },
+        {
+          "text": "Learn about membership",
+          "href": "https://asktia.com/membership/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://asktia.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/asktia",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tiktok.com/@ask_tia",
+          "inFooter": true
+        },
+        {
+          "text": "Primary Care",
+          "href": "https://asktia.com/services/primary-care/",
+          "inFooter": true
+        },
+        {
+          "text": "Gynecology",
+          "href": "https://asktia.com/services/gynecology/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health",
+          "href": "https://asktia.com/services/mental-health/",
+          "inFooter": true
+        },
+        {
+          "text": "Skin Care",
+          "href": "https://asktia.com/services/skin-care/",
+          "inFooter": true
+        },
+        {
+          "text": "All Services",
+          "href": "https://asktia.com/services/",
+          "inFooter": true
+        },
+        {
+          "text": "Los Angeles",
+          "href": "https://asktia.com/locations/tia-la/",
+          "inFooter": true
+        },
+        {
+          "text": "San Francisco",
+          "href": "https://asktia.com/locations/tia-san-francisco/",
+          "inFooter": true
+        },
+        {
+          "text": "New York",
+          "href": "https://asktia.com/locations/ny/",
+          "inFooter": true
+        },
+        {
+          "text": "Arizona",
+          "href": "https://asktia.com/locations/az/",
+          "inFooter": true
+        },
+        {
+          "text": "About Us",
+          "href": "https://asktia.com/company/",
+          "inFooter": true
+        },
+        {
+          "text": "Leadership",
+          "href": "https://asktia.com/team/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://asktia.com/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Partners",
+          "href": "https://asktia.com/partners/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://asktia.com/contact/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://asktia.com/insurance/",
+          "inFooter": true
+        },
+        {
+          "text": "Service List Prices",
+          "href": "https://asktia.com/tia-service-list/",
+          "inFooter": true
+        },
+        {
+          "text": "Blog",
+          "href": "https://asktia.com/tiatake/",
+          "inFooter": true
+        },
+        {
+          "text": "Press Center",
+          "href": "https://asktia.com/press/",
+          "inFooter": true
+        },
+        {
+          "text": "Clinical Research",
+          "href": "https://asktia.com/clinical-research/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://intercom.help/ask-tia/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Patient Billing Policy",
+          "href": "https://asktia.com/patient-billing-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "NPP",
+          "href": "https://assets.asktia.com/pdfs/tia-privacy-policy.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Membership Terms",
+          "href": "https://asktia.com/membership-terms-of-use/",
+          "inFooter": true
+        },
+        {
+          "text": "Website Terms",
+          "href": "https://asktia.com/website-terms-of-use/",
+          "inFooter": true
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://asktia.com/privacy-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.onetrust.com/products/cookie-consent/",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Whole-person healthcare designed around you. Services Primary Care Gynecology Mental Health Skin Care All Services Locations Los Angeles San Francisco New York Arizona Company About Us Leadership Careers Partners Contact Us Resources Insurance Service List Prices Blog Press Center Clinical Research FAQs Subscribe to our newsletter By checking this box, you agree to receive promotional email and text messages from Tia related to new services, clinics, offerings, and other marketing messages. You can opt out of receiving Automated Messages at any time, including by replying \"STOP\" to an automated text message. Text HELP for more information. Sign Up Patient Billing Policy NPP Membership Terms Website Terms Privacy Policy © Tia 2026",
+      "telLinks": [],
+      "forms": [
+        {
+          "action": "https://asktia.com/care-team/",
+          "fields": [
+            "input:email:email",
+            "input:tel:phone",
+            "input:checkbox:consent",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 7,
+      "images": 27,
+      "scrollHeight": 5344,
+      "jsonld": [],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "A.fix top left z10 skip",
+        "DIV.header-module--headerContainer--SQ6Jt",
+        "DIV.header-module--mobileMenu--3f9k2 header-",
+        "DIV.header-module--mobileButtons--3zkRQ",
+        "DIV.onetrust-pc-dark-filter ot-hide ot-fade-",
+        "DIV.otPcCenter ot-hide ot-fade-in",
+        "DIV.",
+        "DIV.otPcCenter ot-hide ot-fade-in",
+        "DIV.",
+        "DIV.otPcCenter ot-hide ot-fade-in"
+      ]
+    }
+  }
+}

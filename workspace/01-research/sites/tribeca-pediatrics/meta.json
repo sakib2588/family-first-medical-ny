@@ -1,0 +1,716 @@
+{
+  "url": "https://www.tribecapediatrics.com",
+  "slug": "tribeca-pediatrics",
+  "capturedAt": "2026-10-30T17:42:18.522Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 20348,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied.",
+        "Failed to load resource: the server responded with a status of 401 ()"
+      ],
+      "title": "Welcome to Tribeca Pediatrics: We Care for Your Kids in NYC",
+      "h1": [],
+      "h2": [],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "PORTAL",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "JOIN TODAY",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patients",
+          "href": "https://www.tribecapediatrics.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": false
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": false
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.tribecapediatrics.com/a-z-baby-childcare/",
+          "inFooter": false
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Parenting Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": false
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Register today!",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Our Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Read Frequently Asked Questions",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Team",
+          "href": "https://www.tribecapediatrics.com/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Our Story",
+          "href": "https://www.tribecapediatrics.com/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "View Our Accepted Insurance Plans",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "Register for an Info Session",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": true
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": true
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": true
+        },
+        {
+          "text": "Affiliated Hospitals",
+          "href": "https://www.tribecapediatrics.com/hospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": true
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": true
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.thenewbasics.com/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": true
+        },
+        {
+          "text": "Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Release Form",
+          "href": "https://tribecapediatrics.com/pdf/TP-Medical-Release-Form.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-Discrimination and Code of Conduct",
+          "href": "https://www.tribecapediatrics.com/patient-and-staff-code-of-conduct/",
+          "inFooter": true
+        },
+        {
+          "text": "Sliding Scale Policy",
+          "href": "https://www.tribecapediatrics.com/sliding-scale-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.tribecapediatrics.com/podcast/",
+          "inFooter": true
+        },
+        {
+          "text": "Community Giving",
+          "href": "https://www.tribecapediatrics.com/about-us/community-giving/",
+          "inFooter": true
+        },
+        {
+          "text": "Media Inquiries",
+          "href": "https://www.tribecapediatrics.com/media-inquiries/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.tribecapediatrics.com/about-us/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.tribecapediatrics.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        },
+        {
+          "text": "info@tribecapediatrics.com",
+          "href": "mailto:info@tribecapediatrics.com",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/TribecaPediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/tribecapediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "Tribeca Pediatrics",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Our Story The Team FAQs Locations Info Sessions Affiliated Hospitals Insurance Pediatric Visit Schedule Vaccine Schedule Adolescent Resources Mental Health Support A-Z Health Guide Medication Dosage Breastfeeding Support Classes Medical Release Form Non-Discrimination and Code of Conduct Sliding Scale Policy Newsletter Podcast Community Giving Media Inquiries Careers Contact Us 212-226-7666 info@tribecapediatrics.com © Tribeca Pediatrics 2026",
+      "telLinks": [
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 10,
+      "images": 18,
+      "scrollHeight": 2915,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Welcome to Tribeca Pediatrics: We Care for Your Kids in NYC\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"datePublished\":\"2015-10-07T17:41:33+00:00\",\"dateModified\":\"2025-11-05T18:38:58+00:00\",\"description\":\"We provide high-quality pediatric care across NYC & NJ, 24\\/7 support, easy scheduling, and accept most insurance & medicaid. Register today!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Org"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 20355,
+      "consoleErrors": [
+        "requestStorageAccess: Permission denied."
+      ],
+      "title": "Welcome to Tribeca Pediatrics: We Care for Your Kids in NYC",
+      "h1": [],
+      "h2": [],
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "PORTAL",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "JOIN TODAY",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Home",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Patient Portal",
+          "href": "https://portal.tribecapediatrics.com/",
+          "inFooter": false
+        },
+        {
+          "text": "New Patients",
+          "href": "https://www.tribecapediatrics.com/new-patients/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/#",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": false
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": false
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": false
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.tribecapediatrics.com/a-z-baby-childcare/",
+          "inFooter": false
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": false
+        },
+        {
+          "text": "Parenting Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": false
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": false
+        },
+        {
+          "text": "Register today!",
+          "href": "https://www.tribecapediatrics.com/register-now/",
+          "inFooter": false
+        },
+        {
+          "text": "Explore Our Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Read Frequently Asked Questions",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": false
+        },
+        {
+          "text": "Meet Our Team",
+          "href": "https://www.tribecapediatrics.com/the-team-office/",
+          "inFooter": false
+        },
+        {
+          "text": "Learn About Our Story",
+          "href": "https://www.tribecapediatrics.com/our-story/",
+          "inFooter": false
+        },
+        {
+          "text": "View Our Accepted Insurance Plans",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": false
+        },
+        {
+          "text": "Register for an Info Session",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": false
+        },
+        {
+          "text": "Our Story",
+          "href": "https://www.tribecapediatrics.com/about-us/our-story/",
+          "inFooter": true
+        },
+        {
+          "text": "The Team",
+          "href": "https://www.tribecapediatrics.com/my-office/the-team-office/",
+          "inFooter": true
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.tribecapediatrics.com/about-us/faqs/",
+          "inFooter": true
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.tribecapediatrics.com/my-office/",
+          "inFooter": true
+        },
+        {
+          "text": "Info Sessions",
+          "href": "https://www.tribecapediatrics.com/my-office/meet-the-doctor/",
+          "inFooter": true
+        },
+        {
+          "text": "Affiliated Hospitals",
+          "href": "https://www.tribecapediatrics.com/hospital/",
+          "inFooter": true
+        },
+        {
+          "text": "Insurance",
+          "href": "https://www.tribecapediatrics.com/insurances/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Visit Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/pediatric-visit-schedule",
+          "inFooter": true
+        },
+        {
+          "text": "Vaccine Schedule",
+          "href": "https://www.tribecapediatrics.com/health-info/well-visit-vaccines/",
+          "inFooter": true
+        },
+        {
+          "text": "Adolescent Resources",
+          "href": "https://www.tribecapediatrics.com/adolescent-resources/",
+          "inFooter": true
+        },
+        {
+          "text": "Mental Health Support",
+          "href": "https://www.tribecapediatrics.com/mental-health-support/",
+          "inFooter": true
+        },
+        {
+          "text": "A-Z Health Guide",
+          "href": "https://www.thenewbasics.com/en/",
+          "inFooter": true
+        },
+        {
+          "text": "Medication Dosage",
+          "href": "https://wizardofdose.com/",
+          "inFooter": true
+        },
+        {
+          "text": "Breastfeeding Support",
+          "href": "https://www.tribecapediatrics.com/health-info/breastfeeding/",
+          "inFooter": true
+        },
+        {
+          "text": "Classes",
+          "href": "https://www.tribecapediatrics.com/classes/",
+          "inFooter": true
+        },
+        {
+          "text": "Medical Release Form",
+          "href": "https://tribecapediatrics.com/pdf/TP-Medical-Release-Form.pdf",
+          "inFooter": true
+        },
+        {
+          "text": "Non-Discrimination and Code of Conduct",
+          "href": "https://www.tribecapediatrics.com/patient-and-staff-code-of-conduct/",
+          "inFooter": true
+        },
+        {
+          "text": "Sliding Scale Policy",
+          "href": "https://www.tribecapediatrics.com/sliding-scale-policy/",
+          "inFooter": true
+        },
+        {
+          "text": "Newsletter",
+          "href": "https://www.tribecapediatrics.com/blog/",
+          "inFooter": true
+        },
+        {
+          "text": "Podcast",
+          "href": "https://www.tribecapediatrics.com/podcast/",
+          "inFooter": true
+        },
+        {
+          "text": "Community Giving",
+          "href": "https://www.tribecapediatrics.com/about-us/community-giving/",
+          "inFooter": true
+        },
+        {
+          "text": "Media Inquiries",
+          "href": "https://www.tribecapediatrics.com/media-inquiries/",
+          "inFooter": true
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.tribecapediatrics.com/about-us/careers/",
+          "inFooter": true
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.tribecapediatrics.com/contact-us/",
+          "inFooter": true
+        },
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        },
+        {
+          "text": "info@tribecapediatrics.com",
+          "href": "mailto:info@tribecapediatrics.com",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/TribecaPediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/tribecapediatrics/",
+          "inFooter": true
+        },
+        {
+          "text": "Tribeca Pediatrics",
+          "href": "https://www.tribecapediatrics.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "javascript:;",
+          "inFooter": false
+        }
+      ],
+      "footerText": "Our Story The Team FAQs Locations Info Sessions Affiliated Hospitals Insurance Pediatric Visit Schedule Vaccine Schedule Adolescent Resources Mental Health Support A-Z Health Guide Medication Dosage Breastfeeding Support Classes Medical Release Form Non-Discrimination and Code of Conduct Sliding Scale Policy Newsletter Podcast Community Giving Media Inquiries Careers Contact Us 212-226-7666 info@tribecapediatrics.com © Tribeca Pediatrics 2026",
+      "telLinks": [
+        {
+          "text": "212-226-7666",
+          "href": "tel:212-226-7666",
+          "inFooter": true
+        }
+      ],
+      "forms": [],
+      "imgNoAlt": 9,
+      "images": 17,
+      "scrollHeight": 4231,
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Welcome to Tribeca Pediatrics: We Care for Your Kids in NYC\",\"isPartOf\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\"},\"about\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"datePublished\":\"2015-10-07T17:41:33+00:00\",\"dateModified\":\"2025-11-05T18:38:58+00:00\",\"description\":\"We provide high-quality pediatric care across NYC & NJ, 24\\/7 support, easy scheduling, and accept most insurance & medicaid. Register today!\",\"breadcrumb\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/www.tribecapediatrics.com\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#website\",\"url\":\"https:\\/\\/www.tribecapediatrics.com\\/\",\"name\":\"Tribeca Pediatrics\",\"description\":\"We Care For Your Kids\",\"publisher\":{\"@id\":\"https:\\/\\/www.tribecapediatrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/www.tribecapediatrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Org"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en-US",
+      "fixedEls": [
+        "DIV.",
+        "DIV.",
+        "DIV.grecaptcha-badge"
+      ]
+    }
+  }
+}

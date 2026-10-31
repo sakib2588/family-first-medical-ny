@@ -1,0 +1,4791 @@
+{
+  "url": "https://www.pediatricassociates.com/pediatric-offices",
+  "slug": "pafl-officelist",
+  "capturedAt": "2026-10-30T18:40:59.963Z",
+  "views": {
+    "phone": {
+      "status": 200,
+      "loadMs": 15276,
+      "consoleErrors": [],
+      "title": "Find Pediatric Care in Florida | Pediatric Associates",
+      "h1": [
+        "Pediatric care is closer than you think"
+      ],
+      "h2": [
+        "",
+        "Locations by region"
+      ],
+      "links": [
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.pediatricassociates.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bill",
+          "href": "https://www.pediatricassociates.com/bill-pay",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://jobs.dayforcehcm.com/pafc/PEDIATRICASSOCIATESPORTAL",
+          "inFooter": false
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.pediatricassociates.com/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations & Providers",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Provider",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Regions",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Miami-Dade County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Port St. Lucie/Highlands County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "Tampa/St. Pete Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "Polk County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "Gainesville",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando/Cocoa Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "Volusia County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville/Palatka Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "Bay/Jackson County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "Lake County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "Osceola County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "Pasco County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "Your Visit",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "New patients",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "New patient guide",
+          "href": "https://www.pediatricassociates.com/new-patient-guide",
+          "inFooter": false
+        },
+        {
+          "text": "Visit types",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "After-hours & weekend care",
+          "href": "https://www.pediatricassociates.com/after-hours-and-weekend-care",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn visits",
+          "href": "https://www.pediatricassociates.com/newborn-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Prenatal visits",
+          "href": "https://www.pediatricassociates.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day sick visits",
+          "href": "https://www.pediatricassociates.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Walk-in visits",
+          "href": "https://www.pediatricassociates.com/walk-in-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance accepted",
+          "href": "https://www.pediatricassociates.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Forms & policies",
+          "href": "https://www.pediatricassociates.com/forms-and-policies",
+          "inFooter": false
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.pediatricassociates.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy & asthma management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": false
+        },
+        {
+          "text": "Behavioral health care",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": false
+        },
+        {
+          "text": "Clinician-supervised medical treatments",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": false
+        },
+        {
+          "text": "EKG and ECHO",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": false
+        },
+        {
+          "text": "Minor medical procedures",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": false
+        },
+        {
+          "text": "On-site labs",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric X-ray",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": false
+        },
+        {
+          "text": "Specialized care management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Who we are",
+          "href": "https://www.pediatricassociates.com/who-we-are",
+          "inFooter": false
+        },
+        {
+          "text": "Your medical home",
+          "href": "https://www.pediatricassociates.com/your-medical-home",
+          "inFooter": false
+        },
+        {
+          "text": "Refer a patient",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "Blog & news",
+          "href": "https://www.pediatricassociates.com/blog-and-news",
+          "inFooter": false
+        },
+        {
+          "text": "Knowledge Center",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Knowledge Center",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "For expecting parents",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "What to know before the baby arrives",
+          "href": "https://www.pediatricassociates.com/health-topics/what-to-know-before-the-baby-arrives",
+          "inFooter": false
+        },
+        {
+          "text": "Our hospital affiliations",
+          "href": "https://www.pediatricassociates.com/hospital-affiliations",
+          "inFooter": false
+        },
+        {
+          "text": "For existing families",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Well visit schedule",
+          "href": "https://www.pediatricassociates.com/well-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs & quick links",
+          "href": "https://www.pediatricassociates.com/faqs-quick-links",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events schedule",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination info",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination statement",
+          "href": "https://www.pediatricassociates.com/vaccination-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination schedule",
+          "href": "https://www.pediatricassociates.com/vaccine-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination resources",
+          "href": "https://www.pediatricassociates.com/vaccination-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits by age & stage",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Babies (0–11 months old)",
+          "href": "https://www.pediatricassociates.com/well-visits/newborn-to-11-months",
+          "inFooter": false
+        },
+        {
+          "text": "Toddlers (1–2 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/toddler",
+          "inFooter": false
+        },
+        {
+          "text": "Preschoolers (3–5 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/preschool",
+          "inFooter": false
+        },
+        {
+          "text": "Gradeschoolers (6–11 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/grade-school",
+          "inFooter": false
+        },
+        {
+          "text": "Teen (12–18 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/teen",
+          "inFooter": false
+        },
+        {
+          "text": "Young Adult (19–21 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/young-adult",
+          "inFooter": false
+        },
+        {
+          "text": "Health Topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "See all health topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "Baby & infant care",
+          "href": "https://www.pediatricassociates.com/health-topics#baby-infant-care",
+          "inFooter": false
+        },
+        {
+          "text": "General pediatric care",
+          "href": "https://www.pediatricassociates.com/health-topics#general-pediatric-care",
+          "inFooter": false
+        },
+        {
+          "text": "Growth & development",
+          "href": "https://www.pediatricassociates.com/health-topics#growth-development",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & feeding",
+          "href": "https://www.pediatricassociates.com/health-topics#nutrition-feeding",
+          "inFooter": false
+        },
+        {
+          "text": "Parent wellness",
+          "href": "https://www.pediatricassociates.com/health-topics#parent-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "Pregnancy & preparing for baby",
+          "href": "https://www.pediatricassociates.com/health-topics#pregnancy-preparing-for-baby",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.pediatricassociates.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bill",
+          "href": "https://www.pediatricassociates.com/bill-pay",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://jobs.dayforcehcm.com/pafc/PEDIATRICASSOCIATESPORTAL",
+          "inFooter": false
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.pediatricassociates.com/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Provider",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Regions",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Miami-Dade County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Port St. Lucie/Highlands County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "Tampa/St. Pete Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "Polk County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "Gainesville",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando/Cocoa Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "Volusia County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville/Palatka Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "Bay/Jackson County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "Lake County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "Osceola County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "Pasco County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "New patients",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "New patient guide",
+          "href": "https://www.pediatricassociates.com/new-patient-guide",
+          "inFooter": false
+        },
+        {
+          "text": "Visit types",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "After-hours & weekend care",
+          "href": "https://www.pediatricassociates.com/after-hours-and-weekend-care",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn visits",
+          "href": "https://www.pediatricassociates.com/newborn-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Prenatal visits",
+          "href": "https://www.pediatricassociates.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day sick visits",
+          "href": "https://www.pediatricassociates.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Walk-in visits",
+          "href": "https://www.pediatricassociates.com/walk-in-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance accepted",
+          "href": "https://www.pediatricassociates.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Forms & policies",
+          "href": "https://www.pediatricassociates.com/forms-and-policies",
+          "inFooter": false
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.pediatricassociates.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy & asthma management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": false
+        },
+        {
+          "text": "Behavioral health care",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": false
+        },
+        {
+          "text": "Clinician-supervised medical treatments",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": false
+        },
+        {
+          "text": "EKG and ECHO",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": false
+        },
+        {
+          "text": "Minor medical procedures",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": false
+        },
+        {
+          "text": "On-site labs",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric X-ray",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": false
+        },
+        {
+          "text": "Specialized care management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Who we are",
+          "href": "https://www.pediatricassociates.com/who-we-are",
+          "inFooter": false
+        },
+        {
+          "text": "Your medical home",
+          "href": "https://www.pediatricassociates.com/your-medical-home",
+          "inFooter": false
+        },
+        {
+          "text": "Refer a patient",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "Blog & news",
+          "href": "https://www.pediatricassociates.com/blog-and-news",
+          "inFooter": false
+        },
+        {
+          "text": "SEARCH ARTICLES",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "For expecting parents",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "What to know before the baby arrives",
+          "href": "https://www.pediatricassociates.com/health-topics/what-to-know-before-the-baby-arrives",
+          "inFooter": false
+        },
+        {
+          "text": "Our hospital affiliations",
+          "href": "https://www.pediatricassociates.com/hospital-affiliations",
+          "inFooter": false
+        },
+        {
+          "text": "For existing families",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Well visit schedule",
+          "href": "https://www.pediatricassociates.com/well-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs & quick links",
+          "href": "https://www.pediatricassociates.com/faqs-quick-links",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events schedule",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination info",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination statement",
+          "href": "https://www.pediatricassociates.com/vaccination-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination schedule",
+          "href": "https://www.pediatricassociates.com/vaccine-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination resources",
+          "href": "https://www.pediatricassociates.com/vaccination-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits by age & stage",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Babies (0–11 months old)",
+          "href": "https://www.pediatricassociates.com/well-visits/newborn-to-11-months",
+          "inFooter": false
+        },
+        {
+          "text": "Toddlers (1–2 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/toddler",
+          "inFooter": false
+        },
+        {
+          "text": "Preschoolers (3–5 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/preschool",
+          "inFooter": false
+        },
+        {
+          "text": "Gradeschoolers (6–11 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/grade-school",
+          "inFooter": false
+        },
+        {
+          "text": "Teen (12–18 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/teen",
+          "inFooter": false
+        },
+        {
+          "text": "Young Adult (19–21 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/young-adult",
+          "inFooter": false
+        },
+        {
+          "text": "Health Topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "See all health topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "Baby & infant care",
+          "href": "https://www.pediatricassociates.com/health-topics#baby-infant-care",
+          "inFooter": false
+        },
+        {
+          "text": "General pediatric care",
+          "href": "https://www.pediatricassociates.com/health-topics#general-pediatric-care",
+          "inFooter": false
+        },
+        {
+          "text": "Growth & development",
+          "href": "https://www.pediatricassociates.com/health-topics#growth-development",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & feeding",
+          "href": "https://www.pediatricassociates.com/health-topics#nutrition-feeding",
+          "inFooter": false
+        },
+        {
+          "text": "Parent wellness",
+          "href": "https://www.pediatricassociates.com/health-topics#parent-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "Pregnancy & preparing for baby",
+          "href": "https://www.pediatricassociates.com/health-topics#pregnancy-preparing-for-baby",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "FIND A PROVIDER",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "Use my current location",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Retry",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "SEARCH",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Clear filters",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Clear filters",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "A Plus | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "706 East Grand Highway Clermont, FL 34711",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+A+Plus%2C+706+East+Grand+Highway%2C+Clermont%2C+FL%2C+34711&query_place_id=ChIJ1y77nt-O54gR4aVQ4nYQXq0",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 557-4965",
+          "href": "tel:+13525574965",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=ZNo3rwVYD0AqK04O&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "Alafaya | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "1561 South Alafaya Trail #400 Orlando, FL 32828",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Alafaya%2C+1561+South+Alafaya+Trail%2C+%23400%2C+Orlando%2C+FL%2C+32828&query_place_id=ChIJH2uMAAdn54gRO7kNHQ0IkOE",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-7019",
+          "href": "tel:+14072147019",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4lq2byALmLVZX5ea&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "Alliance | Gainesville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "4627 Nw 53rd Avenue Gainesville, FL 32653",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Alliance%2C+4627+Nw+53rd+Avenue%2C+Gainesville%2C+FL%2C+32653&query_place_id=ChIJC947CSy76IgR4ScgxjgDkko",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 335-8888",
+          "href": "tel:+13523358888",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=KDdE17AxPLAZx8jg&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "Altamonte",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "475 Osceola Street Suite 1100 Altamonte Springs, FL 32701",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Altamonte%2C+475+Osceola+Street%2C+Suite+1100%2C+Altamonte+Springs%2C+FL%2C+32701&query_place_id=ChIJr2KcdoZx54gRzR0BzgWEvXc",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-6799",
+          "href": "tel:+14072146799",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Ng8dZoVonrAJ3b9w&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "Apopka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "1757 Ocoee Apopka Road Apopka, FL 32703",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Apopka%2C+1757+Ocoee+Apopka+Road%2C+Apopka%2C+FL%2C+32703&query_place_id=ChIJ3eyIawCd54gR3elLjagzrhI",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 565-4932",
+          "href": "tel:+14075654932",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Y6oXOnvBpBVdNZ3q&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "Arlington | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "6484 Fort Caroline Road Jacksonville, FL 32277",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Arlington%2C+6484+Fort+Caroline+Road%2C+Jacksonville%2C+FL%2C+32277&query_place_id=ChIJFQ2lT6az5YgRoz-Wk3jkaZs",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 659-4735",
+          "href": "tel:+19046594735",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=BDGgMpv9ZoAKrwz1&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "Aventura",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "21097 NE 27th Court #205 Aventura, FL 33180",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Aventura%2C+21097+NE+27th+Court%2C+%23205%2C+Aventura%2C+FL%2C+33180&query_place_id=ChIJoW0dcgCt2YgRAC-LuQXRDj0",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 682-9877",
+          "href": "tel:+13056829877",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Qd1p2JARDkDozmNM&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "Bartram Park | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "155 Bartram Market Drive Suite 120 Jacksonville, FL 32259",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Bartram+Park%2C+155+Bartram+Market+Drive%2C+Suite+120%2C+Jacksonville%2C+FL%2C+32259&query_place_id=ChIJZXNv3MPN5YgR6SGbcCgvatk",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 650-2193",
+          "href": "tel:+19046502193",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=gyPJX6V0mEkMwY9e&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "Bloomingdale | Brandon, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "901 East Bloomingdale Avenue Suite 501 Brandon, FL 33511",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Bloomingdale%2C+901+East+Bloomingdale+Avenue%2C+Suite+501%2C+Brandon%2C+FL%2C+33511&query_place_id=ChIJ7avqxTvTwogRZZN2mM1e_WE",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 699-3995",
+          "href": "tel:+18136993995",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=WgeqlNApN5k5GEMQ&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "Blue Lagoon | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "5600 Waterford District Drive Suite 1 Miami, FL 33126",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Blue+Lagoon%2C+5600+Waterford+District+Drive%2C+Suite+1%2C+Miami%2C+FL%2C+33126&query_place_id=ChIJb5r3Fv652YgRrDQVXe3GN-A",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 777-9182",
+          "href": "tel:+13057779182",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=a8gDE7vn7MAjwXe2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "Boca Raton",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "19615 State Road 7 #32 Boca Raton, FL 33498",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boca+Raton%2C+19615+State+Road+7%2C+%2332%2C+Boca+Raton%2C+FL%2C+33498&query_place_id=ChIJ43O8j1sZ2YgRkbcu-BxAV8Y",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 477-7700",
+          "href": "tel:+15614777700",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=1Z8X4MVyOv7Rm9gW&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "379 North Congress Avenue Boynton Beach, FL 33426",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boynton+East%2C+379+North+Congress+Avenue%2C+Boynton+Beach%2C+FL%2C+33426&query_place_id=ChIJzX_Rslvf2IgRsP9BRuJtc5w",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 336-0191",
+          "href": "tel:+15613360191",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=J28rg7vj6vM9lOqa&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "10301 Hagen Ranch Road Suite760 Boynton Beach, FL 33437",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boynton+West%2C+10301+Hagen+Ranch+Road%2C+Suite760%2C+Boynton+Beach%2C+FL%2C+33437&query_place_id=ChIJQZDMF2sh2YgRIiDbeiI17dU",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 733-4400",
+          "href": "tel:+15617334400",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4og6KOVZLvjzNqRB&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "Brickell | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "901 South Miami Avenue #300 Miami, FL 33130",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Brickell%2C+901+South+Miami+Avenue%2C+%23300%2C+Miami%2C+FL%2C+33130&query_place_id=ChIJR_sukkG32YgR8iO4dH5-vZY",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 363-3067",
+          "href": "tel:+13053633067",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=06nB2aAK0QVgpJZq&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "Causeway | North Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "1801 NE 123rd Street Suite 414 North Miami, FL 33181",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Causeway%2C+1801+NE+123rd+Street%2C+Suite+414%2C+North+Miami%2C+FL%2C+33181&query_place_id=ChIJY_AQenSy2YgRrwI6NGlbuqs",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 981-0600",
+          "href": "tel:+13059810600",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=a8gDE7vnNqvjwXe2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "Chapel Trail | Pembroke Pines, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "18425 Pines Boulevard Pembroke Pines, FL 33029",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chapel+Trail%2C+18425+Pines+Boulevard%2C+Pembroke+Pines%2C+FL%2C+33029&query_place_id=ChIJV6Vn1WOh2YgRQMp2fE1mmQo",
+          "inFooter": false
+        },
+        {
+          "text": "(954) 430-9300",
+          "href": "tel:+19544309300",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=yQxbd9V5MlVROwY5&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "Chipola River | Marianna, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "4316 5th Avenue Marianna, FL 32446",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chipola+River%2C+4316+5th+Avenue%2C+Marianna%2C+FL%2C+32446&query_place_id=ChIJU0D0NGcgk4gRZo8K6eu1i18",
+          "inFooter": false
+        },
+        {
+          "text": "(850) 526-5437",
+          "href": "tel:+18505265437",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=ObYNDykzPjApB3jQ&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "Chuluota | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "1884 West County Road 419 Suite 1000 Oviedo, FL 32765",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chuluota%2C+1884+West+County+Road+419%2C+Suite+1000%2C+Oviedo%2C+FL%2C+32765&query_place_id=ChIJCQG0wPBp54gRQ-C6h60d9JA",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 664-1250",
+          "href": "tel:+14076641250",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4og6KOVZaoAjzNqR&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Park | Tampa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "12871 Citrus Plaza Drive Tampa, FL 33625",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Citrus+Park%2C+12871+Citrus+Plaza+Drive%2C+Tampa%2C+FL%2C+33625&query_place_id=ChIJL7BRmunrwogRjYNxSRdBpOY",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 471-4445",
+          "href": "tel:+18134714445",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=51M9b2k8Qlv08zKn&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "Clearwater",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "2370 Drew Street Suite B Clearwater, FL 33765",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Clearwater%2C+2370+Drew+Street%2C+Suite+B%2C+Clearwater%2C+FL%2C+33765&query_place_id=ChIJ7xzxrdTxwogR-gK1fd9ycBU",
+          "inFooter": false
+        },
+        {
+          "text": "(727) 461-1543",
+          "href": "tel:+17274611543",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=41Brm3AmmeAY2nDW&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "Bay/Jackson County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "Gainesville",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville/Palatka Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "Lake County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "Miami-Dade County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando/Cocoa Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "Osceola County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "Pasco County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "Polk County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "Port St. Lucie/Highlands County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "Tampa/St. Pete Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "Volusia County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "FLORIDA PATIENT'S RIGHTS & RESPONSIBILITIES",
+          "href": "https://www.pediatricassociates.com/florida-patients-rights-and-responsibilities",
+          "inFooter": true
+        },
+        {
+          "text": "NOTICE OF PRIVACY PRACTICES",
+          "href": "https://www.pediatricassociates.com/notice-of-privacy-practices",
+          "inFooter": true
+        },
+        {
+          "text": "PATIENT REFERRALS",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": true
+        },
+        {
+          "text": "SITE MAP",
+          "href": "https://www.pediatricassociates.com/site-map",
+          "inFooter": true
+        },
+        {
+          "text": "WEBSITE PRIVACY STATEMENT",
+          "href": "https://www.pediatricassociates.com/website-privacy-statement",
+          "inFooter": true
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": true
+        },
+        {
+          "text": "Alafaya | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": true
+        },
+        {
+          "text": "Alliance | Gainesville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": true
+        },
+        {
+          "text": "Altamonte",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": true
+        },
+        {
+          "text": "A Plus | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": true
+        },
+        {
+          "text": "Apopka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Arlington | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": true
+        },
+        {
+          "text": "Aventura",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": true
+        },
+        {
+          "text": "Bartram Park | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": true
+        },
+        {
+          "text": "Bloomingdale | Brandon, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": true
+        },
+        {
+          "text": "Blue Lagoon | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": true
+        },
+        {
+          "text": "Boca Raton",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Boynton East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Boynton West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Brickell | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": true
+        },
+        {
+          "text": "Causeway | North Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": true
+        },
+        {
+          "text": "Chapel Trail | Pembroke Pines, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": true
+        },
+        {
+          "text": "Chipola River | Marianna, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": true
+        },
+        {
+          "text": "Chuluota | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": true
+        },
+        {
+          "text": "Citrus Park | Tampa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": true
+        },
+        {
+          "text": "Clearwater",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": true
+        },
+        {
+          "text": "Coconut Creek",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coconut-creek-fl-winston-park",
+          "inFooter": true
+        },
+        {
+          "text": "Conway | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-conway",
+          "inFooter": true
+        },
+        {
+          "text": "Coral Gables",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-gables-fl-south",
+          "inFooter": true
+        },
+        {
+          "text": "Coral Springs",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-springs-fl-ramblewood",
+          "inFooter": true
+        },
+        {
+          "text": "Courtland | Deltona, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deltona-fl-courtland",
+          "inFooter": true
+        },
+        {
+          "text": "Daytona",
+          "href": "https://www.pediatricassociates.com/pediatric-office/daytona-beach-fl-halifax-health",
+          "inFooter": true
+        },
+        {
+          "text": "Deland",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deland-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Doral",
+          "href": "https://www.pediatricassociates.com/pediatric-office/doral-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "East Pompano",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pompano-beach-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Edgewood | Lakeland, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lakeland-fl-edgewood",
+          "inFooter": true
+        },
+        {
+          "text": "Emerald Woods | Hollywood, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hollywood-fl-emerald-woods",
+          "inFooter": true
+        },
+        {
+          "text": "Fernandina Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fernandina-beach-fl-amelia",
+          "inFooter": true
+        },
+        {
+          "text": "Fort Lauderdale North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fort-lauderdale-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Fort Lauderdale South",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fort-lauderdale-fl-south",
+          "inFooter": true
+        },
+        {
+          "text": "Gables by the Mile",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-gables-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Heron Bay | Coral Springs, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-springs-fl-heron-bay",
+          "inFooter": true
+        },
+        {
+          "text": "Hialeah",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hialeah-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Hollywood",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hollywood-fl-hills",
+          "inFooter": true
+        },
+        {
+          "text": "Homestead",
+          "href": "https://www.pediatricassociates.com/pediatric-office/homestead-fl-waterstone",
+          "inFooter": true
+        },
+        {
+          "text": "Homestead Pavilion",
+          "href": "https://www.pediatricassociates.com/pediatric-office/homestead-fl-homestead-pavilion",
+          "inFooter": true
+        },
+        {
+          "text": "Ives Estates | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-ives-estates",
+          "inFooter": true
+        },
+        {
+          "text": "Lakeland Hills",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lakeland-fl-lakeland-hills",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Mary",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-mary-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Nona | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-lake-nona",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Placid",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-placid-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lakewood | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-lakewood",
+          "inFooter": true
+        },
+        {
+          "text": "Largo",
+          "href": "https://www.pediatricassociates.com/pediatric-office/largo-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lauderdale Lakes",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lauderdale-lakes-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Lee Vista | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-lee-vista",
+          "inFooter": true
+        },
+        {
+          "text": "Longwood",
+          "href": "https://www.pediatricassociates.com/pediatric-office/longwood-fl-sabal-point",
+          "inFooter": true
+        },
+        {
+          "text": "Loop | Kissimmee, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/kissimmee-fl-loop",
+          "inFooter": true
+        },
+        {
+          "text": "Macclenny",
+          "href": "https://www.pediatricassociates.com/pediatric-office/macclenny-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Main Street | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-main-street",
+          "inFooter": true
+        },
+        {
+          "text": "Metrowest | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-metrowest",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-beach-fl-mid-beach",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Lakes",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-lakes-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Lakes East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-lakes-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Midtown | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-midtown",
+          "inFooter": true
+        },
+        {
+          "text": "Miramar",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miramar-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "New Smyrna",
+          "href": "https://www.pediatricassociates.com/pediatric-office/new-smyrna-beach-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Northside | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-northside",
+          "inFooter": true
+        },
+        {
+          "text": "Orange Park | Middleburg, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/middleburg-fl-orange-park",
+          "inFooter": true
+        },
+        {
+          "text": "Ormond",
+          "href": "https://www.pediatricassociates.com/pediatric-office/ormond-beach-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Palatka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palatka-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Palm Beach Gardens",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palm-beach-gardens-fl-pga-corridor",
+          "inFooter": true
+        },
+        {
+          "text": "Palmetto Bay",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palmetto-bay-fl-coral-reef",
+          "inFooter": true
+        },
+        {
+          "text": "Panama City Downtown",
+          "href": "https://www.pediatricassociates.com/pediatric-office/panama-city-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Panama City Midtown",
+          "href": "https://www.pediatricassociates.com/pediatric-office/panama-city-fl-midtown",
+          "inFooter": true
+        },
+        {
+          "text": "Pembroke Pines",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-pembroke-lakes",
+          "inFooter": true
+        },
+        {
+          "text": "Plantation",
+          "href": "https://www.pediatricassociates.com/pediatric-office/plantation-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Poinciana | Kissimmee, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/kissimmee-fl-poinciana",
+          "inFooter": true
+        },
+        {
+          "text": "Port St. John | Cocoa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/cocoa-fl-port-st-john",
+          "inFooter": true
+        },
+        {
+          "text": "Red Bug | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-red-bug",
+          "inFooter": true
+        },
+        {
+          "text": "River City | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-river-city",
+          "inFooter": true
+        },
+        {
+          "text": "Riverview",
+          "href": "https://www.pediatricassociates.com/pediatric-office/riverview-fl-winthrop",
+          "inFooter": true
+        },
+        {
+          "text": "Royal Palm Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/royal-palm-beach-fl-regal-center",
+          "inFooter": true
+        },
+        {
+          "text": "Sanford",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sanford-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "Saxon | Deltona, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deltona-fl-saxon",
+          "inFooter": true
+        },
+        {
+          "text": "Sebring",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sebring-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "Semoran | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-semoran",
+          "inFooter": true
+        },
+        {
+          "text": "Skylake | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-skylake",
+          "inFooter": true
+        },
+        {
+          "text": "South Lake | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-south-lake",
+          "inFooter": true
+        },
+        {
+          "text": "Specialty Center of Excellence | Coconut Creek, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coconut-creek-fl-parkland",
+          "inFooter": true
+        },
+        {
+          "text": "St. Lucie West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/port-st-lucie-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "St Augustine North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/st-augustine-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "St Lucie North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/port-st-lucie-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Sunrise",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sunrise-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Titusville",
+          "href": "https://www.pediatricassociates.com/pediatric-office/titusville-fl-parrish",
+          "inFooter": true
+        },
+        {
+          "text": "Town Center | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "Trinity",
+          "href": "https://www.pediatricassociates.com/pediatric-office/trinity-fl-village-center",
+          "inFooter": true
+        },
+        {
+          "text": "Wellington | Lake Worth, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-worth-fl-wellington",
+          "inFooter": true
+        },
+        {
+          "text": "West Kendall | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-west-kendall",
+          "inFooter": true
+        },
+        {
+          "text": "Weston",
+          "href": "https://www.pediatricassociates.com/pediatric-office/weston-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "West Palm Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/west-palm-beach-fl-community",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Garden",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-garden-fl-horizon-west",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Haven",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-haven-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Springs",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-springs-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "Allergy & asthma management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": true
+        },
+        {
+          "text": "Behavioral health care",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": true
+        },
+        {
+          "text": "Clinician-supervised medical treatments",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": true
+        },
+        {
+          "text": "EKG and ECHO",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": true
+        },
+        {
+          "text": "Minor medical procedures",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": true
+        },
+        {
+          "text": "On-site labs",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric X-ray",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": true
+        },
+        {
+          "text": "Specialized care management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Associates",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/PediatricAssociates",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/pedassociates/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Associates",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/PediatricAssociates",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/pedassociates/",
+          "inFooter": true
+        }
+      ],
+      "footerText": "FLORIDA PATIENT'S RIGHTS & RESPONSIBILITIES NOTICE OF PRIVACY PRACTICES PATIENT REFERRALS SITE MAP WEBSITE PRIVACY STATEMENT ENGLISH Locations Services ©2026 Pediatric Associates",
+      "telLinks": [
+        {
+          "text": "(352) 557-4965",
+          "href": "tel:+13525574965",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-7019",
+          "href": "tel:+14072147019",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 335-8888",
+          "href": "tel:+13523358888",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-6799",
+          "href": "tel:+14072146799",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 565-4932",
+          "href": "tel:+14075654932",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 659-4735",
+          "href": "tel:+19046594735",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 682-9877",
+          "href": "tel:+13056829877",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 650-2193",
+          "href": "tel:+19046502193",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 699-3995",
+          "href": "tel:+18136993995",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 777-9182",
+          "href": "tel:+13057779182",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 477-7700",
+          "href": "tel:+15614777700",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 336-0191",
+          "href": "tel:+15613360191",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 733-4400",
+          "href": "tel:+15617334400",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 363-3067",
+          "href": "tel:+13053633067",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 981-0600",
+          "href": "tel:+13059810600",
+          "inFooter": false
+        },
+        {
+          "text": "(954) 430-9300",
+          "href": "tel:+19544309300",
+          "inFooter": false
+        },
+        {
+          "text": "(850) 526-5437",
+          "href": "tel:+18505265437",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 664-1250",
+          "href": "tel:+14076641250",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 471-4445",
+          "href": "tel:+18134714445",
+          "inFooter": false
+        },
+        {
+          "text": "(727) 461-1543",
+          "href": "tel:+17274611543",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.pediatricassociates.com/pediatric-offices",
+          "fields": [
+            "input:text:q",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 1,
+      "images": 59,
+      "scrollHeight": 12562,
+      "jsonld": [
+        "\n{\n    \"@context\": \"https://schema.org\",\n    \"@graph\": [\n        {\n            \"@type\": \"MedicalOrganization\",\n            \"@id\": \"https://www.pediatricassociates.com/#organization\",\n            \"name\": \"Pediatric Associates\",\n            \"url\": \"https://www.pediatricassociates.com\",\n            \"medicalSpecialty\": \"Pediatric\",\n            \"inLanguage\": \"en\",\n            \"logo\": \"https://www.pediatricassociates.com/assets/media/2998/pediatric-associates-logo.svg\",\n            \"image\": \"https://www.pediatricassociates.com/assets/media/2999/pediatric-associates-og-image.jpg\",\n            \"sameAs\": [\n                \"https://www.facebook.com/PediatricAssociates\",\n                \"https://www.instagram.com/pedassociates/\"\n            ],\n            \"areaServed\": {\n                \"@type\": \"State\",\n                \"name\": \"Florida\"\n            },\n            \"contactPoint\": [\n                {\n                    \"@type\": \"ContactPoint\",\n                    \"contactType\": \"appointments\",\n                    \"url\": \"https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates\"\n                }\n            ],\n            \"hasOfferCatalog\": {\n                \"@type\": \"OfferCatalog\",\n                \"name\": \"Pediatric Healthcare Services\",\n                \"itemListElement\": [\n                    {\n                        \"@type\": \"Offer\",\n                        \"itemOffered\": {\n                            \"@type\": \"Med"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.fixed bottom-0 left-0 z-max",
+        "HEADER.bg-white sticky top-0 z-50",
+        "DIV.sticky top-0 bg-white z-10 px-5 pt-5 pb-",
+        "DIV.fixed inset-0 z-[60] hidden",
+        "SPAN.",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "DIV.hidden fixed inset-0 z-50 bg-white flex-"
+      ]
+    },
+    "desktop": {
+      "status": 200,
+      "loadMs": 10542,
+      "consoleErrors": [],
+      "title": "Find Pediatric Care in Florida | Pediatric Associates",
+      "h1": [
+        "Pediatric care is closer than you think"
+      ],
+      "h2": [
+        "",
+        "Locations by region"
+      ],
+      "links": [
+        {
+          "text": "TELEHEALTH VISITS",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "PATIENT PORTAL",
+          "href": "https://www.pediatricassociates.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "PAY BILL",
+          "href": "https://www.pediatricassociates.com/bill-pay",
+          "inFooter": false
+        },
+        {
+          "text": "CAREERS",
+          "href": "https://jobs.dayforcehcm.com/pafc/PEDIATRICASSOCIATESPORTAL",
+          "inFooter": false
+        },
+        {
+          "text": "CONTACT US",
+          "href": "https://www.pediatricassociates.com/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Locations & Providers",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "Your Visit",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/new-patient-guide",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/after-hours-and-weekend-care",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/newborn-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/walk-in-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/forms-and-policies",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/who-we-are",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/your-medical-home",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/blog-and-news",
+          "inFooter": false
+        },
+        {
+          "text": "Knowledge Center",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Knowledge Center",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics/what-to-know-before-the-baby-arrives",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/hospital-affiliations",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/faqs-quick-links",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/vaccination-policy",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/vaccine-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/vaccination-resources",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/newborn-to-11-months",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/toddler",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/preschool",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/grade-school",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/teen",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/well-visits/young-adult",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#baby-infant-care",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#general-pediatric-care",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#growth-development",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#nutrition-feeding",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#parent-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/health-topics#pregnancy-preparing-for-baby",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK AN APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "Book an appointment",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Patient portal",
+          "href": "https://www.pediatricassociates.com/patient-portal",
+          "inFooter": false
+        },
+        {
+          "text": "Pay bill",
+          "href": "https://www.pediatricassociates.com/bill-pay",
+          "inFooter": false
+        },
+        {
+          "text": "Careers",
+          "href": "https://jobs.dayforcehcm.com/pafc/PEDIATRICASSOCIATESPORTAL",
+          "inFooter": false
+        },
+        {
+          "text": "Contact us",
+          "href": "https://www.pediatricassociates.com/contact-us",
+          "inFooter": false
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Location",
+          "href": "https://www.pediatricassociates.com/pediatric-offices",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Find a Provider",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Regions",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Miami-Dade County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Port St. Lucie/Highlands County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "Tampa/St. Pete Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "Polk County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "Gainesville",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando/Cocoa Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "Volusia County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville/Palatka Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "Bay/Jackson County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "Lake County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "Osceola County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "Pasco County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "New patients",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "New patient guide",
+          "href": "https://www.pediatricassociates.com/new-patient-guide",
+          "inFooter": false
+        },
+        {
+          "text": "Visit types",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "After-hours & weekend care",
+          "href": "https://www.pediatricassociates.com/after-hours-and-weekend-care",
+          "inFooter": false
+        },
+        {
+          "text": "Newborn visits",
+          "href": "https://www.pediatricassociates.com/newborn-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Prenatal visits",
+          "href": "https://www.pediatricassociates.com/prenatal-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Same-day sick visits",
+          "href": "https://www.pediatricassociates.com/same-day-sick-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Telehealth visits",
+          "href": "https://www.pediatricassociates.com/telehealth",
+          "inFooter": false
+        },
+        {
+          "text": "Walk-in visits",
+          "href": "https://www.pediatricassociates.com/walk-in-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Resources",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Insurance accepted",
+          "href": "https://www.pediatricassociates.com/insurance",
+          "inFooter": false
+        },
+        {
+          "text": "Forms & policies",
+          "href": "https://www.pediatricassociates.com/forms-and-policies",
+          "inFooter": false
+        },
+        {
+          "text": "Request medical records",
+          "href": "https://www.pediatricassociates.com/request-medical-records",
+          "inFooter": false
+        },
+        {
+          "text": "Our Services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "Allergy & asthma management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": false
+        },
+        {
+          "text": "Behavioral health care",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": false
+        },
+        {
+          "text": "Clinician-supervised medical treatments",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": false
+        },
+        {
+          "text": "EKG and ECHO",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": false
+        },
+        {
+          "text": "Minor medical procedures",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": false
+        },
+        {
+          "text": "On-site labs",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": false
+        },
+        {
+          "text": "Pediatric X-ray",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": false
+        },
+        {
+          "text": "Specialized care management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": false
+        },
+        {
+          "text": "See all services",
+          "href": "https://www.pediatricassociates.com/pediatric-services",
+          "inFooter": false
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Who we are",
+          "href": "https://www.pediatricassociates.com/who-we-are",
+          "inFooter": false
+        },
+        {
+          "text": "Your medical home",
+          "href": "https://www.pediatricassociates.com/your-medical-home",
+          "inFooter": false
+        },
+        {
+          "text": "Refer a patient",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": false
+        },
+        {
+          "text": "Blog & news",
+          "href": "https://www.pediatricassociates.com/blog-and-news",
+          "inFooter": false
+        },
+        {
+          "text": "SEARCH ARTICLES",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "Search",
+          "href": "https://www.pediatricassociates.com/health-topics-search",
+          "inFooter": false
+        },
+        {
+          "text": "For expecting parents",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "What to know before the baby arrives",
+          "href": "https://www.pediatricassociates.com/health-topics/what-to-know-before-the-baby-arrives",
+          "inFooter": false
+        },
+        {
+          "text": "Our hospital affiliations",
+          "href": "https://www.pediatricassociates.com/hospital-affiliations",
+          "inFooter": false
+        },
+        {
+          "text": "For existing families",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Well visit schedule",
+          "href": "https://www.pediatricassociates.com/well-visit-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "FAQs & quick links",
+          "href": "https://www.pediatricassociates.com/faqs-quick-links",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Classes & events schedule",
+          "href": "https://www.pediatricassociates.com/classes-and-events",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination info",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination statement",
+          "href": "https://www.pediatricassociates.com/vaccination-policy",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination schedule",
+          "href": "https://www.pediatricassociates.com/vaccine-schedule",
+          "inFooter": false
+        },
+        {
+          "text": "Vaccination resources",
+          "href": "https://www.pediatricassociates.com/vaccination-resources",
+          "inFooter": false
+        },
+        {
+          "text": "Well visits by age & stage",
+          "href": "https://www.pediatricassociates.com/well-visits",
+          "inFooter": false
+        },
+        {
+          "text": "Babies (0–11 months old)",
+          "href": "https://www.pediatricassociates.com/well-visits/newborn-to-11-months",
+          "inFooter": false
+        },
+        {
+          "text": "Toddlers (1–2 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/toddler",
+          "inFooter": false
+        },
+        {
+          "text": "Preschoolers (3–5 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/preschool",
+          "inFooter": false
+        },
+        {
+          "text": "Gradeschoolers (6–11 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/grade-school",
+          "inFooter": false
+        },
+        {
+          "text": "Teen (12–18 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/teen",
+          "inFooter": false
+        },
+        {
+          "text": "Young Adult (19–21 years old)",
+          "href": "https://www.pediatricassociates.com/well-visits/young-adult",
+          "inFooter": false
+        },
+        {
+          "text": "Health Topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "See all health topics",
+          "href": "https://www.pediatricassociates.com/health-topics",
+          "inFooter": false
+        },
+        {
+          "text": "Baby & infant care",
+          "href": "https://www.pediatricassociates.com/health-topics#baby-infant-care",
+          "inFooter": false
+        },
+        {
+          "text": "General pediatric care",
+          "href": "https://www.pediatricassociates.com/health-topics#general-pediatric-care",
+          "inFooter": false
+        },
+        {
+          "text": "Growth & development",
+          "href": "https://www.pediatricassociates.com/health-topics#growth-development",
+          "inFooter": false
+        },
+        {
+          "text": "Nutrition & feeding",
+          "href": "https://www.pediatricassociates.com/health-topics#nutrition-feeding",
+          "inFooter": false
+        },
+        {
+          "text": "Parent wellness",
+          "href": "https://www.pediatricassociates.com/health-topics#parent-wellness",
+          "inFooter": false
+        },
+        {
+          "text": "Pregnancy & preparing for baby",
+          "href": "https://www.pediatricassociates.com/health-topics#pregnancy-preparing-for-baby",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": false
+        },
+        {
+          "text": "FIND A PROVIDER",
+          "href": "https://www.pediatricassociates.com/find-a-pediatrician",
+          "inFooter": false
+        },
+        {
+          "text": "Use my current location",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Retry",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "SEARCH",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Clear filters",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "Clear filters",
+          "href": "https://www.pediatricassociates.com/pediatric-offices#",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "A Plus | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "706 East Grand Highway, Clermont, FL 34711",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+A+Plus%2C+706+East+Grand+Highway%2C+Clermont%2C+FL%2C+34711&query_place_id=ChIJ1y77nt-O54gR4aVQ4nYQXq0",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 557-4965",
+          "href": "tel:+13525574965",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=ZNo3rwVYD0AqK04O&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "Alafaya | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "1561 South Alafaya Trail #400, Orlando, FL 32828",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Alafaya%2C+1561+South+Alafaya+Trail%2C+%23400%2C+Orlando%2C+FL%2C+32828&query_place_id=ChIJH2uMAAdn54gRO7kNHQ0IkOE",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-7019",
+          "href": "tel:+14072147019",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4lq2byALmLVZX5ea&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "Alliance | Gainesville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "4627 Nw 53rd Avenue, Gainesville, FL 32653",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Alliance%2C+4627+Nw+53rd+Avenue%2C+Gainesville%2C+FL%2C+32653&query_place_id=ChIJC947CSy76IgR4ScgxjgDkko",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 335-8888",
+          "href": "tel:+13523358888",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=KDdE17AxPLAZx8jg&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "Altamonte",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "475 Osceola Street Suite 1100, Altamonte Springs, FL 32701",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Altamonte%2C+475+Osceola+Street%2C+Suite+1100%2C+Altamonte+Springs%2C+FL%2C+32701&query_place_id=ChIJr2KcdoZx54gRzR0BzgWEvXc",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-6799",
+          "href": "tel:+14072146799",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Ng8dZoVonrAJ3b9w&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "Apopka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "1757 Ocoee Apopka Road, Apopka, FL 32703",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Apopka%2C+1757+Ocoee+Apopka+Road%2C+Apopka%2C+FL%2C+32703&query_place_id=ChIJ3eyIawCd54gR3elLjagzrhI",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 565-4932",
+          "href": "tel:+14075654932",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Y6oXOnvBpBVdNZ3q&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "Arlington | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "6484 Fort Caroline Road, Jacksonville, FL 32277",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Arlington%2C+6484+Fort+Caroline+Road%2C+Jacksonville%2C+FL%2C+32277&query_place_id=ChIJFQ2lT6az5YgRoz-Wk3jkaZs",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 659-4735",
+          "href": "tel:+19046594735",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=BDGgMpv9ZoAKrwz1&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "Aventura",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "21097 NE 27th Court #205, Aventura, FL 33180",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Aventura%2C+21097+NE+27th+Court%2C+%23205%2C+Aventura%2C+FL%2C+33180&query_place_id=ChIJoW0dcgCt2YgRAC-LuQXRDj0",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 682-9877",
+          "href": "tel:+13056829877",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=Qd1p2JARDkDozmNM&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "Bartram Park | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "155 Bartram Market Drive Suite 120, Jacksonville, FL 32259",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Bartram+Park%2C+155+Bartram+Market+Drive%2C+Suite+120%2C+Jacksonville%2C+FL%2C+32259&query_place_id=ChIJZXNv3MPN5YgR6SGbcCgvatk",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 650-2193",
+          "href": "tel:+19046502193",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=gyPJX6V0mEkMwY9e&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "Bloomingdale | Brandon, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "901 East Bloomingdale Avenue Suite 501, Brandon, FL 33511",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Bloomingdale%2C+901+East+Bloomingdale+Avenue%2C+Suite+501%2C+Brandon%2C+FL%2C+33511&query_place_id=ChIJ7avqxTvTwogRZZN2mM1e_WE",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 699-3995",
+          "href": "tel:+18136993995",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=WgeqlNApN5k5GEMQ&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "Blue Lagoon | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "5600 Waterford District Drive Suite 1, Miami, FL 33126",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Blue+Lagoon%2C+5600+Waterford+District+Drive%2C+Suite+1%2C+Miami%2C+FL%2C+33126&query_place_id=ChIJb5r3Fv652YgRrDQVXe3GN-A",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 777-9182",
+          "href": "tel:+13057779182",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=a8gDE7vn7MAjwXe2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "Boca Raton",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "19615 State Road 7 #32, Boca Raton, FL 33498",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boca+Raton%2C+19615+State+Road+7%2C+%2332%2C+Boca+Raton%2C+FL%2C+33498&query_place_id=ChIJ43O8j1sZ2YgRkbcu-BxAV8Y",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 477-7700",
+          "href": "tel:+15614777700",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=1Z8X4MVyOv7Rm9gW&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "379 North Congress Avenue, Boynton Beach, FL 33426",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boynton+East%2C+379+North+Congress+Avenue%2C+Boynton+Beach%2C+FL%2C+33426&query_place_id=ChIJzX_Rslvf2IgRsP9BRuJtc5w",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 336-0191",
+          "href": "tel:+15613360191",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=J28rg7vj6vM9lOqa&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "Boynton West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "10301 Hagen Ranch Road Suite760, Boynton Beach, FL 33437",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Boynton+West%2C+10301+Hagen+Ranch+Road%2C+Suite760%2C+Boynton+Beach%2C+FL%2C+33437&query_place_id=ChIJQZDMF2sh2YgRIiDbeiI17dU",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 733-4400",
+          "href": "tel:+15617334400",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4og6KOVZLvjzNqRB&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "Brickell | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "901 South Miami Avenue #300, Miami, FL 33130",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Brickell%2C+901+South+Miami+Avenue%2C+%23300%2C+Miami%2C+FL%2C+33130&query_place_id=ChIJR_sukkG32YgR8iO4dH5-vZY",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 363-3067",
+          "href": "tel:+13053633067",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=06nB2aAK0QVgpJZq&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "Causeway | North Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "1801 NE 123rd Street Suite 414, North Miami, FL 33181",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Causeway%2C+1801+NE+123rd+Street%2C+Suite+414%2C+North+Miami%2C+FL%2C+33181&query_place_id=ChIJY_AQenSy2YgRrwI6NGlbuqs",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 981-0600",
+          "href": "tel:+13059810600",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=a8gDE7vnNqvjwXe2&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "Chapel Trail | Pembroke Pines, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "18425 Pines Boulevard, Pembroke Pines, FL 33029",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chapel+Trail%2C+18425+Pines+Boulevard%2C+Pembroke+Pines%2C+FL%2C+33029&query_place_id=ChIJV6Vn1WOh2YgRQMp2fE1mmQo",
+          "inFooter": false
+        },
+        {
+          "text": "(954) 430-9300",
+          "href": "tel:+19544309300",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=yQxbd9V5MlVROwY5&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "Chipola River | Marianna, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "4316 5th Avenue, Marianna, FL 32446",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chipola+River%2C+4316+5th+Avenue%2C+Marianna%2C+FL%2C+32446&query_place_id=ChIJU0D0NGcgk4gRZo8K6eu1i18",
+          "inFooter": false
+        },
+        {
+          "text": "(850) 526-5437",
+          "href": "tel:+18505265437",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=ObYNDykzPjApB3jQ&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "Chuluota | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "1884 West County Road 419 Suite 1000, Oviedo, FL 32765",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Chuluota%2C+1884+West+County+Road+419%2C+Suite+1000%2C+Oviedo%2C+FL%2C+32765&query_place_id=ChIJCQG0wPBp54gRQ-C6h60d9JA",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 664-1250",
+          "href": "tel:+14076641250",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=4og6KOVZaoAjzNqR&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "Citrus Park | Tampa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "12871 Citrus Plaza Drive, Tampa, FL 33625",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Citrus+Park%2C+12871+Citrus+Plaza+Drive%2C+Tampa%2C+FL%2C+33625&query_place_id=ChIJL7BRmunrwogRjYNxSRdBpOY",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 471-4445",
+          "href": "tel:+18134714445",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=51M9b2k8Qlv08zKn&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "Clearwater",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "2370 Drew Street Suite B, Clearwater, FL 33765",
+          "href": "https://www.google.com/maps/search/?api=1&query=Pediatric+Associates%2C+Clearwater%2C+2370+Drew+Street%2C+Suite+B%2C+Clearwater%2C+FL%2C+33765&query_place_id=ChIJ7xzxrdTxwogR-gK1fd9ycBU",
+          "inFooter": false
+        },
+        {
+          "text": "(727) 461-1543",
+          "href": "tel:+17274611543",
+          "inFooter": false
+        },
+        {
+          "text": "BOOK APPOINTMENT",
+          "href": "https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&f=41Brm3AmmeAY2nDW&brand=pediatric-associates",
+          "inFooter": false
+        },
+        {
+          "text": "OFFICE DETAILS",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "Bay/Jackson County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/bay-jackson",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "Broward County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/broward",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "Gainesville",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/gainesville",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "Jacksonville/Palatka Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/jacksonville-palatka",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "Lake County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/lake-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "Miami-Dade County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/miami-dade",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "Orlando/Cocoa Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/orlando-cocoa",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "Osceola County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/osceola-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "Palm Beach County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/palm-beach",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "Pasco County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/pasco-county",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "Polk County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/polk",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "Port St. Lucie/Highlands County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/port-st-lucie-highlands",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "Tampa/St. Pete Areas",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/tampa-st-pete",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "Volusia County",
+          "href": "https://www.pediatricassociates.com/pediatric-offices/volusia",
+          "inFooter": false
+        },
+        {
+          "text": "",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "FLORIDA PATIENT'S RIGHTS & RESPONSIBILITIES",
+          "href": "https://www.pediatricassociates.com/florida-patients-rights-and-responsibilities",
+          "inFooter": true
+        },
+        {
+          "text": "NOTICE OF PRIVACY PRACTICES",
+          "href": "https://www.pediatricassociates.com/notice-of-privacy-practices",
+          "inFooter": true
+        },
+        {
+          "text": "PATIENT REFERRALS",
+          "href": "https://www.pediatricassociates.com/refer-a-patient",
+          "inFooter": true
+        },
+        {
+          "text": "SITE MAP",
+          "href": "https://www.pediatricassociates.com/site-map",
+          "inFooter": true
+        },
+        {
+          "text": "WEBSITE PRIVACY STATEMENT",
+          "href": "https://www.pediatricassociates.com/website-privacy-statement",
+          "inFooter": true
+        },
+        {
+          "text": "Español",
+          "href": "https://www.pediatricassociates.com/es-mx/pediatric-offices",
+          "inFooter": true
+        },
+        {
+          "text": "Alafaya | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-alafaya",
+          "inFooter": true
+        },
+        {
+          "text": "Alliance | Gainesville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/gainesville-fl-hunters-crossing",
+          "inFooter": true
+        },
+        {
+          "text": "Altamonte",
+          "href": "https://www.pediatricassociates.com/pediatric-office/altamonte-springs-fl-uptown",
+          "inFooter": true
+        },
+        {
+          "text": "A Plus | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-a-plus",
+          "inFooter": true
+        },
+        {
+          "text": "Apopka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/apopka-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Arlington | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-arlington",
+          "inFooter": true
+        },
+        {
+          "text": "Aventura",
+          "href": "https://www.pediatricassociates.com/pediatric-office/aventura-fl-waterways",
+          "inFooter": true
+        },
+        {
+          "text": "Bartram Park | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-bartram-park",
+          "inFooter": true
+        },
+        {
+          "text": "Bloomingdale | Brandon, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/brandon-fl-bloomingdale",
+          "inFooter": true
+        },
+        {
+          "text": "Blue Lagoon | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-blue-lagoon",
+          "inFooter": true
+        },
+        {
+          "text": "Boca Raton",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boca-raton-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Boynton East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Boynton West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/boynton-beach-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Brickell | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-brickell",
+          "inFooter": true
+        },
+        {
+          "text": "Causeway | North Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/north-miami-fl-causeway",
+          "inFooter": true
+        },
+        {
+          "text": "Chapel Trail | Pembroke Pines, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-chapel-trail",
+          "inFooter": true
+        },
+        {
+          "text": "Chipola River | Marianna, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/marianna-fl-chipola-river",
+          "inFooter": true
+        },
+        {
+          "text": "Chuluota | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-chuluota",
+          "inFooter": true
+        },
+        {
+          "text": "Citrus Park | Tampa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/tampa-fl-citrus-park",
+          "inFooter": true
+        },
+        {
+          "text": "Clearwater",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clearwater-fl-drew-st",
+          "inFooter": true
+        },
+        {
+          "text": "Coconut Creek",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coconut-creek-fl-winston-park",
+          "inFooter": true
+        },
+        {
+          "text": "Conway | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-conway",
+          "inFooter": true
+        },
+        {
+          "text": "Coral Gables",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-gables-fl-south",
+          "inFooter": true
+        },
+        {
+          "text": "Coral Springs",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-springs-fl-ramblewood",
+          "inFooter": true
+        },
+        {
+          "text": "Courtland | Deltona, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deltona-fl-courtland",
+          "inFooter": true
+        },
+        {
+          "text": "Daytona",
+          "href": "https://www.pediatricassociates.com/pediatric-office/daytona-beach-fl-halifax-health",
+          "inFooter": true
+        },
+        {
+          "text": "Deland",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deland-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Doral",
+          "href": "https://www.pediatricassociates.com/pediatric-office/doral-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "East Pompano",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pompano-beach-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Edgewood | Lakeland, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lakeland-fl-edgewood",
+          "inFooter": true
+        },
+        {
+          "text": "Emerald Woods | Hollywood, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hollywood-fl-emerald-woods",
+          "inFooter": true
+        },
+        {
+          "text": "Fernandina Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fernandina-beach-fl-amelia",
+          "inFooter": true
+        },
+        {
+          "text": "Fort Lauderdale North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fort-lauderdale-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Fort Lauderdale South",
+          "href": "https://www.pediatricassociates.com/pediatric-office/fort-lauderdale-fl-south",
+          "inFooter": true
+        },
+        {
+          "text": "Gables by the Mile",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-gables-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Heron Bay | Coral Springs, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coral-springs-fl-heron-bay",
+          "inFooter": true
+        },
+        {
+          "text": "Hialeah",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hialeah-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Hollywood",
+          "href": "https://www.pediatricassociates.com/pediatric-office/hollywood-fl-hills",
+          "inFooter": true
+        },
+        {
+          "text": "Homestead",
+          "href": "https://www.pediatricassociates.com/pediatric-office/homestead-fl-waterstone",
+          "inFooter": true
+        },
+        {
+          "text": "Homestead Pavilion",
+          "href": "https://www.pediatricassociates.com/pediatric-office/homestead-fl-homestead-pavilion",
+          "inFooter": true
+        },
+        {
+          "text": "Ives Estates | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-ives-estates",
+          "inFooter": true
+        },
+        {
+          "text": "Lakeland Hills",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lakeland-fl-lakeland-hills",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Mary",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-mary-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Nona | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-lake-nona",
+          "inFooter": true
+        },
+        {
+          "text": "Lake Placid",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-placid-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lakewood | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-lakewood",
+          "inFooter": true
+        },
+        {
+          "text": "Largo",
+          "href": "https://www.pediatricassociates.com/pediatric-office/largo-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Lauderdale Lakes",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lauderdale-lakes-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Lee Vista | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-lee-vista",
+          "inFooter": true
+        },
+        {
+          "text": "Longwood",
+          "href": "https://www.pediatricassociates.com/pediatric-office/longwood-fl-sabal-point",
+          "inFooter": true
+        },
+        {
+          "text": "Loop | Kissimmee, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/kissimmee-fl-loop",
+          "inFooter": true
+        },
+        {
+          "text": "Macclenny",
+          "href": "https://www.pediatricassociates.com/pediatric-office/macclenny-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Main Street | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-main-street",
+          "inFooter": true
+        },
+        {
+          "text": "Metrowest | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-metrowest",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-beach-fl-mid-beach",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Lakes",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-lakes-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Miami Lakes East",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-lakes-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Midtown | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-midtown",
+          "inFooter": true
+        },
+        {
+          "text": "Miramar",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miramar-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "New Smyrna",
+          "href": "https://www.pediatricassociates.com/pediatric-office/new-smyrna-beach-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Northside | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-northside",
+          "inFooter": true
+        },
+        {
+          "text": "Orange Park | Middleburg, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/middleburg-fl-orange-park",
+          "inFooter": true
+        },
+        {
+          "text": "Ormond",
+          "href": "https://www.pediatricassociates.com/pediatric-office/ormond-beach-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Palatka",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palatka-fl-east",
+          "inFooter": true
+        },
+        {
+          "text": "Palm Beach Gardens",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palm-beach-gardens-fl-pga-corridor",
+          "inFooter": true
+        },
+        {
+          "text": "Palmetto Bay",
+          "href": "https://www.pediatricassociates.com/pediatric-office/palmetto-bay-fl-coral-reef",
+          "inFooter": true
+        },
+        {
+          "text": "Panama City Downtown",
+          "href": "https://www.pediatricassociates.com/pediatric-office/panama-city-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Panama City Midtown",
+          "href": "https://www.pediatricassociates.com/pediatric-office/panama-city-fl-midtown",
+          "inFooter": true
+        },
+        {
+          "text": "Pembroke Pines",
+          "href": "https://www.pediatricassociates.com/pediatric-office/pembroke-pines-fl-pembroke-lakes",
+          "inFooter": true
+        },
+        {
+          "text": "Plantation",
+          "href": "https://www.pediatricassociates.com/pediatric-office/plantation-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Poinciana | Kissimmee, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/kissimmee-fl-poinciana",
+          "inFooter": true
+        },
+        {
+          "text": "Port St. John | Cocoa, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/cocoa-fl-port-st-john",
+          "inFooter": true
+        },
+        {
+          "text": "Red Bug | Oviedo, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/oviedo-fl-red-bug",
+          "inFooter": true
+        },
+        {
+          "text": "River City | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-river-city",
+          "inFooter": true
+        },
+        {
+          "text": "Riverview",
+          "href": "https://www.pediatricassociates.com/pediatric-office/riverview-fl-winthrop",
+          "inFooter": true
+        },
+        {
+          "text": "Royal Palm Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/royal-palm-beach-fl-regal-center",
+          "inFooter": true
+        },
+        {
+          "text": "Sanford",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sanford-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "Saxon | Deltona, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/deltona-fl-saxon",
+          "inFooter": true
+        },
+        {
+          "text": "Sebring",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sebring-fl-central",
+          "inFooter": true
+        },
+        {
+          "text": "Semoran | Orlando, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/orlando-fl-semoran",
+          "inFooter": true
+        },
+        {
+          "text": "Skylake | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-skylake",
+          "inFooter": true
+        },
+        {
+          "text": "South Lake | Clermont, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/clermont-fl-south-lake",
+          "inFooter": true
+        },
+        {
+          "text": "Specialty Center of Excellence | Coconut Creek, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/coconut-creek-fl-parkland",
+          "inFooter": true
+        },
+        {
+          "text": "St. Lucie West",
+          "href": "https://www.pediatricassociates.com/pediatric-office/port-st-lucie-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "St Augustine North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/st-augustine-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "St Lucie North",
+          "href": "https://www.pediatricassociates.com/pediatric-office/port-st-lucie-fl-north",
+          "inFooter": true
+        },
+        {
+          "text": "Sunrise",
+          "href": "https://www.pediatricassociates.com/pediatric-office/sunrise-fl-west",
+          "inFooter": true
+        },
+        {
+          "text": "Titusville",
+          "href": "https://www.pediatricassociates.com/pediatric-office/titusville-fl-parrish",
+          "inFooter": true
+        },
+        {
+          "text": "Town Center | Jacksonville, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/jacksonville-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "Trinity",
+          "href": "https://www.pediatricassociates.com/pediatric-office/trinity-fl-village-center",
+          "inFooter": true
+        },
+        {
+          "text": "Wellington | Lake Worth, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/lake-worth-fl-wellington",
+          "inFooter": true
+        },
+        {
+          "text": "West Kendall | Miami, FL",
+          "href": "https://www.pediatricassociates.com/pediatric-office/miami-fl-west-kendall",
+          "inFooter": true
+        },
+        {
+          "text": "Weston",
+          "href": "https://www.pediatricassociates.com/pediatric-office/weston-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "West Palm Beach",
+          "href": "https://www.pediatricassociates.com/pediatric-office/west-palm-beach-fl-community",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Garden",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-garden-fl-horizon-west",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Haven",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-haven-fl-downtown",
+          "inFooter": true
+        },
+        {
+          "text": "Winter Springs",
+          "href": "https://www.pediatricassociates.com/pediatric-office/winter-springs-fl-town-center",
+          "inFooter": true
+        },
+        {
+          "text": "Allergy & asthma management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/allergy-and-asthma-management",
+          "inFooter": true
+        },
+        {
+          "text": "Behavioral health care",
+          "href": "https://www.pediatricassociates.com/pediatric-services/behavioral-health-care",
+          "inFooter": true
+        },
+        {
+          "text": "Clinician-supervised medical treatments",
+          "href": "https://www.pediatricassociates.com/pediatric-services/clinician-supervised-medical-treatments",
+          "inFooter": true
+        },
+        {
+          "text": "EKG and ECHO",
+          "href": "https://www.pediatricassociates.com/pediatric-services/ekg-and-echo",
+          "inFooter": true
+        },
+        {
+          "text": "Minor medical procedures",
+          "href": "https://www.pediatricassociates.com/pediatric-services/minor-medical-procedures",
+          "inFooter": true
+        },
+        {
+          "text": "On-site labs",
+          "href": "https://www.pediatricassociates.com/pediatric-services/on-site-labs",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric X-ray",
+          "href": "https://www.pediatricassociates.com/pediatric-services/pediatric-x-ray",
+          "inFooter": true
+        },
+        {
+          "text": "Specialized care management",
+          "href": "https://www.pediatricassociates.com/pediatric-services/specialized-care-management",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Associates",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/PediatricAssociates",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/pedassociates/",
+          "inFooter": true
+        },
+        {
+          "text": "Pediatric Associates",
+          "href": "https://www.pediatricassociates.com/",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.facebook.com/PediatricAssociates",
+          "inFooter": true
+        },
+        {
+          "text": "",
+          "href": "https://www.instagram.com/pedassociates/",
+          "inFooter": true
+        }
+      ],
+      "footerText": "FLORIDA PATIENT'S RIGHTS & RESPONSIBILITIES NOTICE OF PRIVACY PRACTICES PATIENT REFERRALS SITE MAP WEBSITE PRIVACY STATEMENT ENGLISH Locations Services ©2026 Pediatric Associates",
+      "telLinks": [
+        {
+          "text": "(352) 557-4965",
+          "href": "tel:+13525574965",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-7019",
+          "href": "tel:+14072147019",
+          "inFooter": false
+        },
+        {
+          "text": "(352) 335-8888",
+          "href": "tel:+13523358888",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 214-6799",
+          "href": "tel:+14072146799",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 565-4932",
+          "href": "tel:+14075654932",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 659-4735",
+          "href": "tel:+19046594735",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 682-9877",
+          "href": "tel:+13056829877",
+          "inFooter": false
+        },
+        {
+          "text": "(904) 650-2193",
+          "href": "tel:+19046502193",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 699-3995",
+          "href": "tel:+18136993995",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 777-9182",
+          "href": "tel:+13057779182",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 477-7700",
+          "href": "tel:+15614777700",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 336-0191",
+          "href": "tel:+15613360191",
+          "inFooter": false
+        },
+        {
+          "text": "(561) 733-4400",
+          "href": "tel:+15617334400",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 363-3067",
+          "href": "tel:+13053633067",
+          "inFooter": false
+        },
+        {
+          "text": "(305) 981-0600",
+          "href": "tel:+13059810600",
+          "inFooter": false
+        },
+        {
+          "text": "(954) 430-9300",
+          "href": "tel:+19544309300",
+          "inFooter": false
+        },
+        {
+          "text": "(850) 526-5437",
+          "href": "tel:+18505265437",
+          "inFooter": false
+        },
+        {
+          "text": "(407) 664-1250",
+          "href": "tel:+14076641250",
+          "inFooter": false
+        },
+        {
+          "text": "(813) 471-4445",
+          "href": "tel:+18134714445",
+          "inFooter": false
+        },
+        {
+          "text": "(727) 461-1543",
+          "href": "tel:+17274611543",
+          "inFooter": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "https://www.pediatricassociates.com/pediatric-offices",
+          "fields": [
+            "input:text:q",
+            "button:submit:"
+          ]
+        }
+      ],
+      "imgNoAlt": 18,
+      "images": 76,
+      "scrollHeight": 7536,
+      "jsonld": [
+        "\n{\n    \"@context\": \"https://schema.org\",\n    \"@graph\": [\n        {\n            \"@type\": \"MedicalOrganization\",\n            \"@id\": \"https://www.pediatricassociates.com/#organization\",\n            \"name\": \"Pediatric Associates\",\n            \"url\": \"https://www.pediatricassociates.com\",\n            \"medicalSpecialty\": \"Pediatric\",\n            \"inLanguage\": \"en\",\n            \"logo\": \"https://www.pediatricassociates.com/assets/media/2998/pediatric-associates-logo.svg\",\n            \"image\": \"https://www.pediatricassociates.com/assets/media/2999/pediatric-associates-og-image.jpg\",\n            \"sameAs\": [\n                \"https://www.facebook.com/PediatricAssociates\",\n                \"https://www.instagram.com/pedassociates/\"\n            ],\n            \"areaServed\": {\n                \"@type\": \"State\",\n                \"name\": \"Florida\"\n            },\n            \"contactPoint\": [\n                {\n                    \"@type\": \"ContactPoint\",\n                    \"contactType\": \"appointments\",\n                    \"url\": \"https://healow.com/apps/practice/pediatric-associates-family-of-companies-thepafccom-22293?v=2&t=2&brand=pediatric-associates\"\n                }\n            ],\n            \"hasOfferCatalog\": {\n                \"@type\": \"OfferCatalog\",\n                \"name\": \"Pediatric Healthcare Services\",\n                \"itemListElement\": [\n                    {\n                        \"@type\": \"Offer\",\n                        \"itemOffered\": {\n                            \"@type\": \"Med"
+      ],
+      "hasViewportMeta": true,
+      "lang": "en",
+      "fixedEls": [
+        "DIV.fixed bottom-0 left-0 z-max",
+        "HEADER.bg-white sticky top-0 z-50",
+        "DIV.sticky top-0 bg-white z-10 px-5 pt-5 pb-",
+        "DIV.fixed inset-0 z-[60] hidden",
+        "SPAN.",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "LI.px-3 py-2 pt-3 sticky top-0 bg-white z-1",
+        "DIV.hidden fixed inset-0 z-50 bg-white flex-"
+      ]
+    }
+  }
+}
