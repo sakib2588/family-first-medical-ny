@@ -25,12 +25,49 @@ First time in a new environment: `bash scripts/cloud-setup.sh`.
 Direction in `workspace/03-decisions/home-demo-direction.md`. Calm, warm, credible. One shape device (the arch), Fraunces + Figtree, one filled action per screen, 44 px tap targets, WCAG 2.2 AA. Tokens in `src/styles/global.css` (button teal is `teal-deep` #0b6f6f; brand teal fails AA with white text; gold is never text on cream).
 Single source of truth for offices, hours, doctors: `src/data/practice.ts`; draft legal text: `src/data/legal.ts`. Pages read from them; never hard-code a phone or address in a component.
 
-## Skills, agents and rules in this repo (`.claude/`)
-- **Skills (31, copied from the owner's local set).** UI: frontend-design-direction, design-system, make-interfaces-feel-better, motion-foundations. Quality: accessibility, frontend-a11y, browser-qa, click-path-audit, production-audit, verification-loop, ai-regression-testing, tdd-workflow, e2e-testing. Security and health data: security-review, hipaa-compliance, healthcare-phi-compliance, error-handling. Research pipeline (how we studied competitors): competitive-platform-analysis -> benchmark-methodology -> competitive-report-structure, plus benchmark, deep-research, market-research, search-first, seo. Copy: brand-voice, article-writing. Process: architecture-decision-records (log owner decisions in `workspace/03-decisions/`), git-workflow, conventional-commit-review, coding-standards.
-- **Agent:** `code-reviewer` (run it on every change before a PR). **Command:** `/code-review`.
-- **Rules:** `.claude/rules/` = the owner's global rules (coding style, testing, security, git, review).
-- Use frontend-design-direction + design-system for UI, accessibility + browser-qa before any PR, hipaa-compliance + healthcare-phi-compliance for anything that touches the form or data.
-- `.claude/rules/agents.md` and `development-workflow.md` mention ECC agents such as `ecc:planner` and `ecc:tdd-guide`. They were never installed on the owner's PC either (only code-reviewer and mle-reviewer were). Do that planning/TDD work yourself, or install the full set: source https://github.com/affaan-m/ECC (the local skills came from commit ef648e0, installed 2026-10-09).
+## Which skill for which task (routing table)
+Pick the FIRST matching row. Use only the skills named; do not browse the rest. Always finish with the Definition of done below.
+
+| Task | Use (in order) | Notes |
+|---|---|---|
+| Change layout, copy placement, or visuals of a page | `frontend-design-direction` (decide) -> `design-system` (tokens, consistency) -> `make-interfaces-feel-better` (polish) | Direction file: `workspace/03-decisions/home-demo-direction.md`. Tokens: `src/styles/global.css`. |
+| Accessibility check or fix | `accessibility` (PRIMARY) | `frontend-a11y` is React/Next: take its principles (labels, focus, keyboard) but NOT its React code. |
+| Motion or animation | `motion-foundations` (principles only) | Site is CSS-only; no React, no animation library. Respect reduced motion. |
+| Touch the request form, any data field, or anything patient-related | `hipaa-compliance` -> `healthcare-phi-compliance` -> `security-review` | Contact info only. Stop and ask the owner if a field might hold health info. |
+| Add a page, link, or button | `click-path-audit` after building | Then `npm run check` (dead-link scan). |
+| Before opening any PR | `verification-loop` -> `code-reviewer` agent (or `/code-review`) -> `browser-qa` | See "Definition of done". |
+| Site speed or SEO | `seo`, `benchmark` | Budget in `workspace/02-analysis/improvement-plan.md` (rank 6). No analytics or third-party tools to measure. |
+| Pre-launch readiness | `production-audit` | Needs client facts first (see handoff). |
+| Write a commit or PR | `conventional-commit-review`, `git-workflow` | Identity rule below. |
+| Record an owner decision | `architecture-decision-records` | Write to `workspace/03-decisions/`, dated. |
+| Compare more sites or redo research | `competitive-platform-analysis` -> `benchmark-methodology` -> `competitive-report-structure`, `deep-research` | ON REQUEST ONLY. Research is done (`workspace/01-research`, `02-analysis`). |
+| Write marketing or site copy | `brand-voice`, `article-writing` | ON REQUEST ONLY, and only after the client confirms facts. Never invent claims. |
+| Market sizing or investor-style research | `market-research` | ON REQUEST ONLY. Not part of this project. |
+| Look for an existing library before writing code | `search-first` | Zero-third-party rule still applies to anything shipped to the browser. |
+
+## Tools a skill may expect that you do NOT have here (use these instead)
+| Skill expects | Fallback |
+|---|---|
+| firecrawl / exa MCP (`deep-research`) | Built-in WebSearch and WebFetch. Cite sources, mark unverified claims `(U)`. |
+| Browser MCP (`browser-qa`: claude-in-chrome, Puppeteer) | Playwright from `workspace/tools` (installed by `scripts/cloud-setup.sh`): `node qa-pages.mjs` with `npm run dev` running. |
+| Jest, Vitest, React Testing Library (`tdd-workflow`, `ai-regression-testing`, `e2e-testing`) | There is no test runner. Our tests are `npm run check` and `qa-pages.mjs`. Use these skills for principles only (write the failing check first, then fix). |
+| React / Next.js patterns (`frontend-a11y`, `coding-standards`, `error-handling`, `motion-foundations`) | This is Astro + Tailwind. Translate the idea into `.astro` components and plain CSS; never add React. |
+| `ecc:*` agents named in `.claude/rules/agents.md` and `development-workflow.md` | Not installed anywhere. Do the planning yourself, or use `code-reviewer`. Full set: https://github.com/affaan-m/ECC (local skills came from commit ef648e0). |
+| 80% unit-test coverage (`.claude/rules/testing.md`) | Does not apply to a static site with no logic layer. Our gates are below. |
+
+## Definition of done (every task, in this order)
+1. `npm run check` passes (build, no external resource, no dead link).
+2. If any page or component changed: `npm run dev` then `cd workspace/tools && node qa-pages.mjs` shows no horizontal overflow and no tap target under 44 px, and the call dialog still closes on Escape.
+3. `code-reviewer` agent run on the diff; fix CRITICAL and HIGH findings.
+4. Red lines above re-read against the diff (claims, trackers, form fields).
+5. Append a dated line to `workspace/04-logs/LOG.md`. Update the handoff if state changed.
+6. Open a PR; do not merge without the owner saying so.
+
+## First-session self-test (run once in a fresh cloud session)
+Ask: "List the project skills you can see. Then name the skill(s) and fallback you would use for: (a) fixing the hero crop on mobile, (b) wiring the request form to an endpoint, (c) reviewing a PR." Expected: (a) frontend-design-direction + design-system + make-interfaces-feel-better, then Definition of done; (b) hipaa-compliance + healthcare-phi-compliance + security-review, and asks the owner about the endpoint and BAA before coding; (c) verification-loop + code-reviewer + browser-qa with the Playwright fallback. If any answer differs, fix this table.
+
+## Agents, commands, rules (`.claude/`)
+`.claude/agents/code-reviewer.md`, `.claude/commands/code-review.md`, `.claude/rules/` (owner's global coding style, security, git, review rules). Where a rule conflicts with this file (for example test coverage), this file wins for this project.
 
 ## Git
 Identity: `sakib2588` / `153538974+sakib2588@users.noreply.github.com`. NEVER the AIUB address. Branch per task, PR to `main`, conventional commit messages (feat/fix/docs/chore). Do not merge a PR without the owner saying so.
