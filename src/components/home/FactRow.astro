@@ -3,11 +3,10 @@
 // first, ages, then a Google rating per office as dated text. No stars, no AggregateRating, no "years" or
 // "board-certified" (CLAUDE.md red lines). Live: unconfirmed cells are hidden.
 import FactSlot from '../FactSlot.astro'
-import { practice, offices, isShown, type Fact } from '../../data/practice'
-const confirmed = (value: string): Fact<string> => ({ value, need: '' })
+import { practice, offices, isShown } from '../../data/practice'
 const cells = [
   { label: 'Medicaid and Child Health Plus', fact: practice.insurance.publicPlans, dated: true },
-  { label: 'Ages we see', fact: confirmed('Newborns to adults'), dated: false },
+  { label: 'Ages we see', fact: practice.agesSeen, dated: false },
   ...offices.map(o => ({ label: `${o.neighborhood.split(',')[0]} on Google`, fact: o.googleRating, dated: true })),
 ].filter(c => isShown(c.fact))
 ---

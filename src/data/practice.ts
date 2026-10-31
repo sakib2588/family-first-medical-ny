@@ -18,6 +18,7 @@ export const practice = {
   /** Design demo: unconfirmed facts render as labelled slots. Set false only at launch, after every fact is confirmed. */
   demo: true,
   languages: toConfirm<string>('to confirm'),
+  agesSeen: toConfirm<string>('Newborns to adults: doctors to confirm'),
   acceptingNew: toConfirm<string>('to confirm, with date'),
   afterHours: toConfirm<string>('after-hours line or answering service'),
   records: toConfirm<string>('how to request or transfer records'),
