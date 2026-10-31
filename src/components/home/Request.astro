@@ -1,25 +1,17 @@
 ---
-// The request block. "What happens next" replaces the old sample rating and quote: no unverified proof (U05.3),
-// and no response-time promise until the client confirms one (decision #2).
-import Icon from '../Icon.astro'
+// Request (spec 4.13): the indigo closing band and the last filled action. Heading, lead, the contact-only form on a
+// white panel, and both numbers for people who prefer to call. Fields unchanged: name, phone, office, best time.
 import RequestForm from '../RequestForm.astro'
-const steps = [
-  'Send your name and phone number. Nothing medical.',
-  'The office calls you back during office hours.',
-  'Together you pick a time at the office you chose.',
-]
+import { offices, telHref } from '../../data/practice'
 ---
-<section id="request" class="bg-white px-5 py-14 md:px-8 md:py-20">
-  <div class="mx-auto max-w-[1160px] md:grid md:grid-cols-2 md:gap-16">
-    <div>
-      <h2 class="text-[1.9rem] md:text-4xl">Request a visit</h2>
-      <ol class="mt-6 space-y-4">
-        {steps.map((s, i) => (
-          <li class="flex gap-4"><span class="tabular grid size-8 shrink-0 place-items-center rounded-full bg-indigo font-display font-semibold text-white">{i + 1}</span><span class="pt-0.5 md:text-lg">{s}</span></li>
-        ))}
-      </ol>
-      <p class="mt-6 text-[0.97rem]">Need care today? <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a></p>
+<section id="request" class="on-dark bg-indigo px-5 py-16 text-on-dark md:px-8 lg:py-24">
+  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:gap-x-6">
+    <div class="lg:col-span-5">
+      <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Request a visit</h2>
+      <p class="mt-3 max-w-[36ch] text-[1.06rem] lg:text-[1.18rem]">Leave your name and number. We'll call you back during office hours.</p>
+      <div class="mt-6 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3><ul class="mt-1">{offices.map(o => (<li><a href={telHref(o.phone)} class="inline-flex min-h-11 items-center gap-2"><span>{o.neighborhood.split(',')[0]}</span><span class="tabular font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">{o.phone}</span></a></li>))}</ul></div>
     </div>
-    <div class="mt-8 rounded-[2rem] bg-cream p-5 md:mt-0 md:p-8"><RequestForm /></div>
+    <div class="mt-6 rounded-[1.25rem] bg-white p-5 text-text lg:col-span-6 lg:col-start-7 lg:mt-0 lg:p-8"><RequestForm /></div>
+    <div class="mt-6 lg:hidden"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3><ul class="mt-1 grid grid-cols-2 gap-4">{offices.map(o => (<li><a href={telHref(o.phone)} class="flex min-h-12 flex-col justify-center"><span class="text-[0.82rem]">{o.neighborhood.split(',')[0]}</span><span class="tabular whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4">{o.phone}</span></a></li>))}</ul></div>
   </div>
 </section>
