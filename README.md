@@ -1,6 +1,6 @@
 # AIMSS Family Health: home page design demo
 
-Design demo of a family medicine and pediatrics practice website (home page only), built for AIMSS. It improves on the structure of an existing reference site and uses the AIMSS brand colors.
+Design demo of a family medicine and pediatrics practice website (home, doctors, locations, contact and draft legal pages), built for AIMSS. It improves on the structure of an existing reference site and uses the AIMSS brand colors.
 
 **Status:** demo. All content is sample content, all photos are stand-in photos (see `public/demo/CREDITS.txt`), the request form does not send anything, and the legal pages are placeholders pending counsel. Nothing here is a live site.
 
@@ -11,6 +11,7 @@ Astro 7 + Tailwind CSS 4, static output, no third-party scripts. Node 24 LTS (se
 npm install
 npm run dev      # http://localhost:4321
 npm run build    # static site in dist/
+npm run check    # build, then fail on any external resource or dead internal link
 ```
 
 ## Design
@@ -20,6 +21,6 @@ npm run build    # static site in dist/
 - Accessibility: WCAG 2.2 AA targets, 44 px tap targets, visible focus, skip link, no horizontal overflow, 0 axe violations at the five widths above.
 
 ## Structure
-`src/components/` header and sticky bar; `src/components/home/` one component per section; `src/pages/index.astro` assembles the page.
+`src/components/` header and sticky bar; `src/components/home/` one component per section; `src/pages/` holds the 17 pages; `src/data/` holds the one source of truth for offices, doctors and draft legal text. Resume notes for a new session: `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md`.
 
 Research notes, decisions, capture scripts, screenshots and raw research captures are in `workspace/` and are tracked in git (about 500 MB, so clone with care). Do not rewrite history or force-push. In `workspace/tools`, run `npm install` first.
