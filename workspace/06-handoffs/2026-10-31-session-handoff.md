@@ -37,7 +37,7 @@ From the 2026-10-31 site notes (`06-handoffs/memory/`):
 - A dated insurance list, and charity-care or sliding-scale wording if it applies.
 - The client questionnaire (`Family-First-Medical-Client-Questions.docx`, this folder). Not yet sent.
 
-## Open decisions for the owner
+## Open decisions for the owner (resolved 2026-10-31: 1 keep workspace/ in git, 2 remove care-visit.webp, 3 READMEs fixed)
 1. **`workspace/` is in git.** Its README says "local only, never in git". It was committed in 543e8df and 8c70502: about 526 MB of captures, logs and screenshots. Decide whether to keep it or untrack it and keep it local. Rewriting history needs explicit approval.
 2. **`public/demo/care-visit.webp`** (added in 8c70502) shows a clinician with a "National Cancer Institute" badge. No site code uses it, but it ships in the build from `public/`. Recommend removing it from the tree.
 3. **READMEs are out of date.** Root `README.md` now says screenshots and raw logs are kept off-repo, which the committed folders contradict. `workspace/README.md` still says "never in git".

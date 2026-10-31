@@ -22,4 +22,4 @@ npm run build    # static site in dist/
 ## Structure
 `src/components/` header and sticky bar; `src/components/home/` one component per section; `src/pages/index.astro` assembles the page.
 
-Research notes, decisions and capture scripts are in `workspace/` (text only; screenshots and raw research logs are kept off-repo). In `workspace/tools`, run `npm install` first.
+Research notes, decisions, capture scripts, screenshots and raw research captures are in `workspace/` and are tracked in git (about 500 MB, so clone with care). Do not rewrite history or force-push. In `workspace/tools`, run `npm install` first.
