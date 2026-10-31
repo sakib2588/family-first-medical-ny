@@ -1,27 +1,31 @@
 ---
-// Services in two groups, each led by its doctor (data: serviceGroups in practice.ts). A compact two-column
-// checklist on phones; the one-line descriptions stay in the data for a future Services page. No JS.
+// Care by age: life stages in order (the reference site's strongest content idea, made ours: one colour, a ranked
+// list, no colour-coded ages, no stock thumbnails). Each row names the doctor who leads that stage.
+// Data: ageBands in practice.ts (sample; each doctor confirms the ranges).
 import Section from '../Section.astro'
-import Icon from '../Icon.astro'
-import { serviceGroups, doctorBySlug } from '../../data/practice'
+import { ageBands, doctorBySlug, practice } from '../../data/practice'
 ---
 <Section id="services" tone="white">
-  <h2 class="text-[1.9rem] md:text-4xl">Visits and services</h2>
-  <p class="mt-2 text-sm text-muted">Sample list for the design demo. The doctors confirm every line before launch.</p>
-  <div class="mt-8 space-y-10 md:mt-12 md:grid md:grid-cols-2 md:gap-14 md:space-y-0">
-    {serviceGroups.map(g => {
-      const doc = doctorBySlug(g.doctor)
-      return (
-        <div>
-          <h3 class="text-xl md:text-2xl">{g.title}</h3>
-          {doc && <p class="mt-1 text-[0.95rem] text-muted">With {doc.name}, {doc.ages.charAt(0).toLowerCase()}{doc.ages.slice(1)}</p>}
-          <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-line pt-4">
-            {g.items.map(([name]) => (
-              <li class="flex items-start gap-2 text-[0.97rem] font-medium leading-snug text-indigo"><Icon name="check" size={18} class="mt-0.5 shrink-0 text-muted" />{name}</li>
-            ))}
-          </ul>
-        </div>
-      )
-    })}
+  <div class="md:grid md:grid-cols-[1fr_1.7fr] md:gap-16">
+    <div>
+      <h2 class="text-[1.9rem] md:text-4xl">Care by age</h2>
+      <p class="mt-3 max-w-[34ch] md:text-lg">Your children can stay with the same practice as they grow, then move to adult care with us.</p>
+      {practice.demo && <p class="mt-3 text-sm text-muted">Sample ranges and services for the design demo. The doctors confirm every line before launch.</p>}
+    </div>
+    <ol class="mt-8 divide-y divide-line border-y border-line md:mt-0">
+      {ageBands.map(b => {
+        const docs = b.doctors.map(doctorBySlug).filter(d => d !== undefined)
+        return (
+          <li class="grid grid-cols-[6.5rem_1fr] gap-4 py-5 md:grid-cols-[9rem_1fr] md:gap-8">
+            <p class="font-display text-lg font-semibold leading-tight text-indigo md:text-xl">{b.range}</p>
+            <div>
+              <h3 class="font-sans text-base font-semibold text-indigo md:text-lg">{b.title}</h3>
+              <p class="mt-1 text-[0.95rem] text-muted">{b.line}</p>
+              <p class="mt-1 text-[0.95rem]">With {docs.map((d, i) => (<>{i > 0 && ' or '}<a href={`/doctors/${d.slug}`} class="inline-flex min-h-11 items-center font-medium text-indigo underline underline-offset-4">{d.name}</a></>))}</p>
+            </div>
+          </li>
+        )
+      })}
+    </ol>
   </div>
 </Section>

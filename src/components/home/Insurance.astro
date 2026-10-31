@@ -1,13 +1,20 @@
 ---
-// Owner decision #8: no plan list until the client sends one with a date. Until then: call to check.
+// Insurance: a dated plan list once the front desk sends one (medical-wellness trust signal 2), checked at each
+// content review. Until then a labelled slot and the call line. No banner, no "& many more", no chips.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
+import { practice } from '../../data/practice'
+const plans = practice.insurance
 ---
 <Section id="insurance" tone="white">
-  <div class="md:grid md:grid-cols-[1fr_1.2fr] md:items-center md:gap-16">
+  <div class="md:grid md:grid-cols-[1fr_1.7fr] md:gap-16">
     <h2 class="text-[1.9rem] md:text-4xl">Insurance</h2>
-    <div class="mt-3 md:mt-0">
-      <p class="max-w-[40ch] md:text-lg">To check whether we take your plan, call your office before your first visit. Bring your insurance card and a photo ID when you come in.</p>
+    <div class="mt-3 md:mt-1">
+      {plans.value
+        ? <><ul class="grid grid-cols-2 gap-x-6 gap-y-2 md:text-lg">{plans.value.map(p => (<li class="border-b border-line pb-2 font-medium text-indigo">{p}</li>))}</ul>
+            <p class="mt-3 text-sm text-muted">Plans as of {plans.checkedOn}. Plans change; call to confirm yours.</p></>
+        : practice.demo && <p class="rounded-2xl border-2 border-dashed border-[#c9c3df] bg-cream p-4 text-sm italic text-muted">[{plans.need}]</p>}
+      <p class="mt-5 max-w-[40ch] md:text-lg">Not sure your plan is covered? Call your office before your first visit, and bring your insurance card and a photo ID.</p>
       <a href="/locations" data-call class="btn mt-5 inline-flex min-h-12 items-center gap-2 rounded-full border-2 border-teal-deep px-6 font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><Icon name="phone" size={18} />Call to check your plan</a>
     </div>
   </div>

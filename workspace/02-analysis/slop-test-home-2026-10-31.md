@@ -30,3 +30,23 @@ Code review (no CRITICAL/HIGH) caught three overstatements in this record: the "
 Also fixed while testing: the sticky Call/Request bar was outside any landmark on inner pages (axe `region`). It is now a labelled `<aside>`.
 
 Still open (owner or client): real photos with consent, real doctor names and credentials, and the base-site-like two-doctor hero (the owner asked for faces first; the arch and colours keep it our own).
+
+## Round 3 (layout from the competitor teardown, branch claude/laughing-keller-b48kzx-layout), judged on `04-logs/home-demo/H8-*`
+
+New sections were checked against every item: hero fact row, photo-led office cards, care by age, doctor credential cards, inside each office, reviews and insurance slots.
+
+| # | Result | Note |
+|---|---|---|
+| 1 | no | Still waiting on client facts. Every unconfirmed fact is now a typed `Fact` slot in `practice.ts`. With `practice.demo = false`, a clean build shows 0 slots, 0 sample notes and no empty sections (tested 2026-10-31). |
+| 2 | yes | Stand-in faces are labelled on screen. Office photos are named empty frames, never stock. |
+| 3 | yes | Every slot says what is needed, in brackets and muted; photo frames are dashed and named. |
+| 4 | yes | The fact row sits below the doctor cards. The 390 fold still shows what, where, and one gold action. |
+| 5, 8, 10, 13, 14 | yes | Unchanged. |
+| 6 | yes | The closing two-button band after the form is off on Home. |
+| 7 | yes | Neighbours differ: cards on indigo, ranked age rows, credential cards, photo-slot row, single-column links, a two-column list. Reviews and Insurance no longer share one split. |
+| 9 | yes | Code review found no accent colour on non-actions. Today's hours row uses a cream tint and weight, not accent. |
+| 11 | yes | No eyebrows or tracked caps, and no "A · B" strings. The open-now no-JS text now uses "; ". |
+| 12 | yes | Nothing clipped at 360 or 390; axe 0. |
+| 15 | yes | The arch device, our palette and our own copy. The structure is borrowed; the layout, wording and photos are not. |
+
+**Round 3: 14 of 15, item 1 still open (client facts).**
