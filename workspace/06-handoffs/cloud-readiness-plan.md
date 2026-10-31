@@ -8,9 +8,9 @@ Question: will a cloud Claude session have what we built up locally? Answer: **n
 |---|---|---|---|---|---|
 | 1 | Conversation history (24 h of decisions) | local transcript files in `~/.claude/projects/` | No | Replaced by handoff notes, `LOG.md` and `03-decisions/`. Transcripts are NOT committed: they contain a pasted ngrok token and personal data | Done |
 | 2 | Project guidance (red lines, commands, design rules) | nowhere (repo had no `CLAUDE.md`) | No | Added `CLAUDE.md` at the repo root | Done |
-| 3 | Skills (307 local) | `~/.claude/skills/` | No | Copied the 13 we actually use into `.claude/skills/` (see CLAUDE.md). The other ~294 are unrelated (Rust, Kotlin, logistics...) and stay local | Done |
+| 3 | Skills (307 local) | `~/.claude/skills/` | No | Copied the 31 that fit this project into `.claude/skills/` (UI, quality, security/health data, the competitor-research pipeline, copy, process). The other ~276 are unrelated (Rust, Kotlin, logistics...) and stay local. All skills came from https://github.com/affaan-m/ECC (commit ef648e0, installed 2026-10-09) | Done |
 | 4 | Global rules (coding style, security, testing, git, review) | `~/.claude/rules/ecc/common/` | No | Copied 8 relevant files into `.claude/rules/`. Left out `hooks.md` and `performance.md` (describe local setup only) | Done |
-| 5 | ECC agents (`ecc:planner`, `ecc:code-reviewer`...) | `ecc@ecc` plugin, not in the plugin list on this PC | No | Cannot be shipped in the repo. `CLAUDE.md` tells the cloud session to do that work itself or use built-in agents | Known gap |
+| 5 | Agents and commands | `~/.claude/agents/` (code-reviewer, mle-reviewer), `~/.claude/commands/` (code-review). The `ecc:planner`-style agents named in the rules were never installed on this PC either | No | Copied `code-reviewer` to `.claude/agents/` and `/code-review` to `.claude/commands/`. mle-reviewer left out (ML, not relevant). Full ECC set is public: install it in the cloud from the source above if wanted | Done / optional |
 | 6 | Memory notes | `~/.claude/projects/-mnt-All-Sakib/memory/` | No | Site notes now in `workspace/06-handoffs/memory/` (4 files). Unrelated notes (UAV paper review, whisper tooling) stay local on purpose | Done |
 | 7 | Logs | `workspace/04-logs/LOG.md` (in git) but had no entries for session 2 | Yes, but stale | Appended session 2 entries | Done |
 | 8 | Handoff notes | `workspace/06-handoffs/` | Yes | Session 2 cloud handoff already on `main` | Done |
@@ -27,12 +27,9 @@ Question: will a cloud Claude session have what we built up locally? Answer: **n
 
 ## 2. Owner actions (cannot be done from inside the repo)
 1. **Rotate the ngrok auth token** (it was pasted in chat): dashboard.ngrok.com.
-2. **Add `.claude/settings.json`** if you want fewer permission prompts in the cloud. Suggested minimal content:
-   ```json
-   { "permissions": { "allow": ["Bash(npm ci)", "Bash(npm run check)", "Bash(npm run build)", "Bash(npm run dev)", "Bash(npx astro *)", "Bash(git status*)", "Bash(git diff*)", "Bash(git log*)", "Bash(gh pr view*)"] } }
-   ```
+2. **Install the permission allowlist** (fewer prompts in the cloud). The permission checker would not let me create `.claude/settings.json` myself, so the content is in `workspace/06-handoffs/suggested-claude-settings.json`. Run once in the repo root: `! cp workspace/06-handoffs/suggested-claude-settings.json .claude/settings.json` and commit it. Review it first: it only allows npm, astro and read-only git/gh commands.
 3. **Confirm in the cloud environment**: GitHub access to this private repo, the setup command (`bash scripts/cloud-setup.sh`), and which connectors are on.
-4. **Decide** whether to install the `ecc` plugin in the cloud (item 5) or accept the gap.
+4. **Decide** whether to install the full ECC set in the cloud (item 5) or keep the minimal one we ship.
 
 ## 3. First message to give the cloud session
 > Read CLAUDE.md, then workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md and cloud-readiness-plan.md. Run `bash scripts/cloud-setup.sh`. Then continue with the "Can do without the client" list in the handoff.
