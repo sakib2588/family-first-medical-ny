@@ -1,0 +1,35 @@
+---
+import { offices } from '../data/practice'
+const fieldClass = 'mt-1.5 block min-h-12 w-full rounded-xl border border-[#8b87a8] bg-white px-4 text-base text-indigo'
+const times = ['Morning', 'Afternoon', 'Evening']
+const chip = 'flex min-h-12 cursor-pointer items-center justify-center rounded-xl border border-[#8b87a8] bg-white px-3 font-medium text-indigo has-[:checked]:border-teal-deep has-[:checked]:bg-teal-deep has-[:checked]:text-white has-[:focus-visible]:outline has-[:focus-visible]:outline-[3px] has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-indigo'
+---
+  <form id="request-form" class="space-y-5 md:max-w-md" novalidate>
+    <div><label for="name" class="font-semibold text-indigo">Your name</label><input id="name" name="name" autocomplete="name" required class={fieldClass} /></div>
+    <div><label for="phone" class="font-semibold text-indigo">Phone number</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required class={fieldClass} /></div>
+    <fieldset>
+      <legend class="font-semibold text-indigo">Which office?</legend>
+      <div class="mt-2 grid grid-cols-2 gap-3">
+        {offices.map((o, i) => (<label class={chip}><input class="sr-only" type="radio" name="office" value={o.slug} checked={i === 0} />{o.neighborhood.split(',')[0]}</label>))}
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend class="font-semibold text-indigo">Best time to call</legend>
+      <div class="mt-2 grid grid-cols-3 gap-3">
+        {times.map((t, i) => (<label class={chip}><input class="sr-only" type="radio" name="time" value={t.toLowerCase()} checked={i === 0} />{t}</label>))}
+      </div>
+    </fieldset>
+    <p class="text-sm text-muted">Please do not include symptoms or medical details. For emergencies, call 911. We use your name and number only to call you back about a visit. <a href="/legal/privacy" class="underline underline-offset-4">Privacy policy</a>.</p>
+    <button type="submit" class="btn inline-flex min-h-14 w-full items-center justify-center rounded-full bg-teal-deep text-lg font-semibold text-white hover:bg-teal-darker">Send request</button>
+    <p id="request-status" role="status" class="min-h-6 text-[0.97rem] font-medium text-teal-deep"></p>
+  </form>
+<script>
+  const form = document.getElementById('request-form') as HTMLFormElement | null
+  const status = document.getElementById('request-status')
+  form?.addEventListener('submit', e => {
+    e.preventDefault()
+    if (!form.checkValidity()) { form.reportValidity(); return }
+    if (status) status.textContent = 'Design demo: no request was sent.'
+  })
+  document.querySelectorAll('[data-visit]').forEach(a => a.addEventListener('click', () => { if (status) status.textContent = '' }))
+</script>

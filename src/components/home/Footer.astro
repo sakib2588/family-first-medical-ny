@@ -1,16 +1,25 @@
 ---
-const legal = ['Privacy policy', 'Notice of privacy practices', 'Terms of use', 'Accessibility', 'Nondiscrimination notice']
+import { practice, offices, legalPages, telHref } from '../../data/practice'
 ---
 <footer id="site-footer" class="bg-indigo px-5 pb-28 pt-14 text-[0.97rem] text-[#e6e2f5] md:px-8 md:pb-14 md:pt-20"><div class="mx-auto max-w-[1160px]">
-  <p class="font-display text-2xl font-semibold text-white">AIMSS Family Health</p>
-  <p class="mt-1 text-[#c9c4e3]">Family medicine and pediatrics in Queens and Nassau County.</p>
-  <div class="mt-8 grid gap-6 md:grid-cols-2 md:gap-12 md:max-w-3xl">
-    <div><h2 class="font-sans text-sm font-semibold uppercase tracking-[0.12em] text-gold">Elmhurst</h2><p class="mt-1">123 Sample Street, Elmhurst, NY 11373</p><a class="inline-flex min-h-11 items-center font-semibold text-white underline underline-offset-4" href="tel:+17185550142">(718) 555-0142</a></div>
-    <div><h2 class="font-sans text-sm font-semibold uppercase tracking-[0.12em] text-gold">Hicksville</h2><p class="mt-1">456 Example Avenue, Hicksville, NY 11801</p><a class="inline-flex min-h-11 items-center font-semibold text-white underline underline-offset-4" href="tel:+15165550188">(516) 555-0188</a></div>
+  <p class="font-display text-2xl font-semibold text-white">{practice.name}</p>
+  <p class="mt-1 text-[#c9c4e3]">{practice.tagline}</p>
+  <div class="mt-8 grid gap-6 md:max-w-3xl md:grid-cols-2 md:gap-12">
+    {offices.map(o => (
+      <div>
+        <h2 class="font-sans text-sm font-semibold uppercase tracking-[0.12em] text-gold"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.neighborhood.split(',')[0]}</a></h2>
+        <p class="mt-1">{o.addr}</p>
+        <p class="tabular mt-1 text-[#c9c4e3]">{o.week.map(([d, h]) => `${d}: ${h}`).join(' · ')}</p>
+        <a class="tabular inline-flex min-h-11 items-center font-semibold text-white underline underline-offset-4" href={telHref(o.phone)}>{o.phone}</a>
+      </div>
+    ))}
   </div>
   <p class="mt-8 rounded-2xl border border-[#4a4378] p-4"><strong class="text-white">In an emergency, call 911.</strong> This website cannot give medical advice.</p>
-  <ul class="mt-8 flex flex-wrap gap-x-5">
-    {legal.map(l => (<li><a href="#site-footer" class="inline-flex min-h-11 items-center underline underline-offset-4">{l}</a></li>))}
-  </ul>
-  <p class="mt-6 text-sm text-[#b5b0d4]">Design demo with sample content and stand-in photos. Legal pages are drafts pending counsel. Last reviewed: sample date.</p>
+  <nav aria-label="Legal" class="mt-8"><p class="font-sans text-sm font-semibold uppercase tracking-[0.12em] text-gold">Policies and help</p><a href="/legal/nondiscrimination#language" class="mt-1 inline-flex min-h-11 items-center font-semibold text-white underline underline-offset-4">Language help / Ayuda con el idioma</a>
+    <ul class="flex flex-wrap gap-x-5">
+      <li><a href="/legal" class="inline-flex min-h-11 items-center font-semibold underline underline-offset-4">All policies</a></li>
+      {legalPages.map(l => (<li><a href={`/legal/${l.slug}`} class="inline-flex min-h-11 items-center underline underline-offset-4">{l.short}</a></li>))}
+    </ul>
+  </nav>
+  <p class="mt-6 text-sm text-[#b5b0d4]">Design demo with sample content and stand-in photos. Legal pages are drafts pending counsel. Last reviewed: {practice.lastReviewed}.</p>
 </div></footer>

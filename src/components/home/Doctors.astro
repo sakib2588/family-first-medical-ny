@@ -1,10 +1,7 @@
 ---
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-const doctors = [
-  { name: 'Dr. Arjun Mehta', role: 'Pediatrics and adolescent care', blurb: 'Well-child visits, vaccines, school and sports physicals, and calm answers for worried parents.', img: '/demo/doctor-male.webp', alt: 'Dr. Arjun Mehta, pediatrician (stand-in photo)' },
-  { name: 'Dr. Elena Park', role: 'Family medicine', blurb: 'Annual physicals, chronic condition care, women\'s health and preventive screenings for adults.', img: '/demo/doctor-female.webp', alt: 'Dr. Elena Park, family physician (stand-in photo)' },
-]
+import { doctors } from '../../data/practice'
 ---
 <Section id="doctors">
   <span class="mb-4 block h-1 w-10 rounded-full bg-gold" aria-hidden="true"></span>
@@ -14,12 +11,12 @@ const doctors = [
       <li class="grid grid-cols-[7.5rem_1fr] items-center gap-5 md:grid-cols-[11rem_1fr] md:gap-8">
         <div class="arch aspect-[3/4.2] bg-lavender"><img src={d.img} alt={d.alt} width="240" height="336" loading="lazy" class="size-full object-cover object-top"/></div>
         <div>
-          <h3 class="text-xl md:text-2xl">{d.name}</h3>
+          <h3 class="text-xl md:text-2xl"><a href={`/doctors/${d.slug}`} class="underline-offset-4 hover:underline">{d.name}</a></h3>
           <p class="mt-1 text-sm font-semibold text-teal-deep md:text-base">{d.role}</p>
           <p class="mt-2 text-[0.97rem] md:text-base">{d.blurb}</p>
         </div>
       </li>
     ))}
   </ul>
-  <a href="#request" class="btn mt-8 inline-flex min-h-12 items-center gap-2 font-semibold text-teal-deep underline underline-offset-4">Meet us at your first visit <Icon name="arrow" size={18} /></a>
+  <a href="/doctors" class="btn mt-8 inline-flex min-h-12 items-center gap-2 font-semibold text-teal-deep underline underline-offset-4">Read more about our doctors <Icon name="arrow" size={18} /></a>
 </Section>
