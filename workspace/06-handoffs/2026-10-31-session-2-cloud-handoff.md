@@ -32,29 +32,43 @@ Last results (2026-10-31): `check` passes, 17 pages; QA shows no horizontal over
 - Request form does not send. Needs endpoint decision, business associate agreement and counsel (Q13, Q4, Q19 in `03-decisions/deferred-questions.md`).
 - Can do without the client: hero doctor-avatar repeat, About band crop, one photo treatment for stand-ins, performance budget numbers, more a11y passes (screen reader).
 
-## Sharing the site (decided 2026-10-31: PUBLIC, Cloudflare Pages)
-Owner decision: anyone with the link may view the demo. No login. Use Cloudflare Pages, not ngrok (ngrok only works while a PC is on, shows a warning page, and the domain can be online from one machine only). ngrok stays an optional local tool.
+## Sharing the site (decided 2026-10-31: PUBLIC, Cloudflare Workers static assets)
+Owner decision: anyone with the link may view the demo. No login. Use Cloudflare, not ngrok (ngrok only works while a PC is on, shows a warning page, and the domain can be online from one machine only). ngrok stays an optional local tool.
 
-**Goal:** one stable URL for `main` (for example `family-first-medical.pages.dev`) that updates on every merge, plus a preview URL per branch/PR.
+**Live URL (deployed and checked by the owner 2026-10-31):** https://family-first-medical-ny.rnqbank.workers.dev
 
-**Settings:** framework preset Astro (or none), build command `npm run build`, output directory `dist`, production branch `main`, env var `NODE_VERSION=24` (see `.nvmrc`). No server, no functions, no secrets needed.
+It is a Cloudflare **Worker with static assets** (not Cloudflare Pages, and not `*.pages.dev`). The owner connected the GitHub repo in the Cloudflare dashboard; every merge to `main` redeploys it.
 
-**How (pick the first that works):**
-1. Owner connects the GitHub repo once in the Cloudflare dashboard (Workers & Pages > Create > Pages > Connect to Git > this repo) with the settings above. This is the simplest and needs no token in the repo. If the owner has not done it, ask them to; give them these exact settings.
-2. If a Cloudflare connector is available in the session, it needs the owner to sign in first. Ask; never guess credentials.
-3. Fallback: `npx wrangler pages deploy dist --project-name <name>` with `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` set as environment secrets by the owner. NEVER commit them or paste them in files or PRs.
+**Settings (as set by the owner in the Cloudflare dashboard):**
+| Setting | Value |
+|---|---|
+| Production branch | `main` |
+| Build command | `npm run build` |
+| Deploy command | `npx wrangler deploy --assets=./dist --compatibility-date=2026-10-31` |
+| Preview (non-production branches) command | `npx wrangler versions upload --assets=./dist --compatibility-date=2026-10-31` |
+| Preview builds | On (each branch/PR gets its own public preview URL) |
+| Node version | 24, read from `.nvmrc` (no env var) |
+| Access protection | Off (public, owner decision) |
+| Secrets | None. No server code, no functions. There is no `wrangler.toml`/`wrangler.jsonc` in the repo; the flags above are the whole config |
 
-**Privacy traps (the site promises zero trackers, so check these after the first deploy):**
-- Turn OFF Cloudflare Web Analytics for the project. Its beacon is injected at the edge, so `npm run check` cannot see it. Verify by loading the live page and confirming there is no request to `static.cloudflareinsights.com` (use `workspace/tools/qa-pages.mjs` against the live URL, or a Playwright network log).
+No token is in the repo and none may ever be. If a session ever needs to deploy by hand, the owner sets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as environment secrets; never commit them or paste them in files or PRs. Claude cloud sessions cannot reach `*.workers.dev` or `api.cloudflare.com` unless the owner adds them under the environment's Network access > Allowed domains.
+
+**Owner checks done 2026-10-31:** every page returns 200, `noindex` and the demo banner are present, no analytics beacon.
+
+**Privacy traps (the site promises zero trackers; re-check after any Cloudflare setting change):**
+- Keep Cloudflare Web Analytics OFF for this Worker. Its beacon is injected at the edge, so `npm run check` cannot see it. Verify by loading the live page and confirming there is no request to `static.cloudflareinsights.com` (`QA_BASE_URL=<live url> node qa-pages.mjs` in `workspace/tools`, or a Playwright network log).
 - Keep `noindex, nofollow` (in `src/layouts/Base.astro`). The content is placeholder; search engines must not index it. Do not add a sitemap.
+- **Cloudflare adds its own `robots.txt` at the edge.** It is not in `dist`, so `npm run check` cannot see it, and its content is Cloudflare's, not ours. Our own `public/robots.txt` (`Disallow: /`) is the intended source; after it ships, open the live `/robots.txt` and confirm what is actually served.
 - Keep the "Design demo · sample content" banner. Legal pages are DRAFTS and will be publicly visible; the banner and DRAFT boxes must stay until counsel approves.
 - Preview URLs for branches are public too. Do not push placeholder phone numbers that look real to a public branch beyond what is already in `src/data/practice.ts` (they are 555 numbers; keep it that way).
 
-**Follow-up task (from the base-site flaw list, F16):** add `public/_headers` with HSTS, a strict CSP (`default-src 'self'`; fonts and images are self-hosted), `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`. Run `npm run check` and the QA script after, because a too-strict CSP can break the inline scripts (call dialog, open-now chip, menu); use hashes or move them to files if so.
+**Follow-up task (from the base-site flaw list, F16):** add `public/_headers` with HSTS, a strict CSP (`default-src 'self'`; fonts and images are self-hosted), `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`. Workers static assets reads `_headers` from the assets folder (`dist`). Run `npm run check` and the QA script after, because a too-strict CSP can break the inline scripts (call dialog, open-now chip, menu); use hashes or move them to files if so.
 
-**Custom domain:** later, when the client confirms a domain (blocker DOM). Until then the `*.pages.dev` URL is the share link.
+**Not yet checked:** the deploy command sets no `not_found_handling`, so an unknown URL may get Cloudflare's bare 404 instead of our `/404` page. Open a made-up path on the live site to see.
 
-**After the first successful deploy:** write the live URL here, add a `LOG.md` line, and tell the owner the link. Check that the live site matches `main` (open `/doctors`, `/locations`, `/legal/privacy`, the call dialog, and the footer). The deployed URL: _(not set up yet)_
+**Custom domain:** later, when the client confirms a domain (blocker DOM). Until then the `*.workers.dev` URL above is the share link.
+
+The deployed URL: https://family-first-medical-ny.rnqbank.workers.dev
 
 ## Local-only things (not in git, will not exist in the cloud)
 - ngrok: installed on the laptop and the PC. The reserved domain can only be online from ONE machine at a time (error ERR_NGROK_334 otherwise). The auth token was pasted in chat once, so rotate it at dashboard.ngrok.com. Never commit it.

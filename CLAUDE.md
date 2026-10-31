@@ -20,7 +20,7 @@ First time in a new environment: `bash scripts/cloud-setup.sh`.
 - No "Open 7 Days"-style claims that are false for one office. Hours come only from `src/data/practice.ts`.
 - Never commit secrets (an ngrok token was pasted in chat once; rotate it). Never rewrite history or force-push (owner decision: `workspace/` stays in git).
 - Do not build the base site's intro splash (owner decision).
-- Sharing: the demo is PUBLIC on Cloudflare Pages (owner decision, no login). Keep `noindex`, keep the demo banner and DRAFT legal boxes, and keep Cloudflare Web Analytics OFF. Setup steps and privacy checks: `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md`, section "Sharing the site". Do not use ngrok to share.
+- Sharing: the demo is PUBLIC at https://family-first-medical-ny.rnqbank.workers.dev (Cloudflare Workers static assets, deploys from `main`; owner decision, no login). Keep `noindex`, keep the demo banner and DRAFT legal boxes, and keep Cloudflare Web Analytics OFF. Setup steps and privacy checks: `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md`, section "Sharing the site". Do not use ngrok to share.
 
 ## Design
 Direction in `workspace/03-decisions/home-demo-direction.md`. Calm, warm, credible. One shape device (the arch), Fraunces + Figtree, one filled action per screen, 44 px tap targets, WCAG 2.2 AA. Tokens in `src/styles/global.css` (button teal is `teal-deep` #0b6f6f; brand teal fails AA with white text; gold is never text on cream).
@@ -39,7 +39,7 @@ Pick the FIRST matching row. Use only the skills named; do not browse the rest. 
 | Before opening any PR | `verification-loop` -> `code-reviewer` agent (or `/code-review`) -> `browser-qa` | See "Definition of done". |
 | Site speed or SEO | `seo`, `benchmark` | Budget in `workspace/02-analysis/improvement-plan.md` (rank 6). No analytics or third-party tools to measure. |
 | Pre-launch readiness | `production-audit` | Needs client facts first (see handoff). |
-| Deploy or share the site | none (follow the handoff, "Sharing the site") | Cloudflare Pages, public. Check no analytics beacon appears. |
+| Deploy or share the site | none (follow the handoff, "Sharing the site") | Cloudflare Workers static assets, public, deploys on merge to `main`. Check no analytics beacon appears and what the edge serves at `/robots.txt` (Cloudflare adds its own). |
 | Write a commit or PR | `conventional-commit-review`, `git-workflow` | Identity rule below. |
 | Record an owner decision | `architecture-decision-records` | Write to `workspace/03-decisions/`, dated. |
 | Compare more sites or redo research | `competitive-platform-analysis` -> `benchmark-methodology` -> `competitive-report-structure`, `deep-research` | ON REQUEST ONLY. Research is done (`workspace/01-research`, `02-analysis`). |
