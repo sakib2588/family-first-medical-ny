@@ -1,0 +1,121 @@
+/* ==========================================================================
+   05-tokens.css: locked design tokens (gate 5 of site1-design-craft)
+
+   How to use:
+   1. Copy this file next to the page as 05-tokens.css.
+   2. Replace every fill marker (two at-signs, the word FILL, two at-signs)
+      with the chosen direction's value. A custom property accepts any token,
+      so this file parses as it is; an unfilled value breaks the page visibly.
+      Gate check: tools/check-gates.py fails while a marker is left.
+   3. Write the reason lines and the contrast record (tools/craft.py contrast).
+   4. Paste the result unchanged as the first :root block of the page.
+      Components use var(--...) only: no raw hex, color functions or named colors.
+      Write every color token as 3- or 6-digit hex: the contrast tools read hex.
+   This file holds no client facts; names, numbers and copy live in 01-facts.md.
+   ========================================================================== */
+
+:root {
+  /* ---- Type pair -------------------------------------------------------
+     Two families that differ clearly (classification, weight or width).
+     Two similar sans faces are not a pair. The body face is not Inter,
+     Roboto, Open Sans, Arial or the system stack unless the brief pins it.
+     Contrast reason: @@FILL@@
+     License source per family: @@FILL@@
+     How it loads (font service link or self-hosted file): @@FILL@@ */
+  --font-display: @@FILL@@;
+  --font-body: @@FILL@@;
+
+  /* ---- Type scale ------------------------------------------------------
+     Choose the base size and the ratio from the chosen direction's
+     "layout density" and "whitespace" axes in 04-concepts.md (for example
+     1.2 dense, 1.333 balanced, 1.5 airy). Step n = base x ratio^n, set as
+     clamp() in rem. Headings shrink on phones; body stays near the base.
+     Base and ratio, with a one-line reason: @@FILL@@ */
+  --step--1: @@FILL@@;                /* small print */
+  --step-0: @@FILL@@;                 /* body, 1rem to 1.125rem */
+  --step-1: @@FILL@@;                 /* h3 */
+  --step-2: @@FILL@@;                 /* h2 */
+  --step-3: @@FILL@@;                 /* h1 */
+  --leading-body: @@FILL@@;           /* at least 1.5 */
+  --leading-tight: @@FILL@@;          /* headings, 1 to 1.35 */
+  --measure: @@FILL@@;                /* running text, 45ch to 80ch */
+  --weight-body: @@FILL@@;
+  --weight-strong: @@FILL@@;          /* the one weight change used for emphasis */
+  --weight-display: @@FILL@@;
+
+  /* ---- Color roles -----------------------------------------------------
+     Four or five roles, plus tints and shades of them. No new hue per section.
+     A brand color pinned by the brief may be the accent; it may also appear
+     where the brief pins it (for example a logo mark), and as --color-brand
+     on the surfaces or bands the Parts table names.
+     Accent jobs (one line, for example "primary button fill and its hover
+     only"): @@FILL@@
+     Never on heading words, dividers, bullets, icons or background panels.
+     Contrast record (text at least 4.5:1; large text, 24px or 18.66px bold,
+     at least 3:1; controls and focus at least 3:1):
+       ink on ground ............ @@FILL@@
+       muted on ground .......... @@FILL@@
+       ink on surface ........... @@FILL@@
+       on-accent on accent ...... @@FILL@@
+       accent against ground .... @@FILL@@
+       focus against ground ..... @@FILL@@                                  */
+  --color-ground: @@FILL@@;           /* page background */
+  --color-surface: @@FILL@@;          /* raised or alternate section tone */
+  --color-ink: @@FILL@@;              /* main text */
+  --color-muted: @@FILL@@;            /* secondary text; still at least 4.5:1 */
+  --color-line: @@FILL@@;             /* hairlines and borders */
+  --color-accent: @@FILL@@;           /* primary action fill */
+  --color-accent-strong: @@FILL@@;    /* hover and pressed, derived from the accent */
+  --color-on-accent: @@FILL@@;        /* text on the accent */
+  --color-brand: @@FILL@@;            /* the brief's pinned brand color, or the ground value if none; never text under 4.5:1 */
+
+  /* ---- State colors, separate from the accent ------------------------- */
+  --color-focus: @@FILL@@;
+  --color-error: @@FILL@@;
+  --color-success: @@FILL@@;
+
+  /* ---- Spacing: 4 px steps in rem ---------------------------------------
+     Space inside a group is always smaller than space between groups.
+     Section gap and container, with a one-line reason from the direction's
+     density and whitespace axes: @@FILL@@ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --section-gap: @@FILL@@;            /* desktop, about 64 to 96 px, through clamp() */
+  --container: @@FILL@@;              /* cap near 75rem at wide screens */
+  --gutter: var(--space-4);
+
+  /* ---- Shape: radius and elevation by role -----------------------------
+     Roles may differ; one radius on everything is a tell.
+     Shape language, one line: @@FILL@@ */
+  --radius-control: @@FILL@@;         /* buttons and inputs */
+  --radius-panel: @@FILL@@;           /* content panels; may be 0 */
+  --radius-media: @@FILL@@;           /* image or illustration frames */
+  --border: @@FILL@@;                 /* the direction's border language: a hairline, a weight, or none */
+  --shadow-raised: @@FILL@@;          /* offset plus soft blur tinted from ink, or none */
+
+  /* ---- Touch: 44 CSS px is the project rule (U16.6; WCAG AA floor 24) -- */
+  --tap-min: 2.75rem;
+
+  /* ---- Motion budget ---------------------------------------------------
+     List every animation here: trigger, property, duration, reduced-motion
+     behavior. Nothing else moves. Transform and opacity only. Never the H1,
+     the primary action or the largest image.
+       1. @@FILL@@ (or "none")                                              */
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-base: 0ms;
+  }
+}
