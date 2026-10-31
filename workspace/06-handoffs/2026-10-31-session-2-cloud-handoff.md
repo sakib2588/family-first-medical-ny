@@ -30,7 +30,9 @@ Last results (2026-10-31): `check` passes, 17 pages; QA shows no horizontal over
 - Photos: stand-in Unsplash images, mixed treatment. Needs one treatment, then real photos with written consent.
 - Trust layer: none, on purpose. Do not invent reviews or stats.
 - Request form does not send. Needs endpoint decision, business associate agreement and counsel (Q13, Q4, Q19 in `03-decisions/deferred-questions.md`).
-- Can do without the client: hero doctor-avatar repeat, About band crop, one photo treatment for stand-ins, performance budget numbers, more a11y passes (screen reader).
+- Home rebuilt 2026-10-31 (session 3, one page at a time, rulebook questions first): decisions in `03-decisions/2026-10-31-home-page-decisions.md`, screenshots `04-logs/home-demo/H5-*`. Round 2 after the owner's phone review: three-colour system and doctors in an indigo hero (`03-decisions/2026-10-31-home-colour-and-hero.md`, screenshots `H6-*`). Inner pages still use lavender; align each when its question round comes. Done: hero doctor-avatar repeat, dark About band (folded into Doctors), one photo treatment, unverified claims removed, headings copied from the base site rewritten.
+- Can do without the client: performance budget numbers, more a11y passes (screen reader), favicon, custom 404 on Cloudflare (`not_found_handling`), footer raw colours to tokens, one small-text size token, inner pages: doctor page heading "Where to see Mehta" and the sticky bar showing next to the page's own Call/Request pair.
+- Next page (owner method): ask the rulebook questions for the next page before building it.
 
 ## Sharing the site (decided 2026-10-31: PUBLIC, Cloudflare Pages)
 Owner decision: anyone with the link may view the demo. No login. Use Cloudflare Pages, not ngrok (ngrok only works while a PC is on, shows a warning page, and the domain can be online from one machine only). ngrok stays an optional local tool.
