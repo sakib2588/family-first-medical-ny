@@ -103,3 +103,8 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 }
 @keyframes age-line-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
 @keyframes age-line-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+/* FAQ answer (motion #6): opacity + 4 px rise when a details opens. Height never animates. */
+@media (prefers-reduced-motion: no-preference) {
+  details.faq[open] .faq__answer { animation: faq-in var(--m-state) var(--ease-state); }
+}
+@keyframes faq-in { from { opacity: 0; transform: translateY(-4px); } }

@@ -19,6 +19,8 @@ export const practice = {
   demo: true,
   languages: toConfirm<string>('to confirm'),
   acceptingNew: toConfirm<string>('to confirm, with date'),
+  afterHours: toConfirm<string>('after-hours line or answering service'),
+  records: toConfirm<string>('how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
     publicPlans: toConfirm<string>('taken? with date'),
