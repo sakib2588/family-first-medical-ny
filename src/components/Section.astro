@@ -4,6 +4,6 @@ interface Props { id?: string; tone?: 'cream' | 'white' | 'lavender' | 'indigo';
 const { id, tone = 'cream', class: cls = '', label } = Astro.props
 const tones = { cream: 'bg-cream', white: 'bg-white', lavender: 'bg-lavender', indigo: 'on-dark bg-indigo text-on-dark' }
 ---
-<section id={id} aria-label={label} class={`px-5 py-14 md:px-8 md:py-20 ${tones[tone]} ${cls}`}>
+<section id={id} aria-label={label} class={`px-5 py-16 md:px-8 lg:py-24 ${tones[tone]} ${cls}`}>
   <div class="mx-auto max-w-[1160px]"><slot /></div>
 </section>

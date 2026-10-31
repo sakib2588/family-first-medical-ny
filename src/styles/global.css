@@ -91,3 +91,6 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 @media (prefers-reduced-motion: reduce) { dialog.sheet, dialog.sheet[open] { transform: none; } }
 /* The one gold underline under one H1 word (palette D brand mark): a 3 px rule, decorative, not a link style. */
 .brand-underline { background: linear-gradient(var(--color-gold), var(--color-gold)) no-repeat 0 92% / 100% 3px; padding-bottom: .04em; }
+/* Arrow nudge (motion #3) */
+.arrow-link svg { transition: transform var(--m-state) var(--ease-state); }
+.arrow-link:hover svg, .arrow-link:focus-visible svg { transform: translateX(3px); }
