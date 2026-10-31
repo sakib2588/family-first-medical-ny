@@ -1,34 +1,50 @@
 ---
-// Doctor detail cards: the reference site's credential grid, made ours. Small arch portrait (the large faces are in
-// the hero), name, role, ages, then each credential as a fact slot: nothing shows until it is checked against the
-// public lookups named in practice.ts (no "board-certified", no years, no "accepting" pill: CLAUDE.md red lines).
+// Doctors, person-first (spec 4.9): the face, who they see, the days at each office (a Fact slot the client
+// confirms), a short blurb, then credentials: folded in <details> on phone, always visible on desktop. Every
+// credential is a slot until checked against the public lookups in practice.ts (no "board-certified", no years,
+// no "accepting new patients": CLAUDE.md red lines).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import FactSlot from '../FactSlot.astro'
-import { doctors, practice, isShown } from '../../data/practice'
+import { doctors, practice, isShown, officeBySlug } from '../../data/practice'
 ---
 <Section id="doctors">
-  <h2 class="text-[1.9rem] md:text-4xl">About the doctors</h2>
-  <ul class="mt-8 space-y-5 md:mt-12 md:grid md:grid-cols-2 md:gap-6 md:space-y-0">
-    {doctors.map(d => (
-      <li class="rounded-3xl border border-line bg-white p-5 md:p-7">
+  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our doctors</h2>
+  <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
+    {doctors.map(d => {
+      const creds = [...d.credentials, { label: 'Languages', fact: d.languages }].filter(c => isShown(c.fact))
+      const schedule = d.schedule.filter(s => isShown(s.days))
+      const credList = (
+        <dl class="divide-y divide-line text-[0.88rem] lg:grid lg:grid-cols-2 lg:gap-x-6 lg:divide-y-0">
+          {creds.map(c => (<div class="flex min-h-10 flex-wrap items-center justify-between gap-x-3 py-1.5 lg:border-b lg:border-line"><dt class="text-muted">{c.label}</dt><dd class="font-medium text-indigo"><FactSlot fact={c.fact} /></dd></div>))}
+        </dl>
+      )
+      return (
+      <li class="flex flex-col rounded-[1.25rem] bg-white p-5 shadow-lift lg:p-6">
         <div class="flex items-center gap-4">
-          <div class="arch aspect-[3/4] w-[4.5rem] shrink-0 bg-lavender"><img src={d.img} alt="" width="144" height="192" loading="lazy" class="size-full object-cover object-top" /></div>
+          <div class="arch h-[7.06rem] w-[5.65rem] shrink-0 bg-mist lg:h-[10.3rem] lg:w-[8.24rem]"><img src={d.img} alt="" width="280" height="350" loading="lazy" class="size-full object-cover object-top" /></div>
           <div>
-            <h3 class="text-xl md:text-2xl">{d.name}</h3>
-            <p class="mt-0.5 text-[0.95rem] font-semibold text-text">{d.role}</p>
-            <p class="text-sm text-muted">{d.ages}</p>
-            {practice.demo && <p class="text-xs italic text-muted">Sample name and photo</p>}
+            <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">{d.name}</h3>
+            <p class="mt-1 text-[0.88rem] font-semibold text-text">{d.role}</p>
+            <p class="text-[0.88rem] text-muted">{d.ages}</p>
+            {practice.demo && <p class="mt-1 text-[0.82rem] italic text-muted">Sample name and photo</p>}
           </div>
         </div>
-        <dl class="mt-5 divide-y divide-line border-y border-line text-[0.93rem]">
-          {[...d.credentials, { label: 'Languages', fact: d.languages }].filter(c => isShown(c.fact)).map(c => (
-            <div class="grid grid-cols-[8.5rem_1fr] gap-3 py-2"><dt class="text-muted">{c.label}</dt><dd class="font-medium text-indigo"><FactSlot fact={c.fact} /></dd></div>
-          ))}
-        </dl>
-        <p class="mt-4 text-[0.93rem]"><span class="text-muted">Cares for:</span> {new Intl.ListFormat('en', { type: 'conjunction' }).format(d.careAreas)}.</p>
-        <a href={`/doctors/${d.slug}`} class="mt-3 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Full profile of {d.name}<Icon name="arrow" size={18} /></a>
+        {schedule.length > 0 && (
+          <dl aria-label={`Where and when ${d.name} sees patients`} class="mt-4 divide-y divide-line border-y border-line">
+            {schedule.map(s => (<div class="flex min-h-11 flex-wrap items-center justify-between gap-x-3"><dt class="font-semibold text-indigo">{officeBySlug(s.office)?.neighborhood.split(',')[0]}</dt><dd><FactSlot fact={s.days} /></dd></div>))}
+          </dl>
+        )}
+        <p class="mt-3">{d.blurb}</p>
+        {creds.length > 0 && (<>
+          <details class="group mt-3 border-y border-line lg:hidden">
+            <summary class="flex min-h-12 cursor-pointer items-center justify-between font-semibold text-indigo">Training and licence<Icon name="plus" size={20} class="text-muted transition-transform group-open:rotate-45" /></summary>
+            <div class="pb-2">{credList}</div>
+          </details>
+          <div class="mt-4 hidden lg:block"><h4 class="text-[0.88rem] font-semibold text-indigo">Training and licence</h4><div class="mt-1">{credList}</div></div>
+        </>)}
+        <a href={`/doctors/${d.slug}`} class="arrow-link mt-auto inline-flex min-h-11 items-center gap-1.5 pt-2 font-semibold text-teal-deep underline underline-offset-4">About {d.name}<Icon name="arrow" size={18} /></a>
       </li>
-    ))}
+    )})}
   </ul>
 </Section>
