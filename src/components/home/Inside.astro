@@ -1,22 +1,21 @@
 ---
-// "See inside before you visit": the reference site's per-office gallery, as named photo slots until the client
-// sends real photos with consent (rulebook U13, tell 2). The entrance photo is on each office card; this adds
-// reception, waiting area and an exam room. The full set belongs on each location page.
+// Inside each office (spec 4.10): per office one large arch photo and two small ones, captions BELOW the photo
+// (no text on images). Named slots until the client sends real photos with consent (tell 2). Full set: location page.
 import Section from '../Section.astro'
 import PhotoSlot from '../PhotoSlot.astro'
 import { offices, isShown } from '../../data/practice'
 const withPhotos = offices.map(o => ({ o, photos: o.gallery.filter(isShown) })).filter(x => x.photos.length > 0)
 ---
 {withPhotos.length > 0 && <Section id="inside" tone="white">
-  <h2 class="text-[1.9rem] md:text-4xl">Inside each office</h2>
-  <p class="mt-3 max-w-[40ch] md:text-lg">So you know which door to look for and what the rooms look like before your first visit.</p>
-  <div class="mt-8 space-y-10 md:mt-12 md:grid md:grid-cols-2 md:gap-10 md:space-y-0">
-    {withPhotos.map(({ o, photos }) => (
+  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Inside each office</h2>
+  <div class="mt-6 grid gap-10 lg:mt-8 lg:grid-cols-2 lg:gap-6">
+    {withPhotos.map(({ o, photos: [big, ...small] }) => (
       <div>
-        <h3 class="text-xl md:text-2xl"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
-        <div class="mt-4 grid grid-cols-3 gap-2.5 md:gap-3">
-          {photos.map(g => (<PhotoSlot fact={g} compact class="aspect-[4/5]" />))}
-        </div>
+        <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
+        <figure class="mt-3"><PhotoSlot fact={big} shape="arch" class="h-[13rem] w-full lg:h-[17.6rem]" width={1136} height={600} />{big.value && <figcaption class="mt-2 text-[0.82rem] text-muted">{big.value.alt}</figcaption>}</figure>
+        {small.length > 0 && <div class="mt-4 grid grid-cols-2 gap-4">
+          {small.map(g => (<figure><PhotoSlot fact={g} compact class="h-[8.25rem] lg:h-[10rem]" width={544} height={340} />{g.value && <figcaption class="mt-2 text-[0.82rem] text-muted">{g.value.alt}</figcaption>}</figure>))}
+        </div>}
       </div>
     ))}
   </div>
