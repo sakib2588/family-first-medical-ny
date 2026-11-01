@@ -24,7 +24,7 @@ const short = (n: string) => n.slice(0, 3)
       const place = o.neighborhood.split(',')[0]
       const docs = o.doctors.map(doctorBySlug).filter(d => d !== undefined)
       return (
-      <li class="flex flex-col rounded-[1.25rem] border border-line bg-white p-5 lg:p-5">
+      <li class="lift flex flex-col rounded-[1.25rem] border border-line bg-white p-5 lg:p-5">
         <PhotoSlot fact={o.photo} shape="arch" class="h-[10rem] w-full lg:h-[12rem]" width={1056} height={520} />
         <div class="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
           <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
