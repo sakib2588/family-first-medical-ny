@@ -351,3 +351,10 @@ main section:is(#insurance, #reviews)[data-tone] { background-image: linear-grad
 /* Sideways overflow guard: entrance animations (translate/scale) briefly pushed the page 2 px wider than a phone.
    clip (not hidden) so position: sticky keeps working. */
 html, body { overflow-x: clip; }
+
+/* No looping motion on phones and tablets (council 2026-11-02; owner: no Pause motion button on mobile). WCAG 2.2.2 asks
+   for a pause control only for motion that repeats; here every animation plays once and rests, so none is needed.
+   Desktop keeps its loops and its compact Pause control in the top bar. */
+@media (max-width: 63.99rem) {
+  *, *::before, *::after { animation-iteration-count: 1 !important; }
+}
