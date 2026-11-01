@@ -20,7 +20,7 @@
   --color-gold: #d9a02c;         /* accent line, highlights on indigo; the action colour on indigo grounds */
   --color-gold-light: #e8b54a;   /* hover / pressed for the gold action */
   /* 3-colour system (owner round 14): base / primary / accent for bold bands. */
-  --c3-base: #17123a; --c3-primary: #5fc4c4; --c3-accent: #d9a02c;
+  --c3-base: #2e2860; --c3-primary: #5fc4c4; --c3-accent: #d9a02c;
   --header-offset: 6.5rem;       /* sticky desktop header (80 px) + breathing room: scroll padding, sticky asides */
   --color-cream: #faf7ef;        /* page ground */
   --color-lavender: #f2eefc;     /* alternate section ground */
@@ -250,17 +250,40 @@ main > section.on-dark { box-shadow: inset 0 90px 120px -90px rgb(149 140 214 / 
    - light sections are a soft paper tone, not pure white, and ramp to lavender-grey on BOTH sides of a dark band;
    - dark bands lighten to a soft indigo along their top and bottom edges and stay deep midnight only behind the
      content. Text sits inside the padding, so contrast is unchanged (white on the lightened edge stays > 9:1). */
-section[data-tone='white'] { background-image: linear-gradient(180deg, #fbfaf7 0%, #f7f5f1 100%); }
+section[data-tone='white'] { background-image: linear-gradient(180deg, #f5f3ee 0%, #f1efe9 100%); }
 main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark)::after { background: linear-gradient(180deg, rgb(222 218 236 / 0), #dedaec); }
 main > section.on-dark + section:not(.on-dark)::before, main > section.on-dark + script + section:not(.on-dark)::before {
   content: ''; position: absolute; inset: 0 0 auto 0; block-size: 14rem; pointer-events: none; z-index: 0;
   background: linear-gradient(180deg, #dedaec, rgb(222 218 236 / 0));
 }
-main > section.on-dark::after {
-  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
-  background: linear-gradient(180deg, rgb(126 116 206 / .38) 0, rgb(126 116 206 / 0) 7rem, rgb(126 116 206 / 0) calc(100% - 7rem), rgb(126 116 206 / .38) 100%);
-}
+/* (replaced in round 17 by the glass seam strips below) */
 #hero { background-color: #f7f4ee; }
 
 /* Centred section labels: the eyebrow shrinks to its text so its drawn rule sits right before the word. */
 .text-center > .eyebrow { display: inline-block; }
+
+/* ---- Round 17: research-backed seams (research notes: scratchpad/research; sources: WELL v8 citing IES RP-1-12,
+   Material dark theme, Apple HIG dark mode, IBM Carbon layers, NN/g dark mode, W3C WCAG 2.2 / MQ5).
+   Targets: no adjacent pair above ~10:1 luminance contrast, ~3:1 per step across a seam.
+   - Dark bands lighter: --c3-base #2e2860 (white text 13.2:1, aqua 6.4:1, gold 5.7:1; was #17123a).
+   - Light sections a soft paper tone (#f5f3ee -> #f1efe9); they already ramp to lavender #dedaec near a band.
+   - Glass seam strip INSIDE each dark band's top and bottom edge (bands clip overflow): lavender -> mid #7b769e ->
+     band, translucent with a thin highlight, so the light ramp flows into the band with no hard line. Flat edges.
+   - Reduced transparency: the same ramp, opaque. Forced colours: strips hidden, a 1 px system border instead. */
+:root { --paper: #f3f1ec; --lav: #dedaec; --seam-mid: #7b769e; --seam-h: 2rem; }
+@media (min-width: 64rem) { :root { --seam-h: 3rem; } }
+main > section.on-dark::after {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) top / 100% var(--seam-h) no-repeat,
+    linear-gradient(0deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) bottom / 100% var(--seam-h) no-repeat;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .45), inset 0 -1px 0 rgb(255 255 255 / .3);
+}
+/* the Request band sits on the dark footer: no light neighbour below, so no bottom strip */
+main > section.on-dark:is(:last-child, #request)::after { background: linear-gradient(180deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) top / 100% var(--seam-h) no-repeat; box-shadow: inset 0 1px 0 rgb(255 255 255 / .45); }
+@media (prefers-reduced-transparency: reduce) {
+  main > section.on-dark:not(#request)::after { background:
+    linear-gradient(180deg, var(--lav), var(--seam-mid) 50%, var(--c3-base)) top / 100% var(--seam-h) no-repeat,
+    linear-gradient(0deg, var(--lav), var(--seam-mid) 50%, var(--c3-base)) bottom / 100% var(--seam-h) no-repeat; box-shadow: none; }
+}
+@media (forced-colors: active) { main > section.on-dark::after { display: none; } main > section.on-dark { border-block: 1px solid CanvasText; } }
