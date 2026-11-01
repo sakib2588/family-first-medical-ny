@@ -60,8 +60,13 @@ const items = [
   .ins-item__n { display: inline-block; transform-origin: left center; }
   @media (prefers-reduced-motion: no-preference) {
     :global(.js) .ins-item.reveal:not(.in) { transform: translateX(28px); }
-    :global(.js) .ins-item.in .ins-item__n { animation: ins-pop .6s var(--ease-bounce, cubic-bezier(.34, 1.56, .64, 1)) both; animation-delay: calc(var(--rd, 0s) + .15s); }
     @keyframes ins-pop { from { transform: scale(.5); opacity: 0; } }
+    /* Live loop (round 15): the numbers light in turn, 1 -> 2 -> 3 (6 s), reading order. Pausable. */
+    .ins-item__n { animation: ins-glow 6s ease-in-out infinite; }
+    .ins-item:nth-child(2) .ins-item__n { animation-delay: 2s; }
+    .ins-item:nth-child(3) .ins-item__n { animation-delay: 4s; }
+    .ins-item:nth-child(4) .ins-item__n { animation-delay: 6s; }
+    @keyframes ins-glow { 0%, 34%, 100% { background: var(--c3-base); color: var(--c3-primary); box-shadow: 0 0 0 4px rgb(95 196 196 / .18); transform: none; } 8%, 24% { background: var(--color-teal-deep); color: #fff; box-shadow: 0 0 0 6px rgb(11 111 111 / .2), 0 8px 20px -6px rgb(11 111 111 / .6); transform: scale(1.08); } }
     .ins-item:hover .ins-item__n { transform: translateX(4px) scale(1.08); transition: transform .3s var(--ease-soft); }
   }
   .ins-list { isolation: isolate; }

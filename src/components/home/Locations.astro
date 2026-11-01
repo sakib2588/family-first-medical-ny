@@ -39,14 +39,14 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
         <div class="flex flex-1 flex-col p-5 lg:p-7">
           <h3 class="text-[1.35rem] leading-tight lg:text-[1.6rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
           <address class="mt-1 not-italic text-muted">{o.addr}</address>
-          <div class="office__info mt-5 grid gap-3 xl:grid-cols-[1.35fr_1fr] xl:gap-4">
+          <div class="office__info mt-5 grid gap-3 xl:grid-cols-2 xl:gap-3">
             <div class="office__panel office__panel--hours">
               <h4 class="office__label"><Icon name="clock" size={16} />Hours</h4>
               <p class="tabular mt-2 text-[0.94rem] lg:hidden">{segments(o).map((seg, i) => (<>{i > 0 && ' · '}<span class="whitespace-nowrap">{seg}</span></>))}</p>
               <dl aria-label="Hours" class="tabular mt-2 hidden divide-y divide-line text-[0.94rem] lg:block" data-week>
                 {groups(o).map(g => (
                   <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
-                    <dt class="whitespace-nowrap">{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
+                    <dt class="whitespace-nowrap">{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="sr-only hidden">, today</span></dt>
                     <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
                   </div>
                 ))}
@@ -56,7 +56,7 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
               <div class="office__panel office__panel--go">
                 <h4 class="office__label office__label--go"><Icon name="pin" size={16} />Getting there</h4>
                 <ul class="mt-2 grid gap-2 text-[0.94rem]">
-                  {o.access.filter(a => isShown(a.fact)).map(a => (<li class="flex items-start gap-2"><span class="office__dot mt-[.55rem] size-1.5 shrink-0 rounded-full" aria-hidden="true"></span><FactSlot fact={a.fact} /></li>))}
+                  {o.access.filter(a => isShown(a.fact)).map(a => (<li class="flex items-start gap-2 xl:whitespace-nowrap"><span class="office__dot mt-[.55rem] size-1.5 shrink-0 rounded-full" aria-hidden="true"></span><FactSlot fact={a.fact} /></li>))}
                 </ul>
               </div>
             )}
@@ -85,6 +85,7 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
   /* Colour grading (design-system audit, round 13): Hours = teal role (today's row solid teal, white text 5.97:1),
      Getting there = warm gold role (label #7a520c on #fdf7ea 6.6:1; dots decorative). Same roles as the Visits cards. */
   .office__panel { padding: 1rem 1.1rem; border-radius: 1.1rem; }
+  @media (min-width: 80rem) { .office__panel { padding: .9rem .95rem; } }
   .office__panel--hours { background: linear-gradient(160deg, #eef7f6, #e3f1ef); border: 1px solid #cfe5e2; }
   .office__panel--go { background: linear-gradient(160deg, #fdf8ee, #fbf0d9); border: 1px solid #f1e2bf; }
   .office__label--go { color: #7a520c !important; }
@@ -92,6 +93,8 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
   .office__panel--hours :global([data-week] > div) { border-color: rgb(11 111 111 / .14); }
   .office__panel--hours :global([data-week] > div[aria-current='date']) { background: var(--color-teal-deep) !important; color: #fff !important; }
   .office__panel--hours :global([data-week] > div[aria-current='date'] :is(dt, dd, span)) { color: #fff !important; }
+  /* Today: a small aqua dot before the day instead of the word (the word stays for screen readers). */
+  .office__panel--hours :global([data-week] > div[aria-current='date'] dt::before) { content: ''; display: inline-block; inline-size: .45rem; block-size: .45rem; margin-inline-end: .45rem; border-radius: 999px; background: var(--color-aqua); vertical-align: .12em; }
   .office__label { display: flex; align-items: center; gap: .4rem; font-family: var(--font-sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-teal-deep); }
   @media (min-width: 64rem) and (hover: hover) and (prefers-reduced-motion: no-preference) {
     .office :global(.office__photo img) { transition: transform .7s var(--ease-soft); }

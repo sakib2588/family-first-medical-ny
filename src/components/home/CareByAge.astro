@@ -47,6 +47,23 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
   .age-node { border-color: var(--c3-primary) !important; background: var(--c3-base) !important; }
   .age-range { color: var(--c3-primary) !important; }
   .age-desc { color: var(--color-on-dark); }
+  /* Live loop (round 15): a light travels the timeline (top to bottom on phone, left to right on desktop) and each
+     age node glows as it passes (6 s). Paint-only on a 2 px line; pausable; off under reduced motion. */
+  @media (prefers-reduced-motion: no-preference) {
+    .age-line::after { content: ''; position: absolute; z-index: 5; pointer-events: none; inset-block: .5rem 1.5rem; inset-inline-start: 14px; inline-size: 4px; border-radius: 4px; background: linear-gradient(180deg, transparent, rgb(255 255 255 / .95), var(--c3-primary), transparent) no-repeat; background-size: 100% 22%; box-shadow: 0 0 10px rgb(95 196 196 / .0); animation: age-travel-y 6s cubic-bezier(.45, 0, .55, 1) infinite; }
+    @keyframes age-travel-y { from { background-position: 0 -30%; } to { background-position: 0 130%; } }
+    .age-node { animation: age-node 6s ease-in-out infinite; }
+    .age-stage:nth-of-type(1) .age-node { animation-delay: 0s; }
+    .age-stage:nth-of-type(2) .age-node { animation-delay: 1.4s; }
+    .age-stage:nth-of-type(3) .age-node { animation-delay: 2.8s; }
+    .age-stage:nth-of-type(4) .age-node { animation-delay: 4.2s; }
+    @keyframes age-node { 0%, 30%, 100% { box-shadow: 0 0 0 0 rgb(95 196 196 / 0); } 8% { box-shadow: 0 0 0 6px rgb(95 196 196 / .3), 0 0 14px rgb(95 196 196 / .9); } }
+    @media (min-width: 64rem) {
+      .age-line::after { inset-block: 4px auto; inset-inline: 0; block-size: 4px; inline-size: auto; background: linear-gradient(90deg, transparent, rgb(255 255 255 / .95), var(--c3-primary), transparent) no-repeat; background-size: 22% 100%; animation-name: age-travel-x; }
+      @keyframes age-travel-x { from { background-position: -30% 0; } to { background-position: 130% 0; } }
+      @keyframes age-node { 0%, 30%, 100% { box-shadow: 0 0 0 4px var(--c3-base); } 8% { box-shadow: 0 0 0 4px var(--c3-base), 0 0 0 9px rgb(95 196 196 / .35), 0 0 18px rgb(95 196 196 / .9); } }
+    }
+  }
   .age-led { color: var(--color-on-dark); }
   .age-led a { color: #fff !important; text-decoration-color: var(--c3-primary) !important; }
 
