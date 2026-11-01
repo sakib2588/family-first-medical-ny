@@ -20,7 +20,7 @@ const steps = practice.callbackSteps
         <div class="req-steps mt-8 hidden lg:block">
           <h3 class="font-sans text-base font-semibold text-white">How it works</h3>
           <ol class="req-steps__list mt-5">
-            {steps.value.map((t, i) => (<li data-reveal data-step={i + 1}><span class="req-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
+            {steps.value.map((t, i) => (<li data-reveal data-step={i + 1}><span class="req-steps__n ring-step" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
           </ol>
         </div>
       )}
@@ -59,28 +59,35 @@ const steps = practice.callbackSteps
   @media (prefers-reduced-motion: no-preference) {
     .req-steps__n { transition: background-color .35s, border-color .35s, transform .35s cubic-bezier(.34, 1.56, .64, 1); }
     .req-steps__list li[data-done] .req-steps__n { transform: scale(1.12); }
-    .req-steps__list li[data-ready] .req-steps__n { animation: req-ring 1.4s ease-out 2; }
-    /* Live loop (round 15): a demo of the path. Step 1 lights, the connector fills to 2, step 2 lights, fills to 3,
-       step 3 lights, all rest, repeat (8 s). Hands over to the live form state as soon as the visitor types. */
-    .req-steps__list li:not(:last-child)::after { content: ''; position: absolute; inset-inline-start: calc(1.375rem - 1px); inset-block-start: 2.75rem; inline-size: 2px; block-size: 1.1rem; background: var(--color-aqua); box-shadow: 0 0 8px rgb(95 196 196 / .8); transform-origin: top; transform: scaleY(0); }
-    .req-steps__list li:nth-child(1):not(:last-child)::after { animation: req-seg1 8s var(--ease-soft) infinite; }
-    .req-steps__list li:nth-child(2):not(:last-child)::after { animation: req-seg2 8s var(--ease-soft) infinite; }
-    .req-steps__list li:nth-child(1) .req-steps__n { animation: req-lit1 8s var(--ease-soft) infinite; }
-    .req-steps__list li:nth-child(2) .req-steps__n { animation: req-lit2 8s var(--ease-soft) infinite; }
-    .req-steps__list li:nth-child(3) .req-steps__n { animation: req-lit3 8s var(--ease-soft) infinite; }
-    .req-steps__list li:nth-child(1) > span:last-child { animation: req-txt1 8s ease infinite; }
-    .req-steps__list li:nth-child(2) > span:last-child { animation: req-txt2 8s ease infinite; }
-    .req-steps__list li:nth-child(3) > span:last-child { animation: req-txt3 8s ease infinite; }
-    .req-steps__list:has([data-done], [data-ready]) :is(li, li::after, .req-steps__n, span) { animation: none !important; }
+    /* Live loop (round 19, owner: better motion). A 9 s story: a ring fills around 1, the number lights; a light
+       runs down the connector; the ring fills around 2; down again; 3 fills in gold and pops; everything holds,
+       then fades back. Stops as soon as the visitor starts the form (live state takes over) or with Pause motion. */
+    .req-steps__list li:not(:last-child)::after { content: ''; position: absolute; inset-inline-start: calc(1.375rem - 1px); inset-block-start: 2.75rem; inline-size: 2px; block-size: 1.1rem; border-radius: 2px; background: var(--color-aqua); box-shadow: 0 0 6px rgb(95 196 196 / .6); transform-origin: top; transform: scaleY(0); }
+    .req-steps__list li:nth-child(3) .req-steps__n { --ring: var(--color-gold); }
+    .req-steps__list li:nth-child(1) .req-steps__n::before { animation: rs-ring1 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(2) .req-steps__n::before { animation: rs-ring2 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(3) .req-steps__n::before { animation: rs-ring3 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(1) .req-steps__n { animation: rs-lit1 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(2) .req-steps__n { animation: rs-lit2 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(3) .req-steps__n { animation: rs-lit3 9s cubic-bezier(.34, 1.56, .64, 1) infinite; }
+    .req-steps__list li:nth-child(1):not(:last-child)::after { animation: rs-seg1 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(2):not(:last-child)::after { animation: rs-seg2 9s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(1) > span:last-child { animation: rs-txt1 9s ease infinite; }
+    .req-steps__list li:nth-child(2) > span:last-child { animation: rs-txt2 9s ease infinite; }
+    .req-steps__list li:nth-child(3) > span:last-child { animation: rs-txt3 9s ease infinite; }
+    .req-steps__list:has([data-done], [data-ready]) :is(li, li::after, .req-steps__n, .req-steps__n::before, span) { animation: none !important; }
     .req-steps__list:has([data-done], [data-ready]) li:not(:last-child)::after { transform: scaleY(0); }
-    @keyframes req-seg1 { 0%, 14% { transform: scaleY(0); } 24%, 86% { transform: scaleY(1); } 94%, 100% { transform: scaleY(0); } }
-    @keyframes req-seg2 { 0%, 38% { transform: scaleY(0); } 48%, 86% { transform: scaleY(1); } 94%, 100% { transform: scaleY(0); } }
-    @keyframes req-lit1 { 0%, 2% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 8%, 86% { background: var(--color-teal-deep); border-color: var(--color-aqua); box-shadow: 0 0 0 6px rgb(95 196 196 / .16), 0 0 18px rgb(95 196 196 / .45); transform: scale(1.06); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
-    @keyframes req-lit2 { 0%, 24% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 30%, 86% { background: var(--color-teal-deep); border-color: var(--color-aqua); box-shadow: 0 0 0 6px rgb(95 196 196 / .16), 0 0 18px rgb(95 196 196 / .45); transform: scale(1.06); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
-    @keyframes req-lit3 { 0%, 48% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 54%, 86% { background: var(--color-gold); border-color: var(--color-gold-light); color: var(--color-indigo); box-shadow: 0 0 0 6px rgb(217 160 44 / .18), 0 0 20px rgb(217 160 44 / .5); transform: scale(1.1); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
-    @keyframes req-txt1 { 0%, 2%, 94%, 100% { color: var(--color-on-dark); } 8%, 86% { color: #fff; } }
-    @keyframes req-txt2 { 0%, 24%, 94%, 100% { color: var(--color-on-dark); } 30%, 86% { color: #fff; } }
-    @keyframes req-txt3 { 0%, 48%, 94%, 100% { color: var(--color-on-dark); } 54%, 86% { color: #fff; } }
+    @keyframes rs-ring1 { 0% { --p: 0; } 10%, 88% { --p: 100; } 96%, 100% { --p: 0; } }
+    @keyframes rs-ring2 { 0%, 20% { --p: 0; } 30%, 88% { --p: 100; } 96%, 100% { --p: 0; } }
+    @keyframes rs-ring3 { 0%, 40% { --p: 0; } 50%, 88% { --p: 100; } 96%, 100% { --p: 0; } }
+    @keyframes rs-seg1 { 0%, 11% { transform: scaleY(0); } 19%, 88% { transform: scaleY(1); } 96%, 100% { transform: scaleY(0); } }
+    @keyframes rs-seg2 { 0%, 31% { transform: scaleY(0); } 39%, 88% { transform: scaleY(1); } 96%, 100% { transform: scaleY(0); } }
+    @keyframes rs-lit1 { 0%, 8% { background: var(--color-indigo); } 12%, 88% { background: var(--color-teal-deep); } 96%, 100% { background: var(--color-indigo); } }
+    @keyframes rs-lit2 { 0%, 28% { background: var(--color-indigo); } 32%, 88% { background: var(--color-teal-deep); } 96%, 100% { background: var(--color-indigo); } }
+    @keyframes rs-lit3 { 0%, 48% { background: var(--color-indigo); color: #fff; transform: none; box-shadow: none; } 53% { transform: scale(1.08); } 57%, 88% { background: var(--color-gold); color: var(--color-indigo); transform: none; box-shadow: none; } 96%, 100% { background: var(--color-indigo); color: #fff; transform: none; box-shadow: none; } }
+    @keyframes rs-txt1 { 0%, 8%, 96%, 100% { color: var(--color-on-dark); } 12%, 88% { color: #fff; } }
+    @keyframes rs-txt2 { 0%, 28%, 96%, 100% { color: var(--color-on-dark); } 32%, 88% { color: #fff; } }
+    @keyframes rs-txt3 { 0%, 48%, 96%, 100% { color: var(--color-on-dark); } 52%, 88% { color: #fff; } }
     @keyframes req-ring { from { box-shadow: 0 0 0 0 rgb(95 196 196 / .7); } to { box-shadow: 0 0 0 14px rgb(95 196 196 / 0); } }
   }
   /* Desktop only (design plan 4.6). */
@@ -88,9 +95,9 @@ const steps = practice.callbackSteps
     .req-band:has(.live-dark[data-live-on])::before { opacity: 0; }
     .req-band::before { transition: opacity .8s; content: ''; position: absolute; z-index: -1; inset-block-end: -9rem; inset-inline-start: -6rem; inline-size: 34rem; block-size: 34rem; border: 3px solid rgb(255 255 255 / .05); border-radius: 999px 999px 0 0; box-shadow: inset 0 0 0 4.5rem rgb(255 255 255 / .02); pointer-events: none; }
     .req-steps__list { position: relative; display: grid; gap: 1.1rem; --steps-h: 7.7rem; } /* travel distance: first to last number */
-    .req-steps__list::before { content: ''; position: absolute; inset-block: 1.25rem; inset-inline-start: 1.2rem; inline-size: 2px; background: linear-gradient(var(--color-aqua), rgb(255 255 255 / .15)); }
+    .req-steps__list::before { content: ''; position: absolute; inset-block: 1.375rem; inset-inline-start: calc(1.375rem - 1px); inline-size: 2px; background: linear-gradient(var(--color-aqua), rgb(255 255 255 / .15)); }
     .req-steps__list li { position: relative; display: flex; align-items: center; gap: 1rem; color: var(--color-on-dark); }
-    .req-steps__n { display: grid; place-items: center; flex: none; inline-size: 2.5rem; block-size: 2.5rem; border: 1px solid rgb(255 255 255 / .25); border-radius: 999px; background: var(--color-indigo); color: #fff; font-weight: 700; }
+    .req-steps__n { display: grid; place-items: center; flex: none; inline-size: 2.5rem; block-size: 2.5rem; border: 0; border-radius: 999px; background: var(--color-indigo); color: #fff; font-weight: 700; }
     
     .req-steps__list li { font-size: 1.12rem; }
     .req-steps__n { inline-size: 2.75rem; block-size: 2.75rem; font-size: 1.06rem; }
