@@ -2,7 +2,7 @@
 // Spec 4.0-4.2. Desktop (lg): a dark utility row (both numbers + open status, not sticky), then a white 80 px sticky
 // header with the sample's six anchors (Our doctors, Services, All ages, Locations, Insurance, FAQ), a filled
 // "Make an appointment" (opens the call dialog) and a ghost "Visit". The hero repeats the same pair.
-// Below xl (1280): the menu button replaces the links. Phone: a white 64 px header, NOT sticky (the bottom sticky bar carries Call/Request; owner answer 2), with a
+// Below xl (1280): the menu button replaces the links. Phone: a white 64 px header, NOT sticky (the bottom sticky bar carries Make an appointment / Visit; owner answer 2), with a
 // "Menu" button that opens a native <dialog> (Escape closes it, focus returns to the button). No JS: "Menu" is a
 // link to the footer's #site-nav. Every target >= 44 px.
 import Logo from './Logo.astro'
@@ -33,7 +33,7 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       </p>
     ))}
     <MotionToggle compact class="ml-auto rounded-full hover:text-white" />
-    <a href="#language-help" class="inline-flex min-h-11 items-center whitespace-nowrap underline underline-offset-4 hover:text-white">Language help</a>
+    <a href="#language-help" class="hidden min-h-11 items-center whitespace-nowrap underline xl:inline-flex underline-offset-4 hover:text-white">Language help</a>
   </div>
 </nav>
 
@@ -90,5 +90,6 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
     btn.addEventListener('click', e => { e.preventDefault(); menu.showModal() })
     menu.addEventListener('close', () => btn.focus())
     menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()))
+    matchMedia('(min-width: 80rem)').addEventListener('change', e => { if (e.matches && menu.open) menu.close() })
   }
 </script>

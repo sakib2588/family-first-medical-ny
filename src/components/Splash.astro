@@ -23,6 +23,8 @@ import { practice } from '../data/practice'
     animation: splash-out .45s var(--ease-soft, ease) 1.15s forwards;
   }
   html.splash-skip .splash { animation-duration: .2s; animation-delay: 0s; }
+  /* Safety: a late skip, or the site's Pause motion control, removes the overlay outright so it can never trap clicks. */
+  html.splash-gone .splash, html[data-motion-paused] .splash { display: none; }
   .splash__stage { display: grid; justify-items: center; gap: 1rem; }
   .splash__mark { width: 4.2rem; height: 4.8rem; overflow: visible; }
   .splash__mark path { stroke-dasharray: 1; stroke-dashoffset: 1; animation: splash-draw .7s var(--ease-soft, ease) .1s forwards; }

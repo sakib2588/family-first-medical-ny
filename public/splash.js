@@ -9,6 +9,6 @@ try {
     var skip = function () { root.classList.add('splash-skip') }
     addEventListener('pointerdown', skip, { once: true })
     addEventListener('keydown', skip, { once: true })
-    setTimeout(skip, 2500) // safety net if animations are blocked
+    setTimeout(function () { skip(); setTimeout(function () { root.classList.add('splash-gone') }, 400) }, 2200) // safety net if animations are blocked
   }
 } catch (e) { /* storage blocked: no splash, the page works */ }
