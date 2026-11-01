@@ -26,6 +26,9 @@ export const practice = {
   agesSeen: sample<string>('Newborns to adults', 'Newborns to adults: doctors to confirm'),
   acceptingNew: sampleDated<string>('Yes, at both offices (sample)', 'to confirm, with date'),
   afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
+  // What happens after a visit request (Home request band, desktop). Repeats only what the site already says (we call
+  // you back during office hours); the client confirms the process before launch, because the form does not send yet.
+  callbackSteps: sample<readonly string[]>(['Send your name and number.', 'The office calls you back during office hours.', 'Tell us the best time to reach you.'], 'how the office handles a callback request'),
   records: sample<string>('Ask the front desk for a records release form. Transfers usually take a few business days.', 'how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
