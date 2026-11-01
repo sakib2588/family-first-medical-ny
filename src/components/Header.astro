@@ -71,27 +71,27 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
 <dialog id="menu-dialog" aria-label="Menu" class="drawer">
   <div class="drawer-top flex h-16 shrink-0 items-center justify-between border-b border-line px-5 md:pr-8">
     <Logo />
-    <form method="dialog"><button class="menu-pill drawer-close btn inline-flex" aria-label="Close menu">
+    <form method="dialog"><button class="menu-pill drawer-close btn inline-flex" aria-label="Close menu" autofocus>
       <svg class="burger" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/></svg></button></form>
   </div>
   <div class="drawer-body flex flex-1 flex-col pb-[calc(1rem+env(safe-area-inset-bottom))]">
-    <nav aria-label="Menu">
+    <nav aria-label="Site sections">
       <ul class="drawer-grid grid grid-cols-2">
         {nav.map((item, i) => (<li data-i={i}><a href={item.href} data-spy class="drawer-link">{item.label}</a></li>))}
       </ul>
-      <a href="/#request" data-i={stagger.request} class="drawer-request arrow-link">Request a visit online<span class="drawer-arrow" aria-hidden="true"><Icon name="arrow" size={16} /></span></a>
+      <a href="/#request" data-i={Math.min(stagger.request, 10)} class="drawer-request arrow-link">Request a visit online<span class="drawer-arrow" aria-hidden="true"><Icon name="arrow" size={16} /></span></a>
     </nav>
-    <h2 data-i={stagger.label} class="mt-6 px-5 font-sans text-[0.72rem] font-bold uppercase tracking-[0.14em] text-muted">Call an office</h2>
+    <h2 data-i={Math.min(stagger.label, 10)} class="mt-6 px-5 font-sans text-[0.72rem] font-bold uppercase tracking-[0.14em] text-muted">Call an office</h2>
     <ul class="drawer-calls mt-2">
       {offices.map((o, i) => (
-        <li data-i={stagger.office + i}><a href={telHref(o.phone)} class="drawer-call">
+        <li data-i={Math.min(stagger.office + i, 10)}><a href={telHref(o.phone)} class="drawer-call">
           <span class="font-semibold leading-tight text-indigo">{place(o)}</span>
           <span class="inline-flex items-center gap-1.5 whitespace-nowrap font-semibold leading-tight text-teal-deep"><Icon name="phone" size={15} /><span class="tabular">{o.phone}</span></span>
           <OpenNow office={o} fallback="See hours" class="col-span-2 text-[0.78rem] leading-snug text-muted" />
         </a></li>
       ))}
     </ul>
-    <div data-i={stagger.foot} class="mt-auto px-5 pt-5 text-[0.82rem] leading-snug text-muted">
+    <div data-i={Math.min(stagger.foot, 10)} class="mt-auto px-5 pt-5 text-[0.82rem] leading-snug text-muted">
       {isShown(practice.languages) && <p>Language help: <FactSlot fact={practice.languages} /></p>}
       <p class="mt-1">In an emergency, call 911.</p>
     </div>
@@ -160,7 +160,7 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
   @media (width < 22.5rem) { dialog.drawer { width: 100vw; } } /* small phones: full width so the logo and Close never touch */
   dialog.drawer::backdrop { background: rgb(23 18 58 / .42); }
   @media (min-width: 80rem) { dialog.drawer { display: none !important; } }
-  @media (max-width: 63.99rem) { html:has(dialog.drawer[open]) { overflow: hidden; } }
+  @media (max-width: 79.99rem) { html:has(dialog.drawer[open]) { overflow: hidden; } }
   /* Full-bleed hairlines like a plain table; they live on the rows, so they arrive with them. The grid starts right
      under the top bar's own hairline. */
   .drawer-grid li { border-bottom: 1px solid var(--color-line); }
@@ -268,7 +268,7 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
   if (btn && menu && typeof menu.showModal === 'function') {
     btn.setAttribute('role', 'button')
     btn.addEventListener('click', e => { e.preventDefault(); menu.showModal() })
-    menu.addEventListener('close', () => btn.focus())
+    menu.addEventListener('close', () => { if (btn.offsetParent) btn.focus({ preventScroll: true }) })
     menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()))
     menu.addEventListener('click', e => { if (e.target === menu) menu.close() })
     matchMedia('(min-width: 80rem)').addEventListener('change', e => { if (e.matches && menu.open) menu.close() })
