@@ -79,6 +79,7 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       ))}
     </ul>
     {isShown(practice.languages) && <p class="mt-3 text-[0.82rem]">Language help: <FactSlot fact={practice.languages} /></p>}
+    <MotionToggle class="mt-1 -ml-1 px-1 text-[0.82rem] text-muted" />
   </div>
 </dialog>
 <style is:global>
