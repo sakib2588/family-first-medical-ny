@@ -1,15 +1,14 @@
 ---
-// Footer (spec 4.14 + owner's phone fixes): compact. Offices side by side on phone (name, number, status), Explore and
+// Footer, round 19 (owner: the base site's footer looks more professional): clean columns like theirs. Brand + tagline +
+// language chips | one column per office (address, phone) | Explore | Policies (key notices + All policies) | a thin
+// bottom row: copyright, the 911 line, Pause motion. Earlier: (spec 4.14 + owner's phone fixes) compact. Offices side by side on phone (name, number, status), Explore and
 // Policies as two-column link lists with 44 px rows, the 911 band kept, language help, DRAFT legal note.
 // The closing call to action shows on inner pages only (Home has the request band right above).
-import { practice, offices, legalPages, telHref, isShown } from '../../data/practice'
+import { practice, offices, legalPages, telHref } from '../../data/practice'
 import { nav } from '../Header.astro'
-import OpenNow from '../OpenNow.astro'
-import FactSlot from '../FactSlot.astro'
 import Logo from '../Logo.astro'
 import MotionToggle from '../MotionToggle.astro'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
-const h = 'font-sans text-[0.88rem] font-semibold text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
 ---
@@ -24,38 +23,46 @@ const { closing = true } = Astro.props
         </div>
       </div>
     )}
-    <div class="grid gap-6 lg:grid-cols-12 lg:gap-6">
-      <div class="lg:col-span-3">
+    <div class="ftr grid grid-cols-2 gap-x-6 gap-y-8 lg:grid-cols-12 lg:gap-x-8">
+      <div class="col-span-2 lg:col-span-4">
         <Logo tone="dark" />
-        <p class="mt-2 max-w-[30ch]">{practice.tagline}</p>
+        <p class="mt-3 max-w-[34ch] text-[0.9rem] leading-relaxed">{practice.tagline}</p>
+        <p id="language-help" class="mt-4 flex flex-wrap items-center gap-2">
+          {practice.languages.value?.split(/,| and /).map(l => l.trim()).filter(Boolean).map(l => (<span class="ftr-chip">{l}</span>))}
+          <a href="/legal/nondiscrimination" class={`${link} ftr-link ml-1 text-[0.85rem] underline`}>Language help</a>
+        </p>
       </div>
-      <ul class="grid grid-cols-2 gap-x-4 gap-y-3 border-y border-indigo-soft py-4 lg:col-span-4 lg:gap-x-6 lg:border-0 lg:py-0" aria-label="Offices">
-        {offices.map(o => (
-          <li>
-            <a href={`/locations/${o.slug}`} class={`${h} ${link} min-h-0`}>{o.neighborhood.split(',')[0]}</a>
-            <a href={telHref(o.phone)} class="tabular flex min-h-11 items-center whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4">{o.phone}</a>
-            <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug" />
-          </li>
-        ))}
-      </ul>
+      {offices.map(o => (
+        <div class="lg:col-span-2">
+          <h2 class="ftr-h"><a href={`/locations/${o.slug}`} class="hover:underline underline-offset-4">{o.neighborhood.split(',')[0]}</a></h2>
+          <address class="mt-3 text-[0.85rem] not-italic leading-relaxed">{o.addr.split(', ')[0]}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
+          <a href={telHref(o.phone)} class={`${link} ftr-link tabular whitespace-nowrap text-[0.85rem]`}>{o.phone}</a>
+        </div>
+      ))}
       <nav id="site-nav" aria-label="Explore" class="lg:col-span-2">
-        <h2 class={h}>Explore</h2>
-        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:mt-2 lg:grid-cols-1">
-          {[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={link}>{i.label}</a></li>))}
-        </ul>
+        <h2 class="ftr-h">Explore</h2>
+        <ul class="mt-2">{[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={`${link} ftr-link text-[0.85rem]`}>{i.label}</a></li>))}</ul>
       </nav>
-      <nav aria-label="Policies" class="lg:col-span-3">
-        <h2 class={h}>Policies</h2>
-        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:mt-2">
-          <li><a href="/legal" class={`${link} font-semibold`}>All policies</a></li>
-          {legalPages.map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} leading-tight`}>{l.short}</a></li>))}
+      <nav aria-label="Policies" class="lg:col-span-2">
+        <h2 class="ftr-h">Policies</h2>
+        <ul class="mt-2">
+          {legalPages.filter(l => ['privacy', 'notice-of-privacy-practices', 'nondiscrimination', 'accessibility'].includes(l.slug)).map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} ftr-link text-[0.85rem]`}>{l.short}</a></li>))}
+          <li><a href="/legal" class={`${link} ftr-link text-[0.85rem] font-semibold`}>All policies</a></li>
         </ul>
       </nav>
     </div>
-    <div class="mt-6 flex flex-col gap-3 border-t border-indigo-soft pt-6 lg:mt-10 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
-      <p class="flex items-center gap-2.5 text-white"><span class="grid size-8 shrink-0 place-items-center rounded-full bg-[#b3261e] text-[0.78rem] font-bold" aria-hidden="true">911</span><span><strong>Emergency? Call 911.</strong> <span class="text-on-dark">This site does not give medical advice.</span></span></p>
-      <p id="language-help" class="text-[0.88rem]"><a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
+    <div class="mt-8 flex flex-col gap-2 border-t border-white/10 pt-5 text-[0.8rem] lg:mt-12 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+      <p>© {new Date().getFullYear()} {practice.name}. All rights reserved.</p>
+      <div class="flex flex-wrap items-center gap-x-5">
+        <p><strong class="text-white">Emergency? Call 911.</strong> This site does not give medical advice.</p>
+        <MotionToggle class="ftr-link text-[0.8rem]" />
+      </div>
     </div>
-    <div class="mt-4 flex flex-wrap items-center justify-between gap-x-6 text-[0.82rem]"><p>© {new Date().getFullYear()} {practice.name}</p><MotionToggle class="text-[0.88rem] text-white" /></div>
   </div>
 </footer>
+<style>
+  .ftr-h { font-family: var(--font-sans); font-size: .9rem; font-weight: 700; color: #fff; }
+  .ftr-link { color: var(--color-on-dark); transition: color .2s; }
+  .ftr-link:hover { color: #fff; }
+  .ftr-chip { display: inline-flex; align-items: center; min-height: 1.9rem; padding-inline: .8rem; border-radius: 999px; background: rgb(255 255 255 / .08); font-size: .8rem; font-weight: 600; color: #fff; }
+</style>

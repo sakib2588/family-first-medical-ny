@@ -292,10 +292,41 @@ main > section.on-dark:is(:last-child, #request)::after { background: linear-gra
 /* ---- Inner pages (round 18) ---- */
 /* Gradient side panel with two soft circles (base-site doctor card pattern) in our colours.
      White text on the lightest stop (teal-deep) is 5.97:1; on-dark labels stay on the indigo half. */
-  .doc-side { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #1f3a6b 55%, var(--color-teal-deep) 120%); }
-  .doc-side--b { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #3a2a6e 55%, #6b4a1a 130%); }
+  .doc-side { --doc-base: linear-gradient(150deg, var(--color-indigo) 0%, #1f3a6b 55%, var(--color-teal-deep) 120%); background-image: var(--doc-base); }
+  .doc-side--b { --doc-base: linear-gradient(150deg, var(--color-indigo) 0%, #3a2a6e 55%, #6b4a1a 130%); }
   .doc-side::before, .doc-side::after { content: ''; position: absolute; z-index: -1; border-radius: 50%; background: rgb(255 255 255 / .09); }
   .doc-side::before { inline-size: 12rem; block-size: 12rem; inset-block-start: -4.5rem; inset-inline-end: -3.5rem; }
   .doc-side::after { inline-size: 9rem; block-size: 9rem; inset-block-end: -3rem; inset-inline-start: -2.5rem; background: rgb(217 160 44 / .14); }
 /* Inner pages: no drawn eyebrow rule inside cards (it would sit on the card edge). */
 main:has(.ph) .card-soft .eyebrow::before { display: none !important; }
+
+/* ---- Round 19 ---- */
+/* TEST (owner: "glowing different colour particles behind the doctor panels, to see how it looks"): three layers of
+   soft glowing dots (aqua, gold, rose, lilac) drifting upward at different speeds behind the portrait. Paint-only
+   background layers, no extra markup; still under reduced motion; stops with Pause motion. */
+.doc-side {
+  background-image:
+    radial-gradient(circle at 20% 30%, rgb(95 196 196 / .95) 0 1.5px, rgb(95 196 196 / .25) 2.5px, transparent 5px),
+    radial-gradient(circle at 70% 60%, rgb(240 194 90 / .95) 0 1.5px, rgb(240 194 90 / .25) 3px, transparent 6px),
+    radial-gradient(circle at 40% 80%, rgb(240 123 138 / .9) 0 1px, rgb(240 123 138 / .25) 2.5px, transparent 5px),
+    radial-gradient(circle at 85% 15%, rgb(191 178 255 / .9) 0 1px, rgb(191 178 255 / .25) 2.5px, transparent 4.5px),
+    var(--doc-base);
+  background-size: 96px 118px, 142px 126px, 74px 92px, 120px 150px, cover;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .doc-side { animation: doc-sparks 22s linear infinite; }
+  @keyframes doc-sparks {
+    from { background-position: 0 0, 0 0, 0 0, 0 0, center; }
+    to { background-position: 30px -236px, -40px -126px, 20px -368px, -25px -150px, center; }
+  }
+}
+/* Ring progress (round 19, motion-patterns: sequenced progress): a ring fills around a number via an animatable
+   custom property. Used by 'How it works' and Insurance. */
+@property --p { syntax: '<number>'; inherits: false; initial-value: 0; }
+.ring-step { position: relative; }
+.ring-step::before {
+  content: ''; position: absolute; inset: -6px; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(var(--ring, #5fc4c4) calc(var(--p) * 1%), var(--ring-track, rgb(255 255 255 / .14)) 0);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2.5px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2.5px));
+}
