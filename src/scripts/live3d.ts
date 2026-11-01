@@ -1,5 +1,6 @@
 // Runner for the live three.js scenes on Home (owner exception 2026-11-01:
-// workspace/03-decisions/2026-11-01-live-motion-and-3d-exception.md). Hosts: [data-live="hero" | "band"] with a canvas.
+// workspace/03-decisions/2026-11-01-live-motion-and-3d-exception.md). Hosts: [data-live="hero" | "band" | "visits" |
+// "care" | "request"] with a canvas. Only the scenes on screen run; the rest stay paused.
 // three.js is imported dynamically ONLY when every gate passes, after the page load event, when a host is near the
 // viewport. Otherwise the still image / CSS ground stays. Each scene:
 // - runs only while on screen, the tab is visible and Pause motion is off;
@@ -21,6 +22,9 @@ const capable = () =>
 const loaders = {
   hero: () => import('../three/hero-scene').then(m => m.createHeroScene),
   band: () => import('../three/trust-band-scene').then(m => m.createTrustBandScene),
+  visits: () => import('../three/arch-particles-scene').then(m => (c: HTMLCanvasElement) => m.createArchParticlesScene(c, 'visits')),
+  care: () => import('../three/arch-particles-scene').then(m => (c: HTMLCanvasElement) => m.createArchParticlesScene(c, 'care')),
+  request: () => import('../three/arch-particles-scene').then(m => (c: HTMLCanvasElement) => m.createArchParticlesScene(c, 'request')),
 } as const
 
 function run(host: HTMLElement) {

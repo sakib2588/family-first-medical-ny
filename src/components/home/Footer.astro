@@ -13,7 +13,7 @@ const h = 'font-sans text-[0.88rem] font-semibold text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
 ---
-<footer id="site-footer" class={`on-dark relative bg-[#0e0b26] ${closing ? '' : '-mt-8 lg:-mt-14'} px-5 pb-28 text-[0.94rem] ${closing ? 'pt-8' : 'pt-16'} text-on-dark md:px-8 lg:pb-12 ${closing ? 'lg:pt-16' : 'lg:pt-28'}`}>
+<footer id="site-footer" class={`on-dark relative bg-[#0e0b26] px-5 pb-28 text-[0.94rem] pt-8 text-on-dark md:px-8 lg:pb-12 lg:pt-16`}>
   <div class="mx-auto max-w-[1160px]">
     {closing && (
       <div class="mb-10 flex flex-col gap-5 border-b border-indigo-soft pb-10 lg:flex-row lg:items-center lg:justify-between">

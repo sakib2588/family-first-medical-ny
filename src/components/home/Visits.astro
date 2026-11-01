@@ -15,6 +15,7 @@ const VISIT_TYPES = ['Well-child visits', 'Vaccines', 'Newborn care', 'Annual ph
 const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).filter(n => (VISIT_TYPES as readonly string[]).includes(n))
 ---
 <Section id="visits" tone="indigo" class="c3">
+  <div data-live="visits" class="live-dark" aria-hidden="true"><canvas></canvas></div>
   <p class="eyebrow !text-aqua">Your visit</p>
   <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">What brings <em class="font-medium text-gold">you</em> in?</h2>
   <div class="visits mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
@@ -85,4 +86,5 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
     .visit-card:is(:hover, :focus-within) { transform: translateY(-3px); border-color: rgb(255 255 255 / .22); }
   }
 </style>
-<script>import '../../scripts/open-first'</script>
+<script>import '../../scripts/open-first'
+import '../../scripts/live3d'</script>

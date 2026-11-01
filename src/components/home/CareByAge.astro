@@ -13,6 +13,7 @@ import PhotoSlot from '../PhotoSlot.astro'
 import { ageBands, doctorBySlug, practice } from '../../data/practice'
 ---
 <Section id="care" tone="indigo" class="care-dark">
+  <div data-live="care" class="live-dark" aria-hidden="true"><canvas></canvas></div>
   <p class="eyebrow !text-aqua">Care by age</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Care by age</h2>
   <p class="mt-2 max-w-[44ch] text-[1rem] lg:mt-3 lg:text-[1.18rem]">One practice from first breath to grandparent.</p>
@@ -88,3 +89,4 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
     .age-card:is(:hover, :focus-within) { transform: translateY(-4px); box-shadow: var(--shadow-float); }
   }
 </style>
+<script>import '../../scripts/live3d'</script>

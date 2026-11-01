@@ -10,6 +10,7 @@ import { practice, isShown } from '../../data/practice'
 const steps = practice.callbackSteps
 ---
 <section id="request" class="req-band on-dark relative isolate overflow-hidden px-5 py-12 text-on-dark md:px-8 lg:py-20">
+  <div data-live="request" class="live-dark" aria-hidden="true"><canvas></canvas></div>
   <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-6">
     <div class="lg:col-span-5">
       <p class="eyebrow !text-aqua">Request a visit</p>
@@ -48,11 +49,11 @@ const steps = practice.callbackSteps
   form?.addEventListener('input', update)
   form?.addEventListener('change', update)
 </script>
+<script>import '../../scripts/live3d'</script>
 <style>
   /* Round 12 (owner: request and footer read as one big dark block): the band has its own indigo-to-teal ground and
      rounded bottom corners over the darker footer. on-dark text stays >= 5.92:1 on the teal end. */
-  .req-band { background: linear-gradient(135deg, var(--color-indigo) 0%, #1f1a55 55%, var(--color-hero-teal) 100%); border-radius: 0 0 2rem 2rem; position: relative; z-index: 1; }
-  @media (min-width: 64rem) { .req-band { border-radius: 0 0 3.5rem 3.5rem; } }
+  .req-band { background: linear-gradient(135deg, var(--color-indigo) 0%, #1f1a55 55%, var(--color-hero-teal) 100%); position: relative; z-index: 1; }
   .req-steps__list li[data-done] .req-steps__n, .req-steps__list li[data-ready] .req-steps__n { background: var(--color-teal-deep); border-color: var(--color-aqua); }
   .req-steps__list li[data-done], .req-steps__list li[data-ready] { color: #fff; }
   @media (prefers-reduced-motion: no-preference) {
@@ -84,7 +85,8 @@ const steps = practice.callbackSteps
   }
   /* Desktop only (design plan 4.6). */
   @media (min-width: 64rem) {
-    .req-band::before { content: ''; position: absolute; z-index: -1; inset-block-end: -9rem; inset-inline-start: -6rem; inline-size: 34rem; block-size: 34rem; border: 3px solid rgb(255 255 255 / .05); border-radius: 999px 999px 0 0; box-shadow: inset 0 0 0 4.5rem rgb(255 255 255 / .02); pointer-events: none; }
+    .req-band:has(.live-dark[data-live-on])::before { opacity: 0; }
+    .req-band::before { transition: opacity .8s; content: ''; position: absolute; z-index: -1; inset-block-end: -9rem; inset-inline-start: -6rem; inline-size: 34rem; block-size: 34rem; border: 3px solid rgb(255 255 255 / .05); border-radius: 999px 999px 0 0; box-shadow: inset 0 0 0 4.5rem rgb(255 255 255 / .02); pointer-events: none; }
     .req-steps__list { position: relative; display: grid; gap: 1.1rem; --steps-h: 7.7rem; } /* travel distance: first to last number */
     .req-steps__list::before { content: ''; position: absolute; inset-block: 1.25rem; inset-inline-start: 1.2rem; inline-size: 2px; background: linear-gradient(var(--color-aqua), rgb(255 255 255 / .15)); }
     .req-steps__list li { position: relative; display: flex; align-items: center; gap: 1rem; color: var(--color-on-dark); }
