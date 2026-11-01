@@ -57,6 +57,14 @@ Hero:
 - Q3. Do the portal, video visits, online booking and bill-pay items wait for the client answer (the boss is asking)? Default: yes, no nav items for them yet.
 - Q4. "Sample" images: do we have the client's real office photos / doctor cut-outs yet? Default: no, keep stand-ins.
 
-## 6. Pending
+## 6. Live re-check (2026-11-02, curl of the live page, static HTML)
 
-- Live re-check of the sample's nav/hero (background research agent). Reconcile this plan if the live site differs from the 2026-10-30 capture.
+The live site matches the 2026-10-30 capture on every point in sections 1 and 3. Extra detail from the live check:
+- Dark utility bar above the header (not sticky): both office phones, "Elmhurst, Queens & Hicksville, LI", an "Open 7 Days" pill, EN / 中文 toggle. Ours already has the phones and open status; skip "Open 7 Days" (red line) and the language toggle.
+- Nav has NO dropdowns, six plain anchors, so Q1 default (anchors, no dropdowns) fits.
+- Phone: hamburger opens a right drawer (min(360px, 90vw)) with the links, a call button per office and "Visit"; plus a fixed bottom bar with "Call to Make an Appt" + "Visit". We already have a bottom sticky bar (Call / Request); relabel to call + Visit to match.
+- Hero: one photo under a white gradient (the three-image strip is hidden by CSS), pills, H1 with red italic accent, two buttons, then under the text a portrait card and a 4-item highlight grid ("Board-Certified", "3 Languages", "Most Insurance Plans", "Open 7 Days"). All four are unconfirmed claims for us: use only our true benefit lines.
+- A dark trust band sits right below the hero ("25+ Years of Care", "Board-Certified", ...). Ours is the live 3D trust band; keep it, with no invented numbers.
+- Floating back-to-top button after scrolling. Optional, low priority.
+
+Plan changes from this: relabel the phone bottom bar (Call to make an appointment + Visit), keep our utility row. Not verified (JS): intro splash (we do not build it, owner decision), scroll reveals, the call sheet's contents.
