@@ -69,8 +69,11 @@ function heartbeat(scene, span) {
   const mat = new THREE.MeshBasicMaterial({ color: 0xffdc80 })
   const mesh = new THREE.InstancedMesh(geo, mat, count)
   const m = new THREE.Matrix4(), rnd = mulberry(7)
+  // Round 12: the centre holds the service names (no cards behind them), so the heartbeat runs only at the sides.
+  const clear = span * 0.33
   for (let i = 0; i < count; i++) {
     const x = -span / 2 + (i / count) * span
+    if (Math.abs(x) < clear) { m.makeScale(0, 0, 0); mesh.setMatrixAt(i, m); continue }
     const y = pulseY(x) * 0.55 - 0.2 + (rnd() - 0.5) * 0.12
     const z = -1.5 + (rnd() - 0.5) * 0.6
     const s = 0.03 + rnd() * 0.04
@@ -82,7 +85,8 @@ function heartbeat(scene, span) {
   const dust = new THREE.InstancedMesh(geo, new THREE.MeshBasicMaterial({ color: 0xffe9b8, transparent: true, opacity: 0.55 }), 160)
   for (let i = 0; i < 160; i++) {
     const s = 0.012 + rnd() * 0.035
-    m.makeScale(s, s, s).setPosition((rnd() - 0.5) * span, (rnd() - 0.5) * 3.2, -4 + rnd() * 4)
+    const dx = (rnd() - 0.5) * span
+    m.makeScale(Math.abs(dx) < clear ? 0 : s, Math.abs(dx) < clear ? 0 : s, Math.abs(dx) < clear ? 0 : s).setPosition(dx, (rnd() - 0.5) * 3.2, -4 + rnd() * 4)
     dust.setMatrixAt(i, m)
   }
   scene.add(dust)

@@ -70,7 +70,7 @@ export const legal: Record<string, LegalDoc> = {
   billing: {
     summary: 'We will tell you what to expect to pay. If you do not use insurance, you can ask for a Good Faith Estimate in writing before your visit.',
     sections: [
-      { id: 'insurance', heading: 'Insurance', body: ['We accept the plans listed on the home page. Please call to confirm your exact plan before you visit. Insurance list last verified: [date to be added].'] },
+      { id: 'insurance', heading: 'Insurance', body: ['Call your office to check whether we take your plan. Please call to confirm your exact plan before you visit. Insurance list last verified: [date to be added].'] },
       { id: 'self-pay', heading: 'Paying without insurance', body: ['[Self-pay prices, the sliding-scale or charity-care policy if the practice offers one, and how to ask, to be confirmed.]'] },
       { id: 'gfe', heading: 'Good Faith Estimate (No Surprises Act)', body: ['If you do not have insurance or choose not to use it, you have the right to a Good Faith Estimate of expected charges. [Counsel to supply the required notice wording and process.]'] },
       { id: 'bills', heading: 'Questions about a bill', body: ['Call us: ' + phones + '. [Billing contact and hours to be confirmed.]'] },

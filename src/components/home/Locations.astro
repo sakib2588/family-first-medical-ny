@@ -3,6 +3,8 @@
 // (no text on the photo), status pill, address + Directions, the number as text, GROUPED hours with today's group
 // marked (mist row + the word "Today", JS only), dated access slots, the doctors there, an outlined Call and a
 // link to the full week. Every fact comes from practice.ts.
+// Round 12 (owner: squashed arch photo, messy info): full-width photo with the live status on it, name + address,
+// then two labelled columns (Hours | Getting there) on desktop, one action row (Call, Directions, Details).
 // Desktop: address and hours side by side only from 80rem (xl); between 64 and 80rem the hours sit below the address
 // (side by side they overflowed the card at 1024 px). Day labels never wrap; the full-week link is one underlined run.
 import Section from '../Section.astro'
@@ -10,7 +12,7 @@ import Icon from '../Icon.astro'
 import OpenNow from '../OpenNow.astro'
 import FactSlot from '../FactSlot.astro'
 import PhotoSlot from '../PhotoSlot.astro'
-import { offices, doctorBySlug, telHref, mapsHref, fullWeek, weekSummary, isShown, type Office } from '../../data/practice'
+import { offices, telHref, mapsHref, fullWeek, weekSummary, isShown, type Office } from '../../data/practice'
 // Same grouping as weekSummary, but keeps the day numbers so the script can mark today's group.
 const groups = (o: Office) => fullWeek(o).reduce<{ from: string; to: string; hours: string; days: number[] }[]>((acc, d) => {
   const last = acc.at(-1)
@@ -28,43 +30,42 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
   <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
     {offices.map(o => {
       const place = o.neighborhood.split(',')[0]
-      const docs = o.doctors.map(doctorBySlug).filter(d => d !== undefined)
       return (
-      <li class="lift card-soft flex flex-col p-5 lg:p-6">
-        <PhotoSlot fact={o.photo} shape="arch" class="h-[10rem] w-full lg:h-[12rem]" width={1056} height={520} />
-        <div class="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
-          <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
-          <p class="rounded-full bg-mist px-3 py-1 text-[0.82rem] font-medium text-text"><OpenNow office={o} fallback="Hours below" /></p>
+      <li class="office lift card-soft flex flex-col overflow-hidden">
+        <div class="relative">
+          <PhotoSlot fact={o.photo} class="office__photo aspect-[16/8] w-full !rounded-none lg:aspect-[16/7]" width={1056} height={520} />
+          <p class="absolute bottom-3 left-3 rounded-full bg-white px-3 py-1.5 text-[0.82rem] font-semibold text-text shadow-[0_6px_16px_-8px_rgb(23_18_58/0.5)]"><OpenNow office={o} fallback="Hours below" /></p>
         </div>
-        <div class="mt-4 xl:grid xl:grid-cols-[13rem_1fr] xl:gap-x-6">
-          <div>
-            <address class="not-italic">{o.addr.split(', ').slice(0, 1)}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
-            <ul class="mt-3 grid gap-2 text-[0.94rem] lg:hidden">
-              <li class="flex gap-2.5"><span class="mt-0.5 shrink-0 text-teal-deep"><Icon name="clock" size={18} /></span><span class="tabular">{segments(o).map((seg, i) => (<>{i > 0 && ' · '}<span class="whitespace-nowrap">{seg}</span></>))}</span></li>
-              {o.access.filter(a => isShown(a.fact)).map(a => (<li class="flex gap-2.5"><span class="mt-0.5 shrink-0 text-teal-deep"><Icon name={a.label === 'Parking' ? 'pin' : a.label.startsWith('Step') ? 'check' : 'arrow'} size={18} /></span><span><FactSlot fact={a.fact} /></span></li>))}
-            </ul>
-            <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="arrow-link mr-5 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Directions<Icon name="arrow" size={18} /></a>
-            <a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4 lg:ml-0"><span>Full week<span class="hidden lg:inline"> and details</span></span><Icon name="arrow" size={18} /></a>
-          </div>
-          <div class="mt-3 hidden lg:block xl:mt-0">
-            <dl aria-label="Hours" class="tabular divide-y divide-line border-y border-line" data-week>
-              {groups(o).map(g => (
-                <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
-                  <dt class="whitespace-nowrap">{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
-                  <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
-                </div>
-              ))}
-            </dl>
-            {o.access.some(a => isShown(a.fact)) && (
-              <dl class="mt-3 text-[0.88rem]">
-                {o.access.filter(a => isShown(a.fact)).map(a => (<div class="flex min-h-8 flex-wrap items-center gap-x-2"><dt class="text-muted">{a.label}</dt><dd><FactSlot fact={a.fact} /></dd></div>))}
+        <div class="flex flex-1 flex-col p-5 lg:p-7">
+          <h3 class="text-[1.35rem] leading-tight lg:text-[1.6rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
+          <address class="mt-1 not-italic text-muted">{o.addr}</address>
+          <div class="office__info mt-5 grid gap-5 lg:grid-cols-2 lg:gap-6">
+            <div>
+              <h4 class="office__label"><Icon name="clock" size={16} />Hours</h4>
+              <p class="tabular mt-2 text-[0.94rem] lg:hidden">{segments(o).map((seg, i) => (<>{i > 0 && ' · '}<span class="whitespace-nowrap">{seg}</span></>))}</p>
+              <dl aria-label="Hours" class="tabular mt-2 hidden divide-y divide-line text-[0.94rem] lg:block" data-week>
+                {groups(o).map(g => (
+                  <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
+                    <dt class="whitespace-nowrap">{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
+                    <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
+                  </div>
+                ))}
               </dl>
+            </div>
+            {o.access.some(a => isShown(a.fact)) && (
+              <div>
+                <h4 class="office__label"><Icon name="pin" size={16} />Getting there</h4>
+                <ul class="mt-2 grid gap-2 text-[0.94rem]">
+                  {o.access.filter(a => isShown(a.fact)).map(a => (<li class="flex items-start gap-2"><span class="mt-[.55rem] size-1.5 shrink-0 rounded-full bg-teal-deep" aria-hidden="true"></span><FactSlot fact={a.fact} /></li>))}
+                </ul>
+              </div>
             )}
           </div>
-        </div>
-        <p class="mt-2 hidden flex-wrap items-center gap-x-2 text-[0.82rem] lg:flex"><span class="text-muted">Doctors here:</span>{docs.map(d => (<a href={`/doctors/${d.slug}`} class="inline-flex min-h-11 items-center font-medium text-indigo underline underline-offset-4">{d.name.replace('Dr. ', 'Dr. ')}</a>))}</p>
-        <div class="mt-auto pt-3 lg:pt-2">
-          <a href={telHref(o.phone)} class="btn flex min-h-12 items-center justify-center gap-2 rounded-full border-[1.5px] border-muted font-semibold text-teal-deep hover:border-teal-deep"><Icon name="phone" size={18} />Call {place}<span class="tabular">{o.phone}</span></a>
+          <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-1 pt-6">
+            <a href={telHref(o.phone)} class="btn btn-ghost inline-flex min-h-12 flex-1 basis-full items-center justify-center gap-2 whitespace-nowrap rounded-full px-5 font-semibold sm:basis-auto"><Icon name="phone" size={18} />Call<span class="tabular">{o.phone}</span></a>
+            <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Directions<Icon name="arrow" size={18} /></a>
+            <a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Details<Icon name="arrow" size={18} /></a>
+          </div>
         </div>
       </li>
     )})}
@@ -80,3 +81,10 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
     row.querySelector('[data-today-label]')?.classList.remove('hidden')
   })
 </script>
+<style>
+  .office__label { display: flex; align-items: center; gap: .4rem; font-family: var(--font-sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-teal-deep); }
+  @media (min-width: 64rem) and (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .office :global(.office__photo img) { transition: transform .7s var(--ease-soft); }
+    .office:hover :global(.office__photo img) { transform: scale(1.04); }
+  }
+</style>

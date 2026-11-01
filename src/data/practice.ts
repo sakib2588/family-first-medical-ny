@@ -31,14 +31,14 @@ export const practice = {
   afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
   // What happens after a visit request (Home request band, desktop). Repeats only what the site already says (we call
   // you back during office hours); the client confirms the process before launch, because the form does not send yet.
-  callbackSteps: sample<readonly string[]>(['Leave your name and number.', 'We call you back.', 'Tell us the best time to call.'], 'how the office handles a callback request'),
+  callbackSteps: sample<readonly string[]>(['Leave your name and number.', 'Pick your office and a time.', 'We call you back.'], 'how the office handles a callback request'),
   records: sample<string>('Ask the front desk for a records release form. Transfers usually take a few business days.', 'how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
     publicPlans: sample<string>('Plans change, so call your office to check yours before your visit.', 'taken? with date'),
     plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
     notTaken: toConfirm<string>('plans not taken, with date'),
-    selfPay: sample<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
+    selfPay: sample<string>('Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
   },
 } as const
 

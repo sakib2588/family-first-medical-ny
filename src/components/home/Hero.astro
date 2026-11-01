@@ -5,15 +5,19 @@
 // photo, then one intro line and the one filled action. NO credentials ("board-certified") until checked (red line).
 // PHOTO NOTES: see workspace/03-decisions/2026-11-01-hero-photo-plan.md (which real photo goes where).
 import Icon from '../Icon.astro'
-import { offices, doctors, serviceGroups, practice } from '../../data/practice'
+import { offices, doctors, practice } from '../../data/practice'
 const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 // At-a-glance chips: only facts we hold (sample values are tagged in practice.ts). No "board-certified", "open 7 days",
 // "accepting new patients" or "most insurance" until the client confirms them (red lines).
-// Round 11 (owner: less writing, more dynamic, no repeats): the chips now say WHAT we treat (from serviceGroups);
-// who / where / language / booking live in the trust band right below, so nothing repeats.
-const CHIP_SERVICES = [['Newborn care', 'baby', 'tile-rose'], ['Vaccines', 'shield', 'tile-teal'], ['School and sports physicals', 'check', 'tile-gold'], ["Women's health", 'heart', 'tile-indigo']] as const
-const offered = serviceGroups.flatMap(g => g.items.map(([name]) => name))
-const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([text, icon, tile]) => ({ text: text === 'School and sports physicals' ? 'Physicals' : text, icon, tile }))
+// Round 12 (owner: competitor-style benefit lines; gradient icon tiles read as AI-made): short title-case benefits
+// that are TRUE today (red lines: no board-certified / most insurance / open 7 days until the client confirms them;
+// swap these lines when those facts are confirmed and dated in practice.ts). One soft teal tint, outline icons.
+const chips = [
+  { icon: 'users', text: 'Kids & Adults, One Team' },
+  { icon: 'heart', text: practice.agesSeen.value ? practice.agesSeen.value.replace(/\b\w/g, ch => ch.toUpperCase()).replace(' To ', ' to ') : 'Care for Every Age' },
+  { icon: 'globe', text: practice.languages.value ? `Care in ${practice.languages.value.replace(' and ', ' & ')}` : 'Language Help' },
+  { icon: 'pin', text: 'Queens & Long Island Offices' },
+] as const
 ---
 <section id="hero" class="relative isolate overflow-hidden bg-cream px-5 pb-10 pt-8 md:px-8 lg:pb-20 lg:pt-14">
   {/* Backdrop: stand-in for the reception photo (PHOTO 1). Decorative only. */}
@@ -21,10 +25,6 @@ const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([tex
   <div class="hero-room pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
   <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
     <div class="lg:col-span-6">
-      <ul class="mb-5 flex flex-wrap gap-2 whitespace-nowrap" aria-label="About the practice">
-        <li class="pill"><Icon name="heart" size={15} class="text-teal-deep" />Every age</li>
-        <li class="pill"><Icon name="pin" size={15} class="text-teal-deep" />{first} and {second}</li>
-      </ul>
       <h1 class="text-[2.6rem] leading-[1.04] tracking-[-0.02em] text-indigo lg:text-[3.9rem]">Family medicine &amp; pediatrics, <br /><em class="brand-underline inline-block font-medium text-teal-deep">all in one place.</em></h1>
       <p class="mt-5 max-w-[42ch] text-[1.06rem] leading-normal text-text lg:text-[1.18rem]">One practice for your whole family, from the first checkup on. In {first} and {second}.</p>
       <div class="mt-6 grid grid-cols-[1fr_auto] gap-2.5 sm:flex sm:flex-wrap sm:gap-3">
@@ -33,9 +33,9 @@ const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([tex
       </div>
       <ul class="mt-7 grid grid-cols-2 gap-2.5 lg:gap-3" aria-label="At a glance">
         {chips.map(c => (
-          <li class="hero-chip card-soft flex min-h-[3.4rem] items-center gap-2.5 p-2 pr-3 lg:p-2.5">
-            <span class={`tile ${c.tile} !size-9 !rounded-[0.7rem]`}><Icon name={c.icon} size={18} /></span>
-            <span class="text-[0.9rem] font-semibold leading-tight text-indigo">{c.text}</span>
+          <li class="hero-chip flex min-h-[3.6rem] items-center gap-3 rounded-[1.1rem] bg-white/90 p-2 pr-3 shadow-[0_6px_20px_-12px_rgb(23_18_58/0.35)] lg:p-2.5 lg:pr-4">
+            <span class="grid size-10 shrink-0 place-items-center rounded-full bg-mist text-teal-deep ring-4 ring-mist/50"><Icon name={c.icon} size={18} /></span>
+            <span class="text-[0.88rem] font-bold leading-tight text-indigo lg:text-[0.94rem]">{c.text}</span>
           </li>
         ))}
       </ul>
@@ -43,15 +43,14 @@ const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([tex
     <ul class="mt-9 grid grid-cols-2 gap-3 lg:col-span-6 lg:mt-0 lg:gap-5" aria-label="Our doctors">
       {doctors.map((d, i) => (
         <li class="flex">
-          <a href={`/doctors/${d.slug}`} class="lift group flex w-full flex-col rounded-[1.25rem]">
-            <!-- PHOTO 2/3: real doctor portrait, waist up, plain clinic background, 4:5 -->
-            <div class="hero-portrait aspect-[4/5] overflow-hidden rounded-t-[1.25rem]"><img src={d.img} alt={d.alt} width="500" height="625" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class="size-full object-cover object-top" /></div>
-            <div class="relative -mt-6 flex-1 rounded-[1.25rem] bg-white p-4 shadow-[0_8px_24px_-12px_rgb(23_18_58/0.25)] lg:p-5">
-              <p class="font-display text-[1.06rem] font-semibold leading-tight text-indigo group-hover:underline lg:text-[1.29rem]">{d.name}</p>
-              <span class="mt-2 block h-[3px] w-10 rounded-full bg-gold" aria-hidden="true"></span>
-              <p class="mt-2 text-[0.88rem] leading-snug text-muted">{d.role}</p>
-              {practice.demo && <p class="mt-1 text-[0.78rem] italic leading-snug text-muted">Sample name and photo</p>}
+          <a href={`/doctors/${d.slug}`} class="doc group flex w-full flex-col items-center text-center">
+            {/* PHOTO 2/3: real doctor portrait, waist up, plain clinic background, 4:5 (workspace/03-decisions/photo-map.md #2, #3) */}
+            <div class="doc__frame relative w-full">
+              <div class={`doc__glow ${i === 0 ? 'doc__glow--teal' : 'doc__glow--gold'}`} aria-hidden="true"></div>
+              <div class="hero-portrait arch relative aspect-[4/5] overflow-hidden ring-[6px] ring-white"><img src={d.img} alt={d.alt} width="500" height="625" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class="doc__img size-full object-cover object-top" /></div>
             </div>
+            <p class="mt-4 font-display text-[1.12rem] font-semibold leading-tight text-indigo underline-offset-4 group-hover:underline lg:text-[1.35rem]">{d.name}</p>
+            <p class="mt-1 text-[0.78rem] font-semibold uppercase leading-snug tracking-[0.08em] text-teal-deep lg:text-[0.82rem]">{d.role}</p>
           </a>
         </li>
       ))}
@@ -69,4 +68,12 @@ const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([tex
   .hero-portrait { background: linear-gradient(180deg, #efe9dc, #e4dccb);
     -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
             mask-image: linear-gradient(180deg, #000 85%, transparent); }
+  /* Doctor portraits (round 12): the AIMSS arch as the frame, a soft colour field behind it, a slight lift on hover. */
+  .doc__glow { position: absolute; inset: 12% -6% -4%; border-radius: 999px 999px 2rem 2rem; opacity: .55; filter: blur(2px); }
+  .doc__glow--teal { background: radial-gradient(80% 70% at 50% 40%, #bfe6e2, transparent 70%); }
+  .doc__glow--gold { background: radial-gradient(80% 70% at 50% 40%, #f5e1b3, transparent 70%); }
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .doc__img { transition: transform .6s var(--ease-soft); }
+    .doc:is(:hover, :focus-visible) .doc__img { transform: scale(1.04); }
+  }
 </style>
