@@ -331,6 +331,10 @@ main:has(.ph) .card-soft .eyebrow::before { display: none !important; }
   mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1.5px));
 }
 
-/* Reviews band (owner, 2026-11-02): a clearly deeper ground so it reads as its own band between the paper-white
-   Inside and FAQ sections. Soft aqua-mist, teal-deep links stay >= 4.8:1 (#dcebe9), body text 8.8:1. */
-main section#reviews[data-tone] { background-image: linear-gradient(180deg, #dfedec 0%, #d6e7e5 100%); }
+/* Insurance and Reviews bands (owner, 2026-11-02: "needs a little deep colour, hard to differentiate").
+   Palette research + rendered review: every tint is only 1.05-1.25:1 in luminance against paper, so the separation
+   has to come from HUE and chroma, not darkness (the first grey-aqua try read as dull). Both are the cool light
+   colours of the system: periwinkle (an indigo tint) between paper and warm cream, fresh aqua between two papers.
+   Gold stays on dark bands only. Contrast at the darkest stop: teal-deep links 4.6 / 4.7:1, body 8.4 / 8.5:1. */
+main section#insurance[data-tone] { background-image: linear-gradient(180deg, #e6e9f7 0%, #dde2f3 100%); }
+main section#reviews[data-tone] { background-image: linear-gradient(180deg, #dcf1ee 0%, #cdeae6 100%); }

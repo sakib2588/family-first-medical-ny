@@ -133,3 +133,4 @@
 - 2026-11-02 (PC): Session end. Everything merged to main (#33-#50) and verified live. PC-HANDOVER.md section 0 rewritten with what was built, owner preferences, research, client doc status and next steps.
 - 2026-11-02: branch feat/nav-hero-like-sample: plan for nav/hero like the sample (02-analysis/plan-nav-hero-like-sample-2026-11-02.md); added a short once-per-session intro splash on Home (03-decisions/2026-11-02-short-splash.md).
 - 2026-11-02: Reviews band given a deeper aqua-mist ground (owner: too hard to tell apart on desktop); global.css end of file.
+- 2026-11-02: nav + hero + phone bar modelled on the sample (Doctors/Services/All ages/Locations/Insurance/FAQ, filled 'Make an appointment' call button, ghost Visit, doctors + benefit lines in one card); Insurance periwinkle and Reviews aqua bands after palette research and a rendered review; QA: no overflow, no small targets, Escape closes the dialog.
