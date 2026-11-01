@@ -13,3 +13,7 @@ captures/
 *.log
 !workspace/**/*.log
 .DS_Store
+
+# Phone pixel-diff artifacts (workspace/tools/phone-baseline.mjs); only the baselines are committed
+workspace/04-logs/baseline/*.now.png
+workspace/04-logs/baseline/*-diff.png

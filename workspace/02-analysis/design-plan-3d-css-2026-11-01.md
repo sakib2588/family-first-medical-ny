@@ -229,7 +229,6 @@ B can be reconsidered after the owner has seen the showcase page, with real meas
 | P3 | `render-3d.mjs` pipeline (three.js in headless Chromium, writes `public/art/*.webp`). R1 glass arch in the hero plus C7 colour drift. | Phone LCP <= 2.5 s; hero bytes <= 120 KB |
 | P3b | **Showcase page early** (council): `/our-practice` with S1 + S2 and the posters from P3, so the owner sees live 3D before judging. S3 follows in P6. | three.js chunk loads only on this page |
 | P4 | R2 3D map still with live HTML pins on Home Locations and `/locations`. C9 on `/locations`. | Pins pass 44 px and keyboard checks |
-| P5 | (merged into P2; C2 dropped) | |
 | P6 | Showcase page `/our-practice`: S1 + S2 hero, S3 live map, pause button, posters from P3. Link from Home as a quiet secondary link. | three.js chunk loads only on this page; a new `check-dist` rule fails if any other page references it |
 | P7 | Optional: S4, S5, S6. | Same as P6 |
 
@@ -247,7 +246,7 @@ Fixed technical points:
 ## 7. Why this beats the competitors
 Clinic sites in the research set are either flat templates or heavy and slow (WebGL sites measured at 2.7 to 23.6 MB, design-rules B6). This plan gives a **signature 3D identity** (glass arch, 3D office map with live open pins) that loads like a plain page on an old phone, plus a real interactive 3D showcase for people who want to explore.
 
-## 8. Questions for the owner
+## 8. Questions for the owner (answered: see section 10)
 1. Approve the **three tiers**, live 3D on one showcase page only? Or sign a written exception for one live scene on Home? An exception conflicts with U14.11 and is not recommended.
 2. Which ideas: the **recommended set** is C1 to C6, R1, R2, then the showcase with S1, S2 and S3. Or pick by number.
 3. Insurance plans as **pills** (base-site pattern) instead of the old "no chips" list?
@@ -304,3 +303,37 @@ The three tiers are a correct reading of U14.11 and U14.14: a build-time still i
    - It still makes sense if the 3D is ever removed.
    - It fits the site's plain-English tone.
 4. **Revert point:** merge everything to `main`, tag it, then build on a new branch, so the current version can always be restored.
+
+## 11. Council on the full plan (2026-11-01): GO WITH CHANGES (3 of 3); this order replaces section 5
+The owner asked for one objective council before building and said they would follow it. All three outside voices said "go with changes", and that changed the Architect's own order.
+
+**Final build order:**
+| Step | What | Shows the owner |
+|---|---|---|
+| **P0-lite** | Phone baseline screenshots committed at the revert tag `v-pre-design-tier-2026-11-01`. Fix the hero H1 entrance (U14.9), the endless ping (2 runs, U14.8) and the FAQ heading bug. Shared kit fixes: ghost-button border contrast, and a reusable `OpenNow` ring and ping piece. No ADR or skill install yet. | FAQ bug gone |
+| **P1** | Desktop redesigns, one PR each: Visits, Insurance (pills), Care by age, Request, FAQ, Inside. | Visible desktop change from the first PR |
+| **P2** | C1 page morph, C3 form-card light, C5 heartbeat divider. | Motion polish |
+| **Spike** (during P1 critique) | One rough R1 glass-arch still rendered with three.js, shown to the owner as a preview before any pipeline work. | The "unique" direction, early |
+| **STOP GATE** | The owner reviews P1 and P2 plus the R1 spike, with measurements (desktop and phone LCP, bytes). Then the owner releases the next steps. | Decision point |
+| P3 | ADR (three.js allowed at build time and on `/our-practice`), the skill pack, the `render-3d` pipeline with pinned Chromium and three versions, R1 in the hero. | |
+| P3b | `/our-practice` showcase with S1 and S2. | Live 3D |
+| P4 | R2 map still with live HTML pins. | |
+| P6 | S3 live map on the showcase. | |
+| P7 (optional, owner's call at the gate) | S4, S5, S6. The Skeptic would drop these. | |
+
+**Added rules from the council:**
+- **Content first:** real photos of the offices and doctors, and confirmed facts, are a **blocking client ask** from now on. They are listed in every PR description until they are received.
+- **Accessibility tests added to 4b step 4:**
+  - forced-colors (high-contrast) mode;
+  - screen-reader / DOM order wherever visual order changes (the "open office first" reorder, the sticky FAQ card);
+  - text-only zoom 200%.
+- **The showcase pause state is remembered across pages** (`sessionStorage`).
+- **Weak PCs:**
+  - the live scene measures its frame rate and falls back to the poster if it stays under 30 fps for 2 s;
+  - `backdrop-filter` glass is limited to the trust band and Request cards, with a solid fallback under `prefers-reduced-transparency` and forced-colors;
+  - C1 stays short (<= 250 ms).
+- **3D pipeline upkeep:**
+  - pin the Chromium and three versions in `workspace/tools/package.json`;
+  - re-render the stills whenever an office, address or brand colour changes (a checklist line in `practice.ts`);
+  - R2 pin positions come from the same coordinates used to render the map, so they cannot drift apart.
+- **R1 LCP fallback:** if R1 pushes desktop LCP over 2.5 s, it loads after the LCP as a decorative layer (`fetchpriority="low"`) or shrinks until it fits.
