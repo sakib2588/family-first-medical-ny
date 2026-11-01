@@ -9,6 +9,7 @@ const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 ---
 <section id="hero" class="relative isolate overflow-hidden bg-cream px-5 pb-10 pt-8 md:px-8 lg:pb-20 lg:pt-14">
   <!-- Backdrop: stand-in for the reception photo (PHOTO 1). Decorative only. -->
+  <img src="/demo/reception.webp" alt="" width="1200" height="800" loading="eager" class="pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
   <div class="hero-room pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
   <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
     <div class="lg:col-span-6">
@@ -50,7 +51,7 @@ const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
     background:
       radial-gradient(60% 35% at 70% 0%, rgb(255 255 255 / 0.95), transparent 70%),
       linear-gradient(180deg, transparent 55%, rgb(201 168 120 / 0.18) 55%, rgb(201 168 120 / 0.10) 100%),
-      linear-gradient(180deg, #fbf9f4, var(--color-cream));
+      linear-gradient(180deg, rgb(250 247 239 / 0.86), rgb(250 247 239 / 0.94));
   }
   .hero-portrait { background: linear-gradient(180deg, #efe9dc, #e4dccb);
     -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);

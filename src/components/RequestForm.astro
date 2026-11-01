@@ -19,7 +19,7 @@ const errIcon = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="tr
   </div>
   <div>
     <label for="phone" class="font-semibold text-indigo">Phone number</label>
-    <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="20" pattern="[0-9()+\-.\s]{7,20}" aria-describedby="phone-error" class={fieldClass} />
+    <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required maxlength="20" pattern="[0-9\s\(\)+.\-]{7,20}" aria-describedby="phone-error" class={fieldClass} />
     <p id="phone-error" class="mt-1 hidden items-center gap-1.5 text-[0.88rem] font-medium text-state-error" data-error><Fragment set:html={errIcon} />Please enter a phone number we can call.</p>
   </div>
   <fieldset>
