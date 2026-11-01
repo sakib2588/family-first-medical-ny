@@ -3,6 +3,8 @@
 // (no text on the photo), status pill, address + Directions, the number as text, GROUPED hours with today's group
 // marked (mist row + the word "Today", JS only), dated access slots, the doctors there, an outlined Call and a
 // link to the full week. Every fact comes from practice.ts.
+// Desktop: address and hours side by side only from 80rem (xl); between 64 and 80rem the hours sit below the address
+// (side by side they overflowed the card at 1024 px). Day labels never wrap; the full-week link is one underlined run.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import OpenNow from '../OpenNow.astro'
@@ -34,7 +36,7 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
           <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>
           <p class="rounded-full bg-mist px-3 py-1 text-[0.82rem] font-medium text-text"><OpenNow office={o} fallback="Hours below" /></p>
         </div>
-        <div class="mt-4 lg:grid lg:grid-cols-[15rem_1fr] lg:gap-x-6">
+        <div class="mt-4 xl:grid xl:grid-cols-[13rem_1fr] xl:gap-x-6">
           <div>
             <address class="not-italic">{o.addr.split(', ').slice(0, 1)}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
             <ul class="mt-3 grid gap-2 text-[0.94rem] lg:hidden">
@@ -42,13 +44,13 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
               {o.access.filter(a => isShown(a.fact)).map(a => (<li class="flex gap-2.5"><span class="mt-0.5 shrink-0 text-teal-deep"><Icon name="pin" size={18} /></span><span><span class="text-muted">{a.label}:</span> <FactSlot fact={a.fact} /></span></li>))}
             </ul>
             <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="arrow-link mr-5 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Directions<Icon name="arrow" size={18} /></a>
-            <a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4 lg:ml-0">Full week<span class="hidden lg:inline">&nbsp;and details</span><Icon name="arrow" size={18} /></a>
+            <a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4 lg:ml-0"><span>Full week<span class="hidden lg:inline"> and details</span></span><Icon name="arrow" size={18} /></a>
           </div>
-          <div class="mt-3 hidden lg:mt-0 lg:block">
+          <div class="mt-3 hidden lg:block xl:mt-0">
             <dl aria-label="Hours" class="tabular divide-y divide-line border-y border-line" data-week>
               {groups(o).map(g => (
                 <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
-                  <dt>{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
+                  <dt class="whitespace-nowrap">{g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`}<span data-today-label class="ml-2 hidden font-semibold text-indigo">Today</span></dt>
                   <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
                 </div>
               ))}
