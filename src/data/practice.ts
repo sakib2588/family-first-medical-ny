@@ -60,7 +60,7 @@ const officeExtras = (place: string, transitLabel: string, transit: string, park
     { label: 'Step-free entrance', fact: sample<string>('Yes, street-level entrance', 'to confirm') },
   ],
   photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building (stand-in photo)` }, `Photo: ${place} entrance from the street`),
-  gallery: [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')],
+  gallery: place === 'Hicksville' ? [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')].reverse() : [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')],
   googleProfile: toConfirm<string>("Google profile link: to confirm"),
   googleRating: toConfirm<string>('rating, count, date'),
 })
