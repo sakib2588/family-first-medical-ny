@@ -7,6 +7,9 @@
  *  When the client confirms: set value, source (who or which document) and checkedOn (ISO date). */
 export interface Fact<T> { value: T | null; need: string; source?: string; checkedOn?: string }
 const toConfirm = <T>(need: string): Fact<T> => ({ value: null, need })
+/** Demo-only sample value (owner request 2026-11-01). NOT a client fact: replace with the confirmed value before launch.
+ *  Never used for credentials, ratings, insurance or new-patient status (CLAUDE.md red lines). */
+const sample = <T>(value: T, need: string): Fact<T> => ({ value, need, source: 'DEMO SAMPLE, replace' })
 /** Show this fact's row at all? Confirmed facts always; unconfirmed ones only as demo slots (live: hidden). */
 export const isShown = (f: Fact<unknown>) => f.value !== null || practice.demo
 export interface Photo { src: string; alt: string }
@@ -17,17 +20,17 @@ export const practice = {
   lastReviewed: 'Sample date (placeholder)',
   /** Design demo: unconfirmed facts render as labelled slots. Set false only at launch, after every fact is confirmed. */
   demo: true,
-  languages: toConfirm<string>('to confirm'),
-  agesSeen: toConfirm<string>('Newborns to adults: doctors to confirm'),
+  languages: sample<string>('English and Spanish', 'to confirm'),
+  agesSeen: sample<string>('Newborns to adults', 'Newborns to adults: doctors to confirm'),
   acceptingNew: toConfirm<string>('to confirm, with date'),
-  afterHours: toConfirm<string>('after-hours line or answering service'),
-  records: toConfirm<string>('how to request or transfer records'),
+  afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
+  records: sample<string>('Ask the front desk for a records release form. Transfers usually take a few business days.', 'how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
     publicPlans: toConfirm<string>('taken? with date'),
     plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
     notTaken: toConfirm<string>('plans not taken, with date'),
-    selfPay: toConfirm<string>('self-pay option and how to ask'),
+    selfPay: sample<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
   },
 } as const
 
@@ -50,11 +53,11 @@ export interface Office {
   doctors: readonly string[]
 }
 
-const officeExtras = (place: string, transitLabel: string) => ({
+const officeExtras = (place: string, transitLabel: string, transit: string, parking: string) => ({
   access: [
-    { label: transitLabel, fact: toConfirm<string>('to confirm') },
-    { label: 'Parking', fact: toConfirm<string>('to confirm') },
-    { label: 'Step-free entrance', fact: toConfirm<string>('to confirm') },
+    { label: transitLabel, fact: sample<string>(transit, 'to confirm') },
+    { label: 'Parking', fact: sample<string>(parking, 'to confirm') },
+    { label: 'Step-free entrance', fact: sample<string>('Yes, street-level entrance', 'to confirm') },
   ],
   photo: toConfirm<Photo>(`Photo: ${place} entrance from the street`),
   gallery: [toConfirm<Photo>('Photo: reception'), toConfirm<Photo>('Photo: waiting area'), toConfirm<Photo>('Photo: an exam room')],
@@ -67,14 +70,14 @@ export const offices: readonly Office[] = [
     slug: 'elmhurst', name: 'Elmhurst office', neighborhood: 'Elmhurst, Queens',
     addr: '123 Sample Street, Elmhurst, NY 11373', phone: '(718) 555-0142',
     open: { 0: null, 1: [9, 18], 2: [9, 18], 3: [9, 18], 4: [9, 18], 5: [9, 18], 6: [9, 16] },
-    ...officeExtras('Elmhurst', 'Subway and bus'),
+    ...officeExtras('Elmhurst', 'Subway and bus', 'Short walk from the subway; several bus lines nearby', 'Street parking nearby'),
     doctors: ['arjun-mehta', 'elena-park'],
   },
   {
     slug: 'hicksville', name: 'Hicksville office', neighborhood: 'Hicksville, Long Island',
     addr: '456 Example Avenue, Hicksville, NY 11801', phone: '(516) 555-0188',
     open: { 0: null, 1: [10, 17], 2: [10, 17], 3: [10, 17], 4: [10, 17], 5: [10, 17], 6: null },
-    ...officeExtras('Hicksville', 'Train and bus'),
+    ...officeExtras('Hicksville', 'Train and bus', 'A few minutes from the LIRR station; bus stop nearby', 'Free parking lot on site'),
     doctors: ['arjun-mehta', 'elena-park'],
   },
 ]
@@ -114,7 +117,7 @@ export const serviceGroups: readonly ServiceGroup[] = [
 
 const careAreasOf = (slug: string) => serviceGroups.filter(g => g.doctor === slug).flatMap(g => g.items.map(([name]) => name))
 
-const scheduleSlots = () => (['elmhurst', 'hicksville'] as const).map(office => ({ office, days: toConfirm<string>('days at this office') }))
+const scheduleSlots = () => (['elmhurst', 'hicksville'] as const).map(office => ({ office, days: sample<string>(office === 'elmhurst' ? 'Monday, Wednesday, Friday' : 'Tuesday, Thursday', 'days at this office') }))
 
 export interface Doctor {
   slug: string
@@ -137,7 +140,7 @@ export interface Doctor {
 export const doctors: readonly Doctor[] = [
   {
     slug: 'arjun-mehta', name: 'Dr. Arjun Mehta', role: 'Pediatrics and adolescent care', ages: 'Newborns to age 21',
-    languages: toConfirm<string>('to confirm'),
+    languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
       { label: 'Medical school', fact: toConfirm<string>('to confirm') },
@@ -153,7 +156,7 @@ export const doctors: readonly Doctor[] = [
   },
   {
     slug: 'elena-park', name: 'Dr. Elena Park', role: 'Family medicine', ages: 'Teens and adults',
-    languages: toConfirm<string>('to confirm'),
+    languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
       { label: 'Medical school', fact: toConfirm<string>('to confirm') },
@@ -171,10 +174,10 @@ export const doctors: readonly Doctor[] = [
 
 // Care by age: life stages in order, each with the doctor who leads it (sample: each doctor confirms the ranges).
 export const ageBands = [
-  { range: 'Birth to 12 months', title: 'Newborns and babies', photo: toConfirm<Photo>('Photo: baby'), line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
-  { range: '1 to 12 years', title: 'Children', photo: toConfirm<Photo>('Photo: child'), line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
-  { range: '13 to 21 years', title: 'Teens', photo: toConfirm<Photo>('Photo: teen'), line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
-  { range: '22 and up', title: 'Adults and seniors', photo: toConfirm<Photo>('Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
+  { range: 'Birth to 12 months', title: 'Newborns and babies', photo: sample<Photo>({ src: '/demo/child-joy.webp', alt: 'A smiling baby (stand-in photo)' }, 'Photo: baby'), line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
+  { range: '1 to 12 years', title: 'Children', photo: sample<Photo>({ src: '/demo/child-play.webp', alt: 'A child playing (stand-in photo)' }, 'Photo: child'), line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
+  { range: '13 to 21 years', title: 'Teens', photo: sample<Photo>({ src: '/demo/hands.webp', alt: 'A caring hand on a shoulder (stand-in photo)' }, 'Photo: teen'), line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
+  { range: '22 and up', title: 'Adults and seniors', photo: sample<Photo>({ src: '/demo/doctor-female.webp', alt: 'A doctor with an adult patient (stand-in photo)' }, 'Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
 ] as const
 
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
