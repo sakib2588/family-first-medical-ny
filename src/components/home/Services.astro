@@ -28,8 +28,8 @@ const cards = serviceGroups.flatMap(g => g.items.map(([name, line]) => ({ group:
     <button type="button" class="svc-tab" aria-pressed="false" data-filter="adults">Family medicine</button>
   </div>
   <ul class="svc-grid mt-8" aria-live="polite">
-    {cards.map(c => (
-      <li data-group={c.group} class={`svc-card svc-card--${c.group}`}>
+    {cards.map((c, i) => (
+      <li data-group={c.group} class={`svc-card svc-card--${c.group} svc-hue-${i % 5}`}>
         <span class="svc-card__icon" aria-hidden="true"><Icon name={c.icon} size={22} /></span>
         <p class="svc-card__label">{c.label}</p>
         <h3 class="svc-card__name">{c.name}</h3>
@@ -67,6 +67,27 @@ const cards = serviceGroups.flatMap(g => g.items.map(([name, line]) => ({ group:
   @media (prefers-reduced-motion: no-preference) {
     .svc-card.svc-in { animation: svc-in .45s var(--ease-soft) both; }
     @keyframes svc-in { from { opacity: 0; transform: translateY(10px) scale(.98); } }
+  }
+  /* Round 18 (owner: more colourful + animation). Five calm hues rotate across the cards; each card gets a tinted top,
+     a solid icon disc, a coloured label and a top accent bar. Text colours are the dark end of each hue (>= 4.5:1 on
+     white/tint). Motion: cards rise in a stagger, icon discs bob gently (pausable), the accent bar grows on hover. */
+  .svc-hue-0 { --h: #0b6f6f; --h-soft: #e3f3f1; --h-disc: linear-gradient(140deg, #13a3a0, #0b6f6f); }
+  .svc-hue-1 { --h: #8a5a06; --h-soft: #fbf1dc; --h-disc: linear-gradient(140deg, #f0c25a, #c2861a); }
+  .svc-hue-2 { --h: #a3334a; --h-soft: #fde8ec; --h-disc: linear-gradient(140deg, #f07b8a, #c23d55); }
+  .svc-hue-3 { --h: #3b3391; --h-soft: #ece9fb; --h-disc: linear-gradient(140deg, #7a6fe0, #3b3391); }
+  .svc-hue-4 { --h: #1d5f8a; --h-soft: #e3f0f9; --h-disc: linear-gradient(140deg, #4ba3d6, #1d5f8a); }
+  .svc-card { position: relative; overflow: hidden; background: linear-gradient(180deg, var(--h-soft) 0, #fff 4.5rem); border-color: color-mix(in srgb, var(--h) 18%, #fff); }
+  .svc-card::before { content: ''; position: absolute; inset: 0 0 auto 0; block-size: 4px; background: var(--h-disc); transform-origin: left; transform: scaleX(.25); transition: transform .5s var(--ease-soft); }
+  .svc-card:hover::before { transform: scaleX(1); }
+  .svc-card--children .svc-card__icon, .svc-card--adults .svc-card__icon { background: var(--h-disc); color: #fff; box-shadow: 0 8px 18px -10px var(--h), 0 0 0 5px color-mix(in srgb, var(--h) 12%, transparent); }
+  .svc-card__label { color: var(--h); }
+  .svc-card:hover { border-color: color-mix(in srgb, var(--h) 45%, #fff) !important; }
+  @media (prefers-reduced-motion: no-preference) {
+    .svc-card__icon { animation: svc-bob 4s ease-in-out infinite; }
+    .svc-card:nth-child(3n+2) .svc-card__icon { animation-delay: -1.3s; }
+    .svc-card:nth-child(3n) .svc-card__icon { animation-delay: -2.6s; }
+    @keyframes svc-bob { 50% { transform: translateY(-4px); } }
+    .svc-card:hover .svc-card__icon { animation-play-state: paused; }
   }
 </style>
 <script>
