@@ -295,3 +295,12 @@ The three tiers are a correct reading of U14.11 and U14.14: a build-time still i
 - **Inside (4.4):** morph the existing heading link instead of adding a "See the office" link; zoom on hover/focus needs a focusable element.
 - **Insurance pills:** no shadow, so they don't look like filter buttons.
 - **Screenshots:** every PR adds screenshots of each component state (U15.15).
+
+## 10. Owner answers (2026-11-01)
+1. **Ideas:** build everything in the reviewed plan (section 3 after the review, sections 4.1 to 4.7, the showcase page). Before building, convene the council once on the full plan for an objective opinion.
+2. **Insurance pills:** owner: "do what a pro would do". **Decision: pills**, the base-site pattern. They are plain text with no shadow, no logos and no "& many more", dated "Checked [date]", and read as a list (`<ul>`). Reason: scannable, and they fill the desktop column without inventing anything.
+3. **Showcase page name:** owner: "do what a pro would do". **Decision: "Explore our practice", `/our-practice`.**
+   - It names what the visitor gets (a look at the practice), not the technology.
+   - It still makes sense if the 3D is ever removed.
+   - It fits the site's plain-English tone.
+4. **Revert point:** merge everything to `main`, tag it, then build on a new branch, so the current version can always be restored.
