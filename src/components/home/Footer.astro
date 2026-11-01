@@ -1,72 +1,58 @@
 ---
-// Footer: closing call to action, then brand + two offices + explore, then 911 and a tidy legal row.
-// Dark indigo ground. Primary action on dark is gold with indigo text (global.css colour roles); secondary is outlined.
-import { practice, offices, legalPages, telHref, mapsHref } from '../../data/practice'
+// Footer (spec 4.14 + owner's phone fixes): compact. Offices side by side on phone (name, number, status), Explore and
+// Policies as two-column link lists with 44 px rows, the 911 band kept, language help, DRAFT legal note.
+// The closing call to action shows on inner pages only (Home has the request band right above).
+import { practice, offices, legalPages, telHref, isShown } from '../../data/practice'
+import { nav } from '../Header.astro'
 import OpenNow from '../OpenNow.astro'
-const explore = [['Doctors', '/doctors'], ['Locations', '/locations'], ['Insurance', '/#insurance'], ['Contact', '/contact']] as const
-const label = 'font-sans text-[0.95rem] font-semibold text-white'
-const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline'
+import FactSlot from '../FactSlot.astro'
+import Logo from '../Logo.astro'
+const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
+const h = 'font-sans text-[0.88rem] font-semibold text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
 ---
-<footer id="site-footer" class="on-dark bg-indigo pb-28 text-[0.97rem] text-[#e6e2f5] md:pb-12">
-  <div class="px-5 md:px-8"><div class="mx-auto max-w-[1160px]">
-    <!-- Closing call to action (off on Home) -->
+<footer id="site-footer" class="on-dark border-t border-indigo-soft bg-indigo px-5 pb-28 pt-10 text-[0.94rem] text-on-dark md:px-8 lg:pb-12 lg:pt-16">
+  <div class="mx-auto max-w-[1160px]">
     {closing && (
-    <div class="flex flex-col gap-6 border-b border-[#3a3370] py-12 md:flex-row md:items-center md:justify-between md:py-16">
-      <div>
-        <p class="font-display text-[1.9rem] font-medium leading-tight text-white md:text-4xl">Your family's doctors,<br class="hidden md:block" /> close to home.</p>
-      </div>
-      <div class="flex flex-wrap gap-3">
-        <a href="/contact" class="btn inline-flex min-h-12 items-center justify-center rounded-full bg-gold px-7 font-semibold text-indigo hover:bg-gold-light">Request a visit</a>
-        <a href="/locations" data-call class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-[#8d86c4] px-7 font-semibold text-white hover:border-white">Call an office</a>
-      </div>
-    </div>
-    )}
-
-    <!-- Brand, offices, explore -->
-    <div class="grid gap-10 py-12 md:grid-cols-[1.15fr_1fr_1fr_0.6fr] md:gap-10 md:py-14">
-      <div>
-        <a href="/" class="inline-flex min-h-11 items-center gap-2.5" aria-label={`${practice.name}, home`}>
-          <svg width="34" height="34" viewBox="0 0 30 30" aria-hidden="true" class="shrink-0">
-            <path d="M4 26V15a11 11 0 0 1 22 0v11" fill="none" stroke="var(--color-aqua)" stroke-width="3" stroke-linecap="round"/>
-            <path d="M10 26V16a5 5 0 0 1 10 0v10" fill="none" stroke="var(--color-gold)" stroke-width="3" stroke-linecap="round"/>
-          </svg>
-          <span class="font-display text-2xl font-semibold text-white">{practice.name}</span>
-        </a>
-        <p class="mt-3 max-w-[28ch] text-[#c9c4e3]">{practice.tagline}</p>
-        <a href="/legal/nondiscrimination#language" class={`${link} mt-3 font-semibold text-white underline`}>Language help / Ayuda con el idioma</a>
-      </div>
-
-      {offices.map(o => (
-        <div>
-          <h2 class={label}><a href={`/locations/${o.slug}`} class="hover:underline underline-offset-4">{o.neighborhood.split(',')[0]}</a></h2>
-          <address class="mt-3 not-italic text-white">{o.addr.replace(', ', ', ').split(', ').map((l, i) => (<span class="block">{i === 0 ? l : l}</span>))}</address>
-          <p class="tabular mt-2 text-[#c9c4e3]"><OpenNow office={o} /></p>
-          <div class="mt-3 flex flex-wrap gap-x-5">
-            <a class={`${link} tabular font-semibold text-white underline`} href={telHref(o.phone)}>{o.phone}</a>
-            <a class={`${link} text-[#c9c4e3]`} href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`}>Directions</a>
-          </div>
+      <div class="mb-10 flex flex-col gap-5 border-b border-indigo-soft pb-10 lg:flex-row lg:items-center lg:justify-between">
+        <p class="font-display text-[1.76rem] font-medium leading-tight text-white">Your family's doctors, close to home.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/contact" class="btn inline-flex min-h-12 items-center rounded-full bg-gold px-7 font-semibold text-indigo hover:bg-gold-light">Request a visit</a>
+          <a href="/locations" data-call class="btn inline-flex min-h-12 items-center rounded-full border-[1.5px] border-on-dark px-7 font-semibold text-white hover:border-white">Call an office</a>
         </div>
-      ))}
-
-      <nav aria-label="Explore">
-        <h2 class={label}>Explore</h2>
-        <ul class="mt-3">{explore.map(([t, h]) => (<li><a href={h} class={link}>{t}</a></li>))}</ul>
-      </nav>
-    </div>
-
-    <!-- Emergency + legal -->
-    <div class="border-t border-[#3a3370] py-8 md:py-10">
-      <p class="rounded-2xl bg-[#231c52] px-5 py-4 text-white"><strong>In an emergency, call 911.</strong> <span class="text-[#c9c4e3]">This website cannot give medical advice.</span></p>
-      <nav aria-label="Legal" class="mt-6">
-        <h2 class={`${label} mb-1`}>Policies</h2>
-        <ul class="grid grid-cols-2 gap-x-6 md:flex md:flex-wrap md:gap-x-6">
-          <li><a href="/legal" class={`${link} font-semibold`}>All policies</a></li>
-          {legalPages.map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} text-[#c9c4e3]`}>{l.short}</a></li>))}
+      </div>
+    )}
+    <div class="grid gap-8 lg:grid-cols-12 lg:gap-6">
+      <div class="lg:col-span-3">
+        <Logo tone="dark" />
+        <p class="mt-2 max-w-[30ch]">{practice.tagline}</p>
+      </div>
+      <ul class="grid grid-cols-2 gap-3 lg:col-span-4" aria-label="Offices">
+        {offices.map(o => (
+          <li class="rounded-[1.25rem] bg-indigo-soft p-4">
+            <a href={`/locations/${o.slug}`} class={`${h} ${link} min-h-0`}>{o.neighborhood.split(',')[0]}</a>
+            <a href={telHref(o.phone)} class="tabular flex min-h-11 items-center whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4">{o.phone}</a>
+            <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug" />
+          </li>
+        ))}
+      </ul>
+      <nav id="site-nav" aria-label="Explore" class="lg:col-span-2">
+        <h2 class={h}>Explore</h2>
+        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:grid-cols-1">
+          {[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={link}>{i.label}</a></li>))}
         </ul>
       </nav>
-      <p class="mt-6 max-w-3xl text-sm text-[#b5b0d4]">Design demo with sample content and stand-in photos. Legal pages are drafts pending counsel. Last reviewed: {practice.lastReviewed}.</p>
+      <nav aria-label="Policies" class="lg:col-span-3">
+        <h2 class={h}>Policies (drafts)</h2>
+        <ul class="mt-1 grid grid-cols-2 gap-x-4">
+          <li><a href="/legal" class={`${link} font-semibold`}>All policies</a></li>
+          {legalPages.map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} leading-tight`}>{l.short}</a></li>))}
+        </ul>
+      </nav>
     </div>
-  </div></div>
+    <p class="mt-8 rounded-[1.25rem] bg-indigo-soft px-4 py-3 text-white"><strong>In an emergency, call 911.</strong> <span class="text-on-dark">This website cannot give medical advice.</span></p>
+    <p id="language-help" class="mt-4">Language help: <a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Nondiscrimination and language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
+    <p class="mt-2 text-[0.82rem]">Design demo with sample content and stand-in photos. Legal pages are drafts pending counsel. Last reviewed: {practice.lastReviewed}. © {new Date().getFullYear()} {practice.name}.</p>
+  </div>
 </footer>

@@ -1,0 +1,14 @@
+---
+// Logo lockup: the arch mark + the name (spec 4.1). tone dark = footer colours.
+import { practice } from '../data/practice'
+interface Props { tone?: 'light' | 'dark'; class?: string }
+const { tone = 'light', class: cls = '' } = Astro.props
+const outer = tone === 'dark' ? 'var(--color-aqua)' : 'var(--color-teal-deep)'
+---
+<a href="/" class={`inline-flex min-h-11 items-center gap-2.5 ${cls}`} aria-label={`${practice.name}, home`}>
+  <svg viewBox="0 0 30 34" aria-hidden="true" class="h-8 w-7 shrink-0 lg:h-9 lg:w-8">
+    <path d="M4 31V16a11 11 0 0 1 22 0v15" fill="none" stroke={outer} stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 31V17a5 5 0 0 1 10 0v14" fill="none" stroke="var(--color-gold)" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+  <span class={`whitespace-nowrap font-display text-[1.12rem] font-semibold leading-none lg:text-[1.3rem] ${tone === 'dark' ? 'text-white' : 'text-indigo'}`}>{practice.name}</span>
+</a>

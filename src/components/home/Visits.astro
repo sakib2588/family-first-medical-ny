@@ -1,20 +1,45 @@
 ---
-// Route by need right after the hero, ranked (Gate 9 item 7: no row of equal cards). Planned visits are the
-// main path, to the callback request; a sick visit is a call, because a callback is too slow.
-// The request form stays contact-only, so the visit reason is not carried into it (CLAUDE.md red line).
+// Visits + Sick today (spec 4.5): two plain paths as rows (not cards). Planned visits go to the callback request;
+// a sick visit is a call, so both offices are listed with their open status and number. No same-day claim.
+// With JS the office that is open now is listed first; without JS the data order stays.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
+import OpenNow from '../OpenNow.astro'
+import { offices, telHref } from '../../data/practice'
+const archIcon = 'M5 21V11a7 7 0 0 1 14 0v10'
 ---
 <Section id="visits">
-  <h2 class="text-[1.9rem] md:text-4xl">What brings you in?</h2>
-  <div class="mt-6 md:mt-10 md:grid md:grid-cols-[1.4fr_1fr] md:items-end md:gap-12">
-    <div class="rounded-[1.75rem] border border-line bg-white p-6 md:p-8">
-      <h3 class="text-2xl md:text-3xl">Planning a visit</h3>
-      <p class="mt-2 max-w-[38ch] md:text-lg">Checkups, physicals, a new baby or vaccines. Send a short request with your name and number, and the office calls you back.</p>
-      <a href="#request" class="mt-4 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
+  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">What brings you in?</h2>
+  <div class="mt-6 grid gap-8 lg:mt-8 lg:grid-cols-2 lg:gap-6">
+    <div class="flex gap-4">
+      <svg class="size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M9 15h6M12 12v6" /></svg>
+      <div>
+        <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Planning a visit</h3>
+        <p class="mt-1.5 max-w-[40ch]">Checkups, physicals, a new baby or vaccines. Leave your name and number and the office calls you back.</p>
+        <a href="#request" class="arrow-link mt-1 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
+      </div>
     </div>
-    <p class="mt-6 border-l-2 border-indigo pl-4 md:mt-0 md:pb-2 md:text-lg"><strong class="font-display text-xl font-semibold text-indigo md:text-2xl">Sick today?</strong><br />
-      Don't wait for a callback. <a href="/locations" data-call class="inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />Call an office</a><br />
-      In an emergency, call 911.</p>
+    <div class="flex gap-4">
+      <svg class="size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M12 11v4M12 18h.01" /></svg>
+      <div class="min-w-0 flex-1">
+        <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Sick today?</h3>
+        <p class="mt-1.5 max-w-[40ch]">Call the office that is open now. In an emergency, call <strong class="font-semibold text-indigo">911</strong>.</p>
+        <ul data-open-first class="mt-4 divide-y divide-line rounded-[1.25rem] border border-line bg-white px-4">
+          {offices.map(o => (
+            <li class="flex min-h-16 items-center justify-between gap-3 py-2">
+              <span><span class="block font-semibold text-indigo">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="See hours below" class="block text-[0.82rem] leading-snug text-muted" /></span>
+              <a href={telHref(o.phone)} class="tabular inline-flex min-h-11 items-center whitespace-nowrap font-semibold text-teal-deep underline underline-offset-4">{o.phone}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   </div>
 </Section>
+<script>
+  // Runs after OpenNow has set data-state (module scripts run in document order). Open office first.
+  document.querySelectorAll<HTMLElement>('[data-open-first]').forEach(list => {
+    const open = [...list.children].filter(li => li.querySelector('[data-state="open"]'))
+    open.reverse().forEach(li => list.prepend(li))
+  })
+</script>

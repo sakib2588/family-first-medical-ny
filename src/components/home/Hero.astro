@@ -1,42 +1,44 @@
 ---
-// Indigo hero with the two doctors in the first screen (owner decision 2026-10-31-home-colour-and-hero.md).
-// Gate 9 slop test (workspace/02-analysis/slop-test-home-2026-10-31.md): the H1 names the service and the place,
-// no eyebrow, colour only on actions, and every stand-in face is labelled on screen.
-// Answers what, for whom, where (offices from practice.ts) and the one action. Name cards show
-// name, role and ages only: no credentials until they are checked against the state board (red line).
-import Icon from '../Icon.astro'
-import FactRow from './FactRow.astro'
-import { offices, doctors, practice } from '../../data/practice'
-const places = new Intl.ListFormat('en', { type: 'conjunction' }).format(offices.map(o => o.neighborhood.split(',')[0]))
+// Hero (spec 4.3, palette "D hybrid" 03-decisions/2026-10-31-palette-d-hybrid.md): indigo-to-deep-teal gradient
+// (the page's only gradient, brief-pinned to the AIMSS parent brand; Gate 9 item 10 documented exception), a thin
+// gold pulse line (the AIMSS logo motif, decorative), one gold underline under one H1 word, the one filled action
+// (gold, indigo text 7.61:1), both office numbers as the secondary link group, and the two doctors as arch portraits
+// with captions BELOW the photo (no text on images). Credentials never appear here until checked (red line).
+// Contrast at the teal end (#0c4a50): white 9.95, on-dark 5.92, aqua underline 4.82.
+import { offices, doctors, practice, telHref } from '../../data/practice'
+const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 ---
-<section id="hero" class="on-dark overflow-hidden bg-indigo px-5 pb-12 pt-9 text-on-dark md:px-8 md:pb-20 md:pt-16">
-  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-[1fr_1.05fr] lg:items-center lg:gap-x-16">
-    <div>
-      <h1 class="max-w-[18ch] text-[2.3rem] leading-[1.08] sm:text-5xl lg:text-[3.5rem]">Pediatrics and family medicine in {places}</h1>
-      <p class="mt-4 max-w-[34ch] text-[1.06rem] md:text-xl">One practice for the whole family: newborns, children, teens and adults.</p>
-      <div class="mt-7 flex flex-col gap-2 md:flex-row md:items-center md:gap-6">
-        <a href="#request" class="btn inline-flex min-h-14 items-center justify-center rounded-full bg-gold px-8 text-lg font-semibold text-indigo hover:bg-gold-light">Request a visit</a>
-        <a href="/locations" data-call class="inline-flex min-h-12 items-center justify-center gap-2 font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">
-          <Icon name="phone" size={18} />Or call an office
-        </a>
+<section id="hero" class="on-dark relative isolate overflow-hidden bg-linear-to-b from-indigo from-30% to-hero-teal px-5 pb-10 pt-8 text-on-dark md:px-8 lg:pb-[5.2rem] lg:pt-[4.25rem]">
+  <svg class="pointer-events-none absolute inset-x-0 top-[58%] -z-10 h-24 w-full opacity-35 lg:top-[59%]" viewBox="0 0 1200 96" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60H590l18-34 22 62 20-52 14 24H1200" fill="none" stroke="var(--color-gold)" stroke-width="1.5" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+  </svg>
+  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-6">
+    <div class="lg:col-span-6 lg:pt-6">
+      <h1 class="max-w-[16ch] text-[2.35rem] leading-[1.06] tracking-[-0.015em] lg:text-[3.53rem] lg:leading-[1.04]">Pediatrics and <span class="brand-underline">family</span> medicine in <em>{first}</em> and <em>{second}</em></h1>
+      <p class="mt-5 max-w-[34ch] text-[1.06rem] leading-normal lg:max-w-[48ch] lg:text-[1.18rem]">One practice for newborns, children, teens and adults.</p>
+      <div class="mt-6 lg:flex lg:items-center lg:gap-8">
+        <a href="#request" class="btn flex min-h-14 items-center justify-center rounded-full bg-gold px-8 text-[1.06rem] font-bold text-indigo hover:bg-gold-light lg:inline-flex lg:min-h-[3.5rem] lg:w-[16.5rem]">Request a visit</a>
+        <ul class="mt-3 grid grid-cols-2 gap-4 lg:mt-0 lg:flex lg:gap-8" aria-label="Call an office">
+          {offices.map(o => (
+            <li><a href={telHref(o.phone)} class="group flex min-h-12 flex-col justify-center">
+              <span class="text-[0.82rem] leading-tight">{o.neighborhood.split(',')[0]}</span>
+              <span class="tabular whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 group-hover:text-aqua">{o.phone}</span>
+            </a></li>
+          ))}
+        </ul>
       </div>
     </div>
-
-    <ul class="mt-10 grid grid-cols-2 gap-3 sm:gap-5 lg:mt-0" aria-label="Our doctors">
+    <ul class="mt-7 grid grid-cols-2 gap-4 lg:col-span-5 lg:col-start-8 lg:mt-0 lg:gap-6" aria-label="Our doctors">
       {doctors.map((d, i) => (
-        <li class="flex">
-          <a href={`/doctors/${d.slug}`} class="group flex w-full flex-col rounded-[1.75rem]">
-            <div class="arch aspect-[4/4.6] bg-indigo-soft"><img src={d.img} alt={d.alt} width="380" height="437" loading="eager" fetchpriority={i === 0 ? "high" : "auto"} class="size-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"/></div>
-            <div class="relative -mt-6 mx-2 flex flex-1 flex-col justify-center rounded-2xl bg-white px-2.5 py-3 text-center shadow-[0_12px_28px_-16px_rgb(0_0_0/0.6)] sm:mx-3 sm:px-4">
-              <p class="font-display text-[1.02rem] font-semibold leading-tight text-indigo [text-wrap:balance] sm:text-lg">{d.name}</p>
-              <p class="mt-1 text-[0.8rem] font-semibold leading-snug text-text sm:text-sm">{d.role}</p>
-              <p class="mt-0.5 text-[0.8rem] leading-snug text-muted sm:text-sm">{d.ages}</p>
-              {practice.demo && <p class="mt-1.5 border-t border-line pt-1.5 text-[0.75rem] leading-snug text-muted">Sample name and photo</p>}
-            </div>
+        <li class={i === 1 ? 'lg:mt-12' : ''}>
+          <a href={`/doctors/${d.slug}`} class="group block rounded-[1.25rem]">
+            <div class="arch aspect-[4/5] bg-indigo-soft outline-2 outline-offset-4 outline-gold"><img src={d.img} alt={d.alt} width="500" height="625" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class="size-full object-cover object-top" /></div>
+            <p class="mt-3 font-display text-[1.06rem] font-semibold leading-tight text-white group-hover:underline lg:text-[1.29rem]">{d.name}</p>
+            <p class="mt-1 text-[0.88rem] leading-snug">{d.role}</p>
+            {practice.demo && <p class="mt-1 text-[0.82rem] italic leading-snug">Sample name and photo</p>}
           </a>
         </li>
       ))}
     </ul>
   </div>
-  <div class="mx-auto max-w-[1160px]"><FactRow /></div>
 </section>

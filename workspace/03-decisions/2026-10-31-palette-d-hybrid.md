@@ -12,6 +12,7 @@ The owner likes aimssfoundation.org (the parent organisation) and asked for a be
 - **One gold underline** under one H1 word as the brand mark. No coloured headline words.
 - **Hero action:** solid gold "Request a visit" with indigo text (7.61:1). The secondary action is an outlined white pill.
 - **Light grounds:** the action is a teal-deep pill (a teal-to-indigo gradient fill is allowed on light grounds only; white text stays at least 5.9:1 over the whole gradient).
+- **Gold arch frame** around the hero doctor photos (2 px outline): part of the AIMSS brand look, brief-pinned like the underline. No other decorative accent colour.
 - **Not copied:** their tracked-caps eyebrow pill and their two-colour headline.
 
 ## Consequences

@@ -1,14 +1,23 @@
 ---
-// The hero's proof row: facts a parent checks first, in plain text (no icons, no numbers we cannot verify).
-// Unconfirmed facts show as labelled slots on the demo (decision 2026-10-31-home-layout-round3.md #1).
+// Fact row (spec 4.4): white band right under the hero. Facts as data with a date or a labelled slot: insurance
+// first, ages, then a Google rating per office as dated text. No stars, no AggregateRating, no "years" or
+// "board-certified" (CLAUDE.md red lines). Live: unconfirmed cells are hidden.
 import FactSlot from '../FactSlot.astro'
-import OpenNow from '../OpenNow.astro'
 import { practice, offices, isShown } from '../../data/practice'
+const cells = [
+  { label: 'Medicaid and Child Health Plus', fact: practice.insurance.publicPlans, dated: true },
+  { label: 'Ages we see', fact: practice.agesSeen, dated: false },
+  ...offices.map(o => ({ label: `${o.neighborhood.split(',')[0]} on Google`, fact: o.googleRating, dated: true })),
+].filter(c => isShown(c.fact))
 ---
-<dl class="mt-10 grid grid-cols-2 gap-x-5 gap-y-5 border-t border-white/15 pt-6 md:mt-14 md:grid-cols-4">
-  {offices.map(o => (
-    <div><dt class="text-sm text-on-dark/80">{o.neighborhood.split(',')[0]} today</dt><dd class="tabular mt-1 font-medium text-white"><OpenNow office={o} fallback="See hours below" /></dd></div>
-  ))}
-  {isShown(practice.languages) && <div><dt class="text-sm text-on-dark/80">Languages</dt><dd class="mt-1 font-medium text-white"><FactSlot fact={practice.languages} tone="dark" /></dd></div>}
-  {isShown(practice.acceptingNew) && <div><dt class="text-sm text-on-dark/80">New patients</dt><dd class="mt-1 font-medium text-white"><FactSlot fact={practice.acceptingNew} tone="dark" dated /></dd></div>}
-</dl>
+{cells.length > 0 && (
+<section aria-label="Key facts" class="bg-white px-5 py-6 md:px-8 lg:py-10">
+  <dl class="mx-auto grid max-w-[1160px] grid-cols-2 lg:grid-cols-4">
+    {cells.map((c, i) => (
+      <div class={`min-h-[7.25rem] py-4 ${i % 2 === 0 ? 'pr-4' : 'border-l border-line pl-4'} ${i >= 2 ? 'border-t border-line lg:border-t-0' : ''} ${i > 0 ? 'lg:border-l lg:pl-6' : ''} lg:min-h-0`}>
+        <dt class="text-[0.82rem] font-medium leading-snug text-muted">{c.label}</dt>
+        <dd class="mt-1.5 font-semibold text-indigo"><FactSlot fact={c.fact} dated={c.dated} /></dd>
+      </div>
+    ))}
+  </dl>
+</section>)}

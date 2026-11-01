@@ -50,3 +50,24 @@ New sections were checked against every item: hero fact row, photo-led office ca
 | 15 | yes | The arch device, our palette and our own copy. The structure is borrowed; the layout, wording and photos are not. |
 
 **Round 3: 14 of 15, item 1 still open (client facts).**
+
+## Round 4 (spec rev. 2 + palette D hybrid, branch claude/laughing-keller-b48kzx-build), judged on `04-logs/home-demo/H9-*`
+| # | Result | Note |
+|---|---|---|
+| 1 | no | Still waiting on client facts (new slots: Google rating per office, insurance object, doctor days per office, after-hours, records). demo=false clean build: 0 slots, 0 sample notes. |
+| 2 | yes | Stand-in faces labelled "Sample name and photo"; every photo is a named dashed frame. |
+| 3 | yes | Slots read "[need: ...]" on the slot ground (slot-ink on slot 4.97:1). |
+| 4 | yes | 390x844 fold: H1, gold Request a visit, both office numbers, portrait tops. The sticky bar waits until the hero leaves. |
+| 5 | yes | Plain H1: the service and the two places. |
+| 6 | yes | Visitor-question order: who/where, facts, visits, insurance, offices, ages, doctors, rooms, proof, questions, request. No centred band. |
+| 7 | yes | Neighbours differ: dl, rows + panel, panel + list, cards, timeline, cards, gallery, panel rows, accordion, form. |
+| 8 | yes | Fraunces vs Figtree, 40/30/22/17 steps. |
+| 9 | yes | Gold and teal-deep only on actions and links; teal is the brand graphic (age line, arch icons, U12.4); the gold pulse line and one gold H1 underline are the palette D brand mark (owner decision). Selected form chips are outlined, not filled. |
+| 10 | yes, one documented exception | The hero background gradient (indigo to deep teal) is brief-pinned to the AIMSS parent brand (03-decisions/2026-10-31-palette-d-hybrid.md). No other gradient, no gradient text, no glow. |
+| 11 | yes | No eyebrows, no tracked caps (the old uppercase "FAMILY HEALTH" logo line is gone). |
+| 12 | yes | No text over photos: hero captions sit below the arches. |
+| 13 | yes | Radius and shadow by role: pill controls, 12 px fields and thumbs, 20 px cards, arch photos; lift shadow only on doctor cards and the sticky bar. |
+| 14 | yes | One 2 px line-icon set. |
+| 15 | yes | Arch device, the care-by-age line, AIMSS pulse line. |
+
+**Round 4: items 2-15 pass (item 10 with its one documented exception); item 1 still open (client facts).**

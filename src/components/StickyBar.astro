@@ -1,12 +1,13 @@
 ---
-// Task 1: sticky Call + Request bar (phone only). Hidden until the hero has scrolled away,
-// and hidden again over the request form and footer. Without JS it never shows (no layout trap).
+// Sticky bar (spec 4.15, phone only): "Request a visit" filled teal-deep, "Call" outlined (opens the call dialog).
+// Appears only after the hero has scrolled away (one filled action in the fold) and hides over the request band and
+// the footer. Motion #5: slides up (m-sheet); instant with reduced motion. Without JS it never shows.
 const request = Astro.url.pathname === '/' ? '#request' : '/contact'
 ---
-<aside id="sticky-bar" aria-label="Call or request a visit" inert data-visible="false" class="fixed inset-x-0 bottom-0 z-30 translate-y-full border-t border-line bg-white/95 px-4 pt-3 backdrop-blur-sm transition-transform duration-200 data-[visible=true]:translate-y-0 md:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+<aside id="sticky-bar" aria-label="Call or request a visit" inert data-visible="false" class="fixed inset-x-0 bottom-0 z-30 translate-y-full bg-white px-5 pt-3 shadow-lift transition-transform duration-300 ease-(--ease-sheet) data-[visible=true]:translate-y-0 lg:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
   <div class="mx-auto flex max-w-md gap-3">
-    <a href="/locations" data-call class="inline-flex min-h-12 flex-1 items-center justify-center rounded-full border-2 border-teal-deep font-semibold text-teal-deep">Call</a>
-    <a href={request} class="inline-flex min-h-12 flex-[1.4] items-center justify-center rounded-full bg-teal-deep font-semibold text-white">Request a visit</a>
+    <a href="/locations" data-call class="btn inline-flex min-h-12 flex-[0_0_8rem] items-center justify-center rounded-full border-[1.5px] border-muted font-semibold text-teal-deep">Call</a>
+    <a href={request} class="btn inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker">Request a visit</a>
   </div>
 </aside>
 <script>

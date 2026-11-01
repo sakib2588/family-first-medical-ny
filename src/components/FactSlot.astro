@@ -1,13 +1,15 @@
 ---
 // One fact the client must confirm (Fact<T> in practice.ts). Confirmed: the value. Not confirmed: on the demo a
-// quiet labelled slot "[need]"; on the live site nothing (rulebook U00.10, tell 8). Never a plausible sample value.
+// quiet labelled slot "[need: ...]" on the slot ground (spec 1.1: slot-ink on slot 4.97:1); on the live site nothing
+// (rulebook U00.10, tell 8). Never a plausible sample value.
 import { practice, type Fact } from '../data/practice'
 // dated: the fact must carry checkedOn (e.g. new patients: a CLAUDE.md red line); without it, it stays a slot.
+// tone is kept for callers; the slot looks the same on every ground.
 interface Props { fact: Fact<string>; class?: string; tone?: 'light' | 'dark'; dated?: boolean }
-const { fact, class: cls = '', tone = 'light', dated = false } = Astro.props
+const { fact, class: cls = '', dated = false } = Astro.props
 const confirmed = fact.value !== null && (!dated || Boolean(fact.checkedOn))
-const slotColour = tone === 'dark' ? 'text-on-dark' : 'text-muted' // both pass AA on their ground
+const slotClass = 'rounded-md bg-slot px-1.5 text-slot-ink'
 ---
 {confirmed
   ? <span class={cls}>{fact.value}{dated && ` (as of ${fact.checkedOn})`}</span>
-  : practice.demo && <span class={`font-normal italic ${slotColour} ${cls}`}>[{fact.need}]</span>}
+  : practice.demo && <span class={`box-decoration-clone py-0.5 text-[0.88rem] font-medium not-italic ${slotClass} ${cls}`}>[need: {fact.need}]</span>}
