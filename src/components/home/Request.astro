@@ -25,11 +25,11 @@ const steps = practice.callbackSteps
         </div>
       )}
       <div class="mt-8 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3>
-        <ul class="req-offices mt-3">{offices.map(o => (
+        <ul data-open-first class="req-offices mt-3">{offices.map(o => (
           <li class="glass req-office">
             <span class="block font-semibold text-white">{o.neighborhood.split(',')[0]}</span>
             <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug text-on-dark" />
-            <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="tabular mt-2 inline-flex min-h-11 items-center gap-2 font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua"><Icon name="phone" size={18} />{o.phone}</a>
+            <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="tabular mt-2 inline-flex min-h-11 items-center gap-2 whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua"><Icon name="phone" size={18} />{o.phone}</a>
           </li>))}
         </ul>
       </div>
@@ -37,6 +37,7 @@ const steps = practice.callbackSteps
     <div class="mt-6 rounded-[1.25rem] bg-white p-5 text-text lg:col-span-6 lg:col-start-7 lg:mt-0 lg:p-8"><RequestForm /></div>
   </div>
 </section>
+<script>import '../../scripts/open-first'</script>
 <style>
   /* Desktop only (design plan 4.6). */
   @media (min-width: 64rem) {

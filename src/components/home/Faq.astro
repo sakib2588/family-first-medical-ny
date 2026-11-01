@@ -54,18 +54,14 @@ const shown = faqs.filter(f => !f.fact || f.fact.value !== null || practice.demo
   @media (min-width: 64rem) {
     .faq-help { display: block; margin-top: 2rem; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: 1.5rem; background: var(--color-cream); }
     .faq-help__office { padding: .7rem .9rem; border-radius: 1rem; background: #fff; }
-    .faq-list { display: grid; gap: .75rem; border: 0; }
+    .faq-list { display: grid; align-content: start; gap: .75rem; border: 0; } /* the taller help card stretched the list and its rows */
     .faq-list > details { border: 1px solid var(--color-line); border-radius: 1.1rem; background: #fff; padding-inline: 1.25rem; transition: background-color .25s, border-color .25s; }
     .faq-list > details[open] { border-color: var(--color-teal-deep); background: var(--color-mist); box-shadow: inset 3px 0 0 var(--color-teal-deep); }
     .faq-plus { display: grid; place-items: center; inline-size: 2.25rem; block-size: 2.25rem; border-radius: 999px; background: var(--color-mist); }
     .faq-plus :global(svg) { color: var(--color-teal-deep); }
     details[open] .faq-plus { background: #fff; }
+
   }
-  @media (min-width: 64rem) and (min-height: 50rem) { .faq-aside { position: sticky; top: 6.5rem; } }
+  @media (min-width: 64rem) and (min-height: 50rem) { .faq-aside { position: sticky; top: var(--header-offset); } }
 </style>
-<script>
-  // Open office first in the help card (after OpenNow has set data-state).
-  document.querySelectorAll<HTMLElement>('#faq [data-open-first]').forEach(list => {
-    [...list.children].filter(li => li.querySelector('[data-state="open"]')).reverse().forEach(li => list.prepend(li))
-  })
-</script>
+<script>import '../../scripts/open-first'</script>
