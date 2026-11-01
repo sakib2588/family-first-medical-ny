@@ -250,12 +250,14 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
   const idOf = (a: HTMLAnchorElement) => a.getAttribute('href')?.split('#')[1] ?? ''
   const targets = [...new Set(spyLinks.map(idOf))].map(id => document.getElementById(id)).filter(Boolean) as HTMLElement[]
   if (targets.length && 'IntersectionObserver' in window) {
+    // Track which section crosses the reading line; clear the highlight when none does (top of the page, or over a
+    // section that is not in the nav), so a stale link never stays lit.
+    const crossing = new Set<string>()
     const io = new IntersectionObserver(entries => {
-      for (const e of entries) {
-        if (!e.isIntersecting) continue
-        spyLinks.forEach(a => idOf(a) === e.target.id ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'))
-        placeIndicator()
-      }
+      for (const e of entries) e.isIntersecting ? crossing.add(e.target.id) : crossing.delete(e.target.id)
+      const currentId = [...crossing].at(-1) ?? ''
+      spyLinks.forEach(a => currentId && idOf(a) === currentId ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'))
+      placeIndicator()
     }, { rootMargin: '-45% 0px -50% 0px' })
     targets.forEach(t => io.observe(t))
   }

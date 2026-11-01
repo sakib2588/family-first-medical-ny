@@ -301,7 +301,7 @@ main > section.on-dark:is(:last-child, #request)::after { background: linear-gra
   .doc-side::before { inline-size: 12rem; block-size: 12rem; inset-block-start: -4.5rem; inset-inline-end: -3.5rem; }
   .doc-side::after { inline-size: 9rem; block-size: 9rem; inset-block-end: -3rem; inset-inline-start: -2.5rem; background: rgb(217 160 44 / .14); }
 /* Inner pages: no drawn eyebrow rule inside cards (it would sit on the card edge). */
-main:has(.ph) .card-soft .eyebrow::before { display: none !important; }
+.card-soft .eyebrow::before { display: none !important; }
 
 /* ---- Round 19 ---- */
 /* TEST (owner: "glowing different colour particles behind the doctor panels, to see how it looks"): three layers of

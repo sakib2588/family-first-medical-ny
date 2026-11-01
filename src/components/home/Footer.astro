@@ -36,7 +36,7 @@ const { closing = true } = Astro.props
       </div>
       {offices.map(o => (
         <div class="lg:col-span-2">
-          <h2 class="ftr-h"><a href={`/locations/${o.slug}`} class="hover:underline underline-offset-4">{o.neighborhood.split(',')[0]}</a></h2>
+          <h2 class="ftr-h"><a href={`/locations/${o.slug}`} class="inline-flex min-h-11 items-center hover:underline underline-offset-4">{o.neighborhood.split(',')[0]}</a></h2>
           <address class="mt-2 text-[0.85rem] not-italic leading-relaxed">{o.addr.split(', ')[0]}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
           <a href={telHref(o.phone)} class={`${link} ftr-link tabular whitespace-nowrap text-[0.85rem]`}>{o.phone}</a>
         </div>
