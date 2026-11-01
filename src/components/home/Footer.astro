@@ -2,16 +2,19 @@
 // Footer, round 19 (owner: the base site's footer looks more professional): clean columns like theirs. Brand + tagline +
 // language chips | one column per office (address, phone) | Explore | Policies (key notices + All policies) | a thin
 // bottom row: copyright, the 911 line, Pause motion. Earlier: (spec 4.14 + owner's phone fixes) compact. Offices side by side on phone (name, number, status), Explore and
-// Policies as two-column link lists with 44 px rows, the 911 band kept, language help, DRAFT legal note.
+// Policies as two-column link lists with 38 px rows (tight, like the base site; phone numbers stay 44 px), the 911 band kept, language help, DRAFT legal note.
 // The closing call to action shows on inner pages only (Home has the request band right above).
 import { practice, offices, legalPages, telHref } from '../../data/practice'
 import { nav } from '../Header.astro'
 import Logo from '../Logo.astro'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
+// Dense text-link lists (Explore, Policies): 38 px rows like the base site's tight footer (owner, 2026-11-02). Above the
+// WCAG 2.2 AA minimum (24 px) but below the project's 44 px rule: an exception for these lists only. Phone numbers stay 44 px.
+const listLink = 'flex min-h-9 items-center underline-offset-4 hover:underline hover:text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
 ---
-<footer id="site-footer" class={`on-dark relative bg-[#0e0b26] px-5 pb-28 text-[0.94rem] pt-8 text-on-dark md:px-8 lg:pb-12 lg:pt-16`}>
+<footer id="site-footer" class={`on-dark relative bg-[#0e0b26] px-5 pb-[calc(1.5rem+env(safe-area-inset-bottom))] text-[0.94rem] pt-8 text-on-dark md:px-8 lg:pb-12 lg:pt-16`}>
   <div class="mx-auto max-w-[1160px]">
     {closing && (
       <div class="mb-10 flex flex-col gap-5 border-b border-indigo-soft pb-10 lg:flex-row lg:items-center lg:justify-between">
@@ -22,11 +25,11 @@ const { closing = true } = Astro.props
         </div>
       </div>
     )}
-    <div class="ftr grid grid-cols-2 gap-x-6 gap-y-8 lg:grid-cols-12 lg:gap-x-8">
+    <div class="ftr grid grid-cols-2 gap-x-6 gap-y-6 lg:grid-cols-12 lg:gap-x-8">
       <div class="col-span-2 lg:col-span-4">
         <Logo tone="dark" />
-        <p class="mt-3 max-w-[34ch] text-[0.9rem] leading-relaxed">{practice.tagline}</p>
-        <p id="language-help" class="mt-4 flex flex-wrap items-center gap-2">
+        <p class="mt-2 max-w-[34ch] text-[0.9rem] leading-relaxed">{practice.tagline}</p>
+        <p id="language-help" class="mt-3 flex flex-wrap items-center gap-2">
           {practice.languages.value?.split(/,| and /).map(l => l.trim()).filter(Boolean).map(l => (<span class="ftr-chip">{l}</span>))}
           <a href="/legal/nondiscrimination" class={`${link} ftr-link ml-1 text-[0.85rem] underline`}>Language help</a>
         </p>
@@ -34,23 +37,23 @@ const { closing = true } = Astro.props
       {offices.map(o => (
         <div class="lg:col-span-2">
           <h2 class="ftr-h"><a href={`/locations/${o.slug}`} class="hover:underline underline-offset-4">{o.neighborhood.split(',')[0]}</a></h2>
-          <address class="mt-3 text-[0.85rem] not-italic leading-relaxed">{o.addr.split(', ')[0]}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
+          <address class="mt-2 text-[0.85rem] not-italic leading-relaxed">{o.addr.split(', ')[0]}<br />{o.addr.split(', ').slice(1).join(', ')}</address>
           <a href={telHref(o.phone)} class={`${link} ftr-link tabular whitespace-nowrap text-[0.85rem]`}>{o.phone}</a>
         </div>
       ))}
       <nav id="site-nav" aria-label="Explore" class="lg:col-span-2">
         <h2 class="ftr-h">Explore</h2>
-        <ul class="mt-2">{[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={`${link} ftr-link text-[0.85rem]`}>{i.label}</a></li>))}</ul>
+        <ul class="mt-1">{[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={`${listLink} ftr-link text-[0.85rem]`}>{i.label}</a></li>))}</ul>
       </nav>
       <nav aria-label="Policies" class="lg:col-span-2">
         <h2 class="ftr-h">Policies</h2>
-        <ul class="mt-2">
-          {legalPages.filter(l => ['privacy', 'notice-of-privacy-practices', 'nondiscrimination', 'accessibility'].includes(l.slug)).map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} ftr-link text-[0.85rem]`}>{l.short}</a></li>))}
-          <li><a href="/legal" class={`${link} ftr-link text-[0.85rem] font-semibold`}>All policies</a></li>
+        <ul class="mt-1">
+          {legalPages.filter(l => ['privacy', 'notice-of-privacy-practices', 'nondiscrimination', 'accessibility'].includes(l.slug)).map(l => (<li><a href={`/legal/${l.slug}`} class={`${listLink} ftr-link text-[0.85rem]`}>{l.short}</a></li>))}
+          <li><a href="/legal" class={`${listLink} ftr-link text-[0.85rem] font-semibold`}>All policies</a></li>
         </ul>
       </nav>
     </div>
-    <div class="mt-8 flex flex-col gap-2 border-t border-white/10 pt-5 text-[0.8rem] lg:mt-12 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+    <div class="mt-6 flex flex-col gap-2 border-t border-white/10 pt-4 text-[0.8rem] lg:mt-12 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
       <p>© {new Date().getFullYear()} {practice.name}. All rights reserved.</p>
       <p><strong class="text-white">Emergency? Call 911.</strong></p>
     </div>
