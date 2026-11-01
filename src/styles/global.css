@@ -218,3 +218,36 @@ html[data-motion-paused] *, html[data-motion-paused] *::before, html[data-motion
     @keyframes photo-depth { from { translate: 0 -5%; } to { translate: 0 5%; } }
   }
 }
+
+/* ---- Round 16: soft light <-> dark transitions (owner: white straight into midnight strains the eye) ----
+   Three moves, applied to every seam on the page:
+   1. Luminance ramp: the last ~220 px of a light section before a dark band fades into a cool lavender-grey from
+      the indigo family (#e8e6f1), so the eye steps down instead of jumping from white (L 100) to midnight (L 8).
+   2. Shape: the dark band overlaps with arched (rounded) top corners, the brand's shape device; a light section
+      after a dark band does the same over it. A curved edge reads softer than a straight cut.
+   3. Inner light: dark bands carry a faint lighter wash along their top edge.
+   Text sits well inside the padding, so overlaps never touch content; contrast inside every section is unchanged. */
+:root { --seam: 1.5rem; }
+@media (min-width: 64rem) { :root { --seam: 2.75rem; } }
+main > section { position: relative; }
+/* 1. light before dark: fade to a cool tint + room for the overlap */
+main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark)::after {
+  content: ''; position: absolute; inset: auto 0 0 0; block-size: 14rem; pointer-events: none; z-index: 0;
+  background: linear-gradient(180deg, rgb(232 230 241 / 0), #e8e6f1);
+}
+main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark) { padding-bottom: calc(3rem + var(--seam)); }
+@media (min-width: 64rem) { main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark) { padding-bottom: calc(5rem + var(--seam)); } }
+main > section:not(.on-dark) > :not(.absolute):not(script):not(style) { position: relative; z-index: 1; } /* never touch absolutely placed backdrops */
+/* 2. dark band rises over the light one with arched corners */
+main > :is(section:not(.on-dark), script) + section.on-dark, main > section:not(.on-dark) + script + section.on-dark {
+  margin-top: calc(var(--seam) * -1); border-top-left-radius: calc(var(--seam) * 1.4); border-top-right-radius: calc(var(--seam) * 1.4);
+}
+/* light section after a dark band rises over it the same way (the dark band leaves room) */
+main > section.on-dark:has(+ section:not(.on-dark), + script + section:not(.on-dark)) { padding-bottom: calc(3rem + var(--seam)); }
+@media (min-width: 64rem) { main > section.on-dark:has(+ section:not(.on-dark), + script + section:not(.on-dark)) { padding-bottom: calc(5rem + var(--seam)); } }
+main > section.on-dark + section:not(.on-dark), main > section.on-dark + script + section:not(.on-dark) {
+  margin-top: calc(var(--seam) * -1); border-top-left-radius: calc(var(--seam) * 1.4); border-top-right-radius: calc(var(--seam) * 1.4);
+  box-shadow: 0 -18px 40px -24px rgb(23 18 58 / .45);
+}
+/* 3. dark bands: faint lighter wash along the top edge */
+main > section.on-dark { box-shadow: inset 0 90px 120px -90px rgb(149 140 214 / .22); }
