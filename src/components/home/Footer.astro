@@ -7,7 +7,6 @@
 import { practice, offices, legalPages, telHref } from '../../data/practice'
 import { nav } from '../Header.astro'
 import Logo from '../Logo.astro'
-import MotionToggle from '../MotionToggle.astro'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
 // Dense text-link lists (Explore, Policies): 38 px rows like the base site's tight footer (owner, 2026-11-02). Above the
 // WCAG 2.2 AA minimum (24 px) but below the project's 44 px rule: an exception for these lists only. Phone numbers stay 44 px.
@@ -57,8 +56,6 @@ const { closing = true } = Astro.props
     <div class="mt-6 flex flex-col gap-2 border-t border-white/10 pt-4 text-[0.8rem] lg:mt-12 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
       <p>© {new Date().getFullYear()} {practice.name}. All rights reserved.</p>
       <p><strong class="text-white">Emergency? Call 911.</strong></p>
-      {/* Pause motion (WCAG 2.2.2): the header copy only shows from lg; phones and tablets get it here. */}
-      <MotionToggle class="-ml-1 px-1 text-[0.8rem] lg:hidden" />
     </div>
   </div>
 </footer>

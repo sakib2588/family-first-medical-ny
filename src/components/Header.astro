@@ -49,8 +49,8 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       <a href="/locations" data-call class="btn btn-primary inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full px-5 font-bold"><Icon name="phone" size={18} />Make an appointment</a>
       <a href="/#offices" class="btn btn-ghost hidden min-h-11 2xl:inline-flex items-center whitespace-nowrap rounded-full px-5 font-semibold">Visit</a>
     </div>
-    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" class="btn inline-flex h-11 items-center gap-2 rounded-full border-[1.5px] border-line bg-white pl-3.5 pr-4 font-semibold text-indigo shadow-[0_2px_8px_rgb(23_18_58/0.06)] xl:hidden">
-      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu
+    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" aria-label="Menu" class="btn inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-full border-[1.5px] border-line bg-white pl-3.5 pr-4 font-semibold text-indigo shadow-[0_2px_8px_rgb(23_18_58/0.06)] max-[380px]:w-11 max-[380px]:px-0 xl:hidden">
+      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="max-[380px]:hidden">Menu</span>
     </a>
   </div>
 </header>
@@ -79,7 +79,6 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       ))}
     </ul>
     {isShown(practice.languages) && <p class="mt-3 text-[0.82rem]">Language help: <FactSlot fact={practice.languages} /></p>}
-    <MotionToggle class="mt-1 -ml-1 px-1 text-[0.82rem] text-muted" />
   </div>
 </dialog>
 <style is:global>
