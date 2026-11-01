@@ -68,7 +68,7 @@ img { outline: 1px solid rgb(0 0 0 / 0.08); outline-offset: -1px; }
 
 .arch { border-radius: 999px 999px 1.25rem 1.25rem; overflow: hidden; }
 /* One grade for every stand-in photo so the set reads as one shoot. Replace with real, graded photos. */
-.arch img { filter: saturate(0.92) sepia(0.05) contrast(1.03); }
+/* .arch img grade moved to the site-wide photo grade below (round 12). */
 ::selection { background: var(--color-gold); color: var(--color-indigo); }
 .btn { transition-property: transform, background-color, color, border-color; transition-duration: 150ms; transition-timing-function: ease-out; }
 .btn:active { transform: scale(0.97); }
@@ -166,7 +166,7 @@ section[data-tone='white'] + section[data-tone='white'], section[data-tone='crea
    depth shows what is interactive; the eyebrow rule marks each new section. Nothing loops. */
 @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
   /* Cards rise with a slight scale and settle; photos ease in from a soft zoom. */
-  .js :is(.visit-card, .age-card, .ins-feature, .ins-panel, .faq-help, .lift).reveal { transform: translateY(28px) scale(.98); }
+  .js :is(.visit-card, .age-card, .ins-feature, .ins-panel, .faq-help, .lift).reveal:not(.in) { transform: translateY(28px) scale(.98); } /* :not(.in): the start state must never outrank the settled state */
   .js figure.reveal img { transform: scale(1.06); transition: transform 1.2s var(--ease-soft) var(--rd, 0s); }
   .js figure.reveal.in img { transform: none; }
   /* Section eyebrow: a short teal rule draws in front of it when its heading reveals. */
@@ -179,3 +179,15 @@ section[data-tone='white'] + section[data-tone='white'], section[data-tone='crea
   /* Icon tiles tilt slightly toward the pointer on card hover. */
   :is(.visit-card, .age-card, .fact-card, .faq-help):hover :is(.tile, .visit-icon) { transform: rotate(-6deg) scale(1.06); transition: transform .4s cubic-bezier(.34, 1.56, .64, 1); }
 }
+
+/* Colour grade (owner round 12: "better colour grading in multiple places"). The stand-in photos come from different
+   shoots (cold blue, green, warm); one shared grade makes them read as one set: slightly warmer, a touch less saturated,
+   a little more contrast. Applies to every content photo, not the logo, icons or our own 3D art. Real photos get the
+   same grade, so the look stays consistent after launch (photo-map.md). */
+main img:not(.fact-art):not([src$='.svg']) { filter: saturate(.86) contrast(1.06) brightness(1.02) sepia(.1); }
+#site-footer img { filter: none; }
+/* Section grounds: soft tone gradients instead of flat fills (same tokens, so contrast is unchanged). */
+section[data-tone='white'] { background-image: linear-gradient(180deg, #ffffff 0%, #fdfbf7 100%); }
+section[data-tone='cream'] { background-image: radial-gradient(120% 80% at 100% 0%, rgb(230 242 241 / .7) 0%, transparent 55%), linear-gradient(180deg, #faf7ef 0%, #f6f0e3 100%); }
+section[data-tone='lavender'] { background-image: linear-gradient(180deg, #f2eefc 0%, #ece6fa 100%); }
+#hero { background-image: radial-gradient(90% 70% at 85% 10%, rgb(230 242 241 / .8), transparent 60%), radial-gradient(70% 60% at 0% 100%, rgb(245 225 179 / .45), transparent 60%); }
