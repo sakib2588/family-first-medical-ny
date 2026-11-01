@@ -1,7 +1,8 @@
 ---
-// The one repeated pair: Call (outlined) + Request (filled). Used at the end of doctor and office pages.
+// The one repeated pair: Call (ghost) + Request (filled primary). Used on doctor and office pages.
+import Icon from './Icon.astro'
 ---
 <div class="flex flex-wrap gap-3">
-  <a href="/locations" data-call class="btn btn-primary inline-flex min-h-12 items-center justify-center rounded-full border-2 border-teal-deep px-6 font-semibold text-teal-deep hover:bg-teal-deep hover:text-white">Call</a>
-  <a href="/contact" class="btn btn-primary inline-flex min-h-12 items-center justify-center rounded-full bg-teal-deep px-6 font-semibold text-white hover:bg-teal-darker">Request a visit</a>
+  <a href="/contact" class="btn btn-primary inline-flex min-h-12 items-center justify-center rounded-full px-6 font-semibold">Request a visit</a>
+  <a href="/locations" data-call class="btn btn-ghost inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold"><Icon name="phone" size={18} />Call</a>
 </div>

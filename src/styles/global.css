@@ -287,3 +287,15 @@ main > section.on-dark:is(:last-child, #request)::after { background: linear-gra
     linear-gradient(0deg, var(--lav), var(--seam-mid) 50%, var(--c3-base)) bottom / 100% var(--seam-h) no-repeat; box-shadow: none; }
 }
 @media (forced-colors: active) { main > section.on-dark::after { display: none; } main > section.on-dark { border-block: 1px solid CanvasText; } }
+
+
+/* ---- Inner pages (round 18) ---- */
+/* Gradient side panel with two soft circles (base-site doctor card pattern) in our colours.
+     White text on the lightest stop (teal-deep) is 5.97:1; on-dark labels stay on the indigo half. */
+  .doc-side { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #1f3a6b 55%, var(--color-teal-deep) 120%); }
+  .doc-side--b { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #3a2a6e 55%, #6b4a1a 130%); }
+  .doc-side::before, .doc-side::after { content: ''; position: absolute; z-index: -1; border-radius: 50%; background: rgb(255 255 255 / .09); }
+  .doc-side::before { inline-size: 12rem; block-size: 12rem; inset-block-start: -4.5rem; inset-inline-end: -3.5rem; }
+  .doc-side::after { inline-size: 9rem; block-size: 9rem; inset-block-end: -3rem; inset-inline-start: -2.5rem; background: rgb(217 160 44 / .14); }
+/* Inner pages: no drawn eyebrow rule inside cards (it would sit on the card edge). */
+main:has(.ph) .card-soft .eyebrow::before { display: none !important; }
