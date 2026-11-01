@@ -22,12 +22,12 @@ const line = fallback ?? weekSummary(office).map(([d, h]) => `${d}: ${h}`).join(
       const open = JSON.parse(el.dataset.openNow || '{}') as Record<string, [number, number] | null>
       const { day, hours } = nyNow()
       const today = open[day]
-      if (today && hours >= today[0] && hours < today[1]) { el.textContent = `Open now until ${fmt(today[1])}`; el.dataset.state = 'open'; return }
+      if (today && hours >= today[0] && hours < today[1]) { el.textContent = `Open · until ${fmt(today[1])}`; el.dataset.state = 'open'; return }
       for (let i = 0; i < 7; i++) {
         const d = (day + i) % 7, h = open[d]
         if (!h || (i === 0 && hours >= h[0])) continue
         el.dataset.state = 'closed'
-        el.textContent = `Closed now. Opens ${i === 0 ? 'today' : i === 1 ? 'tomorrow' : DAYS[d]} at ${fmt(h[0])}`; return
+        el.textContent = `Closed · opens ${i === 0 ? 'today' : i === 1 ? 'tomorrow' : DAYS[d]} ${fmt(h[0])}`; return
       }
     } catch { /* keep the static weekly line */ }
   })

@@ -52,6 +52,6 @@ const errIcon = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="tr
       if (bad && !first) first = input
     }
     if (first) { first.focus(); if (status) status.textContent = ''; return }
-    if (status) status.textContent = 'Thank you. Online requests are not connected yet, so nothing was sent. Please call your office to book.'
+    if (status) { status.textContent = 'Not sent. Online requests are not connected yet. Please call your office to book.'; status.classList.replace('text-teal-deep', 'text-state-error') }
   })
 </script>

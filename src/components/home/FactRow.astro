@@ -17,7 +17,7 @@ const cells = [
   { label: 'Every age', icon: 'heart', text: practice.agesSeen.value },
   { label: 'Two offices', icon: 'pin', text: `${first} · ${second}` },
   { label: 'Your language', icon: 'globe', text: practice.languages.value },
-  { label: 'Easy to book', icon: 'chat', text: 'Call or request a callback' },
+  { label: 'Book by phone', icon: 'chat', text: 'Call either office' },
 ].filter(c => c.text) as { label: string; icon: 'heart' | 'pin' | 'globe' | 'chat'; text: string }[]
 ---
 {cells.length > 0 && (

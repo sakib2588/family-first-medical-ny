@@ -5,16 +5,15 @@
 // photo, then one intro line and the one filled action. NO credentials ("board-certified") until checked (red line).
 // PHOTO NOTES: see workspace/03-decisions/2026-11-01-hero-photo-plan.md (which real photo goes where).
 import Icon from '../Icon.astro'
-import { offices, doctors, practice } from '../../data/practice'
+import { offices, doctors, serviceGroups, practice } from '../../data/practice'
 const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 // At-a-glance chips: only facts we hold (sample values are tagged in practice.ts). No "board-certified", "open 7 days",
 // "accepting new patients" or "most insurance" until the client confirms them (red lines).
-const chips = [
-  { icon: 'users', text: 'Pediatrics and family medicine' },
-  { icon: 'heart', text: practice.agesSeen.value ?? 'Every age' },
-  { icon: 'globe', text: practice.languages.value ? `Care in ${practice.languages.value}` : 'Language help' },
-  { icon: 'chat', text: 'Callback requests online' },
-] as const
+// Round 11 (owner: less writing, more dynamic, no repeats): the chips now say WHAT we treat (from serviceGroups);
+// who / where / language / booking live in the trust band right below, so nothing repeats.
+const CHIP_SERVICES = [['Newborn care', 'baby', 'tile-rose'], ['Vaccines', 'shield', 'tile-teal'], ['School and sports physicals', 'check', 'tile-gold'], ["Women's health", 'heart', 'tile-indigo']] as const
+const offered = serviceGroups.flatMap(g => g.items.map(([name]) => name))
+const chips = CHIP_SERVICES.filter(([name]) => offered.includes(name)).map(([text, icon, tile]) => ({ text: text === 'School and sports physicals' ? 'Physicals' : text, icon, tile }))
 ---
 <section id="hero" class="relative isolate overflow-hidden bg-cream px-5 pb-10 pt-8 md:px-8 lg:pb-20 lg:pt-14">
   {/* Backdrop: stand-in for the reception photo (PHOTO 1). Decorative only. */}
@@ -27,16 +26,16 @@ const chips = [
         <li class="pill"><Icon name="pin" size={15} class="text-teal-deep" />{first} and {second}</li>
       </ul>
       <h1 class="text-[2.6rem] leading-[1.04] tracking-[-0.02em] text-indigo lg:text-[3.9rem]">Family medicine &amp; pediatrics, <br /><em class="brand-underline inline-block font-medium text-teal-deep">all in one place.</em></h1>
-      <p class="mt-5 max-w-[42ch] text-[1.06rem] leading-normal text-text lg:text-[1.18rem]">From your newborn's first checkup to your own annual physical, one practice cares for your whole family in {first} and {second}.</p>
-      <div class="mt-6 grid grid-cols-[1fr_auto] gap-3 sm:flex sm:flex-wrap">
-        <a href="#request" class="btn btn-primary inline-flex min-h-[3.25rem] items-center justify-center gap-2 rounded-full px-7 text-[1.02rem] font-bold">Request a visit<Icon name="arrow" size={18} /></a>
-        <a href="#offices" class="btn btn-ghost inline-flex min-h-[3.25rem] items-center justify-center gap-2 rounded-full px-5 text-[1.02rem] font-semibold"><Icon name="pin" size={18} />Offices</a>
+      <p class="mt-5 max-w-[42ch] text-[1.06rem] leading-normal text-text lg:text-[1.18rem]">One practice for your whole family, from the first checkup on. In {first} and {second}.</p>
+      <div class="mt-6 grid grid-cols-[1fr_auto] gap-2.5 sm:flex sm:flex-wrap sm:gap-3">
+        <a href="#request" class="btn btn-primary inline-flex min-h-[3.25rem] items-center justify-center gap-2 whitespace-nowrap rounded-full px-5 text-[1rem] font-bold sm:px-7 sm:text-[1.02rem]">Request a visit<Icon name="arrow" size={18} /></a>
+        <a href="#offices" class="btn btn-ghost inline-flex min-h-[3.25rem] items-center justify-center gap-1.5 whitespace-nowrap rounded-full px-4 text-[1rem] font-semibold sm:px-5 sm:text-[1.02rem]"><Icon name="pin" size={18} />Offices</a>
       </div>
       <ul class="mt-7 grid grid-cols-2 gap-2.5 lg:gap-3" aria-label="At a glance">
         {chips.map(c => (
-          <li class="card-soft flex min-h-[3.75rem] items-center gap-2.5 p-2.5 pr-3 lg:p-3">
-            <span class="tile tile-soft !size-9 !rounded-[0.7rem]"><Icon name={c.icon} size={18} /></span>
-            <span class="text-[0.82rem] font-semibold leading-tight text-indigo lg:text-[0.88rem]">{c.text}</span>
+          <li class="hero-chip card-soft flex min-h-[3.4rem] items-center gap-2.5 p-2 pr-3 lg:p-2.5">
+            <span class={`tile ${c.tile} !size-9 !rounded-[0.7rem]`}><Icon name={c.icon} size={18} /></span>
+            <span class="text-[0.9rem] font-semibold leading-tight text-indigo">{c.text}</span>
           </li>
         ))}
       </ul>

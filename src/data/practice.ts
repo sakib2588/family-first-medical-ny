@@ -26,6 +26,7 @@ export const practice = {
   demo: false,
   languages: sample<string>('English and Spanish', 'to confirm'),
   agesSeen: sample<string>('Newborns to adults', 'Newborns to adults: doctors to confirm'),
+  // NEVER turn this into a yes/no without a dated check (checkedOn): accepting new patients is a CLAUDE.md red line.
   acceptingNew: sample<string>('Call either office to ask about openings for new patients.', 'accepting new patients? (yes/no, date)'),
   afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
   // What happens after a visit request (Home request band, desktop). Repeats only what the site already says (we call
@@ -64,7 +65,7 @@ const officeExtras = (place: string, transitLabel: string, transit: string, park
   access: [
     { label: transitLabel, fact: sample<string>(transit, 'to confirm') },
     { label: 'Parking', fact: sample<string>(parking, 'to confirm') },
-    { label: 'Step-free entrance', fact: sample<string>('Yes, street-level entrance', 'to confirm') },
+    { label: 'Step-free entrance', fact: sample<string>('Street-level entrance', 'to confirm') },
   ],
   photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building` }, `Photo: ${place} entrance from the street`),
   gallery: place === 'Hicksville' ? [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient' }, 'Photo: an exam room')].reverse() : [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient' }, 'Photo: an exam room')],
@@ -77,14 +78,14 @@ export const offices: readonly Office[] = [
     slug: 'elmhurst', name: 'Elmhurst office', neighborhood: 'Elmhurst, Queens',
     addr: '123 Example Street, Elmhurst, NY 11373', phone: '(718) 555-0142',
     open: { 0: null, 1: [9, 18], 2: [9, 18], 3: [9, 18], 4: [9, 18], 5: [9, 18], 6: [9, 16] },
-    ...officeExtras('Elmhurst', 'Subway and bus', 'Short walk from the subway; several bus lines nearby', 'Street parking nearby'),
+    ...officeExtras('Elmhurst', 'Subway and bus', 'Near subway and buses', 'Street parking nearby'),
     doctors: ['arjun-mehta', 'elena-park'],
   },
   {
     slug: 'hicksville', name: 'Hicksville office', neighborhood: 'Hicksville, Long Island',
     addr: '456 Example Avenue, Hicksville, NY 11801', phone: '(516) 555-0188',
     open: { 0: null, 1: [10, 17], 2: [10, 17], 3: [10, 17], 4: [10, 17], 5: [10, 17], 6: null },
-    ...officeExtras('Hicksville', 'Train and bus', 'A few minutes from the LIRR station; bus stop nearby', 'Free parking lot on site'),
+    ...officeExtras('Hicksville', 'Train and bus', 'Near LIRR and buses', 'Free parking lot on site'),
     doctors: ['arjun-mehta', 'elena-park'],
   },
 ]
@@ -157,7 +158,7 @@ export const doctors: readonly Doctor[] = [
       { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
     ],
     blurb: 'Well-child visits, vaccines, school and sports physicals, and calm answers for worried parents.',
-    bio: 'Dr. Mehta cares for babies, children and teens at both offices, from first newborn visits to school and sports physicals.',
+    bio: 'Dr. Mehta practices pediatrics and adolescent care.',
     careAreas: careAreasOf('arjun-mehta'),
     img: '/demo/doctor-male.webp', alt: 'Dr. Arjun Mehta, pediatrician',
   },
@@ -173,7 +174,7 @@ export const doctors: readonly Doctor[] = [
       { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
     ],
     blurb: "Annual physicals, chronic condition care, women's health and preventive screenings for adults.",
-    bio: 'Dr. Park cares for teens and adults at both offices, from yearly physicals to ongoing care and preventive screenings.',
+    bio: 'Dr. Park practices family medicine.',
     careAreas: careAreasOf('elena-park'),
     img: '/demo/doctor-female.webp', alt: 'Dr. Elena Park, family physician',
   },

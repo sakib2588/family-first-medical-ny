@@ -15,7 +15,7 @@ const doc = legal[meta.slug]
       <ol class="mt-2 space-y-0.5">{doc.sections.map(s => (<li><a href={`#${s.id}`} class="inline-flex min-h-11 items-center text-[0.97rem] font-medium text-teal-deep underline underline-offset-4">{s.heading}</a></li>))}</ol>
     </nav>
     <div class="max-w-prose">
-      <p class="rounded-2xl border-2 border-gold bg-white p-4 text-[0.97rem]"><strong class="text-indigo">DRAFT. Not legal advice.</strong> Pending review by counsel. Last reviewed: {practice.lastReviewed}. Items in [brackets] are not yet confirmed.</p>
+      <p class="rounded-2xl border-2 border-gold bg-white p-4 text-[0.97rem]"><strong class="text-indigo">DRAFT. Not legal advice.</strong> Pending review by counsel.{practice.lastReviewed && ` Last reviewed: ${practice.lastReviewed}.`} Items in [brackets] are not yet confirmed.</p>
       <div class="mt-6 rounded-2xl bg-lavender p-5"><h2 class="text-xl">In plain words</h2><p class="mt-2">{doc.summary}</p></div>
       {doc.sections.map(s => (<section id={s.id} class="scroll-mt-28"><h2 class="mt-10 text-2xl">{s.heading}</h2>{s.body.map(t => (<p class="mt-3">{t}</p>))}</section>))}
       {meta.slug === 'privacy' && (

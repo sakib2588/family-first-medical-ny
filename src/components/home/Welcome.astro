@@ -2,7 +2,7 @@
 // Welcome (round 8, owner: follow the base site's welcome pattern). A photo mosaic beside four benefit cards with
 // gradient icon tiles and one wide card. Copy states only what the practice structure already shows: two specialties,
 // two offices, the callback form, language help. No "open 7 days", "most insurance" or other unconfirmed claims.
-// PHOTOS: stand-ins from public/demo (Unsplash). Real practice photos replace them (03-decisions/2026-11-01-hero-photo-plan.md).
+// PHOTOS: stand-ins from public/demo (Unsplash); which real photo goes where: workspace/03-decisions/photo-map.md. Real practice photos replace them (03-decisions/2026-11-01-hero-photo-plan.md).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import { offices, practice } from '../../data/practice'
@@ -15,9 +15,9 @@ const mosaic = [
 ]
 const benefits = [
   { icon: 'users', tile: 'tile-teal', title: 'One team for the family', line: 'Kids and adults, one practice.' },
-  { icon: 'globe', tile: 'tile-indigo', title: 'Your language', line: practice.languages.value ? `${practice.languages.value}, plus free language help.` : 'Free language help.' },
+  { icon: 'globe', tile: 'tile-indigo', title: 'Your language', line: practice.languages.value ? `${practice.languages.value}.` : 'Language help on request.' },
   { icon: 'pin', tile: 'tile-gold', title: 'Two offices', line: `${first} and ${second}.` },
-  { icon: 'baby', tile: 'tile-rose', title: 'Every age', line: 'Newborns to grandparents.' },
+  { icon: 'baby', tile: 'tile-rose', title: 'Every age', line: 'Newborns to adults.' },
 ] as const
 ---
 <Section id="welcome" tone="white">
