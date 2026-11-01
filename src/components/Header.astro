@@ -1,7 +1,8 @@
 ---
 // Spec 4.0-4.2. Desktop (lg): a dark utility row (both numbers + open status, not sticky), then a white 80 px sticky
-// header with five anchors and an outlined "Call an office" (the hero holds the one filled action).
-// Phone: a white 64 px header, NOT sticky (the bottom sticky bar carries Call/Request; owner answer 2), with a
+// header with the sample's six anchors (Our doctors, Services, All ages, Locations, Insurance, FAQ), a filled
+// "Make an appointment" (opens the call dialog) and a ghost "Visit". The hero repeats the same pair.
+// Below xl (1280): the menu button replaces the links. Phone: a white 64 px header, NOT sticky (the bottom sticky bar carries Make an appointment / Visit; owner answer 2), with a
 // "Menu" button that opens a native <dialog> (Escape closes it, focus returns to the button). No JS: "Menu" is a
 // link to the footer's #site-nav. Every target >= 44 px.
 import Logo from './Logo.astro'
@@ -11,18 +12,19 @@ import Icon from './Icon.astro'
 import MotionToggle from './MotionToggle.astro'
 import { offices, practice, telHref, isShown } from '../data/practice'
 export const nav = [
-  { label: 'Offices', href: '/#offices' },
-  { label: 'Care by age', href: '/#care' },
   { label: 'Doctors', href: '/#doctors' },
+  { label: 'Services', href: '/#services' },
+  { label: 'All ages', href: '/#care' },
+  { label: 'Locations', href: '/#offices' },
   { label: 'Insurance', href: '/#insurance' },
-  { label: 'Questions', href: '/#faq' },
+  { label: 'FAQ', href: '/#faq' },
 ]
 const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
 ---
 <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-3 focus:text-indigo">Skip to content</a>
 
 <nav aria-label="Call an office" class="on-dark hidden bg-indigo-soft px-8 text-[0.88rem] text-on-dark lg:block">
-  <div class="mx-auto flex max-w-[1160px] items-center gap-8">
+  <div class="mx-auto flex max-w-[1160px] items-center gap-4 xl:gap-8">
     {offices.map(o => (
       <p class="flex items-center gap-2.5 whitespace-nowrap">
         <span>{place(o)}</span>
@@ -31,26 +33,29 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       </p>
     ))}
     <MotionToggle compact class="ml-auto rounded-full hover:text-white" />
-    <a href="#language-help" class="inline-flex min-h-11 items-center whitespace-nowrap underline underline-offset-4 hover:text-white">Language help</a>
+    <a href="#language-help" class="hidden min-h-11 items-center whitespace-nowrap underline xl:inline-flex underline-offset-4 hover:text-white">Language help</a>
   </div>
 </nav>
 
 <header class="frost border-b border-line bg-white px-5 md:px-8 lg:sticky lg:top-0 lg:z-40">
   <div class="mx-auto flex h-16 max-w-[1160px] items-center justify-between gap-3 lg:h-20">
     <Logo />
-    <nav aria-label="Main" class="hidden lg:block">
+    <nav aria-label="Main" class="hidden xl:block">
       <ul class="flex items-center gap-7">
-        {nav.map(item => (<li><a href={item.href} class="nav-link inline-flex min-h-11 items-center font-semibold text-indigo">{item.label}</a></li>))}
+        {nav.map(item => (<li><a href={item.href} class="nav-link inline-flex min-h-11 items-center whitespace-nowrap font-semibold text-indigo">{item.label}</a></li>))}
       </ul>
     </nav>
-    <a href="/locations" data-call class="btn hidden min-h-11 items-center gap-2 rounded-full border-[1.5px] border-muted px-5 font-semibold text-teal-deep hover:border-teal-deep lg:inline-flex"><Icon name="phone" size={18} />Call an office</a>
-    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" aria-label="Menu" class="btn inline-flex size-11 items-center justify-center rounded-[0.9rem] border-[1.5px] border-line bg-white text-indigo shadow-[0_2px_8px_rgb(23_18_58/0.06)] lg:hidden">
+    <div class="hidden items-center gap-2.5 lg:flex">
+      <a href="/locations" data-call class="btn btn-primary inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full px-5 font-bold"><Icon name="phone" size={18} />Make an appointment</a>
+      <a href="/#offices" class="btn btn-ghost hidden min-h-11 2xl:inline-flex items-center whitespace-nowrap rounded-full px-5 font-semibold">Visit</a>
+    </div>
+    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" aria-label="Menu" class="btn inline-flex size-11 items-center justify-center rounded-[0.9rem] border-[1.5px] border-line bg-white text-indigo shadow-[0_2px_8px_rgb(23_18_58/0.06)] xl:hidden">
       <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </a>
   </div>
 </header>
 
-<dialog id="menu-dialog" aria-label="Menu" class="sheet m-0 h-dvh max-h-none w-full max-w-none bg-white p-0 text-text backdrop:bg-indigo/40 lg:hidden">
+<dialog id="menu-dialog" aria-label="Menu" class="sheet m-0 h-dvh max-h-none w-full max-w-none bg-white p-0 text-text backdrop:bg-indigo/40 xl:hidden">
   <div class="flex h-16 items-center justify-between border-b border-line px-5">
     <Logo />
     <form method="dialog"><button class="btn inline-flex size-11 items-center justify-center rounded-full border-[1.5px] border-muted text-indigo" aria-label="Close menu">
@@ -60,7 +65,7 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
   <div class="px-5 pb-[calc(1.5rem+env(safe-area-inset-bottom))]">
     <nav aria-label="Menu">
       <ul class="divide-y divide-line border-b border-line">
-        {[...nav, { label: 'Request a visit', href: '/#request' }].map(item => (
+        {[...nav, { label: 'Request a visit online', href: '/#request' }].map(item => (
           <li><a href={item.href} class="flex min-h-14 items-center font-display text-[1.3rem] font-medium text-indigo">{item.label}</a></li>
         ))}
       </ul>
@@ -85,5 +90,6 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
     btn.addEventListener('click', e => { e.preventDefault(); menu.showModal() })
     menu.addEventListener('close', () => btn.focus())
     menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()))
+    matchMedia('(min-width: 80rem)').addEventListener('change', e => { if (e.matches && menu.open) menu.close() })
   }
 </script>
