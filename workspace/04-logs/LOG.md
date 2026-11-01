@@ -132,3 +132,4 @@
 - 2026-11-02 (PC): Owner fixes: How-it-works connector centred on the numbers (measured 23.4 = 23.4 px); calmer rings (2 px, no glow/halo); 3D office map removed from Home and /locations (owner rejected it; component kept unused); footer bottom row shortened, footer Pause motion removed (compact one stays in the top bar for WCAG 2.2.2).
 - 2026-11-02 (PC): Session end. Everything merged to main (#33-#50) and verified live. PC-HANDOVER.md section 0 rewritten with what was built, owner preferences, research, client doc status and next steps.
 - 2026-11-02: branch feat/nav-hero-like-sample: plan for nav/hero like the sample (02-analysis/plan-nav-hero-like-sample-2026-11-02.md); added a short once-per-session intro splash on Home (03-decisions/2026-11-02-short-splash.md).
+- 2026-11-02: Reviews band given a deeper aqua-mist ground (owner: too hard to tell apart on desktop); global.css end of file.
