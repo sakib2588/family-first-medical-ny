@@ -1,29 +1,57 @@
-# PC handover (from the cloud session, 2026-11-01; updated on the PC, end of 2026-11-01)
+# PC handover (from the cloud session, 2026-11-01; updated on the PC, end of 2026-11-02)
 
-## 0. Latest state (PC session, read this first)
-- **Open PRs, stacked; merge in order #35 -> #45** (each targets the previous branch). The owner has reviewed the site and said "looks ok for now". Merging is still the owner's call.
+## 0. Latest state (end of 2026-11-02, PC session; read this first)
+**Everything is merged to `main` and live** at https://family-first-medical-ny.rnqbank.workers.dev. Verified: the live CSS fingerprints match a fresh build of `main` (`1e98c54`).
+- **Open PRs:** only #25, a stale cloud handoff note from 2026-11-01, deliberately not merged.
 - **Revert point:** tag `v-pre-design-tier-2026-11-01`.
-- **Phone baselines** re-saved at the approved state (`workspace/04-logs/baseline`, `workspace/tools/phone-baseline.mjs`).
-- **Owner decisions this session** (all in `workspace/03-decisions/` or the design plan):
-  - Presentation mode: no demo/sample words visible; nothing invented; the photo map is `03-decisions/photo-map.md`.
-  - Live three.js on Home, wide desktop only (`03-decisions/2026-11-01-live-motion-and-3d-exception.md`). Five scenes: hero shader colour field, trust-band glass arches + heartbeat, and particle "constellation arches" in Visits, Care by age and Request. Site-wide Pause motion control.
-  - 3-colour system for the bold bands: `--c3-base #2e2860`, `--c3-primary` aqua, `--c3-accent` gold. Gold is only used on dark.
-  - Flat straight section edges. Light/dark seams follow the research (luminance steps of about 3:1; glass strips inside the dark band edges).
-  - Services section with filter tabs.
-- **Design plan:** `02-analysis/design-plan-3d-css-2026-11-01.md`, sections 11-12 plus the LOG for rounds 11-17.
-- **Next, not started:**
-  - R2 3D office map with live pins;
-  - the "Explore our practice" showcase page;
-  - inner pages (Doctors, Locations, Contact) brought up to the new home style;
-  - favicon (console 404).
-- **Client asks still blocking launch:**
-  - real photos (photo map);
-  - confirmed facts (hours, insurance, credentials, accepting new patients);
-  - counsel review of the legal pages.
 
+### What was built, by PR
+| PR | What |
+|---|---|
+| #33 | Phone page trimmed to the base site's patterns |
+| #34 | Design plan: `02-analysis/design-plan-3d-css-2026-11-01.md` (council, plan review, rounds 11-12) |
+| #35-#44 | P0 rule fixes, desktop redesigns (Visits, Insurance, trust band, Care by age, Request, FAQ, Inside), full-review fixes, Locations fix |
+| #45 | Owner rounds 11-17 (details below) |
+| #46 | Inner pages (Doctors, Locations, Contact, legal) in the new style; new `OfficeCard` component |
+| #47 | 3D office map. The owner then rejected it: it is removed from the pages, and `src/components/OfficeMap.astro` stays unused (delete it if the owner agrees) |
+| #48 | Colourful Services cards: five hues, gentle icon bob |
+| #49 | Ring-progress loops on How it works and Insurance; TEST glowing particles behind the doctor panels (keep or remove: ask the owner); footer in the base site's clean column style; centred step line; only a compact ⏸ in the top bar |
+| #50 | Competitor research notes |
 
-Read this first on the PC, then `CLAUDE.md`, then the last 15 lines of `workspace/04-logs/LOG.md`.
-The owner is moving work from Claude Code in the cloud to Claude Code on their PC. Everything below is merged to `main`.
+**#45 in detail (owner rounds 11-17):**
+- **Presentation mode** (`practice.demo = false`):
+  - no demo or sample words on screen; nothing invented;
+  - every photo slot is listed in `03-decisions/photo-map.md`.
+- **Three-colour system:** `--c3-base #2e2860`, aqua, gold. Gold appears only on dark sections.
+- **Five live three.js scenes**, wide desktop only, run by `src/scripts/live3d.ts`. This is an owner exception: `03-decisions/2026-11-01-live-motion-and-3d-exception.md`.
+- **Services section** with filter tabs.
+- **Research-backed light/dark seams:** about 3:1 luminance steps, with glass strips inside the edges of the dark bands. Flat, straight edges.
+
+### Owner preferences (follow them)
+- **Show a preview before building any new visual idea.** The map was built without one and was rejected.
+- **No "AI look":** no gradient icon tiles, glow borders, glass boxes or generic copy.
+- **Flat edges.**
+- **Polished motion only.**
+- **Data visualisations as tables.**
+- **Use a council or a research sub-agent for hard calls, and verify their output yourself.**
+- **Merge only when the owner says "merge"**, then verify the live link.
+
+### Research and documents
+- **Competitor pages and portals (12 sites):** `02-analysis/competitor-pages-and-systems-2026-11-01.md`.
+- **Dashboard artifact "Competitor Sites":** https://claude.ai/artifact/HYLPYykK6oNNRufeYcLr43. Tables of real pages per section, with an AIMSS row.
+- **Client kickoff questions (Google Doc):** https://docs.google.com/document/d/1KVTlNY1PgXqD-JuZQgaOVRQMByiWJX3cmh_VXxdJ9Uk.
+  - Part 5 (Q16-24, with our suggestions) was added: records system and portal, booking, telehealth, bill pay, forms, BAA, app or chat, extra pages, and who sends updates.
+  - **The owner has not sent this doc to the client yet.**
+
+### Next (suggested order)
+1. **Service pages** (about 10, from `serviceGroups`), plus **New patients** and **Insurance** pages. This is the biggest gap against competitors; AIMSS has 16 real pages, and Northern Virginia Peds has 65.
+2. Decide on the doctor-panel particle TEST; delete the unused OfficeMap if the owner agrees.
+3. Once the client answers Part 5: a Patient portal link, Pay a bill, video visits.
+4. Blocking launch:
+   - real photos (photo map);
+   - confirmed facts: hours, insurance, credentials, accepting new patients;
+   - counsel review of the legal pages;
+   - BAA for the form.
 
 ## 1. Where things stand
 - **Live demo:** https://family-first-medical-ny.rnqbank.workers.dev (Cloudflare Workers static assets, auto-deploys from `main`, public, `noindex`).
