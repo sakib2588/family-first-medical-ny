@@ -23,6 +23,8 @@ const chips = [
   {/* Backdrop: stand-in for the reception photo (PHOTO 1). Decorative only. */}
   <img src="/demo/reception.webp" alt="" width="1200" height="800" loading="eager" class="pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
   <div class="hero-room pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
+  {/* Live colour field (three.js shader, wide desktop only; src/scripts/live3d.ts). Over the faded photo, under the text. */}
+  <div data-live="hero" class="live-layer pointer-events-none absolute inset-0 -z-10 hidden" aria-hidden="true"><canvas class="size-full"></canvas></div>
   <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
     <div class="lg:col-span-6">
       <h1 class="text-[2.6rem] leading-[1.04] tracking-[-0.02em] text-indigo lg:text-[3.9rem]">Family medicine &amp; pediatrics, <br /><em class="brand-underline inline-block font-medium text-teal-deep">all in one place.</em></h1>
@@ -76,4 +78,6 @@ const chips = [
     .doc__img { transition: transform .6s var(--ease-soft); }
     .doc:is(:hover, :focus-visible) .doc__img { transform: scale(1.04); }
   }
+  @media (min-width: 80rem) { .live-layer { display: block; opacity: 0; transition: opacity 1.2s var(--ease-soft); } .live-layer[data-live-on] { opacity: .82; } }
 </style>
+<script>import '../../scripts/live3d'</script>

@@ -54,4 +54,15 @@ const items = [
     .ins-item { padding-block: 1.4rem; gap: 1.5rem; }
     .ins-item__n { font-size: 1.8rem; inline-size: 3rem; }
   }
+  /* Motion (owner round 13; transform/opacity/colour only; off under reduced motion; loop stops with Pause motion).
+     Reveal: rows slide in from the right in sequence and the number pops. Hover: the row lights up. */
+  .ins-item { position: relative; border-radius: 1rem; transition: background-color var(--m-normal, .35s); }
+  .ins-item__n { display: inline-block; transform-origin: left center; }
+  @media (prefers-reduced-motion: no-preference) {
+    :global(.js) .ins-item.reveal:not(.in) { transform: translateX(28px); }
+    :global(.js) .ins-item.in .ins-item__n { animation: ins-pop .6s var(--ease-bounce, cubic-bezier(.34, 1.56, .64, 1)) both; animation-delay: calc(var(--rd, 0s) + .15s); }
+    @keyframes ins-pop { from { transform: scale(.5); opacity: 0; } }
+    .ins-item:hover .ins-item__n { transform: translateX(4px) scale(1.08); transition: transform .3s var(--ease-soft); }
+  }
+  .ins-list { isolation: isolate; }
 </style>

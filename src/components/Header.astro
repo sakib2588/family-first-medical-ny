@@ -8,6 +8,7 @@ import Logo from './Logo.astro'
 import OpenNow from './OpenNow.astro'
 import FactSlot from './FactSlot.astro'
 import Icon from './Icon.astro'
+import MotionToggle from './MotionToggle.astro'
 import { offices, practice, telHref, isShown } from '../data/practice'
 export const nav = [
   { label: 'Offices', href: '/#offices' },
@@ -23,13 +24,14 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
 <nav aria-label="Call an office" class="on-dark hidden bg-indigo-soft px-8 text-[0.88rem] text-on-dark lg:block">
   <div class="mx-auto flex max-w-[1160px] items-center gap-8">
     {offices.map(o => (
-      <p class="flex items-center gap-2.5">
+      <p class="flex items-center gap-2.5 whitespace-nowrap">
         <span>{place(o)}</span>
         <a href={telHref(o.phone)} class="tabular inline-flex min-h-11 items-center font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">{o.phone}</a>
         <OpenNow office={o} />
       </p>
     ))}
-    <a href="#language-help" class="ml-auto inline-flex min-h-11 items-center underline underline-offset-4 hover:text-white">Language help</a>
+    <MotionToggle compact class="ml-auto rounded-full hover:text-white" />
+    <a href="#language-help" class="inline-flex min-h-11 items-center whitespace-nowrap underline underline-offset-4 hover:text-white">Language help</a>
   </div>
 </nav>
 

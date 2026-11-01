@@ -126,7 +126,7 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
   .btn:hover { transform: translateY(-2px); }
   .lift { transition: transform .35s var(--ease-soft), box-shadow .35s var(--ease-soft); }
   .lift:hover { transform: translateY(-3px); box-shadow: var(--shadow-float); }
-  .status[data-state='open']::before { animation: open-ping 1.8s ease-out 2; } /* 2 runs then rest (U14.8) */
+  .status[data-state='open']::before { animation: open-ping 2.4s ease-out infinite; } /* loops: stopped by Pause motion (U14.8) */
 }
 @keyframes hero-in { from { opacity: 0; transform: translateY(16px); } }
 @keyframes open-ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 45%, transparent); } 100% { box-shadow: 0 0 0 7px transparent; } }
@@ -191,3 +191,28 @@ section[data-tone='white'] { background-image: linear-gradient(180deg, #ffffff 0
 section[data-tone='cream'] { background-image: radial-gradient(120% 80% at 100% 0%, rgb(230 242 241 / .7) 0%, transparent 55%), linear-gradient(180deg, #faf7ef 0%, #f6f0e3 100%); }
 section[data-tone='lavender'] { background-image: linear-gradient(180deg, #f2eefc 0%, #ece6fa 100%); }
 #hero { background-image: radial-gradient(90% 70% at 85% 10%, rgb(230 242 241 / .8), transparent 60%), radial-gradient(70% 60% at 0% 100%, rgb(245 225 179 / .45), transparent 60%); }
+
+/* ---- Round 13: live loops, pause control, premium scrolling (decision 2026-11-01-live-motion-and-3d-exception) ----
+   Tokens (motion-foundations): one easing family, durations named by job. Transform and opacity only. */
+:root { --m-fast: .18s; --m-normal: .35s; --m-slow: .6s; --m-loop-slow: 14s; --ease-bounce: cubic-bezier(.34, 1.56, .64, 1); }
+/* Pause motion: every CSS animation stops; the toggle is hidden when the OS asks for reduced motion (nothing loops). */
+html[data-motion-paused] *, html[data-motion-paused] *::before, html[data-motion-paused] *::after { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) { .motion-toggle { display: none !important; } }
+.motion-toggle .mt-play { display: none; }
+.motion-toggle[aria-pressed='true'] .mt-pause { display: none; }
+.motion-toggle[aria-pressed='true'] .mt-play { display: inline; }
+
+/* Round 13b: the CSS ambient loops (hero drift, portrait breathing) were removed at the owner's request ('look
+   cheap'); the hero and trust band now use the shared three.js scenes (src/three, src/scripts/live3d.ts). */
+
+/* Premium scrolling, desktop only, never hijacking native scroll (U14.5): CSS scroll timelines inside @supports. */
+@supports (animation-timeline: scroll()) {
+  @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+    /* A thin teal-to-gold line under the header fills as the page scrolls (job: where am I on the page). */
+    body::after { content: ''; position: fixed; z-index: 60; inset: 0 0 auto 0; block-size: 3px; background: linear-gradient(90deg, var(--color-teal-deep), var(--color-aqua) 60%, var(--color-gold)); transform-origin: left; transform: scaleX(0); animation: scroll-progress linear both; animation-timeline: scroll(root); pointer-events: none; }
+    @keyframes scroll-progress { to { transform: scaleX(1); } }
+    /* Photo depth: photos drift a little slower than the page inside their frames (no text moves). */
+    :is(#welcome li, .inside-tile, .office__photo) img { scale: 1.12; animation: photo-depth linear both; animation-timeline: view(); animation-range: cover; }
+    @keyframes photo-depth { from { translate: 0 -5%; } to { translate: 0 5%; } }
+  }
+}

@@ -1,0 +1,32 @@
+---
+// Site-wide "Pause motion" control (WCAG 2.2.2, rulebook U14.8): one switch for every loop and the live 3D scene.
+// The choice is remembered (localStorage, wrapped in try/catch). Sets html[data-motion="paused"]; global.css pauses
+// all CSS animations and the trust-band scene listens for the "motionchange" event. Hidden under reduced motion,
+// where nothing loops anyway.
+interface Props { class?: string; compact?: boolean }
+const { class: cls = '', compact = false } = Astro.props
+---
+<button type="button" data-motion-toggle aria-pressed="false" title="Pause or play motion" class={`motion-toggle inline-flex min-h-11 min-w-11 items-center justify-center gap-2 whitespace-nowrap underline-offset-4 hover:underline ${cls}`}>
+  <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><rect class="mt-pause" x="6" y="5" width="4" height="14" rx="1"/><rect class="mt-pause" x="14" y="5" width="4" height="14" rx="1"/><path class="mt-play" d="M8 5v14l11-7z"/></svg>
+  <span data-motion-label class={compact ? 'sr-only' : ''}>Pause motion</span>
+</button>
+<script>
+  const KEY = 'aimss-motion'
+  const root = document.documentElement
+  const read = () => { try { return localStorage.getItem(KEY) === 'paused' } catch { return false } }
+  const apply = (paused: boolean) => {
+    root.toggleAttribute('data-motion-paused', paused)
+    document.querySelectorAll<HTMLButtonElement>('[data-motion-toggle]').forEach(b => {
+      b.setAttribute('aria-pressed', String(paused))
+      const label = b.querySelector('[data-motion-label]')
+      if (label) label.textContent = paused ? 'Play motion' : 'Pause motion'
+    })
+    window.dispatchEvent(new CustomEvent('motionchange', { detail: { paused } }))
+  }
+  apply(read())
+  document.querySelectorAll<HTMLButtonElement>('[data-motion-toggle]').forEach(b => b.addEventListener('click', () => {
+    const paused = !root.hasAttribute('data-motion-paused')
+    try { localStorage.setItem(KEY, paused ? 'paused' : 'on') } catch { /* private mode: still works for this page */ }
+    apply(paused)
+  }))
+</script>

@@ -18,7 +18,7 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
   <p class="eyebrow">Your visit</p>
   <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">What brings you in?</h2>
   <div class="visits mt-6 grid gap-8 lg:mt-8 lg:grid-cols-2 lg:gap-6">
-    <div class="visit-card flex gap-4">
+    <div class="visit-card visit-card--plan flex gap-4">
       <svg class="visit-icon visit-icon--plan size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M9 15h6M12 12v6" /></svg>
       <div class="visit-body">
         <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Planning a visit</h3>
@@ -31,7 +31,7 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
         <a href="#request" class="visit-cta arrow-link mt-1 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
       </div>
     </div>
-    <div class="visit-card flex gap-4">
+    <div class="visit-card visit-card--sick flex gap-4">
       <svg class="visit-icon visit-icon--sick size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M12 11v4M12 18h.01" /></svg>
       <div class="visit-body min-w-0 flex-1">
         <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Sick today?</h3>
@@ -54,16 +54,21 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
     .visits { align-items: stretch; }
     .visit-card { flex-direction: column; gap: 1.25rem; padding: 2rem; border: 1px solid var(--color-line); border-radius: 1.5rem; background: #fff; box-shadow: 0 2px 8px rgb(23 18 58 / .05); }
     .visit-body { display: flex; flex: 1; flex-direction: column; }
-    .visit-icon { inline-size: 3.5rem; block-size: 3.5rem; padding: .8rem; border-radius: 1rem; color: #fff; box-shadow: 0 8px 18px -10px rgb(23 18 58 / .55); }
-    .visit-icon--plan { background-image: linear-gradient(140deg, var(--color-hero-teal), var(--color-teal-deep)); }
-    .visit-icon--sick { background-image: linear-gradient(140deg, #c23d55, #8f2a3f); } /* white icon on the dark end of the rose tile (>= 3:1) */
+    /* Colour grading (round 13, design-system audit: one colour role per card). Plan = teal family, Sick = rose
+       family. Soft top glows, matching tags/rows and icon circles. Text contrast: indigo/text on white >= 10:1;
+       #8f2a3f on #fde8eb 6.9:1; teal-deep on #e6f2f1 5.21:1. */
+    .visit-card--plan { background: radial-gradient(120% 60% at 0% 0%, #dff0ee 0%, rgb(223 240 238 / 0) 60%), #fff; border-color: #cfe5e2; }
+    .visit-card--sick { background: radial-gradient(120% 60% at 0% 0%, #fbe3e7 0%, rgb(251 227 231 / 0) 60%), #fff; border-color: #f1d3d9; }
+    .visit-icon { inline-size: 3.5rem; block-size: 3.5rem; padding: .85rem; border-radius: 999px; box-shadow: none; }
+    .visit-icon--plan { background: #fff; color: var(--color-teal-deep); box-shadow: 0 0 0 6px rgb(11 111 111 / .1); }
+    .visit-icon--sick { background: #fff; color: #8f2a3f; box-shadow: 0 0 0 6px rgb(194 61 85 / .12); }
     .visit-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1rem; margin-block: 1.25rem 1.5rem; }
-    .visit-types li { display: flex; align-items: center; gap: .6rem; border: 1px solid rgb(11 111 111 / .18); border-radius: .9rem; background: var(--color-mist); padding: .75rem .9rem; font-weight: 600; color: var(--color-indigo); }
+    .visit-types li { display: flex; align-items: center; gap: .6rem; border: 1px solid #cfe5e2; border-radius: .9rem; background: #fff; padding: .75rem .9rem; font-weight: 600; color: var(--color-indigo); box-shadow: 0 4px 12px -10px rgb(11 111 111 / .5); }
     .visit-types :global(svg) { flex: none; box-sizing: content-box; padding: .2rem; border-radius: 999px; background: var(--color-teal-deep); color: #fff; }
     .visit-cta { margin-top: auto; align-self: flex-start; min-height: 3rem; padding-inline: 1.5rem; border: 1.5px solid var(--color-muted); border-radius: 999px; text-decoration: none; }
     .visit-cta:hover { border-color: var(--color-teal-deep); background: var(--color-mist); }
     .office-rows { margin-top: 1.25rem; border: 0; background: none; padding: 0; display: grid; gap: .75rem; }
-    .office-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.1rem; border: 1.5px solid var(--color-line); border-radius: 1rem; background: var(--color-cream); }
+    .office-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.1rem; border: 1.5px solid #f1d3d9; border-radius: 1rem; background: #fff; box-shadow: 0 4px 12px -10px rgb(143 42 63 / .45); }
     .office-row:has([data-state='open']) { border-color: var(--color-teal-deep); background: var(--color-mist); box-shadow: 0 0 0 4px rgb(11 111 111 / .1); }
     .office-call { margin-top: 0; min-height: 3rem; padding-inline: 1.1rem; border: 1.5px solid var(--color-muted); border-radius: 999px; background: #fff; text-decoration: none; font-size: 1.06rem; }
     .office-call:hover { border-color: var(--color-teal-deep); }

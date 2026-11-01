@@ -24,6 +24,7 @@ const cells = PICK.filter(([name]) => offered.includes(name)).map(([name, icon, 
     <source media="(min-width: 80rem)" srcset="/art/trust-band.webp" width="2560" height="680" />
     <img src="/demo/child-play.webp" alt="" width="1200" height="800" loading="lazy" class="fact-art pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
   </picture>
+  <div data-live="band" class="live-band pointer-events-none absolute inset-0 -z-20 hidden" aria-hidden="true"><canvas class="size-full"></canvas></div>
   <div class="fact-scrim pointer-events-none absolute inset-0 -z-10 bg-linear-to-r from-indigo/95 via-indigo/85 to-hero-teal/90" aria-hidden="true"></div>
   <ul class="svc mx-auto grid max-w-[1160px] grid-cols-2 lg:grid-cols-4" aria-label="What we treat">
     {cells.map(c => (
@@ -69,4 +70,9 @@ const cells = PICK.filter(([name]) => offered.includes(name)).map(([name, icon, 
     .fact-band ul { max-inline-size: min(56rem, calc(100% - 22rem)); } /* >= 24rem keeps the arches clear of the cards up to 1920 px */
     .fact-scrim { opacity: .12; }
   }
+  /* Live scene (owner exception): only from 80rem; it fades in over the still once it is running. */
+  @media (min-width: 80rem) { .live-band { display: block; opacity: 0; transition: opacity .8s var(--ease-soft); } .live-band[data-live-on] { opacity: 1; } /* the live canvas is transparent: behind it the brand gradient (indigo -> deep teal) replaces the still image */
+    .fact-band:has(.live-band[data-live-on]) { background-image: radial-gradient(40% 90% at 6% 50%, rgb(19 163 160 / .35), transparent 70%), radial-gradient(40% 90% at 94% 50%, rgb(240 194 90 / .22), transparent 70%), linear-gradient(90deg, #17123a, #1d1850 55%, #0c4a50); }
+    picture:has(~ .live-band[data-live-on]) img { opacity: 0; transition: opacity .8s; } }
 </style>
+

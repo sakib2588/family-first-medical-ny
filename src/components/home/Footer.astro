@@ -7,6 +7,7 @@ import { nav } from '../Header.astro'
 import OpenNow from '../OpenNow.astro'
 import FactSlot from '../FactSlot.astro'
 import Logo from '../Logo.astro'
+import MotionToggle from '../MotionToggle.astro'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
 const h = 'font-sans text-[0.88rem] font-semibold text-white'
 interface Props { closing?: boolean }
@@ -55,6 +56,6 @@ const { closing = true } = Astro.props
       <p class="flex items-center gap-2.5 text-white"><span class="grid size-8 shrink-0 place-items-center rounded-full bg-[#b3261e] text-[0.78rem] font-bold" aria-hidden="true">911</span><span><strong>Emergency? Call 911.</strong> <span class="text-on-dark">This site does not give medical advice.</span></span></p>
       <p id="language-help" class="text-[0.88rem]"><a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
     </div>
-    <p class="mt-4 text-[0.82rem]">© {new Date().getFullYear()} {practice.name}</p>
+    <div class="mt-4 flex flex-wrap items-center justify-between gap-x-6 text-[0.82rem]"><p>© {new Date().getFullYear()} {practice.name}</p><MotionToggle class="text-[0.88rem] text-white" /></div>
   </div>
 </footer>

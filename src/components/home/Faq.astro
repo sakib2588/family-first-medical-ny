@@ -28,7 +28,7 @@ const shown = faqs.filter(f => !f.fact || f.fact.value !== null || practice.demo
   <div class="faq-grid lg:mt-8 lg:grid lg:grid-cols-12 lg:gap-x-6">
     <div class="faq-aside lg:col-span-4">
       <div class="faq-help hidden">
-        <span class="tile tile-teal"><Icon name="chat" size={20} /></span>
+        <span class="grid size-12 place-items-center rounded-full bg-white text-teal-deep shadow-[0_0_0_6px_rgb(11_111_111/0.1)]"><Icon name="chat" size={22} /></span>
         <h3 class="mt-3 font-sans text-base font-semibold text-indigo">Still have a question?</h3>
         <p class="mt-1 text-[0.94rem]">Call the office that is open now.</p>
         <ul data-open-first class="mt-3 grid gap-2">{offices.map(o => (
@@ -50,9 +50,11 @@ const shown = faqs.filter(f => !f.fact || f.fact.value !== null || practice.demo
 </Section>
 <style>
   @media (min-width: 64rem) {
-    .faq-help { display: flex; flex-direction: column; block-size: 100%; margin-top: 0; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: 1.5rem; background: var(--color-cream); }
+    /* Colour grading (round 13, same teal role as Visits 'Planning' and the office Hours panel). */
+    .faq-help { display: flex; flex-direction: column; block-size: 100%; margin-top: 0; padding: 1.5rem; border: 1px solid #cfe5e2; border-radius: 1.5rem; background: radial-gradient(130% 60% at 0% 0%, #dff0ee 0%, rgb(223 240 238 / 0) 60%), linear-gradient(180deg, #f6fbfa, #eef7f6); }
     .faq-help__cta { margin-top: auto !important; align-self: flex-start; } /* button sits on the card's bottom edge, level with the last question */
-    .faq-help__office { padding: .7rem .9rem; border-radius: 1rem; background: #fff; }
+    .faq-help__office { padding: .7rem .9rem; border: 1px solid #d8ece9; border-radius: 1rem; background: #fff; box-shadow: 0 4px 12px -10px rgb(11 111 111 / .5); }
+    .faq-help__office:has([data-state='open']) { border-color: var(--color-teal-deep); box-shadow: 0 0 0 3px rgb(11 111 111 / .1); }
     .faq-list { display: grid; align-content: start; gap: .75rem; border: 0; } /* the taller help card stretched the list and its rows */
     .faq-list > details { border: 1px solid var(--color-line); border-radius: 1.1rem; background: #fff; padding-inline: 1.25rem; transition: background-color .25s, border-color .25s; }
     .faq-list > details[open] { border-color: var(--color-teal-deep); background: var(--color-mist); box-shadow: inset 3px 0 0 var(--color-teal-deep); }
