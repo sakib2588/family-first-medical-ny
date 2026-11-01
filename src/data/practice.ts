@@ -19,23 +19,25 @@ export interface Photo { src: string; alt: string }
 export const practice = {
   name: 'AIMSS Family Health',
   tagline: 'Family medicine and pediatrics in Queens and Nassau County.',
-  lastReviewed: 'Sample date (placeholder)',
-  /** Design demo: unconfirmed facts render as labelled slots. Set false only at launch, after every fact is confirmed. */
-  demo: true,
+  lastReviewed: '',
+  /** false = presentation mode (owner decision 2026-11-01, design plan section 12): the site reads as the client's own.
+   *  Unconfirmed facts (value null) are hidden, never shown as "[need]" slots. sample() values below still need the
+   *  client's confirmation before launch; nothing here is invented as a claim (no ratings, plans, credentials). */
+  demo: false,
   languages: sample<string>('English and Spanish', 'to confirm'),
   agesSeen: sample<string>('Newborns to adults', 'Newborns to adults: doctors to confirm'),
-  acceptingNew: sampleDated<string>('Yes, at both offices (sample)', 'to confirm, with date'),
+  acceptingNew: sample<string>('Call either office to ask about openings for new patients.', 'accepting new patients? (yes/no, date)'),
   afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
   // What happens after a visit request (Home request band, desktop). Repeats only what the site already says (we call
   // you back during office hours); the client confirms the process before launch, because the form does not send yet.
-  callbackSteps: sample<readonly string[]>(['Send your name and number.', 'The office calls you back during office hours.', 'Tell us the best time to reach you.'], 'how the office handles a callback request'),
+  callbackSteps: sample<readonly string[]>(['Leave your name and number.', 'We call you back.', 'Tell us the best time to call.'], 'how the office handles a callback request'),
   records: sample<string>('Ask the front desk for a records release form. Transfers usually take a few business days.', 'how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
-    publicPlans: sampleDated<string>('Sample: plan status goes here', 'taken? with date'),
-    plans: sampleDated<readonly string[]>(['Sample plan A', 'Sample plan B', 'Sample plan C', 'Sample plan D', 'Sample plan E', 'Sample plan F'], 'plan list from the front desk, with date'),
-    notTaken: sampleDated<string>('Sample: plans not taken go here', 'plans not taken, with date'),
-    selfPay: sampleDated<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
+    publicPlans: sample<string>('Plans change, so call your office to check yours before your visit.', 'taken? with date'),
+    plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
+    notTaken: toConfirm<string>('plans not taken, with date'),
+    selfPay: sample<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
   },
 } as const
 
@@ -64,16 +66,16 @@ const officeExtras = (place: string, transitLabel: string, transit: string, park
     { label: 'Parking', fact: sample<string>(parking, 'to confirm') },
     { label: 'Step-free entrance', fact: sample<string>('Yes, street-level entrance', 'to confirm') },
   ],
-  photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building (stand-in photo)` }, `Photo: ${place} entrance from the street`),
-  gallery: place === 'Hicksville' ? [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')].reverse() : [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')],
+  photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building` }, `Photo: ${place} entrance from the street`),
+  gallery: place === 'Hicksville' ? [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient' }, 'Photo: an exam room')].reverse() : [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient' }, 'Photo: an exam room')],
   googleProfile: sample<string>(`https://www.google.com/maps/search/?api=1&query=AIMSS+Family+Health+${place}`, 'Google profile link: to confirm'),
-  googleRating: sampleDated<string>('Sample: star rating and review count', 'rating, count, date'),
+  googleRating: toConfirm<string>('rating, count, date'),
 })
 
 export const offices: readonly Office[] = [
   {
     slug: 'elmhurst', name: 'Elmhurst office', neighborhood: 'Elmhurst, Queens',
-    addr: '123 Sample Street, Elmhurst, NY 11373', phone: '(718) 555-0142',
+    addr: '123 Example Street, Elmhurst, NY 11373', phone: '(718) 555-0142',
     open: { 0: null, 1: [9, 18], 2: [9, 18], 3: [9, 18], 4: [9, 18], 5: [9, 18], 6: [9, 16] },
     ...officeExtras('Elmhurst', 'Subway and bus', 'Short walk from the subway; several bus lines nearby', 'Street parking nearby'),
     doctors: ['arjun-mehta', 'elena-park'],
@@ -148,41 +150,41 @@ export const doctors: readonly Doctor[] = [
     languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
-      { label: 'Medical school', fact: sample<string>('Sample Medical School', 'to confirm') },
-      { label: 'Residency', fact: sample<string>('Sample Hospital residency', 'to confirm') },
-      { label: 'Board certification', fact: sample<string>('Sample: board and date go here', 'check with ABMS, add date') },
-      { label: 'NY license', fact: sample<string>('Sample: licence number and date go here', 'check with NYSED, add date') },
-      { label: 'Hospital affiliation', fact: sample<string>('Sample Hospital', 'to confirm') },
+      { label: 'Medical school', fact: toConfirm<string>('to confirm') },
+      { label: 'Residency', fact: toConfirm<string>('to confirm') },
+      { label: 'Board certification', fact: toConfirm<string>('check with ABMS, add date') },
+      { label: 'NY license', fact: toConfirm<string>('check with NYSED, add date') },
+      { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
     ],
     blurb: 'Well-child visits, vaccines, school and sports physicals, and calm answers for worried parents.',
-    bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
+    bio: 'Dr. Mehta cares for babies, children and teens at both offices, from first newborn visits to school and sports physicals.',
     careAreas: careAreasOf('arjun-mehta'),
-    img: '/demo/doctor-male.webp', alt: 'Dr. Arjun Mehta, pediatrician (stand-in photo)',
+    img: '/demo/doctor-male.webp', alt: 'Dr. Arjun Mehta, pediatrician',
   },
   {
     slug: 'elena-park', name: 'Dr. Elena Park', role: 'Family medicine', ages: 'Teens and adults',
     languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
-      { label: 'Medical school', fact: sample<string>('Sample Medical School', 'to confirm') },
-      { label: 'Residency', fact: sample<string>('Sample Hospital residency', 'to confirm') },
-      { label: 'Board certification', fact: sample<string>('Sample: board and date go here', 'check with ABMS, add date') },
-      { label: 'NY license', fact: sample<string>('Sample: licence number and date go here', 'check with NYSED, add date') },
-      { label: 'Hospital affiliation', fact: sample<string>('Sample Hospital', 'to confirm') },
+      { label: 'Medical school', fact: toConfirm<string>('to confirm') },
+      { label: 'Residency', fact: toConfirm<string>('to confirm') },
+      { label: 'Board certification', fact: toConfirm<string>('check with ABMS, add date') },
+      { label: 'NY license', fact: toConfirm<string>('check with NYSED, add date') },
+      { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
     ],
     blurb: "Annual physicals, chronic condition care, women's health and preventive screenings for adults.",
-    bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
+    bio: 'Dr. Park cares for teens and adults at both offices, from yearly physicals to ongoing care and preventive screenings.',
     careAreas: careAreasOf('elena-park'),
-    img: '/demo/doctor-female.webp', alt: 'Dr. Elena Park, family physician (stand-in photo)',
+    img: '/demo/doctor-female.webp', alt: 'Dr. Elena Park, family physician',
   },
 ]
 
 // Care by age: life stages in order, each with the doctor who leads it (sample: each doctor confirms the ranges).
 export const ageBands = [
-  { range: 'Birth to 12 months', title: 'Newborns and babies', photo: sample<Photo>({ src: '/demo/child-joy.webp', alt: 'A smiling baby (stand-in photo)' }, 'Photo: baby'), line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
-  { range: '1 to 12 years', title: 'Children', photo: sample<Photo>({ src: '/demo/child-play.webp', alt: 'A child playing (stand-in photo)' }, 'Photo: child'), line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
-  { range: '13 to 21 years', title: 'Teens', photo: sample<Photo>({ src: '/demo/hands.webp', alt: 'A caring hand on a shoulder (stand-in photo)' }, 'Photo: teen'), line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
-  { range: '22 and up', title: 'Adults and seniors', photo: sample<Photo>({ src: '/demo/adult-care.webp', alt: 'A blood pressure check for an adult patient (stand-in photo)' }, 'Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
+  { range: 'Birth to 12 months', title: 'Newborns and babies', photo: sample<Photo>({ src: '/demo/child-joy.webp', alt: 'A smiling baby' }, 'Photo: baby'), line: 'First checkups, feeding, first vaccines.', doctors: ['arjun-mehta'] },
+  { range: '1 to 12 years', title: 'Children', photo: sample<Photo>({ src: '/demo/child-play.webp', alt: 'A child playing' }, 'Photo: child'), line: 'Checkups, vaccines, school physicals.', doctors: ['arjun-mehta'] },
+  { range: '13 to 21 years', title: 'Teens', photo: sample<Photo>({ src: '/demo/hands.webp', alt: 'A caring hand on a shoulder' }, 'Photo: teen'), line: 'Checkups, sports physicals, teen health.', doctors: ['arjun-mehta', 'elena-park'] },
+  { range: '22 and up', title: 'Adults and seniors', photo: sample<Photo>({ src: '/demo/adult-care.webp', alt: 'A blood pressure check for an adult patient' }, 'Photo: adult'), line: "Physicals, ongoing care, women's health.", doctors: ['elena-park'] },
 ] as const
 
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']

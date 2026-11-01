@@ -8,16 +8,16 @@ import Icon from '../Icon.astro'
 import { offices, practice } from '../../data/practice'
 const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 const mosaic = [
-  { src: '/demo/child-joy.webp', alt: 'A smiling child (stand-in photo)', cls: 'row-span-2' },
-  { src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)', cls: '' },
-  { src: '/demo/entrance-hicksville.webp', alt: 'An office building (stand-in photo)', cls: '' },
-  { src: '/demo/adult-care.webp', alt: 'A blood pressure check (stand-in photo)', cls: 'col-span-2' },
+  { src: '/demo/child-joy.webp', alt: 'A smiling child', cls: 'row-span-2' },
+  { src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient', cls: '' },
+  { src: '/demo/entrance-hicksville.webp', alt: 'An office building', cls: '' },
+  { src: '/demo/adult-care.webp', alt: 'A blood pressure check', cls: 'col-span-2' },
 ]
 const benefits = [
-  { icon: 'users', tile: 'tile-teal', title: 'Children and adults together', line: 'Pediatrics and family medicine in one practice, so the whole family keeps one team.' },
-  { icon: 'globe', tile: 'tile-indigo', title: 'Help in your language', line: practice.languages.value ? `Care in ${practice.languages.value}, and free language help on request.` : 'Free language help on request.' },
-  { icon: 'pin', tile: 'tile-gold', title: `${first} and ${second}`, line: 'Two offices, each with its own hours and phone number.' },
-  { icon: 'baby', tile: 'tile-rose', title: 'From newborns to grandparents', line: 'Well-child visits, vaccines, physicals and ongoing care as your family grows.' },
+  { icon: 'users', tile: 'tile-teal', title: 'One team for the family', line: 'Kids and adults, one practice.' },
+  { icon: 'globe', tile: 'tile-indigo', title: 'Your language', line: practice.languages.value ? `${practice.languages.value}, plus free language help.` : 'Free language help.' },
+  { icon: 'pin', tile: 'tile-gold', title: 'Two offices', line: `${first} and ${second}.` },
+  { icon: 'baby', tile: 'tile-rose', title: 'Every age', line: 'Newborns to grandparents.' },
 ] as const
 ---
 <Section id="welcome" tone="white">
@@ -32,7 +32,7 @@ const benefits = [
     <div class="lg:col-span-7">
       <p class="eyebrow">Welcome</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">One practice for <em class="font-medium text-teal-deep">every age</em> in your family</h2>
-      <p class="mt-3 max-w-[56ch]">{practice.name} brings pediatrics and family medicine together, so babies, teens, parents and grandparents can see doctors who already know the family.</p>
+      <p class="mt-3 max-w-[56ch]">Pediatrics and family medicine under one roof, with doctors who already know your family.</p>
       <ul class="mt-6 grid grid-cols-2 gap-2.5 sm:gap-3">
         {benefits.map(b => (
           <li data-reveal class="lift card-soft flex flex-col gap-2.5 p-3.5 sm:p-5">
@@ -42,7 +42,7 @@ const benefits = [
         ))}
         <li data-reveal class="lift card-soft col-span-2 flex items-center gap-4 p-4 sm:p-5">
           <span class="tile tile-teal"><Icon name="chat" size={20} /></span>
-          <div class="flex-1"><h3 class="font-sans text-base font-semibold leading-snug text-indigo">Request a callback</h3><p class="mt-0.5 text-[0.88rem] leading-snug text-muted">Leave your name and number. The office calls you back during office hours.</p></div>
+          <div class="flex-1"><h3 class="font-sans text-base font-semibold leading-snug text-indigo">We call you back</h3><p class="mt-0.5 text-[0.88rem] leading-snug text-muted">Leave your name and number.</p></div>
           <a href="#request" class="arrow-link inline-flex min-h-11 shrink-0 items-center gap-1 font-semibold text-teal-deep underline underline-offset-4">Request<Icon name="arrow" size={18} /></a>
         </li>
       </ul>

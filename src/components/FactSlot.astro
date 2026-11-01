@@ -7,9 +7,11 @@ import { practice, type Fact } from '../data/practice'
 // tone is kept for callers; the slot looks the same on every ground.
 interface Props { fact: Fact<string>; class?: string; tone?: 'light' | 'dark'; dated?: boolean }
 const { fact, class: cls = '', dated = false } = Astro.props
-const confirmed = fact.value !== null && (!dated || Boolean(fact.checkedOn))
+// A value shows as written; a date is added only when it is a real check date (never the demo "sample date").
+const confirmed = fact.value !== null
+const realDate = fact.checkedOn && fact.checkedOn !== 'sample date' ? fact.checkedOn : null
 const slotClass = 'rounded-md bg-slot px-1.5 text-slot-ink'
 ---
 {confirmed
-  ? <span class={cls}>{fact.value}{dated && ` (as of ${fact.checkedOn})`}</span>
+  ? <span class={cls}>{fact.value}{dated && realDate && ` (as of ${realDate})`}</span>
   : practice.demo && <span class={`box-decoration-clone py-0.5 text-[0.88rem] font-medium not-italic ${slotClass} ${cls}`}>[need: {fact.need}]</span>}

@@ -9,14 +9,16 @@
 // photo stays behind them (the art's arches would sit under the cards there).
 // A plain list (not a <dl>: the icon inside each group broke dl semantics, axe "definition-list"/"dlitem").
 // Facts as data with a date or a labelled slot. No stars, no AggregateRating, no "years" or "board-certified" (red lines).
-import FactSlot from '../FactSlot.astro'
 import Icon from '../Icon.astro'
-import { practice, offices, isShown } from '../../data/practice'
+import { practice, offices } from '../../data/practice'
+// Round 11 (owner: fewer words, client-ready): four short facts the site already states; no ratings or plan claims.
+const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 const cells = [
-  { label: 'Medicaid and Child Health Plus', icon: 'shield', fact: practice.insurance.publicPlans, dated: true },
-  { label: 'Ages we see', icon: 'heart', fact: practice.agesSeen, dated: false },
-  ...offices.map(o => ({ label: `${o.neighborhood.split(',')[0]} on Google`, icon: 'pin', fact: o.googleRating, dated: true })),
-].filter(c => isShown(c.fact)) as { label: string; icon: 'shield' | 'heart' | 'pin'; fact: typeof practice.agesSeen; dated: boolean }[]
+  { label: 'Every age', icon: 'heart', text: practice.agesSeen.value },
+  { label: 'Two offices', icon: 'pin', text: `${first} · ${second}` },
+  { label: 'Your language', icon: 'globe', text: practice.languages.value },
+  { label: 'Easy to book', icon: 'chat', text: 'Call or request a callback' },
+].filter(c => c.text) as { label: string; icon: 'heart' | 'pin' | 'globe' | 'chat'; text: string }[]
 ---
 {cells.length > 0 && (
 <section aria-label="Key facts" class="fact-band on-dark relative isolate overflow-hidden bg-indigo px-5 py-8 text-on-dark md:px-8 lg:py-10">
@@ -31,7 +33,7 @@ const cells = [
         <span class={`fact__icon tile ${['tile-teal', 'tile-gold', 'tile-rose', 'tile-indigo'][i % 4]}`}><Icon name={c.icon} size={20} draw /></span>
         <div class="fact-text min-w-0">
           <p class="text-[0.94rem] font-semibold leading-snug text-white lg:text-base">{c.label}</p>
-          <p class="mt-0.5 text-[0.82rem] leading-snug text-on-dark lg:text-[0.88rem]"><FactSlot fact={c.fact} dated={c.dated} /></p>
+          <p class="mt-0.5 text-[0.82rem] leading-snug text-on-dark lg:text-[0.88rem]">{c.text}</p>
         </div>
       </li>
     ))}
