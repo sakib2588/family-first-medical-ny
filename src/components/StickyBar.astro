@@ -7,7 +7,7 @@ const request = Astro.url.pathname === '/' ? '#request' : '/contact'
 <aside id="sticky-bar" aria-label="Call or request a visit" inert data-visible="false" class="fixed inset-x-0 bottom-0 z-30 translate-y-full frost bg-white px-5 pt-3 shadow-lift transition-transform duration-300 ease-(--ease-sheet) data-[visible=true]:translate-y-0 lg:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
   <div class="mx-auto flex max-w-md gap-3">
     <a href="/locations" data-call class="btn inline-flex min-h-12 flex-[0_0_8rem] items-center justify-center rounded-full border-[1.5px] border-muted font-semibold text-teal-deep">Call</a>
-    <a href={request} class="btn inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker">Request a visit</a>
+    <a href={request} class="btn btn-primary inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker">Request a visit</a>
   </div>
 </aside>
 <script>

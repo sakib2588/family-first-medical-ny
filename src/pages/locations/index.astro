@@ -13,7 +13,7 @@ import { offices, telHref, mapsHref } from '../../data/practice'
         <p class="mt-3">{o.addr}</p>
         <p class="tabular mt-2 text-muted"><OpenNow office={o} /></p>
         <div class="mt-5 grid gap-3 sm:grid-cols-2 md:max-w-lg">
-          <a href={telHref(o.phone)} class="btn inline-flex min-h-12 items-center justify-center rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker"><span class="tabular">Call {o.phone}</span></a>
+          <a href={telHref(o.phone)} class="btn btn-primary inline-flex min-h-12 items-center justify-center rounded-full bg-teal-deep font-semibold text-white hover:bg-teal-darker"><span class="tabular">Call {o.phone}</span></a>
           <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="btn inline-flex min-h-12 items-center justify-center rounded-full border-2 border-line font-semibold text-indigo hover:border-indigo">Directions</a>
         </div>
       </li>
