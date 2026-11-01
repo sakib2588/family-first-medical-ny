@@ -15,5 +15,23 @@ const { title, description = 'Demo design of a family medicine and pediatrics pr
   <body class="min-h-dvh">
     <aside aria-label="Demo notice" class="bg-indigo px-4 py-1.5 text-center text-xs tracking-wide text-white">Design demo · sample content</aside>
     <slot />
+    <script>
+      // Scroll reveal (pattern from 02-analysis/base-site-css-js-dissection-2026-11-01.md, section 5).
+      // Content is visible without JS: the hidden start state only applies under html.js. Reduced motion: skipped.
+      const root = document.documentElement
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+        const targets = document.querySelectorAll<HTMLElement>('main section:not(#hero) :is(h2, [data-reveal], .lift, figure, details)')
+        root.classList.add('js')
+        const io = new IntersectionObserver(entries => {
+          for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) }
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' })
+        targets.forEach(el => {
+          const siblings = el.parentElement ? [...el.parentElement.children] : []
+          el.style.setProperty('--rd', `${Math.min(siblings.indexOf(el), 4) * 70}ms`)
+          el.classList.add('reveal'); io.observe(el)
+        })
+        setTimeout(() => targets.forEach(el => el.classList.add('in')), 4000) // never leave content hidden
+      }
+    </script>
   </body>
 </html>

@@ -30,7 +30,7 @@ const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
     <ul class="mt-8 grid grid-cols-2 gap-3 lg:col-span-6 lg:mt-0 lg:gap-5" aria-label="Our doctors">
       {doctors.map((d, i) => (
         <li>
-          <a href={`/doctors/${d.slug}`} class="group block">
+          <a href={`/doctors/${d.slug}`} class="lift group block rounded-[1.25rem]">
             <!-- PHOTO 2/3: real doctor portrait, waist up, plain clinic background, 4:5 -->
             <div class="hero-portrait aspect-[4/5] overflow-hidden rounded-t-[1.25rem]"><img src={d.img} alt={d.alt} width="500" height="625" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class="size-full object-cover object-top" /></div>
             <div class="relative -mt-6 rounded-[1.25rem] bg-white p-4 shadow-[0_8px_24px_-12px_rgb(23_18_58/0.25)] lg:p-5">
