@@ -10,6 +10,8 @@ const toConfirm = <T>(need: string): Fact<T> => ({ value: null, need })
 /** Demo-only sample value (owner request 2026-11-01). NOT a client fact: replace with the confirmed value before launch.
  *  Never used for credentials, ratings, insurance or new-patient status (CLAUDE.md red lines). */
 const sample = <T>(value: T, need: string): Fact<T> => ({ value, need, source: 'DEMO SAMPLE, replace' })
+/** Same, for facts that must show a date: the date reads "sample date" so nobody mistakes it for a checked fact. */
+const sampleDated = <T>(value: T, need: string): Fact<T> => ({ ...sample(value, need), checkedOn: 'sample date' })
 /** Show this fact's row at all? Confirmed facts always; unconfirmed ones only as demo slots (live: hidden). */
 export const isShown = (f: Fact<unknown>) => f.value !== null || practice.demo
 export interface Photo { src: string; alt: string }
@@ -22,15 +24,15 @@ export const practice = {
   demo: true,
   languages: sample<string>('English and Spanish', 'to confirm'),
   agesSeen: sample<string>('Newborns to adults', 'Newborns to adults: doctors to confirm'),
-  acceptingNew: toConfirm<string>('to confirm, with date'),
+  acceptingNew: sampleDated<string>('Yes, at both offices (sample)', 'to confirm, with date'),
   afterHours: sample<string>('Call the office number; after hours it goes to our answering service.', 'after-hours line or answering service'),
   records: sample<string>('Ask the front desk for a records release form. Transfers usually take a few business days.', 'how to request or transfer records'),
   /** Insurance (spec 4.6). No plan claim until it is dated (decision #8): even Medicaid is a slot. */
   insurance: {
-    publicPlans: toConfirm<string>('taken? with date'),
-    plans: toConfirm<readonly string[]>('plan list from the front desk, with date'),
-    notTaken: toConfirm<string>('plans not taken, with date'),
-    selfPay: sample<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
+    publicPlans: sampleDated<string>('Sample: plan status goes here', 'taken? with date'),
+    plans: sampleDated<readonly string[]>(['Sample plan A', 'Sample plan B', 'Sample plan C', 'Sample plan D', 'Sample plan E', 'Sample plan F'], 'plan list from the front desk, with date'),
+    notTaken: sampleDated<string>('Sample: plans not taken go here', 'plans not taken, with date'),
+    selfPay: sampleDated<string>('Paying yourself? Ask the front desk for the visit price before you come in.', 'self-pay option and how to ask'),
   },
 } as const
 
@@ -61,8 +63,8 @@ const officeExtras = (place: string, transitLabel: string, transit: string, park
   ],
   photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building (stand-in photo)` }, `Photo: ${place} entrance from the street`),
   gallery: place === 'Hicksville' ? [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')].reverse() : [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')],
-  googleProfile: toConfirm<string>("Google profile link: to confirm"),
-  googleRating: toConfirm<string>('rating, count, date'),
+  googleProfile: sample<string>(`https://www.google.com/maps/search/?api=1&query=AIMSS+Family+Health+${place}`, 'Google profile link: to confirm'),
+  googleRating: sampleDated<string>('Sample: star rating and review count', 'rating, count, date'),
 })
 
 export const offices: readonly Office[] = [
@@ -143,11 +145,11 @@ export const doctors: readonly Doctor[] = [
     languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
-      { label: 'Medical school', fact: toConfirm<string>('to confirm') },
-      { label: 'Residency', fact: toConfirm<string>('to confirm') },
-      { label: 'Board certification', fact: toConfirm<string>('check with ABMS, add date') },
-      { label: 'NY license', fact: toConfirm<string>('check with NYSED, add date') },
-      { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
+      { label: 'Medical school', fact: sample<string>('Sample Medical School', 'to confirm') },
+      { label: 'Residency', fact: sample<string>('Sample Hospital residency', 'to confirm') },
+      { label: 'Board certification', fact: sample<string>('Sample: board and date go here', 'check with ABMS, add date') },
+      { label: 'NY license', fact: sample<string>('Sample: licence number and date go here', 'check with NYSED, add date') },
+      { label: 'Hospital affiliation', fact: sample<string>('Sample Hospital', 'to confirm') },
     ],
     blurb: 'Well-child visits, vaccines, school and sports physicals, and calm answers for worried parents.',
     bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
@@ -159,11 +161,11 @@ export const doctors: readonly Doctor[] = [
     languages: sample<string>('English and Spanish', 'to confirm'),
     schedule: scheduleSlots(),
     credentials: [
-      { label: 'Medical school', fact: toConfirm<string>('to confirm') },
-      { label: 'Residency', fact: toConfirm<string>('to confirm') },
-      { label: 'Board certification', fact: toConfirm<string>('check with ABMS, add date') },
-      { label: 'NY license', fact: toConfirm<string>('check with NYSED, add date') },
-      { label: 'Hospital affiliation', fact: toConfirm<string>('to confirm') },
+      { label: 'Medical school', fact: sample<string>('Sample Medical School', 'to confirm') },
+      { label: 'Residency', fact: sample<string>('Sample Hospital residency', 'to confirm') },
+      { label: 'Board certification', fact: sample<string>('Sample: board and date go here', 'check with ABMS, add date') },
+      { label: 'NY license', fact: sample<string>('Sample: licence number and date go here', 'check with NYSED, add date') },
+      { label: 'Hospital affiliation', fact: sample<string>('Sample Hospital', 'to confirm') },
     ],
     blurb: "Annual physicals, chronic condition care, women's health and preventive screenings for adults.",
     bio: 'Sample biography for layout only. The real text, training and board certification must come from the doctor and be checked against the public license record before launch.',
