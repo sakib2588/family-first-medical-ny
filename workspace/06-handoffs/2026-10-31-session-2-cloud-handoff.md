@@ -1,3 +1,5 @@
+> **Superseded for current state by `2026-11-01-session-3-handoff.md`.** The sharing setup below is still accurate.
+
 # Session 2 handoff: moving to the cloud (2026-10-31)
 
 Read this first, then `2026-10-31-session-handoff.md` (session 1), then `../02-analysis/improvement-plan.md`.
