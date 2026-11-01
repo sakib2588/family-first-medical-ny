@@ -2,12 +2,13 @@
 // A photo the client must supply (Fact<Photo>). Real photo when confirmed; until then a named empty frame on the
 // demo (never stock: rulebook tell 2). The frame keeps the arch or plain shape so the layout does not jump later.
 import { practice, type Fact, type Photo } from '../data/practice'
-interface Props { fact: Fact<Photo>; shape?: 'arch' | 'plain'; class?: string; width?: number; height?: number; eager?: boolean; compact?: boolean }
-const { fact, shape = 'plain', class: cls = '', width = 640, height = 480, eager = false, compact = false } = Astro.props
+interface Props { fact: Fact<Photo>; shape?: 'arch' | 'plain'; class?: string; width?: number; height?: number; eager?: boolean; compact?: boolean; decorative?: boolean }
+const { fact, shape = 'plain', class: cls = '', width = 640, height = 480, eager = false, compact = false, decorative = false } = Astro.props
+// decorative: alt="" because a visible caption next to the photo already names it (avoids reading it twice).
 const frame = shape === 'arch' ? 'arch' : 'overflow-hidden rounded-[0.75rem]'
 ---
 {fact.value !== null
-  ? <div class={`${frame} ${cls}`}><img src={fact.value.src} alt={fact.value.alt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} class="size-full object-cover" /></div>
+  ? <div class={`${frame} ${cls}`}><img src={fact.value.src} alt={decorative ? '' : fact.value.alt} width={width} height={height} loading={eager ? 'eager' : 'lazy'} class="size-full object-cover" /></div>
   : practice.demo && (
     <div class={`${frame} grid place-items-center border-2 border-dashed border-[#c9c3df] bg-cream text-center ${compact ? 'p-2' : 'p-4'} ${cls}`} role="img" aria-label={`Placeholder for ${fact.need.replace(/^Photo: /, 'a photo of ')}`}>
       <span class={`max-w-[22ch] italic text-muted ${compact ? 'text-xs' : 'text-sm'}`}>[{fact.need}]</span>

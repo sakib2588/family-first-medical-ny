@@ -11,8 +11,8 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
 <Section id="care" tone="white">
   <p class="eyebrow">Care by age</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Care by age</h2>
-  <p class="mt-3 max-w-[44ch] text-[1.06rem] lg:text-[1.18rem]">Children can stay with the same practice as they grow, then move to adult care with us.</p>
-  <ol class="age-line relative mt-6 grid gap-6 lg:mt-10 lg:grid-cols-4">
+  <p class="mt-2 max-w-[44ch] text-[1rem] lg:mt-3 lg:text-[1.18rem]">Children can stay with the same practice as they grow, then move to adult care with us.</p>
+  <ol class="age-line relative mt-5 grid gap-4 lg:mt-10 lg:grid-cols-4 lg:gap-6">
     <span aria-hidden="true" class="age-line__rule absolute bottom-6 left-[15px] top-2 w-0.5 bg-indigo/40 lg:inset-x-0 lg:bottom-auto lg:top-[5px] lg:h-0.5 lg:w-auto"></span>
     {ageBands.map(b => {
       const docs = b.doctors.map(doctorBySlug).filter(d => d !== undefined)
@@ -23,8 +23,8 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
           <div class="lg:mt-4 lg:pr-4">
             <p class="font-semibold text-indigo">{b.range}</p>
             <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">{b.title}</h3>
-            <p class="mt-1">{b.line}</p>
-            <p class="text-[0.88rem]">Led by {docs.map((d, i) => (<>{i > 0 && ' or '}<a href={`/doctors/${d.slug}`} class="inline-flex min-h-11 items-center font-medium text-teal-deep underline underline-offset-4">{d.name}</a></>))}</p>
+            <p class="mt-0.5 text-[0.94rem] leading-snug lg:mt-1 lg:text-base">{b.line}</p>
+            <p class="text-[0.82rem] lg:text-[0.88rem]">Led by {docs.map((d, i) => (<>{i > 0 && ' or '}<a href={`/doctors/${d.slug}`} class="inline-flex min-h-11 items-center font-medium text-teal-deep underline underline-offset-4">{d.name}</a></>))}</p>
           </div>
         </li>
       )

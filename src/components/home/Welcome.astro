@@ -33,14 +33,14 @@ const benefits = [
       <p class="eyebrow">Welcome</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">One practice for <em class="font-medium text-teal-deep">every age</em> in your family</h2>
       <p class="mt-3 max-w-[56ch]">{practice.name} brings pediatrics and family medicine together, so babies, teens, parents and grandparents can see doctors who already know the family.</p>
-      <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+      <ul class="mt-6 grid grid-cols-2 gap-2.5 sm:gap-3">
         {benefits.map(b => (
-          <li data-reveal class="lift card-soft flex gap-3 p-4 sm:flex-col sm:p-5">
+          <li data-reveal class="lift card-soft flex flex-col gap-2.5 p-3.5 sm:p-5">
             <span class={`tile ${b.tile}`}><Icon name={b.icon} size={20} /></span>
-            <div><h3 class="font-sans text-base font-semibold leading-snug text-indigo">{b.title}</h3><p class="mt-1 text-[0.88rem] leading-snug text-muted">{b.line}</p></div>
+            <div><h3 class="font-sans text-base font-semibold leading-snug text-indigo">{b.title}</h3><p class="mt-1 text-[0.82rem] leading-snug text-muted sm:text-[0.88rem]">{b.line}</p></div>
           </li>
         ))}
-        <li data-reveal class="lift card-soft flex items-center gap-4 p-4 sm:col-span-2 sm:p-5">
+        <li data-reveal class="lift card-soft col-span-2 flex items-center gap-4 p-4 sm:p-5">
           <span class="tile tile-teal"><Icon name="chat" size={20} /></span>
           <div class="flex-1"><h3 class="font-sans text-base font-semibold leading-snug text-indigo">Request a callback</h3><p class="mt-0.5 text-[0.88rem] leading-snug text-muted">Leave your name and number. The office calls you back during office hours.</p></div>
           <a href="#request" class="arrow-link inline-flex min-h-11 shrink-0 items-center gap-1 font-semibold text-teal-deep underline underline-offset-4">Request<Icon name="arrow" size={18} /></a>
