@@ -7,7 +7,6 @@
 import { practice, offices, legalPages, telHref } from '../../data/practice'
 import { nav } from '../Header.astro'
 import Logo from '../Logo.astro'
-import MotionToggle from '../MotionToggle.astro'
 const link = 'inline-flex min-h-11 items-center underline-offset-4 hover:underline hover:text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
@@ -53,10 +52,7 @@ const { closing = true } = Astro.props
     </div>
     <div class="mt-8 flex flex-col gap-2 border-t border-white/10 pt-5 text-[0.8rem] lg:mt-12 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
       <p>© {new Date().getFullYear()} {practice.name}. All rights reserved.</p>
-      <div class="flex flex-wrap items-center gap-x-5">
-        <p><strong class="text-white">Emergency? Call 911.</strong> This site does not give medical advice.</p>
-        <MotionToggle class="ftr-link text-[0.8rem]" />
-      </div>
+      <p><strong class="text-white">Emergency? Call 911.</strong></p>
     </div>
   </div>
 </footer>

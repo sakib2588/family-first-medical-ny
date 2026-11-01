@@ -325,8 +325,8 @@ main:has(.ph) .card-soft .eyebrow::before { display: none !important; }
 @property --p { syntax: '<number>'; inherits: false; initial-value: 0; }
 .ring-step { position: relative; }
 .ring-step::before {
-  content: ''; position: absolute; inset: -6px; border-radius: 50%; pointer-events: none;
-  background: conic-gradient(var(--ring, #5fc4c4) calc(var(--p) * 1%), var(--ring-track, rgb(255 255 255 / .14)) 0);
-  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2.5px));
-  mask: radial-gradient(farthest-side, transparent calc(100% - 3px), #000 calc(100% - 2.5px));
+  content: ''; position: absolute; inset: -4px; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(var(--ring, #5fc4c4) calc(var(--p) * 1%), var(--ring-track, rgb(255 255 255 / .1)) 0);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1.5px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 2px), #000 calc(100% - 1.5px));
 }
