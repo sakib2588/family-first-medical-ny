@@ -7,7 +7,7 @@ const require = createRequire(import.meta.url)
 const axeSrc = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8')
 const out = process.argv[2] ?? '.'
 fs.mkdirSync(out, { recursive: true })
-const pages = ['/doctors', '/doctors/elena-park', '/locations', '/locations/hicksville', '/locations/elmhurst', '/contact', '/legal', '/legal/privacy']
+const pages = (process.argv[3] ?? '/doctors,/doctors/elena-park,/locations,/locations/hicksville,/locations/elmhurst,/contact,/legal,/legal/privacy').split(',')
 const b = await chromium.launch()
 for (const [w, sw] of [[390, 390], [1440, 1280]]) {
   for (const [vw, shot] of (w === sw ? [[w, true]] : [[w, true], [sw, false]])) {

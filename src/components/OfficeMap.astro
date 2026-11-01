@@ -1,0 +1,55 @@
+---
+// R2: stylised 3D office map (our own art, NOT a real map, not to scale) with two live HTML pins.
+// The picture is a build-time render (workspace/tools/render-3d.mjs office-map). Pin positions are generated in the same run
+// (src/styles/office-map-pins.css, src/data/office-map.json), so a pin can never drift from its marker. Re-render when an
+// office or a brand colour changes. Pins are real links: office name, live status (OpenNow), Call. Copy comes from practice.ts.
+import { offices, telHref, weekSummary } from '../data/practice'
+import OpenNow from './OpenNow.astro'
+import map from '../data/office-map.json'
+import '../styles/office-map-pins.css'
+interface Props { class?: string }
+const { class: cls = '' } = Astro.props
+---
+<figure class={`om ${cls}`}>
+  <div class="om__stage" role="region" aria-label="Map of our two offices">
+    <picture>
+      <source media="(min-width: 640px)" srcset="/art/office-map.webp" width={map.desktop.width} height={map.desktop.height} />
+      <img src="/art/office-map-phone.webp" width={map.phone.width} height={map.phone.height} alt="" loading="lazy" decoding="async" class="block h-auto w-full" />
+    </picture>
+    {offices.map(o => (
+      <div class="om-pin" data-office={o.slug}>
+        <span class="om-dot" aria-hidden="true"></span>
+        <div class="om-label">
+          <p class="om-name">{o.neighborhood.split(',')[0]}</p>
+          <p class="om-status"><OpenNow office={o} fallback="Hours below" /></p>
+          <a href={telHref(o.phone)} class="om-call" aria-label={`Call the ${o.name}, ${o.phone}`}>Call <span class="tabular">{o.phone}</span></a>
+        </div>
+      </div>
+    ))}
+  </div>
+  <ul class="sr-only">
+    {offices.map(o => (<li>{o.name}, {o.addr}. Phone {o.phone}. Hours: {weekSummary(o).map(([d, h]) => `${d}: ${h}`).join('; ')}.</li>))}
+  </ul>
+  <figcaption class="om__caption">Map not to scale</figcaption>
+</figure>
+<style>
+  .om__stage { position: relative; overflow: hidden; border-radius: 1.25rem; border: 1px solid var(--color-line); background: #dedaec; }
+  .om__caption { margin-top: .5rem; font-size: .8rem; color: var(--color-muted); }
+  .om-pin { position: absolute; inline-size: 0; block-size: 0; }
+  /* The ring sits on the marker's base; open = aqua glow (the status word and dot carry the state too, colour is never the only cue). */
+  .om-dot { position: absolute; left: 0; top: 0; inline-size: 2.75rem; block-size: 2.75rem; translate: -50% -50%; border-radius: 50%; border: 2px solid #2e2860; background: rgb(255 255 255 / .35); }
+  .om-pin:has(:global(.status[data-state='open'])) .om-dot { border-color: #5fc4c4; background: rgb(95 196 196 / .4); box-shadow: 0 0 18px 4px rgb(95 196 196 / .75); }
+  @media (prefers-reduced-motion: no-preference) {
+    .om-pin:has(:global(.status[data-state='open'])) .om-dot { animation: om-ping 2.4s ease-out 2; } /* twice, then rests (WCAG 2.2.2) */
+  }
+  @keyframes om-ping { 0% { box-shadow: 0 0 0 0 rgb(95 196 196 / .85), 0 0 18px 4px rgb(95 196 196 / .75); } 100% { box-shadow: 0 0 0 1.3rem rgb(95 196 196 / 0), 0 0 18px 4px rgb(95 196 196 / .75); } }
+  .om-label { position: absolute; left: 0; top: 1.7rem; inline-size: 9.3rem; translate: -50% 0; padding: .45rem .5rem .5rem; border-radius: .9rem; background: #fff; border: 1px solid var(--color-line); box-shadow: 0 10px 24px -12px rgb(23 18 58 / .5); text-align: center; line-height: 1.25; }
+  .om-name { font-family: var(--font-display); font-weight: 600; color: var(--color-indigo); font-size: .98rem; }
+  .om-status { margin-top: .1rem; font-size: .8rem; font-weight: 600; color: var(--color-muted); }
+  .om-call { display: flex; align-items: center; justify-content: center; min-block-size: 2.75rem; gap: .3em; margin-top: .15rem; border-radius: 999px; background: var(--color-mist); color: var(--color-teal-deep); font-weight: 700; font-size: .86rem; white-space: nowrap; text-decoration: underline; text-underline-offset: 3px; }
+  .om-call:hover { background: #d5ebe9; }
+  @media (min-width: 640px) {
+    .om-label { inline-size: 11.5rem; top: 2rem; }
+    .om-name { font-size: 1.05rem; }
+  }
+</style>

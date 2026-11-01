@@ -6,7 +6,7 @@
 <script type="module">
   const q = new URLSearchParams(location.search)
   const { render } = await import(`./${q.get('scene')}.js`)
-  await render(Number(q.get('w')), Number(q.get('h')))
+  window.__result = await render(Number(q.get('w')), Number(q.get('h')), q.get('variant') ?? undefined)
   window.__done = true
 </script>
 </body></html>

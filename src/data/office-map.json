@@ -1,0 +1,30 @@
+{
+  "desktop": {
+    "width": 2400,
+    "height": 1200,
+    "pins": {
+      "elmhurst": {
+        "left": 22.41,
+        "top": 46.95
+      },
+      "hicksville": {
+        "left": 78.23,
+        "top": 44.98
+      }
+    }
+  },
+  "phone": {
+    "width": 1200,
+    "height": 1160,
+    "pins": {
+      "elmhurst": {
+        "left": 24.23,
+        "top": 36.15
+      },
+      "hicksville": {
+        "left": 78.43,
+        "top": 49.82
+      }
+    }
+  }
+}
