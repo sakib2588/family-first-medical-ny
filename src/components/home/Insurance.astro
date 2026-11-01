@@ -48,11 +48,11 @@ const items = [
   .ins-list { padding: .5rem 1.25rem; }
   .ins-item { display: flex; gap: 1rem; padding-block: 1.1rem; }
   .ins-item + .ins-item { border-top: 1px solid var(--color-line); }
-  .ins-item__n { flex: none; inline-size: 2.25rem; padding-top: .1rem; font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; line-height: 1; color: var(--color-teal-deep); font-variant-numeric: tabular-nums; }
+  .ins-item__n { display: grid !important; place-items: center; flex: none; inline-size: 2.6rem; block-size: 2.6rem; border-radius: 999px; background: var(--c3-base); color: var(--c3-primary); font-family: var(--font-display); font-size: 1rem; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; box-shadow: 0 0 0 4px rgb(95 196 196 / .18); } /* council: 3-colour accent on a light section (aqua on midnight 8.6:1) */
   @media (min-width: 64rem) {
     .ins-list { padding: .75rem 2rem; border-radius: 1.5rem; box-shadow: 0 24px 48px -32px rgb(23 18 58 / .35); }
     .ins-item { padding-block: 1.4rem; gap: 1.5rem; }
-    .ins-item__n { font-size: 1.8rem; inline-size: 3rem; }
+    .ins-item__n { font-size: 1.1rem; inline-size: 3rem; block-size: 3rem; }
   }
   /* Motion (owner round 13; transform/opacity/colour only; off under reduced motion; loop stops with Pause motion).
      Reveal: rows slide in from the right in sequence and the number pops. Hover: the row lights up. */
