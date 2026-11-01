@@ -74,10 +74,4 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
     .visit-card:is(:hover, :focus-within) { transform: translateY(-3px); box-shadow: var(--shadow-float); }
   }
 </style>
-<script>
-  // Runs after OpenNow has set data-state (module scripts run in document order). Open office first.
-  document.querySelectorAll<HTMLElement>('[data-open-first]').forEach(list => {
-    const open = [...list.children].filter(li => li.querySelector('[data-state="open"]'))
-    open.reverse().forEach(li => list.prepend(li))
-  })
-</script>
+<script>import '../../scripts/open-first'</script>

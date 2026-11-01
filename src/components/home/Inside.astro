@@ -43,6 +43,6 @@ const withPhotos = offices.map(o => ({ o, photos: o.gallery.filter(isShown) })).
   @media (min-width: 64rem) {
     .inside-grid:has(> .inside-tile:nth-child(3):last-child) { grid-template-columns: 1.35fr 1fr; grid-template-rows: repeat(2, 10.5rem); }
     .inside-grid:has(> .inside-tile:nth-child(3):last-child) > .inside-tile:first-child { grid-column: 1; grid-row: 1 / span 2; }
-    .inside-grid:has(> .inside-tile:nth-child(3):last-child) > .inside-tile :global(div) { block-size: 100%; }
+    .inside-grid:has(> .inside-tile:nth-child(3):last-child) > .inside-tile :global(figure > div) { block-size: 100%; } /* the PhotoSlot frame */
   }
 </style>

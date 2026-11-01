@@ -19,6 +19,7 @@
   --color-teal-darker: #0a5656;  /* hover / pressed */
   --color-gold: #d9a02c;         /* accent line, highlights on indigo; the action colour on indigo grounds */
   --color-gold-light: #e8b54a;   /* hover / pressed for the gold action */
+  --header-offset: 6.5rem;       /* sticky desktop header (80 px) + breathing room: scroll padding, sticky asides */
   --color-cream: #faf7ef;        /* page ground */
   --color-lavender: #f2eefc;     /* alternate section ground */
   --color-text: #3d3a58;         /* body, 10.1:1 on cream */
@@ -154,4 +155,4 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 .tile-soft { background: var(--color-mist); color: var(--color-teal-deep); box-shadow: none; }
 
 /* Sticky desktop header (80 px): keep focused items and #anchor targets clear of it (WCAG 2.4.11). */
-@media (min-width: 64rem) { html { scroll-padding-top: 6.5rem; } }
+@media (min-width: 64rem) { html { scroll-padding-top: var(--header-offset); } }
