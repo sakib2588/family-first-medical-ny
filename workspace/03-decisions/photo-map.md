@@ -18,6 +18,8 @@ How to replace a photo:
 | 3 | Hero doctor card, right | `/demo/doctor-female.webp` | **Dr. Park portrait** (real doctor, consent) | portrait 4:5, 800x1000 | `practice.ts` doctor `img` |
 | 4 | Trust band background, **phone and small desktop** | `/demo/child-play.webp` | Calm, warm photo (waiting room or a child with a parent, consent) | wide, 1200x800 | `FactRow.astro` `<img>` |
 | 5 | Trust band background, **wide desktop (1280+)** | `/art/trust-band.webp` | Nothing: our own 3D art (rendered by `workspace/tools/render-3d.mjs`). Re-render only if brand colours change. | 2560x680 | `FactRow.astro` `<source>` |
+| 5b | Office map (R2), Home Locations and `/locations`, desktop | `/art/office-map.webp` | Nothing: our own stylised 3D art, not a real map (`render-3d.mjs office-map`). Re-render when an office or brand colour changes; pin positions regenerate with it. | 2400x1200 | `OfficeMap.astro` `<source>` |
+| 5c | Office map (R2), phone | `/art/office-map-phone.webp` | Nothing: same scene, phone framing | 1200x1160 | `OfficeMap.astro` `<img>` |
 | 6 | Welcome mosaic, tall left | `/demo/child-joy.webp` | A happy child patient (parent consent) | tall 2:3, 760x1140 | `Welcome.astro` `mosaic` |
 | 7 | Welcome mosaic, top right | `/demo/exam-room.webp` | A doctor talking with a patient, either office | square, 800x800 | `Welcome.astro` `mosaic` |
 | 8 | Welcome mosaic, middle right | `/demo/entrance-hicksville.webp` | A building outside (either office) | square, 800x800 | `Welcome.astro` `mosaic` |

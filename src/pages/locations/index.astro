@@ -2,12 +2,14 @@
 import Page from '../../layouts/Page.astro'
 import PageHead from '../../components/PageHead.astro'
 import Section from '../../components/Section.astro'
+import OfficeMap from '../../components/OfficeMap.astro'
 import OfficeCard from '../../components/OfficeCard.astro'
 import { offices } from '../../data/practice'
 ---
 <Page title="Locations | AIMSS Family Health" description="Two offices: Elmhurst, Queens and Hicksville, Long Island.">
   <PageHead title="Two offices, one team" lead="Call the office you plan to visit. Each office has its own hours and phone." crumbs={[['Locations', '/locations']]} />
   <Section tone="white" label="Our offices">
+    <OfficeMap class="mb-6 lg:mb-8" />
     <ul class="grid gap-4 lg:grid-cols-2 lg:gap-6">
       {offices.map(o => (<li class="flex"><OfficeCard office={o} /></li>))}
     </ul>

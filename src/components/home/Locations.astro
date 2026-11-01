@@ -8,6 +8,7 @@
 // Desktop: address and hours side by side only from 80rem (xl); between 64 and 80rem the hours sit below the address
 // (side by side they overflowed the card at 1024 px). Day labels never wrap; the full-week link is one underlined run.
 import Section from '../Section.astro'
+import OfficeMap from '../OfficeMap.astro'
 import Icon from '../Icon.astro'
 import OpenNow from '../OpenNow.astro'
 import FactSlot from '../FactSlot.astro'
@@ -27,6 +28,7 @@ const segments = (o: Office) => weekSummary(o).map(([days, hours]) => `${days.sp
 <Section id="offices">
   <p class="eyebrow">Locations</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our two offices</h2>
+  <OfficeMap class="mt-6 lg:mt-8" />
   <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
     {offices.map(o => {
       const place = o.neighborhood.split(',')[0]
