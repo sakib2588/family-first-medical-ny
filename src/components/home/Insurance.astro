@@ -15,7 +15,7 @@ const rows = [{ label: 'Plans we do not take', fact: notTaken }, { label: 'No in
       <p class="eyebrow">Insurance</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Insurance</h2>
       {isShown(publicPlans) && (
-        <div class="mt-6 rounded-[1.25rem] bg-mist p-5 lg:mt-8">
+        <div class="mt-5 rounded-[1.25rem] bg-mist p-4 lg:mt-8 lg:p-5">
           <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Medicaid and Child Health Plus</h3>
           <p class="mt-2 font-semibold text-indigo"><FactSlot fact={publicPlans} dated /></p>
         </div>
@@ -23,10 +23,10 @@ const rows = [{ label: 'Plans we do not take', fact: notTaken }, { label: 'No in
       <p class="mt-5 max-w-[44ch] text-[0.88rem]">Plans change. Call your office to check before your visit, and bring your insurance card and a photo ID.</p>
       <a href="/locations" data-call class="btn mt-4 inline-flex min-h-12 items-center gap-2 rounded-full border-[1.5px] border-muted px-6 font-semibold text-teal-deep hover:border-teal-deep"><Icon name="phone" size={18} />Call to check your plan</a>
     </div>
-    <div class="mt-10 lg:col-span-6 lg:col-start-7 lg:mt-2">
+    <div class="mt-7 lg:col-span-6 lg:col-start-7 lg:mt-2">
       <h3 class="font-sans text-base font-semibold text-indigo">Other plans</h3>
       {plans.value && plans.checkedOn
-        ? <><ul class="mt-2 grid grid-cols-2 gap-x-6 lg:grid-cols-3">{plans.value.map(p => (<li class="flex min-h-9 items-center border-b border-line text-indigo">{p}</li>))}</ul>
+        ? <><ul class="mt-2 grid grid-cols-2 gap-x-6 lg:grid-cols-3">{plans.value.map(p => (<li class="flex min-h-8 items-center border-b border-line text-[0.94rem] text-indigo lg:min-h-9 lg:text-base">{p}</li>))}</ul>
             <p class="mt-2 text-[0.82rem] text-muted">Checked {plans.checkedOn}.</p></>
         : practice.demo && <p class="mt-2 border-y border-line py-3"><span class="rounded-md bg-slot px-1.5 py-0.5 text-[0.88rem] font-medium text-slot-ink">[need: {plans.need}]</span></p>}
       {rows.length > 0 && (

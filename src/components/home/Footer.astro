@@ -12,7 +12,7 @@ const h = 'font-sans text-[0.88rem] font-semibold text-white'
 interface Props { closing?: boolean }
 const { closing = true } = Astro.props
 ---
-<footer id="site-footer" class="on-dark border-t border-indigo-soft bg-indigo px-5 pb-28 pt-10 text-[0.94rem] text-on-dark md:px-8 lg:pb-12 lg:pt-16">
+<footer id="site-footer" class="on-dark border-t border-indigo-soft bg-indigo px-5 pb-28 pt-8 text-[0.94rem] text-on-dark md:px-8 lg:pb-12 lg:pt-16">
   <div class="mx-auto max-w-[1160px]">
     {closing && (
       <div class="mb-10 flex flex-col gap-5 border-b border-indigo-soft pb-10 lg:flex-row lg:items-center lg:justify-between">
@@ -23,14 +23,14 @@ const { closing = true } = Astro.props
         </div>
       </div>
     )}
-    <div class="grid gap-8 lg:grid-cols-12 lg:gap-6">
+    <div class="grid gap-6 lg:grid-cols-12 lg:gap-6">
       <div class="lg:col-span-3">
         <Logo tone="dark" />
         <p class="mt-2 max-w-[30ch]">{practice.tagline}</p>
       </div>
-      <ul class="grid grid-cols-2 gap-3 lg:col-span-4" aria-label="Offices">
+      <ul class="grid grid-cols-2 gap-x-4 gap-y-3 border-y border-indigo-soft py-4 lg:col-span-4 lg:border-0 lg:py-0" aria-label="Offices">
         {offices.map(o => (
-          <li class="rounded-[1.25rem] bg-indigo-soft p-4">
+          <li>
             <a href={`/locations/${o.slug}`} class={`${h} ${link} min-h-0`}>{o.neighborhood.split(',')[0]}</a>
             <a href={telHref(o.phone)} class="tabular flex min-h-11 items-center whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4">{o.phone}</a>
             <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug" />
@@ -51,7 +51,7 @@ const { closing = true } = Astro.props
         </ul>
       </nav>
     </div>
-    <p class="mt-8 rounded-[1.25rem] bg-indigo-soft px-4 py-3 text-white"><strong>In an emergency, call 911.</strong> <span class="text-on-dark">This website cannot give medical advice.</span></p>
+    <p class="mt-6 rounded-[1.25rem] bg-indigo-soft px-4 py-3 text-white lg:mt-8"><strong>In an emergency, call 911.</strong> <span class="text-on-dark">This website cannot give medical advice.</span></p>
     <p id="language-help" class="mt-4">Language help: <a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Nondiscrimination and language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
     <p class="mt-2 text-[0.82rem]">Design demo with sample content and stand-in photos. Legal pages are drafts pending counsel. Last reviewed: {practice.lastReviewed}. © {new Date().getFullYear()} {practice.name}.</p>
   </div>

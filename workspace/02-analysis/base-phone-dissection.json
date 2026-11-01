@@ -1,0 +1,593 @@
+{
+ "phone": {
+  "total": 17065,
+  "sections": [
+   {
+    "tag": "a",
+    "id": "",
+    "cls": "skip",
+    "h": 46,
+    "pad": "10px/10px",
+    "heading": "",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "Skip to content"
+   },
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "util",
+    "h": 54,
+    "pad": "0px/0px",
+    "heading": "",
+    "imgs": 0,
+    "links": 3,
+    "details": 0,
+    "tels": 2,
+    "grids": [],
+    "text": "Open 7 Days EN 中文"
+   },
+   {
+    "tag": "header",
+    "id": "",
+    "cls": "",
+    "h": 84,
+    "pad": "0px/0px",
+    "heading": "",
+    "imgs": 1,
+    "links": 8,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "FAMILY MEDICINE & PEDIATRICS"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "hero",
+    "h": 1121,
+    "pad": "10px/44px",
+    "heading": "Family medicine& pediatrics,all in one place.",
+    "imgs": 11,
+    "links": 3,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "hero-bg:1col",
+     "hero-portraits:2col",
+     "hl:2col"
+    ],
+    "text": "Personalized care for all ages Accepting new patients Family medicine & pediatrics, all in one place. From your newborn's first checkup to your own annual physical, our board-certified physicians care for your whole fami"
+   },
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "trust",
+    "h": 350,
+    "pad": "30px/30px",
+    "heading": "",
+    "imgs": 4,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:2col"
+    ],
+    "text": "25+ Years of Care Trusted since 1998 Board-Certified Pediatrics & Family Medicine Three Languages English · 中文 · Español Whole-Family Care Newborns to seniors"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "welcome",
+    "h": 1598,
+    "pad": "50px/50px",
+    "heading": "A practice built around your family",
+    "imgs": 10,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:1col",
+     "welcome-media:2col",
+     "values:2col"
+    ],
+    "text": "WELCOME A practice built around your family Family First Medical combines pediatric and family medicine services under one roof, making it easier for your family to receive the care they need. We focus on building lastin"
+   },
+   {
+    "tag": "section",
+    "id": "doctors",
+    "cls": "",
+    "h": 2489,
+    "pad": "50px/50px",
+    "heading": "Two doctors. One standard of care.",
+    "imgs": 2,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "dcard:1col",
+     "dcard-side:2col",
+     "cred-grid:1col",
+     "dcard:1col"
+    ],
+    "text": "OUR DOCTORS Two doctors. One standard of care. Two board-certified physicians — combining decades of experience with comprehensive, modern family medicine. 25+ YEARS OF CARE Accepting new patients Dr. Qikai Yao, MD PEDIA"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "interlude",
+    "h": 597,
+    "pad": "50px/50px",
+    "heading": "",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "int-points:1col"
+    ],
+    "text": "OUR PROMISE “Every patient is cared for like family.” DRS. QIKAI & LIYAN YAO FAMILY FIRST MEDICAL Board-certified care from newborn to senior Open 7 days across two offices Care in English · 中文 · Español"
+   },
+   {
+    "tag": "section",
+    "id": "services",
+    "cls": "services",
+    "h": 1424,
+    "pad": "50px/50px",
+    "heading": "Comprehensive care, every visit",
+    "imgs": 10,
+    "links": 10,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "svc:2col",
+     "svc:2col",
+     "svc:2col",
+     "svc:2col"
+    ],
+    "text": "SERVICES Comprehensive care, every visit From childhood checkups to adult chronic-care management — explore what we offer. All Services Pediatrics Family Medicine PEDIATRICS Well-Child Visits Regular checkups tracking gr"
+   },
+   {
+    "tag": "section",
+    "id": "ages",
+    "cls": "",
+    "h": 971,
+    "pad": "50px/50px",
+    "heading": "Care for all ages",
+    "imgs": 5,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "band:3col",
+     "band:3col",
+     "band:3col",
+     "band:3col"
+    ],
+    "text": "EVERY STAGE OF LIFE Care for all ages One practice that grows with your family — from the first days of life through your golden years. 0–12 MONTHS Infants & Newborns Newborn checks, feeding guidance, growth tracking and"
+   },
+   {
+    "tag": "section",
+    "id": "wellness",
+    "cls": "wellness",
+    "h": 1261,
+    "pad": "50px/50px",
+    "heading": "Physician-directed IV therapy",
+    "imgs": 3,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:1col",
+     "drips:1col",
+     "iv-stage:2col",
+     "io-group:2col"
+    ],
+    "text": "WELLNESS · ELMHURST & HICKSVILLE Physician-directed IV therapy Available at both our Elmhurst and Hicksville offices, our physician-supervised IV therapy supports hydration, immune health, energy and recovery — in a calm"
+   },
+   {
+    "tag": "section",
+    "id": "locations",
+    "cls": "",
+    "h": 1435,
+    "pad": "50px/50px",
+    "heading": "Two offices, one team",
+    "imgs": 2,
+    "links": 4,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "loc-grid:1col"
+    ],
+    "text": "LOCATIONS Two offices, one team Know exactly where you're headed — our Elmhurst, Queens office and our Hicksville, Long Island office. Elmhurst, Queens Elmhurst, Queens 45-02 82nd Street, Elmhurst, NY 11373 (718) 779-224"
+   },
+   {
+    "tag": "section",
+    "id": "office",
+    "cls": "gallery",
+    "h": 1253,
+    "pad": "50px/50px",
+    "heading": "See each location before you visit",
+    "imgs": 12,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "gal-grid:2col",
+     "gal-grid:2col"
+    ],
+    "text": "INSIDE OUR OFFICES See each location before you visit Photos are grouped by office so you always know which space you'll walk into. Elmhurst, Queens 45-02 82nd Street, NY 11373 Street entrance Reception Waiting area Exam"
+   },
+   {
+    "tag": "section",
+    "id": "reviews",
+    "cls": "",
+    "h": 673,
+    "pad": "50px/50px",
+    "heading": "Families who trust us",
+    "imgs": 0,
+    "links": 1,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "PATIENT VOICES Families who trust us ★★★★★5.0from 5 verified Google reviews ★★★★★ “Dr. Yao is an excellent primary care physician. The office is clean and well-organized, and the staff is friendly and efficient. He took "
+   },
+   {
+    "tag": "section",
+    "id": "faq",
+    "cls": "faq",
+    "h": 733,
+    "pad": "50px/50px",
+    "heading": "Questions, answered",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "FAQ Questions, answered Do you treat both children and adults? + Yes. Family First Medical is a combined family medicine and pediatrics practice. Dr. Qikai Yao focuses on pediatrics, while Dr. Liyan Yao cares for adults,"
+   },
+   {
+    "tag": "section",
+    "id": "insurance",
+    "cls": "",
+    "h": 827,
+    "pad": "50px/50px",
+    "heading": "Coverage made simple",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "INSURANCE Coverage made simple We accept Medicare, Medicaid, Child Health Plus and most major commercial plans. Medicaid, Medicare & Most Insurances We accept Medicaid, Medicare and most insurances — comprehensive care c"
+   },
+   {
+    "tag": "section",
+    "id": "visit",
+    "cls": "visit",
+    "h": 1530,
+    "pad": "50px/50px",
+    "heading": "Ready when you are",
+    "imgs": 0,
+    "links": 4,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "visit-grid:1col",
+     "visit-cards:2col",
+     "hours-grid:1col"
+    ],
+    "text": "PLAN YOUR VISIT Ready when you are Call to book an appointment — new patients and walk-ins welcome. Call to Book Elmhurst: (718) 779-2248 Long Island: (516) 681-0681 Get Directions Elmhurst: 45-02 82nd Street → Hicksvill"
+   },
+   {
+    "tag": "footer",
+    "id": "",
+    "cls": "",
+    "h": 583,
+    "pad": "52px/26px",
+    "heading": "",
+    "imgs": 1,
+    "links": 6,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "foot-grid:2col"
+    ],
+    "text": "Pediatric and family medicine for every age, in Queens and on Long Island. English 中文 Español Elmhurst 45-02 82nd Street Elmhurst, NY 11373 (718) 779-2248 Long Island 101 Jerusalem Avenue Hicksville, NY 11801 (516) 681-0"
+   }
+  ]
+ },
+ "desktop": {
+  "total": 12971,
+  "sections": [
+   {
+    "tag": "a",
+    "id": "",
+    "cls": "skip",
+    "h": 46,
+    "pad": "10px/10px",
+    "heading": "",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "Skip to content"
+   },
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "util",
+    "h": 54,
+    "pad": "0px/0px",
+    "heading": "",
+    "imgs": 0,
+    "links": 3,
+    "details": 0,
+    "tels": 2,
+    "grids": [],
+    "text": "Elmhurst (718) 779-2248 Hicksville (516) 681-0681 Elmhurst, Queens & Hicksville, LI Open 7 Days EN 中文"
+   },
+   {
+    "tag": "header",
+    "id": "",
+    "cls": "",
+    "h": 84,
+    "pad": "0px/0px",
+    "heading": "",
+    "imgs": 1,
+    "links": 8,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "FAMILY MEDICINE & PEDIATRICS Our Doctors Services All Ages Locations Insurance FAQ Call to Make an Appt Visit"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "hero",
+    "h": 780,
+    "pad": "58px/66px",
+    "heading": "Family medicine& pediatrics,all in one place.",
+    "imgs": 11,
+    "links": 3,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "hero-bg:1col",
+     "wrap:2col",
+     "hero-portraits:2col",
+     "hl:2col"
+    ],
+    "text": "Personalized care for all ages Accepting new patients Family medicine & pediatrics, all in one place. From your newborn's first checkup to your own annual physical, our board-certified physicians care for your whole fami"
+   },
+   {
+    "tag": "div",
+    "id": "",
+    "cls": "trust",
+    "h": 154,
+    "pad": "38px/38px",
+    "heading": "",
+    "imgs": 4,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:4col"
+    ],
+    "text": "25+ Years of Care Trusted since 1998 Board-Certified Pediatrics & Family Medicine Three Languages English · 中文 · Español Whole-Family Care Newborns to seniors"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "welcome",
+    "h": 785,
+    "pad": "76px/76px",
+    "heading": "A practice built around your family",
+    "imgs": 10,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:2col",
+     "welcome-media:3col",
+     "values:2col"
+    ],
+    "text": "WELCOME A practice built around your family Family First Medical combines pediatric and family medicine services under one roof, making it easier for your family to receive the care they need. We focus on building lastin"
+   },
+   {
+    "tag": "section",
+    "id": "doctors",
+    "cls": "",
+    "h": 1409,
+    "pad": "76px/76px",
+    "heading": "Two doctors. One standard of care.",
+    "imgs": 2,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "dcard:2col",
+     "cred-grid:2col",
+     "dcard:2col",
+     "cred-grid:2col"
+    ],
+    "text": "OUR DOCTORS Two doctors. One standard of care. Two board-certified physicians — combining decades of experience with comprehensive, modern family medicine. 25+ YEARS OF CARE Accepting new patients Dr. Qikai Yao, MD PEDIA"
+   },
+   {
+    "tag": "section",
+    "id": "",
+    "cls": "interlude",
+    "h": 624,
+    "pad": "76px/76px",
+    "heading": "",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "int-points:3col"
+    ],
+    "text": "OUR PROMISE “Every patient is cared for like family.” DRS. QIKAI & LIYAN YAOFAMILY FIRST MEDICAL Board-certified care from newborn to senior Open 7 days across two offices Care in English · 中文 · Español"
+   },
+   {
+    "tag": "section",
+    "id": "services",
+    "cls": "services",
+    "h": 1065,
+    "pad": "76px/76px",
+    "heading": "Comprehensive care, every visit",
+    "imgs": 10,
+    "links": 10,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "SERVICES Comprehensive care, every visit From childhood checkups to adult chronic-care management — explore what we offer. All Services Pediatrics Family Medicine PEDIATRICS Well-Child Visits Regular checkups tracking gr"
+   },
+   {
+    "tag": "section",
+    "id": "ages",
+    "cls": "",
+    "h": 887,
+    "pad": "76px/76px",
+    "heading": "Care for all ages",
+    "imgs": 5,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "EVERY STAGE OF LIFE Care for all ages One practice that grows with your family — from the first days of life through your golden years. 0–12 MONTHS Infants & Newborns Newborn checks, feeding guidance, growth tracking and"
+   },
+   {
+    "tag": "section",
+    "id": "wellness",
+    "cls": "wellness",
+    "h": 840,
+    "pad": "76px/76px",
+    "heading": "Physician-directed IV therapy",
+    "imgs": 3,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "wrap:2col",
+     "drips:2col",
+     "iv-stage:2col",
+     "io-group:2col"
+    ],
+    "text": "WELLNESS · ELMHURST & HICKSVILLE Physician-directed IV therapy Available at both our Elmhurst and Hicksville offices, our physician-supervised IV therapy supports hydration, immune health, energy and recovery — in a calm"
+   },
+   {
+    "tag": "section",
+    "id": "locations",
+    "cls": "",
+    "h": 964,
+    "pad": "76px/76px",
+    "heading": "Two offices, one team",
+    "imgs": 2,
+    "links": 4,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "loc-grid:2col"
+    ],
+    "text": "LOCATIONS Two offices, one team Know exactly where you're headed — our Elmhurst, Queens office and our Hicksville, Long Island office. Elmhurst, Queens Elmhurst, Queens 45-02 82nd Street, Elmhurst, NY 11373 (718) 779-224"
+   },
+   {
+    "tag": "section",
+    "id": "office",
+    "cls": "gallery",
+    "h": 1649,
+    "pad": "76px/76px",
+    "heading": "See each location before you visit",
+    "imgs": 12,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [
+     "gal-grid:3col",
+     "gal-grid:3col"
+    ],
+    "text": "INSIDE OUR OFFICES See each location before you visit Photos are grouped by office so you always know which space you'll walk into. Elmhurst, Queens 45-02 82nd Street, NY 11373 Street entrance Reception Waiting area Exam"
+   },
+   {
+    "tag": "section",
+    "id": "reviews",
+    "cls": "",
+    "h": 1135,
+    "pad": "76px/76px",
+    "heading": "Families who trust us",
+    "imgs": 0,
+    "links": 1,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "PATIENT VOICES Families who trust us ★★★★★5.0from 5 verified Google reviews ★★★★★ “Dr. Yao is an excellent primary care physician. The office is clean and well-organized, and the staff is friendly and efficient. He took "
+   },
+   {
+    "tag": "section",
+    "id": "faq",
+    "cls": "faq",
+    "h": 791,
+    "pad": "76px/76px",
+    "heading": "Questions, answered",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "FAQ Questions, answered Do you treat both children and adults? + Yes. Family First Medical is a combined family medicine and pediatrics practice. Dr. Qikai Yao focuses on pediatrics, while Dr. Liyan Yao cares for adults,"
+   },
+   {
+    "tag": "section",
+    "id": "insurance",
+    "cls": "",
+    "h": 661,
+    "pad": "76px/76px",
+    "heading": "Coverage made simple",
+    "imgs": 0,
+    "links": 0,
+    "details": 0,
+    "tels": 0,
+    "grids": [],
+    "text": "INSURANCE Coverage made simple We accept Medicare, Medicaid, Child Health Plus and most major commercial plans. Medicaid, Medicare & Most Insurances We accept Medicaid, Medicare and most insurances — comprehensive care c"
+   },
+   {
+    "tag": "section",
+    "id": "visit",
+    "cls": "visit",
+    "h": 771,
+    "pad": "76px/76px",
+    "heading": "Ready when you are",
+    "imgs": 0,
+    "links": 4,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "visit-grid:2col",
+     "visit-cards:2col",
+     "hours-grid:2col"
+    ],
+    "text": "PLAN YOUR VISIT Ready when you are Call to book an appointment — new patients and walk-ins welcome. Call to Book Elmhurst: (718) 779-2248 Long Island: (516) 681-0681 Get Directions Elmhurst: 45-02 82nd Street → Hicksvill"
+   },
+   {
+    "tag": "footer",
+    "id": "",
+    "cls": "",
+    "h": 315,
+    "pad": "52px/26px",
+    "heading": "",
+    "imgs": 1,
+    "links": 6,
+    "details": 0,
+    "tels": 2,
+    "grids": [
+     "foot-grid:4col"
+    ],
+    "text": "Pediatric and family medicine for every age, in Queens and on Long Island. English 中文 Español Elmhurst 45-02 82nd Street Elmhurst, NY 11373 (718) 779-2248 Long Island 101 Jerusalem Avenue Hicksville, NY 11801 (516) 681-0"
+   }
+  ]
+ }
+}
