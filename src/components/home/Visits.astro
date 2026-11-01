@@ -24,11 +24,11 @@ const archIcon = 'M5 21V11a7 7 0 0 1 14 0v10'
       <div class="min-w-0 flex-1">
         <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Sick today?</h3>
         <p class="mt-1.5 max-w-[40ch]">Call the office that is open now. In an emergency, call <strong class="font-semibold text-indigo">911</strong>.</p>
-        <ul data-open-first class="mt-4 divide-y divide-line rounded-[1.25rem] border border-line bg-white px-4">
+        <ul data-open-first class="-ml-14 mt-4 divide-y lg:ml-0 divide-line rounded-[1.25rem] border border-line bg-white px-4">
           {offices.map(o => (
-            <li class="flex min-h-16 items-center justify-between gap-3 py-2">
-              <span><span class="block font-semibold text-indigo">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="See hours below" class="block text-[0.82rem] leading-snug text-muted" /></span>
-              <a href={telHref(o.phone)} class="tabular inline-flex min-h-11 items-center whitespace-nowrap font-semibold text-teal-deep underline underline-offset-4">{o.phone}</a>
+            <li class="py-3">
+              <span><span class="block font-semibold text-indigo">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="See hours below" class="block text-[0.88rem] leading-snug text-muted" /></span>
+              <a href={telHref(o.phone)} class="tabular mt-1 inline-flex min-h-11 items-center whitespace-nowrap text-[1.12rem] font-semibold text-teal-deep underline underline-offset-4">{o.phone}</a>
             </li>
           ))}
         </ul>
