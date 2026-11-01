@@ -3,7 +3,7 @@
 Paid-client website: a family medicine and pediatrics practice site for AIMSS (aimssfoundation.org, a 501(c)(3)). Astro 7 + Tailwind 4, static, zero third-party requests. Currently a design demo with PLACEHOLDER content.
 
 ## Start here (a fresh session has no memory of earlier chats)
-1. `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md` (current state), then `2026-10-31-session-handoff.md`.
+1. `workspace/06-handoffs/2026-11-01-session-3-handoff.md` (current state), then `2026-10-31-session-2-cloud-handoff.md` (sharing setup).
 2. `workspace/06-handoffs/cloud-readiness-plan.md` (what the cloud lacks and how we replaced it).
 3. `workspace/04-logs/LOG.md` (append-only history), `workspace/03-decisions/` (owner decisions, home-demo-direction), `workspace/02-analysis/improvement-plan.md` (ranked work).
 4. Notes carried over from the laptop's memory: `workspace/06-handoffs/memory/`.
