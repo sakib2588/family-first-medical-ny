@@ -18,8 +18,6 @@ const { class: cls = '', compact = false } = Astro.props
     root.toggleAttribute('data-motion-paused', paused)
     document.querySelectorAll<HTMLButtonElement>('[data-motion-toggle]').forEach(b => {
       b.setAttribute('aria-pressed', String(paused))
-      const label = b.querySelector('[data-motion-label]')
-      if (label) label.textContent = paused ? 'Play motion' : 'Pause motion'
     })
     window.dispatchEvent(new CustomEvent('motionchange', { detail: { paused } }))
   }

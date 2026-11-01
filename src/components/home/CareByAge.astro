@@ -16,7 +16,7 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
   <div data-live="care" class="live-dark" aria-hidden="true"><canvas></canvas></div>
   <p class="eyebrow !text-aqua">Care by age</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Care by age</h2>
-  <p class="mt-2 max-w-[44ch] text-[1rem] lg:mt-3 lg:text-[1.18rem]">One practice from first breath to grandparent.</p>
+  <p class="mt-2 max-w-[44ch] text-[1rem] lg:mt-3 lg:text-[1.18rem]">From newborns to grandparents, one practice.</p>
   <ol class="age-line relative mt-5 grid gap-4 lg:mt-10 lg:grid-cols-4 lg:gap-6">
     <span aria-hidden="true" class="age-line__rule absolute bottom-6 left-[15px] top-2 w-0.5 bg-indigo/40 lg:inset-x-0 lg:bottom-auto lg:top-[5px] lg:h-0.5 lg:w-auto"></span>
     {ageBands.map(b => {
@@ -30,7 +30,7 @@ import { ageBands, doctorBySlug, practice } from '../../data/practice'
             <p class="age-range font-semibold text-indigo">{b.range}</p>
             <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">{b.title}</h3>
             <p class="age-desc mt-0.5 text-[0.94rem] leading-snug lg:mt-1 lg:text-base">{b.line}</p>
-            <p class="age-led text-[0.82rem] lg:text-[0.88rem]"><span class="age-led__label">Led by </span>{docs.map((d, i) => (<>{i > 0 && <span class="age-or"> or </span>}<a href={`/doctors/${d.slug}`} class="age-chip inline-flex min-h-11 items-center font-medium text-teal-deep underline underline-offset-4"><img src={d.img} alt="" width="56" height="56" loading="lazy" class="age-chip__img hidden" />{d.name}</a></>))}</p>
+            <p class="age-led max-lg:flex max-lg:flex-wrap max-lg:items-center text-[0.82rem] lg:text-[0.88rem]"><span class="age-led__label">Led by </span>{docs.map((d, i) => (<>{i > 0 && <span class="age-or"> or </span>}<a href={`/doctors/${d.slug}`} class="age-chip inline-flex min-h-11 items-center font-medium text-teal-deep underline underline-offset-4"><img src={d.img} alt="" width="56" height="56" loading="lazy" class="age-chip__img hidden" />{d.name}</a></>))}</p>
           </div>
           </div>
         </li>
