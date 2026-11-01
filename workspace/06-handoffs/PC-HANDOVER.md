@@ -1,4 +1,26 @@
-# PC handover (from the cloud session, 2026-11-01)
+# PC handover (from the cloud session, 2026-11-01; updated on the PC, end of 2026-11-01)
+
+## 0. Latest state (PC session, read this first)
+- **Open PRs, stacked; merge in order #35 -> #45** (each targets the previous branch). The owner has reviewed the site and said "looks ok for now". Merging is still the owner's call.
+- **Revert point:** tag `v-pre-design-tier-2026-11-01`.
+- **Phone baselines** re-saved at the approved state (`workspace/04-logs/baseline`, `workspace/tools/phone-baseline.mjs`).
+- **Owner decisions this session** (all in `workspace/03-decisions/` or the design plan):
+  - Presentation mode: no demo/sample words visible; nothing invented; the photo map is `03-decisions/photo-map.md`.
+  - Live three.js on Home, wide desktop only (`03-decisions/2026-11-01-live-motion-and-3d-exception.md`). Five scenes: hero shader colour field, trust-band glass arches + heartbeat, and particle "constellation arches" in Visits, Care by age and Request. Site-wide Pause motion control.
+  - 3-colour system for the bold bands: `--c3-base #2e2860`, `--c3-primary` aqua, `--c3-accent` gold. Gold is only used on dark.
+  - Flat straight section edges. Light/dark seams follow the research (luminance steps of about 3:1; glass strips inside the dark band edges).
+  - Services section with filter tabs.
+- **Design plan:** `02-analysis/design-plan-3d-css-2026-11-01.md`, sections 11-12 plus the LOG for rounds 11-17.
+- **Next, not started:**
+  - R2 3D office map with live pins;
+  - the "Explore our practice" showcase page;
+  - inner pages (Doctors, Locations, Contact) brought up to the new home style;
+  - favicon (console 404).
+- **Client asks still blocking launch:**
+  - real photos (photo map);
+  - confirmed facts (hours, insurance, credentials, accepting new patients);
+  - counsel review of the legal pages.
+
 
 Read this first on the PC, then `CLAUDE.md`, then the last 15 lines of `workspace/04-logs/LOG.md`.
 The owner is moving work from Claude Code in the cloud to Claude Code on their PC. Everything below is merged to `main`.
