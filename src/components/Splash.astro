@@ -1,0 +1,34 @@
+---
+// Short intro splash (owner decision 2026-11-02 reverses the 2026-10-31 "no splash" rule; see
+// workspace/03-decisions/2026-11-02-short-splash.md). Rules: Home only, once per browser session, about 1.3 s,
+// a tap or key skips it, never shown with reduced motion or without JS, covers only the first paint (content is real
+// and loading underneath), no third-party request, no text beyond the practice name.
+import { practice } from '../data/practice'
+---
+<div id="splash" class="splash" aria-hidden="true">
+  <div class="splash__stage">
+    <svg viewBox="0 0 30 34" class="splash__mark">
+      <path pathLength="1" d="M4 31V16a11 11 0 0 1 22 0v15" fill="none" stroke="var(--color-teal-deep)" stroke-width="2.4" stroke-linecap="round"/>
+      <path pathLength="1" d="M10 31V17a5 5 0 0 1 10 0v14" fill="none" stroke="var(--color-gold)" stroke-width="2.4" stroke-linecap="round"/>
+    </svg>
+    <p class="splash__name">{practice.name}</p>
+  </div>
+</div>
+<script is:inline src="/splash.js"></script>
+<style is:global>
+  .splash { display: none; }
+  html.splash-on .splash {
+    position: fixed; inset: 0; z-index: 100; display: grid; place-items: center;
+    background: radial-gradient(60% 45% at 50% 46%, #fff, var(--color-cream) 75%);
+    animation: splash-out .45s var(--ease-soft, ease) 1.15s forwards;
+  }
+  html.splash-skip .splash { animation-duration: .2s; animation-delay: 0s; }
+  .splash__stage { display: grid; justify-items: center; gap: 1rem; }
+  .splash__mark { width: 4.2rem; height: 4.8rem; overflow: visible; }
+  .splash__mark path { stroke-dasharray: 1; stroke-dashoffset: 1; animation: splash-draw .7s var(--ease-soft, ease) .1s forwards; }
+  .splash__mark path + path { animation-delay: .3s; }
+  .splash__name { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; color: var(--color-indigo); opacity: 0; transform: translateY(8px); animation: splash-rise .6s var(--ease-soft, ease) .45s forwards; }
+  @keyframes splash-draw { to { stroke-dashoffset: 0; } }
+  @keyframes splash-rise { to { opacity: 1; transform: none; } }
+  @keyframes splash-out { to { opacity: 0; visibility: hidden; } }
+</style>
