@@ -113,8 +113,8 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
    our tokens. One soft easing; reveal on scroll; hero entrance; lift on hover; frosted bars; a ping on the open dot.
    Everything is off under reduced motion (the global rule above also kills transitions). No infinite loops but the ping. */
 :root { --ease-soft: cubic-bezier(.2, .7, .2, 1); --shadow-teal: 0 10px 24px -10px rgb(11 111 111 / .55); --shadow-gold: 0 10px 24px -10px rgb(217 160 44 / .6); --shadow-float: 0 18px 50px -18px rgb(23 18 58 / .25); }
-.js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s var(--ease-soft) var(--rd, 0s), transform .7s var(--ease-soft) var(--rd, 0s); }
-.js .reveal.in { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(22px); } /* hidden start is instant: no fade-out flash */
+.js .reveal.in { opacity: 1; transform: none; transition: opacity .7s var(--ease-soft) var(--rd, 0s), transform .7s var(--ease-soft) var(--rd, 0s); }
 @media (prefers-reduced-motion: no-preference) {
   #hero :is(h1, h1 + p, li) { animation: hero-in .85s var(--ease-soft) both; }
   #hero h1 + p { animation-delay: .1s; }
