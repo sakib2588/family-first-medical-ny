@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css'
 interface Props { title: string; description?: string }
-const { title, description = 'Demo design of a family medicine and pediatrics practice website.' } = Astro.props
+const { title, description = 'Family medicine and pediatrics for every age, at two offices in Elmhurst and Hicksville.' } = Astro.props
 ---
 <!doctype html>
 <html lang="en">
@@ -11,16 +11,19 @@ const { title, description = 'Demo design of a family medicine and pediatrics pr
     <meta name="robots" content="noindex, nofollow" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#2e2860" />
   </head>
   <body class="min-h-dvh">
-    <aside aria-label="Demo notice" class="bg-indigo px-4 py-1.5 text-center text-xs tracking-wide text-white">Design demo · sample content</aside>
     <slot />
     <script>
       // Scroll reveal (pattern from 02-analysis/base-site-css-js-dissection-2026-11-01.md, section 5).
       // Content is visible without JS: the hidden start state only applies under html.js. Reduced motion: skipped.
       const root = document.documentElement
       if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
-        const targets = document.querySelectorAll<HTMLElement>('main section:not(#hero) :is(h2, [data-reveal], .lift, figure, details)')
+        const targets = document.querySelectorAll<HTMLElement>('main section:not(#hero) :is(h2, [data-reveal], .lift, figure, details, .visit-card, .age-card, .ins-feature, .ins-panel, .faq-help)')
         root.classList.add('js')
         const io = new IntersectionObserver(entries => {
           for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) }

@@ -14,33 +14,34 @@ const archIcon = 'M5 21V11a7 7 0 0 1 14 0v10'
 const VISIT_TYPES = ['Well-child visits', 'Vaccines', 'Newborn care', 'Annual physicals'] as const
 const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).filter(n => (VISIT_TYPES as readonly string[]).includes(n))
 ---
-<Section id="visits">
-  <p class="eyebrow">Your visit</p>
-  <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">What brings you in?</h2>
-  <div class="visits mt-6 grid gap-8 lg:mt-8 lg:grid-cols-2 lg:gap-6">
-    <div class="visit-card flex gap-4">
-      <svg class="visit-icon visit-icon--plan size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M9 15h6M12 12v6" /></svg>
+<Section id="visits" tone="indigo" class="c3">
+  <div data-live="visits" class="live-dark" aria-hidden="true"><canvas></canvas></div>
+  <p class="eyebrow !text-aqua">Your visit</p>
+  <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">What brings <em class="font-medium text-gold">you</em> in?</h2>
+  <div class="visits mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
+    <div class="visit-card">
+      <span class="visit-icon visit-icon--plan" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d={archIcon} /><path d="M9 15h6M12 12v6" /></svg></span>
       <div class="visit-body">
-        <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Planning a visit</h3>
-        <p class="mt-1.5 max-w-[40ch]">Checkups, physicals, a new baby or vaccines. Leave your name and number and the office calls you back.</p>
+        <h3 class="text-[1.29rem] leading-tight lg:text-[1.5rem]">Planning a visit</h3>
+        <p class="mt-1.5 max-w-[42ch]">Checkups, physicals, a new baby or vaccines. Leave your name and number and the office calls you back.</p>
         {visitTypes.length > 0 && (
-          <ul class="visit-types hidden" aria-label="Common visits">
+          <ul class="visit-types" aria-label="Common visits">
             {visitTypes.map(t => (<li><Icon name="check" size={16} />{t}</li>))}
           </ul>
         )}
-        <a href="#request" class="visit-cta arrow-link mt-1 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
+        <a href="#request" class="visit-cta btn inline-flex min-h-12 items-center gap-2 rounded-full px-6 font-bold">Request a visit<Icon name="arrow" size={18} /></a>
       </div>
     </div>
-    <div class="visit-card flex gap-4">
-      <svg class="visit-icon visit-icon--sick size-10 shrink-0 text-indigo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d={archIcon} /><path d="M12 11v4M12 18h.01" /></svg>
-      <div class="visit-body min-w-0 flex-1">
-        <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">Sick today?</h3>
-        <p class="mt-1.5 max-w-[40ch]">Call the office that is open now. In an emergency, call <strong class="font-semibold text-indigo">911</strong>.</p>
-        <ul data-open-first class="office-rows -ml-14 mt-4 divide-y lg:ml-0 divide-line rounded-[1.25rem] border border-line bg-white px-4">
+    <div class="visit-card">
+      <span class="visit-icon visit-icon--sick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d={archIcon} /><path d="M12 11v4M12 18h.01" /></svg></span>
+      <div class="visit-body min-w-0">
+        <h3 class="text-[1.29rem] leading-tight lg:text-[1.5rem]">Sick today?</h3>
+        <p class="mt-1.5 max-w-[42ch]">Call the office that is open now. In an emergency, call <strong class="font-bold text-gold">911</strong>.</p>
+        <ul data-open-first class="office-rows">
           {offices.map(o => (
-            <li class="office-row py-3">
-              <span><span class="block font-semibold text-indigo">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="See hours below" class="block text-[0.88rem] leading-snug text-muted" /></span>
-              <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="office-call tabular mt-1 inline-flex min-h-11 items-center gap-2 whitespace-nowrap text-[1.12rem] font-semibold text-teal-deep underline underline-offset-4"><span class="office-call__icon hidden"><Icon name="phone" size={18} /></span>{o.phone}</a>
+            <li class="office-row">
+              <span class="min-w-0"><span class="block font-semibold text-white">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="See hours below" class="block text-[0.88rem] leading-snug" /></span>
+              <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="office-call tabular inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full px-4 font-semibold"><Icon name="phone" size={18} />{o.phone}</a>
             </li>
           ))}
         </ul>
@@ -49,29 +50,41 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
   </div>
 </Section>
 <style>
-  /* Desktop only (design plan 4.1). Nothing here applies below 64rem, so the phone layout is byte-for-byte the same. */
+  /* Round 14 (owner: "3-colour combination", with reference palettes): Midnight Indigo base (#17123a), Aqua primary
+     (#5fc4c4, info + links), Gold accent (#d9a02c, the one filled action and the 911 highlight). Tokens --c3-* in
+     global.css. Contrast on #17123a: white 17:1, on-dark #c9c4e3 10.5:1, aqua 8.6:1, gold 7.8:1; indigo on gold 7.8:1.
+     Gold is never text on a light ground (project rule). Same colours on phone and desktop; layout differs below. */
+  :global(.c3) { position: relative; isolation: isolate; overflow: hidden; background: var(--c3-base); }
+  :global(.c3)::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(45% 60% at 0% 0%, rgb(95 196 196 / .22), transparent 70%), radial-gradient(40% 55% at 100% 100%, rgb(217 160 44 / .18), transparent 70%); }
+  .visit-card { display: flex; flex-direction: column; gap: .9rem; padding: 1.25rem; border: 1px solid rgb(255 255 255 / .1); border-radius: 1.5rem; background: linear-gradient(160deg, rgb(255 255 255 / .07), rgb(255 255 255 / .02)); }
+  .visit-body { display: flex; flex: 1; flex-direction: column; }
+  .visit-icon { display: grid; place-items: center; flex: none; inline-size: 3rem; block-size: 3rem; border-radius: 999px; }
+  .visit-icon svg { inline-size: 1.5rem; block-size: 1.5rem; }
+  .visit-icon--plan { background: var(--c3-primary); color: var(--c3-base); box-shadow: 0 0 0 6px rgb(95 196 196 / .15); }
+  .visit-icon--sick { background: var(--c3-accent); color: var(--c3-base); box-shadow: 0 0 0 6px rgb(217 160 44 / .15); }
+  .visit-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin-block: 1rem 1.25rem; }
+  .visit-types li { display: flex; align-items: center; gap: .5rem; padding: .6rem .75rem; border: 1px solid rgb(95 196 196 / .3); border-radius: .9rem; background: rgb(95 196 196 / .08); font-size: .9rem; font-weight: 600; color: #fff; }
+  .visit-types :global(svg) { flex: none; color: var(--c3-primary); }
+  .visit-cta { align-self: flex-start; margin-top: auto; background: var(--c3-accent); color: var(--c3-base); box-shadow: 0 10px 24px -10px rgb(217 160 44 / .7); }
+  .visit-cta:hover { background: var(--color-gold-light); }
+  .office-rows { display: grid; gap: .6rem; margin-top: 1rem; }
+  .office-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; padding: .85rem 1rem; border: 1px solid rgb(255 255 255 / .1); border-radius: 1rem; background: rgb(255 255 255 / .04); }
+  .office-row:has([data-state='open']) { border-color: var(--c3-primary); background: rgb(95 196 196 / .1); }
+  .office-call { border: 1.5px solid var(--c3-primary); color: #fff; }
+  .office-call :global(svg) { color: var(--c3-primary); }
+  .office-call:hover { background: rgb(95 196 196 / .15); }
   @media (min-width: 64rem) {
     .visits { align-items: stretch; }
-    .visit-card { flex-direction: column; gap: 1.25rem; padding: 2rem; border: 1px solid var(--color-line); border-radius: 1.5rem; background: #fff; box-shadow: 0 2px 8px rgb(23 18 58 / .05); }
-    .visit-body { display: flex; flex: 1; flex-direction: column; }
-    .visit-icon { inline-size: 3.5rem; block-size: 3.5rem; padding: .8rem; border-radius: 1rem; color: #fff; box-shadow: 0 8px 18px -10px rgb(23 18 58 / .55); }
-    .visit-icon--plan { background-image: linear-gradient(140deg, var(--color-hero-teal), var(--color-teal-deep)); }
-    .visit-icon--sick { background-image: linear-gradient(140deg, #c23d55, #8f2a3f); } /* white icon on the dark end of the rose tile (>= 3:1) */
-    .visit-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem 1rem; margin-block: 1.25rem 1.5rem; }
-    .visit-types li { display: flex; align-items: center; gap: .5rem; border-radius: .9rem; background: var(--color-cream); padding: .7rem .9rem; font-weight: 600; color: var(--color-indigo); }
-    .visit-types :global(svg) { flex: none; color: var(--color-teal-deep); }
-    .visit-cta { margin-top: auto; align-self: flex-start; min-height: 3rem; padding-inline: 1.5rem; border: 1.5px solid var(--color-muted); border-radius: 999px; text-decoration: none; }
-    .visit-cta:hover { border-color: var(--color-teal-deep); background: var(--color-mist); }
-    .office-rows { margin-top: 1.25rem; border: 0; background: none; padding: 0; display: grid; gap: .75rem; }
-    .office-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.1rem; border: 1.5px solid var(--color-line); border-radius: 1rem; background: var(--color-cream); }
-    .office-row:has([data-state='open']) { border-color: var(--color-teal-deep); background: var(--color-mist); box-shadow: 0 0 0 4px rgb(11 111 111 / .1); }
-    .office-call { margin-top: 0; min-height: 3rem; padding-inline: 1.1rem; border: 1.5px solid var(--color-muted); border-radius: 999px; background: #fff; text-decoration: none; font-size: 1.06rem; }
-    .office-call:hover { border-color: var(--color-teal-deep); }
-    .office-call__icon { display: inline-flex; }
+    .visit-card { flex-direction: column; gap: 1.25rem; padding: 2rem; }
+    .visit-icon { inline-size: 3.5rem; block-size: 3.5rem; }
+    .visit-types { gap: .6rem 1rem; margin-block: 1.25rem 1.5rem; }
+    .visit-types li { padding: .75rem .9rem; font-size: 1rem; }
+    .office-row { padding: 1rem 1.1rem; }
   }
   @media (min-width: 64rem) and (hover: hover) and (prefers-reduced-motion: no-preference) {
-    .visit-card { transition: transform .35s var(--ease-soft), box-shadow .35s var(--ease-soft); }
-    .visit-card:is(:hover, :focus-within) { transform: translateY(-3px); box-shadow: var(--shadow-float); }
+    .visit-card { transition: transform .35s var(--ease-soft), border-color .35s; }
+    .visit-card:is(:hover, :focus-within) { transform: translateY(-3px); border-color: rgb(255 255 255 / .22); }
   }
 </style>
-<script>import '../../scripts/open-first'</script>
+<script>import '../../scripts/open-first'
+import '../../scripts/live3d'</script>

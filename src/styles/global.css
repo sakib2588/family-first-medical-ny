@@ -19,6 +19,8 @@
   --color-teal-darker: #0a5656;  /* hover / pressed */
   --color-gold: #d9a02c;         /* accent line, highlights on indigo; the action colour on indigo grounds */
   --color-gold-light: #e8b54a;   /* hover / pressed for the gold action */
+  /* 3-colour system (owner round 14): base / primary / accent for bold bands. */
+  --c3-base: #2e2860; --c3-primary: #5fc4c4; --c3-accent: #d9a02c;
   --header-offset: 6.5rem;       /* sticky desktop header (80 px) + breathing room: scroll padding, sticky asides */
   --color-cream: #faf7ef;        /* page ground */
   --color-lavender: #f2eefc;     /* alternate section ground */
@@ -68,7 +70,7 @@ img { outline: 1px solid rgb(0 0 0 / 0.08); outline-offset: -1px; }
 
 .arch { border-radius: 999px 999px 1.25rem 1.25rem; overflow: hidden; }
 /* One grade for every stand-in photo so the set reads as one shoot. Replace with real, graded photos. */
-.arch img { filter: saturate(0.92) sepia(0.05) contrast(1.03); }
+/* .arch img grade moved to the site-wide photo grade below (round 12). */
 ::selection { background: var(--color-gold); color: var(--color-indigo); }
 .btn { transition-property: transform, background-color, color, border-color; transition-duration: 150ms; transition-timing-function: ease-out; }
 .btn:active { transform: scale(0.97); }
@@ -126,7 +128,7 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
   .btn:hover { transform: translateY(-2px); }
   .lift { transition: transform .35s var(--ease-soft), box-shadow .35s var(--ease-soft); }
   .lift:hover { transform: translateY(-3px); box-shadow: var(--shadow-float); }
-  .status[data-state='open']::before { animation: open-ping 1.8s ease-out 2; } /* 2 runs then rest (U14.8) */
+  .status[data-state='open']::before { animation: open-ping 2.4s ease-out infinite; } /* loops: stopped by Pause motion (U14.8) */
 }
 @keyframes hero-in { from { opacity: 0; transform: translateY(16px); } }
 @keyframes open-ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 45%, transparent); } 100% { box-shadow: 0 0 0 7px transparent; } }
@@ -156,3 +158,132 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 
 /* Sticky desktop header (80 px): keep focused items and #anchor targets clear of it (WCAG 2.4.11). */
 @media (min-width: 64rem) { html { scroll-padding-top: var(--header-offset); } }
+
+/* Round 11 (owner: 'the distance looks too much' before Doctors and Inside): two sections on the same ground in a row
+   share one gap; the second drops most of its top padding. */
+section[data-tone='white'] + section[data-tone='white'], section[data-tone='cream'] + section[data-tone='cream'] { padding-top: 1rem; }
+
+/* Round 11 (owner: "more motion on desktop so the site feels alive"). Desktop only, CSS only, every effect has a
+   still state and is off under reduced motion (U14.3). Jobs (U14.1): reveals orient the eye in reading order; hover
+   depth shows what is interactive; the eyebrow rule marks each new section. Nothing loops. */
+@media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+  /* Cards rise with a slight scale and settle; photos ease in from a soft zoom. */
+  .js :is(.visit-card, .age-card, .ins-feature, .ins-panel, .faq-help, .lift).reveal:not(.in) { transform: translateY(28px) scale(.98); } /* :not(.in): the start state must never outrank the settled state */
+  .js figure.reveal img { transform: scale(1.06); transition: transform 1.2s var(--ease-soft) var(--rd, 0s); }
+  .js figure.reveal.in img { transform: none; }
+  /* Section eyebrow: a short teal rule draws in front of it when its heading reveals. */
+  .eyebrow { position: relative; }
+  .js section:has(h2.reveal) .eyebrow::before { content: ''; position: absolute; inset-inline-start: -1.6rem; inset-block-start: 50%; inline-size: 1.1rem; block-size: 2px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .6s var(--ease-soft) .1s; }
+  .js section:has(h2.reveal.in) .eyebrow::before { transform: scaleX(1); }
+  /* Hover depth on photo tiles (focusable parents only would need a link; these are pointer-only polish). */
+  :is(.inside-tile, .age-card) img { transition: transform .6s var(--ease-soft); }
+  :is(.inside-tile:hover, .age-card:is(:hover, :focus-within)) img { transform: scale(1.04); }
+  /* Icon tiles tilt slightly toward the pointer on card hover. */
+  :is(.visit-card, .age-card, .fact-card, .faq-help):hover :is(.tile, .visit-icon) { transform: rotate(-6deg) scale(1.06); transition: transform .4s cubic-bezier(.34, 1.56, .64, 1); }
+}
+
+/* Colour grade (owner round 12: "better colour grading in multiple places"). The stand-in photos come from different
+   shoots (cold blue, green, warm); one shared grade makes them read as one set: slightly warmer, a touch less saturated,
+   a little more contrast. Applies to every content photo, not the logo, icons or our own 3D art. Real photos get the
+   same grade, so the look stays consistent after launch (photo-map.md). */
+main img:not(.fact-art):not([src$='.svg']) { filter: saturate(.86) contrast(1.06) brightness(1.02) sepia(.1); }
+#site-footer img { filter: none; }
+/* Section grounds: soft tone gradients instead of flat fills (same tokens, so contrast is unchanged). */
+section[data-tone='white'] { background-image: linear-gradient(180deg, #ffffff 0%, #fdfbf7 100%); }
+section[data-tone='cream'] { background-image: radial-gradient(120% 80% at 100% 0%, rgb(230 242 241 / .7) 0%, transparent 55%), linear-gradient(180deg, #faf7ef 0%, #f6f0e3 100%); }
+section[data-tone='lavender'] { background-image: linear-gradient(180deg, #f2eefc 0%, #ece6fa 100%); }
+#hero { background-image: radial-gradient(90% 70% at 85% 10%, rgb(230 242 241 / .8), transparent 60%), radial-gradient(70% 60% at 0% 100%, rgb(245 225 179 / .45), transparent 60%); }
+
+/* ---- Round 13: live loops, pause control, premium scrolling (decision 2026-11-01-live-motion-and-3d-exception) ----
+   Tokens (motion-foundations): one easing family, durations named by job. Transform and opacity only. */
+:root { --m-fast: .18s; --m-normal: .35s; --m-slow: .6s; --m-loop-slow: 14s; --ease-bounce: cubic-bezier(.34, 1.56, .64, 1); }
+/* Pause motion: every CSS animation stops; the toggle is hidden when the OS asks for reduced motion (nothing loops). */
+html[data-motion-paused] *, html[data-motion-paused] *::before, html[data-motion-paused] *::after { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) { .motion-toggle { display: none !important; } }
+.motion-toggle .mt-play { display: none; }
+.motion-toggle[aria-pressed='true'] .mt-pause { display: none; }
+.motion-toggle[aria-pressed='true'] .mt-play { display: inline; }
+
+/* Round 13b: the CSS ambient loops (hero drift, portrait breathing) were removed at the owner's request ('look
+   cheap'); the hero and trust band now use the shared three.js scenes (src/three, src/scripts/live3d.ts). */
+
+/* Premium scrolling, desktop only, never hijacking native scroll (U14.5): CSS scroll timelines inside @supports. */
+@supports (animation-timeline: scroll()) {
+  @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+    /* A thin teal-to-gold line under the header fills as the page scrolls (job: where am I on the page). */
+    body::after { content: ''; position: fixed; z-index: 60; inset: 0 0 auto 0; block-size: 3px; background: linear-gradient(90deg, var(--color-teal-deep), var(--color-aqua) 60%, var(--color-gold)); transform-origin: left; transform: scaleX(0); animation: scroll-progress linear both; animation-timeline: scroll(root); pointer-events: none; }
+    @keyframes scroll-progress { to { transform: scaleX(1); } }
+    /* Photo depth: photos drift a little slower than the page inside their frames (no text moves). */
+    :is(#welcome li, .inside-tile, .office__photo) img { scale: 1.12; animation: photo-depth linear both; animation-timeline: view(); animation-range: cover; }
+    @keyframes photo-depth { from { translate: 0 -5%; } to { translate: 0 5%; } }
+  }
+}
+
+/* ---- Round 16: soft light <-> dark transitions (owner: white straight into midnight strains the eye) ----
+   Three moves, applied to every seam on the page:
+   1. Luminance ramp: the last ~220 px of a light section before a dark band fades into a cool lavender-grey from
+      the indigo family (#e8e6f1), so the eye steps down instead of jumping from white (L 100) to midnight (L 8).
+   2. (Rounded overlapping seams were tried and dropped: owner wants flat straight edges like the base site.)
+   3. Inner light: dark bands carry a faint lighter wash along their top edge.
+   Text sits well inside the padding, so overlaps never touch content; contrast inside every section is unchanged. */
+:root { --seam: 1.5rem; }
+@media (min-width: 64rem) { :root { --seam: 2.75rem; } }
+main > section { position: relative; }
+/* 1. light before dark: fade to a cool tint + room for the overlap */
+main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark)::after {
+  content: ''; position: absolute; inset: auto 0 0 0; block-size: 14rem; pointer-events: none; z-index: 0;
+  background: linear-gradient(180deg, rgb(232 230 241 / 0), #e8e6f1);
+}
+main > section:not(.on-dark) > :not(.absolute):not(script):not(style) { position: relative; z-index: 1; } /* never touch absolutely placed backdrops */
+/* 2. (round 16b) Owner: flat straight edges like the base site; no rounded or overlapping seams. */
+/* 3. dark bands: faint lighter wash along the top edge */
+main > section.on-dark { box-shadow: inset 0 90px 120px -90px rgb(149 140 214 / .22); }
+
+/* Live constellation arches in the dark bands (round 16; src/three/arch-particles-scene.ts). Wide desktop only;
+   behind the content (the band's own content sits in normal flow above it); fades in after the first frame. */
+.live-dark { position: absolute; inset: 0; z-index: -1; display: none; pointer-events: none; }
+.live-dark canvas { inline-size: 100%; block-size: 100%; }
+@media (min-width: 80rem) { .live-dark { display: block; opacity: 0; transition: opacity 1.4s var(--ease-soft); } .live-dark[data-live-on] { opacity: 1; } }
+
+/* ---- Round 16b: flat edges, gentler luminance steps (owner: eye strain going white -> black -> white) ----
+   With straight edges, the fix is to shrink the brightness jump at every seam from both sides:
+   - light sections are a soft paper tone, not pure white, and ramp to lavender-grey on BOTH sides of a dark band;
+   - dark bands lighten to a soft indigo along their top and bottom edges and stay deep midnight only behind the
+     content. Text sits inside the padding, so contrast is unchanged (white on the lightened edge stays > 9:1). */
+section[data-tone='white'] { background-image: linear-gradient(180deg, #f5f3ee 0%, #f1efe9 100%); }
+main > section:not(.on-dark):has(+ section.on-dark, + script + section.on-dark, + script + script + section.on-dark)::after { background: linear-gradient(180deg, rgb(222 218 236 / 0), #dedaec); }
+main > section.on-dark + section:not(.on-dark)::before, main > section.on-dark + script + section:not(.on-dark)::before {
+  content: ''; position: absolute; inset: 0 0 auto 0; block-size: 14rem; pointer-events: none; z-index: 0;
+  background: linear-gradient(180deg, #dedaec, rgb(222 218 236 / 0));
+}
+/* (replaced in round 17 by the glass seam strips below) */
+#hero { background-color: #f7f4ee; }
+
+/* Centred section labels: the eyebrow shrinks to its text so its drawn rule sits right before the word. */
+.text-center > .eyebrow { display: inline-block; }
+
+/* ---- Round 17: research-backed seams (research notes: scratchpad/research; sources: WELL v8 citing IES RP-1-12,
+   Material dark theme, Apple HIG dark mode, IBM Carbon layers, NN/g dark mode, W3C WCAG 2.2 / MQ5).
+   Targets: no adjacent pair above ~10:1 luminance contrast, ~3:1 per step across a seam.
+   - Dark bands lighter: --c3-base #2e2860 (white text 13.2:1, aqua 6.4:1, gold 5.7:1; was #17123a).
+   - Light sections a soft paper tone (#f5f3ee -> #f1efe9); they already ramp to lavender #dedaec near a band.
+   - Glass seam strip INSIDE each dark band's top and bottom edge (bands clip overflow): lavender -> mid #7b769e ->
+     band, translucent with a thin highlight, so the light ramp flows into the band with no hard line. Flat edges.
+   - Reduced transparency: the same ramp, opaque. Forced colours: strips hidden, a 1 px system border instead. */
+:root { --paper: #f3f1ec; --lav: #dedaec; --seam-mid: #7b769e; --seam-h: 2rem; }
+@media (min-width: 64rem) { :root { --seam-h: 3rem; } }
+main > section.on-dark::after {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) top / 100% var(--seam-h) no-repeat,
+    linear-gradient(0deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) bottom / 100% var(--seam-h) no-repeat;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .45), inset 0 -1px 0 rgb(255 255 255 / .3);
+}
+/* the Request band sits on the dark footer: no light neighbour below, so no bottom strip */
+main > section.on-dark:is(:last-child, #request)::after { background: linear-gradient(180deg, rgb(222 218 236 / .92) 0, rgb(123 118 158 / .6) calc(var(--seam-h) * .45), rgb(46 40 96 / 0) var(--seam-h)) top / 100% var(--seam-h) no-repeat; box-shadow: inset 0 1px 0 rgb(255 255 255 / .45); }
+@media (prefers-reduced-transparency: reduce) {
+  main > section.on-dark:not(#request)::after { background:
+    linear-gradient(180deg, var(--lav), var(--seam-mid) 50%, var(--c3-base)) top / 100% var(--seam-h) no-repeat,
+    linear-gradient(0deg, var(--lav), var(--seam-mid) 50%, var(--c3-base)) bottom / 100% var(--seam-h) no-repeat; box-shadow: none; }
+}
+@media (forced-colors: active) { main > section.on-dark::after { display: none; } main > section.on-dark { border-block: 1px solid CanvasText; } }

@@ -337,3 +337,52 @@ The owner asked for one objective council before building and said they would fo
   - re-render the stills whenever an office, address or brand colour changes (a checklist line in `practice.ts`);
   - R2 pin positions come from the same coordinates used to render the map, so they cannot drift apart.
 - **R1 LCP fallback:** if R1 pushes desktop LCP over 2.5 s, it loads after the LCP as a decorative layer (`fetchpriority="low"`) or shrinks until it fits.
+
+## 12. Owner critique round 11 (2026-11-01, 28 points, phone + desktop)
+The owner reviewed the PR stack #35 to #44 on the PC and on a phone.
+
+**Owner decisions:**
+- **Phone changes are now allowed.** The new phone baselines are saved after the owner approves.
+- **"Remove every demo / sample / placeholder word; the client must feel it is their site."**
+  - Applied as follows:
+    - `practice.demo = false` (presentation mode). The `[need]` slots are hidden.
+    - The "Sample:" placeholders become **neutral wording that makes no claim** ("Read our reviews on Google", "Call to check your plan") or are hidden.
+    - The "(as of sample date)", "(stand-in photo)", "Sample name and photo" and "Sample ranges" notes, the demo banner and the footer demo line are removed.
+  - Red lines kept:
+    - **nothing is invented**: no ratings, plan list, "accepting new patients" or credentials;
+    - `noindex` stays on;
+    - the legal pages keep their DRAFT box (counsel); only "(drafts)" leaves the footer;
+    - the form shows an honest "not connected yet, please call" message **after** a submit, instead of a demo notice before it.
+  - The `sample()` values stay flagged in `practice.ts` for replacement before launch. CLAUDE.md is updated.
+
+**Batches (each: build, then screenshots at 390 / 1024 / 1280 / 1440, then the code-reviewer agent, then fixes, then owner critique):**
+
+**A. Client-ready content (both sizes).**
+- The presentation mode above.
+- Shorter copy: Welcome cards, callback card, trust band, Care by age lines, Request lead and steps.
+- More eye-catching headline copy for Request.
+
+**B. Phone flaws.**
+- Header: compact icon menu button, no banner.
+- Hero buttons never wrap ("Request a visit" broke onto 2 lines).
+- Hero at-a-glance chips: better design and motion.
+- Welcome cards: fewer words, cleaner.
+- Callback card: redesign.
+- Office cards: compact status ("Closed · opens 9 AM"), the call button never wraps, access info as compact rows.
+
+**C. Desktop flaws.**
+- Request:
+  - remove the duplicate office numbers (the footer shows them just below);
+  - a stronger left column;
+  - the steps come alive (line draw and pop, CSS).
+- FAQ: column alignment.
+- Footer:
+  - Explore row spacing matched to Policies;
+  - office columns tidy;
+  - bottom block redesigned, with no demo words.
+- Trust band: narrower cards, fewer words, brighter and bolder art.
+- Visits: visit-type tags bolder (they were cream on white).
+- Office cards: better photo frame and access formatting.
+- Care by age: fewer words, more motion.
+- Same-tone sections that sit next to each other no longer stack double padding (the white gaps before Doctors and Inside).
+- More motion across the desktop: staggered reveals, hover depth, the line draws. All of it is CSS and switched off under reduced motion.

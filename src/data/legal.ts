@@ -14,7 +14,7 @@ export const legal: Record<string, LegalDoc> = {
     summary: 'This website does not track you. It sets no cookies, loads no analytics, ads, chat or maps from other companies, and hosts its own fonts. Care you get at the practice is covered by a separate notice.',
     sections: [
       { id: 'what-we-collect', heading: 'What this website collects', body: ['Nothing automatically beyond what any web server needs to deliver a page. We do not use analytics, advertising pixels, session replay, chat widgets or cookies.', '[Hosting provider and the server logs it keeps, and for how long, to be confirmed.]'] },
-      { id: 'request-form', heading: 'The request form', body: ['In this demo the form does not send anything. When it is live it will ask only for a name, phone number, preferred office and best time to call. It will not ask for symptoms, diagnoses, insurance or date of birth.', '[Where submissions go, who can read them, how long they are kept, and the signed business associate agreement with any provider, to be confirmed before launch.]'] },
+      { id: 'request-form', heading: 'The request form', body: ['The form is not connected yet and does not send anything. When it is live it will ask only for a name, phone number, preferred office and best time to call. It will not ask for symptoms, diagnoses, insurance or date of birth.', '[Where submissions go, who can read them, how long they are kept, and the signed business associate agreement with any provider, to be confirmed before launch.]'] },
       { id: 'children', heading: 'Children', body: ['This website is for parents, guardians and adults. We do not knowingly collect information from children through it.'] },
       { id: 'hipaa', heading: 'This is not the HIPAA notice', body: ['This policy covers the website only. How we handle your health information as a patient is in the Notice of privacy practices.'] },
       { id: 'changes', heading: 'Changes and contact', body: ['We date every change. Questions: [privacy contact to be named], ' + phones + '.'] },
@@ -41,7 +41,7 @@ export const legal: Record<string, LegalDoc> = {
     ],
   },
   accessibility: {
-    summary: 'We build to WCAG 2.2 Level AA. This demo has not yet had an outside audit or a real screen-reader test. If something does not work for you, call and we will help, or tell us what failed.',
+    summary: 'We build to WCAG 2.2 Level AA. This site has not yet had an outside audit or a real screen-reader test. If something does not work for you, call and we will help, or tell us what failed.',
     sections: [
       { id: 'target', heading: 'Our target', body: ['WCAG 2.2 Level AA. The site uses real text, labelled form fields, visible keyboard focus, tap targets of at least 44 pixels, reduced-motion support, and no accessibility overlay widget. Pages can be read and phone numbers used with JavaScript turned off.'] },
       { id: 'known-gaps', heading: 'Known gaps', body: ['Automated checks run on every build, but we have not yet done a keyboard-only pass on every page with a real screen reader. [Date and result of the first manual audit to be added.]'] },
@@ -70,7 +70,7 @@ export const legal: Record<string, LegalDoc> = {
   billing: {
     summary: 'We will tell you what to expect to pay. If you do not use insurance, you can ask for a Good Faith Estimate in writing before your visit.',
     sections: [
-      { id: 'insurance', heading: 'Insurance', body: ['We accept the plans listed on the home page. Please call to confirm your exact plan before you visit. Insurance list last verified: [date to be added].'] },
+      { id: 'insurance', heading: 'Insurance', body: ['Call your office to check whether we take your plan. Please call to confirm your exact plan before you visit. Insurance list last verified: [date to be added].'] },
       { id: 'self-pay', heading: 'Paying without insurance', body: ['[Self-pay prices, the sliding-scale or charity-care policy if the practice offers one, and how to ask, to be confirmed.]'] },
       { id: 'gfe', heading: 'Good Faith Estimate (No Surprises Act)', body: ['If you do not have insurance or choose not to use it, you have the right to a Good Faith Estimate of expected charges. [Counsel to supply the required notice wording and process.]'] },
       { id: 'bills', heading: 'Questions about a bill', body: ['Call us: ' + phones + '. [Billing contact and hours to be confirmed.]'] },

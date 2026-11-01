@@ -2,22 +2,24 @@
 // Welcome (round 8, owner: follow the base site's welcome pattern). A photo mosaic beside four benefit cards with
 // gradient icon tiles and one wide card. Copy states only what the practice structure already shows: two specialties,
 // two offices, the callback form, language help. No "open 7 days", "most insurance" or other unconfirmed claims.
-// PHOTOS: stand-ins from public/demo (Unsplash). Real practice photos replace them (03-decisions/2026-11-01-hero-photo-plan.md).
+// PHOTOS: stand-ins from public/demo (Unsplash); which real photo goes where: workspace/03-decisions/photo-map.md. Real practice photos replace them (03-decisions/2026-11-01-hero-photo-plan.md).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
-import { offices, practice } from '../../data/practice'
-const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 const mosaic = [
-  { src: '/demo/child-joy.webp', alt: 'A smiling child (stand-in photo)', cls: 'row-span-2' },
-  { src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)', cls: '' },
-  { src: '/demo/entrance-hicksville.webp', alt: 'An office building (stand-in photo)', cls: '' },
-  { src: '/demo/adult-care.webp', alt: 'A blood pressure check (stand-in photo)', cls: 'col-span-2' },
+  { src: '/demo/child-joy.webp', alt: 'A smiling child', cls: 'row-span-2' },
+  { src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient', cls: '' },
+  { src: '/demo/entrance-hicksville.webp', alt: 'An office building', cls: '' },
+  { src: '/demo/adult-care.webp', alt: 'A blood pressure check', cls: 'col-span-2' },
 ]
-const benefits = [
-  { icon: 'users', tile: 'tile-teal', title: 'Children and adults together', line: 'Pediatrics and family medicine in one practice, so the whole family keeps one team.' },
-  { icon: 'globe', tile: 'tile-indigo', title: 'Help in your language', line: practice.languages.value ? `Care in ${practice.languages.value}, and free language help on request.` : 'Free language help on request.' },
-  { icon: 'pin', tile: 'tile-gold', title: `${first} and ${second}`, line: 'Two offices, each with its own hours and phone number.' },
-  { icon: 'baby', tile: 'tile-rose', title: 'From newborns to grandparents', line: 'Well-child visits, vaccines, physicals and ongoing care as your family grows.' },
+// Round 12 (owner: "lacking content, looks AI written", compared with the base site): a real paragraph and four
+// feature cards in a human voice. Each line is something the practice structure already shows (two specialties under
+// one roof, two doctors, the services list); no hours, insurance, credentials or lab claims (red lines). The cards
+// avoid repeating the hero chips. Soft tinted icon circles, not gradient tiles (an AI-design tell).
+const features = [
+  { icon: 'users', title: 'Care that grows with them', line: 'From first checkups to school physicals to adult care, without switching practices.' },
+  { icon: 'heart', title: 'Doctors who know you', line: 'The same two doctors get to know your family, visit after visit.' },
+  { icon: 'shield', title: 'Prevention first', line: 'Checkups, vaccines and screenings that catch problems early.' },
+  { icon: 'chat', title: 'Plain answers', line: 'Clear explanations, so you leave knowing what comes next.' },
 ] as const
 ---
 <Section id="welcome" tone="white">
@@ -31,19 +33,19 @@ const benefits = [
     </ul>
     <div class="lg:col-span-7">
       <p class="eyebrow">Welcome</p>
-      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">One practice for <em class="font-medium text-teal-deep">every age</em> in your family</h2>
-      <p class="mt-3 max-w-[56ch]">{practice.name} brings pediatrics and family medicine together, so babies, teens, parents and grandparents can see doctors who already know the family.</p>
-      <ul class="mt-6 grid grid-cols-2 gap-2.5 sm:gap-3">
-        {benefits.map(b => (
-          <li data-reveal class="lift card-soft flex flex-col gap-2.5 p-3.5 sm:p-5">
-            <span class={`tile ${b.tile}`}><Icon name={b.icon} size={20} /></span>
-            <div><h3 class="font-sans text-base font-semibold leading-snug text-indigo">{b.title}</h3><p class="mt-1 text-[0.82rem] leading-snug text-muted sm:text-[0.88rem]">{b.line}</p></div>
+      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">A practice built around <em class="font-medium text-teal-deep">your family</em></h2>
+      <p class="mt-3 max-w-[58ch] text-[1.02rem] leading-relaxed lg:text-[1.08rem]">AIMSS Family Health brings pediatrics and family medicine together under one roof. Your newborn, your teenager and you can all see doctors who already know the family, at offices in Elmhurst and Hicksville.</p>
+      <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:gap-4">
+        {features.map(f => (
+          <li data-reveal class="lift card-soft flex gap-3.5 p-4 sm:flex-col sm:gap-3 lg:p-5">
+            <span class="grid size-11 shrink-0 place-items-center rounded-full bg-mist text-teal-deep ring-4 ring-mist/50"><Icon name={f.icon} size={20} /></span>
+            <div><h3 class="font-sans text-[1.02rem] font-bold leading-snug text-indigo">{f.title}</h3><p class="mt-1 text-[0.9rem] leading-snug text-muted">{f.line}</p></div>
           </li>
         ))}
-        <li data-reveal class="lift card-soft col-span-2 flex items-center gap-4 p-4 sm:p-5">
-          <span class="tile tile-teal"><Icon name="chat" size={20} /></span>
-          <div class="flex-1"><h3 class="font-sans text-base font-semibold leading-snug text-indigo">Request a callback</h3><p class="mt-0.5 text-[0.88rem] leading-snug text-muted">Leave your name and number. The office calls you back during office hours.</p></div>
-          <a href="#request" class="arrow-link inline-flex min-h-11 shrink-0 items-center gap-1 font-semibold text-teal-deep underline underline-offset-4">Request<Icon name="arrow" size={18} /></a>
+        <li data-reveal class="lift card-soft flex items-center gap-4 p-4 sm:col-span-2 lg:p-5">
+          <span class="grid size-11 shrink-0 place-items-center rounded-full bg-teal-deep text-white"><Icon name="phone" size={20} /></span>
+          <div class="flex-1"><h3 class="font-sans text-[1.02rem] font-bold leading-snug text-indigo">Book by phone</h3><p class="mt-0.5 text-[0.9rem] leading-snug text-muted">Call either office and the front desk finds you a time.</p></div>
+          <a href="/locations" data-call class="arrow-link inline-flex min-h-11 shrink-0 items-center gap-1 font-semibold text-teal-deep underline underline-offset-4">Call<Icon name="arrow" size={18} /></a>
         </li>
       </ul>
     </div>

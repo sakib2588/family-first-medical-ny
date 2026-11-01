@@ -37,7 +37,7 @@ Pick the FIRST matching row. Use only the skills named; do not browse the rest. 
 |---|---|---|
 | Change layout, copy placement, or visuals of a page | `frontend-design-direction` (decide) -> `design-system` (tokens, consistency) -> `make-interfaces-feel-better` (polish) | Direction file: `workspace/03-decisions/home-demo-direction.md`. Tokens: `src/styles/global.css`. |
 | Accessibility check or fix | `accessibility` (PRIMARY) | `frontend-a11y` is React/Next: take its principles (labels, focus, keyboard) but NOT its React code. |
-| Motion or animation | `motion-foundations` (principles only) | Site is CSS-only; no React, no animation library. Respect reduced motion. |
+| Motion or animation | `motion-foundations` (principles only) | CSS first; three.js allowed ONLY for the trust-band scene on Home desktop (owner exception, `workspace/03-decisions/2026-11-01-live-motion-and-3d-exception.md`) and future showcase pages. Loops need the site-wide Pause motion control. Respect reduced motion. No scroll-jacking. |
 | Touch the request form, any data field, or anything patient-related | `hipaa-compliance` -> `healthcare-phi-compliance` -> `security-review` | Contact info only. Stop and ask the owner if a field might hold health info. |
 | Add a page, link, or button | `click-path-audit` after building | Then `npm run check` (dead-link scan). |
 | Before opening any PR | `verification-loop` -> `code-reviewer` agent (or `/code-review`) -> `browser-qa` | See "Definition of done". |

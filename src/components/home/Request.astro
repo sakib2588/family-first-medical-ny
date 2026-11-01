@@ -2,52 +2,105 @@
 // Request (spec 4.13): the indigo closing band and the last filled action. Heading, lead, the contact-only form on a
 // white panel, and (desktop only) both numbers; on phone the footer office cards carry them (owner fix 2026-11-01). Fields unchanged: name, phone, office, best time.
 // Round 10 (design plan 4.6, desktop only; phone unchanged): the left column gets "What happens next" (3 numbered steps from
-// practice.callbackSteps, a sample Fact) and the numbers become two glass office cards with live status. A faint static
+// practice.callbackSteps, a sample Fact). Round 11: the office numbers were removed here (the footer shows them just
+// below: owner flagged the repeat); the steps grow a line and pop in sequence (desktop, CSS, off under reduced motion). A faint static
 // arch watermark sits behind (decorative). Nothing here is shown below 64rem.
 import RequestForm from '../RequestForm.astro'
-import Icon from '../Icon.astro'
-import OpenNow from '../OpenNow.astro'
-import { offices, telHref, practice, isShown } from '../../data/practice'
+import { practice, isShown } from '../../data/practice'
 const steps = practice.callbackSteps
 ---
-<section id="request" class="req-band on-dark relative isolate overflow-hidden bg-indigo px-5 py-12 text-on-dark md:px-8 lg:py-20">
-  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:gap-x-6">
+<section id="request" class="req-band on-dark relative isolate overflow-hidden px-5 py-12 text-on-dark md:px-8 lg:py-20">
+  <div data-live="request" class="live-dark" aria-hidden="true"><canvas></canvas></div>
+  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-6">
     <div class="lg:col-span-5">
       <p class="eyebrow !text-aqua">Request a visit</p>
-      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Request a visit</h2>
-      <p class="mt-3 max-w-[36ch] text-[1.06rem] lg:text-[1.18rem]">Leave your name and number. We'll call you back during office hours.</p>
+      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Let's find you <em class="font-medium text-aqua">a time.</em></h2>
+      <p class="mt-3 max-w-[36ch] text-[1.06rem] lg:text-[1.18rem]">Leave your name and number. We call you back during office hours.</p>
       {isShown(steps) && steps.value && (
         <div class="req-steps mt-8 hidden lg:block">
-          <h3 class="font-sans text-base font-semibold text-white">What happens next</h3>
-          <ol class="req-steps__list mt-4">
-            {steps.value.map((t, i) => (<li><span class="req-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
+          <h3 class="font-sans text-base font-semibold text-white">How it works</h3>
+          <ol class="req-steps__list mt-5">
+            {steps.value.map((t, i) => (<li data-reveal data-step={i + 1}><span class="req-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
           </ol>
         </div>
       )}
-      <div class="mt-8 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3>
-        <ul data-open-first class="req-offices mt-3">{offices.map(o => (
-          <li class="glass req-office">
-            <span class="block font-semibold text-white">{o.neighborhood.split(',')[0]}</span>
-            <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug text-on-dark" />
-            <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="tabular mt-2 inline-flex min-h-11 items-center gap-2 whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua"><Icon name="phone" size={18} />{o.phone}</a>
-          </li>))}
-        </ul>
-      </div>
     </div>
     <div class="mt-6 rounded-[1.25rem] bg-white p-5 text-text lg:col-span-6 lg:col-start-7 lg:mt-0 lg:p-8"><RequestForm /></div>
   </div>
 </section>
 <script>import '../../scripts/open-first'</script>
+<script>
+  // Live steps (owner: "make it dynamic"): the steps follow the form. 1 is done when name and phone are filled;
+  // 2 when an office and a time are chosen; 3 pulses twice when the form is ready. Decorative: the form works the
+  // same without it. No timers, no loops.
+  const form = document.getElementById('request-form') as HTMLFormElement | null
+  const steps = document.querySelectorAll<HTMLElement>('.req-steps__list [data-step]')
+  const update = () => {
+    if (!form) return
+    const filled = (n: string) => ((form.elements.namedItem(n) as HTMLInputElement | null)?.value ?? '').trim().length > 1
+    const one = filled('name') && filled('phone')
+    const two = one && !!form.querySelector('input[name="office"]:checked') && !!form.querySelector('input[name="time"]:checked')
+    steps.forEach(st => {
+      const n = Number(st.dataset.step)
+      st.toggleAttribute('data-done', (n === 1 && one) || (n === 2 && two))
+      st.toggleAttribute('data-ready', n === 3 && two)
+    })
+  }
+  form?.addEventListener('input', update)
+  form?.addEventListener('change', update)
+</script>
+<script>import '../../scripts/live3d'</script>
 <style>
+  /* Round 12 (owner: request and footer read as one big dark block): the band has its own indigo-to-teal ground and
+     rounded bottom corners over the darker footer. on-dark text stays >= 5.92:1 on the teal end. */
+  .req-band { background: linear-gradient(135deg, var(--c3-base) 0%, #2a2462 55%, #1d5560 100%); position: relative; z-index: 1; }
+  .req-steps__list li[data-done] .req-steps__n, .req-steps__list li[data-ready] .req-steps__n { background: var(--color-teal-deep); border-color: var(--color-aqua); }
+  .req-steps__list li[data-done], .req-steps__list li[data-ready] { color: #fff; }
+  @media (prefers-reduced-motion: no-preference) {
+    .req-steps__n { transition: background-color .35s, border-color .35s, transform .35s cubic-bezier(.34, 1.56, .64, 1); }
+    .req-steps__list li[data-done] .req-steps__n { transform: scale(1.12); }
+    .req-steps__list li[data-ready] .req-steps__n { animation: req-ring 1.4s ease-out 2; }
+    /* Live loop (round 15): a demo of the path. Step 1 lights, the connector fills to 2, step 2 lights, fills to 3,
+       step 3 lights, all rest, repeat (8 s). Hands over to the live form state as soon as the visitor types. */
+    .req-steps__list li:not(:last-child)::after { content: ''; position: absolute; inset-inline-start: calc(1.375rem - 1px); inset-block-start: 2.75rem; inline-size: 2px; block-size: 1.1rem; background: var(--color-aqua); box-shadow: 0 0 8px rgb(95 196 196 / .8); transform-origin: top; transform: scaleY(0); }
+    .req-steps__list li:nth-child(1):not(:last-child)::after { animation: req-seg1 8s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(2):not(:last-child)::after { animation: req-seg2 8s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(1) .req-steps__n { animation: req-lit1 8s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(2) .req-steps__n { animation: req-lit2 8s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(3) .req-steps__n { animation: req-lit3 8s var(--ease-soft) infinite; }
+    .req-steps__list li:nth-child(1) > span:last-child { animation: req-txt1 8s ease infinite; }
+    .req-steps__list li:nth-child(2) > span:last-child { animation: req-txt2 8s ease infinite; }
+    .req-steps__list li:nth-child(3) > span:last-child { animation: req-txt3 8s ease infinite; }
+    .req-steps__list:has([data-done], [data-ready]) :is(li, li::after, .req-steps__n, span) { animation: none !important; }
+    .req-steps__list:has([data-done], [data-ready]) li:not(:last-child)::after { transform: scaleY(0); }
+    @keyframes req-seg1 { 0%, 14% { transform: scaleY(0); } 24%, 86% { transform: scaleY(1); } 94%, 100% { transform: scaleY(0); } }
+    @keyframes req-seg2 { 0%, 38% { transform: scaleY(0); } 48%, 86% { transform: scaleY(1); } 94%, 100% { transform: scaleY(0); } }
+    @keyframes req-lit1 { 0%, 2% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 8%, 86% { background: var(--color-teal-deep); border-color: var(--color-aqua); box-shadow: 0 0 0 6px rgb(95 196 196 / .16), 0 0 18px rgb(95 196 196 / .45); transform: scale(1.06); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
+    @keyframes req-lit2 { 0%, 24% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 30%, 86% { background: var(--color-teal-deep); border-color: var(--color-aqua); box-shadow: 0 0 0 6px rgb(95 196 196 / .16), 0 0 18px rgb(95 196 196 / .45); transform: scale(1.06); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
+    @keyframes req-lit3 { 0%, 48% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } 54%, 86% { background: var(--color-gold); border-color: var(--color-gold-light); color: var(--color-indigo); box-shadow: 0 0 0 6px rgb(217 160 44 / .18), 0 0 20px rgb(217 160 44 / .5); transform: scale(1.1); } 94%, 100% { background: var(--color-indigo); border-color: rgb(255 255 255 / .25); box-shadow: none; transform: none; } }
+    @keyframes req-txt1 { 0%, 2%, 94%, 100% { color: var(--color-on-dark); } 8%, 86% { color: #fff; } }
+    @keyframes req-txt2 { 0%, 24%, 94%, 100% { color: var(--color-on-dark); } 30%, 86% { color: #fff; } }
+    @keyframes req-txt3 { 0%, 48%, 94%, 100% { color: var(--color-on-dark); } 54%, 86% { color: #fff; } }
+    @keyframes req-ring { from { box-shadow: 0 0 0 0 rgb(95 196 196 / .7); } to { box-shadow: 0 0 0 14px rgb(95 196 196 / 0); } }
+  }
   /* Desktop only (design plan 4.6). */
   @media (min-width: 64rem) {
-    .req-band::before { content: ''; position: absolute; z-index: -1; inset-block-end: -9rem; inset-inline-start: -6rem; inline-size: 34rem; block-size: 34rem; border: 3px solid rgb(255 255 255 / .05); border-radius: 999px 999px 0 0; box-shadow: inset 0 0 0 4.5rem rgb(255 255 255 / .02); pointer-events: none; }
-    .req-steps__list { position: relative; display: grid; gap: 1.1rem; }
+    .req-band:has(.live-dark[data-live-on])::before { opacity: 0; }
+    .req-band::before { transition: opacity .8s; content: ''; position: absolute; z-index: -1; inset-block-end: -9rem; inset-inline-start: -6rem; inline-size: 34rem; block-size: 34rem; border: 3px solid rgb(255 255 255 / .05); border-radius: 999px 999px 0 0; box-shadow: inset 0 0 0 4.5rem rgb(255 255 255 / .02); pointer-events: none; }
+    .req-steps__list { position: relative; display: grid; gap: 1.1rem; --steps-h: 7.7rem; } /* travel distance: first to last number */
     .req-steps__list::before { content: ''; position: absolute; inset-block: 1.25rem; inset-inline-start: 1.2rem; inline-size: 2px; background: linear-gradient(var(--color-aqua), rgb(255 255 255 / .15)); }
     .req-steps__list li { position: relative; display: flex; align-items: center; gap: 1rem; color: var(--color-on-dark); }
     .req-steps__n { display: grid; place-items: center; flex: none; inline-size: 2.5rem; block-size: 2.5rem; border: 1px solid rgb(255 255 255 / .25); border-radius: 999px; background: var(--color-indigo); color: #fff; font-weight: 700; }
-    .req-steps__list li:first-child .req-steps__n { background: var(--color-teal-deep); border-color: transparent; }
-    .req-offices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
-    .req-office { padding: 1rem 1.1rem; }
+    
+    .req-steps__list li { font-size: 1.12rem; }
+    .req-steps__n { inline-size: 2.75rem; block-size: 2.75rem; font-size: 1.06rem; }
   }
+  /* Steps come alive (desktop, motion allowed): the line grows down as the steps reveal (Base.astro stagger). */
+  @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+    :global(.js) .req-steps__list::before { transform-origin: top; transform: scaleY(0); transition: transform 1.6s var(--ease-soft) .3s; }
+    :global(.js) .req-steps__list li.reveal { transform: translateX(-32px); }
+    :global(.js) .req-steps__list li.reveal.in { transform: none; }
+    :global(.js) .req-steps__list:has(li.in)::before { transform: scaleY(1); }
+  }
+  @keyframes req-pop { from { transform: scale(.4); } }
 </style>

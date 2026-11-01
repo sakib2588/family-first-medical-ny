@@ -8,6 +8,7 @@ import Logo from './Logo.astro'
 import OpenNow from './OpenNow.astro'
 import FactSlot from './FactSlot.astro'
 import Icon from './Icon.astro'
+import MotionToggle from './MotionToggle.astro'
 import { offices, practice, telHref, isShown } from '../data/practice'
 export const nav = [
   { label: 'Offices', href: '/#offices' },
@@ -23,13 +24,14 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
 <nav aria-label="Call an office" class="on-dark hidden bg-indigo-soft px-8 text-[0.88rem] text-on-dark lg:block">
   <div class="mx-auto flex max-w-[1160px] items-center gap-8">
     {offices.map(o => (
-      <p class="flex items-center gap-2.5">
+      <p class="flex items-center gap-2.5 whitespace-nowrap">
         <span>{place(o)}</span>
         <a href={telHref(o.phone)} class="tabular inline-flex min-h-11 items-center font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">{o.phone}</a>
         <OpenNow office={o} />
       </p>
     ))}
-    <a href="#language-help" class="ml-auto inline-flex min-h-11 items-center underline underline-offset-4 hover:text-white">Language help</a>
+    <MotionToggle compact class="ml-auto rounded-full hover:text-white" />
+    <a href="#language-help" class="inline-flex min-h-11 items-center whitespace-nowrap underline underline-offset-4 hover:text-white">Language help</a>
   </div>
 </nav>
 
@@ -42,8 +44,8 @@ const place = (o: (typeof offices)[number]) => o.neighborhood.split(',')[0]
       </ul>
     </nav>
     <a href="/locations" data-call class="btn hidden min-h-11 items-center gap-2 rounded-full border-[1.5px] border-muted px-5 font-semibold text-teal-deep hover:border-teal-deep lg:inline-flex"><Icon name="phone" size={18} />Call an office</a>
-    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" class="btn inline-flex min-h-11 w-24 items-center justify-center gap-2 rounded-full border-[1.5px] border-muted font-semibold text-indigo lg:hidden">
-      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu
+    <a href="#site-nav" id="menu-btn" aria-haspopup="dialog" aria-label="Menu" class="btn inline-flex size-11 items-center justify-center rounded-[0.9rem] border-[1.5px] border-line bg-white text-indigo shadow-[0_2px_8px_rgb(23_18_58/0.06)] lg:hidden">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </a>
   </div>
 </header>

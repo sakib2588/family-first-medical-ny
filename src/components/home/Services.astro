@@ -1,0 +1,91 @@
+---
+// Services (round 16, owner: the competitor's services section looks more professional). Pattern: centred heading,
+// filter tabs (All / Pediatrics / Family medicine), a grid of service cards with icon, category, name and one line.
+// Every card comes from serviceGroups in practice.ts (sample list, the doctors confirm it); nothing is invented
+// (no "same-day sick visits" until confirmed). Icons: one calm tint per group (teal = pediatrics, indigo = family
+// medicine), outline icons, not gradient tiles. No JS: every card shows and the tabs are hidden.
+import Section from '../Section.astro'
+import Icon from '../Icon.astro'
+import { serviceGroups } from '../../data/practice'
+type IconName = 'baby' | 'heart' | 'shield' | 'check' | 'users' | 'calendar' | 'clock' | 'star' | 'sun'
+const ICONS: Record<string, IconName> = {
+  'Newborn care': 'baby', 'Well-child visits': 'heart', 'Vaccines': 'shield', 'Developmental screening': 'star',
+  'School and sports physicals': 'check', 'Teen health': 'users', 'Annual physicals': 'calendar',
+  'Chronic condition care': 'clock', "Women's health": 'heart', 'Preventive screenings': 'sun',
+}
+const LABEL = { children: 'Pediatrics', adults: 'Family medicine' } as const
+const cards = serviceGroups.flatMap(g => g.items.map(([name, line]) => ({ group: g.id, label: LABEL[g.id], name, line, icon: ICONS[name] ?? 'check' })))
+---
+<Section id="services" tone="white">
+  <div class="mx-auto max-w-[44rem] text-center">
+    <p class="eyebrow">Services</p>
+    <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Complete care, <em class="font-medium text-teal-deep">every visit</em></h2>
+    <p class="mt-3 text-[1.02rem] lg:text-[1.08rem]">From a baby's first checkup to ongoing adult care. Here is what we offer.</p>
+  </div>
+  <div class="svc-tabs mt-7 hidden justify-center gap-2" role="group" aria-label="Filter services">
+    <button type="button" class="svc-tab" aria-pressed="true" data-filter="all">All services</button>
+    <button type="button" class="svc-tab" aria-pressed="false" data-filter="children">Pediatrics</button>
+    <button type="button" class="svc-tab" aria-pressed="false" data-filter="adults">Family medicine</button>
+  </div>
+  <ul class="svc-grid mt-8" aria-live="polite">
+    {cards.map(c => (
+      <li data-group={c.group} class={`svc-card svc-card--${c.group}`}>
+        <span class="svc-card__icon" aria-hidden="true"><Icon name={c.icon} size={22} /></span>
+        <p class="svc-card__label">{c.label}</p>
+        <h3 class="svc-card__name">{c.name}</h3>
+        <p class="svc-card__line">{c.line}</p>
+      </li>
+    ))}
+  </ul>
+</Section>
+<style>
+  .svc-tab { min-height: 2.75rem; padding-inline: 1.15rem; border: 1.5px solid var(--color-line); border-radius: 999px; background: #fff; font-weight: 700; font-size: .9rem; color: var(--color-indigo); transition: background-color .25s, border-color .25s, color .25s; }
+  .svc-tab:hover { border-color: var(--color-teal-deep); }
+  .svc-tab[aria-pressed='true'] { border-color: var(--color-indigo); background: var(--color-indigo); color: #fff; }
+  /* Flex-wrap + centre: an incomplete last row sits in the middle (owner: like the base site). */
+  .svc-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; }
+  .svc-grid > .svc-card { inline-size: calc((100% - .75rem) / 2); }
+  @media (min-width: 64rem) { .svc-grid { gap: 1rem; } .svc-grid > .svc-card { inline-size: calc((100% - 3rem) / 4); } }
+  .svc-card { display: flex; flex-direction: column; padding: 1rem; border: 1px solid var(--color-line); border-radius: 1.25rem; background: #fff; box-shadow: 0 2px 8px rgb(23 18 58 / .04); }
+  .svc-card[hidden] { display: none; }
+  .svc-card__icon { display: grid; place-items: center; inline-size: 2.75rem; block-size: 2.75rem; border-radius: 999px; }
+  .svc-card--children .svc-card__icon { background: var(--color-mist); color: var(--color-teal-deep); box-shadow: 0 0 0 5px rgb(11 111 111 / .07); }
+  .svc-card--adults .svc-card__icon { background: var(--color-lavender); color: var(--color-indigo); box-shadow: 0 0 0 5px rgb(23 18 58 / .06); }
+  .svc-card__label { margin-top: .9rem; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--color-muted); }
+  .svc-card__name { margin-top: .2rem; font-family: var(--font-sans); font-size: 1rem; font-weight: 700; line-height: 1.25; color: var(--color-indigo); }
+  .svc-card__line { margin-top: .35rem; font-size: .85rem; line-height: 1.4; color: var(--color-muted); }
+  @media (min-width: 64rem) {
+    .svc-card { padding: 1.35rem; }
+    .svc-card__name { font-size: 1.08rem; }
+    .svc-card__line { font-size: .9rem; }
+  }
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .svc-card { transition: transform .35s var(--ease-soft), box-shadow .35s var(--ease-soft), border-color .35s; }
+    .svc-card:hover { transform: translateY(-4px); border-color: rgb(11 111 111 / .3); box-shadow: var(--shadow-float); }
+    .svc-card:hover .svc-card__icon { transform: rotate(-8deg) scale(1.08); transition: transform .4s var(--ease-bounce); }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .svc-card.svc-in { animation: svc-in .45s var(--ease-soft) both; }
+    @keyframes svc-in { from { opacity: 0; transform: translateY(10px) scale(.98); } }
+  }
+</style>
+<script>
+  // Filter tabs (progressive: the tabs show only with JS; without it all cards stay visible).
+  const tabs = document.querySelector<HTMLElement>('.svc-tabs')
+  const cards = [...document.querySelectorAll<HTMLElement>('.svc-card')]
+  if (tabs) {
+    tabs.classList.remove('hidden'); tabs.classList.add('flex')
+    tabs.addEventListener('click', e => {
+      const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-filter]')
+      if (!btn) return
+      tabs.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === btn)))
+      const f = btn.dataset.filter
+      cards.forEach((c, i) => {
+        const show = f === 'all' || c.dataset.group === f
+        c.hidden = !show
+        c.classList.remove('svc-in')
+        if (show) { void c.offsetWidth; c.style.animationDelay = `${(i % 8) * 35}ms`; c.classList.add('svc-in') }
+      })
+    })
+  }
+</script>

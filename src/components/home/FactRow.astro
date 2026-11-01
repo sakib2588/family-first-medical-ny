@@ -9,30 +9,29 @@
 // photo stays behind them (the art's arches would sit under the cards there).
 // A plain list (not a <dl>: the icon inside each group broke dl semantics, axe "definition-list"/"dlitem").
 // Facts as data with a date or a labelled slot. No stars, no AggregateRating, no "years" or "board-certified" (red lines).
-import FactSlot from '../FactSlot.astro'
 import Icon from '../Icon.astro'
-import { practice, offices, isShown } from '../../data/practice'
-const cells = [
-  { label: 'Medicaid and Child Health Plus', icon: 'shield', fact: practice.insurance.publicPlans, dated: true },
-  { label: 'Ages we see', icon: 'heart', fact: practice.agesSeen, dated: false },
-  ...offices.map(o => ({ label: `${o.neighborhood.split(',')[0]} on Google`, icon: 'pin', fact: o.googleRating, dated: true })),
-].filter(c => isShown(c.fact)) as { label: string; icon: 'shield' | 'heart' | 'pin'; fact: typeof practice.agesSeen; dated: boolean }[]
+import { serviceGroups } from '../../data/practice'
+// Round 12 (owner: the boxed glass cards looked AI-made; hero chips now carry the benefits): an editorial row of WHAT
+// WE TREAT, from serviceGroups. No boxes and no glow (both read as AI tells): items split by thin gold rules, serif
+// titles, outline icons in aqua. Text comes from the service names; the short lines restate the service lines.
+const PICK = [['Newborn care', 'baby', 'First weeks at home'], ['Vaccines', 'shield', 'On schedule, every age'], ['School and sports physicals', 'check', 'School, sports and yearly'], ["Women's health", 'heart', 'Routine and preventive']] as const
+const offered = serviceGroups.flatMap(g => g.items.map(([name]) => name))
+const cells = PICK.filter(([name]) => offered.includes(name)).map(([name, icon, text]) => ({ label: name === 'School and sports physicals' ? 'Physicals' : name, icon, text }))
 ---
 {cells.length > 0 && (
-<section aria-label="Key facts" class="fact-band on-dark relative isolate overflow-hidden bg-indigo px-5 py-8 text-on-dark md:px-8 lg:py-10">
+<section aria-label="What we treat" class="fact-band on-dark relative isolate overflow-hidden bg-[#2e2860] px-5 py-8 text-on-dark md:px-8 lg:py-10">
   <picture>
     <source media="(min-width: 80rem)" srcset="/art/trust-band.webp" width="2560" height="680" />
     <img src="/demo/child-play.webp" alt="" width="1200" height="800" loading="lazy" class="fact-art pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
   </picture>
+  <div data-live="band" class="live-band pointer-events-none absolute inset-0 -z-20 hidden" aria-hidden="true"><canvas class="size-full"></canvas></div>
   <div class="fact-scrim pointer-events-none absolute inset-0 -z-10 bg-linear-to-r from-indigo/95 via-indigo/85 to-hero-teal/90" aria-hidden="true"></div>
-  <ul class="mx-auto grid max-w-[1160px] grid-cols-2 gap-2.5 lg:grid-cols-4 lg:gap-4">
-    {cells.map((c, i) => (
-      <li data-reveal class="fact fact-card glass flex flex-col items-start gap-2 p-3.5 lg:flex-row lg:gap-3 lg:p-4">
-        <span class={`fact__icon tile ${['tile-teal', 'tile-gold', 'tile-rose', 'tile-indigo'][i % 4]}`}><Icon name={c.icon} size={20} draw /></span>
-        <div class="fact-text min-w-0">
-          <p class="text-[0.94rem] font-semibold leading-snug text-white lg:text-base">{c.label}</p>
-          <p class="mt-0.5 text-[0.82rem] leading-snug text-on-dark lg:text-[0.88rem]"><FactSlot fact={c.fact} dated={c.dated} /></p>
-        </div>
+  <ul class="svc mx-auto grid max-w-[1160px] grid-cols-2 lg:grid-cols-4" aria-label="What we treat">
+    {cells.map(c => (
+      <li data-reveal class="svc__item fact">
+        <span class="svc__icon fact__icon" aria-hidden="true"><Icon name={c.icon} size={26} draw /></span>
+        <p class="svc__title">{c.label}</p>
+        <p class="svc__text">{c.text}</p>
       </li>
     ))}
   </ul>
@@ -44,23 +43,36 @@ const cells = [
   .js .fact.in .fact__icon { transform: none; transition: transform .6s cubic-bezier(.34, 1.56, .64, 1) calc(var(--rd, 0s) + .15s); }
   .js .fact path { stroke-dasharray: 1; stroke-dashoffset: 1; }
   .js .fact.in path { stroke-dashoffset: 0; transition: stroke-dashoffset .9s cubic-bezier(.2, .7, .2, 1) calc(var(--rd, 0s) + .3s); }
+  /* Editorial row: no boxes, thin gold dividers, serif titles. Phone: 2x2 with the same dividers. */
+  .svc { gap: 0; }
+  .svc__item { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; padding: 1.1rem 1rem; border-inline-start: 1px solid rgb(217 160 44 / .45); }
+  .svc__item:nth-child(odd) { border-inline-start: 0; padding-inline-start: 0; }
+  .svc__item:nth-child(n+3) { border-top: 1px solid rgb(255 255 255 / .12); }
+  .svc__icon { color: var(--color-aqua); }
+  .svc__title { font-family: var(--font-display); font-size: 1.18rem; font-weight: 600; line-height: 1.15; color: #fff; }
+  .svc__text { font-size: .82rem; line-height: 1.35; color: var(--color-on-dark); }
   @media (min-width: 64rem) {
-    .fact-band { padding-block: 3.5rem; }
-    .fact-band ul { max-inline-size: 62rem; }
-    .fact-card { flex-direction: column; align-items: center; justify-content: flex-start; gap: .9rem; padding: 1.5rem 1.25rem; text-align: center; background: rgb(23 18 58 / .62); }
-    .fact-card .fact__icon { inline-size: 3.25rem; block-size: 3.25rem; }
-    .fact-text p:first-child { font-size: 1.06rem; }
+    .fact-band { padding-block: 3.25rem; }
+    .fact-band ul { max-inline-size: 60rem; }
+    .svc__item { align-items: center; text-align: center; padding: .5rem 1.5rem; border-inline-start: 1px solid rgb(217 160 44 / .5); }
+    .svc__item:nth-child(odd) { padding-inline-start: 1.5rem; }
+    .svc__item:first-child { border-inline-start: 0; }
+    .svc__item:nth-child(3) { border-inline-start: 1px solid rgb(217 160 44 / .5); }
+    .svc__item:nth-child(n+3) { border-top: 0; }
+    .svc__title { font-size: 1.35rem; margin-top: .4rem; white-space: nowrap; }
+    .svc__text { font-size: .9rem; }
   }
   /* From 80rem (where the 3D art is used) the cards narrow so the arches sit in clear space either side, and the scrim
      is lighter so the art shows; the cards keep their own dark glass, so text contrast does not depend on the scrim
      (measured: white >= 10.9:1, on-dark >= 6.5:1 over the blurred art). */
   @media (min-width: 80rem) {
     .fact-band { min-height: 21.25rem; display: grid; align-content: center; }
-    .fact-band ul { max-inline-size: min(62rem, calc(100% - 24rem)); } /* >= 24rem keeps the arches clear of the cards up to 1920 px */
-    .fact-scrim { opacity: .3; }
+    .fact-band ul { max-inline-size: min(56rem, calc(100% - 22rem)); } /* >= 24rem keeps the arches clear of the cards up to 1920 px */
+    .fact-scrim { opacity: .12; }
   }
-  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-    .fact { transition: border-color .35s, background-color .35s; }
-    .fact:hover { border-color: rgb(255 255 255 / .4); background-color: rgb(23 18 58 / .6); }
-  }
+  /* Live scene (owner exception): only from 80rem; it fades in over the still once it is running. */
+  @media (min-width: 80rem) { .live-band { display: block; opacity: 0; transition: opacity .8s var(--ease-soft); } .live-band[data-live-on] { opacity: 1; } /* the live canvas is transparent: behind it the brand gradient (indigo -> deep teal) replaces the still image */
+    .fact-band:has(.live-band[data-live-on]) { background-image: radial-gradient(40% 90% at 6% 50%, rgb(19 163 160 / .35), transparent 70%), radial-gradient(40% 90% at 94% 50%, rgb(240 194 90 / .22), transparent 70%), linear-gradient(90deg, #17123a, #1d1850 55%, #0c4a50); }
+    picture:has(~ .live-band[data-live-on]) img { opacity: 0; transition: opacity .8s; } }
 </style>
+

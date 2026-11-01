@@ -3,7 +3,8 @@
 interface Props { id?: string; tone?: 'cream' | 'white' | 'lavender' | 'indigo'; class?: string; label?: string }
 const { id, tone = 'cream', class: cls = '', label } = Astro.props
 const tones = { cream: 'bg-cream', white: 'bg-white', lavender: 'bg-lavender', indigo: 'on-dark bg-indigo text-on-dark' }
+// data-tone lets two neighbouring sections on the same ground share one gap instead of two (global.css).
 ---
-<section id={id} aria-label={label} class={`px-5 py-12 md:px-8 lg:py-20 ${tones[tone]} ${cls}`}>
+<section id={id} aria-label={label} data-tone={tone} class={`px-5 py-12 md:px-8 lg:py-20 ${tones[tone]} ${cls}`}>
   <div class="mx-auto max-w-[1160px]"><slot /></div>
 </section>
