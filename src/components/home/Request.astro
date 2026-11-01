@@ -1,6 +1,6 @@
 ---
 // Request (spec 4.13): the indigo closing band and the last filled action. Heading, lead, the contact-only form on a
-// white panel, and both numbers for people who prefer to call. Fields unchanged: name, phone, office, best time.
+// white panel, and (desktop only) both numbers; on phone the footer office cards carry them (owner fix 2026-11-01). Fields unchanged: name, phone, office, best time.
 import RequestForm from '../RequestForm.astro'
 import { offices, telHref } from '../../data/practice'
 ---
@@ -12,6 +12,5 @@ import { offices, telHref } from '../../data/practice'
       <div class="mt-6 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3><ul class="mt-1">{offices.map(o => (<li><a href={telHref(o.phone)} class="inline-flex min-h-11 items-center gap-2"><span>{o.neighborhood.split(',')[0]}</span><span class="tabular font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">{o.phone}</span></a></li>))}</ul></div>
     </div>
     <div class="mt-6 rounded-[1.25rem] bg-white p-5 text-text lg:col-span-6 lg:col-start-7 lg:mt-0 lg:p-8"><RequestForm /></div>
-    <div class="mt-6 lg:hidden"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3><ul class="mt-1 grid grid-cols-2 gap-4">{offices.map(o => (<li><a href={telHref(o.phone)} class="flex min-h-12 flex-col justify-center"><span class="text-[0.82rem]">{o.neighborhood.split(',')[0]}</span><span class="tabular whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4">{o.phone}</span></a></li>))}</ul></div>
   </div>
 </section>

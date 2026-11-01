@@ -30,7 +30,7 @@ const errIcon = '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="tr
   </fieldset>
   <fieldset>
     <legend class="font-semibold text-indigo">Best time to call</legend>
-    <div class="mt-2 grid grid-cols-3 gap-2">
+    <div class="mt-2 grid gap-2 sm:grid-cols-3">
       {times.map((t, i) => (<label class={chip}><input class="sr-only" type="radio" name="time" value={t.toLowerCase()} checked={i === 2} /><span class="hidden text-teal-deep group-has-[:checked]:inline"><Fragment set:html={check} /></span>{t}</label>))}
     </div>
   </fieldset>
