@@ -18,13 +18,14 @@ const groups = (o: Office) => fullWeek(o).reduce<{ from: string; to: string; hou
 const short = (n: string) => n.slice(0, 3)
 ---
 <Section id="offices">
-  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our two offices</h2>
+  <p class="eyebrow">Locations</p>
+      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our two offices</h2>
   <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
     {offices.map(o => {
       const place = o.neighborhood.split(',')[0]
       const docs = o.doctors.map(doctorBySlug).filter(d => d !== undefined)
       return (
-      <li class="lift flex flex-col rounded-[1.25rem] border border-line bg-white p-5 lg:p-5">
+      <li class="lift card-soft flex flex-col p-5 lg:p-6">
         <PhotoSlot fact={o.photo} shape="arch" class="h-[10rem] w-full lg:h-[12rem]" width={1056} height={520} />
         <div class="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
           <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h3>

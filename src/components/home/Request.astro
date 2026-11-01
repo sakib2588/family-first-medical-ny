@@ -7,7 +7,8 @@ import { offices, telHref } from '../../data/practice'
 <section id="request" class="on-dark bg-indigo px-5 py-16 text-on-dark md:px-8 lg:py-24">
   <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:gap-x-6">
     <div class="lg:col-span-5">
-      <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Request a visit</h2>
+      <p class="eyebrow !text-aqua">Request a visit</p>
+      <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Request a visit</h2>
       <p class="mt-3 max-w-[36ch] text-[1.06rem] lg:text-[1.18rem]">Leave your name and number. We'll call you back during office hours.</p>
       <div class="mt-6 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3><ul class="mt-1">{offices.map(o => (<li><a href={telHref(o.phone)} class="inline-flex min-h-11 items-center gap-2"><span>{o.neighborhood.split(',')[0]}</span><span class="tabular font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua">{o.phone}</span></a></li>))}</ul></div>
     </div>

@@ -131,3 +131,22 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 .btn.bg-teal-deep { box-shadow: var(--shadow-teal); }
 .btn.bg-gold { box-shadow: var(--shadow-gold); }
 .frost { background-color: rgb(255 255 255 / .88); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
+
+/* Component kit, round 8 (owner: "same weight and pattern on desktop and mobile, better gradients on buttons and cards").
+   Pattern learned from the base site (02-analysis/base-site-css-js-dissection-2026-11-01.md), in our tokens.
+   Contrast: white on the primary gradient >= 5.97:1 at its lightest stop (teal-deep); gold button keeps indigo text. */
+.btn-primary { background-image: linear-gradient(100deg, var(--color-teal-darker), var(--color-teal-deep) 70%); color: #fff; box-shadow: var(--shadow-teal); }
+.btn-primary:hover { background-image: linear-gradient(100deg, #084848, var(--color-teal-darker) 70%); box-shadow: 0 16px 32px -10px rgb(11 111 111 / .6); }
+.btn-ghost { background: #fff; color: var(--color-teal-deep); border: 1.5px solid var(--color-line); box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
+.btn-ghost:hover { border-color: var(--color-teal-deep); background: var(--color-mist); }
+.pill { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; border: 1px solid var(--color-line); background: #fff; padding: .4rem .9rem; font-size: .82rem; font-weight: 600; color: var(--color-indigo); box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
+.eyebrow { font-size: .76rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--color-teal-deep); }
+.card-soft { border-radius: 1.25rem; border: 1px solid var(--color-line); background: #fff; box-shadow: 0 2px 8px rgb(23 18 58 / .05); }
+.glass { border-radius: 1.25rem; border: 1px solid rgb(255 255 255 / .18); background: rgb(23 18 58 / .45); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+/* Gradient icon tiles: one per meaning, never the only cue (each sits next to words). */
+.tile { display: grid; place-items: center; flex: none; inline-size: 2.75rem; block-size: 2.75rem; border-radius: .9rem; color: #fff; box-shadow: 0 8px 18px -10px rgb(23 18 58 / .55); }
+.tile-teal { background-image: linear-gradient(140deg, #13a3a0, var(--color-teal-deep)); }
+.tile-indigo { background-image: linear-gradient(140deg, #4b3fa8, var(--color-indigo)); }
+.tile-gold { background-image: linear-gradient(140deg, #f0c25a, #c2861a); color: var(--color-indigo); }
+.tile-rose { background-image: linear-gradient(140deg, #f07b8a, #c23d55); }
+.tile-soft { background: var(--color-mist); color: var(--color-teal-deep); box-shadow: none; }

@@ -8,43 +8,53 @@ import Icon from '../Icon.astro'
 import FactSlot from '../FactSlot.astro'
 import { doctors, practice, isShown, officeBySlug } from '../../data/practice'
 ---
-<Section id="doctors">
-  <h2 class="text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Our doctors</h2>
-  <ul class="mt-6 grid gap-4 lg:mt-8 lg:grid-cols-2 lg:gap-6">
-    {doctors.map(d => {
+<Section id="doctors" tone="white">
+  <div class="mx-auto max-w-[44rem] text-center">
+    <p class="eyebrow">Our doctors</p>
+    <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Two doctors. <em class="font-medium text-teal-deep">One family practice.</em></h2>
+    <p class="mt-3">One doctor for children and teens, one for adults, working side by side at both offices.</p>
+  </div>
+  <ul class="mt-8 grid gap-6 lg:mt-12">
+    {doctors.map((d, i) => {
       const creds = [...d.credentials, { label: 'Languages', fact: d.languages }].filter(c => isShown(c.fact))
       const schedule = d.schedule.filter(s => isShown(s.days))
-      const credList = (
-        <dl class="divide-y divide-line text-[0.88rem] lg:grid lg:grid-cols-2 lg:gap-x-6 lg:divide-y-0">
-          {creds.map(c => (<div class="flex min-h-10 flex-wrap items-center justify-between gap-x-3 py-1.5 lg:border-b lg:border-line"><dt class="text-muted">{c.label}</dt><dd class="font-medium text-indigo"><FactSlot fact={c.fact} /></dd></div>))}
-        </dl>
-      )
       return (
-      <li class="lift flex flex-col rounded-[1.25rem] bg-white p-5 shadow-lift lg:p-6">
-        <div class="flex items-center gap-4">
-          <div class="arch h-[7.06rem] w-[5.65rem] shrink-0 bg-mist lg:h-[10.3rem] lg:w-[8.24rem]"><img src={d.img} alt="" width="280" height="350" loading="lazy" class="size-full object-cover object-top" /></div>
-          <div>
-            <h3 class="text-[1.29rem] leading-tight lg:text-[1.41rem]">{d.name}</h3>
-            <p class="mt-1 text-[0.88rem] font-semibold text-text">{d.role}</p>
-            <p class="text-[0.88rem] text-muted">{d.ages}</p>
-            {practice.demo && <p class="mt-1 text-[0.82rem] italic text-muted">Sample name and photo</p>}
-          </div>
+      <li data-reveal class="lift card-soft overflow-hidden lg:grid lg:grid-cols-[18rem_1fr]">
+        <div class={`doc-side on-dark relative isolate grid grid-cols-[1fr_auto] items-center gap-x-4 gap-y-2 overflow-hidden p-5 text-on-dark lg:flex lg:flex-col lg:items-start lg:justify-between lg:gap-5 lg:p-6 ${i % 2 ? 'doc-side--b' : ''}`}>
+          <img src={d.img} alt="" width="280" height="280" loading="lazy" class="col-start-2 row-span-3 size-28 rounded-full border-[5px] border-white/50 object-cover object-top shadow-[0_12px_30px_rgb(0_0_0/0.25)] lg:size-44" />
+          <div class="col-start-1 row-start-1"><span class="block font-display text-[1.5rem] font-semibold leading-none text-white lg:text-[1.76rem]">{d.ages}</span><span class="mt-1 block text-[0.72rem] font-bold uppercase tracking-[0.14em]">Ages seen</span></div>
+          <div class="col-start-1 row-start-2"><p class="font-display text-[1.18rem] font-semibold leading-tight text-white">{d.name}</p><p class="text-[0.72rem] font-bold uppercase tracking-[0.12em]">{d.role}</p></div>
+          {practice.demo && <p class="col-start-1 row-start-3 text-[0.78rem] italic">Sample name and photo</p>}
         </div>
-        {schedule.length > 0 && (
-          <dl aria-label={`Where and when ${d.name} sees patients`} class="mt-4 divide-y divide-line border-y border-line">
-            {schedule.map(s => (<div class="flex min-h-11 flex-wrap items-center justify-between gap-x-3"><dt class="font-semibold text-indigo">{officeBySlug(s.office)?.neighborhood.split(',')[0]}</dt><dd><FactSlot fact={s.days} /></dd></div>))}
-          </dl>
-        )}
-        <p class="mt-3">{d.blurb}</p>
-        {creds.length > 0 && (<>
-          <details class="group mt-3 border-y border-line lg:hidden">
-            <summary class="flex min-h-12 cursor-pointer items-center justify-between font-semibold text-indigo">Training and licence<Icon name="plus" size={20} class="text-muted transition-transform group-open:rotate-45" /></summary>
-            <div class="pb-2">{credList}</div>
-          </details>
-          <div class="mt-4 hidden lg:block"><h4 class="text-[0.88rem] font-semibold text-indigo">Training and licence</h4><div class="mt-1">{credList}</div></div>
-        </>)}
-        <a href={`/doctors/${d.slug}`} class="arrow-link mt-auto inline-flex min-h-11 items-center gap-1.5 pt-2 font-semibold text-teal-deep underline underline-offset-4">About {d.name}<Icon name="arrow" size={18} /></a>
+        <div class="p-5 lg:p-7">
+          <h3 class="text-[1.41rem] leading-tight lg:text-[1.65rem]">{d.name}</h3>
+          <p class="mt-0.5 font-semibold text-teal-deep">{d.role}</p>
+          <p class="mt-3 border-b border-line pb-4">{d.blurb}</p>
+          {schedule.length > 0 && (
+            <dl aria-label={`Where and when ${d.name} sees patients`} class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 lg:gap-x-6">
+              {schedule.map(sc => (<div><dt class="eyebrow">{officeBySlug(sc.office)?.neighborhood.split(',')[0]}</dt><dd class="mt-0.5 text-indigo"><FactSlot fact={sc.days} /></dd></div>))}
+            </dl>
+          )}
+          {creds.length > 0 && (
+            <dl aria-label={`Training and licence, ${d.name}`} class="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 lg:gap-x-6">
+              {creds.map(c => (<div><dt class="eyebrow">{c.label}</dt><dd class="mt-0.5 text-[0.94rem] text-indigo"><FactSlot fact={c.fact} /></dd></div>))}
+            </dl>
+          )}
+          <ul class="mt-5 flex flex-wrap gap-2" aria-label={`Care areas, ${d.name}`}>
+            {d.careAreas.slice(0, 4).map(a => (<li class="rounded-full bg-mist px-3 py-1 text-[0.8rem] font-semibold text-teal-deep">{a}</li>))}
+          </ul>
+          <a href={`/doctors/${d.slug}`} class="arrow-link mt-4 inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">About {d.name}<Icon name="arrow" size={18} /></a>
+        </div>
       </li>
     )})}
   </ul>
 </Section>
+<style is:global>
+  /* Gradient side panel with two soft circles (base-site doctor card pattern) in our colours.
+     White text on the lightest stop (teal-deep) is 5.97:1; on-dark labels stay on the indigo half. */
+  .doc-side { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #1f3a6b 55%, var(--color-teal-deep) 120%); }
+  .doc-side--b { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #3a2a6e 55%, #6b4a1a 130%); }
+  .doc-side::before, .doc-side::after { content: ''; position: absolute; z-index: -1; border-radius: 50%; background: rgb(255 255 255 / .09); }
+  .doc-side::before { inline-size: 12rem; block-size: 12rem; inset-block-start: -4.5rem; inset-inline-end: -3.5rem; }
+  .doc-side::after { inline-size: 9rem; block-size: 9rem; inset-block-end: -3rem; inset-inline-start: -2.5rem; background: rgb(217 160 44 / .14); }
+</style>
