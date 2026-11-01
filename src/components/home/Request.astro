@@ -2,12 +2,11 @@
 // Request (spec 4.13): the indigo closing band and the last filled action. Heading, lead, the contact-only form on a
 // white panel, and (desktop only) both numbers; on phone the footer office cards carry them (owner fix 2026-11-01). Fields unchanged: name, phone, office, best time.
 // Round 10 (design plan 4.6, desktop only; phone unchanged): the left column gets "What happens next" (3 numbered steps from
-// practice.callbackSteps, a sample Fact) and the numbers become two glass office cards with live status. A faint static
+// practice.callbackSteps, a sample Fact). Round 11: the office numbers were removed here (the footer shows them just
+// below: owner flagged the repeat); the steps grow a line and pop in sequence (desktop, CSS, off under reduced motion). A faint static
 // arch watermark sits behind (decorative). Nothing here is shown below 64rem.
 import RequestForm from '../RequestForm.astro'
-import Icon from '../Icon.astro'
-import OpenNow from '../OpenNow.astro'
-import { offices, telHref, practice, isShown } from '../../data/practice'
+import { practice, isShown } from '../../data/practice'
 const steps = practice.callbackSteps
 ---
 <section id="request" class="req-band on-dark relative isolate overflow-hidden bg-indigo px-5 py-12 text-on-dark md:px-8 lg:py-20">
@@ -19,20 +18,11 @@ const steps = practice.callbackSteps
       {isShown(steps) && steps.value && (
         <div class="req-steps mt-8 hidden lg:block">
           <h3 class="font-sans text-base font-semibold text-white">How it works</h3>
-          <ol class="req-steps__list mt-4">
-            {steps.value.map((t, i) => (<li><span class="req-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
+          <ol class="req-steps__list mt-5">
+            {steps.value.map((t, i) => (<li data-reveal><span class="req-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
           </ol>
         </div>
       )}
-      <div class="mt-8 hidden lg:block"><h3 class="font-sans text-base font-semibold text-white">Prefer to call?</h3>
-        <ul data-open-first class="req-offices mt-3">{offices.map(o => (
-          <li class="glass req-office">
-            <span class="block font-semibold text-white">{o.neighborhood.split(',')[0]}</span>
-            <OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug text-on-dark" />
-            <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="tabular mt-2 inline-flex min-h-11 items-center gap-2 whitespace-nowrap font-semibold text-white underline decoration-aqua decoration-2 underline-offset-4 hover:text-aqua"><Icon name="phone" size={18} />{o.phone}</a>
-          </li>))}
-        </ul>
-      </div>
     </div>
     <div class="mt-6 rounded-[1.25rem] bg-white p-5 text-text lg:col-span-6 lg:col-start-7 lg:mt-0 lg:p-8"><RequestForm /></div>
   </div>
@@ -47,7 +37,14 @@ const steps = practice.callbackSteps
     .req-steps__list li { position: relative; display: flex; align-items: center; gap: 1rem; color: var(--color-on-dark); }
     .req-steps__n { display: grid; place-items: center; flex: none; inline-size: 2.5rem; block-size: 2.5rem; border: 1px solid rgb(255 255 255 / .25); border-radius: 999px; background: var(--color-indigo); color: #fff; font-weight: 700; }
     .req-steps__list li:first-child .req-steps__n { background: var(--color-teal-deep); border-color: transparent; }
-    .req-offices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
-    .req-office { padding: 1rem 1.1rem; }
+    .req-steps__list li { font-size: 1.12rem; }
+    .req-steps__n { inline-size: 2.75rem; block-size: 2.75rem; font-size: 1.06rem; }
   }
+  /* Steps come alive (desktop, motion allowed): the line grows down as the steps reveal (Base.astro stagger). */
+  @media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+    :global(.js) .req-steps__list::before { transform-origin: top; transform: scaleY(0); transition: transform 1.1s var(--ease-soft) .25s; }
+    :global(.js) .req-steps__list:has(li.in)::before { transform: scaleY(1); }
+    :global(.js) .req-steps__list li.in .req-steps__n { animation: req-pop .55s cubic-bezier(.34, 1.56, .64, 1) both; animation-delay: var(--rd, 0s); }
+  }
+  @keyframes req-pop { from { transform: scale(.4); } }
 </style>

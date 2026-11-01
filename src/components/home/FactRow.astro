@@ -48,7 +48,7 @@ const cells = [
   .js .fact.in path { stroke-dashoffset: 0; transition: stroke-dashoffset .9s cubic-bezier(.2, .7, .2, 1) calc(var(--rd, 0s) + .3s); }
   @media (min-width: 64rem) {
     .fact-band { padding-block: 3.5rem; }
-    .fact-band ul { max-inline-size: 62rem; }
+    .fact-band ul { max-inline-size: 56rem; }
     .fact-card { flex-direction: column; align-items: center; justify-content: flex-start; gap: .9rem; padding: 1.5rem 1.25rem; text-align: center; background: rgb(23 18 58 / .62); }
     .fact-card .fact__icon { inline-size: 3.25rem; block-size: 3.25rem; }
     .fact-text p:first-child { font-size: 1.06rem; }
@@ -58,8 +58,8 @@ const cells = [
      (measured: white >= 10.9:1, on-dark >= 6.5:1 over the blurred art). */
   @media (min-width: 80rem) {
     .fact-band { min-height: 21.25rem; display: grid; align-content: center; }
-    .fact-band ul { max-inline-size: min(62rem, calc(100% - 24rem)); } /* >= 24rem keeps the arches clear of the cards up to 1920 px */
-    .fact-scrim { opacity: .3; }
+    .fact-band ul { max-inline-size: min(52rem, calc(100% - 24rem)); } /* >= 24rem keeps the arches clear of the cards up to 1920 px */
+    .fact-scrim { opacity: .12; }
   }
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     .fact { transition: border-color .35s, background-color .35s; }

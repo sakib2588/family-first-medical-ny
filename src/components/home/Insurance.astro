@@ -25,11 +25,11 @@ const rows = ([{ label: 'Plans we do not take', fact: notTaken, icon: 'shield' }
           <p class="ins-feature__fact mt-2 font-semibold text-indigo"><FactSlot fact={publicPlans} dated /></p>
         </div>
       )}
-      <p class="ins-note mt-5 max-w-[44ch] text-[0.88rem]">Plans change. Call your office to check before your visit, and bring your insurance card and a photo ID.</p>
+      <p class="ins-note mt-5 max-w-[44ch] text-[0.88rem]">Bring your insurance card and a photo ID.</p>
       <a href="/locations" data-call class="btn mt-4 inline-flex min-h-12 items-center gap-2 rounded-full border-[1.5px] border-muted px-6 font-semibold text-teal-deep hover:border-teal-deep"><Icon name="phone" size={18} />Call to check your plan</a>
     </div>
-    <div class="ins-panel mt-7 lg:col-span-6 lg:col-start-7 lg:mt-2">
-      <h3 class="font-sans text-base font-semibold text-indigo">Other plans</h3>
+    <div class={`ins-panel mt-7 lg:col-span-6 lg:col-start-7 lg:mt-2 ${plans.value ? '' : 'ins-panel--compact'}`}>
+      {(plans.value || practice.demo) && <h3 class="font-sans text-base font-semibold text-indigo">Other plans</h3>}
       {plans.value && plans.checkedOn
         ? <><ul class="ins-plans mt-2 grid grid-cols-2 gap-x-6 lg:grid-cols-3">{plans.value.map(p => (<li class="flex min-h-8 items-center border-b border-line text-[0.94rem] text-indigo lg:min-h-9 lg:text-base">{p}</li>))}</ul>
             <p class="mt-2 text-[0.82rem] text-muted">Checked {plans.checkedOn}.</p></>
@@ -61,5 +61,9 @@ const rows = ([{ label: 'Plans we do not take', fact: notTaken, icon: 'shield' }
     .ins-row dt { display: flex; flex-direction: column; align-items: flex-start; gap: .75rem; font-weight: 600; color: var(--color-indigo); }
     .ins-row dd { font-weight: 500; color: var(--color-text); line-height: 1.45; }
     .ins-row__icon { display: grid; place-items: center; inline-size: 2.25rem; block-size: 2.25rem; border-radius: .7rem; background: var(--color-mist); color: var(--color-teal-deep); }
+    /* Until the plan list is confirmed the panel holds only the self-pay tile: one wide tile, vertically centred. */
+    .ins-panel--compact { align-self: start; margin-top: 6.35rem; padding: 0; border: 0; background: none; } /* top aligns with the Medicaid card */
+    .ins-panel--compact .ins-rows { grid-template-columns: 1fr; margin-top: 0; }
+    .ins-panel--compact .ins-row { padding: 2rem; border-radius: 1.5rem; box-shadow: 0 2px 8px rgb(23 18 58 / .05); }
   }
 </style>

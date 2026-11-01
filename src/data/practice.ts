@@ -206,10 +206,10 @@ export const weekSummary = (o: Office) => fullWeek(o).reduce<{ from: string; to:
 // Policy set from workspace/02-analysis/legal-and-footer-comparison.md section 5. All DRAFT, verify with counsel.
 export const legalPages = [
   { slug: 'privacy', title: 'Website privacy policy', short: 'Privacy' },
-  { slug: 'notice-of-privacy-practices', title: 'Notice of privacy practices (HIPAA)', short: 'Notice of privacy practices' },
+  { slug: 'notice-of-privacy-practices', title: 'Notice of privacy practices (HIPAA)', short: 'Privacy notice' },
   { slug: 'terms', title: 'Terms of use, medical disclaimer and emergencies', short: 'Terms of use' },
   { slug: 'accessibility', title: 'Accessibility statement', short: 'Accessibility' },
-  { slug: 'nondiscrimination', title: 'Nondiscrimination and language help', short: 'Nondiscrimination and language help' },
+  { slug: 'nondiscrimination', title: 'Nondiscrimination and language help', short: 'Nondiscrimination' },
   { slug: 'patient-rights', title: 'Patient rights and complaints', short: 'Patient rights' },
   { slug: 'billing', title: 'Billing, prices and No Surprises Act notice', short: 'Billing and prices' },
 ] as const

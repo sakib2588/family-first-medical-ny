@@ -19,7 +19,7 @@ const { title, description = 'Family medicine and pediatrics for every age, at t
       // Content is visible without JS: the hidden start state only applies under html.js. Reduced motion: skipped.
       const root = document.documentElement
       if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
-        const targets = document.querySelectorAll<HTMLElement>('main section:not(#hero) :is(h2, [data-reveal], .lift, figure, details)')
+        const targets = document.querySelectorAll<HTMLElement>('main section:not(#hero) :is(h2, [data-reveal], .lift, figure, details, .visit-card, .age-card, .ins-feature, .ins-panel, .faq-help)')
         root.classList.add('js')
         const io = new IntersectionObserver(entries => {
           for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) }

@@ -156,3 +156,26 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 
 /* Sticky desktop header (80 px): keep focused items and #anchor targets clear of it (WCAG 2.4.11). */
 @media (min-width: 64rem) { html { scroll-padding-top: var(--header-offset); } }
+
+/* Round 11 (owner: 'the distance looks too much' before Doctors and Inside): two sections on the same ground in a row
+   share one gap; the second drops most of its top padding. */
+section[data-tone='white'] + section[data-tone='white'], section[data-tone='cream'] + section[data-tone='cream'] { padding-top: 1rem; }
+
+/* Round 11 (owner: "more motion on desktop so the site feels alive"). Desktop only, CSS only, every effect has a
+   still state and is off under reduced motion (U14.3). Jobs (U14.1): reveals orient the eye in reading order; hover
+   depth shows what is interactive; the eyebrow rule marks each new section. Nothing loops. */
+@media (min-width: 64rem) and (prefers-reduced-motion: no-preference) {
+  /* Cards rise with a slight scale and settle; photos ease in from a soft zoom. */
+  .js :is(.visit-card, .age-card, .ins-feature, .ins-panel, .faq-help, .lift).reveal { transform: translateY(28px) scale(.98); }
+  .js figure.reveal img { transform: scale(1.06); transition: transform 1.2s var(--ease-soft) var(--rd, 0s); }
+  .js figure.reveal.in img { transform: none; }
+  /* Section eyebrow: a short teal rule draws in front of it when its heading reveals. */
+  .eyebrow { position: relative; }
+  .js section:has(h2.reveal) .eyebrow::before { content: ''; position: absolute; inset-inline-start: -1.6rem; inset-block-start: 50%; inline-size: 1.1rem; block-size: 2px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .6s var(--ease-soft) .1s; }
+  .js section:has(h2.reveal.in) .eyebrow::before { transform: scaleX(1); }
+  /* Hover depth on photo tiles (focusable parents only would need a link; these are pointer-only polish). */
+  :is(.inside-tile, .age-card) img { transition: transform .6s var(--ease-soft); }
+  :is(.inside-tile:hover, .age-card:is(:hover, :focus-within)) img { transform: scale(1.04); }
+  /* Icon tiles tilt slightly toward the pointer on card hover. */
+  :is(.visit-card, .age-card, .fact-card, .faq-help):hover :is(.tile, .visit-icon) { transform: rotate(-6deg) scale(1.06); transition: transform .4s cubic-bezier(.34, 1.56, .64, 1); }
+}

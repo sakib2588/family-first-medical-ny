@@ -28,7 +28,7 @@ const { closing = true } = Astro.props
         <Logo tone="dark" />
         <p class="mt-2 max-w-[30ch]">{practice.tagline}</p>
       </div>
-      <ul class="grid grid-cols-2 gap-x-4 gap-y-3 border-y border-indigo-soft py-4 lg:col-span-4 lg:border-0 lg:py-0" aria-label="Offices">
+      <ul class="grid grid-cols-2 gap-x-4 gap-y-3 border-y border-indigo-soft py-4 lg:col-span-4 lg:gap-x-6 lg:border-0 lg:py-0" aria-label="Offices">
         {offices.map(o => (
           <li>
             <a href={`/locations/${o.slug}`} class={`${h} ${link} min-h-0`}>{o.neighborhood.split(',')[0]}</a>
@@ -39,20 +39,22 @@ const { closing = true } = Astro.props
       </ul>
       <nav id="site-nav" aria-label="Explore" class="lg:col-span-2">
         <h2 class={h}>Explore</h2>
-        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:grid-cols-1">
+        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:mt-2 lg:grid-cols-1">
           {[...nav, { label: 'Request a visit', href: '/#request' }].map(i => (<li><a href={i.href} class={link}>{i.label}</a></li>))}
         </ul>
       </nav>
       <nav aria-label="Policies" class="lg:col-span-3">
         <h2 class={h}>Policies</h2>
-        <ul class="mt-1 grid grid-cols-2 gap-x-4">
+        <ul class="mt-1 grid grid-cols-2 gap-x-4 lg:mt-2">
           <li><a href="/legal" class={`${link} font-semibold`}>All policies</a></li>
           {legalPages.map(l => (<li><a href={`/legal/${l.slug}`} class={`${link} leading-tight`}>{l.short}</a></li>))}
         </ul>
       </nav>
     </div>
-    <p class="mt-6 rounded-[1.25rem] bg-indigo-soft px-4 py-3 text-white lg:mt-8"><strong>In an emergency, call 911.</strong> <span class="text-on-dark">This website cannot give medical advice.</span></p>
-    <p id="language-help" class="mt-4">Language help: <a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Nondiscrimination and language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
-    <p class="mt-2 text-[0.82rem]">© {new Date().getFullYear()} {practice.name}. This website does not replace a visit with your doctor.</p>
+    <div class="mt-6 flex flex-col gap-3 border-t border-indigo-soft pt-6 lg:mt-10 lg:flex-row lg:items-center lg:justify-between lg:gap-6">
+      <p class="flex items-center gap-2.5 text-white"><span class="grid size-8 shrink-0 place-items-center rounded-full bg-[#b3261e] text-[0.78rem] font-bold" aria-hidden="true">911</span><span><strong>Emergency? Call 911.</strong> <span class="text-on-dark">This site does not give medical advice.</span></span></p>
+      <p id="language-help" class="text-[0.88rem]"><a href="/legal/nondiscrimination" class={`${link} text-white underline`}>Language help</a>{isShown(practice.languages) && <> · <FactSlot fact={practice.languages} /></>}</p>
+    </div>
+    <p class="mt-4 text-[0.82rem]">© {new Date().getFullYear()} {practice.name}</p>
   </div>
 </footer>

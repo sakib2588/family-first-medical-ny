@@ -19,11 +19,11 @@ class ArchCurve extends THREE.Curve {
 
 // Satin glass that reads in a software renderer: a little transmission, a coloured glow and a clear coat for the highlights.
 const tealGlass = () => new THREE.MeshPhysicalMaterial({
-  color: 0x6fe3d9, emissive: C.tealDeep, emissiveIntensity: 0.55, metalness: 0.05, roughness: 0.16,
+  color: 0x7ff0e6, emissive: C.tealDeep, emissiveIntensity: 0.9, metalness: 0.05, roughness: 0.16,
   transmission: 0.35, thickness: 0.6, ior: 1.45, clearcoat: 1, clearcoatRoughness: 0.05, iridescence: 0.35, envMapIntensity: 1.6,
 })
 const goldGlass = () => new THREE.MeshPhysicalMaterial({
-  color: C.gold, emissive: 0x7a5410, emissiveIntensity: 0.45, metalness: 0.55, roughness: 0.22, clearcoat: 1, clearcoatRoughness: 0.08, envMapIntensity: 1.8,
+  color: C.gold, emissive: 0x9a6a12, emissiveIntensity: 0.75, metalness: 0.55, roughness: 0.22, clearcoat: 1, clearcoatRoughness: 0.08, envMapIntensity: 1.8,
 })
 
 function doubleArch(scale) {
@@ -47,7 +47,7 @@ function backdrop(scene, w, h) {
   lin.addColorStop(0, '#17123a'); lin.addColorStop(0.55, '#1d1850'); lin.addColorStop(1, '#0c4a50')
   x.fillStyle = lin; x.fillRect(0, 0, 1024, 256)
   const glow = (cx, col) => { const r = x.createRadialGradient(cx, 128, 0, cx, 128, 300); r.addColorStop(0, col); r.addColorStop(1, 'rgba(0,0,0,0)'); x.fillStyle = r; x.fillRect(0, 0, 1024, 256) }
-  glow(90, 'rgba(19,163,160,0.35)'); glow(940, 'rgba(240,194,90,0.22)')
+  glow(90, 'rgba(19,163,160,0.55)'); glow(940, 'rgba(240,194,90,0.38)'); glow(512, 'rgba(95,196,196,0.12)')
   const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace
   const plane = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: tex }))
   plane.position.z = -6
@@ -66,14 +66,14 @@ function pulseY(x) {
 
 function heartbeat(scene, span) {
   const count = 900, geo = new THREE.SphereGeometry(1, 10, 8)
-  const mat = new THREE.MeshBasicMaterial({ color: 0xffd36b })
+  const mat = new THREE.MeshBasicMaterial({ color: 0xffdc80 })
   const mesh = new THREE.InstancedMesh(geo, mat, count)
   const m = new THREE.Matrix4(), rnd = mulberry(7)
   for (let i = 0; i < count; i++) {
     const x = -span / 2 + (i / count) * span
     const y = pulseY(x) * 0.55 - 0.2 + (rnd() - 0.5) * 0.12
     const z = -1.5 + (rnd() - 0.5) * 0.6
-    const s = 0.022 + rnd() * 0.034
+    const s = 0.03 + rnd() * 0.04
     m.makeScale(s, s, s).setPosition(x, y, z)
     mesh.setMatrixAt(i, m)
   }
@@ -94,7 +94,7 @@ function mulberry(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = 
 export async function render(w, h) {
   const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true })
   renderer.setPixelRatio(1); renderer.setSize(w, h)
-  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.3
   renderer.outputColorSpace = THREE.SRGBColorSpace
   document.body.appendChild(renderer.domElement)
 
@@ -121,8 +121,8 @@ export async function render(w, h) {
     const a = doubleArch(p.s); a.position.set(p.x, p.y, p.z); a.rotation.set(0.08, p.ry, p.rz); scene.add(a)
   }
 
-  const teal = new THREE.PointLight(C.teal, 60, 30); teal.position.set(-9, 3, 5); scene.add(teal)
-  const gold = new THREE.PointLight(C.gold, 55, 30); gold.position.set(9, 2.5, 5); scene.add(gold)
+  const teal = new THREE.PointLight(C.teal, 110, 30); teal.position.set(-9, 3, 5); scene.add(teal)
+  const gold = new THREE.PointLight(C.gold, 100, 30); gold.position.set(9, 2.5, 5); scene.add(gold)
   scene.add(new THREE.AmbientLight(0xffffff, 0.25))
 
   renderer.render(scene, camera)
