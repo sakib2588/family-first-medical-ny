@@ -49,12 +49,3 @@ import { doctors, practice, isShown, officeBySlug } from '../../data/practice'
     )})}
   </ul>
 </Section>
-<style is:global>
-  /* Gradient side panel with two soft circles (base-site doctor card pattern) in our colours.
-     White text on the lightest stop (teal-deep) is 5.97:1; on-dark labels stay on the indigo half. */
-  .doc-side { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #1f3a6b 55%, var(--color-teal-deep) 120%); }
-  .doc-side--b { background-image: linear-gradient(150deg, var(--color-indigo) 0%, #3a2a6e 55%, #6b4a1a 130%); }
-  .doc-side::before, .doc-side::after { content: ''; position: absolute; z-index: -1; border-radius: 50%; background: rgb(255 255 255 / .09); }
-  .doc-side::before { inline-size: 12rem; block-size: 12rem; inset-block-start: -4.5rem; inset-inline-end: -3.5rem; }
-  .doc-side::after { inline-size: 9rem; block-size: 9rem; inset-block-end: -3rem; inset-inline-start: -2.5rem; background: rgb(217 160 44 / .14); }
-</style>

@@ -1,17 +1,57 @@
 ---
 import Page from '../layouts/Page.astro'
 import PageHead from '../components/PageHead.astro'
+import Section from '../components/Section.astro'
 import RequestForm from '../components/RequestForm.astro'
-import { offices, telHref } from '../data/practice'
+import Icon from '../components/Icon.astro'
+import OpenNow from '../components/OpenNow.astro'
+import { offices, telHref, practice, isShown } from '../data/practice'
+const steps = practice.callbackSteps
 ---
 <Page title="Contact and request a visit | AIMSS Family Health" description="Request a visit or call the office.">
   <PageHead title="Request a visit" lead="Tell us how to reach you. We will call you back during office hours to find a time." crumbs={[['Contact', '/contact']]} />
-  <section id="request" class="px-5 pb-16 md:px-8 md:pb-24"><div class="mx-auto max-w-[1160px] md:grid md:grid-cols-2 md:gap-16">
-    <RequestForm />
-    <aside class="mt-10 rounded-3xl bg-white p-6 md:mt-0">
-      <h2 class="text-2xl">Prefer to call?</h2>
-      <ul class="mt-4 space-y-3">{offices.map(o => (<li><a href={telHref(o.phone)} class="tabular btn flex min-h-12 items-center justify-between rounded-full border-2 border-teal-deep px-5 font-semibold text-teal-deep hover:bg-teal-deep hover:text-white"><span>{o.neighborhood.split(',')[0]}</span><span>{o.phone}</span></a></li>))}</ul>
-      <p class="mt-4 text-sm text-muted"><strong class="text-indigo">In an emergency, call 911.</strong> Please do not put symptoms or medical details in this form.</p>
-    </aside>
-  </div></section>
+  <section id="request" data-tone="white" class="px-5 py-10 md:px-8 lg:py-16">
+    <div class="mx-auto grid max-w-[1160px] gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-start lg:gap-10">
+      <div class="card-soft p-5 lg:p-8">
+        <p class="eyebrow">Your details</p>
+        <h2 class="mb-5 mt-2 text-[1.5rem] leading-tight lg:text-[1.9rem]">Let's find you <em class="font-medium text-teal-deep">a time.</em></h2>
+        <RequestForm />
+      </div>
+      <div class="grid gap-6">
+        {isShown(steps) && steps.value && (
+          <div class="card-soft p-5 lg:p-7">
+            <h2 class="font-sans text-base font-semibold text-indigo">How it works</h2>
+            <ol class="c-steps mt-5">
+              {steps.value.map((t, i) => (<li data-reveal><span class="c-steps__n" aria-hidden="true">{i + 1}</span><span>{t}</span></li>))}
+            </ol>
+          </div>
+        )}
+        <p class="rounded-2xl border border-line bg-mist p-4 text-[0.97rem]"><strong class="text-indigo">In an emergency, call 911.</strong> Please do not put symptoms or medical details in this form.</p>
+      </div>
+    </div>
+  </section>
+  <section aria-labelledby="call-h" class="c-band on-dark px-5 py-12 text-on-dark md:px-8 lg:py-20">
+    <div class="mx-auto max-w-[1160px]">
+      <p class="eyebrow !text-aqua">Prefer to call?</p>
+      <h2 id="call-h" class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Call the office <em class="font-medium text-aqua">you plan to visit.</em></h2>
+      <ul class="mt-8 grid gap-4 lg:grid-cols-2 lg:gap-6">
+        {offices.map(o => (
+          <li class="glass lift flex flex-col gap-4 p-5 lg:p-7">
+            <div>
+              <h3 class="font-display text-[1.35rem] font-semibold leading-tight text-white lg:text-[1.6rem]">{o.neighborhood.split(',')[0]}</h3>
+              <address class="mt-1 not-italic">{o.addr}</address>
+              <p class="tabular mt-2 text-[0.94rem]"><OpenNow office={o} fallback="Hours on the office page" /></p>
+            </div>
+            <a href={telHref(o.phone)} class="btn btn-ghost mt-auto inline-flex min-h-12 items-center justify-center gap-2 whitespace-nowrap rounded-full px-5 font-semibold"><Icon name="phone" size={18} />Call<span class="tabular">{o.phone}</span></a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
 </Page>
+<style is:global>
+  .c-band { background: linear-gradient(135deg, var(--c3-base) 0%, #2a2462 55%, #1d5560 100%); }
+  .c-steps { display: grid; gap: 1rem; }
+  .c-steps li { display: flex; align-items: center; gap: 1rem; }
+  .c-steps__n { display: grid; place-items: center; flex: none; inline-size: 2.5rem; block-size: 2.5rem; border-radius: 999px; background: var(--color-teal-deep); color: #fff; font-weight: 700; box-shadow: var(--shadow-teal); }
+</style>

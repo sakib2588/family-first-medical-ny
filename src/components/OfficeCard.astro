@@ -1,0 +1,106 @@
+---
+// Office card for the inner pages: the same language as Home's Locations card (photo with the live status on it,
+// name + address, Hours | Getting there panels, Call / Directions). Facts come from practice.ts only.
+// list: grouped hours and a "Details" link (Locations index). detail: the full week, one row per day, and the
+// doctors who work here (Location page).
+import Icon from './Icon.astro'
+import OpenNow from './OpenNow.astro'
+import FactSlot from './FactSlot.astro'
+import PhotoSlot from './PhotoSlot.astro'
+import { telHref, mapsHref, fullWeek, isShown, doctors, type Office } from '../data/practice'
+interface Props { office: Office; detail?: boolean }
+const { office: o, detail = false } = Astro.props
+const short = (n: string) => n.slice(0, 3)
+const groups = fullWeek(o).reduce<{ from: string; to: string; hours: string; days: number[] }[]>((acc, d) => {
+  const last = acc.at(-1)
+  if (last && last.hours === d.hours) return [...acc.slice(0, -1), { ...last, to: d.name, days: [...last.days, d.day] }]
+  return [...acc, { from: d.name, to: d.name, hours: d.hours, days: [d.day] }]
+}, [])
+const rows = detail
+  ? fullWeek(o).map(d => ({ label: d.name, hours: d.hours, days: [d.day] }))
+  : groups.map(g => ({ label: g.from === g.to ? short(g.from) : `${short(g.from)} to ${short(g.to)}`, hours: g.hours, days: g.days }))
+const access = o.access.filter(a => isShown(a.fact))
+const L = detail ? 'h2' : 'h3'
+const team = doctors.filter(d => o.doctors.includes(d.slug))
+---
+<div class={`office lift card-soft overflow-hidden ${detail ? 'lg:grid lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]' : 'flex flex-col'}`}>
+  <div class="relative">
+    <PhotoSlot fact={o.photo} class={`office__photo w-full !rounded-none ${detail ? 'aspect-[16/9] lg:aspect-auto lg:absolute lg:inset-0' : 'aspect-[16/8] lg:aspect-[16/7]'}`} width={1056} height={detail ? 594 : 520} eager={detail} />
+    <p class="absolute bottom-3 left-3 rounded-full bg-white px-3 py-1.5 text-[0.82rem] font-semibold text-text shadow-[0_6px_16px_-8px_rgb(23_18_58/0.5)]"><OpenNow office={o} fallback="Hours below" /></p>
+  </div>
+  <div class="flex flex-1 flex-col p-5 lg:p-7">
+    {detail
+      ? <p class="eyebrow">{o.name}</p>
+      : <h2 class="text-[1.35rem] leading-tight lg:text-[1.6rem]"><a href={`/locations/${o.slug}`} class="underline-offset-4 hover:underline">{o.name}</a></h2>}
+    <address class={`not-italic text-muted ${detail ? 'mt-1 text-[1.06rem]' : 'mt-1'}`}>{o.addr}</address>
+    <div class={`office__info mt-5 grid gap-3 ${detail ? 'md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2' : 'xl:grid-cols-2'}`}>
+      <div class="office__panel office__panel--hours">
+        <L class="office__label"><Icon name="clock" size={16} />Hours</L>
+        <dl aria-label="Hours" class="tabular mt-2 divide-y divide-line text-[0.94rem]" data-week>
+          {rows.map(g => (
+            <div data-days={g.days.join(',')} class="flex min-h-10 items-center justify-between gap-3 rounded-lg px-2">
+              <dt class="whitespace-nowrap">{g.label}<span data-today-label class="sr-only hidden">, today</span></dt>
+              <dd class="whitespace-nowrap font-semibold text-indigo">{g.hours}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+      {access.length > 0 && (
+        <div class="office__panel office__panel--go">
+          <L class="office__label office__label--go"><Icon name="pin" size={16} />Getting there</L>
+          <ul class="mt-2 grid gap-2 text-[0.94rem]">
+            {access.map(a => (<li class="flex items-start gap-2"><span class="office__dot mt-[.55rem] size-1.5 shrink-0 rounded-full" aria-hidden="true"></span><FactSlot fact={a.fact} /></li>))}
+          </ul>
+        </div>
+      )}
+    </div>
+    {detail && <p class="mt-3 text-sm text-muted">In an emergency, call 911 or go to the nearest emergency room.</p>}
+    {detail && team.length > 0 && (
+      <div class="mt-5">
+        <L class="eyebrow">Who you will see here</L>
+        <ul class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+          {team.map(d => (
+            <li><a href={`/doctors/${d.slug}`} class="lift flex min-h-16 items-center gap-3 rounded-2xl border border-line bg-white p-2.5 pr-4">
+              <img src={d.img} alt="" width="56" height="56" loading="lazy" class="size-14 shrink-0 rounded-full object-cover object-top" />
+              <span><span class="block font-display font-semibold leading-tight text-indigo">{d.name}</span><span class="block text-[0.8rem] font-bold uppercase tracking-[0.1em] text-teal-deep">{d.role}</span></span>
+            </a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+    <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-1 pt-6">
+      <a href={telHref(o.phone)} class="btn btn-ghost inline-flex min-h-12 flex-1 basis-full items-center justify-center gap-2 whitespace-nowrap rounded-full px-5 font-semibold sm:basis-auto"><Icon name="phone" size={18} />Call<span class="tabular">{o.phone}</span></a>
+      <a href={mapsHref(o.addr)} target="_blank" rel="noopener" aria-label={`Directions to the ${o.name} (opens Google Maps)`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Directions<Icon name="arrow" size={18} /></a>
+      {detail
+        ? <a href="/contact" class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Request a visit<Icon name="arrow" size={18} /></a>
+        : <a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Details<Icon name="arrow" size={18} /></a>}
+    </div>
+  </div>
+</div>
+<script>
+  // Mark today's group in New York time (both offices are there). Without JS no row is marked.
+  const day = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short' }).format(new Date()))
+  document.querySelectorAll<HTMLElement>('[data-week] [data-days]').forEach(row => {
+    if (!row.dataset.days?.split(',').includes(String(day))) return
+    row.classList.add('bg-mist', 'font-semibold', 'text-indigo')
+    row.setAttribute('aria-current', 'date')
+    row.querySelector('[data-today-label]')?.classList.remove('hidden')
+  })
+</script>
+<style>
+  /* Same panel colours as Home's Locations card: Hours = teal role (today's row solid teal, white 5.97:1), Getting there = warm gold role. */
+  .office__panel { padding: 1rem 1.1rem; border-radius: 1.1rem; }
+  .office__panel--hours { background: linear-gradient(160deg, #eef7f6, #e3f1ef); border: 1px solid #cfe5e2; }
+  .office__panel--go { background: linear-gradient(160deg, #fdf8ee, #fbf0d9); border: 1px solid #f1e2bf; }
+  .office__label--go { color: #7a520c !important; }
+  .office__dot { background: #c98d1c; }
+  .office__panel--hours :global([data-week] > div) { border-color: rgb(11 111 111 / .14); }
+  .office__panel--hours :global([data-week] > div[aria-current='date']) { background: var(--color-teal-deep) !important; color: #fff !important; }
+  .office__panel--hours :global([data-week] > div[aria-current='date'] :is(dt, dd, span)) { color: #fff !important; }
+  .office__panel--hours :global([data-week] > div[aria-current='date'] dt::before) { content: ''; display: inline-block; inline-size: .45rem; block-size: .45rem; margin-inline-end: .45rem; border-radius: 999px; background: var(--color-aqua); vertical-align: .12em; }
+  .office__label { display: flex; align-items: center; gap: .4rem; font-family: var(--font-sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-teal-deep); }
+  @media (min-width: 64rem) and (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .office :global(.office__photo img) { transition: transform .7s var(--ease-soft); }
+    .office:hover :global(.office__photo img) { transform: scale(1.04); }
+  }
+</style>
