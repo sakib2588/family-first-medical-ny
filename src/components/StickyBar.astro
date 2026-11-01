@@ -2,7 +2,7 @@
 // Sticky bar (spec 4.15, phone only, relabelled 2026-11-02 to match the sample): "Make an appointment" filled
 // (opens the call dialog), "Visit" outlined (offices).
 // Appears only after the hero has scrolled away (one filled action in the fold) and hides over the request band and
-// the footer. Motion #5: slides up (m-sheet); instant with reduced motion. Without JS it never shows.
+// the footer on every page (inner pages: visible until the footer or request band reaches the screen). Motion #5: slides up (m-sheet); instant with reduced motion. Without JS it never shows.
 const visit = Astro.url.pathname === '/' ? '#offices' : '/locations'
 ---
 <aside id="sticky-bar" aria-label="Make an appointment or visit" inert data-visible="false" class="fixed inset-x-0 bottom-0 z-30 translate-y-full frost bg-white px-5 pt-3 shadow-lift transition-transform duration-300 ease-(--ease-sheet) data-[visible=true]:translate-y-0 lg:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
@@ -15,16 +15,16 @@ const visit = Astro.url.pathname === '/' ? '#offices' : '/locations'
   const bar = document.getElementById('sticky-bar')
   const hero = document.getElementById('hero')
   const hide = ['request', 'site-footer'].map(id => document.getElementById(id)).filter(Boolean) as HTMLElement[]
-  if (bar && !hero) { bar.dataset.visible = 'true'; bar.removeAttribute('inert') }
-  if (bar && hero && 'IntersectionObserver' in window) {
-    let heroVisible = true
-    const covered = new Set<Element>()
-    const update = () => {
-      const show = !heroVisible && covered.size === 0
-      bar.dataset.visible = String(show)
-      show ? bar.removeAttribute('inert') : bar.setAttribute('inert', '')
+  if (bar) {
+    const show = (on: boolean) => { bar.dataset.visible = String(on); on ? bar.removeAttribute('inert') : bar.setAttribute('inert', '') }
+    if (!hero) show(true) // inner pages: visible from the start (and if IntersectionObserver is missing)
+    if ('IntersectionObserver' in window) {
+      // Hidden while the hero is in view (Home only) and over the request band and the footer, on every page.
+      let heroVisible = !!hero
+      const covered = new Set<Element>()
+      const update = () => show(!heroVisible && covered.size === 0)
+      if (hero) new IntersectionObserver(([e]) => { heroVisible = e.isIntersecting; update() }, { threshold: 0.05 }).observe(hero)
+      hide.forEach(el => new IntersectionObserver(([e]) => { e.isIntersecting ? covered.add(el) : covered.delete(el); update() }).observe(el))
     }
-    new IntersectionObserver(([e]) => { heroVisible = e.isIntersecting; update() }, { threshold: 0.05 }).observe(hero)
-    hide.forEach(el => new IntersectionObserver(([e]) => { e.isIntersecting ? covered.add(el) : covered.delete(el); update() }).observe(el))
   }
 </script>

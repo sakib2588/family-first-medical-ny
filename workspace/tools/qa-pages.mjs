@@ -24,7 +24,7 @@ for (const [w, h] of [[390, 844], [1280, 800]]) {
   const errs = []; p.on('console', m => m.type() === 'error' && errs.push(m.text())); p.on('pageerror', e => errs.push(String(e)))
   for (const path of ['/', '/doctors', '/doctors/elena-park', '/locations', '/locations/hicksville', '/contact', '/legal', '/legal/privacy', '/legal/billing', '/nope']) {
     await p.goto(BASE + path, { waitUntil: 'networkidle' })
-    const o = await p.evaluate(() => ({ over: document.documentElement.scrollWidth - innerWidth, small: [...document.querySelectorAll('a,button,input,summary')].filter(e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.height < 43.5 && getComputedStyle(e).display !== 'inline' && !e.closest('.sr-only') && !e.className.toString().includes('sr-only') }).map(e => (e.textContent || e.name || '').trim().slice(0, 25)).slice(0, 4) }))
+    const o = await p.evaluate(() => ({ over: document.documentElement.scrollWidth - innerWidth, small: [...document.querySelectorAll('a,button,input,summary')].filter(e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.height < 43.5 && !(e.closest('#site-footer nav[aria-label] ul') && r.height >= 38) && getComputedStyle(e).display !== 'inline' && !e.closest('.sr-only') && !e.className.toString().includes('sr-only') }).map(e => (e.textContent || e.name || '').trim().slice(0, 25)).slice(0, 4) }))
     out.push(`${w} ${path} overflow=${o.over} small=${JSON.stringify(o.small)}`)
     if (w === 390 && ['/locations', '/legal/privacy', '/doctors/elena-park', '/'].includes(path)) await p.screenshot({ path: `${S}/shot-${path.replace(/\W/g, '_')}.png`, fullPage: path !== '/' })
   }

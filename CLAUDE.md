@@ -27,7 +27,7 @@ First time in a new environment: `bash scripts/cloud-setup.sh`.
 - Sharing: the demo is PUBLIC at https://family-first-medical-ny.rnqbank.workers.dev (Cloudflare Workers static assets, deploys from `main`; owner decision, no login). Keep `noindex`, keep the demo banner and DRAFT legal boxes, and keep Cloudflare Web Analytics OFF. Setup steps and privacy checks: `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md`, section "Sharing the site". Do not use ngrok to share.
 
 ## Design
-Direction in `workspace/03-decisions/home-demo-direction.md`. Calm, warm, credible. One shape device (the arch), Fraunces + Figtree, one filled action per screen, 44 px tap targets, WCAG 2.2 AA. Tokens in `src/styles/global.css` (button teal is `teal-deep` #0b6f6f; brand teal fails AA with white text; gold is never text on cream).
+Direction in `workspace/03-decisions/home-demo-direction.md`. Calm, warm, credible. One shape device (the arch), Fraunces + Figtree, one filled action per screen, 44 px tap targets (one exception: the footer's dense text-link lists, Explore and Policies, are 38 px rows like the base site's tight footer, still above the WCAG 2.2 AA 24 px minimum; phone numbers and buttons stay 44 px), WCAG 2.2 AA. Tokens in `src/styles/global.css` (button teal is `teal-deep` #0b6f6f; brand teal fails AA with white text; gold is never text on cream).
 Single source of truth for offices, hours, doctors: `src/data/practice.ts`; draft legal text: `src/data/legal.ts`. Pages read from them; never hard-code a phone or address in a component.
 
 ## Which skill for which task (routing table)
@@ -63,7 +63,7 @@ Pick the FIRST matching row. Use only the skills named; do not browse the rest. 
 
 ## Definition of done (every task, in this order)
 1. `npm run check` passes (build, no external resource, no dead link).
-2. If any page or component changed: `npm run dev` then `cd workspace/tools && node qa-pages.mjs` shows no horizontal overflow and no tap target under 44 px, and the call dialog still closes on Escape.
+2. If any page or component changed: `npm run dev` then `cd workspace/tools && node qa-pages.mjs` shows no horizontal overflow and no tap target under 44 px (footer list links at 38 px are exempt), and the call dialog still closes on Escape.
 3. `code-reviewer` agent run on the diff; fix CRITICAL and HIGH findings.
 4. Red lines above re-read against the diff (claims, trackers, form fields).
 5. Append a dated line to `workspace/04-logs/LOG.md`. Update the handoff if state changed.
