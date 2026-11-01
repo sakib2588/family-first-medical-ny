@@ -59,8 +59,8 @@ const officeExtras = (place: string, transitLabel: string, transit: string, park
     { label: 'Parking', fact: sample<string>(parking, 'to confirm') },
     { label: 'Step-free entrance', fact: sample<string>('Yes, street-level entrance', 'to confirm') },
   ],
-  photo: toConfirm<Photo>(`Photo: ${place} entrance from the street`),
-  gallery: [toConfirm<Photo>('Photo: reception'), toConfirm<Photo>('Photo: waiting area'), toConfirm<Photo>('Photo: an exam room')],
+  photo: sample<Photo>({ src: `/demo/entrance-${place.toLowerCase()}.webp`, alt: `${place} office building (stand-in photo)` }, `Photo: ${place} entrance from the street`),
+  gallery: [sample<Photo>({ src: '/demo/reception.webp', alt: 'Reception desk (stand-in photo)' }, 'Photo: reception'), sample<Photo>({ src: '/demo/waiting-area.webp', alt: 'A nurse checking a patient (stand-in photo)' }, 'Photo: waiting area'), sample<Photo>({ src: '/demo/exam-room.webp', alt: 'A doctor talking with a patient (stand-in photo)' }, 'Photo: an exam room')],
   googleProfile: toConfirm<string>("Google profile link: to confirm"),
   googleRating: toConfirm<string>('rating, count, date'),
 })
@@ -177,7 +177,7 @@ export const ageBands = [
   { range: 'Birth to 12 months', title: 'Newborns and babies', photo: sample<Photo>({ src: '/demo/child-joy.webp', alt: 'A smiling baby (stand-in photo)' }, 'Photo: baby'), line: 'First visits, feeding and growth checks, the first vaccines.', doctors: ['arjun-mehta'] },
   { range: '1 to 12 years', title: 'Children', photo: sample<Photo>({ src: '/demo/child-play.webp', alt: 'A child playing (stand-in photo)' }, 'Photo: child'), line: 'Well-child visits, vaccines, school and sports physicals.', doctors: ['arjun-mehta'] },
   { range: '13 to 21 years', title: 'Teens', photo: sample<Photo>({ src: '/demo/hands.webp', alt: 'A caring hand on a shoulder (stand-in photo)' }, 'Photo: teen'), line: 'Checkups, sports physicals and health questions for teenagers.', doctors: ['arjun-mehta', 'elena-park'] },
-  { range: '22 and up', title: 'Adults and seniors', photo: sample<Photo>({ src: '/demo/doctor-female.webp', alt: 'A doctor with an adult patient (stand-in photo)' }, 'Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
+  { range: '22 and up', title: 'Adults and seniors', photo: sample<Photo>({ src: '/demo/adult-care.webp', alt: 'A blood pressure check for an adult patient (stand-in photo)' }, 'Photo: adult'), line: "Annual physicals, long-term conditions, women's health, screenings.", doctors: ['elena-park'] },
 ] as const
 
 const DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
