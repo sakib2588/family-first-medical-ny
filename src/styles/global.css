@@ -19,6 +19,8 @@
   --color-teal-darker: #0a5656;  /* hover / pressed */
   --color-gold: #d9a02c;         /* accent line, highlights on indigo; the action colour on indigo grounds */
   --color-gold-light: #e8b54a;   /* hover / pressed for the gold action */
+  /* 3-colour system (owner round 14): base / primary / accent for bold bands. */
+  --c3-base: #17123a; --c3-primary: #5fc4c4; --c3-accent: #d9a02c;
   --header-offset: 6.5rem;       /* sticky desktop header (80 px) + breathing room: scroll padding, sticky asides */
   --color-cream: #faf7ef;        /* page ground */
   --color-lavender: #f2eefc;     /* alternate section ground */
