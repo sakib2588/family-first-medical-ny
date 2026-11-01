@@ -2,10 +2,14 @@
 // FAQ (spec 4.12): left-aligned, native <details>. Only answers that hold today; anything that needs a client fact
 // is a Fact slot (no invented policy, no "accepting new patients" or same-day promise until confirmed and dated).
 // Motion #6: the answer fades and rises 4 px on open; height is never animated; reduced motion is instant.
+// Round 10 (design plan 4.5, desktop only; phone unchanged): questions as rounded boxes with the plus in a teal circle
+// (open item: mist ground, teal edge); the left column gets a "Still have a question?" card with both offices' live
+// status. It is sticky only on tall screens (min-height 50rem) under the header, so its button never leaves the view.
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import FactSlot from '../FactSlot.astro'
-import { practice, type Fact } from '../../data/practice'
+import OpenNow from '../OpenNow.astro'
+import { practice, offices, telHref, type Fact } from '../../data/practice'
 type Item = { q: string; a: string; fact?: Fact<string>; dated?: boolean }
 const faqs: Item[] = [
   { q: 'How do I book a first visit?', a: 'Send a visit request with your name and phone number, or call the office you prefer. The office calls you back during office hours to set a time.' },
@@ -21,16 +25,47 @@ const shown = faqs.filter(f => !f.fact || f.fact.value !== null || practice.demo
 <Section id="faq" tone="white">
   <div class="lg:grid lg:grid-cols-12 lg:gap-x-6">
     <div class="lg:col-span-4">
+      <div class="faq-aside">
       <p class="eyebrow">Questions</p>
       <h2 class="mt-2 text-[1.76rem] leading-[1.12] lg:text-[2.47rem]">Questions</h2>
+      <div class="faq-help hidden">
+        <span class="tile tile-teal"><Icon name="chat" size={20} /></span>
+        <h3 class="mt-3 font-sans text-base font-semibold text-indigo">Still have a question?</h3>
+        <p class="mt-1 text-[0.94rem]">Call the office that is open now.</p>
+        <ul data-open-first class="mt-3 grid gap-2">{offices.map(o => (
+          <li class="faq-help__office"><span class="block font-semibold text-indigo">{o.neighborhood.split(',')[0]}</span><OpenNow office={o} fallback="Hours on the office page" class="block text-[0.82rem] leading-snug text-muted" />
+            <a href={telHref(o.phone)} aria-label={`Call ${o.neighborhood.split(',')[0]}, ${o.phone}`} class="tabular inline-flex min-h-11 items-center gap-2 font-semibold text-teal-deep underline underline-offset-4"><Icon name="phone" size={16} />{o.phone}</a></li>))}
+        </ul>
+        <a href="#request" class="faq-help__cta mt-4 inline-flex min-h-12 items-center gap-1.5 rounded-full border-[1.5px] border-muted px-5 font-semibold text-teal-deep hover:border-teal-deep">Request a callback<Icon name="arrow" size={18} /></a>
+      </div>
+      </div>
     </div>
-    <div class="mt-6 divide-y divide-line border-y border-line lg:col-span-7 lg:col-start-6 lg:mt-0">
+    <div class="faq-list mt-6 divide-y divide-line border-y border-line lg:col-span-7 lg:col-start-6 lg:mt-0">
       {shown.map(f => (
         <details class="faq group">
-          <summary class="flex min-h-[3.5rem] cursor-pointer items-center justify-between gap-4 py-2 font-display text-[1.12rem] font-medium leading-snug text-indigo">{f.q}<Icon name="plus" size={20} class="shrink-0 text-muted transition-transform group-open:rotate-45" /></summary>
+          <summary class="flex min-h-[3.5rem] cursor-pointer items-center justify-between gap-4 py-2 font-display text-[1.12rem] font-medium leading-snug text-indigo">{f.q}<span class="faq-plus shrink-0"><Icon name="plus" size={20} class="text-muted transition-transform group-open:rotate-45" /></span></summary>
           <p class="faq__answer max-w-[64ch] pb-4 pr-8">{f.a}{f.fact && <> <FactSlot fact={f.fact} dated={f.dated} /></>}</p>
         </details>
       ))}
     </div>
   </div>
 </Section>
+<style>
+  @media (min-width: 64rem) {
+    .faq-help { display: block; margin-top: 2rem; padding: 1.5rem; border: 1px solid var(--color-line); border-radius: 1.5rem; background: var(--color-cream); }
+    .faq-help__office { padding: .7rem .9rem; border-radius: 1rem; background: #fff; }
+    .faq-list { display: grid; gap: .75rem; border: 0; }
+    .faq-list > details { border: 1px solid var(--color-line); border-radius: 1.1rem; background: #fff; padding-inline: 1.25rem; transition: background-color .25s, border-color .25s; }
+    .faq-list > details[open] { border-color: var(--color-teal-deep); background: var(--color-mist); box-shadow: inset 3px 0 0 var(--color-teal-deep); }
+    .faq-plus { display: grid; place-items: center; inline-size: 2.25rem; block-size: 2.25rem; border-radius: 999px; background: var(--color-mist); }
+    .faq-plus :global(svg) { color: var(--color-teal-deep); }
+    details[open] .faq-plus { background: #fff; }
+  }
+  @media (min-width: 64rem) and (min-height: 50rem) { .faq-aside { position: sticky; top: 6.5rem; } }
+</style>
+<script>
+  // Open office first in the help card (after OpenNow has set data-state).
+  document.querySelectorAll<HTMLElement>('#faq [data-open-first]').forEach(list => {
+    [...list.children].filter(li => li.querySelector('[data-state="open"]')).reverse().forEach(li => list.prepend(li))
+  })
+</script>
