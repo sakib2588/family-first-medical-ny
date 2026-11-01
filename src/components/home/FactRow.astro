@@ -2,6 +2,11 @@
 // Fact row (spec 4.4), round 7 (owner 2026-11-01: "more animated"): four cards right under the hero. Round 8: a dark photo band
 // with four glass cards (base-site trust strip pattern); each icon tile pops and its icon draws itself, staggered by the shared reveal script in
 // Base.astro. CSS only (no animation library, project rule); everything static under reduced motion or without JS.
+// Round 10 (owner: "make that part better, in the middle, dynamic three.js"; owner chose the rule-safe 3D still):
+// wide desktop (>= 80rem) shows /art/trust-band.webp, a three.js scene rendered at BUILD time (workspace/tools/render-3d.mjs:
+// the AIMSS double arch as glass tubes + a gold heartbeat line). No 3D code ships (U14.11). Phone keeps its photo and
+// layout (<picture> source is desktop-only). Desktop (>= 64rem) cards centre their content; between 64 and 80rem the
+// photo stays behind them (the art's arches would sit under the cards there).
 // Facts as data with a date or a labelled slot. No stars, no AggregateRating, no "years" or "board-certified" (red lines).
 import FactSlot from '../FactSlot.astro'
 import Icon from '../Icon.astro'
@@ -13,14 +18,17 @@ const cells = [
 ].filter(c => isShown(c.fact)) as { label: string; icon: 'shield' | 'heart' | 'pin'; fact: typeof practice.agesSeen; dated: boolean }[]
 ---
 {cells.length > 0 && (
-<section aria-label="Key facts" class="on-dark relative isolate overflow-hidden bg-indigo px-5 py-8 text-on-dark md:px-8 lg:py-10">
-  <img src="/demo/child-play.webp" alt="" width="1200" height="800" loading="lazy" class="pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
-  <div class="pointer-events-none absolute inset-0 -z-10 bg-linear-to-r from-indigo/95 via-indigo/85 to-hero-teal/90" aria-hidden="true"></div>
+<section aria-label="Key facts" class="fact-band on-dark relative isolate overflow-hidden bg-indigo px-5 py-8 text-on-dark md:px-8 lg:py-10">
+  <picture>
+    <source media="(min-width: 80rem)" srcset="/art/trust-band.webp" width="2560" height="680" />
+    <img src="/demo/child-play.webp" alt="" width="1200" height="800" loading="lazy" class="fact-art pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
+  </picture>
+  <div class="fact-scrim pointer-events-none absolute inset-0 -z-10 bg-linear-to-r from-indigo/95 via-indigo/85 to-hero-teal/90" aria-hidden="true"></div>
   <dl class="mx-auto grid max-w-[1160px] grid-cols-2 gap-2.5 lg:grid-cols-4 lg:gap-4">
     {cells.map((c, i) => (
-      <div data-reveal class="fact glass flex flex-col items-start gap-2 p-3.5 lg:flex-row lg:gap-3 lg:p-4">
+      <div data-reveal class="fact fact-card glass flex flex-col items-start gap-2 p-3.5 lg:flex-row lg:gap-3 lg:p-4">
         <span class={`fact__icon tile ${['tile-teal', 'tile-gold', 'tile-rose', 'tile-indigo'][i % 4]}`}><Icon name={c.icon} size={20} draw /></span>
-        <div class="min-w-0">
+        <div class="fact-text min-w-0">
           <dt class="text-[0.94rem] font-semibold leading-snug text-white lg:text-base">{c.label}</dt>
           <dd class="mt-0.5 text-[0.82rem] leading-snug text-on-dark lg:text-[0.88rem]"><FactSlot fact={c.fact} dated={c.dated} /></dd>
         </div>
@@ -35,6 +43,21 @@ const cells = [
   .js .fact.in .fact__icon { transform: none; transition: transform .6s cubic-bezier(.34, 1.56, .64, 1) calc(var(--rd, 0s) + .15s); }
   .js .fact path { stroke-dasharray: 1; stroke-dashoffset: 1; }
   .js .fact.in path { stroke-dashoffset: 0; transition: stroke-dashoffset .9s cubic-bezier(.2, .7, .2, 1) calc(var(--rd, 0s) + .3s); }
+  @media (min-width: 64rem) {
+    .fact-band { padding-block: 3.5rem; }
+    .fact-band dl { max-inline-size: 62rem; }
+    .fact-card { flex-direction: column; align-items: center; justify-content: flex-start; gap: .9rem; padding: 1.5rem 1.25rem; text-align: center; background: rgb(23 18 58 / .62); }
+    .fact-card .fact__icon { inline-size: 3.25rem; block-size: 3.25rem; }
+    .fact-text dt { font-size: 1.06rem; }
+  }
+  /* From 80rem (where the 3D art is used) the cards narrow so the arches sit in clear space either side, and the scrim
+     is lighter so the art shows; the cards keep their own dark glass, so text contrast does not depend on the scrim
+     (measured: white >= 10.9:1, on-dark >= 6.5:1 over the blurred art). */
+  @media (min-width: 80rem) {
+    .fact-band { min-height: 21.25rem; display: grid; align-content: center; }
+    .fact-band dl { max-inline-size: min(62rem, calc(100% - 20rem)); }
+    .fact-scrim { opacity: .3; }
+  }
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     .fact { transition: border-color .35s, background-color .35s; }
     .fact:hover { border-color: rgb(255 255 255 / .4); background-color: rgb(23 18 58 / .6); }
