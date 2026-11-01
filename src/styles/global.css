@@ -152,3 +152,6 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 .tile-gold { background-image: linear-gradient(140deg, #f0c25a, #c2861a); color: var(--color-indigo); }
 .tile-rose { background-image: linear-gradient(140deg, #f07b8a, #c23d55); }
 .tile-soft { background: var(--color-mist); color: var(--color-teal-deep); box-shadow: none; }
+
+/* Sticky desktop header (80 px): keep focused items and #anchor targets clear of it (WCAG 2.4.11). */
+@media (min-width: 64rem) { html { scroll-padding-top: 6.5rem; } }
