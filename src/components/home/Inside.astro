@@ -4,6 +4,8 @@
 // pattern) on a solid 85% indigo band, so white text stays AA over any photo even when it wraps. The caption names the
 // photo, so the image itself is decorative (alt=""). The first photo spans both columns when the count is odd.
 // Named slots until the client sends real photos with consent (tell 2). Full set: location page.
+// Round 10 (design plan 4.4, desktop only; phone unchanged): with three photos, desktop shows a mosaic per office: the
+// first photo tall on the left, the other two stacked on the right. No hover zoom (photos are not focusable, U14.17).
 import Section from '../Section.astro'
 import Icon from '../Icon.astro'
 import PhotoSlot from '../PhotoSlot.astro'
@@ -23,10 +25,10 @@ const withPhotos = offices.map(o => ({ o, photos: o.gallery.filter(isShown) })).
             <p class="break-words text-[0.82rem] text-muted">{o.addr}</p>
           </div>
         </div>
-        <ul class="mt-3 grid grid-cols-2 gap-2.5 lg:gap-3">
+        <ul class="inside-grid mt-3 grid grid-cols-2 gap-2.5 lg:gap-3">
           {photos.map((g, i) => (
-            <li class={i === 0 && photos.length % 2 === 1 ? 'col-span-2' : ''}>
-              <figure class="relative">
+            <li class={`inside-tile ${i === 0 && photos.length % 2 === 1 ? 'col-span-2' : ''}`}>
+              <figure class="relative h-full">
                 <PhotoSlot fact={g} compact decorative class={`rounded-[1rem] ${i === 0 && photos.length % 2 === 1 ? 'h-[9.5rem] lg:h-[12rem]' : 'h-[7.5rem] lg:h-[10rem]'}`} width={i === 0 ? 1136 : 544} height={i === 0 ? 480 : 340} />
                 {g.value && <figcaption class="pointer-events-none absolute inset-x-0 bottom-0 rounded-b-[1rem] bg-indigo/85 px-3 py-2 text-[0.82rem] font-semibold leading-tight text-white">{g.value.alt}</figcaption>}
               </figure>
@@ -37,3 +39,10 @@ const withPhotos = offices.map(o => ({ o, photos: o.gallery.filter(isShown) })).
     ))}
   </div>
 </Section>}
+<style>
+  @media (min-width: 64rem) {
+    .inside-grid:has(> .inside-tile:nth-child(3):last-child) { grid-template-columns: 1.35fr 1fr; grid-template-rows: repeat(2, 10.5rem); }
+    .inside-grid:has(> .inside-tile:nth-child(3):last-child) > .inside-tile:first-child { grid-column: 1; grid-row: 1 / span 2; }
+    .inside-grid:has(> .inside-tile:nth-child(3):last-child) > .inside-tile :global(div) { block-size: 100%; }
+  }
+</style>
