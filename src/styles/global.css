@@ -111,19 +111,21 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 
 /* Motion layer, round 6 (02-analysis/base-site-css-js-dissection-2026-11-01.md section 5): the base site's grammar in
    our tokens. One soft easing; reveal on scroll; hero entrance; lift on hover; frosted bars; a ping on the open dot.
-   Everything is off under reduced motion (the global rule above also kills transitions). No infinite loops but the ping. */
+   Everything is off under reduced motion (the global rule above also kills transitions). No infinite loops (the ping runs twice, then rests). */
 :root { --ease-soft: cubic-bezier(.2, .7, .2, 1); --shadow-teal: 0 10px 24px -10px rgb(11 111 111 / .55); --shadow-gold: 0 10px 24px -10px rgb(217 160 44 / .6); --shadow-float: 0 18px 50px -18px rgb(23 18 58 / .25); }
 .js .reveal { opacity: 0; transform: translateY(22px); } /* hidden start is instant: no fade-out flash */
 .js .reveal.in { opacity: 1; transform: none; transition: opacity .7s var(--ease-soft) var(--rd, 0s), transform .7s var(--ease-soft) var(--rd, 0s); }
 @media (prefers-reduced-motion: no-preference) {
-  #hero :is(h1, h1 + p, li) { animation: hero-in .85s var(--ease-soft) both; }
-  #hero h1 + p { animation-delay: .1s; }
-  #hero li:nth-child(1) { animation-delay: .18s; }
-  #hero li:nth-child(2) { animation-delay: .28s; }
+  /* Hero entrance: only the small pills and at-a-glance chips. Never the H1, the lead line, the buttons or the doctor
+     portraits (U14.9: they are the LCP candidates on phone and desktop). */
+  #hero :is([aria-label='About the practice'], [aria-label='At a glance']) li { animation: hero-in .85s var(--ease-soft) both; }
+  #hero :is([aria-label='About the practice'], [aria-label='At a glance']) li:nth-child(2) { animation-delay: .1s; }
+  #hero [aria-label='At a glance'] li:nth-child(3) { animation-delay: .2s; }
+  #hero [aria-label='At a glance'] li:nth-child(4) { animation-delay: .3s; }
   .btn:hover { transform: translateY(-2px); }
   .lift { transition: transform .35s var(--ease-soft), box-shadow .35s var(--ease-soft); }
   .lift:hover { transform: translateY(-3px); box-shadow: var(--shadow-float); }
-  .status[data-state='open']::before { animation: open-ping 1.8s ease-out infinite; }
+  .status[data-state='open']::before { animation: open-ping 1.8s ease-out 2; } /* 2 runs then rest (U14.8) */
 }
 @keyframes hero-in { from { opacity: 0; transform: translateY(16px); } }
 @keyframes open-ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 45%, transparent); } 100% { box-shadow: 0 0 0 7px transparent; } }
@@ -137,7 +139,7 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
    Contrast: white on the primary gradient >= 5.97:1 at its lightest stop (teal-deep); gold button keeps indigo text. */
 .btn-primary { background-image: linear-gradient(100deg, var(--color-teal-darker), var(--color-teal-deep) 70%); color: #fff; box-shadow: var(--shadow-teal); }
 .btn-primary:hover { background-image: linear-gradient(100deg, #084848, var(--color-teal-darker) 70%); box-shadow: 0 16px 32px -10px rgb(11 111 111 / .6); }
-.btn-ghost { background: #fff; color: var(--color-teal-deep); border: 1.5px solid var(--color-line); box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
+.btn-ghost { background: #fff; color: var(--color-teal-deep); border: 1.5px solid var(--color-muted); /* >= 3:1 edge (WCAG 1.4.11) */ box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
 .btn-ghost:hover { border-color: var(--color-teal-deep); background: var(--color-mist); }
 .pill { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; border: 1px solid var(--color-line); background: #fff; padding: .4rem .9rem; font-size: .82rem; font-weight: 600; color: var(--color-indigo); box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
 .eyebrow { font-size: .76rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--color-teal-deep); }
