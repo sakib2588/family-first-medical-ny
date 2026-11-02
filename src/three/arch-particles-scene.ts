@@ -59,7 +59,7 @@ void main() {
 
 export function createArchParticlesScene(canvas: HTMLCanvasElement, variant: Variant): LiveScene {
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: true, powerPreference: 'low-power' })
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5)) // glowing particles need no more pixels; fewer pixels keep scrolling smooth
   const scene = new THREE.Scene()
   const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 100)
   camera.position.set(0, 0, 14)

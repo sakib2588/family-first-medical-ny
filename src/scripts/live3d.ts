@@ -11,6 +11,13 @@ const SLOW_FRAME_MS = 34, SLOW_FOR_MS = 2000
 // Test only: ?live3d=force skips the frame-rate fallback (headless software GL is slow). Never linked from the site.
 const FORCE = new URLSearchParams(location.search).get('live3d') === 'force'
 
+// Responsiveness outranks smoothness (motion-foundations): while the page is being scrolled, the scenes keep their last
+// frame instead of drawing new ones, and resume 140 ms after scrolling stops. This is what keeps scrolling smooth on
+// modest GPUs. One shared passive listener; it only flips a flag.
+let scrolling = false
+let scrollTimer = 0
+addEventListener('scroll', () => { scrolling = true; clearTimeout(scrollTimer); scrollTimer = window.setTimeout(() => { scrolling = false }, 140) }, { passive: true })
+
 const wide = matchMedia('(min-width: 80rem)')
 const reduced = matchMedia('(prefers-reduced-motion: reduce)')
 const nav = navigator as Navigator & { connection?: { saveData?: boolean }; deviceMemory?: number }
@@ -39,6 +46,7 @@ function run(host: HTMLElement) {
     let raf = 0, last = 0, slowFor = 0, visible = true, dead = false, elapsed = 0
     const paused = () => document.documentElement.hasAttribute('data-motion-paused')
     const frame = (now: number) => {
+      if (scrolling) { last = now; raf = requestAnimationFrame(frame); return } // hold the last frame; time and the slow-frame timer pause too
       if (last) elapsed += Math.min(now - last, 100) / 1000 // pauses and long frames do not jump the scene
       scene.render(elapsed)
       if (!host.hasAttribute('data-live-on')) host.setAttribute('data-live-on', '') // reveal after the first frame
