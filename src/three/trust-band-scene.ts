@@ -43,7 +43,7 @@ function beat(p: number) {
 
 export function createTrustBandScene(canvas: HTMLCanvasElement): LiveScene {
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'low-power' })
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5)) // glowing particles need no more pixels; fewer pixels keep scrolling smooth
   renderer.toneMapping = THREE.ACESFilmicToneMapping
   renderer.toneMappingExposure = 1.25
   renderer.outputColorSpace = THREE.SRGBColorSpace
