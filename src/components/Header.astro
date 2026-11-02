@@ -67,7 +67,7 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
 </header>
 
 <dialog id="menu-dialog" aria-label="Menu" class="drawer">
-  <div class="drawer-top flex h-16 shrink-0 items-center justify-between border-b border-line px-5 md:pr-8">
+  <div class="drawer-top sticky top-0 z-10 flex h-16 shrink-0 items-center justify-between border-b border-line px-5 md:pr-8">
     <Logo />
     <form method="dialog"><button class="menu-pill drawer-close btn inline-flex" aria-label="Close menu" autofocus>
       <svg class="burger" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/></svg></button></form>
@@ -78,20 +78,20 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
         {nav.map((item, i) => (<li data-i={i}><a href={item.href} data-spy class="drawer-link">{item.label}</a></li>))}
       </ul>
     </nav>
-    <h2 data-i={Math.min(stagger.label, 10)} class="mt-6 px-5 font-sans text-[0.72rem] font-bold uppercase tracking-[0.14em] text-muted">Call to book</h2>
-    <ul class="drawer-calls mt-2 grid gap-2.5 px-5">
+    <h2 id="drawer-call-label" data-i={Math.min(stagger.label, 10)} class="mt-5 px-5 font-sans text-[0.75rem] font-bold uppercase tracking-[0.12em] text-muted">Call to book</h2>
+    <ul class="drawer-calls mt-2 grid gap-2 px-5" aria-labelledby="drawer-call-label">
       {offices.map((o, i) => (
-        <li data-i={Math.min(stagger.office + i, 10)}><a href={telHref(o.phone)} class="drawer-call">
-          <span class="drawer-call-place">{place(o)}</span>
+        <li data-i={Math.min(stagger.office + i, 10)}><a href={telHref(o.phone)} class={`drawer-call ${i === 0 ? 'is-primary' : ''}`}>
+          <span class="drawer-call-place"><span class="sr-only">Call {practice.name}, </span>{place(o)}</span>
           <span class="drawer-call-num"><Icon name="phone" size={17} /><span class="tabular">{o.phone}</span></span>
           <OpenNow office={o} fallback="See hours" class="drawer-call-status" />
         </a></li>
       ))}
     </ul>
-    <p data-i={Math.min(stagger.foot, 10)} class="px-5 pt-3 text-[0.85rem] font-semibold text-indigo">In an emergency, call 911.</p>
-    <a href="/#request" data-i={Math.min(stagger.request, 10)} class="drawer-request btn btn-ghost rounded-full">Request a visit online</a>
-    <div data-i={Math.min(stagger.foot, 10)} class="mt-auto px-5 pt-5 text-[0.82rem] leading-snug text-muted">
+    <a href="/#request" data-i={Math.min(stagger.request, 10)} class="drawer-link drawer-request">Request a callback<Icon name="arrow" size={16} /></a>
+    <div data-i={Math.min(stagger.foot, 10)} class="mt-auto px-5 pt-5 text-[0.85rem] leading-snug text-muted">
       {isShown(practice.languages) && <p>Language help: <FactSlot fact={practice.languages} /></p>}
+      <p class="mt-1">In an emergency, call <strong class="font-semibold text-indigo">911</strong>.</p>
     </div>
   </div>
 </dialog>
@@ -166,16 +166,22 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
   /* Section you are reading: teal words + a short rule (two cues, not colour alone). */
   .drawer-link[aria-current='location'] { color: var(--color-teal-deep); }
   .drawer-link[aria-current='location']::after { content: ''; inline-size: .9rem; block-size: 2px; border-radius: 2px; background: currentColor; }
-  /* The two filled call rows are the primary action: place + number, status as TEXT under them. */
-  .drawer-call { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: .75rem; row-gap: .1rem; min-block-size: 3.5rem; padding: .6rem 1rem; border-radius: 14px; background: var(--color-teal-deep); color: #fff; transition: background-color var(--m-fast) ease, transform var(--m-fast) ease; -webkit-tap-highlight-color: transparent; }
-  .drawer-call:hover { background: #095c5c; }
+  /* Call rows: Elmhurst filled (the one primary action), Hicksville outlined; both 12 px radius (--radius-field), status as TEXT. */
+  .drawer-top { background: #fff; }
+  dialog.drawer { scroll-padding-block: 4.5rem 1rem; }
+  .drawer-call { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: .75rem; row-gap: .1rem; min-block-size: 3.5rem; padding: .6rem 1rem; border-radius: var(--radius-field, 12px); border: 1.5px solid var(--color-teal-deep); background: var(--color-mist); color: var(--color-teal-deep); transition: background-color var(--m-fast) ease, transform var(--m-fast) ease; -webkit-tap-highlight-color: transparent; }
+  .drawer-call.is-primary { background: var(--color-teal-deep); color: #fff; }
+  .drawer-call:hover { background: #d3e8e6; }
+  .drawer-call.is-primary:hover { background: #095c5c; }
   .drawer-call:active { transform: scale(.985); }
   .drawer-call-place { font-weight: 700; line-height: 1.2; }
   .drawer-call-num { display: inline-flex; align-items: center; gap: .4rem; font-weight: 700; white-space: nowrap; }
-  .drawer-call .drawer-call-status { grid-column: 1 / -1; font-size: .8rem; line-height: 1.3; color: rgb(255 255 255 / .92); }
-  .drawer-call .drawer-call-status[data-state] { color: rgb(255 255 255 / .92); }
+  .drawer-call .drawer-call-status, .drawer-call .drawer-call-status[data-state] { grid-column: 1 / -1; font-size: .85rem; line-height: 1.3; color: inherit; }
+  .drawer-call-status[data-state='closed']::before { box-shadow: none; border: 1.5px solid currentColor; } /* survives forced colours */
   @media (width < 22.5rem) { .drawer-call { grid-template-columns: 1fr; } .drawer-call-num { grid-row: 2; } }
-  .drawer-request { display: flex; align-items: center; margin: 1rem 1.25rem 0; min-block-size: 3rem; justify-content: center; text-align: center; font-weight: 600; }
+  @media (height < 40rem) { .drawer-link { min-block-size: 3.25rem; } }
+  .drawer-request { margin-top: .5rem; border-block: 1px solid var(--color-line); }
+  .drawer-request:hover { background: var(--color-mist); }
   :is(.drawer-link, .drawer-request, .drawer-call):focus-visible { outline-offset: -3px; }
   .drawer-call:focus-visible { outline-color: var(--color-indigo); outline-offset: 3px; }
 
@@ -265,8 +271,10 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
   if (btn && menu && typeof menu.showModal === 'function') {
     btn.setAttribute('role', 'button')
     btn.addEventListener('click', e => { e.preventDefault(); menu.showModal() })
-    menu.addEventListener('close', () => { if (btn.offsetParent) btn.focus({ preventScroll: true }) })
-    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.close()))
+    btn.addEventListener('keydown', e => { if (e.key === ' ') { e.preventDefault(); menu.showModal() } }) // role=button: Space must work (SC 2.1.1)
+    let followedLink = false
+    menu.addEventListener('close', () => { if (!followedLink && btn.offsetParent) btn.focus({ preventScroll: true }); followedLink = false })
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { followedLink = true; menu.close() }))
     menu.addEventListener('click', e => { if (e.target === menu) menu.close() })
     matchMedia('(min-width: 80rem)').addEventListener('change', e => { if (e.matches && menu.open) menu.close() })
   }
