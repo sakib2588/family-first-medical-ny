@@ -354,3 +354,21 @@ html, body { overflow-x: clip; }
 @media (max-width: 63.99rem) {
   *, *::before, *::after { animation-iteration-count: 1 !important; }
 }
+
+/* ---------- Service pages (src/pages/[category]/[service].astro, components/service/*) ---------- */
+  /* The photo sits in an arch; the "at a glance" card overlaps its lower edge (same arch language as the doctor portraits). */
+  .svc-visual { padding-bottom: 5.5rem; }
+  .svc-glance { position: absolute; inset-inline: 0; bottom: 0; margin-inline: auto; width: min(100%, 22rem); display: grid; gap: .15rem; padding: .85rem 1.1rem; box-shadow: 0 14px 34px -16px rgb(23 18 58 / .4); }
+  .svc-glance > div { display: grid; grid-template-columns: 6.2rem 1fr; align-items: center; gap: .5rem; padding-block: .2rem; }
+  .svc-glance > div + div { border-top: 1px solid var(--color-line); }
+  .svc-glance dd { font-weight: 600; color: var(--color-indigo); line-height: 1.3; }
+  @media (min-width: 64rem) { .svc-visual { padding-bottom: 5rem; } .svc-glance { inset-inline-start: auto; inset-inline-end: -.5rem; margin: 0; } }
+  /* How to book: three numbered cards joined by a thin line (desktop); stacked on phones. */
+  .svc-steps { display: grid; gap: .9rem; counter-reset: s; }
+  .svc-steps li { position: relative; display: flex; align-items: center; gap: .9rem; padding: .9rem 1rem; border: 1px solid var(--color-line); border-radius: 1rem; background: #fff; }
+  .svc-step__n { display: grid; place-items: center; flex: none; inline-size: 2.4rem; block-size: 2.4rem; border-radius: 999px; background: var(--color-teal-deep); color: #fff; font-weight: 700; font-family: var(--font-display); }
+  .svc-steps p { font-weight: 600; color: var(--color-indigo); line-height: 1.3; }
+  @media (min-width: 40rem) { .svc-steps { grid-template-columns: repeat(3, 1fr); } .svc-steps li { flex-direction: column; align-items: flex-start; padding: 1.1rem; } .svc-steps li:not(:last-child)::after { content: ''; position: absolute; inset-block-start: 2.3rem; inset-inline-start: calc(100% - .2rem); inline-size: 1.4rem; block-size: 2px; background: var(--color-teal-deep); opacity: .45; } }
+  .svc-ico { display: grid; place-items: center; flex: none; inline-size: 2.75rem; block-size: 2.75rem; border-radius: 999px; background: var(--color-mist); color: var(--color-teal-deep); }
+  .svc-safety { display: flex; align-items: center; gap: .75rem; padding: .85rem 1.1rem; border-radius: 1rem; background: var(--color-mist); color: var(--color-indigo); }
+@media (forced-colors: active) { .svc-step__n, .svc-ico { border: 1px solid CanvasText; } }

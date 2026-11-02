@@ -9,7 +9,7 @@ export interface Fact<T> { value: T | null; need: string; source?: string; check
 const toConfirm = <T>(need: string): Fact<T> => ({ value: null, need })
 /** Demo-only sample value (owner request 2026-11-01). NOT a client fact: replace with the confirmed value before launch.
  *  Never used for credentials, ratings, insurance or new-patient status (CLAUDE.md red lines). */
-const sample = <T>(value: T, need: string): Fact<T> => ({ value, need, source: 'DEMO SAMPLE, replace' })
+export const sample = <T>(value: T, need: string): Fact<T> => ({ value, need, source: 'DEMO SAMPLE, replace' })
 /** Same, for facts that must show a date: the date reads "sample date" so nobody mistakes it for a checked fact. */
 const sampleDated = <T>(value: T, need: string): Fact<T> => ({ ...sample(value, need), checkedOn: 'sample date' })
 /** Show this fact's row at all? Confirmed facts always; unconfirmed ones only as demo slots (live: hidden). */

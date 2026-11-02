@@ -2,6 +2,7 @@
 // Usage: start `npm run dev` in the repo root, then in workspace/tools: node qa-pages.mjs [screenshot-dir]
 // Env: QA_BASE_URL (default http://localhost:4321) to test another server; CHROMIUM_PATH to pick a browser.
 import { existsSync, readdirSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
 const S = process.argv[2] ?? '.'
 const BASE = (process.env.QA_BASE_URL ?? 'http://localhost:4321').replace(/\/$/, '')
@@ -18,11 +19,15 @@ function findChromium() {
 }
 const executablePath = findChromium()
 if (executablePath) console.log(`browser: ${executablePath}`)
+// Fixed pages + every service and category page found in dist (so new services are covered without editing this file).
+const distDir = fileURLToPath(new URL('../../dist/', import.meta.url))
+const built = ['pediatrics', 'family-medicine'].flatMap(c => existsSync(distDir + c) ? ['/' + c, ...readdirSync(distDir + c, { withFileTypes: true }).filter(e => e.isDirectory()).map(e => `/${c}/${e.name}`)] : [])
+const PATHS = ['/', '/doctors', '/doctors/elena-park', '/locations', '/locations/hicksville', '/contact', '/legal', '/legal/privacy', '/legal/billing', '/nope', ...built]
 const b = await chromium.launch({ executablePath }); const out = []
 for (const [w, h] of [[390, 844], [1280, 800]]) {
   const ctx = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 1 }); const p = await ctx.newPage()
   const errs = []; p.on('console', m => m.type() === 'error' && errs.push(m.text())); p.on('pageerror', e => errs.push(String(e)))
-  for (const path of ['/', '/doctors', '/doctors/elena-park', '/locations', '/locations/hicksville', '/contact', '/legal', '/legal/privacy', '/legal/billing', '/nope']) {
+  for (const path of PATHS) {
     await p.goto(BASE + path, { waitUntil: 'networkidle' })
     const o = await p.evaluate(() => ({ over: document.documentElement.scrollWidth - innerWidth, small: [...document.querySelectorAll('a,button,input,summary')].filter(e => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.height < 43.5 && !(e.closest('#site-footer nav[aria-label] ul') && r.height >= 38) && getComputedStyle(e).display !== 'inline' && !e.closest('.sr-only') && !e.className.toString().includes('sr-only') }).map(e => (e.textContent || e.name || '').trim().slice(0, 25)).slice(0, 4) }))
     out.push(`${w} ${path} overflow=${o.over} small=${JSON.stringify(o.small)}`)

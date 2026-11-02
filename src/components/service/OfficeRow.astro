@@ -1,0 +1,20 @@
+---
+// Compact office row for service pages: photo, name (links to the office page), live open status, address, phone.
+// Lighter than OfficeCard (which is the full card on Home and the location pages). Facts come from practice.ts only.
+import Icon from '../Icon.astro'
+import OpenNow from '../OpenNow.astro'
+import PhotoSlot from '../PhotoSlot.astro'
+import { telHref, type Office } from '../../data/practice'
+interface Props { office: Office }
+const { office: o } = Astro.props
+const place = o.neighborhood.split(',')[0]
+---
+<li class="lift card-soft flex flex-col overflow-hidden sm:flex-row">
+  <PhotoSlot fact={o.photo} class="aspect-[16/9] w-full shrink-0 !rounded-none sm:aspect-auto sm:w-40" width={480} height={270} />
+  <div class="flex min-w-0 flex-1 flex-col gap-2 p-4">
+    <h3 class="text-[1.15rem] leading-tight"><a href={`/locations/${o.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 text-indigo underline-offset-4 hover:underline">{place} office<Icon name="arrow" size={16} class="text-teal-deep" /></a></h3>
+    <p class="text-[0.92rem] leading-snug text-muted">{o.addr}</p>
+    <p class="text-[0.9rem] font-semibold leading-snug"><OpenNow office={o} fallback="See hours" /></p>
+    <a href={telHref(o.phone)} aria-label={`Call ${place}, ${o.phone}`} class="btn btn-ghost mt-auto inline-flex min-h-11 w-fit items-center gap-2 rounded-full px-4 font-semibold"><Icon name="phone" size={17} /><span class="tabular">{o.phone}</span></a>
+  </div>
+</li>

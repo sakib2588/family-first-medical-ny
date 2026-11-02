@@ -5,6 +5,7 @@ import Section from '../../components/Section.astro'
 import ActionPair from '../../components/ActionPair.astro'
 import FactSlot from '../../components/FactSlot.astro'
 import Icon from '../../components/Icon.astro'
+import { services, serviceUrl } from '../../data/services'
 import { doctors, offices, doctorBySlug, isShown, officeBySlug, practice } from '../../data/practice'
 export function getStaticPaths() { return doctors.map(d => ({ params: { slug: d.slug } })) }
 const d = doctorBySlug(Astro.params.slug!)!
@@ -33,7 +34,7 @@ const facts = [...d.credentials, { label: 'Languages', fact: d.languages }].filt
         <h2 class="mt-7 text-[1.5rem] lg:text-[1.9rem]">About {d.name}</h2>
         <p class="mt-3 max-w-prose">{d.bio}</p>
         <h2 class="mt-8 text-[1.5rem] lg:text-[1.9rem]">Care areas</h2>
-        <ul class="mt-3 flex flex-wrap gap-2">{d.careAreas.map(c => (<li class="rounded-full bg-mist px-3.5 py-1.5 text-[0.9rem] font-semibold text-teal-deep">{c}</li>))}</ul>
+        <ul class="mt-3 flex flex-wrap gap-2">{d.careAreas.map(c => { const sv = services.find(s => s.name === c); return (<li>{sv ? <a href={serviceUrl(sv)} class="inline-flex min-h-11 items-center rounded-full bg-mist px-3.5 text-[0.9rem] font-semibold text-teal-deep underline-offset-4 hover:underline">{c}</a> : <span class="inline-flex min-h-11 items-center rounded-full bg-mist px-3.5 text-[0.9rem] font-semibold text-teal-deep">{c}</span>}</li>) })}</ul>
         <h2 class="mt-8 text-[1.5rem] lg:text-[1.9rem]">Where to see {d.name}</h2>
         <ul class="mt-3 grid gap-3 sm:grid-cols-2">{where.map(o => (<li><a href={`/locations/${o.slug}`} class="arrow-link lift flex min-h-16 items-center justify-between gap-3 rounded-2xl border border-line bg-white px-4 py-3"><span><span class="block font-semibold text-indigo">{o.name}</span><span class="block text-[0.9rem] text-muted">{o.addr}</span></span><Icon name="arrow" size={18} class="shrink-0 text-teal-deep" /></a></li>))}</ul>
       </div>

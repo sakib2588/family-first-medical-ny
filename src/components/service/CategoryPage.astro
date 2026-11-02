@@ -1,0 +1,42 @@
+---
+// Category page (Pediatrics / Family medicine): a visual list of that category's services, then the doctor and the offices.
+import Page from '../../layouts/Page.astro'
+import PageHead from '../PageHead.astro'
+import Section from '../Section.astro'
+import ActionPair from '../ActionPair.astro'
+import PhotoSlot from '../PhotoSlot.astro'
+import Icon from '../Icon.astro'
+import OfficeRow from './OfficeRow.astro'
+import DoctorCard from './DoctorCard.astro'
+import { offices } from '../../data/practice'
+import { categories, categoryBySlug, servicesOf, serviceUrl, doctorOf, categoryTitle, categoryDescription, type CategorySlug } from '../../data/services'
+interface Props { slug: CategorySlug }
+const cat = categoryBySlug(Astro.props.slug)!
+const list = servicesOf(cat.slug)
+const doc = doctorOf(list[0])
+const other = categories.find(c => c.slug !== cat.slug)!
+---
+<Page title={categoryTitle(cat)} description={categoryDescription(cat)}>
+  <PageHead title={cat.h1} eyebrow={cat.name} lead={cat.lead} crumbs={[[cat.name, `/${cat.slug}`]]} />
+  <Section tone="white" label={`${cat.name} services`}>
+    <h2 class="text-[1.5rem] leading-tight lg:text-[1.9rem]">{cat.name} services</h2>
+    <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {list.map(s => (<li><a href={serviceUrl(s)} class="lift card-soft arrow-link flex h-full flex-col overflow-hidden">
+        <PhotoSlot fact={s.photo} class="aspect-[16/10] w-full !rounded-none" width={560} height={350} />
+        <span class="flex flex-1 items-start gap-3 p-4">
+          <span class="svc-ico" aria-hidden="true"><Icon name={s.icon} size={22} /></span>
+          <span class="min-w-0"><span class="block font-display text-[1.15rem] font-semibold leading-tight text-indigo">{s.name}</span><span class="mt-1 block text-[0.92rem] leading-snug text-muted">{s.line}</span></span>
+        </span>
+      </a></li>))}
+    </ul>
+    <div class="mt-8"><ActionPair /></div>
+  </Section>
+  <Section tone="cream" label="Doctor and offices">
+    <h2 class="text-[1.5rem] leading-tight lg:text-[1.9rem]">Who will see you</h2>
+    <div class="mt-6 grid gap-5 lg:grid-cols-[18rem_1fr]">
+      <DoctorCard doctor={doc} />
+      <ul class="grid gap-4">{offices.map(o => <OfficeRow office={o} />)}</ul>
+    </div>
+    <p class="mt-6"><a href={`/${other.slug}`} class="arrow-link inline-flex min-h-11 items-center gap-1.5 font-semibold text-teal-deep underline underline-offset-4">Also see {other.name.toLowerCase()} care<Icon name="arrow" size={16} /></a></p>
+  </Section>
+</Page>

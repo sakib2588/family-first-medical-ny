@@ -1,0 +1,7 @@
+---
+// A service name inside a heading: a hyphenated word (well-child) never breaks across lines. Plain JSX, no raw HTML.
+interface Props { name: string }
+const { name } = Astro.props
+const parts = (name.charAt(0).toLowerCase() + name.slice(1)).split(/(\S+-\S+)/)
+---
+{parts.map(p => (p.includes('-') ? <span class="whitespace-nowrap">{p}</span> : p))}

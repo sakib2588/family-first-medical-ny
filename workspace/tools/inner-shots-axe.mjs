@@ -14,7 +14,7 @@ for (const [w, sw] of [[390, 390], [1440, 1280]]) {
     const ctx = await b.newContext({ viewport: { width: vw, height: 900 }, isMobile: vw < 500, hasTouch: vw < 500 })
     const p = await ctx.newPage()
     for (const path of pages) {
-      await p.goto('http://localhost:4321' + path, { waitUntil: 'networkidle' })
+      await p.goto((process.env.QA_BASE_URL ?? 'http://localhost:4321') + path, { waitUntil: 'networkidle' })
       const H = await p.evaluate(() => document.documentElement.scrollHeight)
       for (let y = 0; y < H; y += 400) { await p.evaluate(y => scrollTo(0, y), y); await p.waitForTimeout(60) }
       await p.evaluate(() => scrollTo(0, 0)); await p.waitForTimeout(900)
