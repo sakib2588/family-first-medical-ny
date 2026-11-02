@@ -354,3 +354,12 @@ html, body { overflow-x: clip; }
 @media (max-width: 63.99rem) {
   *, *::before, *::after { animation-iteration-count: 1 !important; }
 }
+/* ...but a pass that runs at page load is finished before anyone scrolls to the section (owner: "the animation stopped").
+   So on phones and tablets the two looping sections (#care timeline, #insurance steps) stay still until they scroll into
+   view; a small script in Base.astro adds .is-playing then, and takes it off when they leave, so each visit plays one full
+   pass. The scroll-drawn timeline rule is exempt (it follows the scroll, not the clock). Reduced motion: no animation at all. */
+@media (max-width: 63.99rem) and (prefers-reduced-motion: no-preference) {
+  #care:not(.is-playing) *:not(.age-line__rule), #care:not(.is-playing) *::before, #care:not(.is-playing) *::after,
+  #insurance:not(.is-playing) *, #insurance:not(.is-playing) *::before, #insurance:not(.is-playing) *::after { animation: none !important; }
+  #care:not(.is-playing) .age-line::after { opacity: 0; }
+}
