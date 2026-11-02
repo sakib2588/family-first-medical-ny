@@ -2,8 +2,8 @@
 // Back to top: a round button, bottom left, always visible (owner: "I am supposed to see it all the time"; the base
 // site's button is also always there). Teal-deep fill + white chevron + a white ring, so it reads on light and on the
 // dark bands (white ring against the band >= 3:1, teal fill against light grounds 5.5:1). Phones and tablets: it sits
-// above the sticky call bar (which spans the bottom edge below 1024 px). After a click, focus moves to the skip link at
-// the top. Reduced motion: jumps instead of gliding. No third-party code.
+// above the sticky call bar (which spans the bottom edge below 1024 px). Focus stays on the button (it never hides), so
+// nothing else is revealed. Reduced motion: jumps instead of gliding. No third-party code.
 ---
 <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6" /></svg>
@@ -13,7 +13,6 @@
   btn?.addEventListener('click', () => {
     const calm = matchMedia('(prefers-reduced-motion: reduce)').matches
     scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' })
-    document.querySelector<HTMLElement>('a[href="#main"]')?.focus({ preventScroll: true })
   })
 </script>
 <style is:global>
