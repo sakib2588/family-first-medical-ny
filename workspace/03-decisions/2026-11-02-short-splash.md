@@ -9,3 +9,6 @@ What was built (branch `feat/nav-hero-like-sample`):
 - No third-party request, no extra image, no invented text (name from practice.ts).
 
 Risks: costs about 1.3 s before first content on a first visit (LCP). Mitigated by once per session and instant skip. Measure with `benchmark` before launch; remove if LCP budget fails.
+
+## Update (2026-11-02, owner request): show again on reload
+The splash only showed once per browser session (sessionStorage 'splash-seen'), so a reload showed nothing, unlike the base site. Now it shows on a reload and on an arrival from outside the site, not on an in-site click (e.g. logo from /locations), never with reduced motion, no storage used. Total about 1.2 s (fade starts at .8 s), plus the line "Family medicine & pediatrics" under the name (same honest line as the header). Tap or key still skips it; 2.2 s safety net unchanged.
