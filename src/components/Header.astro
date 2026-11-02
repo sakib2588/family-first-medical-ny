@@ -1,6 +1,6 @@
 ---
 // Spec 4.0-4.2, navbar redesign 2026-11-02 (workspace/03-decisions/2026-11-02-navbar-redesign.md).
-// Desktop (lg): a dark utility row (both numbers + open status, language help, compact Pause motion; not sticky), then a
+// Desktop (lg): a dark utility row (both numbers + open status, language help, not sticky), then a
 // white 80 px sticky header with the sample's six anchors, a filled "Make an appointment" (opens the call dialog) and a
 // ghost "Visit" from 2xl. Once the header sticks it compacts by transform only (80 -> 68 px visible), frosts and
 // takes a soft shadow. One teal indicator slides under the link of the section you are reading (scroll-spy) and
@@ -8,12 +8,11 @@
 // Phone: a white 64 px header, NOT sticky (the bottom sticky bar carries Make an appointment / Visit; owner answer 2),
 // with a "Menu" button that opens a native <dialog> drawer (Escape, the backdrop, a link or Close closes it; focus
 // returns to the button). No JS: "Menu" is a link to the footer's #site-nav. Every target >= 44 px.
-// Phones and tablets: every animation plays once (global rule under 64rem), no Pause control in the drawer.
+// Phones and tablets: every animation plays once (global rule under 64rem), no Pause control anywhere (removed on desktop too, owner request 2026-11-02).
 import Logo from './Logo.astro'
 import OpenNow from './OpenNow.astro'
 import FactSlot from './FactSlot.astro'
 import Icon from './Icon.astro'
-import MotionToggle from './MotionToggle.astro'
 import { offices, practice, telHref, isShown } from '../data/practice'
 export const nav = [
   { label: 'Doctors', href: '/#doctors' },
@@ -43,7 +42,6 @@ const stagger = { request: nav.length, label: nav.length + 1, office: nav.length
     <div class="ml-auto flex items-center gap-5">
       <a href="#language-help" class="utility-link hidden min-h-11 items-center whitespace-nowrap xl:inline-flex">Language help</a>
       <span aria-hidden="true" class="utility-rule hidden xl:block"></span>
-      <MotionToggle compact class="utility-pause -mr-3 rounded-full hover:text-white" />
     </div>
   </div>
 </nav>

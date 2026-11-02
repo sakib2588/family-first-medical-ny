@@ -199,10 +199,6 @@ section[data-tone='lavender'] { background-image: linear-gradient(180deg, #f2eef
 :root { --m-fast: .18s; --m-normal: .35s; --m-slow: .6s; --m-loop-slow: 14s; --ease-bounce: cubic-bezier(.34, 1.56, .64, 1); }
 /* Pause motion: every CSS animation stops; the toggle is hidden when the OS asks for reduced motion (nothing loops). */
 html[data-motion-paused] *, html[data-motion-paused] *::before, html[data-motion-paused] *::after { animation-play-state: paused !important; }
-@media (prefers-reduced-motion: reduce) { .motion-toggle { display: none !important; } }
-.motion-toggle .mt-play { display: none; }
-.motion-toggle[aria-pressed='true'] .mt-pause { display: none; }
-.motion-toggle[aria-pressed='true'] .mt-play { display: inline; }
 
 /* Round 13b: the CSS ambient loops (hero drift, portrait breathing) were removed at the owner's request ('look
    cheap'); the hero and trust band now use the shared three.js scenes (src/three, src/scripts/live3d.ts). */
