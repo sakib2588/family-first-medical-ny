@@ -23,7 +23,7 @@ First time in a new environment: `bash scripts/cloud-setup.sh`.
 - Legal pages are DRAFT until counsel approves. Put unknowns in [brackets]; never invent legal text or copy other sites' wording.
 - No "Open 7 Days"-style claims that are false for one office. Hours come only from `src/data/practice.ts`.
 - Never commit secrets (an ngrok token was pasted in chat once; rotate it). Never rewrite history or force-push (owner decision: `workspace/` stays in git).
-- Intro splash: the owner first said no (2026-10-31); a SHORT one (Home only, once per session, skippable, reduced-motion off) was added on 2026-11-02, see `workspace/03-decisions/2026-11-02-short-splash.md`. Do not make it longer or show it on every page.
+- Intro splash: the owner first said no (2026-10-31); a SHORT one (Home only, about 1.2 s, skippable, reduced-motion off) was added on 2026-11-02 and changed to show on a reload or an arrival from outside the site (not on in-site clicks) on 2026-11-02 at the owner's request, see `workspace/03-decisions/2026-11-02-short-splash.md`. Do not make it longer or show it on other pages.
 - Sharing: the demo is PUBLIC at https://family-first-medical-ny.rnqbank.workers.dev (Cloudflare Workers static assets, deploys from `main`; owner decision, no login). Keep `noindex`, keep the demo banner and DRAFT legal boxes, and keep Cloudflare Web Analytics OFF. Setup steps and privacy checks: `workspace/06-handoffs/2026-10-31-session-2-cloud-handoff.md`, section "Sharing the site". Do not use ngrok to share.
 
 ## Design
