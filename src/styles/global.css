@@ -144,6 +144,14 @@ dialog.sheet[open] { opacity: 1; transform: none; transition-duration: var(--m-e
 .btn-primary:hover { background-image: linear-gradient(100deg, #084848, var(--color-teal-darker) 70%); box-shadow: 0 16px 32px -10px rgb(11 111 111 / .6); }
 .btn-ghost { background: #fff; color: var(--color-teal-deep); border: 1.5px solid var(--color-muted); /* >= 3:1 edge (WCAG 1.4.11) */ box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
 .btn-ghost:hover { border-color: var(--color-teal-deep); background: var(--color-mist); }
+/* Button language (one system). Light ground: .btn-primary teal-deep + white (5.97:1), .btn-ghost white + teal-deep with a 6:1 edge.
+   Dark band (#2e2860): .btn-on-dark aqua + midnight text (8.6:1; the fill is 6.4:1 against the band), .btn-ghost-dark
+   transparent + white text with a 3:1+ white edge. Gold is NEVER a button fill (it means emphasis and emergency: "911",
+   the sick-today icon, the accent word) and no button glows. */
+.btn-on-dark { background: var(--color-aqua); color: var(--color-indigo); box-shadow: 0 6px 16px -8px rgb(0 0 0 / .45); }
+.btn-on-dark:hover { background: #7fd3d3; }
+.btn-ghost-dark { background: transparent; color: #fff; border: 1.5px solid rgb(255 255 255 / .72); }
+.btn-ghost-dark:hover { background: rgb(255 255 255 / .1); border-color: #fff; }
 .pill { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; border: 1px solid var(--color-line); background: #fff; padding: .4rem .9rem; font-size: .82rem; font-weight: 600; color: var(--color-indigo); box-shadow: 0 2px 8px rgb(23 18 58 / .06); }
 .eyebrow { font-size: .76rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--color-teal-deep); }
 .card-soft { border-radius: 1.25rem; border: 1px solid var(--color-line); background: #fff; box-shadow: 0 2px 8px rgb(23 18 58 / .05); }
