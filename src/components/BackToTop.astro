@@ -1,0 +1,28 @@
+---
+// Back to top: a round button, bottom left, always visible (owner: "I am supposed to see it all the time"; the base
+// site's button is also always there). Teal-deep fill + white chevron + a white ring, so it reads on light and on the
+// dark bands (white ring against the band >= 3:1, teal fill against light grounds 5.5:1). Phones and tablets: it sits
+// above the sticky call bar (which spans the bottom edge below 1024 px). Focus stays on the button (it never hides), so
+// nothing else is revealed. Reduced motion: jumps instead of gliding. No third-party code.
+---
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6" /></svg>
+</button>
+<script>
+  const btn = document.getElementById('back-to-top')
+  btn?.addEventListener('click', () => {
+    const calm = matchMedia('(prefers-reduced-motion: reduce)').matches
+    scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' })
+  })
+</script>
+<style is:global>
+  .back-to-top { position: fixed; z-index: 25; inset-inline-start: 1rem; inset-block-end: calc(1rem + env(safe-area-inset-bottom)); display: grid; place-items: center; inline-size: 3rem; block-size: 3rem; padding: 0; border: 2px solid #fff; border-radius: 999px; background: var(--color-teal-deep); color: #fff; cursor: pointer; box-shadow: 0 8px 22px -8px rgb(23 18 58 / .65); transition: transform .2s ease, background-color .2s ease, inset-block-end .3s ease; -webkit-tap-highlight-color: transparent; }
+  /* Phones/tablets: lift above the sticky call bar only while that bar is showing. */
+  @media (max-width: 63.99rem) { body:has(#sticky-bar[data-visible='true']) .back-to-top { inset-block-end: calc(5.5rem + env(safe-area-inset-bottom)); } }
+  .back-to-top:hover { background: #095c5c; transform: translateY(-2px); }
+  .back-to-top:active { transform: scale(.94); }
+  .back-to-top:focus-visible { outline: 3px solid var(--color-indigo); outline-offset: 3px; }
+  @media (min-width: 64rem) { .back-to-top { inset-block-end: 1.5rem; } }
+  @media (prefers-reduced-motion: reduce) { .back-to-top { transition: none; } .back-to-top:hover { transform: none; } }
+  @media (forced-colors: active) { .back-to-top { border-color: ButtonText; } }
+</style>
