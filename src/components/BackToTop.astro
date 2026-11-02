@@ -1,0 +1,37 @@
+---
+// Back to top: a small round button, bottom left, that appears after the visitor has scrolled about one screen
+// (the base site has the same). Phones and tablets: it sits above the sticky call bar (which spans the bottom edge
+// below 1024 px). Keyboard: the button is inert while hidden; after it is used, focus moves to the skip link at the top
+// so focus is never left on a hidden control. Reduced motion: jumps instead of gliding and no fade. No third-party code.
+import Icon from './Icon.astro'
+---
+<button type="button" id="back-to-top" class="back-to-top btn btn-ghost" aria-label="Back to top" inert data-visible="false">
+  <Icon name="arrow" size={20} class="-rotate-90" />
+</button>
+<script>
+  const btn = document.getElementById('back-to-top')
+  if (btn) {
+    const SHOW_AFTER = 1.1 // screens scrolled before it appears
+    let queued = false
+    const sync = () => {
+      queued = false
+      const on = scrollY > innerHeight * SHOW_AFTER
+      if (btn.dataset.visible === String(on)) return
+      btn.dataset.visible = String(on)
+      on ? btn.removeAttribute('inert') : btn.setAttribute('inert', '')
+    }
+    sync()
+    addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(sync) } }, { passive: true })
+    btn.addEventListener('click', () => {
+      const calm = matchMedia('(prefers-reduced-motion: reduce)').matches
+      scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' })
+      document.querySelector<HTMLElement>('a[href="#main"]')?.focus({ preventScroll: true })
+    })
+  }
+</script>
+<style is:global>
+  .back-to-top { position: fixed; z-index: 25; inset-inline-start: 1rem; inset-block-end: calc(5.5rem + env(safe-area-inset-bottom)); display: grid; place-items: center; inline-size: 3rem; block-size: 3rem; padding: 0; border-radius: 999px; box-shadow: 0 8px 22px -10px rgb(23 18 58 / .55); opacity: 0; transform: translateY(.75rem); visibility: hidden; transition: opacity .25s ease, transform .25s ease, visibility 0s .25s, background-color .2s, border-color .2s; }
+  .back-to-top[data-visible='true'] { opacity: 1; transform: none; visibility: visible; transition-delay: 0s; }
+  @media (min-width: 64rem) { .back-to-top { inset-block-end: 1.5rem; } }
+  @media (prefers-reduced-motion: reduce) { .back-to-top { transition: none; } }
+</style>
