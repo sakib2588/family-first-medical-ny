@@ -35,6 +35,12 @@ const { title, description = 'Family medicine and pediatrics for every age, at t
         })
         setTimeout(() => targets.forEach(el => el.classList.add('in')), 4000) // never leave content hidden
       }
+      // Looping sections (see global.css): on phones/tablets each plays one pass whenever it scrolls into view.
+      const replay = ['care', 'insurance'].map(id => document.getElementById(id)).filter((el): el is HTMLElement => !!el)
+      if ('IntersectionObserver' in window) {
+        const seen = new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('is-playing', e.isIntersecting)), { threshold: 0.2 })
+        replay.forEach(el => seen.observe(el))
+      } else replay.forEach(el => el.classList.add('is-playing'))
     </script>
   </body>
 </html>

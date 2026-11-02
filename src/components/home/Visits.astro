@@ -29,7 +29,7 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
             {visitTypes.map(t => (<li><Icon name="check" size={16} />{t}</li>))}
           </ul>
         )}
-        <a href="#request" class="visit-cta btn inline-flex min-h-12 items-center gap-2 rounded-full px-6 font-bold">Request a visit<Icon name="arrow" size={18} /></a>
+        <a href="#request" class="visit-cta btn btn-on-dark inline-flex min-h-12 items-center gap-2 rounded-full px-6 font-bold">Request a visit<Icon name="arrow" size={18} /></a>
       </div>
     </div>
     <div class="visit-card">
@@ -65,8 +65,7 @@ const visitTypes = serviceGroups.flatMap(g => g.items.map(([name]) => name)).fil
   .visit-types { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin-block: 1rem 1.25rem; }
   .visit-types li { display: flex; align-items: center; gap: .5rem; padding: .6rem .75rem; border: 1px solid rgb(95 196 196 / .3); border-radius: .9rem; background: rgb(95 196 196 / .08); font-size: .9rem; font-weight: 600; color: #fff; }
   .visit-types :global(svg) { flex: none; color: var(--c3-primary); }
-  .visit-cta { align-self: flex-start; margin-top: auto; background: var(--c3-accent); color: var(--c3-base); box-shadow: 0 10px 24px -10px rgb(217 160 44 / .7); }
-  .visit-cta:hover { background: var(--color-gold-light); }
+  .visit-cta { align-self: flex-start; margin-top: auto; }
   .office-rows { display: grid; gap: .6rem; margin-top: 1rem; }
   .office-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; padding: .85rem 1rem; border: 1px solid rgb(255 255 255 / .1); border-radius: 1rem; background: rgb(255 255 255 / .04); }
   .office-row:has([data-state='open']) { border-color: var(--c3-primary); background: rgb(95 196 196 / .1); }
