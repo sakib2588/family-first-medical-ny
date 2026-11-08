@@ -1,88 +1,110 @@
 ---
-// Hero, round 5 (owner request 2026-11-01): modelled on the reference site's top section, improved, not cloned.
-// Light clinic ground (a soft CSS "reception" backdrop until the real office photo arrives), a big serif headline with
-// one italic accent line in teal-deep and a gold underline, the two doctors side by side, white name cards below each
-// photo, then one intro line and the one filled action. NO credentials ("board-certified") until checked (red line).
-// PHOTO NOTES: see workspace/03-decisions/2026-11-01-hero-photo-plan.md (which real photo goes where).
+// Home hero, rebuilt 2026-11-03 from workspace/01-research/2026-11-03-hero-stitch-prompt.md (owner decisions there).
+// Phone first (390 px), then desktop. One filled action (call). Unconfirmed facts show as visible "[to confirm]" tags,
+// never as facts (CLAUDE.md red lines). Doctor names and roles come from src/data/practice.ts.
+// Round 3 (2026-11-03): no white card; doctors stand as two large arches on a lavender band; chips are a row of pills.
+// No live colour layer and no loops in this version.
 import Icon from '../Icon.astro'
-import { offices, doctors, practice } from '../../data/practice'
-const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
-// At-a-glance chips: only facts we hold (sample values are tagged in practice.ts). No "board-certified", "open 7 days",
-// "accepting new patients" or "most insurance" until the client confirms them (red lines).
-// Round 12 (owner: competitor-style benefit lines; gradient icon tiles read as AI-made): short title-case benefits
-// that are TRUE today (red lines: no board-certified / most insurance / open 7 days until the client confirms them;
-// swap these lines when those facts are confirmed and dated in practice.ts). One soft teal tint, outline icons.
+import { offices, doctors } from '../../data/practice'
+
 const chips = [
-  { icon: 'users', text: 'Kids & Adults, One Team' },
-  { icon: 'heart', text: practice.agesSeen.value ? practice.agesSeen.value.replace(/\b\w/g, ch => ch.toUpperCase()).replace(' To ', ' to ') : 'Care for Every Age' },
-  { icon: 'globe', text: practice.languages.value ? `Care in ${practice.languages.value.replace(' and ', ' & ')}` : 'Language Help' },
-  { icon: 'pin', text: 'Queens & Long Island Offices' },
+  { icon: 'users', text: 'Kids and adults, one team', confirm: false },
+  { icon: 'heart', text: 'Care for every age', confirm: false },
+  { icon: 'pin', text: 'Offices', confirm: true },
+  { icon: 'globe', text: 'Languages', confirm: true },
 ] as const
+const [first, second] = offices.map(o => o.neighborhood.split(',')[0])
 ---
-<section id="hero" class="relative isolate overflow-hidden bg-cream px-5 pb-10 pt-8 md:px-8 lg:pb-20 lg:pt-14">
-  {/* Backdrop: stand-in for the reception photo (PHOTO 1). Decorative only. */}
-  <img src="/demo/reception.webp" alt="" width="1200" height="800" loading="eager" class="pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
-  <div class="hero-room pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
-  {/* Live colour field (three.js shader, wide desktop only; src/scripts/live3d.ts). Over the faded photo, under the text. */}
-  <div data-live="hero" class="live-layer pointer-events-none absolute inset-0 -z-10 hidden" aria-hidden="true"><canvas class="size-full"></canvas></div>
-  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+<section id="hero" class="hero relative isolate overflow-hidden bg-cream px-5 pb-12 pt-7 md:px-8 lg:pb-20 lg:pt-14">
+  {/* Backdrop: stand-in clinic photo, decorative. Veiled so the text always reads. */}
+  <img src="/demo/reception.webp" alt="" width="1200" height="800" loading="eager" fetchpriority="high" class="hero__bg pointer-events-none absolute inset-0 -z-20 size-full object-cover" />
+  <div class="hero__veil pointer-events-none absolute inset-0 -z-10" aria-hidden="true"></div>
+
+  <div class="mx-auto max-w-[1160px] lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-10">
     <div class="lg:col-span-6">
-      <p class="hero-pill inline-flex min-h-9 items-center gap-2 rounded-full bg-white px-3.5 text-[0.84rem] font-bold text-teal-deep shadow-[0_2px_10px_-4px_rgb(23_18_58/0.25)] ring-1 ring-line"><Icon name="heart" size={16} />{practice.agesSeen.value ? `Care from ${practice.agesSeen.value.toLowerCase()}` : 'Care for every age'}</p>
-      <h1 class="mt-4 text-[2.6rem] max-[380px]:text-[2.3rem] leading-[1.04] tracking-[-0.02em] text-indigo lg:text-[3.9rem]">Family medicine <br />&amp; pediatrics, <br /><em class="brand-underline inline-block font-medium text-teal-deep">all in one place.</em></h1>
-      <p class="mt-5 max-w-[42ch] text-[1.06rem] leading-normal text-text lg:text-[1.18rem]">One practice for your whole family, from the first checkup on. In {first} and {second}.</p>
-      <div class="mt-6 grid gap-2.5 sm:flex sm:flex-wrap sm:gap-3">
-        <a href="/locations" data-call class="btn btn-primary inline-flex min-h-[3.25rem] items-center justify-center gap-2 whitespace-nowrap rounded-full px-6 text-[1rem] font-bold sm:px-7 sm:text-[1.02rem]"><Icon name="phone" size={18} />Call to make an appointment</a>
-        <a href="#offices" class="btn btn-ghost inline-flex min-h-[3.25rem] items-center justify-center gap-1.5 whitespace-nowrap rounded-full px-5 text-[1rem] font-semibold sm:text-[1.02rem]"><Icon name="pin" size={18} />Visit our offices</a>
+      <p class="hero__rise hero__d0 inline-flex min-h-9 items-center gap-2 rounded-full bg-white px-3.5 text-[0.84rem] font-bold text-teal-deep ring-1 ring-line shadow-[0_2px_10px_-4px_rgb(23_18_58/0.25)]">
+        <Icon name="heart" size={16} />Care for every age
+      </p>
+
+      <h1 class="hero__rise hero__d1 mt-5 font-display text-[2.75rem] leading-[1.02] tracking-[-0.02em] text-indigo max-[380px]:text-[2.35rem] lg:text-[4.2rem]">
+        Family medicine <br />&amp; pediatrics, <br />
+        <em class="hero__underline inline-block font-medium text-teal-deep">all in one place.</em>
+      </h1>
+
+      <p class="hero__rise hero__d2 mt-5 max-w-[40ch] text-[1.08rem] leading-normal text-text lg:text-[1.2rem]">
+        One practice for your whole family, from the first checkup on. In {first} and {second}.
+      </p>
+
+      <div class="hero__rise hero__d3 mt-7 grid gap-3 sm:flex sm:flex-wrap">
+        <a href="/locations" data-call class="btn btn-primary inline-flex min-h-[3.4rem] items-center justify-center gap-2 rounded-full px-7 text-[1.02rem] font-bold">
+          <Icon name="phone" size={18} />Call to make an appointment
+        </a>
+        <a href="#offices" class="btn btn-ghost inline-flex min-h-[3.4rem] items-center justify-center gap-1.5 rounded-full px-6 text-[1.02rem] font-semibold">
+          <Icon name="pin" size={18} />Visit our offices
+        </a>
       </div>
-      <p class="mt-4 text-[0.95rem]"><a href="#request" class="inline-flex min-h-11 items-center font-semibold text-teal-deep underline underline-offset-4">Or request a visit online</a></p>
+      <p class="hero__rise hero__d4 mt-4">
+        <a href="#request" class="inline-flex min-h-11 items-center font-semibold text-teal-deep underline underline-offset-4">Or request a visit online</a>
+      </p>
     </div>
-    {/* Sample-style card: both doctors in one white card with the benefit lines underneath. */}
-    <div class="hero-card mt-9 rounded-[1.75rem] bg-white/92 p-3 shadow-[0_28px_70px_-30px_rgb(23_18_58/0.4)] ring-1 ring-line sm:p-5 lg:col-span-6 lg:mt-0">
-      <ul class="grid grid-cols-2 gap-3 lg:gap-5" aria-label="Our doctors">
-        {doctors.map((d, i) => (
+
+    {/* Doctors on a lavender band: two large arches, role only under each name (no credentials until checked). */}
+    <div class="hero__rise hero__d5 hero__band mt-10 rounded-[2rem] p-5 sm:p-7 lg:col-span-6 lg:mt-0 lg:p-8">
+      <ul class="grid grid-cols-2 gap-4 lg:gap-6" aria-label="Our doctors">
+        {doctors.map(d => (
           <li class="flex">
             <a href={`/doctors/${d.slug}`} class="doc group flex w-full flex-col items-center text-center">
-              {/* PHOTO 2/3: real doctor portrait, waist up, plain clinic background, 4:5 (workspace/03-decisions/photo-map.md #2, #3) */}
-              <div class="doc__frame relative w-full">
-                <div class={`doc__glow ${i === 0 ? 'doc__glow--teal' : 'doc__glow--gold'}`} aria-hidden="true"></div>
-                <div class="hero-portrait arch relative aspect-[4/5] overflow-hidden ring-[6px] ring-white"><img src={d.img} alt="" width="500" height="625" loading="eager" fetchpriority={i === 0 ? 'high' : 'auto'} class="doc__img size-full object-cover object-top" /></div>
+              <div class="arch relative aspect-[3/4] w-full overflow-hidden ring-[5px] ring-white shadow-[0_18px_40px_-22px_rgb(23_18_58/0.45)]">
+                <img src={d.img} alt="" width="500" height="667" loading="eager" class="doc__img size-full object-cover object-top" />
               </div>
-              <p class="mt-4 font-display text-[1.12rem] font-semibold leading-tight text-indigo underline-offset-4 group-hover:underline lg:text-[1.35rem]">{d.name}</p>
-              <p class="mt-1 text-[0.78rem] font-semibold uppercase leading-snug tracking-[0.08em] text-teal-deep lg:text-[0.82rem]">{d.role}</p>
+              <p class="mt-4 font-display text-[1.1rem] font-semibold leading-tight text-indigo group-hover:underline sm:text-[1.2rem] lg:text-[1.35rem]">{d.name}</p>
+              <p class="mt-1.5 text-[0.72rem] font-semibold uppercase leading-snug tracking-[0.08em] text-teal-deep sm:text-[0.78rem]">{d.role}</p>
             </a>
           </li>
         ))}
       </ul>
-      <ul class="mt-5 grid grid-cols-2 gap-2.5 border-t border-line pt-4 lg:gap-3" aria-label="At a glance">
+
+      <ul class="mt-6 grid grid-cols-2 gap-2" aria-label="At a glance">
         {chips.map(c => (
-          <li class="hero-chip flex min-h-[3.4rem] items-center gap-3 rounded-[1.1rem] bg-cream p-2 pr-3 lg:p-2.5 lg:pr-4">
-            <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mist text-teal-deep"><Icon name={c.icon} size={18} /></span>
-            <span class="text-[0.84rem] font-bold leading-tight text-indigo lg:text-[0.9rem]">{c.text}</span>
+          <li class="flex min-h-14 items-center gap-2 rounded-2xl bg-white p-2 ring-1 ring-line">
+            <span class="grid size-8 shrink-0 place-items-center rounded-full bg-mist text-teal-deep"><Icon name={c.icon} size={16} /></span>
+            <span class="flex min-w-0 flex-col">
+              <span class="text-[0.82rem] font-bold leading-tight text-indigo">{c.text}</span>
+              {c.confirm && <span class="mt-0.5 w-fit rounded px-1.5 text-[0.68rem] font-bold leading-snug text-slot-ink bg-slot">to confirm</span>}
+            </span>
           </li>
         ))}
       </ul>
     </div>
   </div>
 </section>
+
 <style>
-  /* Soft "reception" ground: warm wall, a ceiling glow and a wood panel, in CSS so there is no extra request. */
-  .hero-room {
-    background:
-      radial-gradient(60% 35% at 70% 0%, rgb(255 255 255 / 0.95), transparent 70%),
-      linear-gradient(180deg, transparent 55%, rgb(201 168 120 / 0.18) 55%, rgb(201 168 120 / 0.10) 100%),
-      linear-gradient(180deg, rgb(250 247 239 / 0.86), rgb(250 247 239 / 0.94));
+  /* Veil: the photo at a light cream so it is visible but never competes with the text. */
+  .hero__veil { background: linear-gradient(180deg, rgb(250 247 239 / 0.82), rgb(250 247 239 / 0.9) 55%, rgb(250 247 239 / 0.97)); }
+  .hero__bg { opacity: .85; }
+  .doc__img { display: block; }
+  .hero__band { background: linear-gradient(160deg, rgb(242 238 252 / 0.96), rgb(230 242 241 / 0.9)); box-shadow: 0 30px 70px -36px rgb(23 18 58 / 0.35); }
+
+  /* Gold underline under the italic line: drawn once, decorative. */
+  .hero__underline {
+    background: linear-gradient(var(--color-gold), var(--color-gold)) no-repeat 0 92% / 100% 3px;
+    padding-bottom: .04em;
   }
-  .hero-portrait { background: linear-gradient(180deg, #efe9dc, #e4dccb);
-    -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
-            mask-image: linear-gradient(180deg, #000 85%, transparent); }
-  /* Doctor portraits (round 12): the AIMSS arch as the frame, a soft colour field behind it, a slight lift on hover. */
-  .doc__glow { position: absolute; inset: 12% -6% -4%; border-radius: 999px 999px 2rem 2rem; opacity: .55; filter: blur(2px); }
-  .doc__glow--teal { background: radial-gradient(80% 70% at 50% 40%, #bfe6e2, transparent 70%); }
-  .doc__glow--gold { background: radial-gradient(80% 70% at 50% 40%, #f5e1b3, transparent 70%); }
+
+  /* Calm entrance, once, under 1.4 s. Transform and opacity only. Visible with reduced motion or no JS. */
+  .hero__d0 { --d: 0ms; } .hero__d1 { --d: 90ms; } .hero__d2 { --d: 260ms; }
+  .hero__d3 { --d: 380ms; } .hero__d4 { --d: 440ms; } .hero__d5 { --d: 520ms; }
+  @media (prefers-reduced-motion: no-preference) {
+    .hero__rise { animation: hero-rise 480ms var(--ease-soft) var(--d, 0ms) both; }
+    .hero__underline { background-size: 0% 3px; animation: hero-draw 480ms var(--ease-soft) 700ms forwards; }
+  }
+  @keyframes hero-rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+  @keyframes hero-draw { to { background-size: 100% 3px; } }
+
+  /* Desktop hover on a doctor photo: slight lift, pointer devices only. */
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     .doc__img { transition: transform .6s var(--ease-soft); }
     .doc:is(:hover, :focus-visible) .doc__img { transform: scale(1.04); }
   }
-  @media (min-width: 80rem) { .live-layer { display: block; opacity: 0; transition: opacity 1.2s var(--ease-soft); } .live-layer[data-live-on] { opacity: .82; } }
 </style>
-<script>import '../../scripts/live3d'</script>
